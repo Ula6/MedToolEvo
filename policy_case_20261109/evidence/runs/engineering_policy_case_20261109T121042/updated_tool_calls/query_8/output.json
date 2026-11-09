@@ -1,0 +1,40 @@
+{
+  "entities": [
+    {
+      "name": "CR18",
+      "evidence_ids": [
+        "PMC11837447:g9",
+        "PMC11837447:g11"
+      ]
+    },
+    {
+      "name": "CR40",
+      "evidence_ids": [
+        "PMC11837447:g9",
+        "PMC11837447:g10"
+      ]
+    },
+    {
+      "name": "CR43",
+      "evidence_ids": [
+        "PMC11837447:g9",
+        "PMC11837447:g11"
+      ]
+    },
+    {
+      "name": "CR44",
+      "evidence_ids": [
+        "PMC11837447:g9",
+        "PMC11837447:g11"
+      ]
+    },
+    {
+      "name": "CR45",
+      "evidence_ids": [
+        "PMC11837447:g9",
+        "PMC11837447:g11"
+      ]
+    }
+  ],
+  "unique_entity_count": 5
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    \"etanercept\",\n    \"ustekinumab\",\n    \"adalimumab\"\n  ],\n  \"supports\": [\n    {\n      \"item\": \"etanercept\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab.\"\n    },\n    {\n      \"item\": \"ustekinumab\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab.\"\n    },\n    {\n      \"item\": \"adalimumab\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab.\"\n    }\n  ],\n  \"limitations\": \"Evidence limited to a single source abstract; does not specify age ranges, dosing, or approval dates.\"\n}"
+      }
+    }
+  ],
+  "created": 1794209113,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 276,
+    "prompt_tokens": 351,
+    "total_tokens": 627,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-bu0iXnArOGaZyQFf9oxBtWboJmclko0d",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 351,
+    "prompt_ms": 815.37,
+    "prompt_per_token_ms": 2.322991452991453,
+    "prompt_per_second": 430.4794142536517,
+    "predicted_n": 276,
+    "predicted_ms": 10028.433,
+    "predicted_per_token_ms": 36.467029090909094,
+    "predicted_per_second": 27.422030939429916
+  }
+}

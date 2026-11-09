@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "parsed": {
+    "classification": "no_content_failure",
+    "create_tool_justified": false,
+    "problems": [],
+    "reason": "The answer correctly identifies the isochores where Alu elements are enriched based on the provided evidence. Evidence e1, e3, e5, and e9 explicitly state enrichment in 'GC-rich isochores'. Evidence e3 and e7 specify 'H isochores' and 'H2 isochores' respectively, noting that frequency increases with GC content and peaks in H2. Evidence e11 mentions 'heavy components' as the location of highest frequency for Alu I family repeats, which corresponds to GC-rich isochores in the context of buoyant density centrifugation. All items in the initial and retry lists are directly supported by exact quotes in the evidence. No factual errors, coverage gaps, or missing operations are present."
+  }
+}

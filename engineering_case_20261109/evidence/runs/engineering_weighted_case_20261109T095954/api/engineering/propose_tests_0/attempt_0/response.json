@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"approve\": true,\n  \"reason\": \"The contract is mathematically precise, unambiguous, and self-consistent. It clearly defines input validation (strictly positive values, non-negative weights, non-zero total weight), the exact formulas for weighted mean, population variance, standard deviation, and geometric mean, and the rounding requirement (6 decimal places). The edge cases listed in the contract align perfectly with the validation rules. No external dependencies are required, and the logic is deterministic.\",\n  \"cases\": [\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 10.0, \"weight\": 2.0},\n          {\"value\": 20.0, \"weight\": 3.0}\n        ]\n      },\n      \"expected\": {\n        \"weighted_mean\": 16.0,\n        \"weighted_population_variance\": 24.0,\n        \"weighted_population_sd\": 4.898979,\n        \"weighted_geometric_mean\": 15.848932\n      }\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 5.0, \"weight\": 1.0}\n        ]\n      },\n      \"expected\": {\n        \"weighted_mean\": 5.0,\n        \"weighted_population_variance\": 0.0,\n        \"weighted_population_sd\": 0.0,\n        \"weighted_geometric_mean\": 5.0\n      }\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 100.0, \"weight\": 0.0},\n          {\"value\": 50.0, \"weight\": 1.0}\n        ]\n      },\n      \"expected\": {\n        \"weighted_mean\": 50.0,\n        \"weighted_population_variance\": 0.0,\n        \"weighted_population_sd\": 0.0,\n        \"weighted_geometric_mean\": 50.0\n      }\n    },\n    {\n      \"input\": {\n        \"rows\": []\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": \"10\", \"weight\": 2.0}\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 10.0, \"weight\": -1.0}\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 0.0, \"weight\": 1.0}\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 10.0, \"weight\": 0.0},\n          {\"value\": 20.0, \"weight\": 0.0}\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794218492,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 723,
+    "prompt_tokens": 1336,
+    "total_tokens": 2059,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-2F1DYYUD1JvpmlD2qcAT7cEg3GI6JIWa",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1336,
+    "prompt_ms": 2496.777,
+    "prompt_per_token_ms": 1.8688450598802395,
+    "prompt_per_second": 535.0898378189162,
+    "predicted_n": 723,
+    "predicted_ms": 26465.299,
+    "predicted_per_token_ms": 36.655538781163436,
+    "predicted_per_second": 27.28100672507044
+  }
+}

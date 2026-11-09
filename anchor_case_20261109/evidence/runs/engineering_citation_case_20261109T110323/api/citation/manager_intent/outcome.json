@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "parsed": {
+    "action": "defer",
+    "operation_name": "validate_citation_grouping_and_deduplication",
+    "reason": "The executor output correctly identifies unique references and preserves source identity, but fails the structural validation for citation groups. The independent feedback indicates all 23 groups failed, likely due to incorrect handling of the 'deduplicate within each group' rule or misinterpretation of the 'square-bracket citation group' boundaries in the XML text. The output lists groups that appear to be simple extractions of xref elements without properly grouping them by the surrounding square brackets in the source text, or failing to deduplicate repeated IDs within a single bracketed group (e.g., if a group contained [17, 18, 17], it should be [17, 18]). The current output treats every xref sequence as a distinct group or fails to merge them correctly according to the bracket delims",
+    "diagnosis": "The executor likely parsed individual xref elements as separate groups or failed to correctly identify the square-bracket boundaries in the XML text, resulting in an incorrect group_index count and composition. The 'unique_references' list is correct, suggesting the ID extraction logic works, but the grouping logic (identifying `[...]` blocks and deduplicating within them) is flawed. The feedback `index_check_pass: false` for all groups confirms a systematic failure in the grouping phase.",
+    "deterministic_steps": [
+      "Parse the XML text to locate all square-bracket sequences `[...]`.",
+      "For each bracket sequence, extract all `xref` elements with `ref-type=\"bibr\"` contained strictly within that sequence.",
+      "Extract the `rid` attribute from each valid `xref`.",
+      "Apply deduplication to the list of `rid`s within the current bracket group, preserving the order of first appearance.",
+      "Construct the group object with the correct `source_id`, incremented `group_index`, and the deduplicated list of `reference_ids` (formatted as `source_id::rid`).",
+      "Verify that no `xref` elements outside of square brackets are included in any group.",
+      "Re-run the grouping logic to ensure the number of groups matches the number of valid bracketed citation clusters in the source text."
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "task_id": "661c41d448a2c27714000009",
+  "question": "Which DNA language models currently exist to model the human genome?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "GPN-MSA",
+      "Genomic Pre-trained Network (GPN)",
+      "DNABERT",
+      "HyenaDNA",
+      "BERT-5mC",
+      "LOGO (Language of Genome)",
+      "TFBert"
+    ],
+    "supports": [
+      {
+        "item": "GPN-MSA",
+        "evidence_id": "e10",
+        "quote": "GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction."
+      },
+      {
+        "item": "Genomic Pre-trained Network (GPN)",
+        "evidence_id": "e2",
+        "quote": "Expanding on this idea, we here introduce the Genomic Pre-trained Network (GPN), a model designed to learn genome-wide variant effects through unsupervised pretraining on genomic DNA sequences."
+      },
+      {
+        "item": "DNABERT",
+        "evidence_id": "e14",
+        "quote": "DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome."
+      },
+      {
+        "item": "HyenaDNA",
+        "evidence_id": "e6",
+        "quote": "Leveraging Hyena's new long-range capabilities, we present HyenaDNA, a genomic foundation model pretrained on the human reference genome with context lengths of up to 1 million tokens at the single nucleotide-level - an up to 500x increase over previous dense attention-based models."
+      },
+      {
+        "item": "BERT-5mC",
+        "evidence_id": "e8",
+        "quote": "BERT-5mC: an interpretable model for predicting 5-methylcytosine sites of DNA based on BERT."
+      },
+      {
+        "item": "LOGO (Language of Genome)",
+        "evidence_id": "e12",
+        "quote": "Here, we present LOGO (Language of Genome), a self-attention based contextualized pre-trained language model containing only two self-attention layers with 1 million parameters as a substantially light architecture that applies self-supervision techniques to learn bidirectional representations of the unlabelled human reference genome."
+      },
+      {
+        "item": "TFBert",
+        "evidence_id": "e16",
+        "quote": "TFBert treats DNA sequences as natural sentences and k-mer nucleotides as words."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to models explicitly named in the provided abstracts and titles. Some models (e.g., BERT-5mC) are specialized for specific tasks like methylation prediction rather than general genome modeling, though they utilize DNA language model architectures. The list does not include unnamed or generic foundation models mentioned without specific titles.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.7142857142857143,
+      "recall": 0.7142857142857143,
+      "f1": 0.7142857142857143
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "GPN-MSA",
+      "Genomic Pre-trained Network (GPN)",
+      "DNABERT",
+      "HyenaDNA",
+      "LOGO (Language of Genome)",
+      "TFBert",
+      "BERT-5mC"
+    ],
+    "supports": [
+      {
+        "item": "GPN-MSA",
+        "evidence_id": "e10",
+        "quote": "GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction."
+      },
+      {
+        "item": "Genomic Pre-trained Network (GPN)",
+        "evidence_id": "e2",
+        "quote": "Expanding on this idea, we here introduce the Genomic Pre-trained Network (GPN), a model designed to learn genome-wide variant effects through unsupervised pretraining on genomic DNA sequences."
+      },
+      {
+        "item": "DNABERT",
+        "evidence_id": "e3",
+        "quote": "we developed a novel pre-trained bidirectional encoder representation, named DNABERT, to capture global and transferrable understanding of genomic DNA sequences based on up and downstream nucleotide contexts."
+      },
+      {
+        "item": "HyenaDNA",
+        "evidence_id": "e6",
+        "quote": "Leveraging Hyena's new long-range capabilities, we present HyenaDNA, a genomic foundation model pretrained on the human reference genome with context lengths of up to 1 million tokens at the single nucleotide-level"
+      },
+      {
+        "item": "LOGO (Language of Genome)",
+        "evidence_id": "e12",
+        "quote": "Here, we present LOGO (Language of Genome), a self-attention based contextualized pre-trained language model containing only two self-attention layers with 1 million parameters as a substantially light architecture that applies self-supervision techniques to learn bidirectional representations of the unlabelled human reference genome."
+      },
+      {
+        "item": "TFBert",
+        "evidence_id": "e16",
+        "quote": "TFBert treats DNA sequences as natural sentences and k-mer nucleotides as words."
+      },
+      {
+        "item": "BERT-5mC",
+        "evidence_id": "e8",
+        "quote": "BERT-5mC: an interpretable model for predicting 5-methylcytosine sites of DNA based on BERT."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific models mentioned in the provided abstracts and titles; other existing DNA language models not cited in these specific segments are not included. Some models like BERT-5mC are specialized for specific tasks (methylation prediction) rather than general genome modeling, though they utilize DNA language model architectures.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.7142857142857143,
+      "recall": 0.7142857142857143,
+      "f1": 0.7142857142857143
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "GPN-MSA",
+      "Genomic Pre-trained Network (GPN)",
+      "DNABERT",
+      "HyenaDNA",
+      "LOGO (Language of Genome)",
+      "TFBert",
+      "BERT-5mC"
+    ],
+    "supports": [
+      {
+        "item": "GPN-MSA",
+        "evidence_id": "e10",
+        "quote": "GPN-MSA: an alignment-based DNA language model for genome-wide variant effect prediction."
+      },
+      {
+        "item": "Genomic Pre-trained Network (GPN)",
+        "evidence_id": "e2",
+        "quote": "Expanding on this idea, we here introduce the Genomic Pre-trained Network (GPN), a model designed to learn genome-wide variant effects through unsupervised pretraining on genomic DNA sequences."
+      },
+      {
+        "item": "DNABERT",
+        "evidence_id": "e3",
+        "quote": "we developed a novel pre-trained bidirectional encoder representation, named DNABERT, to capture global and transferrable understanding of genomic DNA sequences based on up and downstream nucleotide contexts."
+      },
+      {
+        "item": "HyenaDNA",
+        "evidence_id": "e6",
+        "quote": "Leveraging Hyena's new long-range capabilities, we present HyenaDNA, a genomic foundation model pretrained on the human reference genome with context lengths of up to 1 million tokens at the single nucleotide-level"
+      },
+      {
+        "item": "LOGO (Language of Genome)",
+        "evidence_id": "e12",
+        "quote": "Here, we present LOGO (Language of Genome), a self-attention based contextualized pre-trained language model containing only two self-attention layers with 1 million parameters as a substantially light architecture that applies self-supervision techniques to learn bidirectional representations of the unlabelled human reference genome."
+      },
+      {
+        "item": "TFBert",
+        "evidence_id": "e16",
+        "quote": "TFBert treats DNA sequences as natural sentences and k-mer nucleotides as words."
+      },
+      {
+        "item": "BERT-5mC",
+        "evidence_id": "e8",
+        "quote": "BERT-5mC: an interpretable model for predicting 5-methylcytosine sites of DNA based on BERT."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific models mentioned in the provided abstracts and titles; other existing DNA language models not cited in these specific segments are not included. Some models like BERT-5mC are specialized for specific tasks (methylation prediction) rather than general genome modeling, though they utilize DNA language model architectures.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.7142857142857143,
+      "recall": 0.7142857142857143,
+      "f1": 0.7142857142857143
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33538820",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35536244",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36136096",
+    "http://www.ncbi.nlm.nih.gov/pubmed/37426456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/37873118",
+    "http://www.ncbi.nlm.nih.gov/pubmed/37883436",
+    "http://www.ncbi.nlm.nih.gov/pubmed/38089911"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/661c41d448a2c27714000009/attempt_0"
+}

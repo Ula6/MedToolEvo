@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"weighted_mean\": 9.196301,\n  \"weighted_population_variance\": 0.277442,\n  \"weighted_population_sd\": 0.526728,\n  \"weighted_geometric_mean\": 9.180429,\n  \"evidence_id\": \"e2\",\n  \"quote\": \"R03: Endocrine (78); mean=7.6; n=78.\\nR04: Gastrointestinal (1014); mean=9.6; n=1014.\\nR05: Genitourinary (452); mean=8.8; n=452.\\nR06: Gynaecology (213); mean=8.7; n=213.\",\n  \"limitations\": \"Summaries are computed only on the four specified subgroup means using their counts as weights; they do not represent pooled within-study patient variability or measurement precision.\"\n}"
+      }
+    }
+  ],
+  "created": 1794218603,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 225,
+    "prompt_tokens": 1714,
+    "total_tokens": 1939,
+    "prompt_tokens_details": {
+      "cached_tokens": 143
+    }
+  },
+  "id": "chatcmpl-w0taIlTsF7yPGsYAMxzN5lEtyHZ2dsBK",
+  "timings": {
+    "cache_n": 143,
+    "prompt_n": 1571,
+    "prompt_ms": 2932.709,
+    "prompt_per_token_ms": 1.866778485041375,
+    "prompt_per_second": 535.6821969039547,
+    "predicted_n": 225,
+    "predicted_ms": 8195.495,
+    "predicted_per_token_ms": 36.58703125,
+    "predicted_per_second": 27.332089153858306
+  }
+}

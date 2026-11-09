@@ -1,0 +1,70 @@
+{
+  "status": "ok",
+  "parsed": {
+    "items": [
+      "CRP1",
+      "F-ascin",
+      "fascin",
+      "MAYP/PSTPIP2",
+      "IRSp53",
+      "Eps8",
+      "vasodilator-stimulated phosphoprotein",
+      "DdVASP",
+      "MIM",
+      "IMD"
+    ],
+    "supports": [
+      {
+        "item": "CRP1",
+        "evidence_id": "e2",
+        "quote": "CRP1, which cross-links actin filaments to make actin bundles, is the only CRP family member expressed in the CNS with little known about its function in nerve cells."
+      },
+      {
+        "item": "F-ascin",
+        "evidence_id": "e6",
+        "quote": "F-ascin is an actin-bundling protein involved in filopodia assembly and cancer invasion and metastasis of multiple epithelial cancer types."
+      },
+      {
+        "item": "fascin",
+        "evidence_id": "e7",
+        "quote": "In this study, we investigated the role of fascin, a cytoskeleton actin-bundling protein involved in the formation of filopodia and cell migration, in prostate cancer progression."
+      },
+      {
+        "item": "MAYP/PSTPIP2",
+        "evidence_id": "e10",
+        "quote": "The PCH family member MAYP/PSTPIP2 directly regulates F-actin bundling and enhances filopodia formation and motility in macrophages"
+      },
+      {
+        "item": "IRSp53",
+        "evidence_id": "e19",
+        "quote": "IRSp53, a multi-domain protein that can associate with the Rho-GTPases Rac and Cdc42, participates in these processes mainly through its amino-terminal IMD (IRSp53 and MIM domain). The isolated IMD has actin-bundling activity in vitro and is sufficient to induce filopodia in vivo."
+      },
+      {
+        "item": "Eps8",
+        "evidence_id": "e20",
+        "quote": "Eps8 activates and synergizes with IRSp53 in mediating actin bundling in vitro, enhancing IRSp53-dependent membrane extensions in vivo."
+      },
+      {
+        "item": "vasodilator-stimulated phosphoprotein",
+        "evidence_id": "e23",
+        "quote": "The bundling activity of vasodilator-stimulated phosphoprotein is required for filopodium formation"
+      },
+      {
+        "item": "DdVASP",
+        "evidence_id": "e26",
+        "quote": "Only WT DdVASP, but not a mutant lacking the F-actin bundling activity, could rescue the ability of these cells to form WT-like filopodia."
+      },
+      {
+        "item": "MIM",
+        "evidence_id": "e30",
+        "quote": "The IMD alone, derived from either IRSp53 or MIM, induced filopodia in HeLa cells and the formation of tightly packed parallel F-actin bundles in vitro."
+      },
+      {
+        "item": "IMD",
+        "evidence_id": "e29",
+        "quote": "Here, we show that the N-terminal predicted helical stretch of 250 amino acids of IRSp53 is an evolutionarily conserved F-actin bundling domain involved in filopodium formation."
+      }
+    ],
+    "limitations": "Evidence is limited to specific cell types (neurons, macrophages, cancer cells) and experimental conditions (overexpression, knockdown, in vitro assays). Some entries refer to domains (IMD) or specific isoforms (DdVASP) rather than the full protein family universally. The role of Eps8 is described as synergistic with IRSp53 rather than independent bundling."
+  }
+}

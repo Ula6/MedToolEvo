@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"supported\": true,\n  \"index_repaired\": true,\n  \"source_binding_preserved\": true,\n  \"reason\": \"The actual_generated_tool_output correctly identifies all literal occurrences with accurate zero-based Unicode character offsets and verbatim quotes matching the original source text (e.g., 'studies' at 41-48, 'double‐blind' at 440-452 preserving the non-breaking hyphen). The output correctly rejects the absent probe 'q7' by listing it in unsupported_query_ids with an empty matches list. The initial_answer contained incorrect offsets (e.g., starting at 44 instead of 41), which were successfully repaired in the final and actual outputs to align with the true source character spans.\"\n}"
+      }
+    }
+  ],
+  "created": 1794224144,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 2735,
+    "total_tokens": 2898,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-D9Obf1cJiRipEiLGxcHn6ZUtFZurpqMS",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2735,
+    "prompt_ms": 4867.312,
+    "prompt_per_token_ms": 1.7796387568555758,
+    "prompt_per_second": 561.9117903269813,
+    "predicted_n": 163,
+    "predicted_ms": 5955.532,
+    "predicted_per_token_ms": 36.76254320987655,
+    "predicted_per_second": 27.201600125731836
+  }
+}

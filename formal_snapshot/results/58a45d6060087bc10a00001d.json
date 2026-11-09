@@ -1,0 +1,192 @@
+{
+  "task_id": "58a45d6060087bc10a00001d",
+  "question": "Which diseases are involved in the severe cutaneous reactions (SCAR) spectrum?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Stevens-Johnson Syndrome (SJS)",
+      "toxic epidermal necrolysis (TEN)",
+      "acute generalized exanthematous pustulosis (AGEP)",
+      "drug reaction with eosinophilia and systemic symptoms (DRESS)",
+      "drug hypersensitivity syndrome",
+      "erythema multiforme"
+    ],
+    "supports": [
+      {
+        "item": "Stevens-Johnson Syndrome (SJS)",
+        "evidence_id": "e1",
+        "quote": "Stevens-Johnson Syndrome (SJS) and toxic epidermal necrolysis (TEN) are diseases within the spectrum of severe cutaneous adverse reactions affecting skin and mucous membranes."
+      },
+      {
+        "item": "toxic epidermal necrolysis (TEN)",
+        "evidence_id": "e1",
+        "quote": "Stevens-Johnson Syndrome (SJS) and toxic epidermal necrolysis (TEN) are diseases within the spectrum of severe cutaneous adverse reactions affecting skin and mucous membranes."
+      },
+      {
+        "item": "acute generalized exanthematous pustulosis (AGEP)",
+        "evidence_id": "e7",
+        "quote": "Drug eruptions range from transient erythema to the life threatening severe cutaneous adverse reactions (SCAR) that encompass Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), acute generalized exanthematous pustulosis (AGEP) and drug reaction with eosinophilia and systemic symptoms complex (DRESS)."
+      },
+      {
+        "item": "drug reaction with eosinophilia and systemic symptoms (DRESS)",
+        "evidence_id": "e7",
+        "quote": "Drug eruptions range from transient erythema to the life threatening severe cutaneous adverse reactions (SCAR) that encompass Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), acute generalized exanthematous pustulosis (AGEP) and drug reaction with eosinophilia and systemic symptoms complex (DRESS)."
+      },
+      {
+        "item": "drug hypersensitivity syndrome",
+        "evidence_id": "e6",
+        "quote": "However, allopurinol is also one of the most common causes of severe cutaneous adverse reactions (SCARs), which include drug hypersensitivity syndrome, Stevens–Johnson syndrome, and toxic epidermal necrolysis."
+      },
+      {
+        "item": "erythema multiforme",
+        "evidence_id": "e11",
+        "quote": "Severe Cutaneous Adverse Reaction (SCAR) represents the spectrum of adverse drug reactions from erythema multiforme, Stevens - Johnson syndrome (SJS) to Toxic Epidermal Necrolysis (TEN)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence sources vary slightly in the specific diseases listed under the SCAR spectrum; some include erythema multiforme or drug hypersensitivity syndrome while others focus on SJS, TEN, AGEP, and DRESS. All listed items are explicitly mentioned in the provided text as part of the SCAR spectrum or related severe cutaneous adverse reactions.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 6,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Stevens-Johnson Syndrome (SJS)",
+      "toxic epidermal necrolysis (TEN)",
+      "acute generalized exanthematous pustulosis (AGEP)",
+      "drug reaction with eosinophilia and systemic symptoms (DRESS)",
+      "drug hypersensitivity syndrome",
+      "erythema multiforme"
+    ],
+    "supports": [
+      {
+        "item": "Stevens-Johnson Syndrome (SJS)",
+        "evidence_id": "e1",
+        "quote": "Stevens-Johnson Syndrome (SJS) and toxic epidermal necrolysis (TEN) are diseases within the spectrum of severe cutaneous adverse reactions affecting skin and mucous membranes."
+      },
+      {
+        "item": "toxic epidermal necrolysis (TEN)",
+        "evidence_id": "e1",
+        "quote": "Stevens-Johnson Syndrome (SJS) and toxic epidermal necrolysis (TEN) are diseases within the spectrum of severe cutaneous adverse reactions affecting skin and mucous membranes."
+      },
+      {
+        "item": "acute generalized exanthematous pustulosis (AGEP)",
+        "evidence_id": "e5",
+        "quote": "Our aim was to study patch testing in severe cutaneous adverse drug reactions (ADRs) (Stevens-Johnson syndrome/toxic epidermal necrolysis (SJS/TEN), acute generalized exanthematous pustulosis (AGEP), and other cutaneous ADRs)"
+      },
+      {
+        "item": "drug reaction with eosinophilia and systemic symptoms (DRESS)",
+        "evidence_id": "e7",
+        "quote": "Drug eruptions range from transient erythema to the life threatening severe cutaneous adverse reactions (SCAR) that encompass Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), acute generalized exanthematous pustulosis (AGEP) and drug reaction with eosinophilia and systemic symptoms complex (DRESS)."
+      },
+      {
+        "item": "drug hypersensitivity syndrome",
+        "evidence_id": "e6",
+        "quote": "However, allopurinol is also one of the most common causes of severe cutaneous adverse reactions (SCARs), which include drug hypersensitivity syndrome, Stevens–Johnson syndrome, and toxic epidermal necrolysis."
+      },
+      {
+        "item": "erythema multiforme",
+        "evidence_id": "e11",
+        "quote": "Severe Cutaneous Adverse Reaction (SCAR) represents the spectrum of adverse drug reactions from erythema multiforme, Stevens - Johnson syndrome (SJS) to Toxic Epidermal Necrolysis (TEN)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence lists specific conditions as part of the SCAR spectrum; some sources group them differently or include additional qualifiers like 'drug-induced' or 'life-threatening'. The list may not be exhaustive as some evidence mentions 'other cutaneous ADRs' without naming them.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 6,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Stevens-Johnson Syndrome (SJS)",
+      "toxic epidermal necrolysis (TEN)",
+      "acute generalized exanthematous pustulosis (AGEP)",
+      "drug reaction with eosinophilia and systemic symptoms (DRESS)",
+      "drug hypersensitivity syndrome",
+      "erythema multiforme"
+    ],
+    "supports": [
+      {
+        "item": "Stevens-Johnson Syndrome (SJS)",
+        "evidence_id": "e1",
+        "quote": "Stevens-Johnson Syndrome (SJS) and toxic epidermal necrolysis (TEN) are diseases within the spectrum of severe cutaneous adverse reactions affecting skin and mucous membranes."
+      },
+      {
+        "item": "toxic epidermal necrolysis (TEN)",
+        "evidence_id": "e1",
+        "quote": "Stevens-Johnson Syndrome (SJS) and toxic epidermal necrolysis (TEN) are diseases within the spectrum of severe cutaneous adverse reactions affecting skin and mucous membranes."
+      },
+      {
+        "item": "acute generalized exanthematous pustulosis (AGEP)",
+        "evidence_id": "e5",
+        "quote": "Our aim was to study patch testing in severe cutaneous adverse drug reactions (ADRs) (Stevens-Johnson syndrome/toxic epidermal necrolysis (SJS/TEN), acute generalized exanthematous pustulosis (AGEP), and other cutaneous ADRs)"
+      },
+      {
+        "item": "drug reaction with eosinophilia and systemic symptoms (DRESS)",
+        "evidence_id": "e7",
+        "quote": "Drug eruptions range from transient erythema to the life threatening severe cutaneous adverse reactions (SCAR) that encompass Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), acute generalized exanthematous pustulosis (AGEP) and drug reaction with eosinophilia and systemic symptoms complex (DRESS)."
+      },
+      {
+        "item": "drug hypersensitivity syndrome",
+        "evidence_id": "e6",
+        "quote": "However, allopurinol is also one of the most common causes of severe cutaneous adverse reactions (SCARs), which include drug hypersensitivity syndrome, Stevens–Johnson syndrome, and toxic epidermal necrolysis."
+      },
+      {
+        "item": "erythema multiforme",
+        "evidence_id": "e11",
+        "quote": "Severe Cutaneous Adverse Reaction (SCAR) represents the spectrum of adverse drug reactions from erythema multiforme, Stevens - Johnson syndrome (SJS) to Toxic Epidermal Necrolysis (TEN)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence lists specific conditions as part of the SCAR spectrum; some sources group them differently or include additional qualifiers like 'drug-induced' or 'life-threatening'. The list may not be exhaustive as some evidence mentions 'other cutaneous ADRs' without naming them.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 6,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18657400",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20541690",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21162721",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21917426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23232549",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23484337",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23904296",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24193402",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24819643",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25115449",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25657416",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25938070",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26170788",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26894082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8957644"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/58a45d6060087bc10a00001d/attempt_4"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "parsed": {
+    "weighted_mean": 8.7,
+    "weighted_population_variance": 0.0,
+    "weighted_population_sd": 0.0,
+    "weighted_geometric_mean": 8.7,
+    "evidence_id": "e2",
+    "quote": "R06: Gynaecology (213); mean=8.7; n=213.",
+    "limitations": "Calculations based on a single supplied row; variance and standard deviation are zero as no inter-row variability exists in the provided dataset."
+  }
+}

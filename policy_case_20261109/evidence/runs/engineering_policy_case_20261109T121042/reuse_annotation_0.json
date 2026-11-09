@@ -1,0 +1,46 @@
+{
+  "annotations": [
+    {
+      "group_id": "g1",
+      "relation": "direct_comparison",
+      "polarity": "positive",
+      "reason": "The text explicitly states that study [18] 'directly compared celecoxib and JOINS treatments', asserting the relationship."
+    },
+    {
+      "group_id": "g2",
+      "relation": "celecoxib",
+      "polarity": "positive",
+      "reason": "The text states that these nineteen studies 'evaluated celecoxib treatment', asserting the use of this intervention."
+    },
+    {
+      "group_id": "g3",
+      "relation": "joins",
+      "polarity": "positive",
+      "reason": "The text states that these five studies 'assessed JOINS treatment', asserting the use of this intervention."
+    },
+    {
+      "group_id": "g4",
+      "relation": "short_followup",
+      "polarity": "positive",
+      "reason": "The text states that these 19 studies 'reported clinical outcomes at short-term follow-up', asserting the presence of this data point."
+    },
+    {
+      "group_id": "g5",
+      "relation": "mid_followup",
+      "polarity": "positive",
+      "reason": "The text states that these 11 studies 'reported mid-term outcomes', asserting the presence of this data point."
+    },
+    {
+      "group_id": "g6",
+      "relation": "bias_blinding",
+      "polarity": "positive",
+      "reason": "The text identifies study [15] as having a 'high risk of bias for the items... blinding of outcome assessment', asserting the presence of this bias."
+    },
+    {
+      "group_id": "g7",
+      "relation": "bias_other",
+      "polarity": "positive",
+      "reason": "The text identifies study [35] as having a 'high risk of bias for the items... other bias', asserting the presence of this bias."
+    }
+  ]
+}

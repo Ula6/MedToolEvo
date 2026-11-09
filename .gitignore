@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+envs/
+models/
+*.gguf
+*.tar.gz
+*.zip
+.env
+.env.*
+/BioASQ-training14b/
+/DocHopQA/

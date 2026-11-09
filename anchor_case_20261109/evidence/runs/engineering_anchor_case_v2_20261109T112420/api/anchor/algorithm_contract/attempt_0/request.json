@@ -1,0 +1,53 @@
+{
+  "model": "medtool-qa",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Compile ONLY the generic deterministic algorithm and invariants for this operation. Return JSON {algorithm:string,invariants:[string],edge_cases:[string]}. No schemas, code or source-specific values. Honor every supplied rule and exact I/O field. All semantic work remains outside code; this operation is literal Unicode/source-coordinate processing."
+    },
+    {
+      "role": "user",
+      "content": "{\"operation_name\": \"diagnose_unicode_span_misalignment\", \"fixed_rules\": \"Align every query against ALL original source strings without inventing evidence.\\nInput is exactly {sources:[{source_id:string,text:string}],queries:[{query_id:string,text:string}]}.\\nIDs are nonempty, unique within their lists. All texts are strings; queries cannot\\nbe empty/whitespace-only. Normalize each ORIGINAL Unicode code point separately\\nusing unicodedata.normalize('NFKC',char).casefold(), concatenate the results, and\\ncollapse each whitespace run to ONE ASCII space. Do NOT trim, remove punctuation,\\ntranslate, infer aliases, equate different dash characters or normalize across\\ncode-point boundaries. Apply the SAME normalization to each query.\\nFind ALL substring occurrences including overlaps, in source input order then\\nascending ORIGINAL start. Map each normalized occurrence back to its original\\nzero-based Python Unicode code-point [start,end) span, NOT UTF-8 bytes or tokens.\\nEmit only matches whose WHOLE original span, normalized by the same rule, equals\\nthe normalized query. This rejects partial hits inside a casefold expansion:\\nsource U+00DF matches query ss, but NOT query s. Collapse duplicate original spans.\\nquote MUST equal original_text[start:end] exactly, including original case and\\nwhitespace. Preserve separate source IDs. Output queries in input query order,\\nmatches:[{source_id,start,end,quote}], and unsupported_query_ids in input order\\nfor exactly those queries with no matches. Empty lists are allowed. Never use\\nsemantic similarity as a match. Preserve inputs. Reject malformed objects, extra\\nkeys, wrong types, duplicate/empty IDs and blank queries with ValueError. Ordinary\\nallowed Python standard modules including unicodedata are sufficient; no files,\\nnetwork, external packages, model calls or hardcoded source/query values.\", \"manager_steps\": [\"Extract the original source text string for source_id 'PMC11872689'.\", \"Apply the normalization rule (NFKC + casefold + whitespace collapse) to the original source text to create a normalized search string.\", \"Apply the same normalization rule to each query text.\", \"Perform a substring search of the normalized query within the normalized source string to find all start indices.\", \"For each found normalized start index, map it back to the corresponding original Unicode code-point start index.\", \"Calculate the original end index by adding the length of the original substring (not the normalized one) to the original start index, ensuring the slice [start, end) captures the exact original characters.\", \"Verify that original_text[start:end] exactly matches the query text (case-sensitive, original characters) or the specific original occurrence found.\", \"Compare the calculated [start, end) spans against the 'retry_answer' spans to confirm the off-by-one discrepancy.\"], \"fixed_input_schema\": {\"type\": \"object\", \"properties\": {\"sources\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\"}}, \"required\": [\"source_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 20}, \"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\", \"minLength\": 1}}, \"required\": [\"query_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 30}}, \"required\": [\"sources\", \"queries\"], \"additionalProperties\": false}, \"fixed_output_schema\": {\"type\": \"object\", \"properties\": {\"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"maxLength\": 200}, \"matches\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"maxLength\": 200}, \"start\": {\"type\": \"integer\", \"minimum\": 0}, \"end\": {\"type\": \"integer\", \"minimum\": 1}, \"quote\": {\"type\": \"string\", \"maxLength\": 2000}}, \"required\": [\"source_id\", \"start\", \"end\", \"quote\"], \"additionalProperties\": false}, \"maxItems\": 200}}, \"required\": [\"query_id\", \"matches\"], \"additionalProperties\": false}, \"maxItems\": 30}, \"unsupported_query_ids\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"maxLength\": 200}, \"maxItems\": 30}}, \"required\": [\"queries\", \"unsupported_query_ids\"], \"additionalProperties\": false}}"
+    }
+  ],
+  "temperature": 0.2,
+  "seed": 20261106,
+  "max_tokens": 3072,
+  "response_format": {
+    "type": "json_object",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "algorithm": {
+          "type": "string",
+          "maxLength": 3000
+        },
+        "invariants": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 350
+          },
+          "maxItems": 8
+        },
+        "edge_cases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 350
+          },
+          "maxItems": 8
+        }
+      },
+      "required": [
+        "algorithm",
+        "invariants",
+        "edge_cases"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}

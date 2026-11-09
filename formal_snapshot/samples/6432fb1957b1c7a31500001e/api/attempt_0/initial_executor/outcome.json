@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "parsed": {
+    "items": [
+      "adults with mantle cell lymphoma who have received at least one prior therapy",
+      "adults with Waldenström macroglobulinemia",
+      "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+    ],
+    "supports": [
+      {
+        "item": "adults with mantle cell lymphoma who have received at least one prior therapy",
+        "evidence_id": "e1",
+        "quote": "treating adults with mantle cell lymphoma who have received at least one prior therapy"
+      },
+      {
+        "item": "adults with Waldenström macroglobulinemia",
+        "evidence_id": "e1",
+        "quote": "adults with Waldenström macroglobulinemia"
+      },
+      {
+        "item": "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy",
+        "evidence_id": "e1",
+        "quote": "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+      }
+    ],
+    "limitations": "Evidence is limited to the specific indications listed in the provided abstracts from a single source (PMID 35651781). Other potential approvals or updates not mentioned in these segments are not included."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "assessment": {
+    "classification": "no_content_failure",
+    "create_tool_justified": false,
+    "problems": [],
+    "reason": "The initial answer lists seven diseases (osteosarcoma, epilepsy, stromal keratitis, schizophrenia, progressive supranuclear palsy, Huntington's disease, Alzheimer's disease). Each item is directly supported by the provided evidence: osteosarcoma (e1, e14), epilepsy (e2), stromal keratitis (e4, e5, e6), schizophrenia (e8, e9), progressive supranuclear palsy (e10), Huntington's disease (e12), and Alzheimer's disease (e16). The evidence explicitly links miR-132 to these conditions through regulation, dysregulation, or functional contribution. No missing items, factual errors, or unsupported claims are present in the answer relative to the provided text."
+  },
+  "validation": {
+    "allow_tool_discovery": false,
+    "reason": "No source-grounded executable content failure identified",
+    "bound_problems": []
+  }
+}

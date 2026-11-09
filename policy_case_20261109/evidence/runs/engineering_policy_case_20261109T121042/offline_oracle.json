@@ -1,0 +1,280 @@
+{
+  "q1": {
+    "entities": [
+      {
+        "name": "CR37",
+        "evidence_ids": [
+          "PMC11837447:g11",
+          "PMC11837447:g12"
+        ]
+      },
+      {
+        "name": "CR51",
+        "evidence_ids": [
+          "PMC11837447:g11",
+          "PMC11837447:g12"
+        ]
+      }
+    ],
+    "unique_entity_count": 2
+  },
+  "q2": {
+    "entities": [
+      {
+        "name": "CR49",
+        "evidence_ids": [
+          "PMC11837447:g10",
+          "PMC11837447:g12"
+        ]
+      },
+      {
+        "name": "CR50",
+        "evidence_ids": [
+          "PMC11837447:g10",
+          "PMC11837447:g12"
+        ]
+      }
+    ],
+    "unique_entity_count": 2
+  },
+  "q3": {
+    "entities": [
+      {
+        "name": "CR39",
+        "evidence_ids": [
+          "PMC11837447:g10",
+          "PMC11837447:g13"
+        ]
+      },
+      {
+        "name": "CR40",
+        "evidence_ids": [
+          "PMC11837447:g10",
+          "PMC11837447:g13"
+        ]
+      },
+      {
+        "name": "CR46",
+        "evidence_ids": [
+          "PMC11837447:g10",
+          "PMC11837447:g13"
+        ]
+      },
+      {
+        "name": "CR53",
+        "evidence_ids": [
+          "PMC11837447:g10",
+          "PMC11837447:g13"
+        ]
+      },
+      {
+        "name": "CR56",
+        "evidence_ids": [
+          "PMC11837447:g10",
+          "PMC11837447:g13"
+        ]
+      }
+    ],
+    "unique_entity_count": 5
+  },
+  "q4": {
+    "entities": [
+      {
+        "name": "CR18",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR43",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR44",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR45",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g11"
+        ]
+      }
+    ],
+    "unique_entity_count": 4
+  },
+  "q5": {
+    "entities": [
+      {
+        "name": "CR39",
+        "evidence_ids": [
+          "PMC11837447:g6",
+          "PMC11837447:g10"
+        ]
+      },
+      {
+        "name": "CR46",
+        "evidence_ids": [
+          "PMC11837447:g6",
+          "PMC11837447:g10"
+        ]
+      },
+      {
+        "name": "CR53",
+        "evidence_ids": [
+          "PMC11837447:g6",
+          "PMC11837447:g10"
+        ]
+      }
+    ],
+    "unique_entity_count": 3
+  },
+  "q6": {
+    "entities": [
+      {
+        "name": "CR20",
+        "evidence_ids": [
+          "PMC11837447:g7",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR37",
+        "evidence_ids": [
+          "PMC11837447:g7",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR42",
+        "evidence_ids": [
+          "PMC11837447:g7",
+          "PMC11837447:g11"
+        ]
+      }
+    ],
+    "unique_entity_count": 3
+  },
+  "q7": {
+    "entities": [
+      {
+        "name": "CR37",
+        "evidence_ids": [
+          "PMC11837447:g7",
+          "PMC11837447:g12"
+        ]
+      },
+      {
+        "name": "CR50",
+        "evidence_ids": [
+          "PMC11837447:g7",
+          "PMC11837447:g12"
+        ]
+      }
+    ],
+    "unique_entity_count": 2
+  },
+  "q8": {
+    "entities": [
+      {
+        "name": "CR45",
+        "evidence_ids": [
+          "PMC11837447:g2",
+          "PMC11837447:g11"
+        ]
+      }
+    ],
+    "unique_entity_count": 1
+  },
+  "q9": {
+    "entities": [
+      {
+        "name": "CR18",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR40",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g10"
+        ]
+      },
+      {
+        "name": "CR43",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR44",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR45",
+        "evidence_ids": [
+          "PMC11837447:g9",
+          "PMC11837447:g11"
+        ]
+      }
+    ],
+    "unique_entity_count": 5
+  },
+  "q10": {
+    "entities": [
+      {
+        "name": "CR20",
+        "evidence_ids": [
+          "PMC11837447:g7",
+          "PMC11837447:g11"
+        ]
+      },
+      {
+        "name": "CR42",
+        "evidence_ids": [
+          "PMC11837447:g7",
+          "PMC11837447:g11"
+        ]
+      }
+    ],
+    "unique_entity_count": 2
+  },
+  "q11": {
+    "entities": [],
+    "unique_entity_count": 0
+  },
+  "q12": {
+    "entities": [
+      {
+        "name": "CR37",
+        "evidence_ids": [
+          "PMC11837447:g7",
+          "PMC11837447:g11",
+          "PMC11837447:g12"
+        ]
+      },
+      {
+        "name": "CR51",
+        "evidence_ids": [
+          "PMC11837447:g8",
+          "PMC11837447:g11",
+          "PMC11837447:g12"
+        ]
+      }
+    ],
+    "unique_entity_count": 2
+  }
+}

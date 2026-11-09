@@ -1,0 +1,107 @@
+{
+  "task_id": "601bef4b1cb411341a000007",
+  "question": "Missense mutations in which genes cause X-linked developmental and epileptic encephalopathy?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "GRIA3",
+      "FHF2"
+    ],
+    "supports": [
+      {
+        "item": "GRIA3",
+        "evidence_id": "e1",
+        "quote": "GRIA3 missense mutation is cause of an x-linked developmental and epileptic encephalopathy."
+      },
+      {
+        "item": "FHF2",
+        "evidence_id": "e3",
+        "quote": "Missense variants in the N-terminal domain of the A isoform of FHF2/FGF13 cause an X-linked developmental and epileptic encephalopathy."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific missense variants in GRIA3 and the N-terminal domain of the A isoform of FHF2; other genes or mutation types causing X-linked developmental and epileptic encephalopathy are not addressed in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "GRIA3",
+      "FHF2"
+    ],
+    "supports": [
+      {
+        "item": "GRIA3",
+        "evidence_id": "e1",
+        "quote": "GRIA3 missense mutation is cause of an x-linked developmental and epileptic encephalopathy."
+      },
+      {
+        "item": "FHF2",
+        "evidence_id": "e3",
+        "quote": "Missense variants in the N-terminal domain of the A isoform of FHF2/FGF13 cause an X-linked developmental and epileptic encephalopathy."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific missense variants in GRIA3 and the N-terminal domain of the A isoform of FHF2; other genes or mutation types causing X-linked developmental and epileptic encephalopathy are not addressed in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "GRIA3",
+      "FHF2"
+    ],
+    "supports": [
+      {
+        "item": "GRIA3",
+        "evidence_id": "e1",
+        "quote": "GRIA3 missense mutation is cause of an x-linked developmental and epileptic encephalopathy."
+      },
+      {
+        "item": "FHF2",
+        "evidence_id": "e3",
+        "quote": "Missense variants in the N-terminal domain of the A isoform of FHF2/FGF13 cause an X-linked developmental and epileptic encephalopathy."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific missense variants in GRIA3 and the N-terminal domain of the A isoform of FHF2; other genes or mutation types causing X-linked developmental and epileptic encephalopathy are not addressed in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32977175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33245860"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/601bef4b1cb411341a000007/attempt_0"
+}

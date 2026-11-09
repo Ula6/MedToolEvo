@@ -1,0 +1,340 @@
+{
+  "task_id": "551829a76487737b43000009",
+  "question": "List the diseases for which there are point-of-care breath tests",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "cancer",
+      "hemodialysis",
+      "kidney dysfunction",
+      "asthma",
+      "sepsis",
+      "diabetes",
+      "tuberculosis",
+      "liver disease",
+      "insulin resistance",
+      "pulmonary embolism",
+      "Helicobacter pylori infection",
+      "methanol intoxication"
+    ],
+    "supports": [
+      {
+        "item": "cancer",
+        "evidence_id": "e1",
+        "quote": "tools (sensors) that could serve as point-of-care diagnostics of cancer."
+      },
+      {
+        "item": "hemodialysis",
+        "evidence_id": "e2",
+        "quote": "Point of care monitoring of hemodialysis patients with a breath ammonia measurement device"
+      },
+      {
+        "item": "kidney dysfunction",
+        "evidence_id": "e3",
+        "quote": "monitoring kidney dysfunction and treatment"
+      },
+      {
+        "item": "asthma",
+        "evidence_id": "e4",
+        "quote": "biomarker for the assessment and management of asthma"
+      },
+      {
+        "item": "sepsis",
+        "evidence_id": "e9",
+        "quote": "point-of-care tool for the diagnosis and monitoring of sepsis"
+      },
+      {
+        "item": "diabetes",
+        "evidence_id": "e13",
+        "quote": "accurate breath tests for a number of inflammatory, infectious and metabolic diseases, including diabetes"
+      },
+      {
+        "item": "tuberculosis",
+        "evidence_id": "e10",
+        "quote": "Point-of-care breath test for biomarkers of active pulmonary tuberculosis"
+      },
+      {
+        "item": "liver disease",
+        "evidence_id": "e17",
+        "quote": "assess the hepatic functional reserve in patients with acute and chronic liver disease"
+      },
+      {
+        "item": "insulin resistance",
+        "evidence_id": "e20",
+        "quote": "assesses changes in liver glucose metabolism, and the degree of insulin resistance"
+      },
+      {
+        "item": "pulmonary embolism",
+        "evidence_id": "e22",
+        "quote": "exclude PE"
+      },
+      {
+        "item": "Helicobacter pylori infection",
+        "evidence_id": "e38",
+        "quote": "non-invasive testing for Helicobacter pylori infection with the possibility of analysis at the point of care"
+      },
+      {
+        "item": "methanol intoxication",
+        "evidence_id": "e43",
+        "quote": "diagnosis of methanol intoxications"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence includes proposals for cancer diagnostics (e1) and animal model results for sepsis (e9), which may not represent fully established clinical point-of-care tests. Some evidence refers to specific subtypes (e.g., type 2 diabetes, active pulmonary TB) or specific populations (e.g., hemodialysis patients, children with acute asthma).",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 7,
+      "fp": 5,
+      "fn": 5,
+      "precision": 0.5833333333333334,
+      "recall": 0.5833333333333334,
+      "f1": 0.5833333333333334
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "cancer",
+      "kidney dysfunction",
+      "asthma",
+      "sepsis",
+      "pulmonary tuberculosis",
+      "diabetes",
+      "liver disease",
+      "insulin resistance",
+      "acute liver disease",
+      "liver damage",
+      "Helicobacter pylori infection",
+      "methanol intoxication",
+      "pulmonary embolism",
+      "pulmonary blood flow"
+    ],
+    "supports": [
+      {
+        "item": "cancer",
+        "evidence_id": "e1",
+        "quote": "tools (sensors) that could serve as point-of-care diagnostics of cancer"
+      },
+      {
+        "item": "kidney dysfunction",
+        "evidence_id": "e3",
+        "quote": "using low cost point of care breath ammonia systems as a noninvasive means of monitoring kidney dysfunction and treatment"
+      },
+      {
+        "item": "asthma",
+        "evidence_id": "e6",
+        "quote": "FeNO testing has an important role in the assessment and management of adult asthma"
+      },
+      {
+        "item": "sepsis",
+        "evidence_id": "e9",
+        "quote": "exhaled breath can be used as a point-of-care tool for the diagnosis and monitoring of sepsis"
+      },
+      {
+        "item": "pulmonary tuberculosis",
+        "evidence_id": "e12",
+        "quote": "A six-minute point-of-care breath test for volatile biomarkers accurately identified subjects with active pulmonary TB"
+      },
+      {
+        "item": "diabetes",
+        "evidence_id": "e13",
+        "quote": "accurate breath tests for a number of inflammatory, infectious and metabolic diseases, including diabetes"
+      },
+      {
+        "item": "liver disease",
+        "evidence_id": "e17",
+        "quote": "point-of-care (13) C MBT to assess the hepatic functional reserve in patients with acute and chronic liver disease"
+      },
+      {
+        "item": "insulin resistance",
+        "evidence_id": "e20",
+        "quote": "The non-invasive real-time BreathID GBT reliably assesses changes in liver glucose metabolism, and the degree of insulin resistance"
+      },
+      {
+        "item": "acute liver disease",
+        "evidence_id": "e24",
+        "quote": "The (13)C-MBT provides a rapid, non-invasive assessment of liver function in acute severe liver disease of diverse etiologies"
+      },
+      {
+        "item": "liver damage",
+        "evidence_id": "e33",
+        "quote": "The (13)C-methacetin breath test enables accurate follow-up of patients with acute or chronic liver damage"
+      },
+      {
+        "item": "Helicobacter pylori infection",
+        "evidence_id": "e38",
+        "quote": "The 13C-urea breath test provides non-invasive testing for Helicobacter pylori infection with the possibility of analysis at the point of care"
+      },
+      {
+        "item": "methanol intoxication",
+        "evidence_id": "e43",
+        "quote": "A portable Fourier transform infrared (FT-IR) multicomponent point-of-care analyzer was tested for the diagnosis of methanol intoxications"
+      },
+      {
+        "item": "pulmonary embolism",
+        "evidence_id": "e44",
+        "quote": "The Fd(late) is a valuable tool for bedside screening of PE in surgical patients"
+      },
+      {
+        "item": "pulmonary blood flow",
+        "evidence_id": "e40",
+        "quote": "the investigated rebreathing system allows for a non-invasive determination of PBF at the bedside"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Some entries represent potential or proposed tools (e.g., cancer, sepsis in animal models) rather than established clinical diagnostics. 'Pulmonary blood flow' and 'cardiac output' are physiological parameters measured via breath tests rather than diseases, but are included where the evidence explicitly links the breath test to a clinical condition (e.g., ARDS for PBF). 'Cardiac output' was excluded as the evidence states it requires further investigation for clinical use.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 6,
+      "fp": 8,
+      "fn": 6,
+      "precision": 0.42857142857142855,
+      "recall": 0.5,
+      "f1": 0.4615384615384615
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "cancer",
+      "kidney dysfunction",
+      "asthma",
+      "sepsis",
+      "pulmonary tuberculosis",
+      "diabetes",
+      "liver disease",
+      "insulin resistance",
+      "acute liver disease",
+      "liver damage",
+      "Helicobacter pylori infection",
+      "methanol intoxication",
+      "pulmonary embolism",
+      "pulmonary blood flow"
+    ],
+    "supports": [
+      {
+        "item": "cancer",
+        "evidence_id": "e1",
+        "quote": "tools (sensors) that could serve as point-of-care diagnostics of cancer"
+      },
+      {
+        "item": "kidney dysfunction",
+        "evidence_id": "e3",
+        "quote": "using low cost point of care breath ammonia systems as a noninvasive means of monitoring kidney dysfunction and treatment"
+      },
+      {
+        "item": "asthma",
+        "evidence_id": "e6",
+        "quote": "FeNO testing has an important role in the assessment and management of adult asthma"
+      },
+      {
+        "item": "sepsis",
+        "evidence_id": "e9",
+        "quote": "exhaled breath can be used as a point-of-care tool for the diagnosis and monitoring of sepsis"
+      },
+      {
+        "item": "pulmonary tuberculosis",
+        "evidence_id": "e12",
+        "quote": "A six-minute point-of-care breath test for volatile biomarkers accurately identified subjects with active pulmonary TB"
+      },
+      {
+        "item": "diabetes",
+        "evidence_id": "e13",
+        "quote": "accurate breath tests for a number of inflammatory, infectious and metabolic diseases, including diabetes"
+      },
+      {
+        "item": "liver disease",
+        "evidence_id": "e17",
+        "quote": "point-of-care (13) C MBT to assess the hepatic functional reserve in patients with acute and chronic liver disease"
+      },
+      {
+        "item": "insulin resistance",
+        "evidence_id": "e20",
+        "quote": "The non-invasive real-time BreathID GBT reliably assesses changes in liver glucose metabolism, and the degree of insulin resistance"
+      },
+      {
+        "item": "acute liver disease",
+        "evidence_id": "e24",
+        "quote": "The (13)C-MBT provides a rapid, non-invasive assessment of liver function in acute severe liver disease of diverse etiologies"
+      },
+      {
+        "item": "liver damage",
+        "evidence_id": "e33",
+        "quote": "The (13)C-methacetin breath test enables accurate follow-up of patients with acute or chronic liver damage"
+      },
+      {
+        "item": "Helicobacter pylori infection",
+        "evidence_id": "e38",
+        "quote": "The 13C-urea breath test provides non-invasive testing for Helicobacter pylori infection with the possibility of analysis at the point of care"
+      },
+      {
+        "item": "methanol intoxication",
+        "evidence_id": "e43",
+        "quote": "A portable Fourier transform infrared (FT-IR) multicomponent point-of-care analyzer was tested for the diagnosis of methanol intoxications"
+      },
+      {
+        "item": "pulmonary embolism",
+        "evidence_id": "e44",
+        "quote": "The Fd(late) is a valuable tool for bedside screening of PE in surgical patients"
+      },
+      {
+        "item": "pulmonary blood flow",
+        "evidence_id": "e40",
+        "quote": "the investigated rebreathing system allows for a non-invasive determination of PBF at the bedside"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Some entries represent potential or proposed tools (e.g., cancer, sepsis in animal models) rather than established clinical diagnostics. 'Pulmonary blood flow' and 'cardiac output' are physiological parameters measured via breath tests rather than diseases, but are included where the evidence explicitly links the breath test to a clinical condition (e.g., ARDS for PBF). 'Cardiac output' was excluded as the evidence states it requires further investigation for clinical use.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 6,
+      "fp": 8,
+      "fn": 6,
+      "precision": 0.42857142857142855,
+      "recall": 0.5,
+      "f1": 0.4615384615384615
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10443811",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11215996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12540328",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12877652",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15006940",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15963485",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16326150",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16377649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16887493",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17868431",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18045887",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18367951",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18619827",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18657870",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19248196",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19717480",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20495659",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20507559",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20805989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20973886",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21619467",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22134047",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22209594",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22647661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22771606",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23462278",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23471596",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23601567",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23708532",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24299143",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24305596"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/551829a76487737b43000009/attempt_0"
+}

@@ -1,0 +1,170 @@
+{
+  "task_id": "56d042ae3975bb303a00000d",
+  "question": "When ceritinib used instead of crizotinib?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "patients who are intolerant to crizotinib",
+      "patients who have progressed despite therapy with crizotinib",
+      "patients with crizotinib-resistant disease",
+      "ALK-positive metastatic NSCLC patients with crizotinib resistance"
+    ],
+    "supports": [
+      {
+        "item": "patients who are intolerant to crizotinib",
+        "evidence_id": "e2",
+        "quote": "Ceritinib is approved for the treatment of ALK-positive metastatic NSCLC in patients who are intolerant to or have progressed despite therapy with crizotinib."
+      },
+      {
+        "item": "patients who have progressed despite therapy with crizotinib",
+        "evidence_id": "e2",
+        "quote": "Ceritinib is approved for the treatment of ALK-positive metastatic NSCLC in patients who are intolerant to or have progressed despite therapy with crizotinib."
+      },
+      {
+        "item": "patients with crizotinib-resistant disease",
+        "evidence_id": "e1",
+        "quote": "Ceritinib is a second-generation ALK inhibitor that has demonstrated activity in crizotinib-resistant patients, becoming a promising treatment option in this population."
+      },
+      {
+        "item": "ALK-positive metastatic NSCLC patients with crizotinib resistance",
+        "evidence_id": "e5",
+        "quote": "Altogether, our results demonstrate that ceritinib can overcome crizotinib resistance, consistent with clinical data showing marked efficacy of ceritinib in patients with crizotinib-resistant disease."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates ceritinib is used for ALK-positive NSCLC patients who are intolerant to or have progressed on crizotinib. However, ceritinib does not overcome all crizotinib-resistant ALK mutations, specifically G1202R and F1174C (e9, e10). The evidence does not support use as a first-line alternative for crizotinib-naïve patients despite mentioning activity in such populations (e3), as approval is specifically tied to intolerance or progression.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 4,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "patients who are intolerant to crizotinib",
+      "patients who have progressed despite therapy with crizotinib",
+      "patients with crizotinib-resistant disease",
+      "ALK-positive metastatic NSCLC patients with crizotinib resistance",
+      "crizotinib-naïve patients with ALK-positive NSCLC",
+      "patients with ALK-rearranged non-small-cell lung cancer"
+    ],
+    "supports": [
+      {
+        "item": "patients who are intolerant to crizotinib",
+        "evidence_id": "e2",
+        "quote": "Ceritinib is approved for the treatment of ALK-positive metastatic NSCLC in patients who are intolerant to or have progressed despite therapy with crizotinib."
+      },
+      {
+        "item": "patients who have progressed despite therapy with crizotinib",
+        "evidence_id": "e2",
+        "quote": "Ceritinib is approved for the treatment of ALK-positive metastatic NSCLC in patients who are intolerant to or have progressed despite therapy with crizotinib."
+      },
+      {
+        "item": "patients with crizotinib-resistant disease",
+        "evidence_id": "e1",
+        "quote": "Ceritinib is a second-generation ALK inhibitor that has demonstrated activity in crizotinib-resistant patients, becoming a promising treatment option in this population."
+      },
+      {
+        "item": "ALK-positive metastatic NSCLC patients with crizotinib resistance",
+        "evidence_id": "e2",
+        "quote": "Ceritinib is approved for the treatment of ALK-positive metastatic NSCLC in patients who are intolerant to or have progressed despite therapy with crizotinib."
+      },
+      {
+        "item": "crizotinib-naïve patients with ALK-positive NSCLC",
+        "evidence_id": "e3",
+        "quote": "Ceritinib has activity in crizotinib-resistant and crizotinib-naïve patients and appears to be a viable alternative for ALK-positive NSCLC."
+      },
+      {
+        "item": "patients with ALK-rearranged non-small-cell lung cancer",
+        "evidence_id": "e8",
+        "quote": "Ceritinib (LDK378): a potent alternative to crizotinib for ALK-rearranged non-small-cell lung cancer."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Ceritinib is not effective against specific crizotinib-resistant ALK mutations G1202R and F1174C (e9, e10). Evidence primarily focuses on ALK-positive NSCLC populations; applicability to other cancer types is not supported by the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 6,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "patients who are intolerant to crizotinib",
+      "patients who have progressed despite therapy with crizotinib",
+      "patients with crizotinib-resistant disease",
+      "ALK-positive metastatic NSCLC patients with crizotinib resistance",
+      "crizotinib-naïve patients with ALK-positive NSCLC",
+      "patients with ALK-rearranged non-small-cell lung cancer"
+    ],
+    "supports": [
+      {
+        "item": "patients who are intolerant to crizotinib",
+        "evidence_id": "e2",
+        "quote": "Ceritinib is approved for the treatment of ALK-positive metastatic NSCLC in patients who are intolerant to or have progressed despite therapy with crizotinib."
+      },
+      {
+        "item": "patients who have progressed despite therapy with crizotinib",
+        "evidence_id": "e2",
+        "quote": "Ceritinib is approved for the treatment of ALK-positive metastatic NSCLC in patients who are intolerant to or have progressed despite therapy with crizotinib."
+      },
+      {
+        "item": "patients with crizotinib-resistant disease",
+        "evidence_id": "e1",
+        "quote": "Ceritinib is a second-generation ALK inhibitor that has demonstrated activity in crizotinib-resistant patients, becoming a promising treatment option in this population."
+      },
+      {
+        "item": "ALK-positive metastatic NSCLC patients with crizotinib resistance",
+        "evidence_id": "e2",
+        "quote": "Ceritinib is approved for the treatment of ALK-positive metastatic NSCLC in patients who are intolerant to or have progressed despite therapy with crizotinib."
+      },
+      {
+        "item": "crizotinib-naïve patients with ALK-positive NSCLC",
+        "evidence_id": "e3",
+        "quote": "Ceritinib has activity in crizotinib-resistant and crizotinib-naïve patients and appears to be a viable alternative for ALK-positive NSCLC."
+      },
+      {
+        "item": "patients with ALK-rearranged non-small-cell lung cancer",
+        "evidence_id": "e8",
+        "quote": "Ceritinib (LDK378): a potent alternative to crizotinib for ALK-rearranged non-small-cell lung cancer."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Ceritinib is not effective against specific crizotinib-resistant ALK mutations G1202R and F1174C (e9, e10). Evidence primarily focuses on ALK-positive NSCLC populations; applicability to other cancer types is not supported by the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 6,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/24675041",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25101329",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25258420",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25458559",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25945060"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/56d042ae3975bb303a00000d/attempt_0"
+}

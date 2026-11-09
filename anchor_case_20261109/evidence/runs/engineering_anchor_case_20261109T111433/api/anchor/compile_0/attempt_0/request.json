@@ -1,0 +1,131 @@
+{
+  "model": "medtool-qa",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Compile this operation into a precise interface boundary. Return JSON {operation:object}. Retain name, description, when_to_use, limitations, optional semantic_preprocessor:{instruction}, and add code_contract:{input_schema:object,output_schema:object,algorithm:string,invariants:[string],edge_cases:[string]}. The input_schema describes ONLY the structured JSON actually consumed by Python AFTER Qwen preprocessing. It must include every map, score, condition or relevance annotation the code needs; it must not instead describe raw prose when semantic extraction is required. The output_schema describes only deterministic results, no free-form reasoning_chain/explanation/rationale. Define alias precedence, case rendering vs grouping, alias-list inclusion, map chains/cycles, ordering, duplicates, unknowns and invalid types whenever relevant. Unknown medical semantics belong to Qwen and runtime data, never Python constants. Use valid JSON Schema. Prefer explicit types; nullable type arrays and default annotations are valid. Default annotations do not fill missing values. Prefer a compact mechanical operation. All nonlocal references are forbidden. When revising after feedback, actively change the rejected rules; do not reproduce a rejected contract unchanged. Do not copy legacy test expectations. Map cycles have no terminal value: reject them with ValueError rather than selecting an undefined final value. Self-maps may terminate if explicitly stated. Define deterministic output ordering. Keep the operation small; semantic equivalence and relevance are supplied annotations, not substring heuristics. Top-level input_schema/output_schema must mirror code_contract's schemas. No real entity names or task IDs."
+    },
+    {
+      "role": "user",
+      "content": "{\"operation\": {\"name\": \"diagnose_unicode_span_misalignment\", \"description\": \"Generic Unicode-aware quote alignment with exact original source offsets.\", \"when_to_use\": \"When quoted snippets need exact original-source coordinates and all occurrences.\", \"requirements\": \"Align every query against ALL original source strings without inventing evidence.\\nInput is exactly {sources:[{source_id:string,text:string}],queries:[{query_id:string,text:string}]}.\\nIDs are nonempty, unique within their lists. All texts are strings; queries cannot\\nbe empty/whitespace-only. Normalize each ORIGINAL Unicode code point separately\\nusing unicodedata.normalize('NFKC',char).casefold(), concatenate the results, and\\ncollapse each whitespace run to ONE ASCII space. Do NOT trim, remove punctuation,\\ntranslate, infer aliases, equate different dash characters or normalize across\\ncode-point boundaries. Apply the SAME normalization to each query.\\nFind ALL substring occurrences including overlaps, in source input order then\\nascending ORIGINAL start. Map each normalized occurrence back to its original\\nzero-based Python Unicode code-point [start,end) span, NOT UTF-8 bytes or tokens.\\nEmit only matches whose WHOLE original span, normalized by the same rule, equals\\nthe normalized query. This rejects partial hits inside a casefold expansion:\\nsource U+00DF matches query ss, but NOT query s. Collapse duplicate original spans.\\nquote MUST equal original_text[start:end] exactly, including original case and\\nwhitespace. Preserve separate source IDs. Output queries in input query order,\\nmatches:[{source_id,start,end,quote}], and unsupported_query_ids in input order\\nfor exactly those queries with no matches. Empty lists are allowed. Never use\\nsemantic similarity as a match. Preserve inputs. Reject malformed objects, extra\\nkeys, wrong types, duplicate/empty IDs and blank queries with ValueError. Ordinary\\nallowed Python standard modules including unicodedata are sufficient; no files,\\nnetwork, external packages, model calls or hardcoded source/query values.\\nManager steps:\\nExtract the original source text string for source_id 'PMC11872689'.\\nApply the normalization rule (NFKC + casefold + whitespace collapse) to the original source text to create a normalized search string.\\nApply the same normalization rule to each query text.\\nPerform a substring search of the normalized query within the normalized source string to find all start indices.\\nFor each found normalized start index, map it back to the corresponding original Unicode code-point start index.\\nCalculate the original end index by adding the length of the original substring (not the normalized one) to the original start index, ensuring the slice [start, end) captures the exact original characters.\\nVerify that original_text[start:end] exactly matches the query text (case-sensitive, original characters) or the specific original occurrence found.\\nCompare the calculated [start, end) spans against the 'retry_answer' spans to confirm the off-by-one discrepancy.\", \"limitations\": \"Literal source-span alignment only; not semantic support or medical inference.\", \"input_schema\": {\"type\": \"object\", \"properties\": {\"sources\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\"}}, \"required\": [\"source_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 20}, \"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\", \"minLength\": 1}}, \"required\": [\"query_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 30}}, \"required\": [\"sources\", \"queries\"], \"additionalProperties\": false}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"maxLength\": 200}, \"matches\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"maxLength\": 200}, \"start\": {\"type\": \"integer\", \"minimum\": 0}, \"end\": {\"type\": \"integer\", \"minimum\": 1}, \"quote\": {\"type\": \"string\", \"maxLength\": 2000}}, \"required\": [\"source_id\", \"start\", \"end\", \"quote\"], \"additionalProperties\": false}, \"maxItems\": 200}}, \"required\": [\"query_id\", \"matches\"], \"additionalProperties\": false}, \"maxItems\": 30}, \"unsupported_query_ids\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"maxLength\": 200}, \"maxItems\": 30}}, \"required\": [\"queries\", \"unsupported_query_ids\"], \"additionalProperties\": false}, \"semantic_preprocessor\": null}, \"fixed_input_schema\": {\"type\": \"object\", \"properties\": {\"sources\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\"}}, \"required\": [\"source_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 20}, \"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\", \"minLength\": 1}}, \"required\": [\"query_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 30}}, \"required\": [\"sources\", \"queries\"], \"additionalProperties\": false}, \"fixed_output_schema\": {\"type\": \"object\", \"properties\": {\"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"maxLength\": 200}, \"matches\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"maxLength\": 200}, \"start\": {\"type\": \"integer\", \"minimum\": 0}, \"end\": {\"type\": \"integer\", \"minimum\": 1}, \"quote\": {\"type\": \"string\", \"maxLength\": 2000}}, \"required\": [\"source_id\", \"start\", \"end\", \"quote\"], \"additionalProperties\": false}, \"maxItems\": 200}}, \"required\": [\"query_id\", \"matches\"], \"additionalProperties\": false}, \"maxItems\": 30}, \"unsupported_query_ids\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"maxLength\": 200}, \"maxItems\": 30}}, \"required\": [\"queries\", \"unsupported_query_ids\"], \"additionalProperties\": false}, \"interface_feedback\": null, \"instruction\": \"Preserve exact supplied I/O schema structure and bounds, semantic_preprocessor=null. This is mechanical source-text alignment, NOT biomedical semantic inference. Preserve ALL normalization, original offset and overlapping-match rules. Standard unicodedata is allowed. No case data or IDs.\"}"
+    }
+  ],
+  "temperature": 0.2,
+  "seed": 20261106,
+  "max_tokens": 6144,
+  "response_format": {
+    "type": "json_object",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "operation": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "description": {
+              "type": "string",
+              "maxLength": 800
+            },
+            "when_to_use": {
+              "type": "string",
+              "maxLength": 800
+            },
+            "limitations": {
+              "type": "string",
+              "maxLength": 1200
+            },
+            "requirements": {
+              "type": "string",
+              "maxLength": 3000
+            },
+            "input_schema": {
+              "type": "object"
+            },
+            "output_schema": {
+              "type": "object"
+            },
+            "semantic_preprocessor": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "instruction": {
+                      "type": "string",
+                      "maxLength": 2200
+                    }
+                  },
+                  "required": [
+                    "instruction"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "code_contract": {
+              "type": "object",
+              "properties": {
+                "input_schema": {
+                  "type": "object"
+                },
+                "output_schema": {
+                  "type": "object"
+                },
+                "algorithm": {
+                  "type": "string",
+                  "maxLength": 3000
+                },
+                "invariants": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 400
+                  },
+                  "minItems": 1,
+                  "maxItems": 12
+                },
+                "edge_cases": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 400
+                  },
+                  "minItems": 1,
+                  "maxItems": 12
+                }
+              },
+              "required": [
+                "input_schema",
+                "output_schema",
+                "algorithm",
+                "invariants",
+                "edge_cases"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "name",
+            "description",
+            "when_to_use",
+            "limitations",
+            "code_contract"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "operation"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}

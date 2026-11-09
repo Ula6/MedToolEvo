@@ -1,0 +1,180 @@
+{
+  "records": [
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Osteosarcoma",
+      "qualifiers": [
+        "regulated in",
+        "examined in plasma of patients"
+      ],
+      "evidence_id": "e1",
+      "quote": "Levels of six candidate miRNAs (miR-21, miR-199a-3p, miR-143, miR-34, miR-140, and miR-132) that were previously demonstrated to be regulated in osteosarcoma were examined in plasma of 40 osteosarcoma patients and 40 matched healthy controls by quantitative reverse-transcription polymerase chain reaction assays."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Epilepsy",
+      "qualifiers": [
+        "contributes to seizure-induced neuronal death"
+      ],
+      "evidence_id": "e2",
+      "quote": "Functional studies employing antagomirs have identified contributions from miR-34a and miR-132 to seizure-induced neuronal death whereas silencing miR-134 potently reduced status epilepticus, seizure-damage and the later occurrence of spontaneous seizures."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Stromal Keratitis",
+      "qualifiers": [
+        "induced in endothelial cells",
+        "up-regulated after ocular infection with HSV"
+      ],
+      "evidence_id": "e4",
+      "quote": "miR-132 is a highly conserved miRNA that is induced in endothelial cells in response to growth factors, such as vascular endothelial growth factor (VEGF)."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Stromal Keratitis",
+      "qualifiers": [
+        "up-regulated after ocular infection with HSV"
+      ],
+      "evidence_id": "e5",
+      "quote": "miR-132 expression was up-regulated (10- to 20-fold) after ocular infection with HSV, an event that involved the production of both VEGF-A and IL-17."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Stromal Keratitis",
+      "qualifiers": [
+        "infectious ocular disease",
+        "anti-angiogenic effect"
+      ],
+      "evidence_id": "e6",
+      "quote": "The anti-angiogenic effect of antagomir-132 was reflected by a reduction in angiogenic Ras activity in corneal CD31-enriched cells (presumably blood vessel endothelial cells) during SK. To our knowledge, this is one of the first reports of miRNA involvement in an infectious ocular disease."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Schizophrenia",
+      "qualifiers": [
+        "significantly down-regulated",
+        "dysregulation contributes to pathologies"
+      ],
+      "evidence_id": "e8",
+      "quote": "The cyclic AMP-responsive element binding- and NMDA-regulated microRNA miR-132 was significantly down-regulated in both the schizophrenic discovery cohort and a second, independent set of schizophrenic subjects."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Schizophrenia",
+      "qualifiers": [
+        "dysregulation contributes to neurodevelopmental and neuromorphological pathologies"
+      ],
+      "evidence_id": "e9",
+      "quote": "Our data suggest miR-132 dysregulation and subsequent abnormal expression of miR-132 target genes contribute to the neurodevelopmental and neuromorphological pathologies present in schizophrenia."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Progressive Supranuclear Palsy",
+      "qualifiers": [
+        "specifically down-regulated in disease",
+        "subset of tauopathies"
+      ],
+      "evidence_id": "e10",
+      "quote": "Analysis of miRNA expression profiles from sporadic progressive supranuclear palsy (PSP) patients, a major 4R-tau tauopathy, showed that miR-132 is specifically down-regulated in disease."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Huntington's disease",
+      "qualifiers": [
+        "commonly down-regulated in mouse models"
+      ],
+      "evidence_id": "e12",
+      "quote": "Nine miRNAs (miR-22, miR-29c, miR-128, miR-132, miR-138, miR-218, miR-222, miR-344, and miR-674*) were commonly down-regulated in both the 12-month-old YAC128 and 10-week-old R6/2 mice."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Osteosarcoma",
+      "qualifiers": [
+        "discriminating miRNA in patient tumors"
+      ],
+      "evidence_id": "e14",
+      "quote": "In particular, we identified five discriminating miRNAs (miR-92a, miR-99b, miR-132, miR-193a-5p and miR-422a) in patient tumors, which could be easily transferable to diagnosis."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Neurodegenerative diseases",
+      "qualifiers": [
+        "significantly altered",
+        "potential therapeutic targets"
+      ],
+      "evidence_id": "e15",
+      "quote": "Levels of several microRNA (miR-10a, -10b, -212, -132, -495) were significantly altered. One of them (miR-132) has been reported to be highly inducible by growth factors and to be a key regulator of neurite outgrowth."
+    },
+    {
+      "name": "miR-132",
+      "aliases": [],
+      "relation": "implicated in",
+      "eligible": true,
+      "group": "Alzheimer's disease",
+      "qualifiers": [
+        "differentially regulated in aged brain",
+        "alteration in specific micro-RNA complexity occurs in Alzheimer hippocampus"
+      ],
+      "evidence_id": "e16",
+      "quote": "The data indicate that micro-RNAs encoding miR-9, miR-124a, miR-125b, miR-128, miR-132 and miR-219 are abundantly represented in fetal hippocampus, are differentially regulated in aged brain, and an alteration in specific micro-RNA complexity occurs in Alzheimer hippocampus."
+    }
+  ],
+  "coverage": {
+    "batches": 1,
+    "failed_batches": [],
+    "all_source_evidence_ids": [
+      "e1",
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6",
+      "e7",
+      "e8",
+      "e9",
+      "e10",
+      "e11",
+      "e12",
+      "e13",
+      "e14",
+      "e15",
+      "e16"
+    ],
+    "complete": true
+  },
+  "limitations": "Qwen extraction and relevance annotations are fallible.",
+  "invalid_record_indices": []
+}

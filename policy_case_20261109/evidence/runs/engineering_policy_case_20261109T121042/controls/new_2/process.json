@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"entities\": [{\"name\": \"CR18\", \"evidence_ids\": [\"PMC11837447:g1\"]}, {\"name\": \"CR20\", \"evidence_ids\": [\"PMC11837447:g1\"]}, {\"name\": \"CR37\", \"evidence_ids\": [\"PMC11837447:g1\"]}], \"unique_entity_count\": 3}",
+  "stderr": "",
+  "elapsed_seconds": 0.032032990362495184,
+  "code_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679"
+}

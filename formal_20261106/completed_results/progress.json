@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "phase": "frozen_evaluation",
+  "run": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a",
+  "total_source_questions": 1130,
+  "protocol_sha256": "1d2cbe1b415cfbde1586158dbefc51f118cb4fb7f536113873f407809dfa7735",
+  "base_tasks_completed": 1130,
+  "by_partition": {
+    "evaluation": 687,
+    "admission": 202,
+    "discovery": 231,
+    "development_seen": 10
+  },
+  "qa_generation_attempts": 8345,
+  "updated_utc": "2026-11-07T07:45:05Z"
+}

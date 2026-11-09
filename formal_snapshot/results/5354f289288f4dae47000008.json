@@ -1,0 +1,181 @@
+{
+  "task_id": "5354f289288f4dae47000008",
+  "question": "Name five programs for transcript quantification from RNASeq experiments",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "ORMAN",
+      "MITIE",
+      "Montebello",
+      "IGAR",
+      "Cufflinks"
+    ],
+    "supports": [
+      {
+        "item": "ORMAN",
+        "evidence_id": "e2",
+        "quote": "ORMAN ( O ptimal R esolution of M ultimapping A mbiguity of R N A-Seq Reads), which aims to compute the minimum number of potential transcript products for each gene and to assign each multimapping read to one of these transcripts based on the estimated distribution of the region covering the read."
+      },
+      {
+        "item": "MITIE",
+        "evidence_id": "e3",
+        "quote": "MITIE (Mixed Integer Transcript IdEntification) for simultaneous transcript reconstruction and quantification."
+      },
+      {
+        "item": "Montebello",
+        "evidence_id": "e4",
+        "quote": "Montebello, an integrated statistical approach which performs simultaneous isoform discovery and quantification by using a Monte Carlo simulation to find the most likely isoform composition"
+      },
+      {
+        "item": "IGAR",
+        "evidence_id": "e5",
+        "quote": "IGAR: transcript isoform abundance estimation method with gapped alignment of RNA-Seq data"
+      },
+      {
+        "item": "Cufflinks",
+        "evidence_id": "e22",
+        "quote": "Here we introduce such algorithms in an open-source software program called Cufflinks."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence limited to specific abstract excerpts; other tools like RSEM, MISO, or IsoLasso are mentioned but not selected to meet the 'five' constraint without redundancy.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 2,
+      "fn": 9,
+      "precision": 0.6,
+      "recall": 0.25,
+      "f1": 0.35294117647058826
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "ORMAN",
+      "MITIE",
+      "Montebello",
+      "IGAR",
+      "Cufflinks"
+    ],
+    "supports": [
+      {
+        "item": "ORMAN",
+        "evidence_id": "e2",
+        "quote": "ORMAN ( O ptimal R esolution of M ultimapping A mbiguity of R N A-Seq Reads), which aims to compute the minimum number of potential transcript products for each gene and to assign each multimapping read to one of these transcripts based on the estimated distribution of the region covering the read."
+      },
+      {
+        "item": "MITIE",
+        "evidence_id": "e3",
+        "quote": "MITIE (Mixed Integer Transcript IdEntification) for simultaneous transcript reconstruction and quantification."
+      },
+      {
+        "item": "Montebello",
+        "evidence_id": "e4",
+        "quote": "Montebello, an integrated statistical approach which performs simultaneous isoform discovery and quantification by using a Monte Carlo simulation to find the most likely isoform composition"
+      },
+      {
+        "item": "IGAR",
+        "evidence_id": "e5",
+        "quote": "IGAR: transcript isoform abundance estimation method with gapped alignment of RNA-Seq data"
+      },
+      {
+        "item": "Cufflinks",
+        "evidence_id": "e22",
+        "quote": "Here we introduce such algorithms in an open-source software program called Cufflinks."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The list is limited to five programs as requested. Other eligible programs such as RSEM, MISO, IsoLasso, Traph, SpliceTrap, IsoformEx, NEUMA, DRUT, and Spanki were identified in the evidence but omitted to meet the count constraint. Some tools like TopHat, OSA, and MULTo were excluded as they are alignment or mappability tools rather than quantification programs.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 2,
+      "fn": 9,
+      "precision": 0.6,
+      "recall": 0.25,
+      "f1": 0.35294117647058826
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "ORMAN",
+      "MITIE",
+      "Montebello",
+      "IGAR",
+      "Cufflinks"
+    ],
+    "supports": [
+      {
+        "item": "ORMAN",
+        "evidence_id": "e2",
+        "quote": "ORMAN ( O ptimal R esolution of M ultimapping A mbiguity of R N A-Seq Reads), which aims to compute the minimum number of potential transcript products for each gene and to assign each multimapping read to one of these transcripts based on the estimated distribution of the region covering the read."
+      },
+      {
+        "item": "MITIE",
+        "evidence_id": "e3",
+        "quote": "MITIE (Mixed Integer Transcript IdEntification) for simultaneous transcript reconstruction and quantification."
+      },
+      {
+        "item": "Montebello",
+        "evidence_id": "e4",
+        "quote": "Montebello, an integrated statistical approach which performs simultaneous isoform discovery and quantification by using a Monte Carlo simulation to find the most likely isoform composition"
+      },
+      {
+        "item": "IGAR",
+        "evidence_id": "e5",
+        "quote": "IGAR: transcript isoform abundance estimation method with gapped alignment of RNA-Seq data"
+      },
+      {
+        "item": "Cufflinks",
+        "evidence_id": "e22",
+        "quote": "Here we introduce such algorithms in an open-source software program called Cufflinks."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The list is limited to five programs as requested. Other eligible programs such as RSEM, MISO, IsoLasso, Traph, SpliceTrap, IsoformEx, NEUMA, DRUT, and Spanki were identified in the evidence but omitted to meet the count constraint. Some tools like TopHat, OSA, and MULTo were excluded as they are alignment or mappability tools rather than quantification programs.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 2,
+      "fn": 9,
+      "precision": 0.6,
+      "recall": 0.25,
+      "f1": 0.35294117647058826
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20436464",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21059678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21106091",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21794104",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21816040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21896509",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22072384",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22285831",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22537040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22592379",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23155066",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23202426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23329413",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23349747",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23461570",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23616006",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23734627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23821651",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23888185",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23980025",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24130305",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24209455"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5354f289288f4dae47000008/attempt_0"
+}

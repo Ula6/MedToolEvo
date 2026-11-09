@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"queries\":[{\"query_id\":\"q1\",\"matches\":[{\"source_id\":\"PMC11872689\",\"start\":41,\"end\":48,\"quote\":\"studies\"},{\"source_id\":\"PMC11872689\",\"start\":79,\"end\":86,\"quote\":\"studies\"},{\"source_id\":\"PMC11872689\",\"start\":228,\"end\":235,\"quote\":\"studies\"},{\"source_id\":\"PMC11872689\",\"start\":358,\"end\":365,\"quote\":\"studies\"},{\"source_id\":\"PMC11872689\",\"start\":403,\"end\":410,\"quote\":\"studies\"}]},{\"query_id\":\"q2\",\"matches\":[{\"source_id\":\"PMC11872689\",\"start\":480,\"end\":489,\"quote\":\"vitamin D\"},{\"source_id\":\"PMC11872689\",\"start\":588,\"end\":597,\"quote\":\"vitamin D\"}]},{\"query_id\":\"q3\",\"matches\":[{\"source_id\":\"PMC11872689\",\"start\":440,\"end\":452,\"quote\":\"double‐blind\"}]},{\"query_id\":\"q4\",\"matches\":[{\"source_id\":\"PMC11872689\",\"start\":884,\"end\":896,\"quote\":\"hypertension\"}]},{\"query_id\":\"q5\",\"matches\":[{\"source_id\":\"PMC11872689\",\"start\":1262,\"end\":1281,\"quote\":\"ACEI/ARB medication\"}]},{\"query_id\":\"q6\",\"matches\":[{\"source_id\":\"PMC11872689\",\"start\":1362,\"end\":1376,\"quote\":\"white European\"}]},{\"query_id\":\"q7\",\"matches\":[]}],\"unsupported_query_ids\":[\"q7\"]}"
+      }
+    }
+  ],
+  "created": 1794224172,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 418,
+    "prompt_tokens": 1798,
+    "total_tokens": 2216,
+    "prompt_tokens_details": {
+      "cached_tokens": 578
+    }
+  },
+  "id": "chatcmpl-BpcZpbZu9ARiM2Vssf55CI3iaHO4z3au",
+  "timings": {
+    "cache_n": 578,
+    "prompt_n": 1220,
+    "prompt_ms": 2221.852,
+    "prompt_per_token_ms": 1.8211901639344261,
+    "prompt_per_second": 549.0914786403415,
+    "predicted_n": 418,
+    "predicted_ms": 15289.294,
+    "predicted_per_token_ms": 36.664973621103115,
+    "predicted_per_second": 27.273986620964973
+  }
+}

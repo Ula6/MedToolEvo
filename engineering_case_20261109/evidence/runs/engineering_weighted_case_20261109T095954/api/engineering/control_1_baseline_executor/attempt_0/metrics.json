@@ -1,0 +1,12 @@
+{
+  "elapsed_seconds": 8.198273938149214,
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 1510,
+    "total_tokens": 1656,
+    "prompt_tokens_details": {
+      "cached_tokens": 143
+    }
+  },
+  "model": "medtool-qa"
+}

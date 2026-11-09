@@ -1,0 +1,246 @@
+{
+  "scope": "Posthoc CPU boundary audit selected after source inspection; separate from frozen13-test lifecycle acceptance. Original results unchanged. No model/GPU or code repair requested.",
+  "run": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_v3_20261109T113122",
+  "observed_utc": "2026-11-09T11:42:04.352312+00:00",
+  "passed": 2,
+  "total": 5,
+  "typed_schema_blocks_extra_field": true,
+  "probes": [
+    {
+      "name": "plain_positive",
+      "input": {
+        "sources": [
+          {
+            "source_id": "S",
+            "text": "AB"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "Q",
+            "text": "B"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": [
+              {
+                "source_id": "S",
+                "start": 1,
+                "end": 2,
+                "quote": "B"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      },
+      "expected_error": null,
+      "actual": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": [
+              {
+                "source_id": "S",
+                "start": 1,
+                "end": 2,
+                "quote": "B"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      },
+      "actual_error": null,
+      "pass": true
+    },
+    {
+      "name": "collapsed_whitespace_before_match",
+      "input": {
+        "sources": [
+          {
+            "source_id": "S",
+            "text": "A  B"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "Q",
+            "text": "B"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": [
+              {
+                "source_id": "S",
+                "start": 3,
+                "end": 4,
+                "quote": "B"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      },
+      "expected_error": null,
+      "actual": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": []
+          }
+        ],
+        "unsupported_query_ids": [
+          "Q"
+        ]
+      },
+      "actual_error": null,
+      "pass": false
+    },
+    {
+      "name": "collapsed_mixed_whitespace_before_match",
+      "input": {
+        "sources": [
+          {
+            "source_id": "S",
+            "text": "A\t  B"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "Q",
+            "text": "B"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": [
+              {
+                "source_id": "S",
+                "start": 4,
+                "end": 5,
+                "quote": "B"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      },
+      "expected_error": null,
+      "actual": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": []
+          }
+        ],
+        "unsupported_query_ids": [
+          "Q"
+        ]
+      },
+      "actual_error": null,
+      "pass": false
+    },
+    {
+      "name": "fullwidth_positive",
+      "input": {
+        "sources": [
+          {
+            "source_id": "S",
+            "text": "ＡＢC"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "Q",
+            "text": "bc"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": [
+              {
+                "source_id": "S",
+                "start": 1,
+                "end": 3,
+                "quote": "ＢC"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      },
+      "expected_error": null,
+      "actual": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": [
+              {
+                "source_id": "S",
+                "start": 1,
+                "end": 3,
+                "quote": "ＢC"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      },
+      "actual_error": null,
+      "pass": true
+    },
+    {
+      "name": "extra_top_level_field",
+      "input": {
+        "sources": [
+          {
+            "source_id": "S",
+            "text": "AB"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "Q",
+            "text": "B"
+          }
+        ],
+        "extra": 1
+      },
+      "expected": null,
+      "expected_error": "ValueError",
+      "actual": {
+        "queries": [
+          {
+            "query_id": "Q",
+            "matches": [
+              {
+                "source_id": "S",
+                "start": 1,
+                "end": 2,
+                "quote": "B"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      },
+      "actual_error": null,
+      "pass": false
+    }
+  ]
+}

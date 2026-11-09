@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"entities\": [{\"name\": \"CR18\", \"evidence_ids\": [\"PMC11837447:g9\", \"PMC11837447:g11\"]}, {\"name\": \"CR43\", \"evidence_ids\": [\"PMC11837447:g9\", \"PMC11837447:g11\"]}, {\"name\": \"CR44\", \"evidence_ids\": [\"PMC11837447:g9\", \"PMC11837447:g11\"]}, {\"name\": \"CR45\", \"evidence_ids\": [\"PMC11837447:g9\", \"PMC11837447:g11\"]}], \"unique_entity_count\": 4}",
+  "stderr": "",
+  "elapsed_seconds": 0.03248154791072011,
+  "code_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679"
+}

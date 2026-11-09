@@ -1,0 +1,403 @@
+[
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "s1",
+          "text": "Hello World"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "q1",
+          "text": "World"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "q1",
+          "matches": [
+            {
+              "source_id": "s1",
+              "start": 6,
+              "end": 11,
+              "quote": "World"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "s1",
+          "text": "ana"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "q1",
+          "text": "ana"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "q1",
+          "matches": [
+            {
+              "source_id": "s1",
+              "start": 0,
+              "end": 3,
+              "quote": "ana"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "s1",
+          "text": "Straße"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "q1",
+          "text": "ss"
+        },
+        {
+          "query_id": "q2",
+          "text": "s"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "q1",
+          "matches": [
+            {
+              "source_id": "s1",
+              "start": 4,
+              "end": 5,
+              "quote": "ß"
+            }
+          ]
+        },
+        {
+          "query_id": "q2",
+          "matches": [
+            {
+              "source_id": "s1",
+              "start": 0,
+              "end": 1,
+              "quote": "S"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "s1",
+          "text": "Hello　World"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "q1",
+          "text": "Hello World"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "q1",
+          "matches": [
+            {
+              "source_id": "s1",
+              "start": 0,
+              "end": 11,
+              "quote": "Hello　World"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "s1",
+          "text": "Test"
+        },
+        {
+          "source_id": "s2",
+          "text": "Test"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "q1",
+          "text": "Test"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "q1",
+          "matches": [
+            {
+              "source_id": "s1",
+              "start": 0,
+              "end": 4,
+              "quote": "Test"
+            },
+            {
+              "source_id": "s2",
+              "start": 0,
+              "end": 4,
+              "quote": "Test"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    }
+  },
+  {
+    "input": {
+      "sources": [],
+      "queries": [
+        {
+          "query_id": "q1",
+          "text": "Nothing"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "q1",
+          "matches": []
+        }
+      ],
+      "unsupported_query_ids": [
+        "q1"
+      ]
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "s1",
+          "text": "A"
+        },
+        {
+          "source_id": "s1",
+          "text": "B"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "q1",
+          "text": "A"
+        }
+      ]
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "s1",
+          "text": "A"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "q1",
+          "text": "   "
+        }
+      ]
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "S",
+          "text": "aaa"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "Q",
+          "text": "aa"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "Q",
+          "matches": [
+            {
+              "source_id": "S",
+              "start": 0,
+              "end": 2,
+              "quote": "aa"
+            },
+            {
+              "source_id": "S",
+              "start": 1,
+              "end": 3,
+              "quote": "aa"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "S",
+          "text": "ß"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "Q",
+          "text": "ss"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "Q",
+          "matches": [
+            {
+              "source_id": "S",
+              "start": 0,
+              "end": 1,
+              "quote": "ß"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "S",
+          "text": "ß"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "Q",
+          "text": "s"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "Q",
+          "matches": []
+        }
+      ],
+      "unsupported_query_ids": [
+        "Q"
+      ]
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "S",
+          "text": "XＡ\t  Bz"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "Q",
+          "text": "a b"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "Q",
+          "matches": [
+            {
+              "source_id": "S",
+              "start": 1,
+              "end": 6,
+              "quote": "Ａ\t  B"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    }
+  },
+  {
+    "input": {
+      "sources": [
+        {
+          "source_id": "S",
+          "text": "D‐blind"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "Q",
+          "text": "D-blind"
+        }
+      ]
+    },
+    "expected": {
+      "queries": [
+        {
+          "query_id": "Q",
+          "matches": []
+        }
+      ],
+      "unsupported_query_ids": [
+        "Q"
+      ]
+    }
+  }
+]

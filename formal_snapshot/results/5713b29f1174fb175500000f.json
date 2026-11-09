@@ -1,0 +1,130 @@
+{
+  "task_id": "5713b29f1174fb175500000f",
+  "question": "Which phenotypes are associated with heterozygous mutations of the BSCL2 gene?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Silver syndrome/spastic paraplegia 17",
+      "distal hereditary motor neuropathy type V",
+      "Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+    ],
+    "supports": [
+      {
+        "item": "Silver syndrome/spastic paraplegia 17",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      },
+      {
+        "item": "distal hereditary motor neuropathy type V",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      },
+      {
+        "item": "Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts and titles; specific mutation types (e.g., missense) are mentioned in some sources but not all; phenotypic overlap between conditions is noted.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Silver syndrome/spastic paraplegia 17",
+      "distal hereditary motor neuropathy type V",
+      "Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+    ],
+    "supports": [
+      {
+        "item": "Silver syndrome/spastic paraplegia 17",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      },
+      {
+        "item": "distal hereditary motor neuropathy type V",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      },
+      {
+        "item": "Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts and titles; specific mutation types (e.g., missense) are mentioned in some sources but not all; phenotypic overlap between conditions is noted.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Silver syndrome/spastic paraplegia 17",
+      "distal hereditary motor neuropathy type V",
+      "Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+    ],
+    "supports": [
+      {
+        "item": "Silver syndrome/spastic paraplegia 17",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      },
+      {
+        "item": "distal hereditary motor neuropathy type V",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      },
+      {
+        "item": "Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement",
+        "evidence_id": "e1",
+        "quote": "Heterozygous mutations in the Berardinelli-Seip congenital lipodystrophy (BSCL2) gene have been associated with different clinical phenotypes including Silver syndrome/spastic paraplegia 17, distal hereditary motor neuropathy type V, and Charcot-Marie-Tooth disease type 2 (CMT2) with predominant hand involvement"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts and titles; specific mutation types (e.g., missense) are mentioned in some sources but not all; phenotypic overlap between conditions is noted.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/14981520",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15242882",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17387721",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17633104",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17663003",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20598714",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20806400"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5713b29f1174fb175500000f/attempt_0"
+}

@@ -1,0 +1,147 @@
+{
+  "task_id": "56f8077a8b98c98849000002",
+  "question": "List autoimmune disorders associated with GAD65 autoantibodies.",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "type 1 diabetes",
+      "stiff-person syndrome",
+      "cerebellar ataxia",
+      "limbic encephalitis"
+    ],
+    "supports": [
+      {
+        "item": "type 1 diabetes",
+        "evidence_id": "e2",
+        "quote": "The circulating autoantibodies to multiple islet autoantigens including GAD, insulin, and IA-2 are the important immunological features of type 1 diabetes."
+      },
+      {
+        "item": "stiff-person syndrome",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      },
+      {
+        "item": "cerebellar ataxia",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      },
+      {
+        "item": "limbic encephalitis",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to the provided abstracts and titles; other potential associations not mentioned in these specific segments are not included. The term 'GAD' in some contexts refers to the smaller isoform (GAD65) but is not always explicitly distinguished from GAD67 in the text, though GAD65 is specified in the question and e5 context.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "type 1 diabetes",
+      "stiff-person syndrome",
+      "cerebellar ataxia",
+      "limbic encephalitis"
+    ],
+    "supports": [
+      {
+        "item": "type 1 diabetes",
+        "evidence_id": "e2",
+        "quote": "The circulating autoantibodies to multiple islet autoantigens including GAD, insulin, and IA-2 are the important immunological features of type 1 diabetes."
+      },
+      {
+        "item": "stiff-person syndrome",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      },
+      {
+        "item": "cerebellar ataxia",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      },
+      {
+        "item": "limbic encephalitis",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to the provided abstracts and titles; other potential associations not mentioned in these specific segments are not included. The term 'GAD' in some contexts refers to the smaller isoform (GAD65) but is not always explicitly distinguished from GAD67 in the text, though GAD65 is specified in the question and e5 context.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "type 1 diabetes",
+      "stiff-person syndrome",
+      "cerebellar ataxia",
+      "limbic encephalitis"
+    ],
+    "supports": [
+      {
+        "item": "type 1 diabetes",
+        "evidence_id": "e2",
+        "quote": "The circulating autoantibodies to multiple islet autoantigens including GAD, insulin, and IA-2 are the important immunological features of type 1 diabetes."
+      },
+      {
+        "item": "stiff-person syndrome",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      },
+      {
+        "item": "cerebellar ataxia",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      },
+      {
+        "item": "limbic encephalitis",
+        "evidence_id": "e5",
+        "quote": "Autoantibodies to the smaller isoform of glutamate decarboxylase (GAD) can be found in patients with type 1 diabetes and a number of neurological disorders, including stiff-person syndrome, cerebellar ataxia and limbic encephalitis."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to the provided abstracts and titles; other potential associations not mentioned in these specific segments are not included. The term 'GAD' in some contexts refers to the smaller isoform (GAD65) but is not always explicitly distinguished from GAD67 in the text, though GAD65 is specified in the question and e5 context.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12691864",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14679108",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25566057",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25870548",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8816973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9451598"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/56f8077a8b98c98849000002/attempt_0"
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    \"GC-rich isochores\",\n    \"H isochores\",\n    \"H2 isochores\",\n    \"heavy components\"\n  ],\n  \"supports\": [\n    {\n      \"item\": \"GC-rich isochores\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"the vast majority of Alu sequences were shown to have the highest density in GC-rich isochores\"\n    },\n    {\n      \"item\": \"H isochores\",\n      \"evidence_id\": \"e3\",\n      \"quote\": \"Alu retrotransposons do not show a homogeneous distribution over the human genome but have a higher density in GC-rich (H) than in AT-rich (L) isochores\"\n    },\n    {\n      \"item\": \"H2 isochores\",\n      \"evidence_id\": \"e7\",\n      \"quote\": \"The frequency of Alu sequences also increases with increasing GC, but attains a maximum in H2 isochores, in agreement with previous experimental data\"\n    },\n    {\n      \"item\": \"heavy components\",\n      \"evidence_id\": \"e11\",\n      \"quote\": \"The results indicate that the short repeats of the B1 family of mouse and of the Alu I family of man are most frequent in the heavy components\"\n    }\n  ],\n  \"limitations\": \"Evidence e10 notes Alu frequency in introns is roughly equal across isochore classes, contrasting with genomic density trends. Specific isochore classes (H2) are mentioned as having maximum frequency, while general GC-rich or H isochores are described as having higher density.\"\n}"
+      }
+    }
+  ],
+  "created": 1794206529,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 376,
+    "prompt_tokens": 1197,
+    "total_tokens": 1573,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-e8cpa9Tq8mQ71H0Dq22tkJyHrI56VQo0",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1197,
+    "prompt_ms": 2218.219,
+    "prompt_per_token_ms": 1.8531487050960735,
+    "prompt_per_second": 539.6221022360731,
+    "predicted_n": 376,
+    "predicted_ms": 13729.117,
+    "predicted_per_token_ms": 36.61097866666667,
+    "predicted_per_second": 27.314211103306935
+  }
+}

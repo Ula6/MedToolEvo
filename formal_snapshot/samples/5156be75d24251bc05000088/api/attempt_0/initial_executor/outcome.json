@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "parsed": {
+    "items": [
+      "osteosarcoma",
+      "epilepsy",
+      "stromal keratitis",
+      "schizophrenia",
+      "progressive supranuclear palsy",
+      "Huntington's disease",
+      "Alzheimer's disease"
+    ],
+    "supports": [
+      {
+        "item": "osteosarcoma",
+        "evidence_id": "e1",
+        "quote": "Levels of six candidate miRNAs (miR-21, miR-199a-3p, miR-143, miR-34, miR-140, and miR-132) that were previously demonstrated to be regulated in osteosarcoma were examined in plasma of 40 osteosarcoma patients and 40 matched healthy controls by quantitative reverse-transcription polymerase chain reaction assays."
+      },
+      {
+        "item": "epilepsy",
+        "evidence_id": "e2",
+        "quote": "Functional studies employing antagomirs have identified contributions from miR-34a and miR-132 to seizure-induced neuronal death whereas silencing miR-134 potently reduced status epilepticus, seizure-damage and the later occurrence of spontaneous seizures."
+      },
+      {
+        "item": "stromal keratitis",
+        "evidence_id": "e4",
+        "quote": "Herpes simplex virus (HSV) causes a chronic immuno-inflammatory response in the eye that may result in corneal neovascularization during blinding immunopathological lesion stromal keratitis (SK). miR-132 is a highly conserved miRNA that is induced in endothelial cells in response to growth factors, such as vascular endothelial growth factor (VEGF)."
+      },
+      {
+        "item": "schizophrenia",
+        "evidence_id": "e8",
+        "quote": "The cyclic AMP-responsive element binding- and NMDA-regulated microRNA miR-132 was significantly down-regulated in both the schizophrenic discovery cohort and a second, independent set of schizophrenic subjects."
+      },
+      {
+        "item": "progressive supranuclear palsy",
+        "evidence_id": "e10",
+        "quote": "Analysis of miRNA expression profiles from sporadic progressive supranuclear palsy (PSP) patients, a major 4R-tau tauopathy, showed that miR-132 is specifically down-regulated in disease."
+      },
+      {
+        "item": "Huntington's disease",
+        "evidence_id": "e12",
+        "quote": "Nine miRNAs (miR-22, miR-29c, miR-128, miR-132, miR-138, miR-218, miR-222, miR-344, and miR-674*) were commonly down-regulated in both the 12-month-old YAC128 and 10-week-old R6/2 mice."
+      },
+      {
+        "item": "Alzheimer's disease",
+        "evidence_id": "e16",
+        "quote": "The data indicate that micro-RNAs encoding miR-9, miR-124a, miR-125b, miR-128, miR-132 and miR-219 are abundantly represented in fetal hippocampus, are differentially regulated in aged brain, and an alteration in specific micro-RNA complexity occurs in Alzheimer hippocampus."
+      }
+    ],
+    "limitations": "Evidence is derived from specific study cohorts, animal models (e.g., YAC128, R6/2 mice), or specific contexts (e.g., HSV-induced SK). Implication ranges from differential expression to functional contribution, but causality in all human disease contexts is not universally established across all evidence segments."
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "task_id": "52df8ce798d023950500000d",
+  "question": "Which are the supplemental antioxidant in athletes?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "vitamin C",
+      "vitamin E",
+      "CoQ(10)",
+      "melatonin",
+      "zinc",
+      "Rhodiola Rosea",
+      "Biostimine",
+      "BC juice",
+      "Cr",
+      "Asx",
+      "quercetin",
+      "n-3 fatty acids",
+      "whey protein",
+      "soy protein",
+      "L. rhamnosus IMC 501",
+      "L. paracasei IMC 502",
+      "vitamin D"
+    ],
+    "supports": [
+      {
+        "item": "vitamin C",
+        "evidence_id": "e4",
+        "quote": "Quercetin and vitamin C supplementation may not be beneficial in lipid profile improvement, although it may reduce induce muscle damage and body fat percent."
+      },
+      {
+        "item": "vitamin E",
+        "evidence_id": "e19",
+        "quote": "Supplementation with antioxidant vitamin E to athletes at 267 mg (400 IUs) or greater has been reported to reduce levels of LP associated with exercise."
+      },
+      {
+        "item": "CoQ(10)",
+        "evidence_id": "e11",
+        "quote": "CoQ(10) supplementation before strenuous exercise decreases the oxidative stress and modulates the inflammatory signaling, reducing the subsequent muscle damage."
+      },
+      {
+        "item": "melatonin",
+        "evidence_id": "e10",
+        "quote": "In conclusion these results indicated that treatment with melatonin in acute sports exercise reversed oxidative stress, improved defenses and lipid metabolism, which would result in an improvement in fitness."
+      },
+      {
+        "item": "zinc",
+        "evidence_id": "e20",
+        "quote": "Results obtained at the end of the study indicate that zinc supplementation prevents production of free radicals by activating the antioxidant system."
+      },
+      {
+        "item": "Rhodiola Rosea",
+        "evidence_id": "e18",
+        "quote": "Rhodiola Rosea, is an adaptogen plant which has been reported to promote fatty acids utilisation, to ameliorate antioxidant function, and to improve body resistance to physical strenuous efforts."
+      },
+      {
+        "item": "Biostimine",
+        "evidence_id": "e8",
+        "quote": "Consequently, we can conclude that Biostimine supplementation reduces the postexercise level of TBARS by increasing the antioxidant activity of plasma but has no effect on inflammatory markers."
+      },
+      {
+        "item": "BC juice",
+        "evidence_id": "e6",
+        "quote": "Effects of the two treatments relative to placebo on mean performance in the incremental test and time trial were unclear, but runners faster by 1 SD of peak speed demonstrated a possible improvement on peak running speed with BC juice (1.9%; ±2.5%)."
+      },
+      {
+        "item": "Cr",
+        "evidence_id": "e12",
+        "quote": "Heretofore, Cr's positive therapeutic benefits in various oxidative stress-associated diseases have been reported in the literature and, recently, Cr has also been shown to exert direct antioxidant effects."
+      },
+      {
+        "item": "Asx",
+        "evidence_id": "e9",
+        "quote": "Supplementation with Asx could prevent exercise induced free radical production and depletion of non-enzymatic antioxidant defense in young soccer players."
+      },
+      {
+        "item": "quercetin",
+        "evidence_id": "e4",
+        "quote": "Quercetin and vitamin C supplementation may not be beneficial in lipid profile improvement, although it may reduce induce muscle damage and body fat percent."
+      },
+      {
+        "item": "n-3 fatty acids",
+        "evidence_id": "e15",
+        "quote": "This study examined the effects of 1,000 mg quercetin + 1,000 mg vitamin C (QC); 1,000 mg quercetin, 1,000 mg vitamin C, 400 mg isoquercetin, 30 mg epigallocatechin gallate, and 400 mg n-3 fatty acids (QFO)"
+      },
+      {
+        "item": "whey protein",
+        "evidence_id": "e22",
+        "quote": "A number of clinical trials have successfully been performed using whey and/or soy proteins in the treatment of many diseases. They both have antioxidant properties, which appears to be a factor in aerobic physical performance as well."
+      },
+      {
+        "item": "soy protein",
+        "evidence_id": "e22",
+        "quote": "A number of clinical trials have successfully been performed using whey and/or soy proteins in the treatment of many diseases. They both have antioxidant properties, which appears to be a factor in aerobic physical performance as well."
+      },
+      {
+        "item": "L. rhamnosus IMC 501",
+        "evidence_id": "e16",
+        "quote": "The two strains, L. rhamnosus IMC 501(®) and L. paracasei IMC 502(®), exert strong antioxidant activity. Athletes and all those exposed to oxidative stress may benefit from the ability of these probiotics to increase antioxidant levels and neutralize the effects of reactive oxygen species."
+      },
+      {
+        "item": "L. paracasei IMC 502",
+        "evidence_id": "e16",
+        "quote": "The two strains, L. rhamnosus IMC 501(®) and L. paracasei IMC 502(®), exert strong antioxidant activity. Athletes and all those exposed to oxidative stress may benefit from the ability of these probiotics to increase antioxidant levels and neutralize the effects of reactive oxygen species."
+      },
+      {
+        "item": "vitamin D",
+        "evidence_id": "e14",
+        "quote": "Nevertheless, based upon the growing evidence that many athletic populations are vitamin D deficient or insufficient, it is recommended that athletes monitor their serum vitamin D concentration and consult with their health care professional and/or nutritionist to determine if they would derive health benefits from vitamin D supplementation."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is mixed; some supplements (e.g., vitamin C/E, n-3 LCPUFAs) showed no benefit or increased oxidative stress in specific studies. Benefits are often conditional on dosage, population (e.g., young soccer players, master athletes), or specific outcomes (e.g., lipid peroxidation vs. inflammation). Some items are mentioned as having antioxidant properties or being studied, but direct efficacy in athletes is not universally confirmed across all evidence segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 10,
+      "fp": 7,
+      "fn": 9,
+      "precision": 0.5882352941176471,
+      "recall": 0.5263157894736842,
+      "f1": 0.5555555555555555
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "RQ",
+      "Biostimine",
+      "Asx",
+      "melatonin",
+      "CoQ(10)",
+      "Cr",
+      "vitamin D",
+      "L. rhamnosus IMC 501",
+      "L. paracasei IMC 502",
+      "Rhodiola Rosea",
+      "vitamin E",
+      "zinc",
+      "whey proteins",
+      "soy proteins"
+    ],
+    "supports": [
+      {
+        "item": "RQ",
+        "evidence_id": "e2",
+        "quote": "These data indicate that RQ significantly reduces exercise-induced lipid peroxidation without associated changes in inflammation or plasma antioxidant status."
+      },
+      {
+        "item": "Biostimine",
+        "evidence_id": "e8",
+        "quote": "Consequently, we can conclude that Biostimine supplementation reduces the postexercise level of TBARS by increasing the antioxidant activity of plasma but has no effect on inflammatory markers."
+      },
+      {
+        "item": "Asx",
+        "evidence_id": "e9",
+        "quote": "Supplementation with Asx could prevent exercise induced free radical production and depletion of non-enzymatic antioxidant defense in young soccer players."
+      },
+      {
+        "item": "melatonin",
+        "evidence_id": "e10",
+        "quote": "In conclusion these results indicated that treatment with melatonin in acute sports exercise reversed oxidative stress, improved defenses and lipid metabolism, which would result in an improvement in fitness."
+      },
+      {
+        "item": "CoQ(10)",
+        "evidence_id": "e11",
+        "quote": "CoQ(10) supplementation before strenuous exercise decreases the oxidative stress and modulates the inflammatory signaling, reducing the subsequent muscle damage."
+      },
+      {
+        "item": "Cr",
+        "evidence_id": "e12",
+        "quote": "Heretofore, Cr's positive therapeutic benefits in various oxidative stress-associated diseases have been reported in the literature and, recently, Cr has also been shown to exert direct antioxidant effects."
+      },
+      {
+        "item": "vitamin D",
+        "evidence_id": "e14",
+        "quote": "it is recommended that athletes monitor their serum vitamin D concentration and consult with their health care professional and/or nutritionist to determine if they would derive health benefits from vitamin D supplementation."
+      },
+      {
+        "item": "L. rhamnosus IMC 501",
+        "evidence_id": "e16",
+        "quote": "The two strains, L. rhamnosus IMC 501(®) and L. paracasei IMC 502(®), exert strong antioxidant activity. Athletes and all those exposed to oxidative stress may benefit from the ability of these probiotics to increase antioxidant levels and neutralize the effects of reactive oxygen species."
+      },
+      {
+        "item": "L. paracasei IMC 502",
+        "evidence_id": "e16",
+        "quote": "The two strains, L. rhamnosus IMC 501(®) and L. paracasei IMC 502(®), exert strong antioxidant activity. Athletes and all those exposed to oxidative stress may benefit from the ability of these probiotics to increase antioxidant levels and neutralize the effects of reactive oxygen species."
+      },
+      {
+        "item": "Rhodiola Rosea",
+        "evidence_id": "e18",
+        "quote": "Rhodiola Rosea, is an adaptogen plant which has been reported to promote fatty acids utilisation, to ameliorate antioxidant function, and to improve body resistance to physical strenuous efforts."
+      },
+      {
+        "item": "vitamin E",
+        "evidence_id": "e19",
+        "quote": "Supplementation with antioxidant vitamin E to athletes at 267 mg (400 IUs) or greater has been reported to reduce levels of LP associated with exercise."
+      },
+      {
+        "item": "zinc",
+        "evidence_id": "e20",
+        "quote": "Results obtained at the end of the study indicate that zinc supplementation prevents production of free radicals by activating the antioxidant system."
+      },
+      {
+        "item": "whey proteins",
+        "evidence_id": "e22",
+        "quote": "A number of clinical trials have successfully been performed using whey and/or soy proteins in the treatment of many diseases. They both have antioxidant properties, which appears to be a factor in aerobic physical performance as well."
+      },
+      {
+        "item": "soy proteins",
+        "evidence_id": "e22",
+        "quote": "A number of clinical trials have successfully been performed using whey and/or soy proteins in the treatment of many diseases. They both have antioxidant properties, which appears to be a factor in aerobic physical performance as well."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates mixed results for some supplements (e.g., vitamin C, quercetin, n-3 LCPUFAs) where benefits are absent or oxidative stress is increased; specific populations (e.g., young soccer players, runners faster by 1 SD) and dosages (e.g., vitamin E ≥267 mg) are critical qualifiers; general vitamin supplementation is noted as having questionable benefits or negative side effects in master athletes.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 7,
+      "fp": 7,
+      "fn": 12,
+      "precision": 0.5,
+      "recall": 0.3684210526315789,
+      "f1": 0.4242424242424242
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "RQ",
+      "Biostimine",
+      "Asx",
+      "melatonin",
+      "CoQ(10)",
+      "Cr",
+      "vitamin D",
+      "L. rhamnosus IMC 501",
+      "L. paracasei IMC 502",
+      "Rhodiola Rosea",
+      "vitamin E",
+      "zinc",
+      "whey proteins",
+      "soy proteins"
+    ],
+    "supports": [
+      {
+        "item": "RQ",
+        "evidence_id": "e2",
+        "quote": "These data indicate that RQ significantly reduces exercise-induced lipid peroxidation without associated changes in inflammation or plasma antioxidant status."
+      },
+      {
+        "item": "Biostimine",
+        "evidence_id": "e8",
+        "quote": "Consequently, we can conclude that Biostimine supplementation reduces the postexercise level of TBARS by increasing the antioxidant activity of plasma but has no effect on inflammatory markers."
+      },
+      {
+        "item": "Asx",
+        "evidence_id": "e9",
+        "quote": "Supplementation with Asx could prevent exercise induced free radical production and depletion of non-enzymatic antioxidant defense in young soccer players."
+      },
+      {
+        "item": "melatonin",
+        "evidence_id": "e10",
+        "quote": "In conclusion these results indicated that treatment with melatonin in acute sports exercise reversed oxidative stress, improved defenses and lipid metabolism, which would result in an improvement in fitness."
+      },
+      {
+        "item": "CoQ(10)",
+        "evidence_id": "e11",
+        "quote": "CoQ(10) supplementation before strenuous exercise decreases the oxidative stress and modulates the inflammatory signaling, reducing the subsequent muscle damage."
+      },
+      {
+        "item": "Cr",
+        "evidence_id": "e12",
+        "quote": "Heretofore, Cr's positive therapeutic benefits in various oxidative stress-associated diseases have been reported in the literature and, recently, Cr has also been shown to exert direct antioxidant effects."
+      },
+      {
+        "item": "vitamin D",
+        "evidence_id": "e14",
+        "quote": "it is recommended that athletes monitor their serum vitamin D concentration and consult with their health care professional and/or nutritionist to determine if they would derive health benefits from vitamin D supplementation."
+      },
+      {
+        "item": "L. rhamnosus IMC 501",
+        "evidence_id": "e16",
+        "quote": "The two strains, L. rhamnosus IMC 501(®) and L. paracasei IMC 502(®), exert strong antioxidant activity. Athletes and all those exposed to oxidative stress may benefit from the ability of these probiotics to increase antioxidant levels and neutralize the effects of reactive oxygen species."
+      },
+      {
+        "item": "L. paracasei IMC 502",
+        "evidence_id": "e16",
+        "quote": "The two strains, L. rhamnosus IMC 501(®) and L. paracasei IMC 502(®), exert strong antioxidant activity. Athletes and all those exposed to oxidative stress may benefit from the ability of these probiotics to increase antioxidant levels and neutralize the effects of reactive oxygen species."
+      },
+      {
+        "item": "Rhodiola Rosea",
+        "evidence_id": "e18",
+        "quote": "Rhodiola Rosea, is an adaptogen plant which has been reported to promote fatty acids utilisation, to ameliorate antioxidant function, and to improve body resistance to physical strenuous efforts."
+      },
+      {
+        "item": "vitamin E",
+        "evidence_id": "e19",
+        "quote": "Supplementation with antioxidant vitamin E to athletes at 267 mg (400 IUs) or greater has been reported to reduce levels of LP associated with exercise."
+      },
+      {
+        "item": "zinc",
+        "evidence_id": "e20",
+        "quote": "Results obtained at the end of the study indicate that zinc supplementation prevents production of free radicals by activating the antioxidant system."
+      },
+      {
+        "item": "whey proteins",
+        "evidence_id": "e22",
+        "quote": "A number of clinical trials have successfully been performed using whey and/or soy proteins in the treatment of many diseases. They both have antioxidant properties, which appears to be a factor in aerobic physical performance as well."
+      },
+      {
+        "item": "soy proteins",
+        "evidence_id": "e22",
+        "quote": "A number of clinical trials have successfully been performed using whey and/or soy proteins in the treatment of many diseases. They both have antioxidant properties, which appears to be a factor in aerobic physical performance as well."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates mixed results for some supplements (e.g., vitamin C, quercetin, n-3 LCPUFAs) where benefits are absent or oxidative stress is increased; specific populations (e.g., young soccer players, runners faster by 1 SD) and dosages (e.g., vitamin E ≥267 mg) are critical qualifiers; general vitamin supplementation is noted as having questionable benefits or negative side effects in master athletes.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 7,
+      "fp": 7,
+      "fn": 12,
+      "precision": 0.5,
+      "recall": 0.3684210526315789,
+      "f1": 0.4242424242424242
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16575496",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18562771",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19597720",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19838998",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20308973",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21116022",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21400082",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21813916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21830999",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21990004",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22080314",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22212240",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22828460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23349254",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23436649",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23600891",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23717765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23717772",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23800565",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23980734",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24323888"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/52df8ce798d023950500000d/attempt_0"
+}

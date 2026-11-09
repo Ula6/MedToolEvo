@@ -1,0 +1,13 @@
+{
+  "parent_manifest": "/home/supervisor/project/sy/MedToolEvo/runs/ledger_repair_v2_20261108T080249/registry/evidence_ledger.json",
+  "parent_version": "autonomous_evidence_ledger_20261108T080249_v004",
+  "parent_code_sha256": "75b7c64645d3557e15ccd24db903939c1429e2027d8589ddefc818b2570a0a9f",
+  "initial_existing_copy": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/evolved_add_policy_filter_engine_00a5aa6c_v004.py",
+  "initial_copy_sha256": "75b7c64645d3557e15ccd24db903939c1429e2027d8589ddefc818b2570a0a9f",
+  "old_named_tests": 10,
+  "old_test_sha256": "f8dccce35eb81b26198eb8b851e0e1051e68056b426efa795ffd17d575f56d1f",
+  "old_test_definitions_sha256": "4de6b8280845b0cb1366a25b18e971d9777046f38ee6fc778f35b4094895c545",
+  "new_cases": 12,
+  "combined_test_sha256": "83eb5215f8d217cb1c19fd7b503e0e6a316ee2d2c4a649c483dec5c13334cdf8",
+  "no_manual_candidate_edits": true
+}

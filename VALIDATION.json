@@ -1,0 +1,26 @@
+{
+  "model_calls": 0,
+  "sandbox": "bubblewrap",
+  "replay": {
+    "numeric": {
+      "passed": 8,
+      "failed": 0,
+      "code_sha256": "f80f9e9749595cf01602e0fd3a36717096b045c2c66a5d8f3f0dac22477170bc",
+      "test_sha256": "6088b614fbb272c4fe02e15491523667f57731c5dd887ee00d4deb98a32c1737"
+    },
+    "anchors": {
+      "passed": 13,
+      "failed": 0,
+      "code_sha256": "5e314cfd4f195b5123f2d8bcb79f4391d8da31d544bf22a497df2e7e5603664d",
+      "test_sha256": "1ae13a6da8fde33a95810eb64b2cdbb0e054b19848e27abd5c45e74d2087b954"
+    },
+    "policy": {
+      "passed": 22,
+      "failed": 0,
+      "code_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679",
+      "test_sha256": "83eb5215f8d217cb1c19fd7b503e0e6a316ee2d2c4a649c483dec5c13334cdf8"
+    }
+  },
+  "verified_at_utc": "2026-11-09T13:37:13.824318+00:00",
+  "scope": "Original immutable test hashes and Linux bubblewrap replay; no model calls. Not clinical validation."
+}

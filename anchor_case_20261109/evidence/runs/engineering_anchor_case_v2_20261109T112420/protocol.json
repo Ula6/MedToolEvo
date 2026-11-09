@@ -1,0 +1,43 @@
+{
+  "scope": "real-prose derived anchor-index development case, not original BioASQ/DocHopQA task",
+  "implementation_revision": "v2 fixed interface attachment; same task/rules/I-O/oracle/acceptance; reuse only hash-matched original public baseline/retry/Manager calls",
+  "models": {
+    "semantics": "Qwen3.5-27B",
+    "code": "Qwen3-Coder-30B"
+  },
+  "method": "Align every query against ALL original source strings without inventing evidence.\nInput is exactly {sources:[{source_id:string,text:string}],queries:[{query_id:string,text:string}]}.\nIDs are nonempty, unique within their lists. All texts are strings; queries cannot\nbe empty/whitespace-only. Normalize each ORIGINAL Unicode code point separately\nusing unicodedata.normalize('NFKC',char).casefold(), concatenate the results, and\ncollapse each whitespace run to ONE ASCII space. Do NOT trim, remove punctuation,\ntranslate, infer aliases, equate different dash characters or normalize across\ncode-point boundaries. Apply the SAME normalization to each query.\nFind ALL substring occurrences including overlaps, in source input order then\nascending ORIGINAL start. Map each normalized occurrence back to its original\nzero-based Python Unicode code-point [start,end) span, NOT UTF-8 bytes or tokens.\nEmit only matches whose WHOLE original span, normalized by the same rule, equals\nthe normalized query. This rejects partial hits inside a casefold expansion:\nsource U+00DF matches query ss, but NOT query s. Collapse duplicate original spans.\nquote MUST equal original_text[start:end] exactly, including original case and\nwhitespace. Preserve separate source IDs. Output queries in input query order,\nmatches:[{source_id,start,end,quote}], and unsupported_query_ids in input order\nfor exactly those queries with no matches. Empty lists are allowed. Never use\nsemantic similarity as a match. Preserve inputs. Reject malformed objects, extra\nkeys, wrong types, duplicate/empty IDs and blank queries with ValueError. Ordinary\nallowed Python standard modules including unicodedata are sufficient; no files,\nnetwork, external packages, model calls or hardcoded source/query values.",
+  "code_repairs": 3,
+  "registration": "development only",
+  "full_authorized": false,
+  "queue_policy": "Fixed1 source packets before baseline. Preserve every baseline/retry. Select only a substantive membership error that remains in same-evidence Qwen retry; otherwise continue the fixed queue without manufacturing failure.",
+  "manual_intervention": "Source selection, structural question/rules, typed interface, offline oracle, controls/reuse and controller preset. No source/candidate edits, forced failures or expected index supplied to actors.",
+  "infrastructure_change": "No whitelist expansion needed: quote alignment uses existing allowed unicodedata. Original frozen pilot helper is unchanged.",
+  "hashes": {
+    "schema_support.py": "9709946e52cd16fc243933b8facba1cd676ce9e6152b3347d9839e0ac76436ca",
+    "autonomous_grader.py": "079e8001323a7e613b345f776b8706fbdc2a777bef1500689e44707671cb1fbd",
+    "run_atomic_repair_then_pilot100.py": "cefd0a7e148c5bacd05a9679f921f20090d821140f3c97f8f3102bce88ab91b3",
+    "failure_authenticity.py": "2afbd8f43a87cd803f431a3f012a89bf97150ded9b1f854dddaef9317d6221ba",
+    "engineering_oracle.py": "a0abba30da75c61a0fb7219fe7bda5fb528853a2d0d378e901638b0659507201",
+    "anchor_oracle.py": "9ec28391acaf701db6b27145f28434c5eafe43fdb2afb40011726b8d53dcb3b0",
+    "run_pilot100_20261108.py": "fcd9bf753e3b93a7d904ec0ffbfeff08ceaef8b7bb17a2e1a1e8554cf2360485",
+    "model_service.py": "eda3442c491e07ad727e1e6a3075b53c40f30897f0f391f2f504de930ce1b237",
+    "run_formal_list.py": "99580588e866ae508cafb8c1bcfc9f0393d07084e4f7136ed1e63f07ae1e08f3",
+    "pilot100_policy.py": "b5800b67b139e48caeb04fa82afab5a13bc4d4f0046149fc023a80803a5cc2f6",
+    "run_reliable_pilot100.py": "6fb368da6aafbe2bbf983c38e201b3aefb85bd07762ebb291ecd9b4259363fb8",
+    "anchor_protocol.py": "6d27d59850e978d286d81abce17aab4e83f5f19b84c0744ef2046aff2cc99083",
+    "run_guarded_pilot100_20261108.py": "c929386db8edaaa1840347a97ef7b43a589380e51314167cbb14e619167b9e5c",
+    "engineering_case_pipeline.py": "b64a9d5a5b97f7c2c85409906fd75f55c2842a1952419ee66015c62740a8ec7b",
+    "anchor_pipeline.py": "465b6084274f13cf113425d220537ab1a303c7e55875b1b294df85cfa18df454",
+    "run_singlecase.py": "2aca8a279211de6d421b4811cff57f8c0de4ddcdadd04eab339fda60a95b670d",
+    "validate_anchor_cpu.py": "3330d1d50b1dd46f68adbeaefb5e12eb4dfeabd985c63ab7dc5358361c4ce4aa",
+    "runtime_tools.py": "86383029b42693c1ca4c60d5685c9f5bd33e661e509a0e201ad24b297c545555",
+    "run_closed_loop_v5_1_20261108.py": "f631f707edc8a3f1ec0e21b93c62f721a4a497bf26fcac5e024c3fa643b93079",
+    "engineering_protocol.py": "3d7fba6a91a125531786921a18130e23f1849f292c56fbaa0edc9395128d287d",
+    "closed_loop_core_v5_1.py": "77af4eedf1c4c5d1d880e5c8ad53b0a8eb8e4ec1649c7451aaf42ae3e59cc33d",
+    "evolve_tool_stream.py": "d5b66524f0722eb7486e9b249387d2491ccd32b931963e1adea9992061c8d2cb",
+    "autonomous_evolution.py": "5cff1270631efb3016afa78096be4c999b2a8cc4b675dd9a5c58d2feb67047ef",
+    "output_contracts.py": "99c85c0316a52df7ef04a6bcb7d160de536fb7073ad9a9f7fbfa3d09a77d4bd9",
+    "contract_guard.py": "c546e4f1ae33ffb58d95fe838163656188455b55eea4ec96bf239a8462f0fa54",
+    "formal_list_metrics.py": "e55d41123147b14ea35d7edf373f985743f7c6558bc09e501a14c73e45277aab"
+  }
+}

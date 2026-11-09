@@ -1,0 +1,114 @@
+{
+  "task_id": "58962ed178275d0c4a000006",
+  "question": "Entresto is composed of which two drugs?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "sacubitril",
+      "valsartan"
+    ],
+    "supports": [
+      {
+        "item": "sacubitril",
+        "evidence_id": "e7",
+        "quote": "Valsartan/sacubitril (formerly known as LCZ696 and currently marketed by Novartis as Entresto) combines the angiotensin receptor blocker valsartan and the neprilysin inhibitor prodrug sacubitril in a 1:1 ratio in a sodium supramolecular complex."
+      },
+      {
+        "item": "valsartan",
+        "evidence_id": "e7",
+        "quote": "Valsartan/sacubitril (formerly known as LCZ696 and currently marketed by Novartis as Entresto) combines the angiotensin receptor blocker valsartan and the neprilysin inhibitor prodrug sacubitril in a 1:1 ratio in a sodium supramolecular complex."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence confirms Entresto is a fixed-dose combination of sacubitril and valsartan; no other active ingredients are mentioned in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "sacubitril",
+      "valsartan"
+    ],
+    "supports": [
+      {
+        "item": "sacubitril",
+        "evidence_id": "e7",
+        "quote": "Valsartan/sacubitril (formerly known as LCZ696 and currently marketed by Novartis as Entresto) combines the angiotensin receptor blocker valsartan and the neprilysin inhibitor prodrug sacubitril in a 1:1 ratio in a sodium supramolecular complex."
+      },
+      {
+        "item": "valsartan",
+        "evidence_id": "e7",
+        "quote": "Valsartan/sacubitril (formerly known as LCZ696 and currently marketed by Novartis as Entresto) combines the angiotensin receptor blocker valsartan and the neprilysin inhibitor prodrug sacubitril in a 1:1 ratio in a sodium supramolecular complex."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence confirms Entresto is a fixed-dose combination of sacubitril and valsartan; no other active ingredients are mentioned in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "sacubitril",
+      "valsartan"
+    ],
+    "supports": [
+      {
+        "item": "sacubitril",
+        "evidence_id": "e7",
+        "quote": "Valsartan/sacubitril (formerly known as LCZ696 and currently marketed by Novartis as Entresto) combines the angiotensin receptor blocker valsartan and the neprilysin inhibitor prodrug sacubitril in a 1:1 ratio in a sodium supramolecular complex."
+      },
+      {
+        "item": "valsartan",
+        "evidence_id": "e7",
+        "quote": "Valsartan/sacubitril (formerly known as LCZ696 and currently marketed by Novartis as Entresto) combines the angiotensin receptor blocker valsartan and the neprilysin inhibitor prodrug sacubitril in a 1:1 ratio in a sodium supramolecular complex."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence confirms Entresto is a fixed-dose combination of sacubitril and valsartan; no other active ingredients are mentioned in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26417173",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26466333",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26642078",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26975167",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26976916",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26992459",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27284124",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27378659",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27804100"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/58962ed178275d0c4a000006/attempt_0"
+}

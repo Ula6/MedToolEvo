@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "fixed_unicode_checks": 5,
+  "exhaustive_tiny_string_queries": 42,
+  "invalid_checks": 4,
+  "real_payload_checks": 5,
+  "models_called": false,
+  "scope": "Offline oracle/schema only, not generated candidate tests",
+  "frozen_independent_cases": 13,
+  "fixture_provenance": {
+    "Qwen_input_proposal": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_v2_20261109T112420/verifier_2.json",
+    "proposal_sha256": "fc297637b2bb8b45167f63db5b94edf52a725903f6b0ac0aa28c853fbcc9fd5c",
+    "Qwen_designed_inputs": 8,
+    "prebaseline_CPU_boundary_inputs": 5,
+    "expected_values": "Derived offline by the independently checked fixed-rule oracle before any candidate exists; no Qwen expected coordinates accepted blindly.",
+    "cases_sha256": "7acb122d3158f1810f2b7ee4bba1d29ffb8db5680ce388736f4e081b933a43b0",
+    "no_previous_candidate_or_real_source_coordinates_used": true
+  }
+}

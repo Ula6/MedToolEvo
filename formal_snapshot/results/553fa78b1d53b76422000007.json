@@ -1,0 +1,442 @@
+{
+  "task_id": "553fa78b1d53b76422000007",
+  "question": "Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "miR-200a",
+      "miR-100",
+      "miR-141",
+      "miR-200b",
+      "miR-200c",
+      "miR-203",
+      "miR-510",
+      "miR-509-5p",
+      "miR-21",
+      "miR-132",
+      "miR-26a",
+      "let-7b",
+      "miR-145",
+      "miR-182",
+      "miR-152",
+      "miR-148a",
+      "let-7a",
+      "let-7i",
+      "miR-92",
+      "miR-93"
+    ],
+    "supports": [
+      {
+        "item": "miR-200a",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-100",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-141",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-200b",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-200c",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-203",
+        "evidence_id": "e3",
+        "quote": "These findings provide the convincing evidence for the first time that the upregulation of miR-203 may serve as a novel molecular marker to predict the aggressive tumor progression and unfavorable prognosis of EOC patients"
+      },
+      {
+        "item": "miR-510",
+        "evidence_id": "e6",
+        "quote": "Our results suggest that miRNAs may play a role in the progression of OSC, and miR-510 and miR-509-5p may be considered novel-candidate clinical biomarkers for predicting OSC outcome"
+      },
+      {
+        "item": "miR-509-5p",
+        "evidence_id": "e6",
+        "quote": "Our results suggest that miRNAs may play a role in the progression of OSC, and miR-510 and miR-509-5p may be considered novel-candidate clinical biomarkers for predicting OSC outcome"
+      },
+      {
+        "item": "miR-21",
+        "evidence_id": "e8",
+        "quote": "These findings indicate that serum miR-21 may serve as a novel diagnostic and prognostic marker, and be used as a therapeutic target for the treatment of EOC"
+      },
+      {
+        "item": "miR-132",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-26a",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "let-7b",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-145",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-182",
+        "evidence_id": "e12",
+        "quote": "microRNA (miR)-182, miR-200a, miR-200b and miR-200c were highly overexpressed in the SEOC cell lines relative to normal human ovarian surface epithelial cells and were assessed in RNA extracted from serum as candidate biomarkers"
+      },
+      {
+        "item": "miR-152",
+        "evidence_id": "e15",
+        "quote": "Taken together, miR-152 and miR-148a may be involved             in the carcinogenesis of ovarian cancer through deregulation of cell proliferation.             They may be novel biomarkers for early detection or therapeutic targets of ovarian             cancer"
+      },
+      {
+        "item": "miR-148a",
+        "evidence_id": "e15",
+        "quote": "Taken together, miR-152 and miR-148a may be involved             in the carcinogenesis of ovarian cancer through deregulation of cell proliferation.             They may be novel biomarkers for early detection or therapeutic targets of ovarian             cancer"
+      },
+      {
+        "item": "let-7a",
+        "evidence_id": "e17",
+        "quote": "The study suggests that the beneficial impact of the addition of paclitaxel on EOC survival was significantly linked to let-7a levels, and that miRNAs such as let-7a may be a useful marker for selection of chemotherapeutic agents in EOC management"
+      },
+      {
+        "item": "let-7i",
+        "evidence_id": "e20",
+        "quote": "our results strongly suggest that let-7i might be used as a therapeutic target to modulate platinum-based chemotherapy and as a biomarker to predict chemotherapy response and survival in patients with ovarian cancer"
+      },
+      {
+        "item": "miR-92",
+        "evidence_id": "e21",
+        "quote": "miRNAs-21, 92 and 93 are known oncogenes with therapeutic and biomarker potential"
+      },
+      {
+        "item": "miR-93",
+        "evidence_id": "e21",
+        "quote": "miRNAs-21, 92 and 93 are known oncogenes with therapeutic and biomarker potential"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is derived from abstracts and titles of specific studies; some findings refer to specific subtypes (e.g., serous, stage I, stage III) or specific contexts (e.g., serum vs. tissue, chemotherapy response) rather than all epithelial ovarian cancer broadly. Some miRNAs are suggested as candidates or potential markers rather than confirmed clinical biomarkers.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 20,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "miR-200a",
+      "miR-100",
+      "miR-141",
+      "miR-200b",
+      "miR-200c",
+      "miR-203",
+      "miR-510",
+      "miR-509-5p",
+      "miR-21",
+      "miR-132",
+      "miR-26a",
+      "let-7b",
+      "miR-145",
+      "miR-182",
+      "miR-152",
+      "miR-148a",
+      "let-7a",
+      "let-7i",
+      "miR-92",
+      "miR-93"
+    ],
+    "supports": [
+      {
+        "item": "miR-200a",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-100",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-141",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-200b",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-200c",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-203",
+        "evidence_id": "e3",
+        "quote": "These findings provide the convincing evidence for the first time that the upregulation of miR-203 may serve as a novel molecular marker to predict the aggressive tumor progression and unfavorable prognosis of EOC patients"
+      },
+      {
+        "item": "miR-510",
+        "evidence_id": "e6",
+        "quote": "Our results suggest that miRNAs may play a role in the progression of OSC, and miR-510 and miR-509-5p may be considered novel-candidate clinical biomarkers for predicting OSC outcome"
+      },
+      {
+        "item": "miR-509-5p",
+        "evidence_id": "e6",
+        "quote": "Our results suggest that miRNAs may play a role in the progression of OSC, and miR-510 and miR-509-5p may be considered novel-candidate clinical biomarkers for predicting OSC outcome"
+      },
+      {
+        "item": "miR-21",
+        "evidence_id": "e8",
+        "quote": "These findings indicate that serum miR-21 may serve as a novel diagnostic and prognostic marker, and be used as a therapeutic target for the treatment of EOC"
+      },
+      {
+        "item": "miR-132",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-26a",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "let-7b",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-145",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-182",
+        "evidence_id": "e12",
+        "quote": "microRNA (miR)-182, miR-200a, miR-200b and miR-200c were highly overexpressed in the SEOC cell lines relative to normal human ovarian surface epithelial cells and were assessed in RNA extracted from serum as candidate biomarkers"
+      },
+      {
+        "item": "miR-152",
+        "evidence_id": "e15",
+        "quote": "Taken together, miR-152 and miR-148a may be involved             in the carcinogenesis of ovarian cancer through deregulation of cell proliferation.             They may be novel biomarkers for early detection or therapeutic targets of ovarian             cancer"
+      },
+      {
+        "item": "miR-148a",
+        "evidence_id": "e15",
+        "quote": "Taken together, miR-152 and miR-148a may be involved             in the carcinogenesis of ovarian cancer through deregulation of cell proliferation.             They may be novel biomarkers for early detection or therapeutic targets of ovarian             cancer"
+      },
+      {
+        "item": "let-7a",
+        "evidence_id": "e17",
+        "quote": "The study suggests that the beneficial impact of the addition of paclitaxel on EOC survival was significantly linked to let-7a levels, and that miRNAs such as let-7a may be a useful marker for selection of chemotherapeutic agents in EOC management"
+      },
+      {
+        "item": "let-7i",
+        "evidence_id": "e20",
+        "quote": "our results strongly suggest that let-7i might be used as a therapeutic target to modulate platinum-based chemotherapy and as a biomarker to predict chemotherapy response and survival in patients with ovarian cancer"
+      },
+      {
+        "item": "miR-92",
+        "evidence_id": "e21",
+        "quote": "miRNAs-21, 92 and 93 are known oncogenes with therapeutic and biomarker potential"
+      },
+      {
+        "item": "miR-93",
+        "evidence_id": "e21",
+        "quote": "miRNAs-21, 92 and 93 are known oncogenes with therapeutic and biomarker potential"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is derived from abstracts and titles of specific studies; some findings refer to specific subtypes (e.g., serous, stage I, stage III) or specific contexts (e.g., serum vs. tissue, chemotherapy response) rather than all epithelial ovarian cancer broadly. Some miRNAs are suggested as candidates or potential markers rather than confirmed clinical biomarkers.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 20,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "miR-200a",
+      "miR-100",
+      "miR-141",
+      "miR-200b",
+      "miR-200c",
+      "miR-203",
+      "miR-510",
+      "miR-509-5p",
+      "miR-21",
+      "miR-132",
+      "miR-26a",
+      "let-7b",
+      "miR-145",
+      "miR-182",
+      "miR-152",
+      "miR-148a",
+      "let-7a",
+      "let-7i",
+      "miR-92",
+      "miR-93"
+    ],
+    "supports": [
+      {
+        "item": "miR-200a",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-100",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-141",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-200b",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-200c",
+        "evidence_id": "e1",
+        "quote": "Finally, five promising differentially miRNAs (miR-200a, miR-100, miR-141, miR-200b, and miR-200c) were reported with the consistent direction in four or more studies."
+      },
+      {
+        "item": "miR-203",
+        "evidence_id": "e3",
+        "quote": "These findings provide the convincing evidence for the first time that the upregulation of miR-203 may serve as a novel molecular marker to predict the aggressive tumor progression and unfavorable prognosis of EOC patients"
+      },
+      {
+        "item": "miR-510",
+        "evidence_id": "e6",
+        "quote": "Our results suggest that miRNAs may play a role in the progression of OSC, and miR-510 and miR-509-5p may be considered novel-candidate clinical biomarkers for predicting OSC outcome"
+      },
+      {
+        "item": "miR-509-5p",
+        "evidence_id": "e6",
+        "quote": "Our results suggest that miRNAs may play a role in the progression of OSC, and miR-510 and miR-509-5p may be considered novel-candidate clinical biomarkers for predicting OSC outcome"
+      },
+      {
+        "item": "miR-21",
+        "evidence_id": "e8",
+        "quote": "These findings indicate that serum miR-21 may serve as a novel diagnostic and prognostic marker, and be used as a therapeutic target for the treatment of EOC"
+      },
+      {
+        "item": "miR-132",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-26a",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "let-7b",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-145",
+        "evidence_id": "e10",
+        "quote": "Serum miR-132, miR-26a, let-7b, and miR-145 could be considered as potential candidates as novel biomarkers in serous ovarian cancer."
+      },
+      {
+        "item": "miR-182",
+        "evidence_id": "e12",
+        "quote": "microRNA (miR)-182, miR-200a, miR-200b and miR-200c were highly overexpressed in the SEOC cell lines relative to normal human ovarian surface epithelial cells and were assessed in RNA extracted from serum as candidate biomarkers"
+      },
+      {
+        "item": "miR-152",
+        "evidence_id": "e15",
+        "quote": "Taken together, miR-152 and miR-148a may be involved             in the carcinogenesis of ovarian cancer through deregulation of cell proliferation.             They may be novel biomarkers for early detection or therapeutic targets of ovarian             cancer"
+      },
+      {
+        "item": "miR-148a",
+        "evidence_id": "e15",
+        "quote": "Taken together, miR-152 and miR-148a may be involved             in the carcinogenesis of ovarian cancer through deregulation of cell proliferation.             They may be novel biomarkers for early detection or therapeutic targets of ovarian             cancer"
+      },
+      {
+        "item": "let-7a",
+        "evidence_id": "e17",
+        "quote": "The study suggests that the beneficial impact of the addition of paclitaxel on EOC survival was significantly linked to let-7a levels, and that miRNAs such as let-7a may be a useful marker for selection of chemotherapeutic agents in EOC management"
+      },
+      {
+        "item": "let-7i",
+        "evidence_id": "e20",
+        "quote": "our results strongly suggest that let-7i might be used as a therapeutic target to modulate platinum-based chemotherapy and as a biomarker to predict chemotherapy response and survival in patients with ovarian cancer"
+      },
+      {
+        "item": "miR-92",
+        "evidence_id": "e21",
+        "quote": "miRNAs-21, 92 and 93 are known oncogenes with therapeutic and biomarker potential"
+      },
+      {
+        "item": "miR-93",
+        "evidence_id": "e21",
+        "quote": "miRNAs-21, 92 and 93 are known oncogenes with therapeutic and biomarker potential"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is derived from abstracts and titles of specific studies; some findings refer to specific subtypes (e.g., serous, stage I, stage III) or specific contexts (e.g., serum vs. tissue, chemotherapy response) rather than all epithelial ovarian cancer broadly. Some miRNAs are suggested as candidates or potential markers rather than confirmed clinical biomarkers.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 20,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18954897",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19074899",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21345725",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21571355",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21971665",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22246341",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23272653",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23542579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23621186",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23836287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23888941",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23918241",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23978303"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/553fa78b1d53b76422000007/attempt_0"
+}

@@ -1,0 +1,42 @@
+{
+  "scope": "real-prose derived citation-index development case, not original BioASQ/DocHopQA task",
+  "models": {
+    "semantics": "Qwen3.5-27B",
+    "code": "Qwen3-Coder-30B"
+  },
+  "method": "Build a source-bound bibliography citation index from explicit runtime XML fragments.\nInput is exactly {sources:[{source_id:string,xml:string}]}; source IDs are distinct,\nnonempty and may not contain ::. XML fragments are well-formed when wrapped in root.\nConsider only xref elements whose ref-type is bibr; their rid attribute contains one\nor more whitespace-separated IDs matching [A-Za-z_][A-Za-z0-9_.:-]*. Every such\nxref must be inside a square-bracket citation group; reject otherwise. Ignore other\nxref types (table, figure, app), but retain their ordinary text when locating brackets.\nInside each square-bracket group, preserve bibliography IDs in first-appearance\norder, deduplicating within that group. Between consecutive bibr xrefs, a connector\nconsisting solely of whitespace and one hyphen or U+2010..U+2014 dash denotes an\ninclusive ascending ID range. Both endpoints must have exactly one ID, equal\nprefixes and numeric suffixes; expand intermediate IDs, even though they lack\nexplicit xref elements. Preserve zero padding if the first suffix has a leading0;\nthen suffix widths must agree. Reject reversed ranges and differences>500.\nOnly square-bracket groups containing bibr xrefs count. Output groups in source\norder then textual order, group_index starts1 within each source. Output\nunique_references as source_id::rid strings in first occurrence order across groups;\nthe same rid from different sources stays distinct. Never use printed numbers of\nstudies or clinical claims to alter literal citation membership. No arithmetic\nstatistics, no biomedical inference, no reference title lookup. Preserve input.\nEmpty sources/empty XML/no citations yield empty indices. Reject malformed types,\nduplicate source IDs, missing/invalid bibr rid, malformed XML, unsupported DOCTYPE/\nENTITY declarations, reserved marker <<C, outside-bracket bibliography citations,\nor invalid ranges with ValueError. Use ordinary Python builtins and allowed standard\nmodules only; no files, network, model calls, external packages or source constants.",
+  "code_repairs": 3,
+  "registration": "development only",
+  "full_authorized": false,
+  "queue_policy": "Fixed3 source packets before baseline. Preserve every baseline/retry. Select only a substantive membership error that remains in same-evidence Qwen retry; otherwise continue the fixed queue without manufacturing failure.",
+  "manual_intervention": "Source selection, structural question/rules, typed interface, offline oracle, controls/reuse and controller preset. No source/candidate edits, forced failures or expected index supplied to actors.",
+  "infrastructure_change": "Only isolated helper permits stdlib xml for mechanical JATS parsing. Original frozen pilot helper is unchanged.",
+  "hashes": {
+    "schema_support.py": "58a75aa12749d17e2ca907b2b4fda957d3932c74f7a02c2ef9f29da2792b0b0b",
+    "autonomous_grader.py": "079e8001323a7e613b345f776b8706fbdc2a777bef1500689e44707671cb1fbd",
+    "run_atomic_repair_then_pilot100.py": "cefd0a7e148c5bacd05a9679f921f20090d821140f3c97f8f3102bce88ab91b3",
+    "failure_authenticity.py": "5ac0c0942e9cf2f8dcf5c6ee18b9b0c366f741900836f7fce5810555aee4f123",
+    "citation_protocol.py": "ed3ba35b18ad2cbe282228bee4e26c928957246760119dcedfd2944f9428b6da",
+    "engineering_oracle.py": "d801df6619da27ed3fd0c8cf967f785df864d57e9d2b890cc9696f2dd00cf90d",
+    "citation_pipeline.py": "c0b41bdd659c915e2fafe5adaa16c50405466c18bec70fc3fbc94504df1f3eab",
+    "run_pilot100_20261108.py": "fcd9bf753e3b93a7d904ec0ffbfeff08ceaef8b7bb17a2e1a1e8554cf2360485",
+    "model_service.py": "eda3442c491e07ad727e1e6a3075b53c40f30897f0f391f2f504de930ce1b237",
+    "run_formal_list.py": "99580588e866ae508cafb8c1bcfc9f0393d07084e4f7136ed1e63f07ae1e08f3",
+    "pilot100_policy.py": "b5800b67b139e48caeb04fa82afab5a13bc4d4f0046149fc023a80803a5cc2f6",
+    "run_reliable_pilot100.py": "73d38b845af49e6d5140b1c29d682f08c9c5b31459c912a0a6dcf773631e414c",
+    "run_guarded_pilot100_20261108.py": "c929386db8edaaa1840347a97ef7b43a589380e51314167cbb14e619167b9e5c",
+    "engineering_case_pipeline.py": "765f12117798b832545b61a760c6895a50d9dca01bddd6d3c801ef0805d6ab87",
+    "run_singlecase.py": "e2a14fb7e6151c5a52cb133a9e6f8f73a76a09ff153e1f06684d611e3c3505ec",
+    "validate_citation_cpu.py": "639a8d7d98e0c706796d8555ec6879b5fd14ccbb0f220207bf499a6543316aa6",
+    "runtime_tools.py": "86383029b42693c1ca4c60d5685c9f5bd33e661e509a0e201ad24b297c545555",
+    "run_closed_loop_v5_1_20261108.py": "8606e14eeb2fc908d3e6eac2711c605fa51a9ea47ea840e84ba5f27b7f370b2d",
+    "citation_oracle.py": "81e8d63699cf8e8bab23928805ee4e55430288ae772cc145c05a6952b3d2711a",
+    "engineering_protocol.py": "13d2a7112cf902b1c2c5d99e28df0c32020de5d953ab08e7222a6a49441bc86e",
+    "closed_loop_core_v5_1.py": "77af4eedf1c4c5d1d880e5c8ad53b0a8eb8e4ec1649c7451aaf42ae3e59cc33d",
+    "evolve_tool_stream.py": "4c0450419366aed4ef0e649812056a3c0ecd8b2d35de4c2160ac4d7c83038022",
+    "autonomous_evolution.py": "5cff1270631efb3016afa78096be4c999b2a8cc4b675dd9a5c58d2feb67047ef",
+    "output_contracts.py": "6a90e65daf25640eb045eeeddeec3f43b8f7e853e934089356dbf5e890591c4a",
+    "contract_guard.py": "c546e4f1ae33ffb58d95fe838163656188455b55eea4ec96bf239a8462f0fa54",
+    "formal_list_metrics.py": "e55d41123147b14ea35d7edf373f985743f7c6558bc09e501a14c73e45277aab"
+  }
+}

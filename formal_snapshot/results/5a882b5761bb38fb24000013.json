@@ -1,0 +1,148 @@
+{
+  "task_id": "5a882b5761bb38fb24000013",
+  "question": "List the four most important interferonopathies",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Aicardi-Goutières syndrome",
+      "Familial chilblain lupus",
+      "Singleton-Merten syndrome",
+      "USP18-deficiency"
+    ],
+    "supports": [
+      {
+        "item": "Aicardi-Goutières syndrome",
+        "evidence_id": "e3",
+        "quote": "interferonopathies such as Aicardi-Goutières syndrome."
+      },
+      {
+        "item": "Familial chilblain lupus",
+        "evidence_id": "e2",
+        "quote": "Familial chilblain lupus belongs to the group of type I interferonopathies and is characterized by typical skin manifestations and acral ischaemia."
+      },
+      {
+        "item": "Singleton-Merten syndrome",
+        "evidence_id": "e5",
+        "quote": " interferonopathies (Singleton-Merten syndrome)"
+      },
+      {
+        "item": "USP18-deficiency",
+        "evidence_id": "e4",
+        "quote": "Inappropriate upregulation of type I IFN signaling and interferon-stimulated gene expression have been linked to several CNS diseases termed \"interferonopathies\" including Aicardi-Goutieres syndrome and ubiquitin specific peptidase 18 (USP18)-deficiency."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The provided evidence lists several interferonopathies but does not explicitly rank them by importance or identify a definitive set of 'four most important' conditions. The selected items are the most frequently cited distinct entities in the text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Aicardi-Goutières syndrome",
+      "Familial chilblain lupus",
+      "Singleton-Merten syndrome",
+      "ubiquitin specific peptidase 18 (USP18)-deficiency"
+    ],
+    "supports": [
+      {
+        "item": "Aicardi-Goutières syndrome",
+        "evidence_id": "e6",
+        "quote": "Aicardi-Goutières syndrome (AGS) is an inflammatory disorder belonging to the recently characterized group of type I interferonopathies."
+      },
+      {
+        "item": "Familial chilblain lupus",
+        "evidence_id": "e2",
+        "quote": "Familial chilblain lupus belongs to the group of type I interferonopathies and is characterized by typical skin manifestations and acral ischaemia."
+      },
+      {
+        "item": "Singleton-Merten syndrome",
+        "evidence_id": "e5",
+        "quote": " interferonopathies (Singleton-Merten syndrome)"
+      },
+      {
+        "item": "ubiquitin specific peptidase 18 (USP18)-deficiency",
+        "evidence_id": "e4",
+        "quote": "Inappropriate upregulation of type I IFN signaling and interferon-stimulated gene expression have been linked to several CNS diseases termed \"interferonopathies\" including Aicardi-Goutieres syndrome and ubiquitin specific peptidase 18 (USP18)-deficiency."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The provided evidence lists multiple interferonopathies but does not explicitly rank them by importance or identify a definitive set of 'four most important' conditions. The selection is based on the distinct entities explicitly named as examples of interferonopathies in the text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Aicardi-Goutières syndrome",
+      "Familial chilblain lupus",
+      "Singleton-Merten syndrome",
+      "ubiquitin specific peptidase 18 (USP18)-deficiency"
+    ],
+    "supports": [
+      {
+        "item": "Aicardi-Goutières syndrome",
+        "evidence_id": "e6",
+        "quote": "Aicardi-Goutières syndrome (AGS) is an inflammatory disorder belonging to the recently characterized group of type I interferonopathies."
+      },
+      {
+        "item": "Familial chilblain lupus",
+        "evidence_id": "e2",
+        "quote": "Familial chilblain lupus belongs to the group of type I interferonopathies and is characterized by typical skin manifestations and acral ischaemia."
+      },
+      {
+        "item": "Singleton-Merten syndrome",
+        "evidence_id": "e5",
+        "quote": " interferonopathies (Singleton-Merten syndrome)"
+      },
+      {
+        "item": "ubiquitin specific peptidase 18 (USP18)-deficiency",
+        "evidence_id": "e4",
+        "quote": "Inappropriate upregulation of type I IFN signaling and interferon-stimulated gene expression have been linked to several CNS diseases termed \"interferonopathies\" including Aicardi-Goutieres syndrome and ubiquitin specific peptidase 18 (USP18)-deficiency."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The provided evidence lists multiple interferonopathies but does not explicitly rank them by importance or identify a definitive set of 'four most important' conditions. The selection is based on the distinct entities explicitly named as examples of interferonopathies in the text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1": 0.75
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/27821552",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27863149",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28089741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28519900",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28578473",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28585220",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28844088"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5a882b5761bb38fb24000013/attempt_0"
+}

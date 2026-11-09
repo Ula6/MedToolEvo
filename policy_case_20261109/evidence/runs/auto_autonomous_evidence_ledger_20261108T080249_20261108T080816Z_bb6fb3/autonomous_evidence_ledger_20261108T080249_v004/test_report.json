@@ -1,0 +1,46 @@
+{
+  "passed": 10,
+  "failed": 0,
+  "tests": [
+    {
+      "test": "test_empty",
+      "status": "PASS"
+    },
+    {
+      "test": "test_positive",
+      "status": "PASS"
+    },
+    {
+      "test": "test_negative_filtered",
+      "status": "PASS"
+    },
+    {
+      "test": "test_group_and_provenance",
+      "status": "PASS"
+    },
+    {
+      "test": "test_distinct_order",
+      "status": "PASS"
+    },
+    {
+      "test": "test_bad_quote",
+      "status": "PASS"
+    },
+    {
+      "test": "test_bad_source",
+      "status": "PASS"
+    },
+    {
+      "test": "test_strict_boolean",
+      "status": "PASS"
+    },
+    {
+      "test": "test_conflicting_group_name",
+      "status": "PASS"
+    },
+    {
+      "test": "test_atomic_and_schema",
+      "status": "PASS"
+    }
+  ]
+}

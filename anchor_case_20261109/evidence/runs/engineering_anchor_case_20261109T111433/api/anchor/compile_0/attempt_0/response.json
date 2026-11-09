@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"operation\": {\n    \"name\": \"diagnose_unicode_span_misalignment\",\n    \"description\": \"Generic Unicode-aware quote alignment with exact original source offsets.\",\n    \"when_to_use\": \"When quoted snippets need exact original-source coordinates and all occurrences.\",\n    \"limitations\": \"Literal source-span alignment only; not semantic support or medical inference.\",\n    \"code_contract\": {\n      \"input_schema\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"sources\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"source_id\": {\n                  \"type\": \"string\",\n                  \"minLength\": 1\n                },\n                \"text\": {\n                  \"type\": \"string\"\n                }\n              },\n              \"required\": [\"source_id\", \"text\"],\n              \"additionalProperties\": false\n            },\n            \"maxItems\": 20\n          },\n          \"queries\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"query_id\": {\n                  \"type\": \"string\",\n                  \"minLength\": 1\n                },\n                \"text\": {\n                  \"type\": \"string\",\n                  \"minLength\": 1\n                }\n              },\n              \"required\": [\"query_id\", \"text\"],\n              \"additionalProperties\": false\n            },\n            \"maxItems\": 30\n          }\n        },\n        \"required\": [\"sources\", \"queries\"],\n        \"additionalProperties\": false\n      },\n      \"output_schema\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"queries\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"query_id\": {\n                  \"type\": \"string\",\n                  \"maxLength\": 200\n                },\n                \"matches\": {\n                  \"type\": \"array\",\n                  \"items\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                     },\"source_id\": {\n                     },\"type\": \"string\",\n                    \"maxLength\": 200\n                  },\n                  \"start\": {\n                    \"type\": \"integer\",\n                    \"minimum\": 0\n                  },\n                  \"end\": {\n                    \"type\": \"integer\",\n                    \"minimum\": 1\n                  },\n                  \"quote\": {\n                    \"type\": \"string\",\n                    \"maxLength\": 2000\n                  }\n                },\n                \"required\": [\"source_id\", \"start\", \"end\", \"quote\"],\n                \"additionalProperties\": false\n              },\n              \"maxItems\": 200\n            }\n          },\n          \"required\": [\"query_id\", \"matches\"],\n          \"additionalProperties\": false\n        },\n        \"maxItems\": 30\n      },\n      \"algorithm\": \"1. Validate input: reject if sources/queries missing, IDs duplicate/empty, or query text empty/whitespace-only. 2. For each source, generate a normalized string by iterating original code points, applying unicodedata.normalize('NFKC', char).casefold(), concatenating, and collapsing consecutive whitespace to single ASCII space. 3. For each query, generate a normalized string using the same rule. 4. For each query, search the normalized source string for all occurrences (including overlaps) of the normalized query. 5. For each match in the normalized string, map the normalized start index back to the original source code-point start index. 6. Calculate the original end index by adding the length of the original substring (derived from the original text slice) to the original start index. 7. Verify that original_text[start:end] exactly matches the query text (case-sensitive, original characters). 8. Collect valid matches, deduplicate by (source_id, start, end), and sort by source input order then ascending start. 9. Construct output preserving query input order; include unsupported_query_ids for queries with zero matches.\",\n      \"invariants\": [\n        \"IDs must be non-empty and unique within their respective lists.\",\n        \"Query text must not be empty or whitespace-only.\",\n        \"Normalization is applied per code-point then concatenated; no cross-boundary normalization.\",\n        \"Whitespace runs in normalized text are collapsed to exactly one ASCII space.\",\n        \"Matches must be exact substring matches in the normalized domain.\",\n        \"Original span [start, end) must yield a quote that exactly equals the original query text.\",\n        \"Output order is deterministic: queries in input order, matches sorted by source input order then ascending start.\",\n        \"Duplicate original spans are collapsed to a single entry.\",\n        \"No semantic inference or alias resolution is performed.\",\n        \"Map cycles or undefined terminal values are rejected via ValueError.\"\n      ],\n      \"edge_cases\": [\n        \"Query text is empty or whitespace-only: reject with ValueError.\",\n        \"Source or query IDs are duplicate or empty: reject with ValueError.\",\n        \"No matches found for a query: include query_id in unsupported_query_ids with empty matches array.\",\n        \"Overlapping matches in normalized text: all valid original spans are reported.\",\n        \"Unicode normalization changes string length: mapping must account for original code-point indices, not normalized indices.\",\n        \"Casefold expansion (e.g., ß -> ss): partial hits inside expansion are rejected; only full normalized matches are accepted.\",\n        \"Whitespace collapse: multiple spaces in original become one in normalized; original span must reflect original whitespace.\",\n        \"Invalid types or extra keys in input: reject with ValueError.\",\n        \"Self-maps or cycles in alias logic: not applicable here as no aliasing is performed; if encountered in extended logic, reject with ValueError.\"\n      ]\n    },\n    \"semantic_preprocessor\": null\n  }\n}"
+      }
+    }
+  ],
+  "created": 1794223006,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1294,
+    "prompt_tokens": 1883,
+    "total_tokens": 3177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-BeueTWSFgQaNOdH4Q0DER04vlNQ95vkV",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1883,
+    "prompt_ms": 3409.288,
+    "prompt_per_token_ms": 1.8105618693574084,
+    "prompt_per_second": 552.3147355107576,
+    "predicted_n": 1294,
+    "predicted_ms": 47689.459,
+    "predicted_per_token_ms": 36.88279891724672,
+    "predicted_per_second": 27.112909794174847
+  }
+}

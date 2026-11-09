@@ -1,0 +1,161 @@
+{
+  "task_id": "engineering_PMC11835903_Tab3_weighted_summaries",
+  "question": "Using ONLY the supplied reported subgroup means and counts from Table3,\ncompute four numerical summaries over the System/body location rows: weighted_mean,\nweighted_population_variance of these subgroup means, weighted_population_sd of\nthese subgroup means, and weighted_geometric_mean. Use n as weight. Specifically,\nmu=sum(w*x)/sum(w); variance=sum(w*(x-mu)^2)/sum(w); sd=sqrt(variance);\ngeometric_mean=exp(sum(w*ln(x))/sum(w)). Round each final result to six decimal\nplaces, without rounding intermediate values. These are arithmetic summaries of\nthe supplied rounded subgroup means, not a pooled within-study patient variance\nor a claim about measurement precision. Ignore the table's within-group SDs,\nconfidence intervals, comparator rows before System/body location, and p-values.\nReturn the four requested numeric fields plus evidence_id, an exact nonempty source\nquote, and brief limitations. Do not output code or invent a clinical conclusion.",
+  "payload": {
+    "rows": [
+      {
+        "value": 13.1,
+        "weight": 231
+      },
+      {
+        "value": 7.5,
+        "weight": 72
+      },
+      {
+        "value": 7.6,
+        "weight": 78
+      },
+      {
+        "value": 9.6,
+        "weight": 1014
+      },
+      {
+        "value": 8.8,
+        "weight": 452
+      },
+      {
+        "value": 8.7,
+        "weight": 213
+      },
+      {
+        "value": 10.3,
+        "weight": 86
+      },
+      {
+        "value": 10.0,
+        "weight": 23
+      },
+      {
+        "value": 9.1,
+        "weight": 299
+      },
+      {
+        "value": 7.0,
+        "weight": 73
+      },
+      {
+        "value": 9.3,
+        "weight": 75
+      },
+      {
+        "value": 8.0,
+        "weight": 404
+      }
+    ]
+  },
+  "row_provenance": [
+    {
+      "row_id": "R01",
+      "label": "Breast (231)",
+      "value": 13.1,
+      "weight": 231,
+      "source_row_xml": "<tr><td> Breast (231)</td><td>13.1 ± 5.8 (12.4–13.9)</td><td>&lt; 0.001</td></tr>"
+    },
+    {
+      "row_id": "R02",
+      "label": "Cardiovascular (72)",
+      "value": 7.5,
+      "weight": 72,
+      "source_row_xml": "<tr><td> Cardiovascular (72)</td><td>7.5 ± 6.1 (6.0–8.9)</td><td>0.13</td></tr>"
+    },
+    {
+      "row_id": "R03",
+      "label": "Endocrine (78)",
+      "value": 7.6,
+      "weight": 78,
+      "source_row_xml": "<tr><td> Endocrine (78)</td><td>7.6 ± 8.1 (5.8–9.4)</td><td>&gt; 0.99</td></tr>"
+    },
+    {
+      "row_id": "R04",
+      "label": "Gastrointestinal (1014)",
+      "value": 9.6,
+      "weight": 1014,
+      "source_row_xml": "<tr><td> Gastrointestinal (1014)</td><td>9.6 ± 6.5 (9.2–10.0)</td><td>0.25</td></tr>"
+    },
+    {
+      "row_id": "R05",
+      "label": "Genitourinary (452)",
+      "value": 8.8,
+      "weight": 452,
+      "source_row_xml": "<tr><td> Genitourinary (452)</td><td>8.8 ± 6.1 (8.2–9.4)</td><td>&gt; 0.99</td></tr>"
+    },
+    {
+      "row_id": "R06",
+      "label": "Gynaecology (213)",
+      "value": 8.7,
+      "weight": 213,
+      "source_row_xml": "<tr><td> Gynaecology (213)</td><td>8.7 ± 6.5 (7.8–9.6)</td><td>&gt; 0.99</td></tr>"
+    },
+    {
+      "row_id": "R07",
+      "label": "Head and Neck (86)",
+      "value": 10.3,
+      "weight": 86,
+      "source_row_xml": "<tr><td> Head and Neck (86)</td><td>10.3 ± 5.8 (9.0–11.5)</td><td>&gt; 0.99</td></tr>"
+    },
+    {
+      "row_id": "R08",
+      "label": "Haematology (23)",
+      "value": 10.0,
+      "weight": 23,
+      "source_row_xml": "<tr><td> Haematology (23)</td><td>10.0 ± 3.9 (8.4–11.7)</td><td>&gt; 0.99</td></tr>"
+    },
+    {
+      "row_id": "R09",
+      "label": "Lung (299)",
+      "value": 9.1,
+      "weight": 299,
+      "source_row_xml": "<tr><td> Lung (299)</td><td>9.1 ± 6.5 (8.3–9.8)</td><td>&gt; 0.99</td></tr>"
+    },
+    {
+      "row_id": "R10",
+      "label": "Lymphatic (73)",
+      "value": 7.0,
+      "weight": 73,
+      "source_row_xml": "<tr><td> Lymphatic (73)</td><td>7.0 ± 6.1 (5.6–8.5)</td><td>0.04</td></tr>"
+    },
+    {
+      "row_id": "R11",
+      "label": "Musculoskeletal (75)",
+      "value": 9.3,
+      "weight": 75,
+      "source_row_xml": "<tr><td> Musculoskeletal (75)</td><td>9.3 ± 5.3 (8.0–10.5)</td><td>&gt; 0.99</td></tr>"
+    },
+    {
+      "row_id": "R12",
+      "label": "Neurology (404)",
+      "value": 8.0,
+      "weight": 404,
+      "source_row_xml": "<tr><td> Neurology (404)</td><td>8.0 ± 5.8 (7.4–8.5)</td><td>&lt; 0.001</td></tr>"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "e1",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11835903/#Tab3",
+      "text": "<table-wrap id=\"Tab3\"><label>Table 3</label><caption><p>Radiomics Quality Score subgroup comparison</p></caption><table frame=\"hsides\" rules=\"groups\"><thead><tr><th>Subgroup (<italic>n</italic>)</th><th /><th><italic>p</italic>-value<sup>a</sup></th></tr></thead><tbody><tr><td>Spadarella et al [<xref ref-type=\"bibr\" rid=\"CR24\">24</xref>] (1121)</td><td>7.1 ± 6.2 (6.8–7.5)</td><td>&lt; 0.001</td></tr><tr><td>Oncology (3076)</td><td>9.4 ± 6.4 (9.2–9.6)</td><td>&gt; 0.99</td></tr><tr><td colspan=\"3\">System/body location<sup>b</sup></td></tr><tr><td> Breast (231)</td><td>13.1 ± 5.8 (12.4–13.9)</td><td>&lt; 0.001</td></tr><tr><td> Cardiovascular (72)</td><td>7.5 ± 6.1 (6.0–8.9)</td><td>0.13</td></tr><tr><td> Endocrine (78)</td><td>7.6 ± 8.1 (5.8–9.4)</td><td>&gt; 0.99</td></tr><tr><td> Gastrointestinal (1014)</td><td>9.6 ± 6.5 (9.2–10.0)</td><td>0.25</td></tr><tr><td> Genitourinary (452)</td><td>8.8 ± 6.1 (8.2–9.4)</td><td>&gt; 0.99</td></tr><tr><td> Gynaecology (213)</td><td>8.7 ± 6.5 (7.8–9.6)</td><td>&gt; 0.99</td></tr><tr><td> Head and Neck (86)</td><td>10.3 ± 5.8 (9.0–11.5)</td><td>&gt; 0.99</td></tr><tr><td> Haematology (23)</td><td>10.0 ± 3.9 (8.4–11.7)</td><td>&gt; 0.99</td></tr><tr><td> Lung (299)</td><td>9.1 ± 6.5 (8.3–9.8)</td><td>&gt; 0.99</td></tr><tr><td> Lymphatic (73)</td><td>7.0 ± 6.1 (5.6–8.5)</td><td>0.04</td></tr><tr><td> Musculoskeletal (75)</td><td>9.3 ± 5.3 (8.0–10.5)</td><td>&gt; 0.99</td></tr><tr><td> Neurology (404)</td><td>8.0 ± 5.8 (7.4–8.5)</td><td>&lt; 0.001</td></tr></tbody></table><table-wrap-foot><p>Data is shown as mean ± standard deviation (95% confidence interval)</p><p><sup>a</sup> Rank Sum test against quality assessments not in subgroup, adjusted for multiple testing</p><p><sup>b</sup> Rank Sum test excludes multiorgan reviews</p></table-wrap-foot></table-wrap>"
+    }
+  ],
+  "construction": {
+    "type": "Researcher-constructed engineering task using real published table data",
+    "original_dochop_id": 9990,
+    "original_dochop_question": "What is the main point of table Radiomics Quality Score subgroup comparison in given document, and what is the main topic of the referenced paper?",
+    "article_title": "Evaluating the impact of the Radiomics Quality Score: a systematic review and meta-analysis",
+    "doi": "10.1007/s00330-024-11341-y",
+    "source_table": "Table3, Radiomics Quality Score subgroup comparison",
+    "source_sha256": "c5dbfd8ae6fa929db31db2b12702abf1a7add936687714f3c9121fc57751b7c8",
+    "selection": "All12 rows under System/body location, selected by header before any model execution",
+    "manual_intervention": "Question, formulas, I/O format, source-row selection, tolerances and development admission rules are researcher-defined; candidate code must be generated by Qwen3-Coder-30B.",
+    "bioasq_official_result": false
+  }
+}

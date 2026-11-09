@@ -1,0 +1,131 @@
+{
+  "model": "medtool-qa",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Compile this operation into a precise interface boundary. Return JSON {operation:object}. Retain name, description, when_to_use, limitations, optional semantic_preprocessor:{instruction}, and add code_contract:{input_schema:object,output_schema:object,algorithm:string,invariants:[string],edge_cases:[string]}. The input_schema describes ONLY the structured JSON actually consumed by Python AFTER Qwen preprocessing. It must include every map, score, condition or relevance annotation the code needs; it must not instead describe raw prose when semantic extraction is required. The output_schema describes only deterministic results, no free-form reasoning_chain/explanation/rationale. Define alias precedence, case rendering vs grouping, alias-list inclusion, map chains/cycles, ordering, duplicates, unknowns and invalid types whenever relevant. Unknown medical semantics belong to Qwen and runtime data, never Python constants. Use valid JSON Schema. Prefer explicit types; nullable type arrays and default annotations are valid. Default annotations do not fill missing values. Prefer a compact mechanical operation. All nonlocal references are forbidden. When revising after feedback, actively change the rejected rules; do not reproduce a rejected contract unchanged. Do not copy legacy test expectations. Map cycles have no terminal value: reject them with ValueError rather than selecting an undefined final value. Self-maps may terminate if explicitly stated. Define deterministic output ordering. Keep the operation small; semantic equivalence and relevance are supplied annotations, not substring heuristics. Top-level input_schema/output_schema must mirror code_contract's schemas. No real entity names or task IDs."
+    },
+    {
+      "role": "user",
+      "content": "{\"operation\": {\"name\": \"weighted_statistical_summaries\", \"description\": \"Generic deterministic weighted numerical summaries on explicit runtime value/weight rows.\", \"when_to_use\": \"When a question requires reproducible weighted summaries of positive numerical values.\", \"requirements\": \"For positive finite values x and nonnegative finite weights w, require\\npositive sum(w). Compute mu=sum(w*x)/sum(w), population variance=sum(w*(x-mu)^2)/sum(w),\\npopulation sd=sqrt(variance), and weighted geometric mean=exp(sum(w*ln(x))/sum(w)).\\nRound only final four outputs to6 decimal places; do not round intermediates.\\nReject bools, strings, malformed rows, empty input, nonpositive values, negative\\nweights, nonfinite numbers or zero total weight with ValueError. Preserve inputs.\\nUse the supplied exact input/output schemas. No medical facts or real case numbers\\nin code; all values and weights arrive at runtime. No semantic preprocessor needed.\\nThe candidate sandbox supports ordinary builtins and math/json/typing/collections,\\nnot NumPy, SciPy, statistics or Decimal. Use math for floating-point operations.\\nManager steps:\\nExtract the list of objects from the input 'rows' field, where each object contains 'value' (x) and 'weight' (w).\\nCalculate the total weight (W) by summing all 'weight' values.\\nCalculate the weighted mean (mu) by summing (w * x) for all rows and dividing by W.\\nCalculate the weighted population variance by summing (w * (x - mu)^2) for all rows and dividing by W.\\nCalculate the weighted population standard deviation by taking the square root of the calculated variance.\\nCalculate the weighted geometric mean by summing (w * ln(x)) for all rows, dividing by W, and then taking the exponential of the result.\\nRound the final four results (mu, variance, sd, geometric_mean) to exactly six decimal places.\\nReturn the results as a JSON object matching the fixed_output_interface schema.\", \"limitations\": \"Arithmetic on supplied rounded numbers; not clinical inference or pooled patient variability.\", \"input_schema\": {\"type\": \"object\", \"properties\": {\"rows\": {\"type\": \"array\", \"minItems\": 1, \"items\": {\"type\": \"object\", \"properties\": {\"value\": {\"type\": \"number\", \"exclusiveMinimum\": 0}, \"weight\": {\"type\": \"number\", \"minimum\": 0}}, \"required\": [\"value\", \"weight\"], \"additionalProperties\": false}}}, \"required\": [\"rows\"], \"additionalProperties\": false}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"weighted_mean\": {\"type\": \"number\"}, \"weighted_population_variance\": {\"type\": \"number\"}, \"weighted_population_sd\": {\"type\": \"number\"}, \"weighted_geometric_mean\": {\"type\": \"number\"}}, \"required\": [\"weighted_mean\", \"weighted_population_variance\", \"weighted_population_sd\", \"weighted_geometric_mean\"], \"additionalProperties\": false}, \"semantic_preprocessor\": null}, \"fixed_input_schema\": {\"type\": \"object\", \"properties\": {\"rows\": {\"type\": \"array\", \"minItems\": 1, \"items\": {\"type\": \"object\", \"properties\": {\"value\": {\"type\": \"number\", \"exclusiveMinimum\": 0}, \"weight\": {\"type\": \"number\", \"minimum\": 0}}, \"required\": [\"value\", \"weight\"], \"additionalProperties\": false}}}, \"required\": [\"rows\"], \"additionalProperties\": false}, \"fixed_output_schema\": {\"type\": \"object\", \"properties\": {\"weighted_mean\": {\"type\": \"number\"}, \"weighted_population_variance\": {\"type\": \"number\"}, \"weighted_population_sd\": {\"type\": \"number\"}, \"weighted_geometric_mean\": {\"type\": \"number\"}}, \"required\": [\"weighted_mean\", \"weighted_population_variance\", \"weighted_population_sd\", \"weighted_geometric_mean\"], \"additionalProperties\": false}, \"interface_feedback\": null, \"instruction\": \"Preserve the supplied exact numeric I/O field names and structural constraints. Semantic preprocessor is null: all operands are already public typed data. Define deterministic code algorithm and invalid-input handling using the specified population formulas and6-decimal output. No real source values or medical facts.\"}"
+    }
+  ],
+  "temperature": 0.2,
+  "seed": 20261106,
+  "max_tokens": 6144,
+  "response_format": {
+    "type": "json_object",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "operation": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "description": {
+              "type": "string",
+              "maxLength": 800
+            },
+            "when_to_use": {
+              "type": "string",
+              "maxLength": 800
+            },
+            "limitations": {
+              "type": "string",
+              "maxLength": 1200
+            },
+            "requirements": {
+              "type": "string",
+              "maxLength": 3000
+            },
+            "input_schema": {
+              "type": "object"
+            },
+            "output_schema": {
+              "type": "object"
+            },
+            "semantic_preprocessor": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "instruction": {
+                      "type": "string",
+                      "maxLength": 2200
+                    }
+                  },
+                  "required": [
+                    "instruction"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "code_contract": {
+              "type": "object",
+              "properties": {
+                "input_schema": {
+                  "type": "object"
+                },
+                "output_schema": {
+                  "type": "object"
+                },
+                "algorithm": {
+                  "type": "string",
+                  "maxLength": 3000
+                },
+                "invariants": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 400
+                  },
+                  "minItems": 1,
+                  "maxItems": 12
+                },
+                "edge_cases": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 400
+                  },
+                  "minItems": 1,
+                  "maxItems": 12
+                }
+              },
+              "required": [
+                "input_schema",
+                "output_schema",
+                "algorithm",
+                "invariants",
+                "edge_cases"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "name",
+            "description",
+            "when_to_use",
+            "limitations",
+            "code_contract"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "operation"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "task_id": "5309f8f5970c65fa6b000001",
+  "question": "Which oncogenes are able to induce cellular senescence?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "oncogenic Ras",
+      "oncogenic RAS",
+      "Ras/Raf",
+      "Myc",
+      "c-myc",
+      "c-Myc",
+      "MYC",
+      "Akt",
+      "RAS/BRAF"
+    ],
+    "supports": [
+      {
+        "item": "oncogenic Ras",
+        "evidence_id": "e1",
+        "quote": "ROS-generating oxidases Nox1 and Nox4 contribute to oncogenic Ras-induced premature senescence"
+      },
+      {
+        "item": "oncogenic RAS",
+        "evidence_id": "e18",
+        "quote": "oncogenic RAS expression, which causes genotoxic stress and senescence in normal cells,"
+      },
+      {
+        "item": "Ras/Raf",
+        "evidence_id": "e7",
+        "quote": "Ras/Raf-prototypic oncogenes induce cellular senescence, a terminal cell-cycle arrest, as a default cellular safeguard program"
+      },
+      {
+        "item": "Myc",
+        "evidence_id": "e8",
+        "quote": "oncogene-induced senescence, Myc style"
+      },
+      {
+        "item": "c-myc",
+        "evidence_id": "e12",
+        "quote": "Cdk2 suppresses cellular senescence induced by the c-myc oncogene"
+      },
+      {
+        "item": "c-Myc",
+        "evidence_id": "e19",
+        "quote": "Here we report that the suppression of the c-Myc (MYC) oncogene induces cellular senescence in diverse tumor types including lymphoma, osteosarcoma, and hepatocellular carcinoma."
+      },
+      {
+        "item": "MYC",
+        "evidence_id": "e25",
+        "quote": "MYC overexpression is thought to initiate tumorigenesis by inducing cellular proliferation and growth and to be restrained from causing tumorigenesis by inducing cell cycle arrest, cellular senescence, and/or apoptosis."
+      },
+      {
+        "item": "Akt",
+        "evidence_id": "e16",
+        "quote": "We have found that expression of such an oncogene, Akt, causes senescence in primary mouse hepatoblasts in vitro."
+      },
+      {
+        "item": "RAS/BRAF",
+        "evidence_id": "e11",
+        "quote": "Activated RAS/BRAF oncogenes induce cellular senescence as a tumor-suppressive barrier in early cancer development, at least in part, via an oncogene-evoked DNA damage response (DDR)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence distinguishes between oncogene activation (Ras, Raf, Akt, Myc) inducing senescence and oncogene suppression (c-Myc) inducing senescence. Some evidence specifies cell types (fibroblasts, hepatoblasts) or conditions (p53 status). c-Abl is described as regulating senescence via tumor suppressors, not directly inducing it as an oncogene in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 7,
+      "fn": 9,
+      "precision": 0.2222222222222222,
+      "recall": 0.18181818181818182,
+      "f1": 0.19999999999999998
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "oncogenic Ras",
+      "Ras/Raf",
+      "Myc",
+      "Akt",
+      "RAS/BRAF"
+    ],
+    "supports": [
+      {
+        "item": "oncogenic Ras",
+        "evidence_id": "e1",
+        "quote": "ROS-generating oxidases Nox1 and Nox4 contribute to oncogenic Ras-induced premature senescence"
+      },
+      {
+        "item": "Ras/Raf",
+        "evidence_id": "e7",
+        "quote": "Ras/Raf-prototypic oncogenes induce cellular senescence, a terminal cell-cycle arrest, as a default cellular safeguard program"
+      },
+      {
+        "item": "Myc",
+        "evidence_id": "e9",
+        "quote": "We review and discuss here evidence for Myc-induced senescence - which is detectable to a limited degree as a cell-autonomous, direct response to Myc action, but occurs predominantly in a non-cell-autonomous fashion via crosstalk of the oncogene-driven cell population with non-neoplastic bystanders, namely cells of the host immune system, prompting them to release pro-senescent cytokines that strike back onto adjacent proliferating tumor cells."
+      },
+      {
+        "item": "Akt",
+        "evidence_id": "e16",
+        "quote": "We have found that expression of such an oncogene, Akt, causes senescence in primary mouse hepatoblasts in vitro."
+      },
+      {
+        "item": "RAS/BRAF",
+        "evidence_id": "e11",
+        "quote": "Activated RAS/BRAF oncogenes induce cellular senescence as a tumor-suppressive barrier in early cancer development, at least in part, via an oncogene-evoked DNA damage response (DDR)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific contexts (e.g., primary fibroblasts, hepatoblasts, tumor types) and mechanisms (e.g., ROS, DNA damage, immune crosstalk). Some entries refer to suppression or inactivation of oncogenes (e.g., c-Myc) inducing senescence, which is distinct from active induction but included as the oncogene is the central entity. c-Abl was excluded as it regulates tumor suppressors rather than directly inducing senescence as an oncogene in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 3,
+      "fn": 9,
+      "precision": 0.4,
+      "recall": 0.18181818181818182,
+      "f1": 0.25000000000000006
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "oncogenic Ras",
+      "Ras/Raf",
+      "Myc",
+      "Akt",
+      "RAS/BRAF"
+    ],
+    "supports": [
+      {
+        "item": "oncogenic Ras",
+        "evidence_id": "e1",
+        "quote": "ROS-generating oxidases Nox1 and Nox4 contribute to oncogenic Ras-induced premature senescence"
+      },
+      {
+        "item": "Ras/Raf",
+        "evidence_id": "e7",
+        "quote": "Ras/Raf-prototypic oncogenes induce cellular senescence, a terminal cell-cycle arrest, as a default cellular safeguard program"
+      },
+      {
+        "item": "Myc",
+        "evidence_id": "e9",
+        "quote": "We review and discuss here evidence for Myc-induced senescence - which is detectable to a limited degree as a cell-autonomous, direct response to Myc action, but occurs predominantly in a non-cell-autonomous fashion via crosstalk of the oncogene-driven cell population with non-neoplastic bystanders, namely cells of the host immune system, prompting them to release pro-senescent cytokines that strike back onto adjacent proliferating tumor cells."
+      },
+      {
+        "item": "Akt",
+        "evidence_id": "e16",
+        "quote": "We have found that expression of such an oncogene, Akt, causes senescence in primary mouse hepatoblasts in vitro."
+      },
+      {
+        "item": "RAS/BRAF",
+        "evidence_id": "e11",
+        "quote": "Activated RAS/BRAF oncogenes induce cellular senescence as a tumor-suppressive barrier in early cancer development, at least in part, via an oncogene-evoked DNA damage response (DDR)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific contexts (e.g., primary fibroblasts, hepatoblasts, tumor types) and mechanisms (e.g., ROS, DNA damage, immune crosstalk). Some entries refer to suppression or inactivation of oncogenes (e.g., c-Myc) inducing senescence, which is distinct from active induction but included as the oncogene is the central entity. c-Abl was excluded as it regulates tumor suppressors rather than directly inducing senescence as an oncogene in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 3,
+      "fn": 9,
+      "precision": 0.4,
+      "recall": 0.18181818181818182,
+      "f1": 0.25000000000000006
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11971980",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12134086",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12581156",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16818632",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17409421",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17634581",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17664422",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19053174",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19150958",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20010815",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20227040",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20237562",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21969595",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22019769",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22791394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23216904"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5309f8f5970c65fa6b000001/attempt_0"
+}

@@ -1,0 +1,800 @@
+[
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "T",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "B",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [
+          {
+            "relation": "R",
+            "polarity": "positive"
+          },
+          {
+            "relation": "T",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    "expected": {
+      "entities": [
+        {
+          "name": "A",
+          "evidence_ids": [
+            "e"
+          ]
+        }
+      ],
+      "unique_entity_count": 1
+    }
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "B",
+          "eligible": true,
+          "relation": "T",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "C",
+          "group_id": "C",
+          "evidence_id": "e",
+          "quote": "C",
+          "eligible": true,
+          "relation": "U",
+          "polarity": "positive",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [],
+        "any_of": [
+          {
+            "relation": "R",
+            "polarity": "positive"
+          },
+          {
+            "relation": "T",
+            "polarity": "positive"
+          }
+        ],
+        "none_of": []
+      }
+    },
+    "expected": {
+      "entities": [
+        {
+          "name": "A",
+          "evidence_ids": [
+            "e"
+          ]
+        },
+        {
+          "name": "B",
+          "evidence_ids": [
+            "e"
+          ]
+        }
+      ],
+      "unique_entity_count": 2
+    }
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "T",
+          "polarity": "negative",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "B",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "B",
+          "eligible": true,
+          "relation": "T",
+          "polarity": "positive",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [
+          {
+            "relation": "R",
+            "polarity": "positive"
+          },
+          {
+            "relation": "T",
+            "polarity": "negative"
+          }
+        ],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "T",
+            "polarity": "positive"
+          }
+        ]
+      }
+    },
+    "expected": {
+      "entities": [
+        {
+          "name": "A",
+          "evidence_ids": [
+            "e"
+          ]
+        }
+      ],
+      "unique_entity_count": 1
+    }
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "unknown",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "B",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "negative",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [
+          {
+            "relation": "R",
+            "polarity": "negative"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    "expected": {
+      "entities": [
+        {
+          "name": "B",
+          "evidence_ids": [
+            "e"
+          ]
+        }
+      ],
+      "unique_entity_count": 1
+    }
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "T",
+          "polarity": "positive",
+          "scope": "Z"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [
+          {
+            "relation": "R",
+            "polarity": "positive"
+          },
+          {
+            "relation": "T",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    "expected": {
+      "entities": [],
+      "unique_entity_count": 0
+    }
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "B",
+          "eligible": true,
+          "relation": "U",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "f",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "f",
+          "quote": "B",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "T",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "B",
+          "eligible": true,
+          "relation": "T",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "f",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [
+          {
+            "relation": "R",
+            "polarity": "positive"
+          },
+          {
+            "relation": "T",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    "expected": {
+      "entities": [
+        {
+          "name": "B",
+          "evidence_ids": [
+            "f",
+            "e"
+          ]
+        },
+        {
+          "name": "A",
+          "evidence_ids": [
+            "f",
+            "e"
+          ]
+        }
+      ],
+      "unique_entity_count": 2
+    }
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "B",
+          "eligible": true,
+          "relation": "T",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "C",
+          "group_id": "C",
+          "evidence_id": "e",
+          "quote": "C",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "unknown",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "T",
+            "polarity": "positive"
+          }
+        ]
+      }
+    },
+    "expected": {
+      "entities": [
+        {
+          "name": "A",
+          "evidence_ids": [
+            "e"
+          ]
+        }
+      ],
+      "unique_entity_count": 1
+    }
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        },
+        {
+          "name": "B",
+          "group_id": "B",
+          "evidence_id": "e",
+          "quote": "does not exist",
+          "eligible": false,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [
+          {
+            "relation": "R",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A B C"
+        },
+        {
+          "evidence_id": "f",
+          "text": "A B C"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "polarity": "positive",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [
+          {
+            "relation": "R",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "e",
+          "text": "A"
+        }
+      ],
+      "entries": [
+        {
+          "name": "A",
+          "group_id": "A",
+          "evidence_id": "e",
+          "quote": "A",
+          "eligible": true,
+          "relation": "R",
+          "polarity": "positive",
+          "scope": "S"
+        }
+      ],
+      "policy": {
+        "scope": "S",
+        "all_of": [
+          {
+            "relation": "R",
+            "polarity": "unknown"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "text": "Symbol A was observed in relation R1 with positive polarity."
+        },
+        {
+          "evidence_id": "E2",
+          "text": "Symbol B was observed in relation R2 with negative polarity."
+        },
+        {
+          "evidence_id": "E3",
+          "text": "Symbol C was observed in relation R1 with positive polarity."
+        }
+      ],
+      "entries": [
+        {
+          "name": "Entity_Alpha",
+          "group_id": "G1",
+          "evidence_id": "E1",
+          "quote": "Symbol A was observed in relation R1 with positive polarity.",
+          "eligible": true,
+          "relation": "R1",
+          "polarity": "positive",
+          "scope": "SCOPE_X"
+        },
+        {
+          "name": "Entity_Alpha",
+          "group_id": "G1",
+          "evidence_id": "E2",
+          "quote": "Symbol B was observed in relation R2 with negative polarity.",
+          "eligible": true,
+          "relation": "R2",
+          "polarity": "negative",
+          "scope": "SCOPE_X"
+        },
+        {
+          "name": "Entity_Beta",
+          "group_id": "G2",
+          "evidence_id": "E3",
+          "quote": "Symbol C was observed in relation R1 with positive polarity.",
+          "eligible": true,
+          "relation": "R1",
+          "polarity": "positive",
+          "scope": "SCOPE_Y"
+        }
+      ],
+      "policy": {
+        "scope": "SCOPE_X",
+        "all_of": [
+          {
+            "relation": "R1",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "R2",
+            "polarity": "negative"
+          }
+        ]
+      }
+    },
+    "expected": {
+      "entities": [],
+      "unique_entity_count": 0
+    }
+  },
+  {
+    "input": {
+      "evidence": [
+        {
+          "evidence_id": "E4",
+          "text": "Symbol S1 is present in relation R_A."
+        },
+        {
+          "evidence_id": "E5",
+          "text": "Symbol S2 is absent in relation R_B."
+        },
+        {
+          "evidence_id": "E6",
+          "text": "Symbol S3 is present in relation R_C."
+        }
+      ],
+      "entries": [
+        {
+          "name": "Group_Missing",
+          "group_id": "G3",
+          "evidence_id": "E4",
+          "quote": "Symbol S1 is present in relation R_A.",
+          "eligible": true,
+          "relation": "R_A",
+          "polarity": "positive",
+          "scope": "SCOPE_Z"
+        },
+        {
+          "name": "Group_ExplicitNeg",
+          "group_id": "G4",
+          "evidence_id": "E5",
+          "quote": "Symbol S2 is absent in relation R_B.",
+          "eligible": true,
+          "relation": "R_B",
+          "polarity": "negative",
+          "scope": "SCOPE_Z"
+        },
+        {
+          "name": "Group_ExplicitNeg",
+          "group_id": "G4",
+          "evidence_id": "E6",
+          "quote": "Symbol S3 is present in relation R_C.",
+          "eligible": true,
+          "relation": "R_C",
+          "polarity": "positive",
+          "scope": "SCOPE_Z"
+        }
+      ],
+      "policy": {
+        "scope": "SCOPE_Z",
+        "all_of": [],
+        "any_of": [
+          {
+            "relation": "R_A",
+            "polarity": "positive"
+          },
+          {
+            "relation": "R_B",
+            "polarity": "negative"
+          }
+        ],
+        "none_of": [
+          {
+            "relation": "R_B",
+            "polarity": "negative"
+          }
+        ]
+      }
+    },
+    "expected": {
+      "entities": [
+        {
+          "name": "Group_Missing",
+          "evidence_ids": [
+            "E4"
+          ]
+        }
+      ],
+      "unique_entity_count": 1
+    }
+  }
+]

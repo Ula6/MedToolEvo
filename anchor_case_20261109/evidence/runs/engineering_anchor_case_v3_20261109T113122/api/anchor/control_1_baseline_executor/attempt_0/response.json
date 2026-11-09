@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"queries\": [\n    {\n      \"query_id\": \"control1\",\n      \"matches\": [\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 69,\n          \"end\": 83,\n          \"quote\": \"white European\"\n        }\n      ]\n    }\n  ],\n  \"unsupported_query_ids\": []\n}"
+      }
+    }
+  ],
+  "created": 1794224153,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 710,
+    "total_tokens": 806,
+    "prompt_tokens_details": {
+      "cached_tokens": 531
+    }
+  },
+  "id": "chatcmpl-AGmNvmJ9nOrDthJXpzDwyDtdoyHztMn1",
+  "timings": {
+    "cache_n": 531,
+    "prompt_n": 179,
+    "prompt_ms": 455.755,
+    "prompt_per_token_ms": 2.546117318435754,
+    "prompt_per_second": 392.7548792662725,
+    "predicted_n": 96,
+    "predicted_ms": 3466.415,
+    "predicted_per_token_ms": 36.488578947368424,
+    "predicted_per_second": 27.405835712111795
+  }
+}

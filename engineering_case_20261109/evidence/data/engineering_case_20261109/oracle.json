@@ -1,0 +1,10 @@
+{
+  "expected": {
+    "weighted_mean": 9.271921,
+    "weighted_population_variance": 1.738761,
+    "weighted_population_sd": 1.318621,
+    "weighted_geometric_mean": 9.187657
+  },
+  "independent_numpy_agrees": true,
+  "policy": "Offline independent evaluator only. Never send to Executor, Manager or Builder."
+}

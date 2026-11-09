@@ -1,0 +1,16 @@
+{
+  "action": "create",
+  "operation_name": "diagnose_unicode_span_misalignment",
+  "reason": "Executor outputs exhibit systematic off-by-one errors in end offsets for queries containing non-ASCII characters (e.g., 'double‐blind' with U+2010) and standard words, failing the 'exact source span' verification rule.",
+  "diagnosis": "The 'retry_answer' truncates the end offset by 1 for 'studies' (79-86 vs 79-87), 'vitamin D' (349-358 vs 349-359), and 'double‐blind' (296-307 vs 296-308). This indicates a failure to correctly map the normalized substring back to the original zero-based Python Unicode code-point span, likely due to incorrect handling of the slice end index or character counting logic. The 'quote' field in the retry answer for q3 ('double‐blind') is technically correct in content but the span [296, 307) excludes the final character if the source text length is 12, or includes an extra character if the logic is flawed. Given the 'index_check_pass: false' and the consistent -1 shift in end indices across multiple queries, the evidence anchoring is invalid.",
+  "deterministic_steps": [
+    "Extract the original source text string for source_id 'PMC11872689'.",
+    "Apply the normalization rule (NFKC + casefold + whitespace collapse) to the original source text to create a normalized search string.",
+    "Apply the same normalization rule to each query text.",
+    "Perform a substring search of the normalized query within the normalized source string to find all start indices.",
+    "For each found normalized start index, map it back to the corresponding original Unicode code-point start index.",
+    "Calculate the original end index by adding the length of the original substring (not the normalized one) to the original start index, ensuring the slice [start, end) captures the exact original characters.",
+    "Verify that original_text[start:end] exactly matches the query text (case-sensitive, original characters) or the specific original occurrence found.",
+    "Compare the calculated [start, end) spans against the 'retry_answer' spans to confirm the off-by-one discrepancy."
+  ]
+}

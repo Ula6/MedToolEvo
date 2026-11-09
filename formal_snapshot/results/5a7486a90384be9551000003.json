@@ -1,0 +1,324 @@
+{
+  "task_id": "5a7486a90384be9551000003",
+  "question": "Which molecules are inhibited by anticancer drug Dovitinib?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "VEGFR",
+      "FGFR",
+      "PDGFR",
+      "KIT",
+      "VEGFR 1-3",
+      "FGFR 1-3",
+      "PDGFR β",
+      "c-Kit",
+      "FGFR1/2/3",
+      "CSF1R",
+      "VEGFR2",
+      "FLT3",
+      "FGFR2",
+      "FGFR3"
+    ],
+    "supports": [
+      {
+        "item": "VEGFR",
+        "evidence_id": "e2",
+        "quote": "Dovitinib inhibits multiple tyrosine receptor kinases, predominantly the vascular endothelial growth factor receptors (VEGFR), but also FGFRs, and could be active in MPM."
+      },
+      {
+        "item": "FGFR",
+        "evidence_id": "e1",
+        "quote": "Dovitinib, a potent FGFR inhibitor, has demonstrated antitumor activity in heavily pretreated patients with FGFR pathway-amplified breast cancer."
+      },
+      {
+        "item": "PDGFR",
+        "evidence_id": "e3",
+        "quote": "Dovitinib (TKI-258/CHIR-258) is a pan receptor tyrosine kinase (RTK) inhibitor that targets VEGFR, FGFR, PDGFR, and KIT."
+      },
+      {
+        "item": "KIT",
+        "evidence_id": "e3",
+        "quote": "Dovitinib (TKI-258/CHIR-258) is a pan receptor tyrosine kinase (RTK) inhibitor that targets VEGFR, FGFR, PDGFR, and KIT."
+      },
+      {
+        "item": "VEGFR 1-3",
+        "evidence_id": "e7",
+        "quote": "PURPOSE: Dovitinib is an orally available multi tyrosine kinase inhibitor which inhibits VEGFR 1-3, FGFR 1-3, and PDGFR. "
+      },
+      {
+        "item": "FGFR 1-3",
+        "evidence_id": "e7",
+        "quote": "PURPOSE: Dovitinib is an orally available multi tyrosine kinase inhibitor which inhibits VEGFR 1-3, FGFR 1-3, and PDGFR. "
+      },
+      {
+        "item": "PDGFR β",
+        "evidence_id": "e9",
+        "quote": "PURPOSE: Dovitinib (TKI258) is an oral multi-tyrosine kinase inhibitor of FGFR, VEGFR, PDGFR β, and c-Kit. "
+      },
+      {
+        "item": "c-Kit",
+        "evidence_id": "e9",
+        "quote": "PURPOSE: Dovitinib (TKI258) is an oral multi-tyrosine kinase inhibitor of FGFR, VEGFR, PDGFR β, and c-Kit. "
+      },
+      {
+        "item": "FLT3",
+        "evidence_id": "e18",
+        "quote": "Dovitinib is a novel multi-target tyrosine kinase inhibitor that inhibits vascular endothelial growth factor receptor-1-3, platelet-derived growth factor receptor-β, Fms-like tyrosine kinase 3, c-Kit and fibroblast growth factor receptor-1-3."
+      },
+      {
+        "item": "FGFR2",
+        "evidence_id": "e17",
+        "quote": "We sought to identify fibroblast growth factor receptor 2 (FGFR2) kinase domain mutations that confer resistance to the pan-FGFR inhibitor, dovitinib, and explore the mechanism of action of the drug-resistant mutations."
+      },
+      {
+        "item": "FGFR3",
+        "evidence_id": "e13",
+        "quote": "In vitro, N87-TR cell lines demonstrated a higher sensitivity than did trastuzumab-sensitive parental cells to the FGFR3 inhibitor dovitinib, which reduced expression of pAKT, ZEB1, and cell migration."
+      }
+    ],
+    "invalid_supports": [
+      {
+        "index": 8,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "FGFR1/2/3",
+          "evidence_id": "e12",
+          "quote": "AZD4547, BGJ398 (infigratinib), Debio-1347 and dovitinib are FGFR1/2/3 inhibitors; BLU9931 is a selective FGFR4 inhibitor; FIIN-2, JNJ-42756493, LY2874455 and ponatinib are pan-FGFR inhibitors. AZD4547, dovitinib and ponatinib are multi-kinase inhibitors targeting FGFRs, colony stimulating factor 1 receptor (CSF1R), vascular endothelial growth factor (VEGF)R2, and others. "
+        }
+      },
+      {
+        "index": 9,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "CSF1R",
+          "evidence_id": "e12",
+          "quote": "AZD4547, BGJ398 (infigratinib), Debio-1347 and dovitinib are FGFR1/2/3 inhibitors; BLU9931 is a selective FGFR4 inhibitor; FIIN-2, JNJ-42756493, LY2874455 and ponatinib are pan-FGFR inhibitors. AZD4547, dovitinib and ponatinib are multi-kinase inhibitors targeting FGFRs, colony stimulating factor 1 receptor (CSF1R), vascular endothelial growth factor (VEGF)R2, and others. "
+        }
+      },
+      {
+        "index": 10,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "VEGFR2",
+          "evidence_id": "e12",
+          "quote": "AZD4547, BGJ398 (infigratinib), Debio-1347 and dovitinib are FGFR1/2/3 inhibitors; BLU9931 is a selective FGFR4 inhibitor; FIIN-2, JNJ-42756493, LY2874455 and ponatinib are pan-FGFR inhibitors. AZD4547, dovitinib and ponatinib are multi-kinase inhibitors targeting FGFRs, colony stimulating factor 1 receptor (CSF1R), vascular endothelial growth factor (VEGF)R2, and others. "
+        }
+      }
+    ],
+    "unsupported_items": [
+      "FGFR1/2/3",
+      "CSF1R",
+      "VEGFR2"
+    ],
+    "limitations": "Evidence lists specific receptor families and isoforms (e.g., VEGFR 1-3, FGFR 1-3) but does not explicitly confirm inhibition of every single isoform within those ranges in all contexts; some sources use general terms like 'FGFR' or 'VEGFR' while others specify subtypes. The list includes molecules explicitly named as targets in the provided text segments.",
+    "source_binding_complete": false,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 10,
+      "fn": 0,
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1": 0.4444444444444445
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "FGFR",
+      "VEGFR",
+      "PDGFR",
+      "KIT",
+      "VEGFR 1-3",
+      "FGFR 1-3",
+      "PDGFR β",
+      "c-Kit",
+      "FGFR3",
+      "Fms-like tyrosine kinase 3",
+      "FGFR2"
+    ],
+    "supports": [
+      {
+        "item": "FGFR",
+        "evidence_id": "e1",
+        "quote": "Dovitinib, a potent FGFR inhibitor, has demonstrated antitumor activity in heavily pretreated patients with FGFR pathway-amplified breast cancer."
+      },
+      {
+        "item": "VEGFR",
+        "evidence_id": "e2",
+        "quote": "Dovitinib inhibits multiple tyrosine receptor kinases, predominantly the vascular endothelial growth factor receptors (VEGFR), but also FGFRs, and could be active in MPM."
+      },
+      {
+        "item": "PDGFR",
+        "evidence_id": "e3",
+        "quote": "Dovitinib (TKI-258/CHIR-258) is a pan receptor tyrosine kinase (RTK) inhibitor that targets VEGFR, FGFR, PDGFR, and KIT."
+      },
+      {
+        "item": "KIT",
+        "evidence_id": "e3",
+        "quote": "Dovitinib (TKI-258/CHIR-258) is a pan receptor tyrosine kinase (RTK) inhibitor that targets VEGFR, FGFR, PDGFR, and KIT."
+      },
+      {
+        "item": "VEGFR 1-3",
+        "evidence_id": "e7",
+        "quote": "PURPOSE: Dovitinib is an orally available multi tyrosine kinase inhibitor which inhibits VEGFR 1-3, FGFR 1-3, and PDGFR."
+      },
+      {
+        "item": "FGFR 1-3",
+        "evidence_id": "e7",
+        "quote": "PURPOSE: Dovitinib is an orally available multi tyrosine kinase inhibitor which inhibits VEGFR 1-3, FGFR 1-3, and PDGFR."
+      },
+      {
+        "item": "PDGFR β",
+        "evidence_id": "e9",
+        "quote": "PURPOSE: Dovitinib (TKI258) is an oral multi-tyrosine kinase inhibitor of FGFR, VEGFR, PDGFR β, and c-Kit."
+      },
+      {
+        "item": "c-Kit",
+        "evidence_id": "e9",
+        "quote": "PURPOSE: Dovitinib (TKI258) is an oral multi-tyrosine kinase inhibitor of FGFR, VEGFR, PDGFR β, and c-Kit."
+      },
+      {
+        "item": "FGFR3",
+        "evidence_id": "e13",
+        "quote": "In vitro, N87-TR cell lines demonstrated a higher sensitivity than did trastuzumab-sensitive parental cells to the FGFR3 inhibitor dovitinib, which reduced expression of pAKT, ZEB1, and cell migration."
+      },
+      {
+        "item": "Fms-like tyrosine kinase 3",
+        "evidence_id": "e18",
+        "quote": "Dovitinib is a novel multi-target tyrosine kinase inhibitor that inhibits vascular endothelial growth factor receptor-1-3, platelet-derived growth factor receptor-β, Fms-like tyrosine kinase 3, c-Kit and fibroblast growth factor receptor-1-3."
+      },
+      {
+        "item": "FGFR2",
+        "evidence_id": "e17",
+        "quote": "We sought to identify fibroblast growth factor receptor 2 (FGFR2) kinase domain mutations that confer resistance to the pan-FGFR inhibitor, dovitinib, and explore the mechanism of action of the drug-resistant mutations."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence lists specific receptor families and isoforms (e.g., VEGFR 1-3, FGFR 1-3, PDGFR β, c-Kit, FLT3). Some records in Qwen extraction (e.g., CSF1R, VEGFR2, FGFR1/2/3) were not explicitly named as distinct inhibited entities in the provided text spans, though implied by ranges. The term 'tyrosine kinome' in e16 refers to a broad target screen, not a specific molecule. Evidence e8 describes dovitinib as a 'selective VEGFR inhibitor' in a trial context, but other evidence confirms multi-target inhibition.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 7,
+      "fn": 0,
+      "precision": 0.36363636363636365,
+      "recall": 1.0,
+      "f1": 0.5333333333333333
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "FGFR",
+      "VEGFR",
+      "PDGFR",
+      "KIT",
+      "VEGFR 1-3",
+      "FGFR 1-3",
+      "PDGFR β",
+      "c-Kit",
+      "FGFR3",
+      "Fms-like tyrosine kinase 3",
+      "FGFR2"
+    ],
+    "supports": [
+      {
+        "item": "FGFR",
+        "evidence_id": "e1",
+        "quote": "Dovitinib, a potent FGFR inhibitor, has demonstrated antitumor activity in heavily pretreated patients with FGFR pathway-amplified breast cancer."
+      },
+      {
+        "item": "VEGFR",
+        "evidence_id": "e2",
+        "quote": "Dovitinib inhibits multiple tyrosine receptor kinases, predominantly the vascular endothelial growth factor receptors (VEGFR), but also FGFRs, and could be active in MPM."
+      },
+      {
+        "item": "PDGFR",
+        "evidence_id": "e3",
+        "quote": "Dovitinib (TKI-258/CHIR-258) is a pan receptor tyrosine kinase (RTK) inhibitor that targets VEGFR, FGFR, PDGFR, and KIT."
+      },
+      {
+        "item": "KIT",
+        "evidence_id": "e3",
+        "quote": "Dovitinib (TKI-258/CHIR-258) is a pan receptor tyrosine kinase (RTK) inhibitor that targets VEGFR, FGFR, PDGFR, and KIT."
+      },
+      {
+        "item": "VEGFR 1-3",
+        "evidence_id": "e7",
+        "quote": "PURPOSE: Dovitinib is an orally available multi tyrosine kinase inhibitor which inhibits VEGFR 1-3, FGFR 1-3, and PDGFR."
+      },
+      {
+        "item": "FGFR 1-3",
+        "evidence_id": "e7",
+        "quote": "PURPOSE: Dovitinib is an orally available multi tyrosine kinase inhibitor which inhibits VEGFR 1-3, FGFR 1-3, and PDGFR."
+      },
+      {
+        "item": "PDGFR β",
+        "evidence_id": "e9",
+        "quote": "PURPOSE: Dovitinib (TKI258) is an oral multi-tyrosine kinase inhibitor of FGFR, VEGFR, PDGFR β, and c-Kit."
+      },
+      {
+        "item": "c-Kit",
+        "evidence_id": "e9",
+        "quote": "PURPOSE: Dovitinib (TKI258) is an oral multi-tyrosine kinase inhibitor of FGFR, VEGFR, PDGFR β, and c-Kit."
+      },
+      {
+        "item": "FGFR3",
+        "evidence_id": "e13",
+        "quote": "In vitro, N87-TR cell lines demonstrated a higher sensitivity than did trastuzumab-sensitive parental cells to the FGFR3 inhibitor dovitinib, which reduced expression of pAKT, ZEB1, and cell migration."
+      },
+      {
+        "item": "Fms-like tyrosine kinase 3",
+        "evidence_id": "e18",
+        "quote": "Dovitinib is a novel multi-target tyrosine kinase inhibitor that inhibits vascular endothelial growth factor receptor-1-3, platelet-derived growth factor receptor-β, Fms-like tyrosine kinase 3, c-Kit and fibroblast growth factor receptor-1-3."
+      },
+      {
+        "item": "FGFR2",
+        "evidence_id": "e17",
+        "quote": "We sought to identify fibroblast growth factor receptor 2 (FGFR2) kinase domain mutations that confer resistance to the pan-FGFR inhibitor, dovitinib, and explore the mechanism of action of the drug-resistant mutations."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence lists specific receptor families and isoforms (e.g., VEGFR 1-3, FGFR 1-3, PDGFR β, c-Kit, FLT3). Some records in Qwen extraction (e.g., CSF1R, VEGFR2, FGFR1/2/3) were not explicitly named as distinct inhibited entities in the provided text spans, though implied by ranges. The term 'tyrosine kinome' in e16 refers to a broad target screen, not a specific molecule. Evidence e8 describes dovitinib as a 'selective VEGFR inhibitor' in a trial context, but other evidence confirms multi-target inhibition.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 7,
+      "fn": 0,
+      "precision": 0.36363636363636365,
+      "recall": 1.0,
+      "f1": 0.5333333333333333
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22180308",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23041231",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23443805",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23908597",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25683141",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26149476",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26723100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27025387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27082062",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27100354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27216979",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27245147",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27267856",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27315356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27705940",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28183331",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28213002",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28342996",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28377480",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28714017",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28736761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29101463"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5a7486a90384be9551000003/attempt_0"
+}

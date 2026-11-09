@@ -1,0 +1,185 @@
+{
+  "task_id": "5319a724b166e2b806000025",
+  "question": "Which trinucleotide repeat disorders are affecting the nervous system?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "X-linked spinal and bulbar muscular atrophy (SBMA)",
+      "Fragile X syndrome of mental retardation (FRAXA)",
+      "Fragile X syndrome of mental retardation (FRAXE)",
+      "Myotonic dystrophy",
+      "Huntington's disease",
+      "Spinocerebellar ataxia type 1 (SCA1)",
+      "Dentatorubral-pallidoluysian atrophy (DRPLA)"
+    ],
+    "supports": [
+      {
+        "item": "X-linked spinal and bulbar muscular atrophy (SBMA)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Fragile X syndrome of mental retardation (FRAXA)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Fragile X syndrome of mental retardation (FRAXE)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Myotonic dystrophy",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Huntington's disease",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Spinocerebellar ataxia type 1 (SCA1)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Dentatorubral-pallidoluysian atrophy (DRPLA)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence e2 lists 'at least seven' disorders, implying the list may not be exhaustive. Evidence e1 mentions 'inherited ataxias' and 'muscular dystrophy' generally but does not name specific types beyond those in e2. Evidence e3 distinguishes between multisystem disorders (Fragile X, myotonic dystrophy) and neurodegenerative disorders (SBMA, Huntington's, SCA1, DRPLA) but does not add new disorder names.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 2,
+      "fn": 1,
+      "precision": 0.7142857142857143,
+      "recall": 0.8333333333333334,
+      "f1": 0.7692307692307692
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "X-linked spinal and bulbar muscular atrophy (SBMA)",
+      "Fragile X syndromes of mental retardation (FRAXA and FRAXE)",
+      "Myotonic dystrophy",
+      "Huntington's disease",
+      "Spinocerebellar ataxia type 1 (SCA1)",
+      "Dentatorubral-pallidoluysian atrophy (DRPLA)"
+    ],
+    "supports": [
+      {
+        "item": "X-linked spinal and bulbar muscular atrophy (SBMA)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Fragile X syndromes of mental retardation (FRAXA and FRAXE)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Myotonic dystrophy",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Huntington's disease",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Spinocerebellar ataxia type 1 (SCA1)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Dentatorubral-pallidoluysian atrophy (DRPLA)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence e1 mentions 'inherited ataxias' and 'muscular dystrophy' generally but does not specify them as trinucleotide repeat disorders in the same explicit list as e2; e2 explicitly lists six specific disorders resulting from trinucleotide repeat expansion affecting the nervous system. The list in e2 is the most specific and direct answer to the question.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 3,
+      "fn": 3,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "X-linked spinal and bulbar muscular atrophy (SBMA)",
+      "Fragile X syndromes of mental retardation (FRAXA and FRAXE)",
+      "Myotonic dystrophy",
+      "Huntington's disease",
+      "Spinocerebellar ataxia type 1 (SCA1)",
+      "Dentatorubral-pallidoluysian atrophy (DRPLA)"
+    ],
+    "supports": [
+      {
+        "item": "X-linked spinal and bulbar muscular atrophy (SBMA)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Fragile X syndromes of mental retardation (FRAXA and FRAXE)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Myotonic dystrophy",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Huntington's disease",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Spinocerebellar ataxia type 1 (SCA1)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      },
+      {
+        "item": "Dentatorubral-pallidoluysian atrophy (DRPLA)",
+        "evidence_id": "e2",
+        "quote": "At least seven disorders result from trinucleotide repeat expansion: X-linked spinal and bulbar muscular atrophy (SBMA), two fragile X syndromes of mental retardation (FRAXA and FRAXE), myotonic dystrophy, Huntington's disease, spinocerebellar ataxia type 1 (SCA1), and dentatorubral-pallidoluysian atrophy (DRPLA)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence e1 mentions 'inherited ataxias' and 'muscular dystrophy' generally but does not specify them as trinucleotide repeat disorders in the same explicit list as e2; e2 explicitly lists six specific disorders resulting from trinucleotide repeat expansion affecting the nervous system. The list in e2 is the most specific and direct answer to the question.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 3,
+      "fn": 3,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17417937",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7998766"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5319a724b166e2b806000025/attempt_0"
+}

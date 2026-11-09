@@ -1,0 +1,1181 @@
+{
+  "task_id": "67cf3b6381b1027333000024",
+  "question": "Please list the active compounds that can be extracted from Sophora tonkinensis",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "tonkinensisol",
+      "bayin",
+      "vitexin",
+      "lupeol",
+      "cytisine",
+      "sophocarpine",
+      "matrine",
+      "lehmannine",
+      "sophoranol",
+      "oxymatrine",
+      "oxysophocarpine",
+      "(-)-14 beta-hydroxymatrine",
+      "(+)-oxymatrine",
+      "(+)-matrine",
+      "(+)-sophoranol",
+      "(-)-5 alpha-hydroxysophocarpine",
+      "(-)-cytisine",
+      "(-)- N-methylcytisine",
+      "tonkinochromane I",
+      "glabrol",
+      "lupinifolin",
+      "tonkinensisol",
+      "8-C-prenylkaempferol",
+      "7,2'-dihydroxy-4'-methoxy-isoflavanol",
+      "formononetin",
+      "genistein",
+      "shandougenines A",
+      "shandougenines B",
+      "shandougenine C",
+      "shandougenine D",
+      "tonkinochromanes F",
+      "tonkinochromanes G",
+      "tonkinochromanes H",
+      "(-)-14 beta-hydroxyoxymatrine",
+      "trifolirhizin",
+      "(-)-maackiain",
+      "(-)-sophoranone",
+      "(2-(2,4-dihydroxyphenyl)-5,6-methylenedioxybenzofuran",
+      "maackiain",
+      "sophoranone",
+      "sophoranochromene",
+      "pinoresinol",
+      "syringaresinol",
+      "medioresinol",
+      "4',7-dihydroxyflavone",
+      "calycosin",
+      "genistein",
+      "1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone",
+      "cyclo(Pro-Pro)",
+      "nicotinic acid",
+      "p-hydroxybenzonic acid",
+      "p-methoxybenzonic acid",
+      "4-hydroxymethyl-2,6-dimethoxyphenol-1-O-β-D-glucopyranoside",
+      "coniferin",
+      "syringin",
+      "(-)-secoisolariciresinol-4-O-β-D-glucopyranoside",
+      "(-)-syringaresinol-4-O-β-D-glucopyranoside",
+      "(-)-syringaresinol-4,4'-di-O-β-D-glucopyranoside",
+      "(-)-pinoresinol-4,4'-di-O-β-D-glucopyranoside",
+      "(6S,9R)-roseoside",
+      "(+)-matrine",
+      "(-)-cytisine",
+      "(+)-matrine N-oxide",
+      "(+)-sophocarpine N-oxide",
+      "(+)-sophoramine",
+      "(+)-sophoranol",
+      "(+)-5α-hydroxyoxysophocarpine",
+      "(-)-12β-hydroxyoxysophocarpine",
+      "(+)-5α-hydroxylemannine",
+      "(-)-sophocarpine",
+      "(-)-5α-hydroxysophocarpine",
+      "(-)-9α-hydroxysophocarpine",
+      "(+)-12α-hydroxysophocarpine",
+      "(-)-12β-hydroxysophocarpine",
+      "(+)-oxysophocarpine",
+      "(+)-matrine",
+      "(+)-sophoranol",
+      "(+)-9α-hydroxymatrine",
+      "(-)-14β-hydroxymatrine",
+      "(+)-oxymatrine",
+      "(+)-5α-hydroxyoxymatrine",
+      "(-)-14β-hydroxyoxymatrine",
+      "(+)-sophoramine",
+      "cytosine",
+      "oxymatrine",
+      "N-oxysophocarpine",
+      "N-methylcytisine",
+      "sophoranol",
+      "matrine",
+      "sophocarpine",
+      "trifolirhizin",
+      "fermononetin",
+      "maackiain"
+    ],
+    "supports": [
+      {
+        "item": "tonkinensisol",
+        "evidence_id": "e1",
+        "quote": "A new flavonol, tonkinensisol, was isolated from the roots of Sophora tonkinensis"
+      },
+      {
+        "item": "bayin",
+        "evidence_id": "e1",
+        "quote": "together with three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "vitexin",
+        "evidence_id": "e1",
+        "quote": "together with three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "lupeol",
+        "evidence_id": "e1",
+        "quote": "together with three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "cytisine",
+        "evidence_id": "e2",
+        "quote": "A total of seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "sophocarpine",
+        "evidence_id": "e2",
+        "quote": "A total of seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "matrine",
+        "evidence_id": "e2",
+        "quote": "A total of seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "lehmannine",
+        "evidence_id": "e2",
+        "quote": "A total of seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "sophoranol",
+        "evidence_id": "e2",
+        "quote": "A total of seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "oxymatrine",
+        "evidence_id": "e2",
+        "quote": "A total of seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "oxysophocarpine",
+        "evidence_id": "e2",
+        "quote": "A total of seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "(-)-14 beta-hydroxymatrine",
+        "evidence_id": "e3",
+        "quote": "five known matrine-type alkaloids, (-)-14 beta-hydroxymatrine (2)"
+      },
+      {
+        "item": "(-)-cytisine",
+        "evidence_id": "e3",
+        "quote": "two known cytisine-type alkaloids, (-)-cytisine (7)"
+      },
+      {
+        "item": "tonkinochromane I",
+        "evidence_id": "e4",
+        "quote": "Eight compounds were isolated and their structures were identified as tonkinochromane I (1)"
+      },
+      {
+        "item": "shandougenines A",
+        "evidence_id": "e7",
+        "quote": "Two novel 2-arylbenzofuran dimers, shandougenines A (1) and B (2)"
+      },
+      {
+        "item": "shandougenines B",
+        "evidence_id": "e7",
+        "quote": "Two novel 2-arylbenzofuran dimers, shandougenines A (1) and B (2)"
+      },
+      {
+        "item": "shandougenine C",
+        "evidence_id": "e7",
+        "quote": "two new polyisoprenylated flavanones 3 (shandougenine C)"
+      },
+      {
+        "item": "tonkinochromanes F",
+        "evidence_id": "e8",
+        "quote": "three new isoprenylated flavanones, the tonkinochromanes F (2)"
+      },
+      {
+        "item": "(-)-14 beta-hydroxyoxymatrine",
+        "evidence_id": "e9",
+        "quote": "A new matrine-type alkaloid, (-)-14 beta-hydroxyoxymatrine (1)"
+      },
+      {
+        "item": "trifolirhizin",
+        "evidence_id": "e10",
+        "quote": "contains four marker compounds (trifolirhizin, TF;"
+      },
+      {
+        "item": "maackiain",
+        "evidence_id": "e11",
+        "quote": "nine known compounds, maackiain (2)"
+      },
+      {
+        "item": "1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone",
+        "evidence_id": "e12",
+        "quote": "Their structures were elucidated as 1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone(1)"
+      },
+      {
+        "item": "(+)-matrine",
+        "evidence_id": "e14",
+        "quote": "identified as (I) (+)-matrine"
+      },
+      {
+        "item": "(+)-5α-hydroxyoxysophocarpine",
+        "evidence_id": "e16",
+        "quote": "Three new matrine-type alkaloids, (+)-5α-hydroxyoxysophocarpine (1)"
+      },
+      {
+        "item": "(-)-sophocarpine",
+        "evidence_id": "e16",
+        "quote": "14 known analogues, (-)-sophocarpine (4)"
+      },
+      {
+        "item": "cytosine",
+        "evidence_id": "e18",
+        "quote": "simultaneous determination of seven alkaloids (cytosine, oxymatrine, N-oxysophocarpine, N-methylcytisine, sophoranol, matrine, and sophocarpine)"
+      },
+      {
+        "item": "oxymatrine",
+        "evidence_id": "e18",
+        "quote": "simultaneous determination of seven alkaloids (cytosine, oxymatrine, N-oxysophocarpine, N-methylcytisine, sophoranol, matrine, and sophocarpine)"
+      },
+      {
+        "item": "N-oxysophocarpine",
+        "evidence_id": "e18",
+        "quote": "simultaneous determination of seven alkaloids (cytosine, oxymatrine, N-oxysophocarpine, N-methylcytisine, sophoranol, matrine, and sophocarpine)"
+      },
+      {
+        "item": "N-methylcytisine",
+        "evidence_id": "e18",
+        "quote": "simultaneous determination of seven alkaloids (cytosine, oxymatrine, N-oxysophocarpine, N-methylcytisine, sophoranol, matrine, and sophocarpine)"
+      },
+      {
+        "item": "sophoranol",
+        "evidence_id": "e18",
+        "quote": "simultaneous determination of seven alkaloids (cytosine, oxymatrine, N-oxysophocarpine, N-methylcytisine, sophoranol, matrine, and sophocarpine)"
+      },
+      {
+        "item": "matrine",
+        "evidence_id": "e18",
+        "quote": "simultaneous determination of seven alkaloids (cytosine, oxymatrine, N-oxysophocarpine, N-methylcytisine, sophoranol, matrine, and sophocarpine)"
+      },
+      {
+        "item": "sophocarpine",
+        "evidence_id": "e18",
+        "quote": "simultaneous determination of seven alkaloids (cytosine, oxymatrine, N-oxysophocarpine, N-methylcytisine, sophoranol, matrine, and sophocarpine)"
+      },
+      {
+        "item": "trifolirhizin",
+        "evidence_id": "e18",
+        "quote": "three flavonoids (trifolirhizin, fermononetin, and maackiain)"
+      },
+      {
+        "item": "fermononetin",
+        "evidence_id": "e18",
+        "quote": "three flavonoids (trifolirhizin, fermononetin, and maackiain)"
+      },
+      {
+        "item": "maackiain",
+        "evidence_id": "e18",
+        "quote": "three flavonoids (trifolirhizin, fermononetin, and maackiain)"
+      }
+    ],
+    "invalid_supports": [
+      {
+        "index": 12,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-oxymatrine",
+          "evidence_id": "e3",
+          "quote": "five known matrine-type alkaloids, ... (+)-oxymatrine (3)"
+        }
+      },
+      {
+        "index": 13,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-matrine",
+          "evidence_id": "e3",
+          "quote": "five known matrine-type alkaloids, ... (+)-matrine (4)"
+        }
+      },
+      {
+        "index": 14,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-sophoranol",
+          "evidence_id": "e3",
+          "quote": "five known matrine-type alkaloids, ... (+)-sophoranol (5)"
+        }
+      },
+      {
+        "index": 15,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-5 alpha-hydroxysophocarpine",
+          "evidence_id": "e3",
+          "quote": "five known matrine-type alkaloids, ... and (-)-5 alpha-hydroxysophocarpine ( 6)"
+        }
+      },
+      {
+        "index": 17,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)- N-methylcytisine",
+          "evidence_id": "e3",
+          "quote": "two known cytisine-type alkaloids, ... and (-)- N-methylcytisine"
+        }
+      },
+      {
+        "index": 19,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "glabrol",
+          "evidence_id": "e4",
+          "quote": "Eight compounds were isolated and their structures were identified as ... glabrol (3)"
+        }
+      },
+      {
+        "index": 20,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "lupinifolin",
+          "evidence_id": "e4",
+          "quote": "Eight compounds were isolated and their structures were identified as ... lupinifolin (2)"
+        }
+      },
+      {
+        "index": 21,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "tonkinensisol",
+          "evidence_id": "e4",
+          "quote": "Eight compounds were isolated and their structures were identified as ... tonkinensisol (4)"
+        }
+      },
+      {
+        "index": 22,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "8-C-prenylkaempferol",
+          "evidence_id": "e4",
+          "quote": "Eight compounds were isolated and their structures were identified as ... 8-C-prenylkaempferol (5)"
+        }
+      },
+      {
+        "index": 23,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "7,2'-dihydroxy-4'-methoxy-isoflavanol",
+          "evidence_id": "e4",
+          "quote": "Eight compounds were isolated and their structures were identified as ... 7,2'-dihydroxy-4'-methoxy-isoflavanol (6)"
+        }
+      },
+      {
+        "index": 24,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "formononetin",
+          "evidence_id": "e4",
+          "quote": "Eight compounds were isolated and their structures were identified as ... formononetin (7)"
+        }
+      },
+      {
+        "index": 25,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "genistein",
+          "evidence_id": "e4",
+          "quote": "Eight compounds were isolated and their structures were identified as ... and genistein (8)"
+        }
+      },
+      {
+        "index": 29,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "shandougenine D",
+          "evidence_id": "e7",
+          "quote": "two new polyisoprenylated flavanones ... and 4 (shandougenine D)"
+        }
+      },
+      {
+        "index": 31,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "tonkinochromanes G",
+          "evidence_id": "e8",
+          "quote": "three new isoprenylated flavanones, the tonkinochromanes ... G (3)"
+        }
+      },
+      {
+        "index": 32,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "tonkinochromanes H",
+          "evidence_id": "e8",
+          "quote": "three new isoprenylated flavanones, the tonkinochromanes ... and H (5)"
+        }
+      },
+      {
+        "index": 35,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-maackiain",
+          "evidence_id": "e10",
+          "quote": "contains four marker compounds ... (-)-maackiain, Maack;"
+        }
+      },
+      {
+        "index": 36,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-sophoranone",
+          "evidence_id": "e10",
+          "quote": "contains four marker compounds ... (-)-sophoranone, SPN,"
+        }
+      },
+      {
+        "index": 37,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(2-(2,4-dihydroxyphenyl)-5,6-methylenedioxybenzofuran",
+          "evidence_id": "e10",
+          "quote": "contains four marker compounds ... and (2-(2,4-dihydroxyphenyl)-5,6-methylenedioxybenzofuran, ABF)"
+        }
+      },
+      {
+        "index": 39,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "sophoranone",
+          "evidence_id": "e11",
+          "quote": "nine known compounds, ... sophoranone (3)"
+        }
+      },
+      {
+        "index": 40,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "sophoranochromene",
+          "evidence_id": "e11",
+          "quote": "nine known compounds, ... sophoranochromene (4)"
+        }
+      },
+      {
+        "index": 41,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "pinoresinol",
+          "evidence_id": "e11",
+          "quote": "nine known compounds, ... pinoresinol (5)"
+        }
+      },
+      {
+        "index": 42,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "syringaresinol",
+          "evidence_id": "e11",
+          "quote": "nine known compounds, ... syringaresinol (6)"
+        }
+      },
+      {
+        "index": 43,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "medioresinol",
+          "evidence_id": "e11",
+          "quote": "nine known compounds, ... medioresinol (7)"
+        }
+      },
+      {
+        "index": 44,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "4',7-dihydroxyflavone",
+          "evidence_id": "e11",
+          "quote": "nine known compounds, ... 4',7-dihydroxyflavone (8)"
+        }
+      },
+      {
+        "index": 45,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "calycosin",
+          "evidence_id": "e11",
+          "quote": "nine known compounds, ... calycosin (9)"
+        }
+      },
+      {
+        "index": 46,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "genistein",
+          "evidence_id": "e11",
+          "quote": "nine known compounds, ... and genistein (10"
+        }
+      },
+      {
+        "index": 48,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "cyclo(Pro-Pro)",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... cyclo(Pro-Pro)(2)"
+        }
+      },
+      {
+        "index": 49,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "nicotinic acid",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... nicotinic acid(3)"
+        }
+      },
+      {
+        "index": 50,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "p-hydroxybenzonic acid",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... p-hydroxybenzonic acid(4)"
+        }
+      },
+      {
+        "index": 51,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "p-methoxybenzonic acid",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... p-methoxybenzonic acid(5)"
+        }
+      },
+      {
+        "index": 52,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "4-hydroxymethyl-2,6-dimethoxyphenol-1-O-β-D-glucopyranoside",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... 4-hydroxymethyl-2,6-dimethoxyphenol-1-O-β-D-glucopyranoside(6)"
+        }
+      },
+      {
+        "index": 53,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "coniferin",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... coniferin(7)"
+        }
+      },
+      {
+        "index": 54,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "syringin",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... syringin(8)"
+        }
+      },
+      {
+        "index": 55,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-secoisolariciresinol-4-O-β-D-glucopyranoside",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... (-)-secoisolariciresinol-4-O-β-D-glucopyranoside(9)"
+        }
+      },
+      {
+        "index": 56,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-syringaresinol-4-O-β-D-glucopyranoside",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... (-)-syringaresinol-4-O-β-D-glucopyranoside(10)"
+        }
+      },
+      {
+        "index": 57,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-syringaresinol-4,4'-di-O-β-D-glucopyranoside",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... (-)-syringaresinol-4,4'-di-O-β-D-glucopyranoside(11)"
+        }
+      },
+      {
+        "index": 58,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-pinoresinol-4,4'-di-O-β-D-glucopyranoside",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... (-)-pinoresinol-4,4'-di-O-β-D-glucopyranoside(12)"
+        }
+      },
+      {
+        "index": 59,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(6S,9R)-roseoside",
+          "evidence_id": "e12",
+          "quote": "Their structures were elucidated as ... and(6S,9R)-roseoside(13)"
+        }
+      },
+      {
+        "index": 61,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-cytisine",
+          "evidence_id": "e14",
+          "quote": "identified as ... (II) (-)-cytisine"
+        }
+      },
+      {
+        "index": 62,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-matrine N-oxide",
+          "evidence_id": "e14",
+          "quote": "identified as ... (III) (+)-matrine N-oxide"
+        }
+      },
+      {
+        "index": 63,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-sophocarpine N-oxide",
+          "evidence_id": "e14",
+          "quote": "identified as ... (IV)(+)-sophocarpine N-oxide"
+        }
+      },
+      {
+        "index": 64,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-sophoramine",
+          "evidence_id": "e14",
+          "quote": "identified as ... (V)(+)-sophoramine"
+        }
+      },
+      {
+        "index": 65,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-sophoranol",
+          "evidence_id": "e14",
+          "quote": "identified as ... and (VI) (+)-sophoranol"
+        }
+      },
+      {
+        "index": 67,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-12β-hydroxyoxysophocarpine",
+          "evidence_id": "e16",
+          "quote": "Three new matrine-type alkaloids, ... (-)-12β-hydroxyoxysophocarpine (2)"
+        }
+      },
+      {
+        "index": 68,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-5α-hydroxylemannine",
+          "evidence_id": "e16",
+          "quote": "Three new matrine-type alkaloids, ... and (+)-5α-hydroxylemannine (3)"
+        }
+      },
+      {
+        "index": 70,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-5α-hydroxysophocarpine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (-)-5α-hydroxysophocarpine (5)"
+        }
+      },
+      {
+        "index": 71,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-9α-hydroxysophocarpine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (-)-9α-hydroxysophocarpine (6)"
+        }
+      },
+      {
+        "index": 72,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-12α-hydroxysophocarpine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (+)-12α-hydroxysophocarpine (7)"
+        }
+      },
+      {
+        "index": 73,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-12β-hydroxysophocarpine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (-)-12β-hydroxysophocarpine (8)"
+        }
+      },
+      {
+        "index": 74,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-oxysophocarpine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (+)-oxysophocarpine (9)"
+        }
+      },
+      {
+        "index": 75,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-matrine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (+)-matrine (10)"
+        }
+      },
+      {
+        "index": 76,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-sophoranol",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (+)-sophoranol (11)"
+        }
+      },
+      {
+        "index": 77,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-9α-hydroxymatrine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (+)-9α-hydroxymatrine (12)"
+        }
+      },
+      {
+        "index": 78,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-14β-hydroxymatrine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (-)-14β-hydroxymatrine (13)"
+        }
+      },
+      {
+        "index": 79,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-oxymatrine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (+)-oxymatrine (14)"
+        }
+      },
+      {
+        "index": 80,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-5α-hydroxyoxymatrine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (+)-5α-hydroxyoxymatrine (15)"
+        }
+      },
+      {
+        "index": 81,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(-)-14β-hydroxyoxymatrine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... (-)-14β-hydroxyoxymatrine (16)"
+        }
+      },
+      {
+        "index": 82,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "(+)-sophoramine",
+          "evidence_id": "e16",
+          "quote": "14 known analogues, ... and (+)-sophoramine (17)"
+        }
+      }
+    ],
+    "unsupported_items": [
+      "(+)-oxymatrine",
+      "(+)-sophoranol",
+      "(-)-5 alpha-hydroxysophocarpine",
+      "(-)- N-methylcytisine",
+      "glabrol",
+      "lupinifolin",
+      "8-C-prenylkaempferol",
+      "7,2'-dihydroxy-4'-methoxy-isoflavanol",
+      "formononetin",
+      "genistein",
+      "shandougenine D",
+      "tonkinochromanes G",
+      "tonkinochromanes H",
+      "(-)-maackiain",
+      "(-)-sophoranone",
+      "(2-(2,4-dihydroxyphenyl)-5,6-methylenedioxybenzofuran",
+      "sophoranone",
+      "sophoranochromene",
+      "pinoresinol",
+      "syringaresinol",
+      "medioresinol",
+      "4',7-dihydroxyflavone",
+      "calycosin",
+      "genistein",
+      "cyclo(Pro-Pro)",
+      "nicotinic acid",
+      "p-hydroxybenzonic acid",
+      "p-methoxybenzonic acid",
+      "4-hydroxymethyl-2,6-dimethoxyphenol-1-O-β-D-glucopyranoside",
+      "coniferin",
+      "syringin",
+      "(-)-secoisolariciresinol-4-O-β-D-glucopyranoside",
+      "(-)-syringaresinol-4-O-β-D-glucopyranoside",
+      "(-)-syringaresinol-4,4'-di-O-β-D-glucopyranoside",
+      "(-)-pinoresinol-4,4'-di-O-β-D-glucopyranoside",
+      "(6S,9R)-roseoside",
+      "(+)-matrine N-oxide",
+      "(+)-sophocarpine N-oxide",
+      "(+)-sophoramine",
+      "(+)-sophoranol",
+      "(-)-12β-hydroxyoxysophocarpine",
+      "(+)-5α-hydroxylemannine",
+      "(-)-5α-hydroxysophocarpine",
+      "(-)-9α-hydroxysophocarpine",
+      "(+)-12α-hydroxysophocarpine",
+      "(-)-12β-hydroxysophocarpine",
+      "(+)-oxysophocarpine",
+      "(+)-sophoranol",
+      "(+)-9α-hydroxymatrine",
+      "(-)-14β-hydroxymatrine",
+      "(+)-oxymatrine",
+      "(+)-5α-hydroxyoxymatrine",
+      "(-)-14β-hydroxyoxymatrine",
+      "(+)-sophoramine"
+    ],
+    "limitations": "Evidence e5 describes compounds isolated from a fungus associated with Sophora tonkinensis, not directly from the plant itself, and is excluded. Evidence e17 mentions new compounds from seeds but does not list their names in the provided text. Some compounds appear in multiple studies with slight naming variations (e.g., cytisine vs (-)-cytisine); all distinct names found in the text are listed. The list includes compounds from roots, rhizomes, and seeds as specified in the respective evidence segments.",
+    "source_binding_complete": false,
+    "score": {
+      "status": "scored",
+      "tp": 15,
+      "fp": 78,
+      "fn": 8,
+      "precision": 0.16129032258064516,
+      "recall": 0.6521739130434783,
+      "f1": 0.25862068965517243
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "tonkinensisol",
+      "bayin",
+      "vitexin",
+      "lupeol",
+      "cytisine",
+      "sophocarpine",
+      "matrine",
+      "lehmannine",
+      "sophoranol",
+      "oxymatrine",
+      "oxysophocarpine",
+      "(-)-14 beta-hydroxymatrine",
+      "(-)-cytisine",
+      "tonkinochromane I",
+      "shandougenine A",
+      "shandougenine C",
+      "tonkinochromane F",
+      "(-)-14 beta-hydroxyoxymatrine",
+      "new pterocarpan glycoside",
+      "maackiain",
+      "1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone"
+    ],
+    "supports": [
+      {
+        "item": "tonkinensisol",
+        "evidence_id": "e1",
+        "quote": "A new flavonol, tonkinensisol, was isolated from the roots of Sophora tonkinensis"
+      },
+      {
+        "item": "bayin",
+        "evidence_id": "e1",
+        "quote": "three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "vitexin",
+        "evidence_id": "e1",
+        "quote": "three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "lupeol",
+        "evidence_id": "e1",
+        "quote": "three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "cytisine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "sophocarpine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "matrine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "lehmannine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "sophoranol",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "oxymatrine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "oxysophocarpine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "(-)-14 beta-hydroxymatrine",
+        "evidence_id": "e3",
+        "quote": "five known matrine-type alkaloids, (-)-14 beta-hydroxymatrine (2)"
+      },
+      {
+        "item": "(-)-cytisine",
+        "evidence_id": "e3",
+        "quote": "two known cytisine-type alkaloids, (-)-cytisine (7)"
+      },
+      {
+        "item": "tonkinochromane I",
+        "evidence_id": "e4",
+        "quote": "Eight compounds were isolated and their structures were identified as tonkinochromane I (1)"
+      },
+      {
+        "item": "shandougenine A",
+        "evidence_id": "e7",
+        "quote": "Two novel 2-arylbenzofuran dimers, shandougenines A (1)"
+      },
+      {
+        "item": "shandougenine C",
+        "evidence_id": "e7",
+        "quote": "two new polyisoprenylated flavanones 3 (shandougenine C)"
+      },
+      {
+        "item": "tonkinochromane F",
+        "evidence_id": "e8",
+        "quote": "three new isoprenylated flavanones, the tonkinochromanes F (2)"
+      },
+      {
+        "item": "(-)-14 beta-hydroxyoxymatrine",
+        "evidence_id": "e9",
+        "quote": "A new matrine-type alkaloid, (-)-14 beta-hydroxyoxymatrine (1)"
+      },
+      {
+        "item": "new pterocarpan glycoside",
+        "evidence_id": "e11",
+        "quote": "isolation of a new pterocarpan glycoside (1)"
+      },
+      {
+        "item": "maackiain",
+        "evidence_id": "e11",
+        "quote": "nine known compounds, maackiain (2)"
+      },
+      {
+        "item": "1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone",
+        "evidence_id": "e12",
+        "quote": "structures were elucidated as 1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone(1)"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Compounds extracted from the associated fungus GDGJ-N37 (N-isoamylsclerotiorinamine, penithochromones X and Y) were excluded as they are not directly from Sophora tonkinensis. Some compounds listed in previous items (e.g., glabrol, lupinifolin, formononetin) are not present in the supplied evidence segments for this specific query and were omitted to adhere strictly to the provided evidence. Stereoisomers not explicitly named in the text (e.g., (+)-forms) were not included unless explicitly stated in the evidence.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 11,
+      "fp": 10,
+      "fn": 12,
+      "precision": 0.5238095238095238,
+      "recall": 0.4782608695652174,
+      "f1": 0.5
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "tonkinensisol",
+      "bayin",
+      "vitexin",
+      "lupeol",
+      "cytisine",
+      "sophocarpine",
+      "matrine",
+      "lehmannine",
+      "sophoranol",
+      "oxymatrine",
+      "oxysophocarpine",
+      "(-)-14 beta-hydroxymatrine",
+      "(-)-cytisine",
+      "tonkinochromane I",
+      "shandougenine A",
+      "shandougenine C",
+      "tonkinochromane F",
+      "(-)-14 beta-hydroxyoxymatrine",
+      "new pterocarpan glycoside",
+      "maackiain",
+      "1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone"
+    ],
+    "supports": [
+      {
+        "item": "tonkinensisol",
+        "evidence_id": "e1",
+        "quote": "A new flavonol, tonkinensisol, was isolated from the roots of Sophora tonkinensis"
+      },
+      {
+        "item": "bayin",
+        "evidence_id": "e1",
+        "quote": "three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "vitexin",
+        "evidence_id": "e1",
+        "quote": "three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "lupeol",
+        "evidence_id": "e1",
+        "quote": "three known compounds named as bayin, vitexin and lupeol"
+      },
+      {
+        "item": "cytisine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "sophocarpine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "matrine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "lehmannine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "sophoranol",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "oxymatrine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "oxysophocarpine",
+        "evidence_id": "e2",
+        "quote": "seven quinolizidine alkaloids (cytisine, sophocarpine, matrine, lehmannine, sophoranol, oxymatrine and oxysophocarpine)"
+      },
+      {
+        "item": "(-)-14 beta-hydroxymatrine",
+        "evidence_id": "e3",
+        "quote": "five known matrine-type alkaloids, (-)-14 beta-hydroxymatrine (2)"
+      },
+      {
+        "item": "(-)-cytisine",
+        "evidence_id": "e3",
+        "quote": "two known cytisine-type alkaloids, (-)-cytisine (7)"
+      },
+      {
+        "item": "tonkinochromane I",
+        "evidence_id": "e4",
+        "quote": "Eight compounds were isolated and their structures were identified as tonkinochromane I (1)"
+      },
+      {
+        "item": "shandougenine A",
+        "evidence_id": "e7",
+        "quote": "Two novel 2-arylbenzofuran dimers, shandougenines A (1)"
+      },
+      {
+        "item": "shandougenine C",
+        "evidence_id": "e7",
+        "quote": "two new polyisoprenylated flavanones 3 (shandougenine C)"
+      },
+      {
+        "item": "tonkinochromane F",
+        "evidence_id": "e8",
+        "quote": "three new isoprenylated flavanones, the tonkinochromanes F (2)"
+      },
+      {
+        "item": "(-)-14 beta-hydroxyoxymatrine",
+        "evidence_id": "e9",
+        "quote": "A new matrine-type alkaloid, (-)-14 beta-hydroxyoxymatrine (1)"
+      },
+      {
+        "item": "new pterocarpan glycoside",
+        "evidence_id": "e11",
+        "quote": "isolation of a new pterocarpan glycoside (1)"
+      },
+      {
+        "item": "maackiain",
+        "evidence_id": "e11",
+        "quote": "nine known compounds, maackiain (2)"
+      },
+      {
+        "item": "1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone",
+        "evidence_id": "e12",
+        "quote": "structures were elucidated as 1-(6,7-dihydro-5H-pyrrolo[1,2-a]imidazol-3-yl)ethanone(1)"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Compounds extracted from the associated fungus GDGJ-N37 (N-isoamylsclerotiorinamine, penithochromones X and Y) were excluded as they are not directly from Sophora tonkinensis. Some compounds listed in previous items (e.g., glabrol, lupinifolin, formononetin) are not present in the supplied evidence segments for this specific query and were omitted to adhere strictly to the provided evidence. Stereoisomers not explicitly named in the text (e.g., (+)-forms) were not included unless explicitly stated in the evidence.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 11,
+      "fp": 10,
+      "fn": 12,
+      "precision": 0.5238095238095238,
+      "recall": 0.4782608695652174,
+      "f1": 0.5
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16042151",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16783704",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17365189",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18615626",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19445149",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2512948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25173460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25592708",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26068519",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26132528",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28845648",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28936848",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33583289",
+    "http://www.ncbi.nlm.nih.gov/pubmed/38257261"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/67cf3b6381b1027333000024/attempt_0"
+}

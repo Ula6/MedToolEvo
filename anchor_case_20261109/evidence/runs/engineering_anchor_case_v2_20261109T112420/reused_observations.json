@@ -1,0 +1,45 @@
+{
+  "source_run": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_20261109T111433",
+  "policy": "Study.ask rechecks full prompt/body/schema/max-token fingerprint before reading cache; never reuse changed inputs. No previous code or expected coordinates imported.",
+  "operations": [
+    {
+      "source": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_20261109T111433/api/anchor/case_0_baseline_executor",
+      "destination": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_v2_20261109T112420/api/anchor/case_0_baseline_executor",
+      "files": {
+        "outcome.json": "c5e69830dea3521e31bf8ec3c2f53d424ccec1095670239fab69c280e59f5e94",
+        "preflight.json": "766dbcf2abca543aec5c12c7648ebcbdc87158375274dfdbaab9fe7f97c51352",
+        "input_fingerprint.json": "bfab02d8b5890506ad538e76c27f948a6ee9d905fb388134d0190e72832c8082",
+        "attempt_0/preflight.json": "766dbcf2abca543aec5c12c7648ebcbdc87158375274dfdbaab9fe7f97c51352",
+        "attempt_0/request.json": "7425764a0e939f665f032462bf434fe53d811d3c5d1b94dea270a45412a8e9c8",
+        "attempt_0/response.json": "a4f100c78b50d8ccb9776b557d066e8ce343fc684248534924bfc54d43331b7b",
+        "attempt_0/metrics.json": "3f0d6b46c66bc14bdf2517689b023f1b02ce9b167c280e601c83898ed0a1754f"
+      }
+    },
+    {
+      "source": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_20261109T111433/api/anchor/case_0_retry_executor",
+      "destination": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_v2_20261109T112420/api/anchor/case_0_retry_executor",
+      "files": {
+        "outcome.json": "e19776e06b3caf76206ffcf6d2df9766e312314331a3de545b7fecb8809444a5",
+        "preflight.json": "18549ae9f2f6c549e09b4648c757bb5d344857ff7a77a9d88bc728d178408891",
+        "input_fingerprint.json": "aae12e7e45df7aaf12fc2025c79cae883b2eda8652f1b9d5073a4e1a2dd8fa40",
+        "attempt_0/preflight.json": "18549ae9f2f6c549e09b4648c757bb5d344857ff7a77a9d88bc728d178408891",
+        "attempt_0/request.json": "2e38756afc65284fcc69207fb362a194f1d085ec46f4938a3b1948cb2fcc4850",
+        "attempt_0/response.json": "e83dee8927d11e43c00c2f16c9c4ab92662d07400cc65d7af326e4124180c143",
+        "attempt_0/metrics.json": "509e3bf6f4e56984d2f1ed3d8e9145b66b97b05ae2c45d50afa2eda6d323a0c1"
+      }
+    },
+    {
+      "source": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_20261109T111433/api/anchor/manager_intent",
+      "destination": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_v2_20261109T112420/api/anchor/manager_intent",
+      "files": {
+        "outcome.json": "43562f0b85a40c69d3ea4460d2c33d4899daa20741ce3f9a5cf73d1723240b3c",
+        "preflight.json": "168be973c67ec97b2b807ff45ac6d5709fd33d2ff53bc1aa0568c5c9fd2c8d78",
+        "input_fingerprint.json": "42606aed6933f1d324c72dabb242d23c90c3926535572d3767ee29ada72acd28",
+        "attempt_0/preflight.json": "168be973c67ec97b2b807ff45ac6d5709fd33d2ff53bc1aa0568c5c9fd2c8d78",
+        "attempt_0/request.json": "68f6c79bcdded32afcdfa9cb3b3c6c85e67de0260b371d2f156afce3a5a261a7",
+        "attempt_0/response.json": "b759bcc67dd8f77cd4011f8d111da6e67131416ccd1af315a37df2b3544aeab2",
+        "attempt_0/metrics.json": "64ffdbdd4dacadf23f3f8d4d5bd0c8e88a5870d70e31f6eccb924cdd0177f8c7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"annotations\": [\n    {\n      \"group_id\": \"g1\",\n      \"relation\": \"diagnostic_bm\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text explicitly states these 14 studies 'specifically focused on using AI methods to diagnose tumor BM'.\"\n    },\n    {\n      \"group_id\": \"g2\",\n      \"relation\": \"differential_mm\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states these 4 studies 'addressed differentiation between BM and multiple myeloma (MM)'.\"\n    },\n    {\n      \"group_id\": \"g3\",\n      \"relation\": \"differential_bone_island\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states this study 'compared BM with bone islands'.\"\n    },\n    {\n      \"group_id\": \"g4\",\n      \"relation\": \"differential_tuberculosis\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states this study 'differentiated spinal metastases from spinal tuberculosis'.\"\n    },\n    {\n      \"group_id\": \"g5\",\n      \"relation\": \"primary_lung\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states these studies 'identified primary tumors as lung cancer'.\"\n    },\n    {\n      \"group_id\": \"g6\",\n      \"relation\": \"primary_prostate\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states these studies 'identified prostate cancer'.\"\n    },\n    {\n      \"group_id\": \"g7\",\n      \"relation\": \"primary_site_reported\",\n      \"polarity\": \"negative\",\n      \"reason\": \"The text states these studies 'did not specify the primary tumor site', which is a negative claim regarding the reporting of the primary site.\"\n    },\n    {\n      \"group_id\": \"g8\",\n      \"relation\": \"primary_gastric\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states this study 'reported gastric cancer as the primary tumor'.\"\n    },\n    {\n      \"group_id\": \"g9\",\n      \"relation\": \"human_comparison\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states these studies 'compared the performance of AI models with healthcare professionals'.\"\n    },\n    {\n      \"group_id\": \"g10\",\n      \"relation\": \"modality_mri\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states these studies 'employed AI techniques for diagnosing BM using MRI'.\"\n    },\n    {\n      \"group_id\": \"g11\",\n      \"relation\": \"modality_ct\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states these studies 'used CT scans'.\"\n    },\n    {\n      \"group_id\": \"g12\",\n      \"relation\": \"external_validation\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states these studies 'utilized out-of-sample data for external validation'.\"\n    },\n    {\n      \"group_id\": \"g13\",\n      \"relation\": \"internal_validation\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states these studies 'conducted internal validation'.\"\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794226278,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 772,
+    "prompt_tokens": 3986,
+    "total_tokens": 4758,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-fMr0CJydazW1DxLz9cF86sSh2S9Lp1Dq",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3986,
+    "prompt_ms": 7090.783,
+    "prompt_per_token_ms": 1.7789219769192173,
+    "prompt_per_second": 562.1382010985246,
+    "predicted_n": 772,
+    "predicted_ms": 28497.026,
+    "predicted_per_token_ms": 36.96112321660182,
+    "predicted_per_second": 27.055454839392713
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "approve": true,
+  "reason": "The contract is logically consistent, self-contained, and rigorously defined. It explicitly handles the complex interaction between NFKC normalization, casefolding (specifically the U+00DF 'ß' to 'ss' expansion), and whitespace collapsing while strictly preserving original Unicode code-point spans. The algorithm correctly mandates a verification step to reject partial matches within expanded casefold sequences, ensuring no false positives. The input validation rules (unique IDs, non-empty queries) and output structure (preserving input order, handling unsupported queries) are clear and testable without external dependencies.",
+  "cases": [
+    {
+      "input": {
+        "sources": [
+          {
+            "source_id": "s1",
+            "text": "Hello World"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "q1",
+            "text": "World"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "q1",
+            "matches": [
+              {
+                "source_id": "s1",
+                "start": 6,
+                "end": 11,
+                "quote": "World"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      }
+    },
+    {
+      "input": {
+        "sources": [
+          {
+            "source_id": "s1",
+            "text": "ana"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "q1",
+            "text": "ana"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "q1",
+            "matches": [
+              {
+                "source_id": "s1",
+                "start": 0,
+                "end": 3,
+                "quote": "ana"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      }
+    },
+    {
+      "input": {
+        "sources": [
+          {
+            "source_id": "s1",
+            "text": "Straße"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "q1",
+            "text": "ss"
+          },
+          {
+            "query_id": "q2",
+            "text": "s"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "q1",
+            "matches": [
+              {
+                "source_id": "s1",
+                "start": 2,
+                "end": 3,
+                "quote": "ß"
+              }
+            ]
+          },
+          {
+            "query_id": "q2",
+            "matches": []
+          }
+        ],
+        "unsupported_query_ids": [
+          "q2"
+        ]
+      }
+    },
+    {
+      "input": {
+        "sources": [
+          {
+            "source_id": "s1",
+            "text": "Hello　World"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "q1",
+            "text": "Hello World"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "q1",
+            "matches": [
+              {
+                "source_id": "s1",
+                "start": 0,
+                "end": 11,
+                "quote": "Hello　World"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      }
+    },
+    {
+      "input": {
+        "sources": [
+          {
+            "source_id": "s1",
+            "text": "Test"
+          },
+          {
+            "source_id": "s2",
+            "text": "Test"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "q1",
+            "text": "Test"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "q1",
+            "matches": [
+              {
+                "source_id": "s1",
+                "start": 0,
+                "end": 4,
+                "quote": "Test"
+              },
+              {
+                "source_id": "s2",
+                "start": 0,
+                "end": 4,
+                "quote": "Test"
+              }
+            ]
+          }
+        ],
+        "unsupported_query_ids": []
+      }
+    },
+    {
+      "input": {
+        "sources": [],
+        "queries": [
+          {
+            "query_id": "q1",
+            "text": "Nothing"
+          }
+        ]
+      },
+      "expected": {
+        "queries": [
+          {
+            "query_id": "q1",
+            "matches": []
+          }
+        ],
+        "unsupported_query_ids": [
+          "q1"
+        ]
+      }
+    },
+    {
+      "input": {
+        "sources": [
+          {
+            "source_id": "s1",
+            "text": "A"
+          },
+          {
+            "source_id": "s1",
+            "text": "B"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "q1",
+            "text": "A"
+          }
+        ]
+      },
+      "expected_error": "ValueError"
+    },
+    {
+      "input": {
+        "sources": [
+          {
+            "source_id": "s1",
+            "text": "A"
+          }
+        ],
+        "queries": [
+          {
+            "query_id": "q1",
+            "text": "   "
+          }
+        ]
+      },
+      "expected_error": "ValueError"
+    }
+  ]
+}

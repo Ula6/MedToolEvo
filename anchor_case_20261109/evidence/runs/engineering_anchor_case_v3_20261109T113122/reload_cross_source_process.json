@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\"pid\": 1875341, \"output\": {\"queries\": [{\"query_id\": \"new1\", \"matches\": [{\"source_id\": \"PMC11856201\", \"start\": 40, \"end\": 47, \"quote\": \"studies\"}, {\"source_id\": \"PMC11856201\", \"start\": 107, \"end\": 114, \"quote\": \"studies\"}, {\"source_id\": \"PMC11856201\", \"start\": 256, \"end\": 263, \"quote\": \"studies\"}, {\"source_id\": \"PMC11856201\", \"start\": 772, \"end\": 779, \"quote\": \"studies\"}]}, {\"query_id\": \"new2\", \"matches\": [{\"source_id\": \"PMC11856201\", \"start\": 80, \"end\": 85, \"quote\": \"JOINS\"}, {\"source_id\": \"PMC11856201\", \"start\": 293, \"end\": 298, \"quote\": \"JOINS\"}, {\"source_id\": \"PMC11856201\", \"start\": 669, \"end\": 674, \"quote\": \"JOINS\"}]}, {\"query_id\": \"new3\", \"matches\": []}], \"unsupported_query_ids\": [\"new3\"]}}\n",
+  "stderr": ""
+}

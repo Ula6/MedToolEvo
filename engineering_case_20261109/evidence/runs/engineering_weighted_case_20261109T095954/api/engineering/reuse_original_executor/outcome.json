@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "parsed": {
+    "weighted_mean": 9.271921,
+    "weighted_population_variance": 1.738761,
+    "weighted_population_sd": 1.318621,
+    "weighted_geometric_mean": 9.187657,
+    "evidence_id": "e2",
+    "quote": "R01: Breast (231); mean=13.1; n=231.",
+    "limitations": "Summaries are arithmetic aggregates of reported subgroup means weighted by n; they do not represent pooled within-study patient variance or measurement precision."
+  }
+}

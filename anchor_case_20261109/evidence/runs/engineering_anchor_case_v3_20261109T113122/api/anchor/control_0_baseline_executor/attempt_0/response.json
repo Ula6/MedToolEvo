@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"queries\": [\n    {\n      \"query_id\": \"control0\",\n      \"matches\": [\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 0,\n          \"end\": 8,\n          \"quote\": \"Baseline\"\n        }\n      ]\n    }\n  ],\n  \"unsupported_query_ids\": []\n}"
+      }
+    }
+  ],
+  "created": 1794224149,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 663,
+    "total_tokens": 756,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-GtrdISS0zWvYRuNMOuwWYhkUAKgqi3k8",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 663,
+    "prompt_ms": 1333.134,
+    "prompt_per_token_ms": 2.010760180995475,
+    "prompt_per_second": 497.3243499903236,
+    "predicted_n": 93,
+    "predicted_ms": 3353.633,
+    "predicted_per_token_ms": 36.45253260869565,
+    "predicted_per_second": 27.432936162066632
+  }
+}

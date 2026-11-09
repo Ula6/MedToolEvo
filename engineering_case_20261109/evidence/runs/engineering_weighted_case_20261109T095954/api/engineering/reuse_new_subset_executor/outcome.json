@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "parsed": {
+    "weighted_mean": 9.196301,
+    "weighted_population_variance": 0.277442,
+    "weighted_population_sd": 0.526728,
+    "weighted_geometric_mean": 9.180429,
+    "evidence_id": "e2",
+    "quote": "R03: Endocrine (78); mean=7.6; n=78.\nR04: Gastrointestinal (1014); mean=9.6; n=1014.\nR05: Genitourinary (452); mean=8.8; n=452.\nR06: Gynaecology (213); mean=8.7; n=213.",
+    "limitations": "Summaries are computed only on the four specified subgroup means using their counts as weights; they do not represent pooled within-study patient variability or measurement precision."
+  }
+}

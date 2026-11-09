@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n\"items\": [\n\"osteosarcoma\",\n\"epilepsy\",\n\"stromal keratitis\",\n\"schizophrenia\",\n\"progressive supranuclear palsy\",\n\"Huntington's disease\",\n\"Alzheimer's disease\"\n],\n\"supports\": [\n{\n\"item\": \"osteosarcoma\",\n\"evidence_id\": \"e1\",\n\"quote\": \"Levels of six candidate miRNAs (miR-21, miR-199a-3p, miR-143, miR-34, miR-140, and miR-132) that were previously demonstrated to be regulated in osteosarcoma were examined in plasma of 40 osteosarcoma patients and 40 matched healthy controls by quantitative reverse-transcription polymerase chain reaction assays.\"\n},\n{\n\"item\": \"epilepsy\",\n\"evidence_id\": \"e2\",\n\"quote\": \"Functional studies employing antagomirs have identified contributions from miR-34a and miR-132 to seizure-induced neuronal death whereas silencing miR-134 potently reduced status epilepticus, seizure-damage and the later occurrence of spontaneous seizures.\"\n},\n{\n\"item\": \"stromal keratitis\",\n\"evidence_id\": \"e5\",\n\"quote\": \"miR-132 expression was up-regulated (10- to 20-fold) after ocular infection with HSV, an event that involved the production of both VEGF-A and IL-17.\"\n},\n{\n\"item\": \"schizophrenia\",\n\"evidence_id\": \"e8\",\n\"quote\": \"The cyclic AMP-responsive element binding- and NMDA-regulated microRNA miR-132 was significantly down-regulated in both the schizophrenic discovery cohort and a second, independent set of schizophrenic subjects.\"\n},\n{\n\"item\": \"progressive supranuclear palsy\",\n\"evidence_id\": \"e10\",\n\"quote\": \"Analysis of miRNA expression profiles from sporadic progressive supranuclear palsy (PSP) patients, a major 4R-tau tauopathy, showed that miR-132 is specifically down-regulated in disease.\"\n},\n{\n\"item\": \"Huntington's disease\",\n\"evidence_id\": \"e12\",\n\"quote\": \"Nine miRNAs (miR-22, miR-29c, miR-128, miR-132, miR-138, miR-218, miR-222, miR-344, and miR-674*) were commonly down-regulated in both the 12-month-old YAC128 and 10-week-old R6/2 mice.\"\n},\n{\n\"item\": \"Alzheimer's disease\",\n\"evidence_id\": \"e16\",\n\"quote\": \"The data indicate that micro-RNAs encoding miR-9, miR-124a, miR-125b, miR-128, miR-132 and miR-219 are abundantly represented in fetal hippocampus, are differentially regulated in aged brain, and an alteration in specific micro-RNA complexity occurs in Alzheimer hippocampus.\"\n}\n],\n\"limitations\": \"Evidence for Huntington's disease is based on mouse models (YAC128 and R6/2 mice) rather than direct human patient data. Evidence for stromal keratitis is specific to HSV-induced infection. Evidence for Alzheimer's disease notes differential regulation in aged brain and alteration in hippocampus but does not explicitly state causation.\"\n}"
+      }
+    }
+  ],
+  "created": 1794206881,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 819,
+    "prompt_tokens": 4178,
+    "total_tokens": 4997,
+    "prompt_tokens_details": {
+      "cached_tokens": 2272
+    }
+  },
+  "id": "chatcmpl-TxKT5gpZnLEgA1BYazIcleWPEh9zGJHI",
+  "timings": {
+    "cache_n": 2272,
+    "prompt_n": 1906,
+    "prompt_ms": 3490.962,
+    "prompt_per_token_ms": 1.8315645330535153,
+    "prompt_per_second": 545.9813083041294,
+    "predicted_n": 819,
+    "predicted_ms": 30197.968,
+    "predicted_per_token_ms": 36.91683129584352,
+    "predicted_per_second": 27.08791531933539
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"algorithm\": \"1. Validate input structure: Ensure 'sources' and 'queries' arrays exist, IDs are non-empty and unique within their lists, and query texts are non-empty/non-whitespace. Raise ValueError for any violation. 2. Define normalization function: For each character in a string, apply NFKC normalization followed by casefolding. Concatenate results. Collapse consecutive whitespace characters into a single ASCII space. Do not trim leading/trailing whitespace or remove punctuation. 3. Preprocess sources: For each source, store the original text and generate its normalized version using the defined function. 4. Preprocess queries: For each query, generate its normalized version using the defined function. 5. Search and Map: For each query in input order, iterate through all sources in input order. Search for the normalized query string within the normalized source string to find all overlapping start indices. 6. Span Reconstruction: For each normalized match start index, map it back to the original source text's zero-based Unicode code-point start index. Determine the original end index such that the slice [start, end) from the original text, when normalized, exactly equals the normalized query. 7. Verification: Verify that the normalized version of original_text[start:end] strictly equals the normalized query. Reject matches where the normalized span does not match (e.g., partial hits inside casefold expansions). 8. Deduplication: Remove duplicate [source_id, start, end] spans for the same query. 9. Output Construction: Compile matches for each query preserving input order. Include 'unsupported_query_ids' for queries with zero matches. Ensure 'quote' is exactly original_text[start:end].\",\n  \"invariants\": [\n    \"IDs must be non-empty strings and unique within their respective lists.\",\n    \"Query texts cannot be empty or consist solely of whitespace.\",\n    \"Normalization is applied character-by-character (NFKC then casefold) before whitespace collapsing.\",\n    \"Whitespace runs are collapsed to a single ASCII space; no trimming or punctuation removal occurs.\",\n    \"Matches are identified in the normalized domain but reported as original Unicode code-point spans [start, end).\",\n    \"A match is valid only if the normalized version of the original substring exactly equals the normalized query.\",\n    \"Partial matches resulting from casefold expansion (e.g., 'ß' matching 's' but not 'ss') are rejected.\",\n    \"Output preserves the input order of queries and sources; matches are sorted by source input order then ascending start index within that source.\"\n  ],\n  \"edge_cases\": [\n    \"Empty input lists for sources or queries are allowed and result in empty output lists.\",\n    \"Queries with no matches in any source must be listed in 'unsupported_query_ids'.\",\n    \"Overlapping occurrences of the same query in a source must all be reported.\",\n    \"Duplicate original spans for the same query must be collapsed to a single entry.\",\n    \"Casefold expansions where the normalized length differs from the original length (e.g., U+00DF 'ß' to 'ss') must not produce false positives for shorter queries.\",\n    \"Whitespace-only queries are invalid inputs and must trigger a ValueError.\",\n    \"Duplicate IDs within sources or queries are invalid inputs and must trigger a ValueError.\"\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794223489,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 692,
+    "prompt_tokens": 1091,
+    "total_tokens": 1783,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-t6uSVqlUIrNabQCHpyGGTdVP6nYUjmOm",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1091,
+    "prompt_ms": 2020.458,
+    "prompt_per_token_ms": 1.8519321723189734,
+    "prompt_per_second": 539.976579567603,
+    "predicted_n": 692,
+    "predicted_ms": 25432.794,
+    "predicted_per_token_ms": 36.80578002894356,
+    "predicted_per_second": 27.169645615813973
+  }
+}

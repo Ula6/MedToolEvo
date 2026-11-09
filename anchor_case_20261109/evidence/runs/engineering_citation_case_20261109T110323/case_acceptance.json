@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "scope": "citation engineering case",
+  "error": "RuntimeError: Manager deferred; no tool creation forced",
+  "full_authorized": false,
+  "bioasq_result": false
+}

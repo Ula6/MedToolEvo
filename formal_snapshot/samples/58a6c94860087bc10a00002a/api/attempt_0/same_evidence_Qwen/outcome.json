@@ -1,0 +1,88 @@
+{
+  "status": "ok",
+  "parsed": {
+    "items": [
+      "H3F3A K27M",
+      "H3F3A G34R",
+      "H3F3A G34V",
+      "HIST1H3B K27M",
+      "HIST1H3B G34R",
+      "HIST1H3B G34V",
+      "H3.3 K27M",
+      "H3.3 G34R",
+      "H3.3 G34V",
+      "H3.1 K27M",
+      "H3.1 G34R",
+      "H3.1 G34V",
+      "H3.2 K27M"
+    ],
+    "supports": [
+      {
+        "item": "H3F3A K27M",
+        "evidence_id": "e2",
+        "quote": "It has been reported recently that about 80% of DIPG cases and 70% of midline glioblastomas contain a mutation at one allele of the H3F3A gene (encoding histone H3 variant H3.3), replacing the lysine 27 with methionine (K27M)."
+      },
+      {
+        "item": "H3F3A G34R",
+        "evidence_id": "e8",
+        "quote": "Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1)"
+      },
+      {
+        "item": "H3F3A G34V",
+        "evidence_id": "e8",
+        "quote": "Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1)"
+      },
+      {
+        "item": "HIST1H3B K27M",
+        "evidence_id": "e8",
+        "quote": "Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1)"
+      },
+      {
+        "item": "HIST1H3B G34R",
+        "evidence_id": "e8",
+        "quote": "Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1)"
+      },
+      {
+        "item": "HIST1H3B G34V",
+        "evidence_id": "e8",
+        "quote": "Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1)"
+      },
+      {
+        "item": "H3.3 K27M",
+        "evidence_id": "e6",
+        "quote": "Moreover, approximately 30% of pediatric high grade gliomas (pedHGG) including GBM and DIPG harbor a lysine 27 mutation (K27M) in histone 3.3 (H3.3) which is correlated with poor outcome and was shown to influence EZH2 function"
+      },
+      {
+        "item": "H3.3 G34R",
+        "evidence_id": "e17",
+        "quote": "Sequencing of pediatric gliomas has identified missense mutations Lys27Met (K27M) and Gly34Arg/Val (G34R/V) in genes encoding histone H3.3 (H3F3A) and H3.1 (HIST3H1B)."
+      },
+      {
+        "item": "H3.3 G34V",
+        "evidence_id": "e17",
+        "quote": "Sequencing of pediatric gliomas has identified missense mutations Lys27Met (K27M) and Gly34Arg/Val (G34R/V) in genes encoding histone H3.3 (H3F3A) and H3.1 (HIST3H1B)."
+      },
+      {
+        "item": "H3.1 K27M",
+        "evidence_id": "e17",
+        "quote": "Sequencing of pediatric gliomas has identified missense mutations Lys27Met (K27M) and Gly34Arg/Val (G34R/V) in genes encoding histone H3.3 (H3F3A) and H3.1 (HIST3H1B)."
+      },
+      {
+        "item": "H3.1 G34R",
+        "evidence_id": "e17",
+        "quote": "Sequencing of pediatric gliomas has identified missense mutations Lys27Met (K27M) and Gly34Arg/Val (G34R/V) in genes encoding histone H3.3 (H3F3A) and H3.1 (HIST3H1B)."
+      },
+      {
+        "item": "H3.1 G34V",
+        "evidence_id": "e17",
+        "quote": "Sequencing of pediatric gliomas has identified missense mutations Lys27Met (K27M) and Gly34Arg/Val (G34R/V) in genes encoding histone H3.3 (H3F3A) and H3.1 (HIST3H1B)."
+      },
+      {
+        "item": "H3.2 K27M",
+        "evidence_id": "e35",
+        "quote": "Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis."
+      }
+    ],
+    "limitations": "Evidence primarily focuses on high-grade pediatric gliomas, DIPG, and brainstem tumors; some mutations (G34R/V) are noted in older children/young adults or hemispheric HGGs. Gene names (H3F3A, HIST1H3B) and protein variants (H3.3, H3.1, H3.2) are distinguished based on specific evidence segments. Some evidence mentions 'HIST3H1B' while others mention 'HIST1H3B' for H3.1; both are included as per source text variations."
+  }
+}

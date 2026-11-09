@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "parsed": {
+    "items": [
+      "adults with mantle cell lymphoma who have received at least one prior therapy",
+      "adults with Waldenström macroglobulinemia",
+      "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+    ],
+    "supports": [
+      {
+        "item": "adults with mantle cell lymphoma who have received at least one prior therapy",
+        "evidence_id": "e1",
+        "quote": "In the United States, zanubrutinib, a next-generation BTK inhibitor, has been approved for treating adults with mantle cell lymphoma who have received at least one prior therapy"
+      },
+      {
+        "item": "adults with Waldenström macroglobulinemia",
+        "evidence_id": "e1",
+        "quote": "for adults with Waldenström macroglobulinemia"
+      },
+      {
+        "item": "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy",
+        "evidence_id": "e1",
+        "quote": "for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+      }
+    ],
+    "limitations": "Evidence is limited to the provided abstracts from PubMed ID 35651781; does not include potential updates or additional indications not mentioned in these specific text segments."
+  }
+}

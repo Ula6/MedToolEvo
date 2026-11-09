@@ -1,0 +1,30 @@
+{
+  "pid": 1805374,
+  "model": "medtool-qa",
+  "command": [
+    "/home/supervisor/project/sy/MedToolEvo/third_party/llama.cpp/build/bin/llama-server",
+    "--model",
+    "/home/supervisor/project/sy/MedToolEvo/models/qa/Qwen_Qwen3.5-27B-Q4_K_M.gguf",
+    "--alias",
+    "medtool-qa",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8001",
+    "--n-gpu-layers",
+    "99",
+    "--ctx-size",
+    "16384",
+    "--parallel",
+    "1",
+    "--batch-size",
+    "512",
+    "--ubatch-size",
+    "128",
+    "--jinja",
+    "--reasoning",
+    "off"
+  ],
+  "log": "/home/supervisor/project/sy/MedToolEvo/logs/qa_autonomous_20261109T084834287583Z.log",
+  "switched": true
+}

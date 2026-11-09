@@ -1,0 +1,12 @@
+{"utc": "2026-11-09T09:59:55.195594+00:00", "event": "source_verified", "source_rows": 12, "total_weight": 3020}
+{"utc": "2026-11-09T10:00:04.804054+00:00", "event": "baseline_completed", "correct": 0, "total": 4}
+{"utc": "2026-11-09T10:00:31.250196+00:00", "event": "failure_diagnosed", "action": "create", "diagnosis": "The executor likely failed to maintain sufficient floating-point precision during intermediate steps (specifically the summation of weighted squared deviations for variance and the summation of weighted logarithms for the geometric mean) or misapplied the population variance formula (dividing by sum of weights rather than sum of weights, though the formula provided was correct, the implementation likely drifted). The 'numeric_check_pass: false' confirms the output values do not match the mathematically correct results derived from the supplied `public_payload.rows`."}
+{"utc": "2026-11-09T10:01:32.460382+00:00", "event": "independent_fixture_rejected", "revision": 0, "issues": [{"case": 0, "issue": "Synthetic expected result conflicts with independent arithmetic", "expected_from_definition": {"weighted_mean": 16.0, "weighted_population_variance": 24.0, "weighted_population_sd": 4.898979, "weighted_geometric_mean": 15.157166}}]}
+{"utc": "2026-11-09T10:02:01.553740+00:00", "event": "independent_tests_approved", "count": 8, "oracle_checked": true}
+{"utc": "2026-11-09T10:02:20.824866+00:00", "event": "functional_candidate_passed", "manifest": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_weighted_case_20261109T095954/builds/candidate/manifest.json"}
+{"utc": "2026-11-09T10:02:39.915426+00:00", "event": "original_computation_repaired", "before_correct": 0, "after_correct": 4}
+{"utc": "2026-11-09T10:03:05.458313+00:00", "event": "development_admission_passed", "controls": 3, "nonregression": true}
+{"utc": "2026-11-09T10:03:05.459269+00:00", "event": "development_tool_registered", "manifest": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_weighted_case_20261109T095954/development_registry/weighted_statistical_summaries.json", "code_sha256": "f80f9e9749595cf01602e0fd3a36717096b045c2c66a5d8f3f0dac22477170bc"}
+{"utc": "2026-11-09T10:03:11.644109+00:00", "event": "reloaded_tool_reused", "input": "original", "fresh_pid": 1836435}
+{"utc": "2026-11-09T10:03:23.219869+00:00", "event": "reloaded_tool_reused", "input": "new_subset", "fresh_pid": 1836441}
+{"utc": "2026-11-09T10:03:23.220717+00:00", "event": "engineering_lifecycle_completed", "passed": true}

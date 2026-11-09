@@ -1,0 +1,256 @@
+{
+  "task_id": "55181d1e6487737b43000008",
+  "question": "What are the breath test biomarkers of pulmonary tuberculosis",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Nitric oxide",
+      "Volatile organic compounds",
+      "13C-urea",
+      "Alkanes",
+      "Alkane derivatives",
+      "Cyclohexane derivatives",
+      "Benzene derivatives",
+      "Naphthalene derivatives",
+      "H2O2",
+      "TBARs"
+    ],
+    "supports": [
+      {
+        "item": "Nitric oxide",
+        "evidence_id": "e1",
+        "quote": "Nitric oxide (NO), a key macrophage antimycobacterial mediator that ameliorates immunopathology, is measurable in exhaled breath in individuals with pulmonary tuberculosis."
+      },
+      {
+        "item": "Volatile organic compounds",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "13C-urea",
+        "evidence_id": "e6",
+        "quote": "13[C]-urea breath test as a novel point-of-care biomarker for tuberculosis treatment and diagnosis."
+      },
+      {
+        "item": "Alkanes",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Alkane derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Cyclohexane derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Benzene derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Naphthalene derivatives",
+        "evidence_id": "e3",
+        "quote": "Four KI windows corresponded with KI values of VOCs previously identified as biomarkers of pulmonary TB and metabolic products of M. tuberculosis, principally derivatives of naphthalene, benzene and alkanes."
+      },
+      {
+        "item": "H2O2",
+        "evidence_id": "e11",
+        "quote": "The concentrations of H202 and TBARs (1022.96+/-186.02 nM and 4.22+/-0. 80 microM, respectively) were significantly higher in patients with tuberculosis as compared with the controls (398.15+/-37.10 nM and 0.48+/-0.17 microM, respectively)."
+      },
+      {
+        "item": "TBARs",
+        "evidence_id": "e11",
+        "quote": "The concentrations of H202 and TBARs (1022.96+/-186.02 nM and 4.22+/-0. 80 microM, respectively) were significantly higher in patients with tuberculosis as compared with the controls (398.15+/-37.10 nM and 0.48+/-0.17 microM, respectively)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts and titles; specific quantitative thresholds for diagnosis are not provided in the supplied text. Some biomarkers (e.g., H2O2, TBARs) are mentioned in the context of tuberculosis patients but the specific breath test methodology for these specific compounds is less detailed compared to VOCs and NO in the provided segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 8,
+      "fn": 3,
+      "precision": 0.2,
+      "recall": 0.4,
+      "f1": 0.26666666666666666
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Nitric oxide",
+      "Volatile organic compounds",
+      "13C-urea",
+      "Alkanes",
+      "Alkane derivatives",
+      "Cyclohexane derivatives",
+      "Benzene derivatives",
+      "Naphthalene derivatives",
+      "H2O2",
+      "TBARs"
+    ],
+    "supports": [
+      {
+        "item": "Nitric oxide",
+        "evidence_id": "e1",
+        "quote": "Nitric oxide (NO), a key macrophage antimycobacterial mediator that ameliorates immunopathology, is measurable in exhaled breath in individuals with pulmonary tuberculosis."
+      },
+      {
+        "item": "Volatile organic compounds",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "13C-urea",
+        "evidence_id": "e6",
+        "quote": "13[C]-urea breath test as a novel point-of-care biomarker for tuberculosis treatment and diagnosis."
+      },
+      {
+        "item": "Alkanes",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Alkane derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Cyclohexane derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Benzene derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Naphthalene derivatives",
+        "evidence_id": "e3",
+        "quote": "Four KI windows corresponded with KI values of VOCs previously identified as biomarkers of pulmonary TB and metabolic products of M. tuberculosis, principally derivatives of naphthalene, benzene and alkanes."
+      },
+      {
+        "item": "H2O2",
+        "evidence_id": "e11",
+        "quote": "The concentrations of H202 and TBARs (1022.96+/-186.02 nM and 4.22+/-0. 80 microM, respectively) were significantly higher in patients with tuberculosis as compared with the controls (398.15+/-37.10 nM and 0.48+/-0.17 microM, respectively)."
+      },
+      {
+        "item": "TBARs",
+        "evidence_id": "e11",
+        "quote": "The concentrations of H202 and TBARs (1022.96+/-186.02 nM and 4.22+/-0. 80 microM, respectively) were significantly higher in patients with tuberculosis as compared with the controls (398.15+/-37.10 nM and 0.48+/-0.17 microM, respectively)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily supports VOCs, Nitric oxide, and 13C-urea as breath biomarkers. H2O2 and TBARs are reported as elevated in tuberculosis patients in the provided text, but the specific sample matrix (breath vs. other) is not explicitly defined in the quoted abstract segments, though context implies breath analysis in the study. Some VOCs are described as 'apparent' or 'potential' biomarkers.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 8,
+      "fn": 3,
+      "precision": 0.2,
+      "recall": 0.4,
+      "f1": 0.26666666666666666
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Nitric oxide",
+      "Volatile organic compounds",
+      "13C-urea",
+      "Alkanes",
+      "Alkane derivatives",
+      "Cyclohexane derivatives",
+      "Benzene derivatives",
+      "Naphthalene derivatives",
+      "H2O2",
+      "TBARs"
+    ],
+    "supports": [
+      {
+        "item": "Nitric oxide",
+        "evidence_id": "e1",
+        "quote": "Nitric oxide (NO), a key macrophage antimycobacterial mediator that ameliorates immunopathology, is measurable in exhaled breath in individuals with pulmonary tuberculosis."
+      },
+      {
+        "item": "Volatile organic compounds",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "13C-urea",
+        "evidence_id": "e6",
+        "quote": "13[C]-urea breath test as a novel point-of-care biomarker for tuberculosis treatment and diagnosis."
+      },
+      {
+        "item": "Alkanes",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Alkane derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Cyclohexane derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Benzene derivatives",
+        "evidence_id": "e8",
+        "quote": "Breath VOCs contained apparent biomarkers of active pulmonary tuberculosis comprising oxidative stress products (alkanes and alkane derivatives) and volatile metabolites of M. tuberculosis (cyclohexane and benzene derivatives)."
+      },
+      {
+        "item": "Naphthalene derivatives",
+        "evidence_id": "e3",
+        "quote": "Four KI windows corresponded with KI values of VOCs previously identified as biomarkers of pulmonary TB and metabolic products of M. tuberculosis, principally derivatives of naphthalene, benzene and alkanes."
+      },
+      {
+        "item": "H2O2",
+        "evidence_id": "e11",
+        "quote": "The concentrations of H202 and TBARs (1022.96+/-186.02 nM and 4.22+/-0. 80 microM, respectively) were significantly higher in patients with tuberculosis as compared with the controls (398.15+/-37.10 nM and 0.48+/-0.17 microM, respectively)."
+      },
+      {
+        "item": "TBARs",
+        "evidence_id": "e11",
+        "quote": "The concentrations of H202 and TBARs (1022.96+/-186.02 nM and 4.22+/-0. 80 microM, respectively) were significantly higher in patients with tuberculosis as compared with the controls (398.15+/-37.10 nM and 0.48+/-0.17 microM, respectively)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily supports VOCs, Nitric oxide, and 13C-urea as breath biomarkers. H2O2 and TBARs are reported as elevated in tuberculosis patients in the provided text, but the specific sample matrix (breath vs. other) is not explicitly defined in the quoted abstract segments, though context implies breath analysis in the study. Some VOCs are described as 'apparent' or 'potential' biomarkers.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 8,
+      "fn": 3,
+      "precision": 0.2,
+      "recall": 0.4,
+      "f1": 0.26666666666666666
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16194024",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16635588",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20189456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20805989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21219679",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22647661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23737604"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/55181d1e6487737b43000008/attempt_0"
+}

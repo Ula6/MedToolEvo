@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"approve\": true,\n  \"reason\": \"The contract is logically consistent, self-contained, and rigorously defined. It explicitly handles the complex interaction between NFKC normalization, casefolding (specifically the U+00DF 'ß' to 'ss' expansion), and whitespace collapsing while strictly preserving original Unicode code-point spans. The algorithm correctly mandates a verification step to reject partial matches within expanded casefold sequences, ensuring no false positives. The input validation rules (unique IDs, non-empty queries) and output structure (preserving input order, handling unsupported queries) are clear and testable without external dependencies.\",\n  \"cases\": [\n    {\n      \"input\": {\n        \"sources\": [\n          { \"source_id\": \"s1\", \"text\": \"Hello World\" }\n        ],\n        \"queries\": [\n          { \"query_id\": \"q1\", \"text\": \"World\" }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              { \"source_id\": \"s1\", \"start\": 6, \"end\": 11, \"quote\": \"World\" }\n            ]\n          }\n        ],\n        \"unsupported_query_ids\": []\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          { \"source_id\": \"s1\", \"text\": \"ana\" }\n        ],\n        \"queries\": [\n          { \"query_id\": \"q1\", \"text\": \"ana\" }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              { \"source_id\": \"s1\", \"start\": 0, \"end\": 3, \"quote\": \"ana\" }\n            ]\n          }\n        ],\n        \"unsupported_query_ids\": []\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          { \"source_id\": \"s1\", \"text\": \"Straße\" }\n        ],\n        \"queries\": [\n          { \"query_id\": \"q1\", \"text\": \"ss\" },\n          { \"query_id\": \"q2\", \"text\": \"s\" }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              { \"source_id\": \"s1\", \"start\": 2, \"end\": 3, \"quote\": \"ß\" }\n            ]\n          },\n          {\n            \"query_id\": \"q2\",\n            \"matches\": []\n          }\n        ],\n        \"unsupported_query_ids\": [\"q2\"]\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          { \"source_id\": \"s1\", \"text\": \"Hello\\u3000World\" }\n        ],\n        \"queries\": [\n          { \"query_id\": \"q1\", \"text\": \"Hello World\" }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              { \"source_id\": \"s1\", \"start\": 0, \"end\": 11, \"quote\": \"Hello\\u3000World\" }\n            ]\n          }\n        ],\n        \"unsupported_query_ids\": []\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          { \"source_id\": \"s1\", \"text\": \"Test\" },\n          { \"source_id\": \"s2\", \"text\": \"Test\" }\n        ],\n        \"queries\": [\n          { \"query_id\": \"q1\", \"text\": \"Test\" }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              { \"source_id\": \"s1\", \"start\": 0, \"end\": 4, \"quote\": \"Test\" },\n              { \"source_id\": \"s2\", \"start\": 0, \"end\": 4, \"quote\": \"Test\" }\n            ]\n          }\n        ],\n        \"unsupported_query_ids\": []\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [],\n        \"queries\": [\n          { \"query_id\": \"q1\", \"text\": \"Nothing\" }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          { \"query_id\": \"q1\", \"matches\": [] }\n        ],\n        \"unsupported_query_ids\": [\"q1\"]\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          { \"source_id\": \"s1\", \"text\": \"A\" },\n          { \"source_id\": \"s1\", \"text\": \"B\" }\n        ],\n        \"queries\": [\n          { \"query_id\": \"q1\", \"text\": \"A\" }\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          { \"source_id\": \"s1\", \"text\": \"A\" }\n        ],\n        \"queries\": [\n          { \"query_id\": \"q1\", \"text\": \"   \" }\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794223541,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1267,
+    "prompt_tokens": 3172,
+    "total_tokens": 4439,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-iKCPCbrXQd5U7TvU2oMVkVeRWHjYglTm",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 3172,
+    "prompt_ms": 5653.065,
+    "prompt_per_token_ms": 1.7821768600252206,
+    "prompt_per_second": 561.1115386078172,
+    "predicted_n": 1267,
+    "predicted_ms": 46724.278,
+    "predicted_per_token_ms": 36.90701263823065,
+    "predicted_per_second": 27.09512172665354
+  }
+}

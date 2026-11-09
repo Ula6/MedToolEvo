@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"entities\": [{\"name\": \"B30-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]}, {\"name\": \"B32-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]}, {\"name\": \"B37-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]}, {\"name\": \"B39-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]}, {\"name\": \"B40-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]}, {\"name\": \"B41-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]}, {\"name\": \"B42-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]}, {\"name\": \"B45-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]}], \"unique_entity_count\": 8}",
+  "stderr": "",
+  "elapsed_seconds": 0.030621437821537256,
+  "code_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679"
+}

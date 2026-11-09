@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"approve\": true,\n  \"reason\": \"The contract is logically consistent, self-contained, and rigorously defined. The normalization pipeline (NFKC -> casefold -> whitespace collapse) is explicitly scoped to character-by-character processing, preventing cross-boundary errors. The requirement to verify the normalized original span against the normalized query effectively handles the 'ß' vs 'ss' edge case without implementation ambiguity. The distinction between 'matches' and 'unsupported_query_ids' is clear, and error conditions (ValueError) for malformed inputs are well-specified.\",\n  \"cases\": [\n    {\n      \"input\": {\n        \"sources\": [\n          {\n            \"source_id\": \"s1\",\n            \"text\": \"Hello World\"\n          }\n        ],\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"text\": \"World\"\n          }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              {\n                \"source_id\": \"s1\",\n                \"start\": 6,\n                \"end\": 11,\n                \"quote\": \"World\"\n              }\n            ]\n          }\n        ],\n        \"unsupported_query_ids\": []\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          {\n            \"source_id\": \"s1\",\n            \"text\": \"ana\"\n          }\n        ],\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"text\": \"ana\"\n          }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              {\n                \"source_id\": \"s1\",\n                \"start\": 0,\n                \"end\": 3,\n                \"quote\": \"ana\"\n              }\n            ]\n          }\n        ],\n        \"unsupported_query_ids\": []\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          {\n            \"source_id\": \"s1\",\n            \"text\": \"Straße\"\n          }\n        ],\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"text\": \"ss\"\n          },\n          {\n            \"query_id\": \"q2\",\n            \"text\": \"s\"\n          }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              {\n                \"source_id\": \"s1\",\n                \"start\": 2,\n                \"end\": 3,\n                \"quote\": \"ß\"\n              }\n            ]\n          },\n          {\n            \"query_id\": \"q2\",\n            \"matches\": []\n          }\n        ],\n        \"unsupported_query_ids\": [\n          \"q2\"\n        ]\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          {\n            \"source_id\": \"s1\",\n            \"text\": \"Hello\\u3000World\"\n          }\n        ],\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"text\": \"Hello World\"\n          }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              {\n                \"source_id\": \"s1\",\n                \"start\": 0,\n                \"end\": 12,\n                \"quote\": \"Hello\\u3000World\"\n              }\n            ]\n          }\n        ],\n        \"unsupported_query_ids\": []\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          {\n            \"source_id\": \"s1\",\n            \"text\": \"Test\"\n          },\n          {\n            \"source_id\": \"s2\",\n            \"text\": \"Test\"\n          }\n        ],\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"text\": \"Test\"\n          }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": [\n              {\n                \"source_id\": \"s1\",\n                \"start\": 0,\n                \"end\": 4,\n                \"quote\": \"Test\"\n              },\n              {\n                \"source_id\": \"s2\",\n                \"start\": 0,\n                \"end\": 4,\n                \"quote\": \"Test\"\n              }\n            ]\n          }\n        ],\n        \"unsupported_query_ids\": []\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [],\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"text\": \"Nothing\"\n          }\n        ]\n      },\n      \"expected\": {\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"matches\": []\n          }\n        ],\n        \"unsupported_query_ids\": [\n          \"q1\"\n        ]\n      }\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          {\n            \"source_id\": \"s1\",\n            \"text\": \"A\"\n          },\n          {\n            \"source_id\": \"s1\",\n            \"text\": \"B\"\n          }\n        ],\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"text\": \"A\"\n          }\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"sources\": [\n          {\n            \"source_id\": \"s1\",\n            \"text\": \"A\"\n          }\n        ],\n        \"queries\": [\n          {\n            \"query_id\": \"q1\",\n            \"text\": \"   \"\n          }\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794223652,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1439,
+    "prompt_tokens": 3984,
+    "total_tokens": 5423,
+    "prompt_tokens_details": {
+      "cached_tokens": 3040
+    }
+  },
+  "id": "chatcmpl-yr8cYjo94t3JH8JIKEKlM3v06X23AhSM",
+  "timings": {
+    "cache_n": 3040,
+    "prompt_n": 944,
+    "prompt_ms": 1832.994,
+    "prompt_per_token_ms": 1.9417309322033898,
+    "prompt_per_second": 515.0044135441797,
+    "predicted_n": 1439,
+    "predicted_ms": 53183.431,
+    "predicted_per_token_ms": 36.98430528511822,
+    "predicted_per_second": 27.03849625647507
+  }
+}

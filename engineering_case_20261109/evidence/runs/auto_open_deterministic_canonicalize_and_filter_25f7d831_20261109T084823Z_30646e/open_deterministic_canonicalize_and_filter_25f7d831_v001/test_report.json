@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "test": "test_case_00",
+      "status": "PASS"
+    },
+    {
+      "test": "test_case_01",
+      "status": "FAIL",
+      "error": "AssertionError: Input={'records': [{'name': '  Gene-A  ', 'aliases': ['gA'], 'relation': 'activates target', 'evidence_id': 'E1', 'qualifiers': ['strong']}], 'canonicalization_map': {}, 'action_keywords': ['activates'], 'exclusion_keywords': ['regulates']} expected={'canonical_entities': [{'canonical_name': 'gene-a', 'aliases': ['gA'], 'merged_evidence_ids': ['E1'], 'primary_relation': 'activates target', 'merged_qualifiers': ['strong']}]} actual={'canonical_entities': [{'canonical_name': 'gene-a', 'aliases': ['  Gene-A  ', 'gA'], 'merged_evidence_ids': ['E1'], 'primary_relation': 'activates target', 'merged_qualifiers': ['strong']}]}"
+    },
+    {
+      "test": "test_case_02",
+      "status": "PASS"
+    },
+    {
+      "test": "test_case_03",
+      "status": "FAIL",
+      "error": "AssertionError: Input={'records': [{'name': 'Alias-B', 'aliases': [], 'relation': 'activates and regulates', 'evidence_id': 'E3'}], 'canonicalization_map': {'Alias-B': 'Canonical-B'}, 'action_keywords': ['activates'], 'exclusion_keywords': ['regulates']} expected={'canonical_entities': [{'canonical_name': 'Canonical-B', 'aliases': [], 'merged_evidence_ids': ['E3'], 'primary_relation': 'activates and regulates', 'merged_qualifiers': []}]} actual={'canonical_entities': [{'canonical_name': 'Canonical-B', 'aliases': ['Alias-B'], 'merged_evidence_ids': ['E3'], 'primary_relation': 'activates and regulates', 'merged_qualifiers': []}]}"
+    },
+    {
+      "test": "test_case_04",
+      "status": "FAIL",
+      "error": "AssertionError: Input={'records': [{'name': 'Entity-1', 'aliases': ['e1'], 'relation': 'activates', 'evidence_id': 'E4', 'qualifiers': ['q1']}, {'name': 'Entity-1', 'aliases': ['e2'], 'relation': 'inhibits', 'evidence_id': 'E5', 'qualifiers': ['q2']}], 'canonicalization_map': {}, 'action_keywords': ['activates', 'inhibits'], 'exclusion_keywords': []} expected={'canonical_entities': [{'canonical_name': 'entity-1', 'aliases': ['e1', 'e2'], 'merged_evidence_ids': ['E4', 'E5'], 'primary_relation': 'activates', 'merged_qualifiers': ['q1', 'q2']}]} actual={'canonical_entities': [{'canonical_name': 'entity-1', 'aliases': ['Entity-1', 'e2', 'e1'], 'merged_evidence_ids': ['E4', 'E5'], 'primary_relation': 'activates', 'merged_qualifiers': ['q1', 'q2']}]}"
+    },
+    {
+      "test": "test_case_05",
+      "status": "FAIL",
+      "error": "AssertionError: Input={'records': [{'name': 'Map-Target', 'aliases': ['Alias-C'], 'relation': 'activates', 'evidence_id': 'E6'}], 'canonicalization_map': {'Alias-C': 'Mapped-Name'}, 'action_keywords': ['activates'], 'exclusion_keywords': []} expected={'canonical_entities': [{'canonical_name': 'Mapped-Name', 'aliases': ['Alias-C'], 'merged_evidence_ids': ['E6'], 'primary_relation': 'activates', 'merged_qualifiers': []}]} actual={'canonical_entities': [{'canonical_name': 'Mapped-Name', 'aliases': ['Alias-C', 'Map-Target'], 'merged_evidence_ids': ['E6'], 'primary_relation': 'activates', 'merged_qualifiers': []}]}"
+    },
+    {
+      "test": "test_case_06",
+      "status": "FAIL",
+      "error": "AssertionError: Input={'records': [{'name': 'Test', 'relation': 'no action', 'evidence_id': 'E7'}], 'canonicalization_map': {}, 'action_keywords': ['activates'], 'exclusion_keywords': ['regulates']} expected={'canonical_entities': []} actual={'canonical_entities': [{'canonical_name': 'test', 'aliases': ['Test'], 'merged_evidence_ids': ['E7'], 'primary_relation': None, 'merged_qualifiers': []}]}"
+    }
+  ],
+  "passed": 2,
+  "failed": 5
+}

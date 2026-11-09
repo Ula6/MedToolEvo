@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"answers\": [\n    {\n      \"query_id\": \"cross1\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"B30-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]\n          },\n          {\n            \"name\": \"B32-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]\n          },\n          {\n            \"name\": \"B37-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]\n          },\n          {\n            \"name\": \"B39-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]\n          },\n          {\n            \"name\": \"B40-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]\n          },\n          {\n            \"name\": \"B41-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]\n          },\n          {\n            \"name\": \"B42-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]\n          },\n          {\n            \"name\": \"B45-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g2\", \"PMC11856201:g5\"]\n          }\n        ],\n        \"unique_entity_count\": 8\n      }\n    },\n    {\n      \"query_id\": \"cross2\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"B12-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g3\", \"PMC11856201:g4\"]\n          },\n          {\n            \"name\": \"B15-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g3\", \"PMC11856201:g4\"]\n          },\n          {\n            \"name\": \"B19-jcm-14-01036\",\n            \"evidence_ids\": [\"PMC11856201:g3\", \"PMC11856201:g4\"]\n          }\n        ],\n        \"unique_entity_count\": 3\n      }\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794226981,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 759,
+    "prompt_tokens": 4903,
+    "total_tokens": 5662,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-GrUZHMEaQ8G139m0MnHrFIGcI8el5cNE",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 4903,
+    "prompt_ms": 8719.071,
+    "prompt_per_token_ms": 1.778313481541913,
+    "prompt_per_second": 562.3305510415043,
+    "predicted_n": 759,
+    "predicted_ms": 28097.628,
+    "predicted_per_token_ms": 37.06811081794196,
+    "predicted_per_second": 26.97736620329659
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "functional_pass_pending_task_validation",
+  "session": "/home/supervisor/project/sy/MedToolEvo/runs/auto_evolved_add_policy_filter_engine_00a5aa6c_20261109T121626Z_6118de",
+  "initial_candidate": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/evolved_add_policy_filter_engine_00a5aa6c_v004.py",
+  "original_trigger": "Qwen_Manager_extend_existing_tool_after_actual_policy_failure",
+  "generation_strategy": "repair_existing",
+  "test_sha256": "83eb5215f8d217cb1c19fd7b503e0e6a316ee2d2c4a649c483dec5c13334cdf8",
+  "spec_sha256": "11c7bb210ddebbf02b4bccace5b836d092e62582626a1d9adbfa02446e221b2f",
+  "test_count": 22,
+  "max_additional_repairs": 3,
+  "developer_guidance_sha256": null,
+  "prompt_format": "plain",
+  "history": [
+    {
+      "version": "evolved_add_policy_filter_engine_00a5aa6c_v004",
+      "path": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/evolved_add_policy_filter_engine_00a5aa6c_v004.py",
+      "sha256": "75b7c64645d3557e15ccd24db903939c1429e2027d8589ddefc818b2570a0a9f",
+      "passed": 11,
+      "failed": 11
+    },
+    {
+      "version": "evolved_add_policy_filter_engine_00a5aa6c_v005",
+      "path": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/evolved_add_policy_filter_engine_00a5aa6c_v005.py",
+      "sha256": "558eee724c195f5d6165c5fb5736ef6b0cfb666b3faec0f8d1706f25ce0566aa",
+      "passed": 21,
+      "failed": 1
+    },
+    {
+      "version": "evolved_add_policy_filter_engine_00a5aa6c_v006",
+      "path": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/evolved_add_policy_filter_engine_00a5aa6c_v006.py",
+      "sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679",
+      "passed": 22,
+      "failed": 0
+    }
+  ],
+  "repair_calls": 2,
+  "validated_code": "/home/supervisor/project/sy/MedToolEvo/tools/validated/evolved_add_policy_filter_engine_00a5aa6c_v006.py",
+  "manifest": "/home/supervisor/project/sy/MedToolEvo/registry/pending/evolved_add_policy_filter_engine_00a5aa6c_v006.json"
+}

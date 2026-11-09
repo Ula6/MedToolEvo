@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "parsed": {
+    "classification": "no_content_failure",
+    "create_tool_justified": false,
+    "problems": [],
+    "reason": "The initial answer correctly lists all three clinical applications of Zanubrutinib approved in the United States as explicitly stated in the provided evidence (e1 and e2): 1) adults with mantle cell lymphoma who have received at least one prior therapy, 2) adults with Waldenström macroglobulinemia, and 3) adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy. The answer items match the evidence quotes exactly, including all necessary qualifiers (e.g., 'relapsed or refractory', 'at least one prior therapy'). No missing items, factual errors, or unsupported claims are present."
+  }
+}

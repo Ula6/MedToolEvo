@@ -1,0 +1,86 @@
+{
+  "main": {
+    "g1": [
+      "diagnostic_bm",
+      "positive"
+    ],
+    "g2": [
+      "differential_mm",
+      "positive"
+    ],
+    "g3": [
+      "differential_bone_island",
+      "positive"
+    ],
+    "g4": [
+      "differential_tuberculosis",
+      "positive"
+    ],
+    "g5": [
+      "primary_lung",
+      "positive"
+    ],
+    "g6": [
+      "primary_prostate",
+      "positive"
+    ],
+    "g7": [
+      "primary_site_reported",
+      "negative"
+    ],
+    "g8": [
+      "primary_gastric",
+      "positive"
+    ],
+    "g9": [
+      "human_comparison",
+      "positive"
+    ],
+    "g10": [
+      "modality_mri",
+      "positive"
+    ],
+    "g11": [
+      "modality_ct",
+      "positive"
+    ],
+    "g12": [
+      "external_validation",
+      "positive"
+    ],
+    "g13": [
+      "internal_validation",
+      "positive"
+    ]
+  },
+  "reuse": {
+    "g1": [
+      "direct_comparison",
+      "positive"
+    ],
+    "g2": [
+      "celecoxib",
+      "positive"
+    ],
+    "g3": [
+      "joins",
+      "positive"
+    ],
+    "g4": [
+      "short_followup",
+      "positive"
+    ],
+    "g5": [
+      "mid_followup",
+      "positive"
+    ],
+    "g6": [
+      "bias_blinding",
+      "positive"
+    ],
+    "g7": [
+      "bias_other",
+      "positive"
+    ]
+  }
+}

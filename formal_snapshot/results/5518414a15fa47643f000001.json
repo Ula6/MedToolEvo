@@ -1,0 +1,211 @@
+{
+  "task_id": "5518414a15fa47643f000001",
+  "question": "Which gene(s) should be genotyped in order to prescribe the drug Cetuximab (anti-EGFR)?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "KRAS",
+      "BRAF",
+      "NRAS",
+      "PIK3CA exon 20",
+      "TP53",
+      "EGFR-R497K",
+      "EGF A+61G"
+    ],
+    "supports": [
+      {
+        "item": "KRAS",
+        "evidence_id": "e5",
+        "quote": "KRAS status is now a mandatory prerequisite in order to treat metastatic colorectal patients with anti-Epidermal Growth Factor Receptor (EGFR) antibodies, such as cetuximab or panitumumab."
+      },
+      {
+        "item": "BRAF",
+        "evidence_id": "e11",
+        "quote": "Recent studies have demonstrated that additionally wild-type BRAF (wt-BRAF) genotype is required for response to panitumumab or cetuximab, suggesting that BRAF genotype criteria should be used together with KRAS genotype for selecting the patients who are about to benefit from the anti-EGFR therapy."
+      },
+      {
+        "item": "NRAS",
+        "evidence_id": "e13",
+        "quote": "While confirming the negative effect of KRAS mutations on outcome after cetuximab, we show that BRAF, NRAS, and PIK3CA exon 20 mutations are significantly associated with a low response rate."
+      },
+      {
+        "item": "PIK3CA exon 20",
+        "evidence_id": "e13",
+        "quote": "While confirming the negative effect of KRAS mutations on outcome after cetuximab, we show that BRAF, NRAS, and PIK3CA exon 20 mutations are significantly associated with a low response rate."
+      },
+      {
+        "item": "TP53",
+        "evidence_id": "e15",
+        "quote": "This study suggests that TP53 mutations are predictive of cetuximab sensitivity, particularly in patients without KRAS mutation, and that TP53 genotyping could have a clinical interest to select patients who should benefit from cetuximab-based CT."
+      },
+      {
+        "item": "EGFR-R497K",
+        "evidence_id": "e6",
+        "quote": "The EGFR-R497K polymorphism is a potential predictor for overall survival in HNSCC patients treated with cetuximab based therapy in the palliative setting."
+      },
+      {
+        "item": "EGF A+61G",
+        "evidence_id": "e9",
+        "quote": "This study suggested EGF A+61G polymorphism to be a predictive marker for pCR, independent of KRAS mutation status, to cetuximab-based neoadjuvant chemoradiation of patients with locally advanced rectal cancer."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily supports KRAS as a mandatory prerequisite for metastatic colorectal cancer. BRAF, NRAS, and PIK3CA exon 20 are suggested as additional criteria for response prediction in colorectal cancer. TP53, EGFR-R497K, and EGF A+61G are supported by specific studies for colorectal or head and neck squamous cell carcinoma (HNSCC) but are not universally mandated guidelines compared to KRAS. Clinical context (cancer type, line of therapy) influences the necessity of genotyping specific genes beyond KRAS.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 5,
+      "fn": 2,
+      "precision": 0.2857142857142857,
+      "recall": 0.5,
+      "f1": 0.36363636363636365
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "KRAS",
+      "BRAF",
+      "NRAS",
+      "PIK3CA exon 20",
+      "TP53",
+      "EGFR-R497K",
+      "EGF A+61G"
+    ],
+    "supports": [
+      {
+        "item": "KRAS",
+        "evidence_id": "e5",
+        "quote": "KRAS status is now a mandatory prerequisite in order to treat metastatic colorectal patients with anti-Epidermal Growth Factor Receptor (EGFR) antibodies, such as cetuximab or panitumumab."
+      },
+      {
+        "item": "BRAF",
+        "evidence_id": "e11",
+        "quote": "Recent studies have demonstrated that additionally wild-type BRAF (wt-BRAF) genotype is required for response to panitumumab or cetuximab, suggesting that BRAF genotype criteria should be used together with KRAS genotype for selecting the patients who are about to benefit from the anti-EGFR therapy."
+      },
+      {
+        "item": "NRAS",
+        "evidence_id": "e13",
+        "quote": "While confirming the negative effect of KRAS mutations on outcome after cetuximab, we show that BRAF, NRAS, and PIK3CA exon 20 mutations are significantly associated with a low response rate."
+      },
+      {
+        "item": "PIK3CA exon 20",
+        "evidence_id": "e13",
+        "quote": "While confirming the negative effect of KRAS mutations on outcome after cetuximab, we show that BRAF, NRAS, and PIK3CA exon 20 mutations are significantly associated with a low response rate."
+      },
+      {
+        "item": "TP53",
+        "evidence_id": "e15",
+        "quote": "This study suggests that TP53 mutations are predictive of cetuximab sensitivity, particularly in patients without KRAS mutation, and that TP53 genotyping could have a clinical interest to select patients who should benefit from cetuximab-based CT."
+      },
+      {
+        "item": "EGFR-R497K",
+        "evidence_id": "e6",
+        "quote": "The EGFR-R497K polymorphism is a potential predictor for overall survival in HNSCC patients treated with cetuximab based therapy in the palliative setting."
+      },
+      {
+        "item": "EGF A+61G",
+        "evidence_id": "e9",
+        "quote": "This study suggested EGF A+61G polymorphism to be a predictive marker for pCR, independent of KRAS mutation status, to cetuximab-based neoadjuvant chemoradiation of patients with locally advanced rectal cancer."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily supports KRAS as a mandatory prerequisite for metastatic colorectal cancer (mCRC). BRAF, NRAS, and PIK3CA exon 20 are supported as additional markers for mCRC response prediction. TP53, EGFR-R497K, and EGF A+61G are supported as potential or study-specific predictors in specific subpopulations (e.g., KRAS wild-type mCRC, HNSCC, or locally advanced rectal cancer) but lack the universal 'mandatory' status of KRAS in the provided text. EGFR expression by immunohistochemistry is explicitly noted as not predictive (e14).",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 5,
+      "fn": 2,
+      "precision": 0.2857142857142857,
+      "recall": 0.5,
+      "f1": 0.36363636363636365
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "KRAS",
+      "BRAF",
+      "NRAS",
+      "PIK3CA exon 20",
+      "TP53",
+      "EGFR-R497K",
+      "EGF A+61G"
+    ],
+    "supports": [
+      {
+        "item": "KRAS",
+        "evidence_id": "e5",
+        "quote": "KRAS status is now a mandatory prerequisite in order to treat metastatic colorectal patients with anti-Epidermal Growth Factor Receptor (EGFR) antibodies, such as cetuximab or panitumumab."
+      },
+      {
+        "item": "BRAF",
+        "evidence_id": "e11",
+        "quote": "Recent studies have demonstrated that additionally wild-type BRAF (wt-BRAF) genotype is required for response to panitumumab or cetuximab, suggesting that BRAF genotype criteria should be used together with KRAS genotype for selecting the patients who are about to benefit from the anti-EGFR therapy."
+      },
+      {
+        "item": "NRAS",
+        "evidence_id": "e13",
+        "quote": "While confirming the negative effect of KRAS mutations on outcome after cetuximab, we show that BRAF, NRAS, and PIK3CA exon 20 mutations are significantly associated with a low response rate."
+      },
+      {
+        "item": "PIK3CA exon 20",
+        "evidence_id": "e13",
+        "quote": "While confirming the negative effect of KRAS mutations on outcome after cetuximab, we show that BRAF, NRAS, and PIK3CA exon 20 mutations are significantly associated with a low response rate."
+      },
+      {
+        "item": "TP53",
+        "evidence_id": "e15",
+        "quote": "This study suggests that TP53 mutations are predictive of cetuximab sensitivity, particularly in patients without KRAS mutation, and that TP53 genotyping could have a clinical interest to select patients who should benefit from cetuximab-based CT."
+      },
+      {
+        "item": "EGFR-R497K",
+        "evidence_id": "e6",
+        "quote": "The EGFR-R497K polymorphism is a potential predictor for overall survival in HNSCC patients treated with cetuximab based therapy in the palliative setting."
+      },
+      {
+        "item": "EGF A+61G",
+        "evidence_id": "e9",
+        "quote": "This study suggested EGF A+61G polymorphism to be a predictive marker for pCR, independent of KRAS mutation status, to cetuximab-based neoadjuvant chemoradiation of patients with locally advanced rectal cancer."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily supports KRAS as a mandatory prerequisite for metastatic colorectal cancer (mCRC). BRAF, NRAS, and PIK3CA exon 20 are supported as additional markers for mCRC response prediction. TP53, EGFR-R497K, and EGF A+61G are supported as potential or study-specific predictors in specific subpopulations (e.g., KRAS wild-type mCRC, HNSCC, or locally advanced rectal cancer) but lack the universal 'mandatory' status of KRAS in the provided text. EGFR expression by immunohistochemistry is explicitly noted as not predictive (e14).",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 5,
+      "fn": 2,
+      "precision": 0.2857142857142857,
+      "recall": 0.5,
+      "f1": 0.36363636363636365
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/18810446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19343364",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19367287",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19368524",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20619739",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20637356",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20645028",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21036743",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21673069",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21686179",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21851273",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22287728",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22735045",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23299277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23671647",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24152305"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5518414a15fa47643f000001/attempt_0"
+}

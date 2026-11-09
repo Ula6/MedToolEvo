@@ -1,0 +1,8 @@
+{
+  "prompt_tokens": 8869,
+  "requested_completion": 1536,
+  "completion_allowance": 1536,
+  "margin": 256,
+  "context": 16384,
+  "evidence_dropped": false
+}

@@ -1,0 +1,138 @@
+{
+  "task_id": "5506e2ff8e1671127b00000d",
+  "question": "Which are the subunits of the IkB protein kinase (IKK)?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "IKKα",
+      "IKKβ",
+      "NEMO (IKKγ)"
+    ],
+    "supports": [
+      {
+        "item": "IKKα",
+        "evidence_id": "e2",
+        "quote": "The IKK complex contains two catalytic subunits (IKKα and IKKβ) and a regulatory subunit NEMO/IKKγ"
+      },
+      {
+        "item": "IKKβ",
+        "evidence_id": "e2",
+        "quote": "The IKK complex contains two catalytic subunits (IKKα and IKKβ) and a regulatory subunit NEMO/IKKγ"
+      },
+      {
+        "item": "NEMO (IKKγ)",
+        "evidence_id": "e2",
+        "quote": "The IKK complex contains two catalytic subunits (IKKα and IKKβ) and a regulatory subunit NEMO/IKKγ"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence consistently identifies IKKα, IKKβ, and NEMO (IKKγ) as the core subunits; e11 notes additional components may exist but are not fully characterized.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "IKKα",
+      "IKKβ",
+      "NEMO (IKKγ)"
+    ],
+    "supports": [
+      {
+        "item": "IKKα",
+        "evidence_id": "e1",
+        "quote": "NEMO (NF-κB essential modulator) associates with catalytic subunits IKKα and IKKβ to form the IκB kinase (IKK) complex"
+      },
+      {
+        "item": "IKKβ",
+        "evidence_id": "e1",
+        "quote": "NEMO (NF-κB essential modulator) associates with catalytic subunits IKKα and IKKβ to form the IκB kinase (IKK) complex"
+      },
+      {
+        "item": "NEMO (IKKγ)",
+        "evidence_id": "e2",
+        "quote": "The IKK complex contains two catalytic subunits (IKKα and IKKβ) and a regulatory subunit NEMO/IKKγ"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence consistently identifies IKKα, IKKβ, and NEMO (IKKγ) as the subunits; some sources describe IKKγ as regulatory while others list it among catalytic subunits, but all agree on the three-component composition.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "IKKα",
+      "IKKβ",
+      "NEMO (IKKγ)"
+    ],
+    "supports": [
+      {
+        "item": "IKKα",
+        "evidence_id": "e1",
+        "quote": "NEMO (NF-κB essential modulator) associates with catalytic subunits IKKα and IKKβ to form the IκB kinase (IKK) complex"
+      },
+      {
+        "item": "IKKβ",
+        "evidence_id": "e1",
+        "quote": "NEMO (NF-κB essential modulator) associates with catalytic subunits IKKα and IKKβ to form the IκB kinase (IKK) complex"
+      },
+      {
+        "item": "NEMO (IKKγ)",
+        "evidence_id": "e2",
+        "quote": "The IKK complex contains two catalytic subunits (IKKα and IKKβ) and a regulatory subunit NEMO/IKKγ"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence consistently identifies IKKα, IKKβ, and NEMO (IKKγ) as the subunits; some sources describe IKKγ as regulatory while others list it among catalytic subunits, but all agree on the three-component composition.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17924664",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17977820",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19079347",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19666475",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19830703",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20300203",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21294676",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21314234",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21603248",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21784860",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22301997",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22627374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23294515",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24242761",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24266532"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5506e2ff8e1671127b00000d/attempt_0"
+}

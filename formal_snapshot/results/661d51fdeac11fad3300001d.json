@@ -1,0 +1,232 @@
+{
+  "task_id": "661d51fdeac11fad3300001d",
+  "question": "What diseases are included in the differential diagnosis of Ehlers-Danlos Syndrome?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "hypermobility spectrum disorders",
+      "Marfan syndrome",
+      "Loey-Dietz syndrome",
+      "Cutis laxa syndromes",
+      "autosomal dominant polycystic kidney disease",
+      "osteogenesis Imperfecta Type 1",
+      "fibromyalgia",
+      "depression",
+      "chronic fatigue syndrome"
+    ],
+    "supports": [
+      {
+        "item": "hypermobility spectrum disorders",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Marfan syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Loey-Dietz syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Cutis laxa syndromes",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "autosomal dominant polycystic kidney disease",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "osteogenesis Imperfecta Type 1",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "fibromyalgia",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "depression",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "chronic fatigue syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "List limited to conditions explicitly named in the provided abstract from PMID 33437956; does not include other potential differential diagnoses not mentioned in this specific source.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "hypermobility spectrum disorders",
+      "Marfan syndrome",
+      "Loey-Dietz syndrome",
+      "Cutis laxa syndromes",
+      "autosomal dominant polycystic kidney disease",
+      "osteogenesis Imperfecta Type 1",
+      "fibromyalgia",
+      "depression",
+      "chronic fatigue syndrome"
+    ],
+    "supports": [
+      {
+        "item": "hypermobility spectrum disorders",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Marfan syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Loey-Dietz syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Cutis laxa syndromes",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "autosomal dominant polycystic kidney disease",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "osteogenesis Imperfecta Type 1",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "fibromyalgia",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "depression",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "chronic fatigue syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "List limited to conditions explicitly named in the provided abstract from PMID 33437956; does not include other potential differential diagnoses not mentioned in this specific source.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "hypermobility spectrum disorders",
+      "Marfan syndrome",
+      "Loey-Dietz syndrome",
+      "Cutis laxa syndromes",
+      "autosomal dominant polycystic kidney disease",
+      "osteogenesis Imperfecta Type 1",
+      "fibromyalgia",
+      "depression",
+      "chronic fatigue syndrome"
+    ],
+    "supports": [
+      {
+        "item": "hypermobility spectrum disorders",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Marfan syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Loey-Dietz syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "Cutis laxa syndromes",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "autosomal dominant polycystic kidney disease",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "osteogenesis Imperfecta Type 1",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "fibromyalgia",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "depression",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      },
+      {
+        "item": "chronic fatigue syndrome",
+        "evidence_id": "e1",
+        "quote": "The differential diagnosis of EDS includes hypermobility spectrum disorders, Marfan syndrome, Loey-Dietz syndrome, Cutis laxa syndromes, autosomal dominant polycystic kidney disease, osteogenesis Imperfecta Type 1, fibromyalgia, depression, and chronic fatigue syndrome."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "List limited to conditions explicitly named in the provided abstract from PMID 33437956; does not include other potential differential diagnoses not mentioned in this specific source.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/33437956"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/661d51fdeac11fad3300001d/attempt_0"
+}

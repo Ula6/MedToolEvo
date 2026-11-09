@@ -1,0 +1,1708 @@
+{
+  "status": "completed",
+  "run": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a",
+  "source_questions": 1130,
+  "partitions": {
+    "development_seen": {
+      "arms": {
+        "direct_QA": {
+          "n": 10,
+          "precision": 0.09619047619047619,
+          "recall": 0.07586726998491704,
+          "f1": 0.08102564102564103,
+          "complete_list_rate": 0.0,
+          "status_counts": {
+            "ok": 10
+          },
+          "official": {
+            "precision": 0.09619047619047619,
+            "recall": 0.07586726998491704,
+            "f1": 0.08102564102564103
+          },
+          "official_minus_local": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "same_observation_LLM": {
+          "n": 10,
+          "precision": 0.082984496124031,
+          "recall": 0.17234162895927602,
+          "f1": 0.09862193362193364,
+          "complete_list_rate": 0.0,
+          "status_counts": {
+            "ok": 10
+          },
+          "official": {
+            "precision": 0.082984496124031,
+            "recall": 0.17234162895927602,
+            "f1": 0.09862193362193364
+          },
+          "official_minus_local": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "trusted_aggregation": {
+          "n": 10,
+          "precision": 0.082984496124031,
+          "recall": 0.17234162895927602,
+          "f1": 0.09862193362193364,
+          "complete_list_rate": 0.0,
+          "status_counts": {
+            "ok": 10
+          },
+          "official": {
+            "precision": 0.082984496124031,
+            "recall": 0.17234162895927602,
+            "f1": 0.09862193362193364
+          },
+          "official_minus_local": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "frozen_evolved_or_LLM_fallback": {
+          "n": 10,
+          "precision": 0.082984496124031,
+          "recall": 0.17234162895927602,
+          "f1": 0.09862193362193364,
+          "complete_list_rate": 0.0,
+          "status_counts": {
+            "ok": 10
+          },
+          "official": {
+            "precision": 0.082984496124031,
+            "recall": 0.17234162895927602,
+            "f1": 0.09862193362193364
+          },
+          "official_minus_local": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        }
+      },
+      "official_evaluator": {
+        "direct_QA": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/development_seen/direct_QA/evaluator_output.json",
+        "same_observation_LLM": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/development_seen/same_observation_LLM/evaluator_output.json",
+        "trusted_aggregation": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/development_seen/trusted_aggregation/evaluator_output.json",
+        "frozen_evolved_or_LLM_fallback": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/development_seen/frozen_evolved_or_LLM_fallback/evaluator_output.json"
+      },
+      "observation_integrity": {
+        "quote_valid_mentions": 213,
+        "rejected_records": 10,
+        "failed_chunks": 0
+      },
+      "literal_support_strata": {
+        "not_fully_literal_supported": 7,
+        "eligible": 3
+      }
+    },
+    "discovery": {
+      "arms": {
+        "direct_QA": {
+          "n": 231,
+          "precision": 0.3135467980632859,
+          "recall": 0.3558086273995365,
+          "f1": 0.3197351701556818,
+          "complete_list_rate": 0.16017316017316016,
+          "status_counts": {
+            "ok": 227,
+            "failed": 4
+          },
+          "official": {
+            "precision": 0.3135467980632857,
+            "recall": 0.358255220071693,
+            "f1": 0.32063049962243995
+          },
+          "official_minus_local": {
+            "precision": -1.6653345369377348e-16,
+            "recall": 0.0024465926721565223,
+            "f1": 0.0008953294667581324
+          }
+        },
+        "same_observation_LLM": {
+          "n": 231,
+          "precision": 0.3829211916834472,
+          "recall": 0.6369081905560133,
+          "f1": 0.4333919270757245,
+          "complete_list_rate": 0.11688311688311688,
+          "status_counts": {
+            "ok": 229,
+            "partial": 1,
+            "failed": 1
+          },
+          "official": {
+            "precision": 0.38292119168344735,
+            "recall": 0.6394093930572161,
+            "f1": 0.43418308993585286
+          },
+          "official_minus_local": {
+            "precision": 1.6653345369377348e-16,
+            "recall": 0.0025012025012027816,
+            "f1": 0.0007911628601283693
+          }
+        },
+        "trusted_aggregation": {
+          "n": 231,
+          "precision": 0.38949559497690767,
+          "recall": 0.6386294851344507,
+          "f1": 0.43963104726504143,
+          "complete_list_rate": 0.11688311688311688,
+          "status_counts": {
+            "ok": 229,
+            "partial": 2
+          },
+          "official": {
+            "precision": 0.38949559497690767,
+            "recall": 0.6411306876356536,
+            "f1": 0.4404327147333756
+          },
+          "official_minus_local": {
+            "precision": 0.0,
+            "recall": 0.0025012025012028927,
+            "f1": 0.0008016674683341551
+          }
+        },
+        "frozen_evolved_or_LLM_fallback": {
+          "n": 231,
+          "precision": 0.3829211916834472,
+          "recall": 0.6369081905560133,
+          "f1": 0.4333919270757245,
+          "complete_list_rate": 0.11688311688311688,
+          "status_counts": {
+            "ok": 229,
+            "partial": 1,
+            "failed": 1
+          },
+          "official": {
+            "precision": 0.38292119168344735,
+            "recall": 0.6394093930572161,
+            "f1": 0.43418308993585286
+          },
+          "official_minus_local": {
+            "precision": 1.6653345369377348e-16,
+            "recall": 0.0025012025012027816,
+            "f1": 0.0007911628601283693
+          }
+        }
+      },
+      "official_evaluator": {
+        "direct_QA": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/discovery/direct_QA/evaluator_output.json",
+        "same_observation_LLM": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/discovery/same_observation_LLM/evaluator_output.json",
+        "trusted_aggregation": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/discovery/trusted_aggregation/evaluator_output.json",
+        "frozen_evolved_or_LLM_fallback": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/discovery/frozen_evolved_or_LLM_fallback/evaluator_output.json"
+      },
+      "observation_integrity": {
+        "quote_valid_mentions": 5603,
+        "rejected_records": 114,
+        "failed_chunks": 2
+      },
+      "literal_support_strata": {
+        "eligible": 159,
+        "not_fully_literal_supported": 72
+      }
+    },
+    "admission": {
+      "arms": {
+        "direct_QA": {
+          "n": 202,
+          "precision": 0.27391621279417844,
+          "recall": 0.363737014241393,
+          "f1": 0.29506551976108664,
+          "complete_list_rate": 0.13366336633663367,
+          "status_counts": {
+            "ok": 201,
+            "failed": 1
+          },
+          "official": {
+            "precision": 0.2739162127941786,
+            "recall": 0.36387452799276804,
+            "f1": 0.2951083811900867
+          },
+          "official_minus_local": {
+            "precision": 1.6653345369377348e-16,
+            "recall": 0.00013751375137505129,
+            "f1": 4.2861429000062845e-05
+          }
+        },
+        "same_observation_LLM": {
+          "n": 202,
+          "precision": 0.3471144019518343,
+          "recall": 0.6620168322071255,
+          "f1": 0.41414816926343717,
+          "complete_list_rate": 0.0891089108910891,
+          "status_counts": {
+            "ok": 200,
+            "failed": 2
+          },
+          "official": {
+            "precision": 0.3471144019518344,
+            "recall": 0.662319541049438,
+            "f1": 0.4142146433048655
+          },
+          "official_minus_local": {
+            "precision": 1.1102230246251565e-16,
+            "recall": 0.0003027088423125379,
+            "f1": 6.647404142834379e-05
+          }
+        },
+        "trusted_aggregation": {
+          "n": 202,
+          "precision": 0.3510563977205699,
+          "recall": 0.6684524757714818,
+          "f1": 0.41877177228105855,
+          "complete_list_rate": 0.0891089108910891,
+          "status_counts": {
+            "ok": 202
+          },
+          "official": {
+            "precision": 0.35105639772056996,
+            "recall": 0.6687551846137945,
+            "f1": 0.4188382463224871
+          },
+          "official_minus_local": {
+            "precision": 5.551115123125783e-17,
+            "recall": 0.00030270884231264894,
+            "f1": 6.647404142856583e-05
+          }
+        },
+        "frozen_evolved_or_LLM_fallback": {
+          "n": 202,
+          "precision": 0.3471144019518343,
+          "recall": 0.6620168322071255,
+          "f1": 0.41414816926343717,
+          "complete_list_rate": 0.0891089108910891,
+          "status_counts": {
+            "ok": 200,
+            "failed": 2
+          },
+          "official": {
+            "precision": 0.3471144019518344,
+            "recall": 0.662319541049438,
+            "f1": 0.4142146433048655
+          },
+          "official_minus_local": {
+            "precision": 1.1102230246251565e-16,
+            "recall": 0.0003027088423125379,
+            "f1": 6.647404142834379e-05
+          }
+        }
+      },
+      "official_evaluator": {
+        "direct_QA": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/admission/direct_QA/evaluator_output.json",
+        "same_observation_LLM": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/admission/same_observation_LLM/evaluator_output.json",
+        "trusted_aggregation": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/admission/trusted_aggregation/evaluator_output.json",
+        "frozen_evolved_or_LLM_fallback": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/admission/frozen_evolved_or_LLM_fallback/evaluator_output.json"
+      },
+      "observation_integrity": {
+        "quote_valid_mentions": 5849,
+        "rejected_records": 136,
+        "failed_chunks": 0
+      },
+      "literal_support_strata": {
+        "not_fully_literal_supported": 64,
+        "eligible": 138
+      }
+    },
+    "evaluation": {
+      "arms": {
+        "direct_QA": {
+          "n": 687,
+          "precision": 0.31302277724074484,
+          "recall": 0.37146058253266534,
+          "f1": 0.32415180679452943,
+          "complete_list_rate": 0.1615720524017467,
+          "status_counts": {
+            "ok": 683,
+            "failed": 4
+          },
+          "official": {
+            "precision": 0.3130227772407448,
+            "recall": 0.3715355033306787,
+            "f1": 0.32416049326386437
+          },
+          "official_minus_local": {
+            "precision": -5.551115123125783e-17,
+            "recall": 7.492079801335594e-05,
+            "f1": 8.686469334939773e-06
+          }
+        },
+        "same_observation_LLM": {
+          "n": 687,
+          "precision": 0.3669400610492855,
+          "recall": 0.6266006608533267,
+          "f1": 0.4177389684574004,
+          "complete_list_rate": 0.11935953420669577,
+          "status_counts": {
+            "ok": 683,
+            "failed": 2,
+            "partial": 2
+          },
+          "official": {
+            "precision": 0.3669400610492854,
+            "recall": 0.6267618000300066,
+            "f1": 0.41777847886640035
+          },
+          "official_minus_local": {
+            "precision": -1.1102230246251565e-16,
+            "recall": 0.00016113917667992528,
+            "f1": 3.9510408999965385e-05
+          }
+        },
+        "trusted_aggregation": {
+          "n": 687,
+          "precision": 0.37241945497043855,
+          "recall": 0.6315805911607679,
+          "f1": 0.42428470777036337,
+          "complete_list_rate": 0.11790393013100436,
+          "status_counts": {
+            "ok": 685,
+            "partial": 2
+          },
+          "official": {
+            "precision": 0.37241945497043866,
+            "recall": 0.6317417303374477,
+            "f1": 0.42432407594718874
+          },
+          "official_minus_local": {
+            "precision": 1.1102230246251565e-16,
+            "recall": 0.00016113917667981426,
+            "f1": 3.936817682537175e-05
+          }
+        },
+        "frozen_evolved_or_LLM_fallback": {
+          "n": 687,
+          "precision": 0.3669400610492855,
+          "recall": 0.6266006608533267,
+          "f1": 0.4177389684574004,
+          "complete_list_rate": 0.11935953420669577,
+          "status_counts": {
+            "ok": 683,
+            "failed": 2,
+            "partial": 2
+          },
+          "official": {
+            "precision": 0.3669400610492854,
+            "recall": 0.6267618000300066,
+            "f1": 0.41777847886640035
+          },
+          "official_minus_local": {
+            "precision": -1.1102230246251565e-16,
+            "recall": 0.00016113917667992528,
+            "f1": 3.9510408999965385e-05
+          }
+        }
+      },
+      "official_evaluator": {
+        "direct_QA": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/evaluation/direct_QA/evaluator_output.json",
+        "same_observation_LLM": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/evaluation/same_observation_LLM/evaluator_output.json",
+        "trusted_aggregation": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/evaluation/trusted_aggregation/evaluator_output.json",
+        "frozen_evolved_or_LLM_fallback": "/home/supervisor/project/sy/MedToolEvo/runs/formal_list_20261106_v1_39ce8a/official_evaluation/evaluation/frozen_evolved_or_LLM_fallback/evaluator_output.json"
+      },
+      "observation_integrity": {
+        "quote_valid_mentions": 15853,
+        "rejected_records": 272,
+        "failed_chunks": 2
+      },
+      "literal_support_strata": {
+        "eligible": 441,
+        "not_fully_literal_supported": 246
+      }
+    }
+  },
+  "admission": {
+    "accept": false,
+    "mean_f1_gain": 0.0046236030176214,
+    "wins": 30,
+    "regressions": 13,
+    "ties": 159,
+    "paired_sign_tail": 0.40047641511214843,
+    "alpha": 0.05,
+    "regression_weight": 2,
+    "rule": "positive mean F1 gain, no per-question F1 regression, one-sided weighted sign tail below alpha, all candidate executions valid",
+    "interpretation": "conservative engineering gate with a paired sign diagnostic; not a proof of clinical correctness or an exact reproduction of SAGE",
+    "rows": [
+      {
+        "task_id": "51716a438ed59a060a00000a",
+        "baseline_f1": 0.2,
+        "candidate_f1": 0.2,
+        "execution_ok": true
+      },
+      {
+        "task_id": "65d1369c1930410b1300003b",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "661d4fabeac11fad3300001c",
+        "baseline_f1": 0.33333333333333337,
+        "candidate_f1": 0.34210526315789475,
+        "execution_ok": true
+      },
+      {
+        "task_id": "621b806c3a8413c653000040",
+        "baseline_f1": 0.6,
+        "candidate_f1": 0.6,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5306158358348c0f52000001",
+        "baseline_f1": 0.24999999999999997,
+        "candidate_f1": 0.24999999999999997,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e3c841148dab47f26000002",
+        "baseline_f1": 0.26666666666666666,
+        "candidate_f1": 0.26666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56bcdf1ad36b5da378000009",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c63286ae842deac6700000e",
+        "baseline_f1": 0.6250000000000001,
+        "candidate_f1": 0.6250000000000001,
+        "execution_ok": true
+      },
+      {
+        "task_id": "54f0920f94afd61504000018",
+        "baseline_f1": 0.5714285714285715,
+        "candidate_f1": 0.6153846153846153,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5a96c74cfcd1d6a10c000029",
+        "baseline_f1": 0.125,
+        "candidate_f1": 0.125,
+        "execution_ok": true
+      },
+      {
+        "task_id": "65cfdc561930410b13000026",
+        "baseline_f1": 0.3636363636363636,
+        "candidate_f1": 0.3636363636363636,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67dae2d018b1e36f2e000056",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6429e17657b1c7a315000007",
+        "baseline_f1": 0.33333333333333337,
+        "candidate_f1": 0.33333333333333337,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56d8b47a51531f7e33000004",
+        "baseline_f1": 0.16,
+        "candidate_f1": 0.23076923076923078,
+        "execution_ok": true
+      },
+      {
+        "task_id": "551910d3622b194345000008",
+        "baseline_f1": 0.4,
+        "candidate_f1": 0.47058823529411764,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56be0e4aef6e394741000008",
+        "baseline_f1": 0.35294117647058826,
+        "candidate_f1": 0.35294117647058826,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6429b41757b1c7a315000004",
+        "baseline_f1": 0.2666666666666667,
+        "candidate_f1": 0.3076923076923077,
+        "execution_ok": true
+      },
+      {
+        "task_id": "601eac531cb411341a000054",
+        "baseline_f1": 0.18181818181818182,
+        "candidate_f1": 0.1904761904761905,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6082d9044e6a4cf63000000c",
+        "baseline_f1": 0.5714285714285715,
+        "candidate_f1": 0.5714285714285715,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58b52c8822d3005309000001",
+        "baseline_f1": 0.35294117647058826,
+        "candidate_f1": 0.375,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67d7fded18b1e36f2e000042",
+        "baseline_f1": 0.18181818181818182,
+        "candidate_f1": 0.18181818181818182,
+        "execution_ok": true
+      },
+      {
+        "task_id": "553fac39c6a5098552000001",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "60292e661cb411341a000112",
+        "baseline_f1": 0.26666666666666666,
+        "candidate_f1": 0.26666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "601ec1fb1cb411341a000061",
+        "baseline_f1": 0.2,
+        "candidate_f1": 0.2,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c62a276e842deac6700000a",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56c1f030ef6e39474100004d",
+        "baseline_f1": 0.5454545454545454,
+        "candidate_f1": 0.5454545454545454,
+        "execution_ok": true
+      },
+      {
+        "task_id": "54df6ed91388e8454a000007",
+        "baseline_f1": 0.16666666666666669,
+        "candidate_f1": 0.16,
+        "execution_ok": true
+      },
+      {
+        "task_id": "65d373151930410b13000048",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5a7339372dc08e987e000013",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58a80bc838c171fb5b000001",
+        "baseline_f1": 0.888888888888889,
+        "candidate_f1": 0.888888888888889,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5ad303970340b9f05800001a",
+        "baseline_f1": 0.8333333333333334,
+        "candidate_f1": 0.8333333333333334,
+        "execution_ok": true
+      },
+      {
+        "task_id": "66099c30fdcbea915f000024",
+        "baseline_f1": 0.10344827586206896,
+        "candidate_f1": 0.10169491525423728,
+        "execution_ok": true
+      },
+      {
+        "task_id": "571e189dbb137a4b0c000003",
+        "baseline_f1": 0.8571428571428571,
+        "candidate_f1": 0.8571428571428571,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5ad4eddf133db5eb78000009",
+        "baseline_f1": 0.26666666666666666,
+        "candidate_f1": 0.26666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "51486f7dd24251bc0500002e",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e9206f92d3121100d000008",
+        "baseline_f1": 0.47058823529411764,
+        "candidate_f1": 0.47058823529411764,
+        "execution_ok": true
+      },
+      {
+        "task_id": "660d2299fdcbea915f000038",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "661d9e79fe9d0b3967000001",
+        "baseline_f1": 0.4444444444444445,
+        "candidate_f1": 0.4444444444444445,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e342175fbd6abf43b000064",
+        "baseline_f1": 0.15384615384615383,
+        "candidate_f1": 0.14814814814814814,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58a0c09778275d0c4a000052",
+        "baseline_f1": 0.4,
+        "candidate_f1": 0.4,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c88550075a4a5d219000008",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5718bbb37de986d80d00000b",
+        "baseline_f1": 0.5714285714285715,
+        "candidate_f1": 0.5714285714285715,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c961281ecadf2e73f000021",
+        "baseline_f1": 0.3157894736842105,
+        "candidate_f1": 0.3157894736842105,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5a76018c83b0d9ea6600000e",
+        "baseline_f1": 0.4,
+        "candidate_f1": 0.4,
+        "execution_ok": true
+      },
+      {
+        "task_id": "65f84535c4010b4d78000044",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "64414bdb57b1c7a315000058",
+        "baseline_f1": 0.7499999999999999,
+        "candidate_f1": 0.7499999999999999,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6278dd6156bf9aee6f000012",
+        "baseline_f1": 0.19047619047619044,
+        "candidate_f1": 0.19047619047619044,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6609997ffdcbea915f000019",
+        "baseline_f1": 0.20454545454545456,
+        "candidate_f1": 0.1978021978021978,
+        "execution_ok": true
+      },
+      {
+        "task_id": "661d51fdeac11fad3300001d",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67d4179618b1e36f2e00000b",
+        "baseline_f1": 0.7272727272727272,
+        "candidate_f1": 0.7272727272727272,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e6e4a6c51b80c9423000002",
+        "baseline_f1": 0.25,
+        "candidate_f1": 0.25,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67cc9ca681b1027333000014",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.07619047619047618,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6250a917e764a53204000013",
+        "baseline_f1": 0.8571428571428571,
+        "candidate_f1": 0.8571428571428571,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c9d18f1ecadf2e73f000033",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "602822341cb411341a0000f8",
+        "baseline_f1": 0.4,
+        "candidate_f1": 0.4,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56a3a386496b62f23f000007",
+        "baseline_f1": 0.7142857142857143,
+        "candidate_f1": 0.7142857142857143,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6025e3a71cb411341a0000bc",
+        "baseline_f1": 0.17391304347826084,
+        "candidate_f1": 0.17391304347826084,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6402ba49201352f04a000004",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "601d6ec61cb411341a000032",
+        "baseline_f1": 0.6666666666666666,
+        "candidate_f1": 0.6666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "531b1e3cb166e2b80600003b",
+        "baseline_f1": 0.14285714285714288,
+        "candidate_f1": 0.14285714285714288,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67e56c7418b1e36f2e0000ae",
+        "baseline_f1": 0.09523809523809523,
+        "candidate_f1": 0.08695652173913045,
+        "execution_ok": true
+      },
+      {
+        "task_id": "625ba1fae764a5320400002d",
+        "baseline_f1": 0.6285714285714286,
+        "candidate_f1": 0.6285714285714286,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5314c7afdae131f84700000a",
+        "baseline_f1": 0.33333333333333337,
+        "candidate_f1": 0.33333333333333337,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56be2570ef6e39474100000d",
+        "baseline_f1": 0.7692307692307693,
+        "candidate_f1": 0.7692307692307693,
+        "execution_ok": true
+      },
+      {
+        "task_id": "589aec4778275d0c4a000037",
+        "baseline_f1": 0.39999999999999997,
+        "candidate_f1": 0.41025641025641024,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c34a029da8336e21a000003",
+        "baseline_f1": 0.6666666666666666,
+        "candidate_f1": 0.6666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "65cf98431930410b1300000b",
+        "baseline_f1": 0.6666666666666666,
+        "candidate_f1": 0.6666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c73ace67c78d69471000083",
+        "baseline_f1": 0.4210526315789474,
+        "candidate_f1": 0.4210526315789474,
+        "execution_ok": true
+      },
+      {
+        "task_id": "60274aca1cb411341a0000e3",
+        "baseline_f1": 0.16666666666666669,
+        "candidate_f1": 0.1639344262295082,
+        "execution_ok": true
+      },
+      {
+        "task_id": "517137c18ed59a060a000001",
+        "baseline_f1": 0.2882882882882883,
+        "candidate_f1": 0.25396825396825395,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58dd07488acda34529000025",
+        "baseline_f1": 0.47619047619047616,
+        "candidate_f1": 0.5,
+        "execution_ok": true
+      },
+      {
+        "task_id": "52f895602059c6d71c000040",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "641791ca690f196b51000031",
+        "baseline_f1": 0.5789473684210525,
+        "candidate_f1": 0.5789473684210525,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67e6b72818b1e36f2e0000bd",
+        "baseline_f1": 0.3,
+        "candidate_f1": 0.33333333333333337,
+        "execution_ok": true
+      },
+      {
+        "task_id": "660d2d6afdcbea915f00003b",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5fdb43f6a43ad3127800002e",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "605255a894d57fd87900000a",
+        "baseline_f1": 0.30769230769230765,
+        "candidate_f1": 0.30769230769230765,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e80caeb835f4e477700002b",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "66214b9cb9f8b89d7e000001",
+        "baseline_f1": 0.339622641509434,
+        "candidate_f1": 0.339622641509434,
+        "execution_ok": true
+      },
+      {
+        "task_id": "621e2b7a54ca071a71a3bf9c",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67e291a718b1e36f2e000081",
+        "baseline_f1": 0.2456140350877193,
+        "candidate_f1": 0.2592592592592593,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5335d4e8d6d3ac6a34000053",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "587d30fb31b33e8760000001",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5319a724b166e2b806000025",
+        "baseline_f1": 0.3157894736842105,
+        "candidate_f1": 0.3157894736842105,
+        "execution_ok": true
+      },
+      {
+        "task_id": "530e1c985937551c09000004",
+        "baseline_f1": 0.9090909090909091,
+        "candidate_f1": 0.9090909090909091,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c9fb583ecadf2e73f000042",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c6c46677c78d69471000035",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "602823e61cb411341a0000f9",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "61f6055b882a024a10000021",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6026af5e1cb411341a0000c9",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "571cd9537de986d80d00000e",
+        "baseline_f1": 0.6,
+        "candidate_f1": 0.6666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58c99acf02b8c60953000028",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6810daad353a4a2e6b000013",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "530cefaaad0bf1360c00000c",
+        "baseline_f1": 0.4,
+        "candidate_f1": 0.4,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c6ffdd47c78d69471000058",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56f8077a8b98c98849000002",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58a2efec60087bc10a000008",
+        "baseline_f1": 0.125,
+        "candidate_f1": 0.125,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5a7636d39e632bc066000004",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e92021a2d3121100d000005",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c72d4c77c78d6947100007c",
+        "baseline_f1": 0.4444444444444445,
+        "candidate_f1": 0.5333333333333333,
+        "execution_ok": true
+      },
+      {
+        "task_id": "514168ab23fec9037500000a",
+        "baseline_f1": 0.20689655172413793,
+        "candidate_f1": 0.21428571428571427,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c61f379e842deac67000006",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c54224807647bbc4b000001",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "553fa78b1d53b76422000007",
+        "baseline_f1": 0.7,
+        "candidate_f1": 0.717948717948718,
+        "execution_ok": true
+      },
+      {
+        "task_id": "661c3d1448a2c27714000005",
+        "baseline_f1": 0.16,
+        "candidate_f1": 0.15384615384615383,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56c1f000ef6e394741000037",
+        "baseline_f1": 0.1818181818181818,
+        "candidate_f1": 0.1818181818181818,
+        "execution_ok": true
+      },
+      {
+        "task_id": "533675ced6d3ac6a34000056",
+        "baseline_f1": 0.26666666666666666,
+        "candidate_f1": 0.26666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5540eda30083d1bf0e000006",
+        "baseline_f1": 0.5,
+        "candidate_f1": 0.6,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56d1d94667f0cb3d66000005",
+        "baseline_f1": 0.6,
+        "candidate_f1": 0.6,
+        "execution_ok": true
+      },
+      {
+        "task_id": "534df8c9aeec6fbd07000016",
+        "baseline_f1": 0.5263157894736842,
+        "candidate_f1": 0.5555555555555556,
+        "execution_ok": true
+      },
+      {
+        "task_id": "54d77bdf3706e89528000019",
+        "baseline_f1": 0.07692307692307691,
+        "candidate_f1": 0.07692307692307691,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67d430f918b1e36f2e00000f",
+        "baseline_f1": 0.2692307692307693,
+        "candidate_f1": 0.2692307692307693,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5503145ee9bde69634000022",
+        "baseline_f1": 0.25,
+        "candidate_f1": 0.25,
+        "execution_ok": true
+      },
+      {
+        "task_id": "515de993298dcd4e51000024",
+        "baseline_f1": 0.19047619047619047,
+        "candidate_f1": 0.19047619047619047,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6451034c57b1c7a315000095",
+        "baseline_f1": 0.8571428571428571,
+        "candidate_f1": 0.8571428571428571,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5abd44b1fcf4565872000030",
+        "baseline_f1": 0.631578947368421,
+        "candidate_f1": 0.631578947368421,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e31b575fbd6abf43b00004c",
+        "baseline_f1": 0.2608695652173913,
+        "candidate_f1": 0.2608695652173913,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5713b29f1174fb175500000f",
+        "baseline_f1": 0.5454545454545454,
+        "candidate_f1": 0.5454545454545454,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56be06cdef6e394741000004",
+        "baseline_f1": 0.6,
+        "candidate_f1": 0.6,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e76611b835f4e4777000002",
+        "baseline_f1": 0.9090909090909091,
+        "candidate_f1": 0.9090909090909091,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5a70d12899e2c3af26000001",
+        "baseline_f1": 0.2424242424242424,
+        "candidate_f1": 0.2424242424242424,
+        "execution_ok": true
+      },
+      {
+        "task_id": "64463a5057b1c7a315000064",
+        "baseline_f1": 0.21428571428571427,
+        "candidate_f1": 0.21428571428571427,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6417949d690f196b51000035",
+        "baseline_f1": 0.25,
+        "candidate_f1": 0.25,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56c08702ef6e394741000024",
+        "baseline_f1": 0.4,
+        "candidate_f1": 0.4,
+        "execution_ok": true
+      },
+      {
+        "task_id": "530cf4fe960c95ad0c000007",
+        "baseline_f1": 0.3333333333333333,
+        "candidate_f1": 0.3333333333333333,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58948cb47d9090f353000008",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5131bef65274a5fb07000008",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "552faa43bc4f83e828000004",
+        "baseline_f1": 0.6666666666666665,
+        "candidate_f1": 0.6666666666666665,
+        "execution_ok": true
+      },
+      {
+        "task_id": "603557ef1cb411341a000155",
+        "baseline_f1": 0.3333333333333333,
+        "candidate_f1": 0.3333333333333333,
+        "execution_ok": true
+      },
+      {
+        "task_id": "55184d46622b194345000001",
+        "baseline_f1": 0.6153846153846153,
+        "candidate_f1": 0.6153846153846153,
+        "execution_ok": true
+      },
+      {
+        "task_id": "63f03a20f36125a42600001c",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5536554abc4f83e828000008",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6060996394d57fd879000045",
+        "baseline_f1": 0.2,
+        "candidate_f1": 0.2,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c961603ecadf2e73f000022",
+        "baseline_f1": 0.25,
+        "candidate_f1": 0.25,
+        "execution_ok": true
+      },
+      {
+        "task_id": "54c90dabf693c3b16b000004",
+        "baseline_f1": 0.25,
+        "candidate_f1": 0.25,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67ed57e718b1e36f2e0000f9",
+        "baseline_f1": 0.3636363636363636,
+        "candidate_f1": 0.3636363636363636,
+        "execution_ok": true
+      },
+      {
+        "task_id": "55192f20622b194345000014",
+        "baseline_f1": 0.2857142857142857,
+        "candidate_f1": 0.2857142857142857,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e2f972bfbd6abf43b000030",
+        "baseline_f1": 0.23076923076923078,
+        "candidate_f1": 0.23076923076923078,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5149a61ed24251bc05000044",
+        "baseline_f1": 0.2,
+        "candidate_f1": 0.20253164556962025,
+        "execution_ok": true
+      },
+      {
+        "task_id": "61fbc51ec9dfcb9c0900000f",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "604b8cf71cb411341a000171",
+        "baseline_f1": 0.11320754716981131,
+        "candidate_f1": 0.11111111111111109,
+        "execution_ok": true
+      },
+      {
+        "task_id": "54e1252fae9738404b000003",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6206b8c2c9dfcb9c0900003c",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5542644fed966d112c000004",
+        "baseline_f1": 0.060606060606060615,
+        "candidate_f1": 0.060606060606060615,
+        "execution_ok": true
+      },
+      {
+        "task_id": "61f7ceeb882a024a1000002e",
+        "baseline_f1": 0.4,
+        "candidate_f1": 0.4,
+        "execution_ok": true
+      },
+      {
+        "task_id": "66150639fdcbea915f000047",
+        "baseline_f1": 0.3636363636363636,
+        "candidate_f1": 0.3636363636363636,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e6e5d1d51b80c9423000003",
+        "baseline_f1": 0.7499999999999999,
+        "candidate_f1": 0.7499999999999999,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5a6f7e6ab750ff4455000052",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "51bdf045047fa84d1d000003",
+        "baseline_f1": 0.3529411764705882,
+        "candidate_f1": 0.3333333333333333,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67d7219018b1e36f2e000030",
+        "baseline_f1": 0.1923076923076923,
+        "candidate_f1": 0.1923076923076923,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5fe3131da43ad31278000049",
+        "baseline_f1": 0.9090909090909091,
+        "candidate_f1": 0.9090909090909091,
+        "execution_ok": true
+      },
+      {
+        "task_id": "516ec97f298dcd4e51000087",
+        "baseline_f1": 0.23529411764705882,
+        "candidate_f1": 0.23529411764705882,
+        "execution_ok": true
+      },
+      {
+        "task_id": "641791b9690f196b51000030",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "532c0d7fd6d3ac6a3400001c",
+        "baseline_f1": 0.32,
+        "candidate_f1": 0.32,
+        "execution_ok": true
+      },
+      {
+        "task_id": "554101d0234c5a7c75000002",
+        "baseline_f1": 0.375,
+        "candidate_f1": 0.3333333333333333,
+        "execution_ok": true
+      },
+      {
+        "task_id": "644291fa57b1c7a31500005f",
+        "baseline_f1": 0.18181818181818182,
+        "candidate_f1": 0.21052631578947367,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58b6d6f322d300530900000f",
+        "baseline_f1": 0.21428571428571427,
+        "candidate_f1": 0.22222222222222218,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56be0a18ef6e394741000006",
+        "baseline_f1": 0.4,
+        "candidate_f1": 0.4,
+        "execution_ok": true
+      },
+      {
+        "task_id": "61f7d535882a024a10000034",
+        "baseline_f1": 0.2222222222222222,
+        "candidate_f1": 0.2222222222222222,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58932cd87d9090f353000001",
+        "baseline_f1": 0.46376811594202905,
+        "candidate_f1": 0.47058823529411764,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56ddbbaf51531f7e33000009",
+        "baseline_f1": 0.5,
+        "candidate_f1": 0.5,
+        "execution_ok": true
+      },
+      {
+        "task_id": "589dee3778275d0c4a000050",
+        "baseline_f1": 0.15384615384615385,
+        "candidate_f1": 0.1818181818181818,
+        "execution_ok": true
+      },
+      {
+        "task_id": "533ec7abc45e133714000015",
+        "baseline_f1": 0.3076923076923077,
+        "candidate_f1": 0.3076923076923077,
+        "execution_ok": true
+      },
+      {
+        "task_id": "6278cb6056bf9aee6f00000d",
+        "baseline_f1": 0.33333333333333337,
+        "candidate_f1": 0.33333333333333337,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5503263fe9bde69634000030",
+        "baseline_f1": 0.42857142857142855,
+        "candidate_f1": 0.5454545454545454,
+        "execution_ok": true
+      },
+      {
+        "task_id": "54e22b62ae9738404b000011",
+        "baseline_f1": 0.5714285714285715,
+        "candidate_f1": 0.5714285714285715,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5be94f3d133db5eb78000022",
+        "baseline_f1": 0.8571428571428571,
+        "candidate_f1": 0.8571428571428571,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67da148418b1e36f2e000054",
+        "baseline_f1": 0.3076923076923077,
+        "candidate_f1": 0.3076923076923077,
+        "execution_ok": true
+      },
+      {
+        "task_id": "61f5924e882a024a1000000e",
+        "baseline_f1": 0.3,
+        "candidate_f1": 0.2857142857142857,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67fbe21818b1e36f2e000113",
+        "baseline_f1": 0.07594936708860758,
+        "candidate_f1": 0.07594936708860758,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56c1f038ef6e394741000051",
+        "baseline_f1": 0.25,
+        "candidate_f1": 0.2608695652173913,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c57041807647bbc4b000015",
+        "baseline_f1": 0.2222222222222222,
+        "candidate_f1": 0.2222222222222222,
+        "execution_ok": true
+      },
+      {
+        "task_id": "62793bad56bf9aee6f00001f",
+        "baseline_f1": 0.23529411764705882,
+        "candidate_f1": 0.23529411764705882,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67cdb26a81b1027333000017",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.018867924528301886,
+        "execution_ok": true
+      },
+      {
+        "task_id": "602c17d41cb411341a000118",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "65f857b0c4010b4d7800004f",
+        "baseline_f1": 0.07407407407407407,
+        "candidate_f1": 0.07407407407407407,
+        "execution_ok": true
+      },
+      {
+        "task_id": "518cca6f310faafe0800000a",
+        "baseline_f1": 0.8275862068965518,
+        "candidate_f1": 0.8275862068965518,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56f24fec2ac5ed1459000015",
+        "baseline_f1": 0.5714285714285715,
+        "candidate_f1": 0.5714285714285715,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67d9f6a418b1e36f2e000051",
+        "baseline_f1": 0.5217391304347826,
+        "candidate_f1": 0.5714285714285715,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5518414a15fa47643f000001",
+        "baseline_f1": 0.30769230769230765,
+        "candidate_f1": 0.30769230769230765,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5e9209792d3121100d00000b",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58a71f7460087bc10a00002e",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "51434c74d24251bc0500000c",
+        "baseline_f1": 0.6046511627906976,
+        "candidate_f1": 0.6046511627906976,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c0e82b2133db5eb7800002d",
+        "baseline_f1": 0.7142857142857143,
+        "candidate_f1": 0.7142857142857143,
+        "execution_ok": true
+      },
+      {
+        "task_id": "606b767294d57fd87900006d",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "602753951cb411341a0000e9",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5a67afb7b750ff445500000d",
+        "baseline_f1": 0.23255813953488372,
+        "candidate_f1": 0.25641025641025644,
+        "execution_ok": true
+      },
+      {
+        "task_id": "64041355201352f04a000014",
+        "baseline_f1": 1.0,
+        "candidate_f1": 1.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5fda3dcaa43ad31278000006",
+        "baseline_f1": 0.25,
+        "candidate_f1": 0.25,
+        "execution_ok": true
+      },
+      {
+        "task_id": "55152bd246478f2f2c000002",
+        "baseline_f1": 0.368421052631579,
+        "candidate_f1": 0.39999999999999997,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5c6d6b377c78d69471000039",
+        "baseline_f1": 0.8,
+        "candidate_f1": 0.8,
+        "execution_ok": true
+      },
+      {
+        "task_id": "51740da48ed59a060a000024",
+        "baseline_f1": 0.6857142857142857,
+        "candidate_f1": 0.6857142857142857,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56ae40110a360a5e45000009",
+        "baseline_f1": 0.6666666666666666,
+        "candidate_f1": 0.6666666666666666,
+        "execution_ok": true
+      },
+      {
+        "task_id": "553babc0f321868558000007",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "644f057357b1c7a315000087",
+        "baseline_f1": 0.6,
+        "candidate_f1": 0.631578947368421,
+        "execution_ok": true
+      },
+      {
+        "task_id": "571e1e11bb137a4b0c000004",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "57169b63cb4ef8864c00000b",
+        "baseline_f1": 0.21428571428571427,
+        "candidate_f1": 0.21428571428571427,
+        "execution_ok": true
+      },
+      {
+        "task_id": "56c703445795f9a73e00000a",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "5166f41a298dcd4e5100005b",
+        "baseline_f1": 0.3529411764705882,
+        "candidate_f1": 0.3529411764705882,
+        "execution_ok": true
+      },
+      {
+        "task_id": "67cf3b6381b1027333000024",
+        "baseline_f1": 0.31578947368421056,
+        "candidate_f1": 0.30927835051546393,
+        "execution_ok": true
+      },
+      {
+        "task_id": "58bc666702b8c60953000004",
+        "baseline_f1": 0.0,
+        "candidate_f1": 0.0,
+        "execution_ok": true
+      },
+      {
+        "task_id": "554143ad182542114d000004",
+        "baseline_f1": 0.9090909090909091,
+        "candidate_f1": 0.9090909090909091,
+        "execution_ok": true
+      }
+    ],
+    "candidate_manifest": "/home/supervisor/project/sy/MedToolEvo/registry/pending/autonomous_entity_union_39ce8a_v002.json",
+    "frozen_strategy": "same_observation_LLM"
+  },
+  "costs": {
+    "main_qa_attempted_requests": 8345,
+    "main_qa_completed_requests": 8345,
+    "prompt_tokens": 5781481,
+    "completion_tokens": 1719149,
+    "api_seconds": 75063.78897978598,
+    "request_failures": [],
+    "unknown_outcome_requests": [],
+    "builder_completed_requests": 3,
+    "builder_attempted_requests": 3,
+    "total_attempted_requests": 8348,
+    "token_usage_complete": true,
+    "builder_directories": [
+      "/home/supervisor/project/sy/MedToolEvo/runs/auto_autonomous_entity_union_39ce8a_20261106T151939Z_d5f9b8"
+    ],
+    "failed_request_seconds": 0
+  },
+  "paired_f1_bootstrap": {
+    "direct_QA": {
+      "n_source_groups": 593,
+      "replicates": 2000,
+      "mean_difference": 0.09358716166287098,
+      "ci95": [
+        0.06905006162680596,
+        0.11870339445222226
+      ],
+      "unit": "source-identifier/question connected component"
+    },
+    "same_observation_LLM": {
+      "n_source_groups": 593,
+      "replicates": 2000,
+      "mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "unit": "source-identifier/question connected component"
+    },
+    "trusted_aggregation": {
+      "n_source_groups": 593,
+      "replicates": 2000,
+      "mean_difference": -0.006545739312962958,
+      "ci95": [
+        -0.00886971716530467,
+        -0.004348561743862823
+      ],
+      "unit": "source-identifier/question connected component"
+    }
+  },
+  "primary_partition": "evaluation",
+  "primary_metric": "official evaluator list mean F1; see preserved evaluator stdout",
+  "limitations": [
+    "No clinical correctness claim",
+    "Training corpus, not official blind BioASQ test",
+    "Official evaluator used offline with 512-character item cap adapted to this source; not a valid competition submission claim",
+    "Previously accessed source groups are not primary evaluation",
+    "Single prespecified run; no multiple-seed robustness claim",
+    "Two predefined contracts; no arbitrary new tool types",
+    "No new-paper migration experiment",
+    "All source items remain, even unsupported/long/failed cases",
+    "Direct QA and chunk-reading arms have unequal compute; causal comparisons use shared observations"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"items\":[\"Pembrolizumab\",\"lenvatinib\"],\"supports\":[{\"item\":\"Pembrolizumab\",\"evidence_id\":\"e1\",\"quote\":\"Pembrolizumab plus lenvatinib in second-line and third-line patients with pleural mesothelioma (PEMMELA): a single-arm phase 2 study.\"},{\"item\":\"lenvatinib\",\"evidence_id\":\"e1\",\"quote\":\"Pembrolizumab plus lenvatinib in second-line and third-line patients with pleural mesothelioma (PEMMELA): a single-arm phase 2 study.\"}],\"limitations\":\"Evidence limited to the trial title; no additional details on dosing, combination specifics, or other tested medications are provided in the supplied text.\"}"
+      }
+    }
+  ],
+  "created": 1794209437,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 351,
+    "total_tokens": 513,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-q7TQdeMWrUbOq0ZWctI3h72RVNhzWnk0",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 351,
+    "prompt_ms": 819.095,
+    "prompt_per_token_ms": 2.3336039886039885,
+    "prompt_per_second": 428.52172214456203,
+    "predicted_n": 162,
+    "predicted_ms": 5858.573,
+    "predicted_per_token_ms": 36.388652173913044,
+    "predicted_per_second": 27.481094799023584
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "task_id": "5c6f107c7c78d69471000051",
+  "question": "Which molecules are targeted by defactinib?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "focal adhesion kinase",
+      "proline-rich tyrosine kinase-2"
+    ],
+    "supports": [
+      {
+        "item": "focal adhesion kinase",
+        "evidence_id": "e6",
+        "quote": "VS-6063 (also known as defactinib or PF-04554878) is a second-generation inhibitor of focal adhesion kinase and proline-rich tyrosine kinase-2."
+      },
+      {
+        "item": "proline-rich tyrosine kinase-2",
+        "evidence_id": "e7",
+        "quote": "VS-6063 (also known as defactinib or PF-04554878) is a second-generation inhibitor of focal adhesion kinase (FAK) and proline-rich tyrosine kinase-2 (Pyk2)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts and titles; no full mechanism of action or off-target effects are detailed in the provided segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "focal adhesion kinase",
+      "proline-rich tyrosine kinase-2"
+    ],
+    "supports": [
+      {
+        "item": "focal adhesion kinase",
+        "evidence_id": "e6",
+        "quote": "VS-6063 (also known as defactinib or PF-04554878) is a second-generation inhibitor of focal adhesion kinase and proline-rich tyrosine kinase-2."
+      },
+      {
+        "item": "proline-rich tyrosine kinase-2",
+        "evidence_id": "e7",
+        "quote": "VS-6063 (also known as defactinib or PF-04554878) is a second-generation inhibitor of focal adhesion kinase (FAK) and proline-rich tyrosine kinase-2 (Pyk2)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts and titles; no full mechanism of action or off-target effects are detailed in the provided segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "focal adhesion kinase",
+      "proline-rich tyrosine kinase-2"
+    ],
+    "supports": [
+      {
+        "item": "focal adhesion kinase",
+        "evidence_id": "e6",
+        "quote": "VS-6063 (also known as defactinib or PF-04554878) is a second-generation inhibitor of focal adhesion kinase and proline-rich tyrosine kinase-2."
+      },
+      {
+        "item": "proline-rich tyrosine kinase-2",
+        "evidence_id": "e7",
+        "quote": "VS-6063 (also known as defactinib or PF-04554878) is a second-generation inhibitor of focal adhesion kinase (FAK) and proline-rich tyrosine kinase-2 (Pyk2)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts and titles; no full mechanism of action or off-target effects are detailed in the provided segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/26334219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26530902",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27025608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28881794",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29145097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29314097",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30444612"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5c6f107c7c78d69471000051/attempt_0"
+}

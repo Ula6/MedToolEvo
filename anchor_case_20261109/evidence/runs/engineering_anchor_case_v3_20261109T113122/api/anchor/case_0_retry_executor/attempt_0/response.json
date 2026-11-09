@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"queries\": [\n    {\n      \"query_id\": \"q1\",\n      \"matches\": [\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 44,\n          \"end\": 51,\n          \"quote\": \"studies\"\n        },\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 79,\n          \"end\": 86,\n          \"quote\": \"studies\"\n        },\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 193,\n          \"end\": 200,\n          \"quote\": \"studies\"\n        },\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 256,\n          \"end\": 263,\n          \"quote\": \"studies\"\n        }\n      ]\n    },\n    {\n      \"query_id\": \"q2\",\n      \"matches\": [\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 349,\n          \"end\": 358,\n          \"quote\": \"vitamin D\"\n        },\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 418,\n          \"end\": 427,\n          \"quote\": \"vitamin D\"\n        }\n      ]\n    },\n    {\n      \"query_id\": \"q3\",\n      \"matches\": [\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 296,\n          \"end\": 307,\n          \"quote\": \"double‐blind\"\n        }\n      ]\n    },\n    {\n      \"query_id\": \"q4\",\n      \"matches\": [\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 576,\n          \"end\": 588,\n          \"quote\": \"hypertension\"\n        }\n      ]\n    },\n    {\n      \"query_id\": \"q5\",\n      \"matches\": [\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 768,\n          \"end\": 787,\n          \"quote\": \"ACEI/ARB medication\"\n        }\n      ]\n    },\n    {\n      \"query_id\": \"q6\",\n      \"matches\": [\n        {\n          \"source_id\": \"PMC11872689\",\n          \"start\": 835,\n          \"end\": 850,\n          \"quote\": \"white European\"\n        }\n      ]\n    },\n    {\n      \"query_id\": \"q7\",\n      \"matches\": []\n    }\n  ],\n  \"unsupported_query_ids\": [\n    \"q7\"\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794222930,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 725,
+    "prompt_tokens": 1787,
+    "total_tokens": 2512,
+    "prompt_tokens_details": {
+      "cached_tokens": 1137
+    }
+  },
+  "id": "chatcmpl-aVeamseA3AbFl2XQ4Ck5WroqeMNFYHbb",
+  "timings": {
+    "cache_n": 1137,
+    "prompt_n": 650,
+    "prompt_ms": 1326.024,
+    "prompt_per_token_ms": 2.040036923076923,
+    "prompt_per_second": 490.1872062647434,
+    "predicted_n": 725,
+    "predicted_ms": 26540.231,
+    "predicted_per_token_ms": 36.65777762430939,
+    "predicted_per_second": 27.279340560374173
+  }
+}

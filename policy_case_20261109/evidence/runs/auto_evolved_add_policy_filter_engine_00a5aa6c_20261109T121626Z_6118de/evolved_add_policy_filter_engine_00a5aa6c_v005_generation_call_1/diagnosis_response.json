@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"root_causes\": [\n    \"Code ignores 'policy' key entirely, executing Legacy Mode logic for all inputs instead of branching to Policy Mode.\",\n    \"Missing validation for Policy Mode entry requirements: 'relation', 'polarity', and 'scope' fields are not enforced as non-blank/valid.\",\n    \"Missing validation for Policy object structure: 'all_of', 'any_of', 'none_of' items must have exactly 'relation' and 'polarity' with valid enums.\",\n    \"Policy logic not implemented: 'all_of', 'any_of', and 'none_of' conditions are never evaluated against group facts.\",\n    \"Scope filtering missing: Entries with scope != policy.scope are included in grouping instead of being ignored.\",\n    \"Evidence ID aggregation logic incorrect: Policy mode requires filtering IDs based on matching 'all_of'/'any_of' facts, not just all established records.\"\n  ],\n  \"required_changes\": [\n    \"Add conditional branch to detect 'policy' key in payload and route to Policy Mode execution path.\",\n    \"Implement strict validation for policy entries: ensure 'relation', 'polarity', 'scope' exist and are non-blank/valid in Policy Mode.\",\n    \"Implement policy object validation: check 'scope', 'all_of', 'any_of', 'none_of' existence and item structure (exact keys, valid polarity enums).\",\n    \"Implement scope filtering: only include entries where entry['scope'] == policy['scope'] and eligible is true.\",\n    \"Implement fact evaluation: collect established facts (positive/negative polarity) per group and check against all_of, any_of, none_of lists.\",\n    \"Update evidence ID collection: for passing groups, only include IDs from records matching all_of or any_of criteria (or all if lists empty).\"\n  ],\n  \"concrete_counterexample_simulation\": [\n    \"Input with policy scope 'S' and entry scope 'Z': Current code includes entry in group 'A', failing test_case_04 which expects empty output.\",\n    \"Input with 'all_of' requiring 'R'/'positive' and 'T'/'positive': Group 'B' has 'R'/'positive' but missing 'T'/'positive'; current code includes it, failing test_case_00.\",\n    \"Input with 'any_of' requiring 'R' or 'T': Group 'C' has 'U'/'positive'; current code includes it, failing test_case_01.\",\n    \"Input with 'none_of' containing 'T'/'positive': Group 'B' has this fact; current code includes it, failing test_case_02 and test_case_06.\",\n    \"Input with 'unknown' polarity: Group 'A' has only 'unknown'; current code treats it as established fact, failing test_case_03.\",\n    \"Input with missing 'relation' field in entry: Current code accepts it, failing test_case_08 which expects ValueError.\"\n  ],\n  \"preserved_invariants\": [\n    \"Legacy mode behavior remains unchanged when 'policy' key is absent from payload.\",\n    \"Input validation for evidence uniqueness, quote substring checks, and strict booleans remains mandatory in both modes.\",\n    \"Name consistency validation is enforced per group_id in Legacy mode and per (scope, group_id) in Policy mode.\",\n    \"Output schema strictly returns {entities: [{name, evidence_ids}], unique_entity_count} in both modes.\",\n    \"Duplicate evidence IDs in output are removed while preserving the order of first encounter.\",\n    \"Invalid inputs (missing required fields, bad quotes, unknown evidence IDs) raise ValueError in both modes.\"\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794226636,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 775,
+    "prompt_tokens": 8567,
+    "total_tokens": 9342,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-NjzlyAd2Thi4O1C4fQWpQYjkj4T13ysA",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 8567,
+    "prompt_ms": 15517.211,
+    "prompt_per_token_ms": 1.811277109840084,
+    "prompt_per_second": 552.0966364380815,
+    "predicted_n": 775,
+    "predicted_ms": 29001.749,
+    "predicted_per_token_ms": 37.469959948320415,
+    "predicted_per_second": 26.68804560718045
+  }
+}

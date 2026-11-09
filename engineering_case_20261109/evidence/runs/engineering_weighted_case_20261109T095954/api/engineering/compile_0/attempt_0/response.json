@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"operation\": {\n    \"name\": \"weighted_statistical_summaries\",\n    \"description\": \"Generic deterministic weighted numerical summaries on explicit runtime value/weight rows.\",\n    \"when_to_use\": \"When a question requires reproducible weighted summaries of positive numerical values.\",\n    \"limitations\": \"Arithmetic on supplied rounded numbers; not clinical inference or pooled patient variability.\",\n    \"code_contract\": {\n      \"input_schema\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"rows\": {\n            \"type\": \"array\",\n            \"minItems\": 1,\n            \"items\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"value\": {\n                  \"type\": \"number\",\n                  \"exclusiveMinimum\": 0\n                },\n                \"weight\": {\n                  \"type\": \"number\",\n                  \"minimum\": 0\n                }\n              },\n              \"required\": [\"value\", \"weight\"],\n              \"additionalProperties\": false\n            }\n          }\n        },\n        \"required\": [\"rows\"],\n        \"additionalProperties\": false\n      },\n      \"output_schema\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"weighted_mean\": {\n            \"type\": \"number\"\n          },\n          \"weighted_population_variance\": {\n            \"type\": \"number\"\n          },\n          \"weighted_population_sd\": {\n            \"type\": \"number\"\n          },\n          \"weighted_geometric_mean\": {\n            \"type\": \"number\"\n          }\n        },\n        \"required\": [\n          \"weighted_mean\",\n          \"weighted_population_variance\",\n          \"weighted_population_sd\",\n          \"weighted_geometric_mean\"\n        ],\n        \"additionalProperties\": false\n      },\n      \"algorithm\": \"1. Validate input: Ensure 'rows' is a non-empty array. For each row, verify 'value' is a finite number > 0 and 'weight' is a finite number >= 0. Raise ValueError if any check fails.\\n2. Compute total weight W = sum(w for all rows). If W == 0, raise ValueError.\\n3. Compute weighted mean mu = sum(w * x) / W.\\n4. Compute weighted population variance var = sum(w * (x - mu)^2) / W.\\n5. Compute weighted population standard deviation sd = sqrt(var).\\n6. Compute weighted geometric mean gm = exp(sum(w * ln(x)) / W).\\n7. Round mu, var, sd, and gm to exactly 6 decimal places.\\n8. Return the rounded values in the specified output object structure.\",\n      \"invariants\": [\n        \"All input values must be strictly positive finite numbers.\",\n        \"All input weights must be non-negative finite numbers.\",\n        \"The sum of all weights must be strictly positive.\",\n        \"Intermediate calculations must use full floating-point precision without rounding.\",\n        \"Output values must be rounded to exactly 6 decimal places.\",\n        \"No external libraries (NumPy, SciPy) are used; only standard math module.\"\n      ],\n      \"edge_cases\": [\n        \"Empty 'rows' array: Raise ValueError.\",\n        \"Zero total weight: Raise ValueError.\",\n        \"Non-finite numbers (inf, nan) in value or weight: Raise ValueError.\",\n        \"Negative or zero value: Raise ValueError.\",\n        \"Negative weight: Raise ValueError.\",\n        \"Missing 'value' or 'weight' keys in a row: Raise ValueError.\",\n        \"Extra keys in a row object: Raise ValueError.\"\n      ]\n    },\n    \"semantic_preprocessor\": null\n  }\n}"
+      }
+    }
+  ],
+  "created": 1794218463,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 796,
+    "prompt_tokens": 1224,
+    "total_tokens": 2020,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-Kmi2ZQnAe5CLklk89CUbzuXrQseGBwpO",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1224,
+    "prompt_ms": 2312.079,
+    "prompt_per_token_ms": 1.8889534313725491,
+    "prompt_per_second": 529.3936755621239,
+    "predicted_n": 796,
+    "predicted_ms": 29134.027,
+    "predicted_per_token_ms": 36.64657484276729,
+    "predicted_per_second": 27.287679797921516
+  }
+}

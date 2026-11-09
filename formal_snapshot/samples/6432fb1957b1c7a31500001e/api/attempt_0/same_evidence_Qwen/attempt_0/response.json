@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    \"adults with mantle cell lymphoma who have received at least one prior therapy\",\n    \"adults with Waldenström macroglobulinemia\",\n    \"adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy\"\n  ],\n  \"supports\": [\n    {\n      \"item\": \"adults with mantle cell lymphoma who have received at least one prior therapy\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"In the United States, zanubrutinib, a next-generation BTK inhibitor, has been approved for treating adults with mantle cell lymphoma who have received at least one prior therapy\"\n    },\n    {\n      \"item\": \"adults with Waldenström macroglobulinemia\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"for adults with Waldenström macroglobulinemia\"\n    },\n    {\n      \"item\": \"adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy\"\n    }\n  ],\n  \"limitations\": \"Evidence is limited to the provided abstracts from PubMed ID 35651781; does not include potential updates or additional indications not mentioned in these specific text segments.\"\n}"
+      }
+    }
+  ],
+  "created": 1794206584,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 345,
+    "prompt_tokens": 1177,
+    "total_tokens": 1522,
+    "prompt_tokens_details": {
+      "cached_tokens": 371
+    }
+  },
+  "id": "chatcmpl-IlO5OB11hRSeqLiC7JvKANYLagYhHrPA",
+  "timings": {
+    "cache_n": 371,
+    "prompt_n": 806,
+    "prompt_ms": 1542.384,
+    "prompt_per_token_ms": 1.9136277915632756,
+    "prompt_per_second": 522.5676614902644,
+    "predicted_n": 345,
+    "predicted_ms": 12598.688,
+    "predicted_per_token_ms": 36.62409302325582,
+    "predicted_per_second": 27.304430429581238
+  }
+}

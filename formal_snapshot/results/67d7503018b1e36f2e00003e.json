@@ -1,0 +1,396 @@
+{
+  "task_id": "67d7503018b1e36f2e00003e",
+  "question": "What are the main transcription factors driving the mesenchymal-like (MES-like) state of glioblastoma multiforme?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "TFAP2A",
+      "CEBPG",
+      "FOSL1",
+      "FOXD1",
+      "ZEB1",
+      "TAZ",
+      "TEAD",
+      "CEBPB",
+      "ZNF238",
+      "FOSL2",
+      "STAT3",
+      "RUNX1",
+      "bHLHE40",
+      "CEBPδ",
+      "SLUG",
+      "tGLI1",
+      "NFAT2"
+    ],
+    "supports": [
+      {
+        "item": "TFAP2A",
+        "evidence_id": "e1",
+        "quote": "For example, the transcription factor TFAP2A can be seen to promote a transition from the NPC-like to the MES-like state."
+      },
+      {
+        "item": "CEBPG",
+        "evidence_id": "e4",
+        "quote": "Furthermore, by incorporating snATAC-seq data, we delineated a crucial regulatory network and pinpointed the key transcription factor CEBPG."
+      },
+      {
+        "item": "FOSL1",
+        "evidence_id": "e5",
+        "quote": "Using transcriptomic data of human patient-derived brain tumor stem cell lines (BTSCs), classified based on GBM-intrinsic signatures, we identify the AP-1 transcription factor FOSL1 as a key regulator of the mesenchymal (MES) subtype."
+      },
+      {
+        "item": "FOXD1",
+        "evidence_id": "e6",
+        "quote": "Recent studies suggest that Forkhead box D1 (FOXD1) plays an indispensable role in maintaining the mesenchymal (MES) properties of glioblastoma (GBM) stem cells (GSCs)."
+      },
+      {
+        "item": "ZEB1",
+        "evidence_id": "e10",
+        "quote": "The epithelial-mesenchymal transition (EMT) inducing factor Zeb1 was linked to tumor initiation, invasion, and resistance to therapy in glioblastoma, but how Zeb1 functions at molecular level and what genes it regulates remain poorly understood."
+      },
+      {
+        "item": "TAZ",
+        "evidence_id": "e11",
+        "quote": "Our studies uncover a direct role for TAZ and TEAD in driving the MES differentiation of malignant glioma."
+      },
+      {
+        "item": "TEAD",
+        "evidence_id": "e11",
+        "quote": "Our studies uncover a direct role for TAZ and TEAD in driving the MES differentiation of malignant glioma."
+      },
+      {
+        "item": "CEBPB",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "ZNF238",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "FOSL2",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "STAT3",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "RUNX1",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "bHLHE40",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "CEBPδ",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "SLUG",
+        "evidence_id": "e21",
+        "quote": "Moreover, we show that both mesenchymal GBMs and progenitor-like BTSCs are characterized by over-activated STAT3/EMT pathways and that SLUG is the primary epithelial to mesenchymal transition (EMT) transcription factor directly regulated by STAT3 in BTSCs."
+      },
+      {
+        "item": "tGLI1",
+        "evidence_id": "e24",
+        "quote": "We report here that truncated glioma-associated oncogene homolog 1 (tGLI1) is a tumor-specific transcription factor that facilitates GBM growth, is enriched in the mesenchymal subtype of GBM and glioma stem cells (GSC), and promotes mesenchymal GSC by upregulating transcription of CD44."
+      },
+      {
+        "item": "NFAT2",
+        "evidence_id": "e27",
+        "quote": "High NFAT2 expression was significantly associated with mesenchymal (MES) subtype and recurrent GBM and predicted poor survival"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is derived from abstracts of various studies; some factors are described as 'master regulators' or 'key players' while others are 'associated' or 'linked'. Specific contexts such as treatment-induced states (e.g., bevacizumab resistance) or specific cell types (GSCs vs bulk tumor) may influence the relevance of certain factors. The list includes factors directly stated to drive, maintain, or regulate the MES state, but does not distinguish between primary drivers and downstream effectors in all cases.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 9,
+      "fp": 8,
+      "fn": 0,
+      "precision": 0.5294117647058824,
+      "recall": 1.0,
+      "f1": 0.6923076923076924
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "TFAP2A",
+      "CEBPG",
+      "FOSL1",
+      "FOXD1",
+      "ZEB1",
+      "TAZ",
+      "TEAD",
+      "CEBPB",
+      "ZNF238",
+      "FOSL2",
+      "STAT3",
+      "RUNX1",
+      "bHLHE40",
+      "CEBPδ",
+      "SLUG",
+      "tGLI1",
+      "NFAT2"
+    ],
+    "supports": [
+      {
+        "item": "TFAP2A",
+        "evidence_id": "e1",
+        "quote": "For example, the transcription factor TFAP2A can be seen to promote a transition from the NPC-like to the MES-like state."
+      },
+      {
+        "item": "CEBPG",
+        "evidence_id": "e4",
+        "quote": "Furthermore, by incorporating snATAC-seq data, we delineated a crucial regulatory network and pinpointed the key transcription factor CEBPG."
+      },
+      {
+        "item": "FOSL1",
+        "evidence_id": "e5",
+        "quote": "Using transcriptomic data of human patient-derived brain tumor stem cell lines (BTSCs), classified based on GBM-intrinsic signatures, we identify the AP-1 transcription factor FOSL1 as a key regulator of the mesenchymal (MES) subtype."
+      },
+      {
+        "item": "FOXD1",
+        "evidence_id": "e6",
+        "quote": "Recent studies suggest that Forkhead box D1 (FOXD1) plays an indispensable role in maintaining the mesenchymal (MES) properties of glioblastoma (GBM) stem cells (GSCs)."
+      },
+      {
+        "item": "ZEB1",
+        "evidence_id": "e10",
+        "quote": "The epithelial-mesenchymal transition (EMT) inducing factor Zeb1 was linked to tumor initiation, invasion, and resistance to therapy in glioblastoma, but how Zeb1 functions at molecular level and what genes it regulates remain poorly understood."
+      },
+      {
+        "item": "TAZ",
+        "evidence_id": "e11",
+        "quote": "Our studies uncover a direct role for TAZ and TEAD in driving the MES differentiation of malignant glioma."
+      },
+      {
+        "item": "TEAD",
+        "evidence_id": "e11",
+        "quote": "Our studies uncover a direct role for TAZ and TEAD in driving the MES differentiation of malignant glioma."
+      },
+      {
+        "item": "CEBPB",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "ZNF238",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "FOSL2",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "STAT3",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "RUNX1",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "bHLHE40",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "CEBPδ",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "SLUG",
+        "evidence_id": "e21",
+        "quote": "Moreover, we show that both mesenchymal GBMs and progenitor-like BTSCs are characterized by over-activated STAT3/EMT pathways and that SLUG is the primary epithelial to mesenchymal transition (EMT) transcription factor directly regulated by STAT3 in BTSCs."
+      },
+      {
+        "item": "tGLI1",
+        "evidence_id": "e24",
+        "quote": "We report here that truncated glioma-associated oncogene homolog 1 (tGLI1) is a tumor-specific transcription factor that facilitates GBM growth, is enriched in the mesenchymal subtype of GBM and glioma stem cells (GSC), and promotes mesenchymal GSC by upregulating transcription of CD44."
+      },
+      {
+        "item": "NFAT2",
+        "evidence_id": "e27",
+        "quote": "High NFAT2 expression was significantly associated with mesenchymal (MES) subtype and recurrent GBM and predicted poor survival"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is derived from multiple distinct studies with varying contexts (e.g., specific cell lines, treatment conditions like bevacizumab resistance, or specific signaling axes). Some factors are described as 'associated' or 'linked' rather than definitively 'driving' in all contexts. The list aggregates findings from different experimental setups and may not represent a single unified regulatory network.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 9,
+      "fp": 8,
+      "fn": 0,
+      "precision": 0.5294117647058824,
+      "recall": 1.0,
+      "f1": 0.6923076923076924
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "TFAP2A",
+      "CEBPG",
+      "FOSL1",
+      "FOXD1",
+      "ZEB1",
+      "TAZ",
+      "TEAD",
+      "CEBPB",
+      "ZNF238",
+      "FOSL2",
+      "STAT3",
+      "RUNX1",
+      "bHLHE40",
+      "CEBPδ",
+      "SLUG",
+      "tGLI1",
+      "NFAT2"
+    ],
+    "supports": [
+      {
+        "item": "TFAP2A",
+        "evidence_id": "e1",
+        "quote": "For example, the transcription factor TFAP2A can be seen to promote a transition from the NPC-like to the MES-like state."
+      },
+      {
+        "item": "CEBPG",
+        "evidence_id": "e4",
+        "quote": "Furthermore, by incorporating snATAC-seq data, we delineated a crucial regulatory network and pinpointed the key transcription factor CEBPG."
+      },
+      {
+        "item": "FOSL1",
+        "evidence_id": "e5",
+        "quote": "Using transcriptomic data of human patient-derived brain tumor stem cell lines (BTSCs), classified based on GBM-intrinsic signatures, we identify the AP-1 transcription factor FOSL1 as a key regulator of the mesenchymal (MES) subtype."
+      },
+      {
+        "item": "FOXD1",
+        "evidence_id": "e6",
+        "quote": "Recent studies suggest that Forkhead box D1 (FOXD1) plays an indispensable role in maintaining the mesenchymal (MES) properties of glioblastoma (GBM) stem cells (GSCs)."
+      },
+      {
+        "item": "ZEB1",
+        "evidence_id": "e10",
+        "quote": "The epithelial-mesenchymal transition (EMT) inducing factor Zeb1 was linked to tumor initiation, invasion, and resistance to therapy in glioblastoma, but how Zeb1 functions at molecular level and what genes it regulates remain poorly understood."
+      },
+      {
+        "item": "TAZ",
+        "evidence_id": "e11",
+        "quote": "Our studies uncover a direct role for TAZ and TEAD in driving the MES differentiation of malignant glioma."
+      },
+      {
+        "item": "TEAD",
+        "evidence_id": "e11",
+        "quote": "Our studies uncover a direct role for TAZ and TEAD in driving the MES differentiation of malignant glioma."
+      },
+      {
+        "item": "CEBPB",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "ZNF238",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "FOSL2",
+        "evidence_id": "e12",
+        "quote": "Moreover, master regulators of the glioblastoma multiforme mesenchymal phenotype including CEBPb, ZNF238, and FOSL2 were directly regulated by RUNX1."
+      },
+      {
+        "item": "STAT3",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "RUNX1",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "bHLHE40",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "CEBPδ",
+        "evidence_id": "e13",
+        "quote": "transcription factors known to drive the mesenchymal expression class were most closely related, including C/EBP-β, C/EBP-δ, STAT3, FOSL2, bHLHE40, and RUNX1."
+      },
+      {
+        "item": "SLUG",
+        "evidence_id": "e21",
+        "quote": "Moreover, we show that both mesenchymal GBMs and progenitor-like BTSCs are characterized by over-activated STAT3/EMT pathways and that SLUG is the primary epithelial to mesenchymal transition (EMT) transcription factor directly regulated by STAT3 in BTSCs."
+      },
+      {
+        "item": "tGLI1",
+        "evidence_id": "e24",
+        "quote": "We report here that truncated glioma-associated oncogene homolog 1 (tGLI1) is a tumor-specific transcription factor that facilitates GBM growth, is enriched in the mesenchymal subtype of GBM and glioma stem cells (GSC), and promotes mesenchymal GSC by upregulating transcription of CD44."
+      },
+      {
+        "item": "NFAT2",
+        "evidence_id": "e27",
+        "quote": "High NFAT2 expression was significantly associated with mesenchymal (MES) subtype and recurrent GBM and predicted poor survival"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is derived from multiple distinct studies with varying contexts (e.g., specific cell lines, treatment conditions like bevacizumab resistance, or specific signaling axes). Some factors are described as 'associated' or 'linked' rather than definitively 'driving' in all contexts. The list aggregates findings from different experimental setups and may not represent a single unified regulatory network.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 9,
+      "fp": 8,
+      "fn": 0,
+      "precision": 0.5294117647058824,
+      "recall": 1.0,
+      "f1": 0.6923076923076924
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/20032975",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22190458",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22440258",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23386688",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25275602",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27569208",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28443460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28754668",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29463580",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29903919",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31400279",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31652994",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32041837",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34087162",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34399888",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35351656",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35974001",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36949071",
+    "http://www.ncbi.nlm.nih.gov/pubmed/38766170",
+    "http://www.ncbi.nlm.nih.gov/pubmed/38826227",
+    "http://www.ncbi.nlm.nih.gov/pubmed/39707474"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/67d7503018b1e36f2e00003e/attempt_0"
+}

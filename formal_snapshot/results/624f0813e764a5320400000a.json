@@ -1,0 +1,423 @@
+{
+  "task_id": "624f0813e764a5320400000a",
+  "question": "Please list the tests used to diagnose Allergic Rhinitis.",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Skin Prick Test",
+      "Phadiatop",
+      "Nasal provocation test",
+      "Rhinomanometry",
+      "Serum allergen-specific IgE",
+      "Total immunoglobulin E",
+      "Radioallergosorbent test",
+      "Intradermal skin test",
+      "Nasal cytology",
+      "Nasal IgE level",
+      "IgE dosage in nasal Lavage Fluid",
+      "PRIST",
+      "TNP",
+      "Medical history",
+      "Physical examination",
+      "Methacholine challenge",
+      "Bronchodilator responsiveness",
+      "Specific inhalation challenge tests",
+      "Questionnaire for clinical diagnosis"
+    ],
+    "supports": [
+      {
+        "item": "Skin Prick Test",
+        "evidence_id": "e4",
+        "quote": "Skin prick test (SPT) with a wheal diameter of >3 mm, generally accepted as a positive, is most commonly use diagnostic tool for Allergic rhinitis."
+      },
+      {
+        "item": "Phadiatop",
+        "evidence_id": "e3",
+        "quote": "Skin prick test (SPT) or Phadiatop, a multi-allergen IgE screening test, was used as a tool for detecting aeroallergen sensitization."
+      },
+      {
+        "item": "Nasal provocation test",
+        "evidence_id": "e3",
+        "quote": "To compare SPT and Phadiatop as a tool for diagnosis allergic rhinitis (AR) using the nasal provocation test (NPT) as a comparative standard."
+      },
+      {
+        "item": "Rhinomanometry",
+        "evidence_id": "e5",
+        "quote": "the rhinomanometry (RM) test is the most indicated objective evaluation for nasal obstruction"
+      },
+      {
+        "item": "Serum allergen-specific IgE",
+        "evidence_id": "e6",
+        "quote": "most centers follow a diagnostic approach only based on skin prick test and serum allergen-specific IgE (collectively called atopy tests, AT)."
+      },
+      {
+        "item": "Total immunoglobulin E",
+        "evidence_id": "e8",
+        "quote": "The aim of this study was to investigate the sensitivities and specificities of Phadiatop tests and total immunoglobulin E (IgE) levels in both adults and children"
+      },
+      {
+        "item": "Radioallergosorbent test",
+        "evidence_id": "e17",
+        "quote": "To identify the most useful combinations of symptoms and the results of radioallergosorbent tests (RASTs) and skin prick tests (SPTs) for the diagnosis of allergic rhinitis."
+      },
+      {
+        "item": "Intradermal skin test",
+        "evidence_id": "e23",
+        "quote": "A clinical decision support system for diagnosis of Allergic Rhinitis based on intradermal skin tests."
+      },
+      {
+        "item": "Nasal cytology",
+        "evidence_id": "e27",
+        "quote": "Tools that the allergist is more likely to use include nasal cytology, skin testing and in vitro assays for specific immunoglobulin E."
+      },
+      {
+        "item": "Nasal IgE level",
+        "evidence_id": "e12",
+        "quote": "Assessment of Nasal Immunoglobulin E Level in Atopic and Non-atopic Rhinitis Patients: A Tool for Diagnosis of Local Allergic Rhinitis."
+      },
+      {
+        "item": "IgE dosage in nasal Lavage Fluid",
+        "evidence_id": "e13",
+        "quote": "Local Allergic Rhinitis in Pediatric Patients: Is IgE Dosage in Nasal Lavage Fluid a Useful Diagnostic Method in Children?"
+      },
+      {
+        "item": "PRIST",
+        "evidence_id": "e14",
+        "quote": "the authors describe the most frequently used diagnostic tests, confirming the validity of PRICK TEST, PRIST, RAST, and TNP"
+      },
+      {
+        "item": "TNP",
+        "evidence_id": "e14",
+        "quote": "the authors describe the most frequently used diagnostic tests, confirming the validity of PRICK TEST, PRIST, RAST, and TNP"
+      },
+      {
+        "item": "Medical history",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history, physical examination, positive methacholine challenge result or bronchodilator responsiveness, determination of IgE-mediated sensitization, and specific inhalation challenge tests as the gold standard"
+      },
+      {
+        "item": "Physical examination",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history, physical examination, positive methacholine challenge result or bronchodilator responsiveness, determination of IgE-mediated sensitization, and specific inhalation challenge tests as the gold standard"
+      },
+      {
+        "item": "Methacholine challenge",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history, physical examination, positive methacholine challenge result or bronchodilator responsiveness, determination of IgE-mediated sensitization, and specific inhalation challenge tests as the gold standard"
+      },
+      {
+        "item": "Bronchodilator responsiveness",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history, physical examination, positive methacholine challenge result or bronchodilator responsiveness, determination of IgE-mediated sensitization, and specific inhalation challenge tests as the gold standard"
+      },
+      {
+        "item": "Specific inhalation challenge tests",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history, physical examination, positive methacholine challenge result or bronchodilator responsiveness, determination of IgE-mediated sensitization, and specific inhalation challenge tests as the gold standard"
+      },
+      {
+        "item": "Questionnaire for clinical diagnosis",
+        "evidence_id": "e21",
+        "quote": "To validate a questionnaire for the clinical diagnosis of allergic rhinitis."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence includes tests for occupational respiratory allergy (e1) which may differ from general allergic rhinitis; some tests like rhinomanometry (e5) evaluate symptoms (nasal obstruction) rather than confirming allergic etiology directly; nasal provocation tests are noted as gold standard or for inconclusive cases (e3, e15, e19); intradermal tests are evaluated for accuracy but skin prick is preferred (e24, e29); specific IgE in serum is an alternative for those susceptible to ID tests (e28).",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 17,
+      "fn": 4,
+      "precision": 0.10526315789473684,
+      "recall": 0.3333333333333333,
+      "f1": 0.16
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Skin Prick Test",
+      "Phadiatop",
+      "Nasal provocation test",
+      "Rhinomanometry",
+      "Serum allergen-specific IgE",
+      "Radioallergosorbent test",
+      "Intradermal skin test",
+      "Nasal cytology",
+      "IgE dosage in nasal Lavage Fluid",
+      "Medical history",
+      "Physical examination",
+      "Methacholine challenge",
+      "Bronchodilator responsiveness",
+      "Specific inhalation challenge tests",
+      "Questionnaire for clinical diagnosis",
+      "Venous blood samples",
+      "Enzymatic RAST skin tests",
+      "Determination of eosinophils in nasal mucosa"
+    ],
+    "supports": [
+      {
+        "item": "Skin Prick Test",
+        "evidence_id": "e4",
+        "quote": "Skin prick test (SPT) with a wheal diameter of >3 mm, generally accepted as a positive, is most commonly use diagnostic tool for Allergic rhinitis."
+      },
+      {
+        "item": "Phadiatop",
+        "evidence_id": "e3",
+        "quote": "Skin prick test (SPT) or Phadiatop, a multi-allergen IgE screening test, was used as a tool for detecting aeroallergen sensitization."
+      },
+      {
+        "item": "Nasal provocation test",
+        "evidence_id": "e19",
+        "quote": "Nasal challenge is the gold standard for the diagnosis of allergic rhi"
+      },
+      {
+        "item": "Rhinomanometry",
+        "evidence_id": "e5",
+        "quote": "the rhinomanometry (RM) test is the most indicated objective evaluation for nasal obstruction"
+      },
+      {
+        "item": "Serum allergen-specific IgE",
+        "evidence_id": "e6",
+        "quote": "most centers follow a diagnostic approach only based on skin prick test and serum allergen-specific IgE"
+      },
+      {
+        "item": "Radioallergosorbent test",
+        "evidence_id": "e17",
+        "quote": "results of radioallergosorbent tests (RASTs) and skin prick tests (SPTs) for the diagnosis of allergic rhinitis"
+      },
+      {
+        "item": "Intradermal skin test",
+        "evidence_id": "e24",
+        "quote": "evaluated the accuracy of intradermal testing as a stand-alone test for diagnosing allergic rhinitis"
+      },
+      {
+        "item": "Nasal cytology",
+        "evidence_id": "e27",
+        "quote": "Tools that the allergist is more likely to use include nasal cytology"
+      },
+      {
+        "item": "IgE dosage in nasal Lavage Fluid",
+        "evidence_id": "e13",
+        "quote": "Is IgE Dosage in Nasal Lavage Fluid a Useful Diagnostic Method in Children?"
+      },
+      {
+        "item": "Medical history",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history"
+      },
+      {
+        "item": "Physical examination",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history, physical examination"
+      },
+      {
+        "item": "Methacholine challenge",
+        "evidence_id": "e1",
+        "quote": "positive methacholine challenge result"
+      },
+      {
+        "item": "Bronchodilator responsiveness",
+        "evidence_id": "e1",
+        "quote": "bronchodilator responsiveness"
+      },
+      {
+        "item": "Specific inhalation challenge tests",
+        "evidence_id": "e1",
+        "quote": "specific inhalation challenge tests as the gold standard"
+      },
+      {
+        "item": "Questionnaire for clinical diagnosis",
+        "evidence_id": "e21",
+        "quote": "validate a questionnaire for the clinical diagnosis of allergic rhinitis"
+      },
+      {
+        "item": "Venous blood samples",
+        "evidence_id": "e7",
+        "quote": "Screening for the existence of aeroallergens in patients with possible allergic rhinitis using venous blood samples"
+      },
+      {
+        "item": "Enzymatic RAST skin tests",
+        "evidence_id": "e20",
+        "quote": "Diagnostic use of enzymatic RAST skin tests"
+      },
+      {
+        "item": "Determination of eosinophils in nasal mucosa",
+        "evidence_id": "e20",
+        "quote": "determination of eosinophils in nasal mucosa in allergic rhinitis"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Some tests like methacholine challenge and specific inhalation challenge are explicitly linked to 'occupational respiratory allergy' in the source text, which may be a subset of allergic rhinitis. Evidence for 'Total immunoglobulin E', 'PRIST', and 'TNP' was not found in the provided text segments, so they are excluded. The list includes tests mentioned for general allergic rhinitis as well as those specified for occupational or pediatric subgroups where the text does not explicitly exclude them from the general diagnosis.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 16,
+      "fn": 4,
+      "precision": 0.1111111111111111,
+      "recall": 0.3333333333333333,
+      "f1": 0.16666666666666666
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Skin Prick Test",
+      "Phadiatop",
+      "Nasal provocation test",
+      "Rhinomanometry",
+      "Serum allergen-specific IgE",
+      "Radioallergosorbent test",
+      "Intradermal skin test",
+      "Nasal cytology",
+      "IgE dosage in nasal Lavage Fluid",
+      "Medical history",
+      "Physical examination",
+      "Methacholine challenge",
+      "Bronchodilator responsiveness",
+      "Specific inhalation challenge tests",
+      "Questionnaire for clinical diagnosis",
+      "Venous blood samples",
+      "Enzymatic RAST skin tests",
+      "Determination of eosinophils in nasal mucosa"
+    ],
+    "supports": [
+      {
+        "item": "Skin Prick Test",
+        "evidence_id": "e4",
+        "quote": "Skin prick test (SPT) with a wheal diameter of >3 mm, generally accepted as a positive, is most commonly use diagnostic tool for Allergic rhinitis."
+      },
+      {
+        "item": "Phadiatop",
+        "evidence_id": "e3",
+        "quote": "Skin prick test (SPT) or Phadiatop, a multi-allergen IgE screening test, was used as a tool for detecting aeroallergen sensitization."
+      },
+      {
+        "item": "Nasal provocation test",
+        "evidence_id": "e19",
+        "quote": "Nasal challenge is the gold standard for the diagnosis of allergic rhi"
+      },
+      {
+        "item": "Rhinomanometry",
+        "evidence_id": "e5",
+        "quote": "the rhinomanometry (RM) test is the most indicated objective evaluation for nasal obstruction"
+      },
+      {
+        "item": "Serum allergen-specific IgE",
+        "evidence_id": "e6",
+        "quote": "most centers follow a diagnostic approach only based on skin prick test and serum allergen-specific IgE"
+      },
+      {
+        "item": "Radioallergosorbent test",
+        "evidence_id": "e17",
+        "quote": "results of radioallergosorbent tests (RASTs) and skin prick tests (SPTs) for the diagnosis of allergic rhinitis"
+      },
+      {
+        "item": "Intradermal skin test",
+        "evidence_id": "e24",
+        "quote": "evaluated the accuracy of intradermal testing as a stand-alone test for diagnosing allergic rhinitis"
+      },
+      {
+        "item": "Nasal cytology",
+        "evidence_id": "e27",
+        "quote": "Tools that the allergist is more likely to use include nasal cytology"
+      },
+      {
+        "item": "IgE dosage in nasal Lavage Fluid",
+        "evidence_id": "e13",
+        "quote": "Is IgE Dosage in Nasal Lavage Fluid a Useful Diagnostic Method in Children?"
+      },
+      {
+        "item": "Medical history",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history"
+      },
+      {
+        "item": "Physical examination",
+        "evidence_id": "e1",
+        "quote": "Diagnosis of occupational respiratory allergy is made by a combination of medical history, physical examination"
+      },
+      {
+        "item": "Methacholine challenge",
+        "evidence_id": "e1",
+        "quote": "positive methacholine challenge result"
+      },
+      {
+        "item": "Bronchodilator responsiveness",
+        "evidence_id": "e1",
+        "quote": "bronchodilator responsiveness"
+      },
+      {
+        "item": "Specific inhalation challenge tests",
+        "evidence_id": "e1",
+        "quote": "specific inhalation challenge tests as the gold standard"
+      },
+      {
+        "item": "Questionnaire for clinical diagnosis",
+        "evidence_id": "e21",
+        "quote": "validate a questionnaire for the clinical diagnosis of allergic rhinitis"
+      },
+      {
+        "item": "Venous blood samples",
+        "evidence_id": "e7",
+        "quote": "Screening for the existence of aeroallergens in patients with possible allergic rhinitis using venous blood samples"
+      },
+      {
+        "item": "Enzymatic RAST skin tests",
+        "evidence_id": "e20",
+        "quote": "Diagnostic use of enzymatic RAST skin tests"
+      },
+      {
+        "item": "Determination of eosinophils in nasal mucosa",
+        "evidence_id": "e20",
+        "quote": "determination of eosinophils in nasal mucosa in allergic rhinitis"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Some tests like methacholine challenge and specific inhalation challenge are explicitly linked to 'occupational respiratory allergy' in the source text, which may be a subset of allergic rhinitis. Evidence for 'Total immunoglobulin E', 'PRIST', and 'TNP' was not found in the provided text segments, so they are excluded. The list includes tests mentioned for general allergic rhinitis as well as those specified for occupational or pediatric subgroups where the text does not explicitly exclude them from the general diagnosis.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 16,
+      "fn": 4,
+      "precision": 0.1111111111111111,
+      "recall": 0.3333333333333333,
+      "f1": 0.16666666666666666
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/11270471",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12866316",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14970151",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17017490",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2147615",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22384564",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22888478",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24053705",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25177851",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26298488",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27127526",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27279928",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28502152",
+    "http://www.ncbi.nlm.nih.gov/pubmed/287325",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29682489",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30261765",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32597210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33598969",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33628036",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34031758",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34476919",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34487076",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9612876",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9951327"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/624f0813e764a5320400000a/attempt_0"
+}

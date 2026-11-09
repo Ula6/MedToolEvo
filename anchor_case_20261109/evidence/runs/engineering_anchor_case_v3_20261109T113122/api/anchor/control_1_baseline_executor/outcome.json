@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "parsed": {
+    "queries": [
+      {
+        "query_id": "control1",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 69,
+            "end": 83,
+            "quote": "white European"
+          }
+        ]
+      }
+    ],
+    "unsupported_query_ids": []
+  }
+}

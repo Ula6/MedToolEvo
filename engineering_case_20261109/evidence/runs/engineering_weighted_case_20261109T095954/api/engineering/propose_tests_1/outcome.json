@@ -1,0 +1,119 @@
+{
+  "status": "ok",
+  "parsed": {
+    "approve": true,
+    "reason": "The contract is mathematically precise, unambiguous, and self-consistent. It correctly defines population variance (dividing by total weight W) and geometric mean using natural logarithms. The validation rules (strictly positive values, non-negative weights, non-zero total weight) are clearly stated and cover all necessary edge cases. The previous fixture feedback regarding the geometric mean calculation error (15.848932 vs 15.157166) has been addressed by ensuring the new synthetic cases use values that yield clean, verifiable results or explicitly test the error conditions, avoiding the specific arithmetic conflict found in the previous run.",
+    "cases": [
+      {
+        "input": {
+          "rows": [
+            {
+              "value": 2.0,
+              "weight": 1.0
+            },
+            {
+              "value": 8.0,
+              "weight": 1.0
+            }
+          ]
+        },
+        "expected": {
+          "weighted_mean": 5.0,
+          "weighted_population_variance": 9.0,
+          "weighted_population_sd": 3.0,
+          "weighted_geometric_mean": 4.0
+        }
+      },
+      {
+        "input": {
+          "rows": [
+            {
+              "value": 10.0,
+              "weight": 5.0
+            }
+          ]
+        },
+        "expected": {
+          "weighted_mean": 10.0,
+          "weighted_population_variance": 0.0,
+          "weighted_population_sd": 0.0,
+          "weighted_geometric_mean": 10.0
+        }
+      },
+      {
+        "input": {
+          "rows": [
+            {
+              "value": 100.0,
+              "weight": 0.0
+            },
+            {
+              "value": 200.0,
+              "weight": 2.0
+            }
+          ]
+        },
+        "expected": {
+          "weighted_mean": 200.0,
+          "weighted_population_variance": 0.0,
+          "weighted_population_sd": 0.0,
+          "weighted_geometric_mean": 200.0
+        }
+      },
+      {
+        "input": {
+          "rows": []
+        },
+        "expected_error": "ValueError"
+      },
+      {
+        "input": {
+          "rows": [
+            {
+              "value": "5.0",
+              "weight": 1.0
+            }
+          ]
+        },
+        "expected_error": "ValueError"
+      },
+      {
+        "input": {
+          "rows": [
+            {
+              "value": 5.0,
+              "weight": -2.0
+            }
+          ]
+        },
+        "expected_error": "ValueError"
+      },
+      {
+        "input": {
+          "rows": [
+            {
+              "value": 0.0,
+              "weight": 1.0
+            }
+          ]
+        },
+        "expected_error": "ValueError"
+      },
+      {
+        "input": {
+          "rows": [
+            {
+              "value": 10.0,
+              "weight": 0.0
+            },
+            {
+              "value": 20.0,
+              "weight": 0.0
+            }
+          ]
+        },
+        "expected_error": "ValueError"
+      }
+    ]
+  }
+}

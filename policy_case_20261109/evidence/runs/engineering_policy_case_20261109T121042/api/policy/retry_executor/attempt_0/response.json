@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"answers\": [\n    {\n      \"query_id\": \"q1\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR37\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g12\"]\n          },\n          {\n            \"name\": \"CR51\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g12\"]\n          }\n        ],\n        \"unique_entity_count\": 2\n      }\n    },\n    {\n      \"query_id\": \"q2\",\n      \"result\": {\n        \"entities\": [],\n        \"unique_entity_count\": 0\n      }\n    },\n    {\n      \"query_id\": \"q3\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR39\",\n            \"evidence_ids\": [\"PMC11837447:g10\", \"PMC11837447:g13\"]\n          },\n          {\n            \"name\": \"CR46\",\n            \"evidence_ids\": [\"PMC11837447:g10\", \"PMC11837447:g13\"]\n          },\n          {\n            \"name\": \"CR53\",\n            \"evidence_ids\": [\"PMC11837447:g10\", \"PMC11837447:g13\"]\n          },\n          {\n            \"name\": \"CR56\",\n            \"evidence_ids\": [\"PMC11837447:g10\", \"PMC11837447:g13\"]\n          }\n        ],\n        \"unique_entity_count\": 4\n      }\n    },\n    {\n      \"query_id\": \"q4\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR18\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g9\"]\n          },\n          {\n            \"name\": \"CR43\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g9\"]\n          },\n          {\n            \"name\": \"CR44\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g9\"]\n          },\n          {\n            \"name\": \"CR45\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g9\"]\n          }\n        ],\n        \"unique_entity_count\": 4\n      }\n    },\n    {\n      \"query_id\": \"q5\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR39\",\n            \"evidence_ids\": [\"PMC11837447:g6\", \"PMC11837447:g10\"]\n          },\n          {\n            \"name\": \"CR46\",\n            \"evidence_ids\": [\"PMC11837447:g6\", \"PMC11837447:g10\"]\n          },\n          {\n            \"name\": \"CR53\",\n            \"evidence_ids\": [\"PMC11837447:g6\", \"PMC11837447:g10\"]\n          }\n        ],\n        \"unique_entity_count\": 3\n      }\n    },\n    {\n      \"query_id\": \"q6\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR20\",\n            \"evidence_ids\": [\"PMC11837447:g7\", \"PMC11837447:g11\"]\n          },\n          {\n            \"name\": \"CR37\",\n            \"evidence_ids\": [\"PMC11837447:g7\", \"PMC11837447:g11\"]\n          },\n          {\n            \"name\": \"CR42\",\n            \"evidence_ids\": [\"PMC11837447:g7\", \"PMC11837447:g11\"]\n          },\n          {\n            \"name\": \"CR50\",\n            \"evidence_ids\": [\"PMC11837447:g7\", \"PMC11837447:g11\"]\n          }\n        ],\n        \"unique_entity_count\": 4\n      }\n    },\n    {\n      \"query_id\": \"q7\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR37\",\n            \"evidence_ids\": [\"PMC11837447:g7\", \"PMC11837447:g12\"]\n          },\n          {\n            \"name\": \"CR50\",\n            \"evidence_ids\": [\"PMC11837447:g7\", \"PMC11837447:g12\"]\n          }\n        ],\n        \"unique_entity_count\": 2\n      }\n    },\n    {\n      \"query_id\": \"q8\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR45\",\n            \"evidence_ids\": [\"PMC11837447:g2\", \"PMC11837447:g11\"]\n          }\n        ],\n        \"unique_entity_count\": 1\n      }\n    },\n    {\n      \"query_id\": \"q9\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR18\",\n            \"evidence_ids\": [\"PMC11837447:g9\", \"PMC11837447:g11\"]\n          },\n          {\n            \"name\": \"CR43\",\n            \"evidence_ids\": [\"PMC11837447:g9\", \"PMC11837447:g11\"]\n          },\n          {\n            \"name\": \"CR44\",\n            \"evidence_ids\": [\"PMC11837447:g9\", \"PMC11837447:g11\"]\n          },\n          {\n            \"name\": \"CR45\",\n            \"evidence_ids\": [\"PMC11837447:g9\", \"PMC11837447:g11\"]\n          }\n        ],\n        \"unique_entity_count\": 4\n      }\n    },\n    {\n      \"query_id\": \"q10\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR20\",\n            \"evidence_ids\": [\"PMC11837447:g7\", \"PMC11837447:g11\"]\n          },\n          {\n            \"name\": \"CR42\",\n            \"evidence_ids\": [\"PMC11837447:g7\", \"PMC11837447:g11\"]\n          }\n        ],\n        \"unique_entity_count\": 2\n      }\n    },\n    {\n      \"query_id\": \"q11\",\n      \"result\": {\n        \"entities\": [],\n        \"unique_entity_count\": 0\n      }\n    },\n    {\n      \"query_id\": \"q12\",\n      \"result\": {\n        \"entities\": [\n          {\n            \"name\": \"CR37\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g12\", \"PMC11837447:g7\"]\n          },\n          {\n            \"name\": \"CR50\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g12\", \"PMC11837447:g7\"]\n          },\n          {\n            \"name\": \"CR51\",\n            \"evidence_ids\": [\"PMC11837447:g11\", \"PMC11837447:g12\", \"PMC11837447:g8\"]\n          }\n        ],\n        \"unique_entity_count\": 3\n      }\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794226443,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 2024,
+    "prompt_tokens": 7120,
+    "total_tokens": 9144,
+    "prompt_tokens_details": {
+      "cached_tokens": 5448
+    }
+  },
+  "id": "chatcmpl-U94cnWhqkYE787YTEF0DNlwsJ01DPWNZ",
+  "timings": {
+    "cache_n": 5448,
+    "prompt_n": 1672,
+    "prompt_ms": 3260.777,
+    "prompt_per_token_ms": 1.9502254784688995,
+    "prompt_per_second": 512.7612222485623,
+    "predicted_n": 2024,
+    "predicted_ms": 75459.665,
+    "predicted_per_token_ms": 37.300872466633706,
+    "predicted_per_second": 26.809024397338632
+  }
+}

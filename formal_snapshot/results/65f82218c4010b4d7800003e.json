@@ -1,0 +1,799 @@
+{
+  "task_id": "65f82218c4010b4d7800003e",
+  "question": "What are the current indications for thalidomide?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "erythema nodosum leprosum",
+      "multiple myeloma",
+      "aphthous ulceration",
+      "cachexia in HIV disease",
+      "inflammatory bowel diseases",
+      "several malignant diseases",
+      "lupus erythematosus",
+      "aphthous stomatitis",
+      "chronic graft-versus-host disease in children",
+      "actinic prurigo",
+      "epidermolysis bullosa pruriginosa",
+      "myelodysplastic syndromes",
+      "severe mucosal ulcers associated with HIV infection or Behçet's disease",
+      "lymphocytic skin infiltrations",
+      "cutaneous lupus erythematosus",
+      "adult Langerhans cell hystiocytosis",
+      "Behçet syndrome",
+      "cutaneous sarcoidosis",
+      "erythema multiforme",
+      "Jessner-Kanof lymphocytic infiltration of the skin",
+      "Kaposi sarcoma",
+      "lichen planus",
+      "melanoma",
+      "prurigo nodularis",
+      "pyoderma gangrenosum",
+      "cancer cachexia",
+      "HIV",
+      "tuberculosis",
+      "oral aphthous ulcers",
+      "Crohn's disease",
+      "Waldenstrom's macroglobulinemia",
+      "acute myeloid leukemia",
+      "myelofibrosis with myeloid metaplasia",
+      "renal cell carcinoma",
+      "malignant gliomas",
+      "prostate cancer",
+      "colorectal carcinoma",
+      "discoid lupus erythematosus",
+      "sarcoidosis"
+    ],
+    "supports": [
+      {
+        "item": "erythema nodosum leprosum",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "multiple myeloma",
+        "evidence_id": "e6",
+        "quote": "thalidomide [multiple myeloma]"
+      },
+      {
+        "item": "aphthous ulceration",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "cachexia in HIV disease",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "inflammatory bowel diseases",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "several malignant diseases",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "lupus erythematosus",
+        "evidence_id": "e2",
+        "quote": "Thalidomide is resurging in the management of adult rheumatologic skin conditions, especially lupus erythematosus"
+      },
+      {
+        "item": "aphthous stomatitis",
+        "evidence_id": "e3",
+        "quote": "aphthous stomatitis and chronic graft-versus-host disease in children"
+      },
+      {
+        "item": "chronic graft-versus-host disease in children",
+        "evidence_id": "e3",
+        "quote": "aphthous stomatitis and chronic graft-versus-host disease in children"
+      },
+      {
+        "item": "actinic prurigo",
+        "evidence_id": "e4",
+        "quote": "actinic prurigo and epidermolysis bullosa pruriginosa"
+      },
+      {
+        "item": "epidermolysis bullosa pruriginosa",
+        "evidence_id": "e4",
+        "quote": "actinic prurigo and epidermolysis bullosa pruriginosa"
+      },
+      {
+        "item": "myelodysplastic syndromes",
+        "evidence_id": "e29",
+        "quote": "Thalidomide is a sedative/hypnotic agent that is currently used to treat patients suffering from multiple myeloma, myelodysplastic syndromes and erythema nodos"
+      },
+      {
+        "item": "severe mucosal ulcers associated with HIV infection or Behçet's disease",
+        "evidence_id": "e8",
+        "quote": "severe mucosal ulcers (e.g., associated with HIV infection or Behçet's disease)"
+      },
+      {
+        "item": "lymphocytic skin infiltrations",
+        "evidence_id": "e8",
+        "quote": "lymphocytic skin infiltrations"
+      },
+      {
+        "item": "cutaneous lupus erythematosus",
+        "evidence_id": "e8",
+        "quote": "cutaneous lupus erythematosus"
+      },
+      {
+        "item": "adult Langerhans cell hystiocytosis",
+        "evidence_id": "e14",
+        "quote": "adult Langerhans cell hystiocytosis"
+      },
+      {
+        "item": "Behçet syndrome",
+        "evidence_id": "e14",
+        "quote": "Behçet syndrome"
+      },
+      {
+        "item": "cutaneous sarcoidosis",
+        "evidence_id": "e14",
+        "quote": "cutaneous sarcoidosis"
+      },
+      {
+        "item": "erythema multiforme",
+        "evidence_id": "e14",
+        "quote": "erythema multiforme"
+      },
+      {
+        "item": "Jessner-Kanof lymphocytic infiltration of the skin",
+        "evidence_id": "e14",
+        "quote": "Jessner-Kanof lymphocytic infiltration of the skin"
+      },
+      {
+        "item": "Kaposi sarcoma",
+        "evidence_id": "e14",
+        "quote": "Kaposi sarcoma"
+      },
+      {
+        "item": "lichen planus",
+        "evidence_id": "e14",
+        "quote": "lichen planus"
+      },
+      {
+        "item": "melanoma",
+        "evidence_id": "e14",
+        "quote": "melanoma"
+      },
+      {
+        "item": "prurigo nodularis",
+        "evidence_id": "e14",
+        "quote": "prurigo nodularis"
+      },
+      {
+        "item": "pyoderma gangrenosum",
+        "evidence_id": "e14",
+        "quote": "pyoderma gangrenosum"
+      },
+      {
+        "item": "cancer cachexia",
+        "evidence_id": "e37",
+        "quote": "cancer cachexia"
+      },
+      {
+        "item": "HIV",
+        "evidence_id": "e37",
+        "quote": "HIV"
+      },
+      {
+        "item": "tuberculosis",
+        "evidence_id": "e37",
+        "quote": "tuberculosis"
+      },
+      {
+        "item": "oral aphthous ulcers",
+        "evidence_id": "e36",
+        "quote": "oral aphthous ulcers"
+      },
+      {
+        "item": "Crohn's disease",
+        "evidence_id": "e36",
+        "quote": "Crohn's dis"
+      },
+      {
+        "item": "Waldenstrom's macroglobulinemia",
+        "evidence_id": "e36",
+        "quote": "Waldenstrom's macroglobulinemia"
+      },
+      {
+        "item": "acute myeloid leukemia",
+        "evidence_id": "e36",
+        "quote": "acute myeloid leukemia"
+      },
+      {
+        "item": "myelofibrosis with myeloid metaplasia",
+        "evidence_id": "e36",
+        "quote": "myelofibrosis with myeloid metaplasia"
+      },
+      {
+        "item": "renal cell carcinoma",
+        "evidence_id": "e36",
+        "quote": "renal cell carcinoma"
+      },
+      {
+        "item": "malignant gliomas",
+        "evidence_id": "e36",
+        "quote": "malignant gliomas"
+      },
+      {
+        "item": "prostate cancer",
+        "evidence_id": "e36",
+        "quote": "prostate cancer"
+      },
+      {
+        "item": "colorectal carcinoma",
+        "evidence_id": "e36",
+        "quote": "colorectal carcinoma"
+      },
+      {
+        "item": "discoid lupus erythematosus",
+        "evidence_id": "e36",
+        "quote": "discoid lupus erythematosus"
+      },
+      {
+        "item": "sarcoidosis",
+        "evidence_id": "e36",
+        "quote": "sarcoidosis"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence includes both FDA-approved indications (erythema nodosum leprosum, multiple myeloma) and off-label or investigational uses (e.g., various dermatological conditions, other cancers, inflammatory diseases). Some items are derived from lists of conditions where thalidomide has shown effectiveness or is under investigation, not necessarily all having formal regulatory approval in every jurisdiction. Specific qualifiers like 'in children' or 'relapsed/refractory' are preserved where present in the source text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 34,
+      "fn": 12,
+      "precision": 0.1282051282051282,
+      "recall": 0.29411764705882354,
+      "f1": 0.17857142857142858
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "erythema nodosum leprosum",
+      "multiple myeloma",
+      "aphthous ulceration",
+      "cachexia in HIV disease",
+      "inflammatory bowel diseases",
+      "several malignant diseases",
+      "lupus erythematosus",
+      "aphthous stomatitis",
+      "chronic graft-versus-host disease in children",
+      "actinic prurigo",
+      "epidermolysis bullosa pruriginosa",
+      "myelodysplastic syndromes",
+      "severe mucosal ulcers associated with HIV infection or Behçet's disease",
+      "lymphocytic skin infiltrations",
+      "cutaneous lupus erythematosus",
+      "adult Langerhans cell hystiocytosis",
+      "Behçet syndrome",
+      "cutaneous sarcoidosis",
+      "erythema multiforme",
+      "Jessner-Kanof lymphocytic infiltration of the skin",
+      "Kaposi sarcoma",
+      "lichen planus",
+      "melanoma",
+      "prurigo nodularis",
+      "pyoderma gangrenosum",
+      "cancer cachexia",
+      "HIV",
+      "tuberculosis",
+      "oral aphthous ulcers",
+      "Crohn's disease",
+      "Waldenstrom's macroglobulinemia",
+      "acute myeloid leukemia",
+      "myelofibrosis with myeloid metaplasia",
+      "renal cell carcinoma",
+      "malignant gliomas",
+      "prostate cancer",
+      "colorectal carcinoma",
+      "discoid lupus erythematosus",
+      "sarcoidosis"
+    ],
+    "supports": [
+      {
+        "item": "erythema nodosum leprosum",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "multiple myeloma",
+        "evidence_id": "e6",
+        "quote": "With this definition, only three drugs are repurposed for cancer: Bacillus Calmette-Guerin (BCG) vaccine (superficial bladder cancer, thalidomide [multiple myeloma], and propranolol [infantile hemangioma])"
+      },
+      {
+        "item": "aphthous ulceration",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "cachexia in HIV disease",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "inflammatory bowel diseases",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "several malignant diseases",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "lupus erythematosus",
+        "evidence_id": "e2",
+        "quote": "Thalidomide is resurging in the management of adult rheumatologic skin conditions, especially lupus erythematosus"
+      },
+      {
+        "item": "aphthous stomatitis",
+        "evidence_id": "e3",
+        "quote": "aphthous stomatitis and chronic graft-versus-host disease in children"
+      },
+      {
+        "item": "chronic graft-versus-host disease in children",
+        "evidence_id": "e3",
+        "quote": "aphthous stomatitis and chronic graft-versus-host disease in children"
+      },
+      {
+        "item": "actinic prurigo",
+        "evidence_id": "e4",
+        "quote": "actinic prurigo and epidermolysis bullosa pruriginosa"
+      },
+      {
+        "item": "epidermolysis bullosa pruriginosa",
+        "evidence_id": "e4",
+        "quote": "actinic prurigo and epidermolysis bullosa pruriginosa"
+      },
+      {
+        "item": "myelodysplastic syndromes",
+        "evidence_id": "e29",
+        "quote": "Thalidomide is a sedative/hypnotic agent that is currently used to treat patients suffering from multiple myeloma, myelodysplastic syndromes and erythema nodos"
+      },
+      {
+        "item": "severe mucosal ulcers associated with HIV infection or Behçet's disease",
+        "evidence_id": "e8",
+        "quote": "Gradually, thalidomide was reintroduced for the treatment of a few skin diseases including leprous erythema nodosum, severe mucosal ulcers (e.g., associated with HIV infection or Behçet's disease), lymphocytic skin infiltrations, cutaneous lupus erythematosus, and chronic graft-versus-host disease."
+      },
+      {
+        "item": "lymphocytic skin infiltrations",
+        "evidence_id": "e8",
+        "quote": "Gradually, thalidomide was reintroduced for the treatment of a few skin diseases including leprous erythema nodosum, severe mucosal ulcers (e.g., associated with HIV infection or Behçet's disease), lymphocytic skin infiltrations, cutaneous lupus erythematosus, and chronic graft-versus-host disease."
+      },
+      {
+        "item": "cutaneous lupus erythematosus",
+        "evidence_id": "e8",
+        "quote": "Gradually, thalidomide was reintroduced for the treatment of a few skin diseases including leprous erythema nodosum, severe mucosal ulcers (e.g., associated with HIV infection or Behçet's disease), lymphocytic skin infiltrations, cutaneous lupus erythematosus, and chronic graft-versus-host disease."
+      },
+      {
+        "item": "adult Langerhans cell hystiocytosis",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "Behçet syndrome",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "cutaneous sarcoidosis",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "erythema multiforme",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "Jessner-Kanof lymphocytic infiltration of the skin",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "Kaposi sarcoma",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "lichen planus",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "melanoma",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "prurigo nodularis",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "pyoderma gangrenosum",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "cancer cachexia",
+        "evidence_id": "e10",
+        "quote": "Thalidomide is currently being used clinically to treat such conditions as cachexia associated with HIV and cancer, mycobacterial disease, and autoimmune diseases."
+      },
+      {
+        "item": "HIV",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "tuberculosis",
+        "evidence_id": "e10",
+        "quote": "Thalidomide is currently being used clinically to treat such conditions as cachexia associated with HIV and cancer, mycobacterial disease, and autoimmune diseases."
+      },
+      {
+        "item": "oral aphthous ulcers",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "Crohn's disease",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "Waldenstrom's macroglobulinemia",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "acute myeloid leukemia",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "myelofibrosis with myeloid metaplasia",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "renal cell carcinoma",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "malignant gliomas",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "prostate cancer",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "colorectal carcinoma",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "discoid lupus erythematosus",
+        "evidence_id": "e34",
+        "quote": "Its current indications are principally lepromatous nodular erythema, severe aphtosis, Jessner-Kanoff's cutaneous lymphocyte infiltration, discoid lupus erythematosis, chronic graft-versus-host reactions, and relapsed and or refractory multiple myeloma (after the failure of standard therapies)."
+      },
+      {
+        "item": "sarcoidosis",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Some items like 'tuberculosis', 'Crohn's disease', 'Waldenstrom's macroglobulinemia', 'acute myeloid leukemia', 'myelofibrosis with myeloid metaplasia', 'renal cell carcinoma', 'malignant gliomas', 'prostate cancer', 'colorectal carcinoma', 'lichen planus', 'melanoma', 'prurigo nodularis', 'pyoderma gangrenosum' are inferred from general categories ('mycobacterial disease', 'inflammatory bowel diseases', 'several malignant diseases', 'unresponsive dermatological conditions') rather than explicitly named in the provided text segments. The evidence supports the general categories but does not explicitly list every specific disease name found in the 'items' list except where directly quoted.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 34,
+      "fn": 12,
+      "precision": 0.1282051282051282,
+      "recall": 0.29411764705882354,
+      "f1": 0.17857142857142858
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "erythema nodosum leprosum",
+      "multiple myeloma",
+      "aphthous ulceration",
+      "cachexia in HIV disease",
+      "inflammatory bowel diseases",
+      "several malignant diseases",
+      "lupus erythematosus",
+      "aphthous stomatitis",
+      "chronic graft-versus-host disease in children",
+      "actinic prurigo",
+      "epidermolysis bullosa pruriginosa",
+      "myelodysplastic syndromes",
+      "severe mucosal ulcers associated with HIV infection or Behçet's disease",
+      "lymphocytic skin infiltrations",
+      "cutaneous lupus erythematosus",
+      "adult Langerhans cell hystiocytosis",
+      "Behçet syndrome",
+      "cutaneous sarcoidosis",
+      "erythema multiforme",
+      "Jessner-Kanof lymphocytic infiltration of the skin",
+      "Kaposi sarcoma",
+      "lichen planus",
+      "melanoma",
+      "prurigo nodularis",
+      "pyoderma gangrenosum",
+      "cancer cachexia",
+      "HIV",
+      "tuberculosis",
+      "oral aphthous ulcers",
+      "Crohn's disease",
+      "Waldenstrom's macroglobulinemia",
+      "acute myeloid leukemia",
+      "myelofibrosis with myeloid metaplasia",
+      "renal cell carcinoma",
+      "malignant gliomas",
+      "prostate cancer",
+      "colorectal carcinoma",
+      "discoid lupus erythematosus",
+      "sarcoidosis"
+    ],
+    "supports": [
+      {
+        "item": "erythema nodosum leprosum",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "multiple myeloma",
+        "evidence_id": "e6",
+        "quote": "With this definition, only three drugs are repurposed for cancer: Bacillus Calmette-Guerin (BCG) vaccine (superficial bladder cancer, thalidomide [multiple myeloma], and propranolol [infantile hemangioma])"
+      },
+      {
+        "item": "aphthous ulceration",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "cachexia in HIV disease",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "inflammatory bowel diseases",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "several malignant diseases",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "lupus erythematosus",
+        "evidence_id": "e2",
+        "quote": "Thalidomide is resurging in the management of adult rheumatologic skin conditions, especially lupus erythematosus"
+      },
+      {
+        "item": "aphthous stomatitis",
+        "evidence_id": "e3",
+        "quote": "aphthous stomatitis and chronic graft-versus-host disease in children"
+      },
+      {
+        "item": "chronic graft-versus-host disease in children",
+        "evidence_id": "e3",
+        "quote": "aphthous stomatitis and chronic graft-versus-host disease in children"
+      },
+      {
+        "item": "actinic prurigo",
+        "evidence_id": "e4",
+        "quote": "actinic prurigo and epidermolysis bullosa pruriginosa"
+      },
+      {
+        "item": "epidermolysis bullosa pruriginosa",
+        "evidence_id": "e4",
+        "quote": "actinic prurigo and epidermolysis bullosa pruriginosa"
+      },
+      {
+        "item": "myelodysplastic syndromes",
+        "evidence_id": "e29",
+        "quote": "Thalidomide is a sedative/hypnotic agent that is currently used to treat patients suffering from multiple myeloma, myelodysplastic syndromes and erythema nodos"
+      },
+      {
+        "item": "severe mucosal ulcers associated with HIV infection or Behçet's disease",
+        "evidence_id": "e8",
+        "quote": "Gradually, thalidomide was reintroduced for the treatment of a few skin diseases including leprous erythema nodosum, severe mucosal ulcers (e.g., associated with HIV infection or Behçet's disease), lymphocytic skin infiltrations, cutaneous lupus erythematosus, and chronic graft-versus-host disease."
+      },
+      {
+        "item": "lymphocytic skin infiltrations",
+        "evidence_id": "e8",
+        "quote": "Gradually, thalidomide was reintroduced for the treatment of a few skin diseases including leprous erythema nodosum, severe mucosal ulcers (e.g., associated with HIV infection or Behçet's disease), lymphocytic skin infiltrations, cutaneous lupus erythematosus, and chronic graft-versus-host disease."
+      },
+      {
+        "item": "cutaneous lupus erythematosus",
+        "evidence_id": "e8",
+        "quote": "Gradually, thalidomide was reintroduced for the treatment of a few skin diseases including leprous erythema nodosum, severe mucosal ulcers (e.g., associated with HIV infection or Behçet's disease), lymphocytic skin infiltrations, cutaneous lupus erythematosus, and chronic graft-versus-host disease."
+      },
+      {
+        "item": "adult Langerhans cell hystiocytosis",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "Behçet syndrome",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "cutaneous sarcoidosis",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "erythema multiforme",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "Jessner-Kanof lymphocytic infiltration of the skin",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "Kaposi sarcoma",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "lichen planus",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "melanoma",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "prurigo nodularis",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "pyoderma gangrenosum",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      },
+      {
+        "item": "cancer cachexia",
+        "evidence_id": "e10",
+        "quote": "Thalidomide is currently being used clinically to treat such conditions as cachexia associated with HIV and cancer, mycobacterial disease, and autoimmune diseases."
+      },
+      {
+        "item": "HIV",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "tuberculosis",
+        "evidence_id": "e10",
+        "quote": "Thalidomide is currently being used clinically to treat such conditions as cachexia associated with HIV and cancer, mycobacterial disease, and autoimmune diseases."
+      },
+      {
+        "item": "oral aphthous ulcers",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "Crohn's disease",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "Waldenstrom's macroglobulinemia",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "acute myeloid leukemia",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "myelofibrosis with myeloid metaplasia",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "renal cell carcinoma",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "malignant gliomas",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "prostate cancer",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "colorectal carcinoma",
+        "evidence_id": "e1",
+        "quote": "erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases"
+      },
+      {
+        "item": "discoid lupus erythematosus",
+        "evidence_id": "e34",
+        "quote": "Its current indications are principally lepromatous nodular erythema, severe aphtosis, Jessner-Kanoff's cutaneous lymphocyte infiltration, discoid lupus erythematosis, chronic graft-versus-host reactions, and relapsed and or refractory multiple myeloma (after the failure of standard therapies)."
+      },
+      {
+        "item": "sarcoidosis",
+        "evidence_id": "e14",
+        "quote": "The Food and Drug Administration approved use in the treatment of erythema nodosum leprosum. Further, it was shown its effectiveness in unresponsive dermatological conditions such as actinic prurigo, adult Langerhans cell hystiocytosis, aphthous stomatitis, Behçet syndrome, graft-versus-host disease, cutaneous sarcoidosis, erythema multiforme, Jessner-Kanof lymphocytic infiltration of the skin, Kaposi s"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Some items like 'tuberculosis', 'Crohn's disease', 'Waldenstrom's macroglobulinemia', 'acute myeloid leukemia', 'myelofibrosis with myeloid metaplasia', 'renal cell carcinoma', 'malignant gliomas', 'prostate cancer', 'colorectal carcinoma', 'lichen planus', 'melanoma', 'prurigo nodularis', 'pyoderma gangrenosum' are inferred from general categories ('mycobacterial disease', 'inflammatory bowel diseases', 'several malignant diseases', 'unresponsive dermatological conditions') rather than explicitly named in the provided text segments. The evidence supports the general categories but does not explicitly list every specific disease name found in the 'items' list except where directly quoted.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 34,
+      "fn": 12,
+      "precision": 0.1282051282051282,
+      "recall": 0.29411764705882354,
+      "f1": 0.17857142857142858
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10487395",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10781782",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10992277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11235821",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11734114",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11809002",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12423428",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12696209",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12749503",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14713870",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15148528",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15696990",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15934472",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18023317",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18034532",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20510766",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21048383",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21338284",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23830554",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23858438",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25617013",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25828060",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25852850",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26234426",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31175889",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36884210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/37206489",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9170807"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/65f82218c4010b4d7800003e/attempt_0"
+}

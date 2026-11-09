@@ -1,0 +1,14 @@
+{
+  "id": "606b6dc194d57fd87900006a",
+  "question": "Which biological drugs are EMA approved for pediatric psoriasis?",
+  "type": "list",
+  "evidence": [
+    {
+      "evidence_id": "e1",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/31514420",
+      "text": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab. ",
+      "section": "abstract",
+      "offset": 664
+    }
+  ]
+}

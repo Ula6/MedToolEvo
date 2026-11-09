@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "value": 13.1,
+      "weight": 231
+    },
+    {
+      "value": 7.5,
+      "weight": 72
+    },
+    {
+      "value": 7.6,
+      "weight": 78
+    },
+    {
+      "value": 9.6,
+      "weight": 1014
+    },
+    {
+      "value": 8.8,
+      "weight": 452
+    },
+    {
+      "value": 8.7,
+      "weight": 213
+    },
+    {
+      "value": 10.3,
+      "weight": 86
+    },
+    {
+      "value": 10.0,
+      "weight": 23
+    },
+    {
+      "value": 9.1,
+      "weight": 299
+    },
+    {
+      "value": 7.0,
+      "weight": 73
+    },
+    {
+      "value": 9.3,
+      "weight": 75
+    },
+    {
+      "value": 8.0,
+      "weight": 404
+    }
+  ]
+}

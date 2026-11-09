@@ -1,0 +1,127 @@
+{
+  "task_id": "517843638ed59a060a000036",
+  "question": "What are the major classes of retrotransposons active in the human genome?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Long Interspersed Element-1 (LINE-1)",
+      "Alu",
+      "SVA elements"
+    ],
+    "supports": [
+      {
+        "item": "Long Interspersed Element-1 (LINE-1)",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)."
+      },
+      {
+        "item": "Alu",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)."
+      },
+      {
+        "item": "SVA elements",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence identifies LINE-1, Alu, and SVA as the active classes; other retrotransposons are mentioned as abundant but not currently active.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Long Interspersed Element-1 (LINE-1)",
+      "Alu",
+      "SVA elements"
+    ],
+    "supports": [
+      {
+        "item": "Long Interspersed Element-1 (LINE-1)",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)"
+      },
+      {
+        "item": "Alu",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)"
+      },
+      {
+        "item": "SVA elements",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence confirms these three classes are currently active; other retrotransposons may exist but are not described as active in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Long Interspersed Element-1 (LINE-1)",
+      "Alu",
+      "SVA elements"
+    ],
+    "supports": [
+      {
+        "item": "Long Interspersed Element-1 (LINE-1)",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)"
+      },
+      {
+        "item": "Alu",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)"
+      },
+      {
+        "item": "SVA elements",
+        "evidence_id": "e1",
+        "quote": "only a small fraction of them are currently active in our genome (Long Interspersed Element-1 (LINE-1), Alu, and SVA elements)"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence confirms these three classes are currently active; other retrotransposons may exist but are not described as active in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12213770",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15867427",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16511833",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22528351"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/517843638ed59a060a000036/attempt_0"
+}

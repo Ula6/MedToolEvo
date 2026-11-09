@@ -1,0 +1,309 @@
+{
+  "task_id": "5713bc991174fb1755000010",
+  "question": "Which genes are associated with autosomal dominant Charcot-Marie-Tooth?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "PMP22",
+      "MPZ",
+      "NEFL",
+      "DNM2",
+      "LITAF",
+      "EGR2",
+      "GDAP1",
+      "LRSAM1",
+      "INF2",
+      "YARS",
+      "GNB4",
+      "MFN2"
+    ],
+    "supports": [
+      {
+        "item": "PMP22",
+        "evidence_id": "e11",
+        "quote": "Among them, CMT1A (MIM #118220) is most common and is usually associated with a duplication of a 1.5-Mb region on chromosome 17p11.2, which includes peripheral myelin protein 22 gene (PMP22; MIM *601097)"
+      },
+      {
+        "item": "MPZ",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "NEFL",
+        "evidence_id": "e12",
+        "quote": "Mutations in the NF-L gene (NEFL) cause autosomal dominant neuropathies that are classified either as axonal Charcot-Marie-Tooth (CMT) type 2E (CMT2E) or demyelinating CMT type 1F (CMT1F)"
+      },
+      {
+        "item": "DNM2",
+        "evidence_id": "e13",
+        "quote": "Recently, mutations affecting different domains of dynamin-2 (DNM2) were associated alternatively with autosomal dominant centronuclear myopathy or dominant intermediate (demyelinating and axonal) Charcot-Marie-Tooth disease (CMT) type B"
+      },
+      {
+        "item": "LITAF",
+        "evidence_id": "e14",
+        "quote": "Four genes (PMP22, MPZ, LITAF, and EGR2) have been described in the last 15 yr associated with AD CMTI"
+      },
+      {
+        "item": "EGR2",
+        "evidence_id": "e14",
+        "quote": "Four genes (PMP22, MPZ, LITAF, and EGR2) have been described in the last 15 yr associated with AD CMTI"
+      },
+      {
+        "item": "GDAP1",
+        "evidence_id": "e6",
+        "quote": "Most of these mutations present a recessive inheritance, but few autosomal dominant GDAP1 mutations have also been reported"
+      },
+      {
+        "item": "LRSAM1",
+        "evidence_id": "e2",
+        "quote": "A novel mutation in LRSAM1 causes axonal Charcot-Marie-Tooth disease with dominant inheritance"
+      },
+      {
+        "item": "INF2",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "YARS",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "GNB4",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "MFN2",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence distinguishes between autosomal dominant, recessive, and X-linked forms; some genes like GDAP1 and LRSAM1 are primarily associated with recessive forms but have rare dominant reports. DNM2 is associated with dominant intermediate CMT. PMP22 is associated with duplication in CMT1A. GJB1 is explicitly excluded as X-linked.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 12,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9230769230769231,
+      "f1": 0.9600000000000001
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "PMP22",
+      "MPZ",
+      "NEFL",
+      "DNM2",
+      "LITAF",
+      "EGR2",
+      "GDAP1",
+      "LRSAM1",
+      "INF2",
+      "YARS",
+      "GNB4",
+      "MFN2"
+    ],
+    "supports": [
+      {
+        "item": "PMP22",
+        "evidence_id": "e11",
+        "quote": "CMT1A (MIM #118220) is most common and is usually associated with a duplication of a 1.5-Mb region on chromosome 17p11.2, which includes peripheral myelin protein 22 gene (PMP22; MIM *601097)"
+      },
+      {
+        "item": "MPZ",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "NEFL",
+        "evidence_id": "e12",
+        "quote": "Mutations in the NF-L gene (NEFL) cause autosomal dominant neuropathies that are classified either as axonal Charcot-Marie-Tooth (CMT) type 2E (CMT2E) or demyelinating CMT type 1F (CMT1F)"
+      },
+      {
+        "item": "DNM2",
+        "evidence_id": "e13",
+        "quote": "Recently, mutations affecting different domains of dynamin-2 (DNM2) were associated alternatively with autosomal dominant centronuclear myopathy or dominant intermediate (demyelinating and axonal) Charcot-Marie-Tooth disease (CMT) type B"
+      },
+      {
+        "item": "LITAF",
+        "evidence_id": "e14",
+        "quote": "Four genes (PMP22, MPZ, LITAF, and EGR2) have been described in the last 15 yr associated with AD CMTI"
+      },
+      {
+        "item": "EGR2",
+        "evidence_id": "e14",
+        "quote": "Four genes (PMP22, MPZ, LITAF, and EGR2) have been described in the last 15 yr associated with AD CMTI"
+      },
+      {
+        "item": "GDAP1",
+        "evidence_id": "e5",
+        "quote": "Phenotypical features of the p.R120W mutation in the GDAP1 gene causing autosomal dominant Charcot-Marie-Tooth disease"
+      },
+      {
+        "item": "LRSAM1",
+        "evidence_id": "e2",
+        "quote": "A novel mutation in LRSAM1 causes axonal Charcot-Marie-Tooth disease with dominant inheritance"
+      },
+      {
+        "item": "INF2",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "YARS",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "GNB4",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "MFN2",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "GDAP1 is primarily associated with autosomal recessive CMT, with only rare reports of autosomal dominant forms; DNM2 is associated with dominant intermediate CMT; LRSAM1 is linked to dominant axonal CMT. Evidence distinguishes between DI-CMT, CMT1, CMT2, and intermediate forms, all under autosomal dominant inheritance.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 12,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9230769230769231,
+      "f1": 0.9600000000000001
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "PMP22",
+      "MPZ",
+      "NEFL",
+      "DNM2",
+      "LITAF",
+      "EGR2",
+      "GDAP1",
+      "LRSAM1",
+      "INF2",
+      "YARS",
+      "GNB4",
+      "MFN2"
+    ],
+    "supports": [
+      {
+        "item": "PMP22",
+        "evidence_id": "e11",
+        "quote": "CMT1A (MIM #118220) is most common and is usually associated with a duplication of a 1.5-Mb region on chromosome 17p11.2, which includes peripheral myelin protein 22 gene (PMP22; MIM *601097)"
+      },
+      {
+        "item": "MPZ",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "NEFL",
+        "evidence_id": "e12",
+        "quote": "Mutations in the NF-L gene (NEFL) cause autosomal dominant neuropathies that are classified either as axonal Charcot-Marie-Tooth (CMT) type 2E (CMT2E) or demyelinating CMT type 1F (CMT1F)"
+      },
+      {
+        "item": "DNM2",
+        "evidence_id": "e13",
+        "quote": "Recently, mutations affecting different domains of dynamin-2 (DNM2) were associated alternatively with autosomal dominant centronuclear myopathy or dominant intermediate (demyelinating and axonal) Charcot-Marie-Tooth disease (CMT) type B"
+      },
+      {
+        "item": "LITAF",
+        "evidence_id": "e14",
+        "quote": "Four genes (PMP22, MPZ, LITAF, and EGR2) have been described in the last 15 yr associated with AD CMTI"
+      },
+      {
+        "item": "EGR2",
+        "evidence_id": "e14",
+        "quote": "Four genes (PMP22, MPZ, LITAF, and EGR2) have been described in the last 15 yr associated with AD CMTI"
+      },
+      {
+        "item": "GDAP1",
+        "evidence_id": "e5",
+        "quote": "Phenotypical features of the p.R120W mutation in the GDAP1 gene causing autosomal dominant Charcot-Marie-Tooth disease"
+      },
+      {
+        "item": "LRSAM1",
+        "evidence_id": "e2",
+        "quote": "A novel mutation in LRSAM1 causes axonal Charcot-Marie-Tooth disease with dominant inheritance"
+      },
+      {
+        "item": "INF2",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "YARS",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "GNB4",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      },
+      {
+        "item": "MFN2",
+        "evidence_id": "e1",
+        "quote": "MPZ, INF2, DNM2, YARS, GNB4, NEFL, and MFN2 are associated with autosomal DI-CMT"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "GDAP1 is primarily associated with autosomal recessive CMT, with only rare reports of autosomal dominant forms; DNM2 is associated with dominant intermediate CMT; LRSAM1 is linked to dominant axonal CMT. Evidence distinguishes between DI-CMT, CMT1, CMT2, and intermediate forms, all under autosomal dominant inheritance.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 12,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9230769230769231,
+      "f1": 0.9600000000000001
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12481988",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12525712",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12566280",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12707075",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14561495",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15099592",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15731758",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16775366",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17052987",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17636067",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18231710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18492089",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18975529",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19502294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21199105",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21753178",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22091729",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22096584",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22451505",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22781092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24894446",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25326399",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25337607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8655146"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5713bc991174fb1755000010/attempt_0"
+}

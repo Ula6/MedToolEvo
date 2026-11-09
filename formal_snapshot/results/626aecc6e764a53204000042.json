@@ -1,0 +1,124 @@
+{
+  "task_id": "626aecc6e764a53204000042",
+  "question": "Which organizations approved Tagsedi in 2018?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "United States Food and Drug Agency",
+      "Health Canada",
+      "European Commission"
+    ],
+    "supports": [
+      {
+        "item": "United States Food and Drug Agency",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      },
+      {
+        "item": "Health Canada",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      },
+      {
+        "item": "European Commission",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence limited to a single abstract source; no additional regulatory details or dates beyond 2018 provided.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "United States Food and Drug Agency",
+      "Health Canada",
+      "European Commission"
+    ],
+    "supports": [
+      {
+        "item": "United States Food and Drug Agency",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      },
+      {
+        "item": "Health Canada",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      },
+      {
+        "item": "European Commission",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence limited to a single abstract source; no additional regulatory details or dates beyond 2018 provided.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "United States Food and Drug Agency",
+      "Health Canada",
+      "European Commission"
+    ],
+    "supports": [
+      {
+        "item": "United States Food and Drug Agency",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      },
+      {
+        "item": "Health Canada",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      },
+      {
+        "item": "European Commission",
+        "evidence_id": "e1",
+        "quote": "approved by the United States Food and Drug Agency, Health Canada, and European Commission in 2018"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence limited to a single abstract source; no additional regulatory details or dates beyond 2018 provided.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/32865784"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/626aecc6e764a53204000042/attempt_0"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "parsed": {
+    "weighted_mean": 13.1,
+    "weighted_population_variance": 0.0,
+    "weighted_population_sd": 0.0,
+    "weighted_geometric_mean": 13.1,
+    "evidence_id": "e2",
+    "quote": "R01: Breast (231); mean=13.1; n=231.",
+    "limitations": "Calculations based on a single supplied row; variance and SD are zero as no inter-row variability exists in the provided dataset."
+  }
+}

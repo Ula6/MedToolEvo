@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"entities\": [{\"name\": \"CR49\", \"evidence_ids\": [\"PMC11837447:g10\", \"PMC11837447:g12\"]}, {\"name\": \"CR50\", \"evidence_ids\": [\"PMC11837447:g10\", \"PMC11837447:g12\"]}], \"unique_entity_count\": 2}",
+  "stderr": "",
+  "elapsed_seconds": 0.03232914907857776,
+  "code_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679"
+}

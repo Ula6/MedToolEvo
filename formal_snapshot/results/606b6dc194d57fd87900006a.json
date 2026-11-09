@@ -1,0 +1,124 @@
+{
+  "task_id": "606b6dc194d57fd87900006a",
+  "question": "Which biological drugs are EMA approved for pediatric psoriasis?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "etanercept",
+      "ustekinumab",
+      "adalimumab"
+    ],
+    "supports": [
+      {
+        "item": "etanercept",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      },
+      {
+        "item": "ustekinumab",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      },
+      {
+        "item": "adalimumab",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence limited to a single source abstract; does not specify age ranges, dosing, or approval dates.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "etanercept",
+      "ustekinumab",
+      "adalimumab"
+    ],
+    "supports": [
+      {
+        "item": "etanercept",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      },
+      {
+        "item": "ustekinumab",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      },
+      {
+        "item": "adalimumab",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence limited to a single source abstract; does not specify age ranges, dosing, or approval dates.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "etanercept",
+      "ustekinumab",
+      "adalimumab"
+    ],
+    "supports": [
+      {
+        "item": "etanercept",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      },
+      {
+        "item": "ustekinumab",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      },
+      {
+        "item": "adalimumab",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence limited to a single source abstract; does not specify age ranges, dosing, or approval dates.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31514420"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/606b6dc194d57fd87900006a/attempt_0"
+}

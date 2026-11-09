@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "CR37",
+      "evidence_ids": [
+        "PMC11837447:g11",
+        "PMC11837447:g12"
+      ]
+    },
+    {
+      "name": "CR51",
+      "evidence_ids": [
+        "PMC11837447:g11",
+        "PMC11837447:g12"
+      ]
+    }
+  ],
+  "unique_entity_count": 2
+}

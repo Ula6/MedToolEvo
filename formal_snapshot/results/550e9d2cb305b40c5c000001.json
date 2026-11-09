@@ -1,0 +1,108 @@
+{
+  "task_id": "550e9d2cb305b40c5c000001",
+  "question": "Which variables are included in the SPAN-100 score?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "age in years",
+      "NIH Stroke Scale score"
+    ],
+    "supports": [
+      {
+        "item": "age in years",
+        "evidence_id": "e3",
+        "quote": "We created the Stroke Prognostication using Age and NIH Stroke Scale (SPAN) index by combining age in years plus NIH Stroke Scale (NIHSS) ≥100."
+      },
+      {
+        "item": "NIH Stroke Scale score",
+        "evidence_id": "e4",
+        "quote": "The SPAN-100 index is considered positive if the sum of the age and the NIH Stroke Scale (a 15-item neurological examination scale with scores ranging from 0 to 42, with higher scores indicating more severe strokes) score is greater than or equal to 100"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The evidence defines SPAN-100 as the sum of age and NIHSS score, with a threshold of ≥100. No other variables are mentioned in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "age in years",
+      "NIH Stroke Scale score"
+    ],
+    "supports": [
+      {
+        "item": "age in years",
+        "evidence_id": "e3",
+        "quote": "We created the Stroke Prognostication using Age and NIH Stroke Scale (SPAN) index by combining age in years plus NIH Stroke Scale (NIHSS) ≥100."
+      },
+      {
+        "item": "NIH Stroke Scale score",
+        "evidence_id": "e3",
+        "quote": "We created the Stroke Prognostication using Age and NIH Stroke Scale (SPAN) index by combining age in years plus NIH Stroke Scale (NIHSS) ≥100."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The SPAN-100 score is defined as the sum of age in years and the NIH Stroke Scale score; the '100' refers to the threshold for a positive index, not a separate variable. Evidence e1, e2, e4, and e5 corroborate these two components but do not introduce additional variables.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "age in years",
+      "NIH Stroke Scale score"
+    ],
+    "supports": [
+      {
+        "item": "age in years",
+        "evidence_id": "e3",
+        "quote": "We created the Stroke Prognostication using Age and NIH Stroke Scale (SPAN) index by combining age in years plus NIH Stroke Scale (NIHSS) ≥100."
+      },
+      {
+        "item": "NIH Stroke Scale score",
+        "evidence_id": "e3",
+        "quote": "We created the Stroke Prognostication using Age and NIH Stroke Scale (SPAN) index by combining age in years plus NIH Stroke Scale (NIHSS) ≥100."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The SPAN-100 score is defined as the sum of age in years and the NIH Stroke Scale score; the '100' refers to the threshold for a positive index, not a separate variable. Evidence e1, e2, e4, and e5 corroborate these two components but do not introduce additional variables.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23175723",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23894342",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24798141"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/550e9d2cb305b40c5c000001/attempt_0"
+}

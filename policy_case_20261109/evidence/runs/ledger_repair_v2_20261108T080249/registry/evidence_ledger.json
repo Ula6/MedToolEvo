@@ -1,0 +1,14 @@
+{
+  "tool": "autonomous_evidence_ledger_20261108T080249",
+  "version": "autonomous_evidence_ledger_20261108T080249_v004",
+  "status": "active_development_repair",
+  "code_path": "/home/supervisor/project/sy/MedToolEvo/runs/ledger_repair_v2_20261108T080249/stable/autonomous_evidence_ledger_20261108T080249_v004.py",
+  "sha256": "75b7c64645d3557e15ccd24db903939c1429e2027d8589ddefc818b2570a0a9f",
+  "test_sha256": "f8dccce35eb81b26198eb8b851e0e1051e68056b426efa795ffd17d575f56d1f",
+  "test_report": "/home/supervisor/project/sy/MedToolEvo/runs/auto_autonomous_evidence_ledger_20261108T080249_20261108T080816Z_bb6fb3/autonomous_evidence_ledger_20261108T080249_v004/test_report.json",
+  "generation_session": "/home/supervisor/project/sy/MedToolEvo/runs/auto_autonomous_evidence_ledger_20261108T080249_20261108T080816Z_bb6fb3",
+  "original_trigger": "autonomous_manager",
+  "automatically_registered_for_qa": false,
+  "contract_family": "evidence_ledger",
+  "admission_report": "/home/supervisor/project/sy/MedToolEvo/runs/ledger_repair_v2_20261108T080249/summary.json"
+}

@@ -1,0 +1,124 @@
+{
+  "task_id": "6432fb1957b1c7a31500001e",
+  "question": "What clinical applications is Zanubrutinib approved for in the United States?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "adults with mantle cell lymphoma who have received at least one prior therapy",
+      "adults with Waldenström macroglobulinemia",
+      "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+    ],
+    "supports": [
+      {
+        "item": "adults with mantle cell lymphoma who have received at least one prior therapy",
+        "evidence_id": "e1",
+        "quote": "treating adults with mantle cell lymphoma who have received at least one prior therapy"
+      },
+      {
+        "item": "adults with Waldenström macroglobulinemia",
+        "evidence_id": "e1",
+        "quote": "adults with Waldenström macroglobulinemia"
+      },
+      {
+        "item": "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy",
+        "evidence_id": "e1",
+        "quote": "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to the specific indications listed in the provided abstracts from a single source (PMID 35651781). Other potential approvals or updates not mentioned in these segments are not included.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "adults with mantle cell lymphoma who have received at least one prior therapy",
+      "adults with Waldenström macroglobulinemia",
+      "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+    ],
+    "supports": [
+      {
+        "item": "adults with mantle cell lymphoma who have received at least one prior therapy",
+        "evidence_id": "e1",
+        "quote": "In the United States, zanubrutinib, a next-generation BTK inhibitor, has been approved for treating adults with mantle cell lymphoma who have received at least one prior therapy"
+      },
+      {
+        "item": "adults with Waldenström macroglobulinemia",
+        "evidence_id": "e1",
+        "quote": "for adults with Waldenström macroglobulinemia"
+      },
+      {
+        "item": "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy",
+        "evidence_id": "e1",
+        "quote": "for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to the provided abstracts from PubMed ID 35651781; does not include potential updates or additional indications not mentioned in these specific text segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "adults with mantle cell lymphoma who have received at least one prior therapy",
+      "adults with Waldenström macroglobulinemia",
+      "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+    ],
+    "supports": [
+      {
+        "item": "adults with mantle cell lymphoma who have received at least one prior therapy",
+        "evidence_id": "e1",
+        "quote": "In the United States, zanubrutinib, a next-generation BTK inhibitor, has been approved for treating adults with mantle cell lymphoma who have received at least one prior therapy"
+      },
+      {
+        "item": "adults with Waldenström macroglobulinemia",
+        "evidence_id": "e1",
+        "quote": "for adults with Waldenström macroglobulinemia"
+      },
+      {
+        "item": "adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy",
+        "evidence_id": "e1",
+        "quote": "for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to the provided abstracts from PubMed ID 35651781; does not include potential updates or additional indications not mentioned in these specific text segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/35651781"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/6432fb1957b1c7a31500001e/attempt_0"
+}

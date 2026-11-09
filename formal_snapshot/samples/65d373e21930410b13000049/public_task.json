@@ -1,0 +1,14 @@
+{
+  "id": "65d373e21930410b13000049",
+  "question": "What medication were tested in the PEMMELA trial?",
+  "type": "list",
+  "evidence": [
+    {
+      "evidence_id": "e1",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/37844598",
+      "text": "Pembrolizumab plus lenvatinib in second-line and third-line patients with pleural mesothelioma (PEMMELA): a single-arm phase 2 study.",
+      "section": "title",
+      "offset": 0
+    }
+  ]
+}

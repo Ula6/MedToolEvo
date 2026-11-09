@@ -1,0 +1,24 @@
+{
+  "status": "functional_pass_pending_task_validation",
+  "session": "/home/supervisor/project/sy/MedToolEvo/runs/auto_open_weighted_statistical_summaries_52f5789e_20261109T100206Z_a65e4e",
+  "initial_candidate": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/open_weighted_statistical_summaries_52f5789e_v001.py",
+  "original_trigger": "Qwen_Manager_actual_failure",
+  "generation_strategy": "fresh_from_spec",
+  "test_sha256": "6088b614fbb272c4fe02e15491523667f57731c5dd887ee00d4deb98a32c1737",
+  "spec_sha256": "6a0ad627dabd10b4e819ebd93b524ef903e868dbdb6f8a8b958d56b866cc0882",
+  "test_count": 8,
+  "max_additional_repairs": 3,
+  "developer_guidance_sha256": null,
+  "prompt_format": "plain",
+  "history": [
+    {
+      "version": "open_weighted_statistical_summaries_52f5789e_v001",
+      "path": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/open_weighted_statistical_summaries_52f5789e_v001.py",
+      "sha256": "f80f9e9749595cf01602e0fd3a36717096b045c2c66a5d8f3f0dac22477170bc",
+      "passed": 8,
+      "failed": 0
+    }
+  ],
+  "validated_code": "/home/supervisor/project/sy/MedToolEvo/tools/validated/open_weighted_statistical_summaries_52f5789e_v001.py",
+  "manifest": "/home/supervisor/project/sy/MedToolEvo/registry/pending/open_weighted_statistical_summaries_52f5789e_v001.json"
+}

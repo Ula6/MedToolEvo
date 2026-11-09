@@ -1,0 +1,1203 @@
+{
+  "task_id": "56c344abfedd0b786b000003",
+  "question": "What are the properties of super-enhancers?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "extensively transcribed enhancer RNAs",
+      "dynamically regulated in response to cellular signaling",
+      "form domains of coordinately regulated enhancer RNAs",
+      "associated with genes specifying cell type identity and function",
+      "densely spaced clusters of active enhancers",
+      "influenced by higher-order genomic organization",
+      "affect higher-order genomic organization",
+      "defined by magnitude of size",
+      "defined by transcription factor density",
+      "defined by binding of transcriptional machinery",
+      "associated with genes driving cell differentiation",
+      "involved in cancers",
+      "involved in complex diseases",
+      "involved in developmental disorders",
+      "interact with cofactors",
+      "interact with chromatin regulators",
+      "groups of putative enhancers in close genomic proximity",
+      "unusually high levels of Mediator binding",
+      "useful in identifying regulatory elements controlling genes important for cell type specification",
+      "also known as stretch-enhancers",
+      "subset of enhancers especially important for genes associated with cell identity",
+      "subset of enhancers especially important for genes associated with genetic risk of disease",
+      "drive expression of genes playing prominent roles in normal cells",
+      "drive expression of genes playing prominent roles in disease cells",
+      "provide a platform for signaling pathways to regulate genes controlling cell identity during development",
+      "provide a platform for signaling pathways to regulate genes controlling cell identity during tumorigenesis",
+      "underlie identity of adult stem cells in vivo",
+      "underlie lineage commitment of adult stem cells in vivo",
+      "underlie plasticity of adult stem cells in vivo",
+      "undergo remodelling upon lineage progression",
+      "consist of dense clusters of transcription factor binding sites",
+      "decommissioned to acquire new fate",
+      "established to acquire new fate",
+      "auto-regulatory process abating one master regulator subset while enhancing another",
+      "dynamic dense transcription-factor-binding platforms",
+      "acutely sensitive to pioneer master regulators",
+      "define spatial features of lineage-status",
+      "define temporal features of lineage-status",
+      "define stemness",
+      "define plasticity in transitional states",
+      "define differentiation",
+      "highly enriched in large super-enhancer regions",
+      "drive early adipogenic reprogramming of gene expression",
+      "constitute important regulatory hubs",
+      "serve to integrate external stimuli on chromatin",
+      "consist of clusters of enhancers densely occupied by master regulators",
+      "differ from typical enhancers in size",
+      "differ from typical enhancers in transcription factor density",
+      "differ from typical enhancers in content",
+      "differ from typical enhancers in ability to activate transcription",
+      "differ from typical enhancers in sensitivity to perturbation",
+      "play key roles in control of mammalian cell identity",
+      "large clusters of transcriptional enhancers",
+      "highly transcribed",
+      "occupied by transcription factors",
+      "occupied by cofactors",
+      "occupied by chromatin regulators",
+      "occupied by transcription apparatus",
+      "directed by NF-κB in inflammation",
+      "directed by NF-κB in atherogenesis",
+      "governed by pioneer factors in stem cell plasticity",
+      "governed by pioneer factors in lineage choice"
+    ],
+    "supports": [
+      {
+        "item": "extensively transcribed enhancer RNAs",
+        "evidence_id": "e1",
+        "quote": "enhancer RNAs (eRNAs) identified by global nuclear run-on sequencing are extensively transcribed within super enhancers"
+      },
+      {
+        "item": "dynamically regulated in response to cellular signaling",
+        "evidence_id": "e1",
+        "quote": "are dynamically regulated in response to cellular signaling"
+      },
+      {
+        "item": "form domains of coordinately regulated enhancer RNAs",
+        "evidence_id": "e2",
+        "quote": "Inflammation-sensitive super enhancers form domains of coordinately regulated enhancer RNAs"
+      },
+      {
+        "item": "associated with genes specifying cell type identity and function",
+        "evidence_id": "e3",
+        "quote": "The expression of genes that specify cell type identity and function is associated with densely spaced clusters of active enhancers known as super-enhancers"
+      },
+      {
+        "item": "densely spaced clusters of active enhancers",
+        "evidence_id": "e3",
+        "quote": "densely spaced clusters of active enhancers known as super-enhancers"
+      },
+      {
+        "item": "influenced by higher-order genomic organization",
+        "evidence_id": "e3",
+        "quote": "The functions of enhancers and super-enhancers are influenced by, and affect, higher-order genomic organization"
+      },
+      {
+        "item": "affect higher-order genomic organization",
+        "evidence_id": "e3",
+        "quote": "The functions of enhancers and super-enhancers are influenced by, and affect, higher-order genomic organization"
+      },
+      {
+        "item": "defined by magnitude of size",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery"
+      },
+      {
+        "item": "defined by transcription factor density",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery"
+      },
+      {
+        "item": "defined by binding of transcriptional machinery",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery"
+      },
+      {
+        "item": "associated with genes driving cell differentiation",
+        "evidence_id": "e4",
+        "quote": "super-enhancers have been associated with genes driving cell differentiation"
+      },
+      {
+        "item": "involved in cancers",
+        "evidence_id": "e5",
+        "quote": "review evidence for super-enhancer involvement in cancers"
+      },
+      {
+        "item": "involved in complex diseases",
+        "evidence_id": "e5",
+        "quote": "review evidence for super-enhancer involvement in cancers, complex diseases"
+      },
+      {
+        "item": "involved in developmental disorders",
+        "evidence_id": "e5",
+        "quote": "review evidence for super-enhancer involvement in cancers, complex diseases, and developmental disorders"
+      },
+      {
+        "item": "interact with cofactors",
+        "evidence_id": "e5",
+        "quote": "discuss interactions between super-enhancers and cofactors/chromatin regulators"
+      },
+      {
+        "item": "interact with chromatin regulators",
+        "evidence_id": "e5",
+        "quote": "discuss interactions between super-enhancers and cofactors/chromatin regulators"
+      },
+      {
+        "item": "groups of putative enhancers in close genomic proximity",
+        "evidence_id": "e6",
+        "quote": "groups of putative enhancers in close genomic proximity"
+      },
+      {
+        "item": "unusually high levels of Mediator binding",
+        "evidence_id": "e6",
+        "quote": "with unusually high levels of Mediator binding"
+      },
+      {
+        "item": "useful in identifying regulatory elements controlling genes important for cell type specification",
+        "evidence_id": "e7",
+        "quote": "the super-enhancer definition is useful in identifying regulatory elements likely to control genes important for cell type specification"
+      },
+      {
+        "item": "also known as stretch-enhancers",
+        "evidence_id": "e8",
+        "quote": "Super-enhancers (SEs), also known as stretch-enhancers"
+      },
+      {
+        "item": "subset of enhancers especially important for genes associated with cell identity",
+        "evidence_id": "e8",
+        "quote": "are a subset of enhancers especially important for genes associated with cell identity"
+      },
+      {
+        "item": "subset of enhancers especially important for genes associated with genetic risk of disease",
+        "evidence_id": "e8",
+        "quote": "especially important for genes associated with cell identity and genetic risk of disease"
+      },
+      {
+        "item": "drive expression of genes playing prominent roles in normal cells",
+        "evidence_id": "e9",
+        "quote": "Super-enhancers and stretch enhancers (SEs) drive expression of genes that play prominent roles in normal and disease cells"
+      },
+      {
+        "item": "drive expression of genes playing prominent roles in disease cells",
+        "evidence_id": "e9",
+        "quote": "Super-enhancers and stretch enhancers (SEs) drive expression of genes that play prominent roles in normal and disease cells"
+      },
+      {
+        "item": "provide a platform for signaling pathways to regulate genes controlling cell identity during development",
+        "evidence_id": "e10",
+        "quote": "Super-enhancers thus provide a platform for signaling pathways to regulate genes that control cell identity during development and tumorigenesis"
+      },
+      {
+        "item": "provide a platform for signaling pathways to regulate genes controlling cell identity during tumorigenesis",
+        "evidence_id": "e10",
+        "quote": "Super-enhancers thus provide a platform for signaling pathways to regulate genes that control cell identity during development and tumorigenesis"
+      },
+      {
+        "item": "underlie identity of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "underlie lineage commitment of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "underlie plasticity of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "undergo remodelling upon lineage progression",
+        "evidence_id": "e12",
+        "quote": "super-enhancers and their dense clusters ('epicentres') of transcription factor binding sites undergo remodelling upon lineage progression"
+      },
+      {
+        "item": "consist of dense clusters of transcription factor binding sites",
+        "evidence_id": "e12",
+        "quote": "super-enhancers and their dense clusters ('epicentres') of transcription factor binding sites"
+      },
+      {
+        "item": "decommissioned to acquire new fate",
+        "evidence_id": "e13",
+        "quote": "New fate is acquired by decommissioning old and establishing new super-enhancers"
+      },
+      {
+        "item": "established to acquire new fate",
+        "evidence_id": "e13",
+        "quote": "New fate is acquired by decommissioning old and establishing new super-enhancers"
+      },
+      {
+        "item": "auto-regulatory process abating one master regulator subset while enhancing another",
+        "evidence_id": "e13",
+        "quote": "an auto-regulatory process that abates one master regulator subset while enhancing another"
+      },
+      {
+        "item": "dynamic dense transcription-factor-binding platforms",
+        "evidence_id": "e14",
+        "quote": "super-enhancers are dynamic, dense transcription-factor-binding platforms"
+      },
+      {
+        "item": "acutely sensitive to pioneer master regulators",
+        "evidence_id": "e14",
+        "quote": "which are acutely sensitive to pioneer master regulators"
+      },
+      {
+        "item": "define spatial features of lineage-status",
+        "evidence_id": "e14",
+        "quote": "whose levels define not only spatial and temporal features of lineage-status"
+      },
+      {
+        "item": "define temporal features of lineage-status",
+        "evidence_id": "e14",
+        "quote": "whose levels define not only spatial and temporal features of lineage-status"
+      },
+      {
+        "item": "define stemness",
+        "evidence_id": "e14",
+        "quote": "but also stemness, plasticity in transitional states and differentiation"
+      },
+      {
+        "item": "define plasticity in transitional states",
+        "evidence_id": "e14",
+        "quote": "but also stemness, plasticity in transitional states and differentiation"
+      },
+      {
+        "item": "define differentiation",
+        "evidence_id": "e14",
+        "quote": "but also stemness, plasticity in transitional states and differentiation"
+      },
+      {
+        "item": "highly enriched in large super-enhancer regions",
+        "evidence_id": "e15",
+        "quote": "hotspots are highly enriched in large super-enhancer regions"
+      },
+      {
+        "item": "drive early adipogenic reprogramming of gene expression",
+        "evidence_id": "e15",
+        "quote": "which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "serve to integrate external stimuli on chromatin",
+        "evidence_id": "e16",
+        "quote": "that serve to integrate external stimuli on chromatin"
+      },
+      {
+        "item": "consist of clusters of enhancers densely occupied by master regulators",
+        "evidence_id": "e17",
+        "quote": "consist of clusters of enhancers that are densely occupied by the master regulators and Mediator"
+      },
+      {
+        "item": "differ from typical enhancers in size",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size"
+      },
+      {
+        "item": "differ from typical enhancers in transcription factor density",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density"
+      },
+      {
+        "item": "differ from typical enhancers in content",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content"
+      },
+      {
+        "item": "differ from typical enhancers in ability to activate transcription",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription"
+      },
+      {
+        "item": "differ from typical enhancers in sensitivity to perturbation",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "play key roles in control of mammalian cell identity",
+        "evidence_id": "e19",
+        "quote": "Super-enhancers thus play key roles in the control of mammalian cell identity"
+      },
+      {
+        "item": "large clusters of transcriptional enhancers",
+        "evidence_id": "e20",
+        "quote": "Super-enhancers are large clusters of transcriptional enhancers"
+      },
+      {
+        "item": "highly transcribed",
+        "evidence_id": "e21",
+        "quote": "evidence that super-enhancers are highly transcribed"
+      },
+      {
+        "item": "occupied by transcription factors",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by cofactors",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by chromatin regulators",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by transcription apparatus",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "directed by NF-κB in inflammation",
+        "evidence_id": "e23",
+        "quote": "NF-κB directs dynamic super enhancer formation in inflammation"
+      },
+      {
+        "item": "directed by NF-κB in atherogenesis",
+        "evidence_id": "e23",
+        "quote": "NF-κB directs dynamic super enhancer formation in inflammation and atherogenesis"
+      },
+      {
+        "item": "governed by pioneer factors in stem cell plasticity",
+        "evidence_id": "e24",
+        "quote": "Pioneer factors govern super-enhancer dynamics in stem cell plasticity"
+      },
+      {
+        "item": "governed by pioneer factors in lineage choice",
+        "evidence_id": "e24",
+        "quote": "Pioneer factors govern super-enhancer dynamics in stem cell plasticity and lineage choice"
+      }
+    ],
+    "invalid_supports": [
+      {
+        "index": 43,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "constitute important regulatory hubs",
+          "evidence_id": "e16",
+          "quote": "hotspots and super-enhancers constitute important regulatory hubs"
+        }
+      }
+    ],
+    "unsupported_items": [
+      "constitute important regulatory hubs"
+    ],
+    "limitations": "Properties are derived from abstracts and titles of specific studies; functional mechanisms may vary by cell type and context. Some properties like 'dynamic' or 'sensitive' are described in specific experimental conditions (e.g., inflammation, stem cell differentiation) and may not be universal constants.",
+    "source_binding_complete": false,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 61,
+      "fn": 3,
+      "precision": 0.016129032258064516,
+      "recall": 0.25,
+      "f1": 0.030303030303030304
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "extensively transcribed enhancer RNAs",
+      "dynamically regulated in response to cellular signaling",
+      "form domains of coordinately regulated enhancer RNAs",
+      "associated with genes specifying cell type identity and function",
+      "densely spaced clusters of active enhancers",
+      "influenced by higher-order genomic organization",
+      "affect higher-order genomic organization",
+      "defined by magnitude of size",
+      "defined by transcription factor density",
+      "defined by binding of transcriptional machinery",
+      "associated with genes driving cell differentiation",
+      "involved in cancers",
+      "involved in complex diseases",
+      "involved in developmental disorders",
+      "interact with cofactors",
+      "interact with chromatin regulators",
+      "groups of putative enhancers in close genomic proximity",
+      "unusually high levels of Mediator binding",
+      "useful in identifying regulatory elements controlling genes important for cell type specification",
+      "also known as stretch-enhancers",
+      "subset of enhancers especially important for genes associated with cell identity",
+      "subset of enhancers especially important for genes associated with genetic risk of disease",
+      "drive expression of genes playing prominent roles in normal cells",
+      "drive expression of genes playing prominent roles in disease cells",
+      "provide a platform for signaling pathways to regulate genes controlling cell identity during development",
+      "provide a platform for signaling pathways to regulate genes controlling cell identity during tumorigenesis",
+      "underlie identity of adult stem cells in vivo",
+      "underlie lineage commitment of adult stem cells in vivo",
+      "underlie plasticity of adult stem cells in vivo",
+      "undergo remodelling upon lineage progression",
+      "consist of dense clusters of transcription factor binding sites",
+      "decommissioned to acquire new fate",
+      "established to acquire new fate",
+      "auto-regulatory process abating one master regulator subset while enhancing another",
+      "dynamic dense transcription-factor-binding platforms",
+      "acutely sensitive to pioneer master regulators",
+      "define spatial features of lineage-status",
+      "define temporal features of lineage-status",
+      "define stemness",
+      "define plasticity in transitional states",
+      "define differentiation",
+      "highly enriched in large super-enhancer regions",
+      "drive early adipogenic reprogramming of gene expression",
+      "constitute important regulatory hubs",
+      "serve to integrate external stimuli on chromatin",
+      "consist of clusters of enhancers densely occupied by master regulators",
+      "differ from typical enhancers in size",
+      "differ from typical enhancers in transcription factor density",
+      "differ from typical enhancers in content",
+      "differ from typical enhancers in ability to activate transcription",
+      "differ from typical enhancers in sensitivity to perturbation",
+      "play key roles in control of mammalian cell identity",
+      "large clusters of transcriptional enhancers",
+      "highly transcribed",
+      "occupied by transcription factors",
+      "occupied by cofactors",
+      "occupied by chromatin regulators",
+      "occupied by transcription apparatus",
+      "directed by NF-κB in inflammation",
+      "directed by NF-κB in atherogenesis",
+      "governed by pioneer factors in stem cell plasticity",
+      "governed by pioneer factors in lineage choice"
+    ],
+    "supports": [
+      {
+        "item": "extensively transcribed enhancer RNAs",
+        "evidence_id": "e1",
+        "quote": "enhancer RNAs (eRNAs) identified by global nuclear run-on sequencing are extensively transcribed within super enhancers"
+      },
+      {
+        "item": "dynamically regulated in response to cellular signaling",
+        "evidence_id": "e1",
+        "quote": "super enhancers and are dynamically regulated in response to cellular signaling"
+      },
+      {
+        "item": "form domains of coordinately regulated enhancer RNAs",
+        "evidence_id": "e2",
+        "quote": "Inflammation-sensitive super enhancers form domains of coordinately regulated enhancer RNAs"
+      },
+      {
+        "item": "associated with genes specifying cell type identity and function",
+        "evidence_id": "e3",
+        "quote": "expression of genes that specify cell type identity and function is associated with densely spaced clusters of active enhancers known as super-enhancers"
+      },
+      {
+        "item": "densely spaced clusters of active enhancers",
+        "evidence_id": "e3",
+        "quote": "expression of genes that specify cell type identity and function is associated with densely spaced clusters of active enhancers known as super-enhancers"
+      },
+      {
+        "item": "influenced by higher-order genomic organization",
+        "evidence_id": "e3",
+        "quote": "The functions of enhancers and super-enhancers are influenced by, and affect, higher-order genomic organization"
+      },
+      {
+        "item": "affect higher-order genomic organization",
+        "evidence_id": "e3",
+        "quote": "The functions of enhancers and super-enhancers are influenced by, and affect, higher-order genomic organization"
+      },
+      {
+        "item": "defined by magnitude of size",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery, super-enhancers"
+      },
+      {
+        "item": "defined by transcription factor density",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery, super-enhancers"
+      },
+      {
+        "item": "defined by binding of transcriptional machinery",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery, super-enhancers"
+      },
+      {
+        "item": "associated with genes driving cell differentiation",
+        "evidence_id": "e4",
+        "quote": "super-enhancers have been associated with genes driving cell differentiation"
+      },
+      {
+        "item": "involved in cancers",
+        "evidence_id": "e5",
+        "quote": "super-enhancer involvement in cancers, complex diseases, and developmental disorders"
+      },
+      {
+        "item": "involved in complex diseases",
+        "evidence_id": "e5",
+        "quote": "super-enhancer involvement in cancers, complex diseases, and developmental disorders"
+      },
+      {
+        "item": "involved in developmental disorders",
+        "evidence_id": "e5",
+        "quote": "super-enhancer involvement in cancers, complex diseases, and developmental disorders"
+      },
+      {
+        "item": "interact with cofactors",
+        "evidence_id": "e5",
+        "quote": "interactions between super-enhancers and cofactors/chromatin regulators"
+      },
+      {
+        "item": "interact with chromatin regulators",
+        "evidence_id": "e5",
+        "quote": "interactions between super-enhancers and cofactors/chromatin regulators"
+      },
+      {
+        "item": "groups of putative enhancers in close genomic proximity",
+        "evidence_id": "e6",
+        "quote": "The term 'super-enhancer' has been used to describe groups of putative enhancers in close genomic proximity"
+      },
+      {
+        "item": "unusually high levels of Mediator binding",
+        "evidence_id": "e6",
+        "quote": "groups of putative enhancers in close genomic proximity with unusually high levels of Mediator binding"
+      },
+      {
+        "item": "useful in identifying regulatory elements controlling genes important for cell type specification",
+        "evidence_id": "e7",
+        "quote": "the super-enhancer definition is useful in identifying regulatory elements likely to control genes important for cell type specification"
+      },
+      {
+        "item": "also known as stretch-enhancers",
+        "evidence_id": "e8",
+        "quote": "Super-enhancers (SEs), also known as stretch-enhancers, are a subset of enhancers"
+      },
+      {
+        "item": "subset of enhancers especially important for genes associated with cell identity",
+        "evidence_id": "e8",
+        "quote": "especially important for genes associated with cell identity and genetic risk of disease"
+      },
+      {
+        "item": "subset of enhancers especially important for genes associated with genetic risk of disease",
+        "evidence_id": "e8",
+        "quote": "especially important for genes associated with cell identity and genetic risk of disease"
+      },
+      {
+        "item": "drive expression of genes playing prominent roles in normal cells",
+        "evidence_id": "e9",
+        "quote": "Super-enhancers and stretch enhancers (SEs) drive expression of genes that play prominent roles in normal and disease cells"
+      },
+      {
+        "item": "drive expression of genes playing prominent roles in disease cells",
+        "evidence_id": "e9",
+        "quote": "Super-enhancers and stretch enhancers (SEs) drive expression of genes that play prominent roles in normal and disease cells"
+      },
+      {
+        "item": "provide a platform for signaling pathways to regulate genes controlling cell identity during development",
+        "evidence_id": "e10",
+        "quote": "Super-enhancers thus provide a platform for signaling pathways to regulate genes that control cell identity during development and tumorigenesis"
+      },
+      {
+        "item": "provide a platform for signaling pathways to regulate genes controlling cell identity during tumorigenesis",
+        "evidence_id": "e10",
+        "quote": "Super-enhancers thus provide a platform for signaling pathways to regulate genes that control cell identity during development and tumorigenesis"
+      },
+      {
+        "item": "underlie identity of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "underlie lineage commitment of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "underlie plasticity of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "undergo remodelling upon lineage progression",
+        "evidence_id": "e12",
+        "quote": "super-enhancers and their dense clusters ('epicentres') of transcription factor binding sites undergo remodelling upon lineage progression"
+      },
+      {
+        "item": "consist of dense clusters of transcription factor binding sites",
+        "evidence_id": "e12",
+        "quote": "super-enhancers and their dense clusters ('epicentres') of transcription factor binding sites undergo remodelling upon lineage progression"
+      },
+      {
+        "item": "decommissioned to acquire new fate",
+        "evidence_id": "e13",
+        "quote": "New fate is acquired by decommissioning old and establishing new super-enhancers and/or epicentres, an auto-regulatory process"
+      },
+      {
+        "item": "established to acquire new fate",
+        "evidence_id": "e13",
+        "quote": "New fate is acquired by decommissioning old and establishing new super-enhancers and/or epicentres, an auto-regulatory process"
+      },
+      {
+        "item": "auto-regulatory process abating one master regulator subset while enhancing another",
+        "evidence_id": "e13",
+        "quote": "New fate is acquired by decommissioning old and establishing new super-enhancers and/or epicentres, an auto-regulatory process"
+      },
+      {
+        "item": "dynamic dense transcription-factor-binding platforms",
+        "evidence_id": "e14",
+        "quote": "super-enhancers are dynamic, dense transcription-factor-binding platforms"
+      },
+      {
+        "item": "acutely sensitive to pioneer master regulators",
+        "evidence_id": "e14",
+        "quote": "which are acutely sensitive to pioneer master regulators"
+      },
+      {
+        "item": "define spatial features of lineage-status",
+        "evidence_id": "e15",
+        "quote": "hotspots are highly enriched in large super-enhancer regions (several kilobases)"
+      },
+      {
+        "item": "define temporal features of lineage-status",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "define stemness",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "define plasticity in transitional states",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "define differentiation",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "highly enriched in large super-enhancer regions",
+        "evidence_id": "e15",
+        "quote": "hotspots are highly enriched in large super-enhancer regions (several kilobases)"
+      },
+      {
+        "item": "drive early adipogenic reprogramming of gene expression",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "constitute important regulatory hubs",
+        "evidence_id": "e16",
+        "quote": "serve to integrate external stimuli on chromatin"
+      },
+      {
+        "item": "serve to integrate external stimuli on chromatin",
+        "evidence_id": "e16",
+        "quote": "serve to integrate external stimuli on chromatin"
+      },
+      {
+        "item": "consist of clusters of enhancers densely occupied by master regulators",
+        "evidence_id": "e17",
+        "quote": "clusters of enhancers that are densely occupied by the master regulators and Mediator"
+      },
+      {
+        "item": "differ from typical enhancers in size",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "differ from typical enhancers in transcription factor density",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "differ from typical enhancers in content",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "differ from typical enhancers in ability to activate transcription",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "differ from typical enhancers in sensitivity to perturbation",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "play key roles in control of mammalian cell identity",
+        "evidence_id": "e19",
+        "quote": "Super-enhancers thus play key roles in the control of mammalian cell identity"
+      },
+      {
+        "item": "large clusters of transcriptional enhancers",
+        "evidence_id": "e20",
+        "quote": "Super-enhancers are large clusters of transcriptional enhancers"
+      },
+      {
+        "item": "highly transcribed",
+        "evidence_id": "e21",
+        "quote": "evidence that super-enhancers are highly transcribed"
+      },
+      {
+        "item": "occupied by transcription factors",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by cofactors",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by chromatin regulators",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by transcription apparatus",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "directed by NF-κB in inflammation",
+        "evidence_id": "e23",
+        "quote": "NF-κB directs dynamic super enhancer formation in inflammation and atherogenesis"
+      },
+      {
+        "item": "directed by NF-κB in atherogenesis",
+        "evidence_id": "e23",
+        "quote": "NF-κB directs dynamic super enhancer formation in inflammation and atherogenesis"
+      },
+      {
+        "item": "governed by pioneer factors in stem cell plasticity",
+        "evidence_id": "e24",
+        "quote": "Pioneer factors govern super-enhancer dynamics in stem cell plasticity and lineage choice"
+      },
+      {
+        "item": "governed by pioneer factors in lineage choice",
+        "evidence_id": "e24",
+        "quote": "Pioneer factors govern super-enhancer dynamics in stem cell plasticity and lineage choice"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Qwen extraction and relevance annotations are fallible.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 61,
+      "fn": 3,
+      "precision": 0.016129032258064516,
+      "recall": 0.25,
+      "f1": 0.030303030303030304
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "extensively transcribed enhancer RNAs",
+      "dynamically regulated in response to cellular signaling",
+      "form domains of coordinately regulated enhancer RNAs",
+      "associated with genes specifying cell type identity and function",
+      "densely spaced clusters of active enhancers",
+      "influenced by higher-order genomic organization",
+      "affect higher-order genomic organization",
+      "defined by magnitude of size",
+      "defined by transcription factor density",
+      "defined by binding of transcriptional machinery",
+      "associated with genes driving cell differentiation",
+      "involved in cancers",
+      "involved in complex diseases",
+      "involved in developmental disorders",
+      "interact with cofactors",
+      "interact with chromatin regulators",
+      "groups of putative enhancers in close genomic proximity",
+      "unusually high levels of Mediator binding",
+      "useful in identifying regulatory elements controlling genes important for cell type specification",
+      "also known as stretch-enhancers",
+      "subset of enhancers especially important for genes associated with cell identity",
+      "subset of enhancers especially important for genes associated with genetic risk of disease",
+      "drive expression of genes playing prominent roles in normal cells",
+      "drive expression of genes playing prominent roles in disease cells",
+      "provide a platform for signaling pathways to regulate genes controlling cell identity during development",
+      "provide a platform for signaling pathways to regulate genes controlling cell identity during tumorigenesis",
+      "underlie identity of adult stem cells in vivo",
+      "underlie lineage commitment of adult stem cells in vivo",
+      "underlie plasticity of adult stem cells in vivo",
+      "undergo remodelling upon lineage progression",
+      "consist of dense clusters of transcription factor binding sites",
+      "decommissioned to acquire new fate",
+      "established to acquire new fate",
+      "auto-regulatory process abating one master regulator subset while enhancing another",
+      "dynamic dense transcription-factor-binding platforms",
+      "acutely sensitive to pioneer master regulators",
+      "define spatial features of lineage-status",
+      "define temporal features of lineage-status",
+      "define stemness",
+      "define plasticity in transitional states",
+      "define differentiation",
+      "highly enriched in large super-enhancer regions",
+      "drive early adipogenic reprogramming of gene expression",
+      "constitute important regulatory hubs",
+      "serve to integrate external stimuli on chromatin",
+      "consist of clusters of enhancers densely occupied by master regulators",
+      "differ from typical enhancers in size",
+      "differ from typical enhancers in transcription factor density",
+      "differ from typical enhancers in content",
+      "differ from typical enhancers in ability to activate transcription",
+      "differ from typical enhancers in sensitivity to perturbation",
+      "play key roles in control of mammalian cell identity",
+      "large clusters of transcriptional enhancers",
+      "highly transcribed",
+      "occupied by transcription factors",
+      "occupied by cofactors",
+      "occupied by chromatin regulators",
+      "occupied by transcription apparatus",
+      "directed by NF-κB in inflammation",
+      "directed by NF-κB in atherogenesis",
+      "governed by pioneer factors in stem cell plasticity",
+      "governed by pioneer factors in lineage choice"
+    ],
+    "supports": [
+      {
+        "item": "extensively transcribed enhancer RNAs",
+        "evidence_id": "e1",
+        "quote": "enhancer RNAs (eRNAs) identified by global nuclear run-on sequencing are extensively transcribed within super enhancers"
+      },
+      {
+        "item": "dynamically regulated in response to cellular signaling",
+        "evidence_id": "e1",
+        "quote": "super enhancers and are dynamically regulated in response to cellular signaling"
+      },
+      {
+        "item": "form domains of coordinately regulated enhancer RNAs",
+        "evidence_id": "e2",
+        "quote": "Inflammation-sensitive super enhancers form domains of coordinately regulated enhancer RNAs"
+      },
+      {
+        "item": "associated with genes specifying cell type identity and function",
+        "evidence_id": "e3",
+        "quote": "expression of genes that specify cell type identity and function is associated with densely spaced clusters of active enhancers known as super-enhancers"
+      },
+      {
+        "item": "densely spaced clusters of active enhancers",
+        "evidence_id": "e3",
+        "quote": "expression of genes that specify cell type identity and function is associated with densely spaced clusters of active enhancers known as super-enhancers"
+      },
+      {
+        "item": "influenced by higher-order genomic organization",
+        "evidence_id": "e3",
+        "quote": "The functions of enhancers and super-enhancers are influenced by, and affect, higher-order genomic organization"
+      },
+      {
+        "item": "affect higher-order genomic organization",
+        "evidence_id": "e3",
+        "quote": "The functions of enhancers and super-enhancers are influenced by, and affect, higher-order genomic organization"
+      },
+      {
+        "item": "defined by magnitude of size",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery, super-enhancers"
+      },
+      {
+        "item": "defined by transcription factor density",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery, super-enhancers"
+      },
+      {
+        "item": "defined by binding of transcriptional machinery",
+        "evidence_id": "e4",
+        "quote": "Defined by their magnitude of size, transcription factor density, and binding of transcriptional machinery, super-enhancers"
+      },
+      {
+        "item": "associated with genes driving cell differentiation",
+        "evidence_id": "e4",
+        "quote": "super-enhancers have been associated with genes driving cell differentiation"
+      },
+      {
+        "item": "involved in cancers",
+        "evidence_id": "e5",
+        "quote": "super-enhancer involvement in cancers, complex diseases, and developmental disorders"
+      },
+      {
+        "item": "involved in complex diseases",
+        "evidence_id": "e5",
+        "quote": "super-enhancer involvement in cancers, complex diseases, and developmental disorders"
+      },
+      {
+        "item": "involved in developmental disorders",
+        "evidence_id": "e5",
+        "quote": "super-enhancer involvement in cancers, complex diseases, and developmental disorders"
+      },
+      {
+        "item": "interact with cofactors",
+        "evidence_id": "e5",
+        "quote": "interactions between super-enhancers and cofactors/chromatin regulators"
+      },
+      {
+        "item": "interact with chromatin regulators",
+        "evidence_id": "e5",
+        "quote": "interactions between super-enhancers and cofactors/chromatin regulators"
+      },
+      {
+        "item": "groups of putative enhancers in close genomic proximity",
+        "evidence_id": "e6",
+        "quote": "The term 'super-enhancer' has been used to describe groups of putative enhancers in close genomic proximity"
+      },
+      {
+        "item": "unusually high levels of Mediator binding",
+        "evidence_id": "e6",
+        "quote": "groups of putative enhancers in close genomic proximity with unusually high levels of Mediator binding"
+      },
+      {
+        "item": "useful in identifying regulatory elements controlling genes important for cell type specification",
+        "evidence_id": "e7",
+        "quote": "the super-enhancer definition is useful in identifying regulatory elements likely to control genes important for cell type specification"
+      },
+      {
+        "item": "also known as stretch-enhancers",
+        "evidence_id": "e8",
+        "quote": "Super-enhancers (SEs), also known as stretch-enhancers, are a subset of enhancers"
+      },
+      {
+        "item": "subset of enhancers especially important for genes associated with cell identity",
+        "evidence_id": "e8",
+        "quote": "especially important for genes associated with cell identity and genetic risk of disease"
+      },
+      {
+        "item": "subset of enhancers especially important for genes associated with genetic risk of disease",
+        "evidence_id": "e8",
+        "quote": "especially important for genes associated with cell identity and genetic risk of disease"
+      },
+      {
+        "item": "drive expression of genes playing prominent roles in normal cells",
+        "evidence_id": "e9",
+        "quote": "Super-enhancers and stretch enhancers (SEs) drive expression of genes that play prominent roles in normal and disease cells"
+      },
+      {
+        "item": "drive expression of genes playing prominent roles in disease cells",
+        "evidence_id": "e9",
+        "quote": "Super-enhancers and stretch enhancers (SEs) drive expression of genes that play prominent roles in normal and disease cells"
+      },
+      {
+        "item": "provide a platform for signaling pathways to regulate genes controlling cell identity during development",
+        "evidence_id": "e10",
+        "quote": "Super-enhancers thus provide a platform for signaling pathways to regulate genes that control cell identity during development and tumorigenesis"
+      },
+      {
+        "item": "provide a platform for signaling pathways to regulate genes controlling cell identity during tumorigenesis",
+        "evidence_id": "e10",
+        "quote": "Super-enhancers thus provide a platform for signaling pathways to regulate genes that control cell identity during development and tumorigenesis"
+      },
+      {
+        "item": "underlie identity of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "underlie lineage commitment of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "underlie plasticity of adult stem cells in vivo",
+        "evidence_id": "e11",
+        "quote": "super-enhancers underlie the identity, lineage commitment and plasticity of adult stem cells in vivo"
+      },
+      {
+        "item": "undergo remodelling upon lineage progression",
+        "evidence_id": "e12",
+        "quote": "super-enhancers and their dense clusters ('epicentres') of transcription factor binding sites undergo remodelling upon lineage progression"
+      },
+      {
+        "item": "consist of dense clusters of transcription factor binding sites",
+        "evidence_id": "e12",
+        "quote": "super-enhancers and their dense clusters ('epicentres') of transcription factor binding sites undergo remodelling upon lineage progression"
+      },
+      {
+        "item": "decommissioned to acquire new fate",
+        "evidence_id": "e13",
+        "quote": "New fate is acquired by decommissioning old and establishing new super-enhancers and/or epicentres, an auto-regulatory process"
+      },
+      {
+        "item": "established to acquire new fate",
+        "evidence_id": "e13",
+        "quote": "New fate is acquired by decommissioning old and establishing new super-enhancers and/or epicentres, an auto-regulatory process"
+      },
+      {
+        "item": "auto-regulatory process abating one master regulator subset while enhancing another",
+        "evidence_id": "e13",
+        "quote": "New fate is acquired by decommissioning old and establishing new super-enhancers and/or epicentres, an auto-regulatory process"
+      },
+      {
+        "item": "dynamic dense transcription-factor-binding platforms",
+        "evidence_id": "e14",
+        "quote": "super-enhancers are dynamic, dense transcription-factor-binding platforms"
+      },
+      {
+        "item": "acutely sensitive to pioneer master regulators",
+        "evidence_id": "e14",
+        "quote": "which are acutely sensitive to pioneer master regulators"
+      },
+      {
+        "item": "define spatial features of lineage-status",
+        "evidence_id": "e15",
+        "quote": "hotspots are highly enriched in large super-enhancer regions (several kilobases)"
+      },
+      {
+        "item": "define temporal features of lineage-status",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "define stemness",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "define plasticity in transitional states",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "define differentiation",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "highly enriched in large super-enhancer regions",
+        "evidence_id": "e15",
+        "quote": "hotspots are highly enriched in large super-enhancer regions (several kilobases)"
+      },
+      {
+        "item": "drive early adipogenic reprogramming of gene expression",
+        "evidence_id": "e15",
+        "quote": "large super-enhancer regions (several kilobases), which drive the early adipogenic reprogramming of gene expression"
+      },
+      {
+        "item": "constitute important regulatory hubs",
+        "evidence_id": "e16",
+        "quote": "serve to integrate external stimuli on chromatin"
+      },
+      {
+        "item": "serve to integrate external stimuli on chromatin",
+        "evidence_id": "e16",
+        "quote": "serve to integrate external stimuli on chromatin"
+      },
+      {
+        "item": "consist of clusters of enhancers densely occupied by master regulators",
+        "evidence_id": "e17",
+        "quote": "clusters of enhancers that are densely occupied by the master regulators and Mediator"
+      },
+      {
+        "item": "differ from typical enhancers in size",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "differ from typical enhancers in transcription factor density",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "differ from typical enhancers in content",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "differ from typical enhancers in ability to activate transcription",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "differ from typical enhancers in sensitivity to perturbation",
+        "evidence_id": "e18",
+        "quote": "Super-enhancers differ from typical enhancers in size, transcription factor density and content, ability to activate transcription, and sensitivity to perturbation"
+      },
+      {
+        "item": "play key roles in control of mammalian cell identity",
+        "evidence_id": "e19",
+        "quote": "Super-enhancers thus play key roles in the control of mammalian cell identity"
+      },
+      {
+        "item": "large clusters of transcriptional enhancers",
+        "evidence_id": "e20",
+        "quote": "Super-enhancers are large clusters of transcriptional enhancers"
+      },
+      {
+        "item": "highly transcribed",
+        "evidence_id": "e21",
+        "quote": "evidence that super-enhancers are highly transcribed"
+      },
+      {
+        "item": "occupied by transcription factors",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by cofactors",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by chromatin regulators",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "occupied by transcription apparatus",
+        "evidence_id": "e21",
+        "quote": "population of transcription factors, cofactors, chromatin regulators, and transcription apparatus occupying super-enhancers"
+      },
+      {
+        "item": "directed by NF-κB in inflammation",
+        "evidence_id": "e23",
+        "quote": "NF-κB directs dynamic super enhancer formation in inflammation and atherogenesis"
+      },
+      {
+        "item": "directed by NF-κB in atherogenesis",
+        "evidence_id": "e23",
+        "quote": "NF-κB directs dynamic super enhancer formation in inflammation and atherogenesis"
+      },
+      {
+        "item": "governed by pioneer factors in stem cell plasticity",
+        "evidence_id": "e24",
+        "quote": "Pioneer factors govern super-enhancer dynamics in stem cell plasticity and lineage choice"
+      },
+      {
+        "item": "governed by pioneer factors in lineage choice",
+        "evidence_id": "e24",
+        "quote": "Pioneer factors govern super-enhancer dynamics in stem cell plasticity and lineage choice"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Qwen extraction and relevance annotations are fallible.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 61,
+      "fn": 3,
+      "precision": 0.016129032258064516,
+      "recall": 0.25,
+      "f1": 0.030303030303030304
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23582322",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24119843",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24857652",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25263595",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25547603",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25564661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25650801",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25686607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25799994",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25801169",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26569311"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/56c344abfedd0b786b000003/attempt_0"
+}

@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "scope": "all 1130 BioASQ list questions, provided snippets, retrospective source-group split",
+  "source_manifest": {
+    "source_sha256": "5669afbc0bbc8f50d54850edb4aa592ecff3e38b29b09ac6684bb52990b651b7",
+    "scope": "list",
+    "total": 1130,
+    "partitions": {
+      "development_seen": {
+        "total": 10,
+        "types": {
+          "list": 10
+        }
+      },
+      "discovery": {
+        "total": 231,
+        "types": {
+          "list": 231
+        }
+      },
+      "admission": {
+        "total": 202,
+        "types": {
+          "list": 202
+        }
+      },
+      "evaluation": {
+        "total": 687,
+        "types": {
+          "list": 687
+        }
+      }
+    },
+    "seed": "formal-v1-20261106",
+    "all_source_items_included": true,
+    "support_based_exclusions": 0,
+    "token_length_exclusions": 0,
+    "partition_method": "Question/paper-identifier connected groups across all types, fixed SHA256 buckets 20/20/60, with previously used connected groups assigned to development_seen.",
+    "data_status": "Retrospective partition of a provided training corpus after offline audit, not official BioASQ test and not a previously untouched blind set.",
+    "reference_visibility": "Only references.json contains exact/ideal labels; never send to models.",
+    "limitations": [
+      "Canonical identifiers do not resolve every PMID/PMCID/DOI equivalence.",
+      "All ineligible and failed items must remain in reporting denominators.",
+      "Models may have pretrained on public data; no contamination-free claim."
+    ]
+  },
+  "dataset_files_sha256": {
+    "admission/references.json": "50b82e284e8e16d12ff460c39727b549cb57332f94cad34195e3fc5cf3fabb8b",
+    "admission/tasks.json": "cb69d16ed5305911f45bc29980c68b8acd99455e2088540df614221c2b3aa357",
+    "development_seen/references.json": "a23cde856be4e554a3e5308850c016cc4646c2d4fc3059dc76a439ab641208b5",
+    "development_seen/tasks.json": "005bfc92a5878328545566d75796ffd0921622e0d32f76e18fda116419ec0bc1",
+    "discovery/references.json": "3d13cd0711b8cbabf4f29e0faf5f48d3110c191f2585357ecfa88558a207a3e0",
+    "discovery/tasks.json": "4ea6f6eae9cd901c11130c60ae1924484a90da6c5794ebd8b6cbcb15c2ecc9f2",
+    "evaluation/references.json": "4e07513ebe97455e7cd225090e82fffe73412e9d7b1f89926369900ee8b2e802",
+    "evaluation/tasks.json": "dac975ea7c13a35cf54269a0f448746dd1618c85ef9ac32d8060cf76786f6e1a",
+    "manifest.json": "589be1ca7a46fcd34e2096fa27554a5a34739f2da833c9c48ede6cac0ed5f222",
+    "references.json": "cc84d1695c60235525ae41c14f6abe79223fa58f15baba66a37fd10bae998f45",
+    "tasks.json": "1c866ada5fee88d0ee2bc10d853405d5cb071ee17ab432a6be071dc22a0c4a29"
+  },
+  "group_partitions_sha256": "8e3485e6ebd303a6bdb69a5d5138a54246a747806b9e31e4254bd7dac3bb60a7",
+  "code_sha256": {
+    "run_formal_list.py": "01fc1cd3cb68a10987c9a115b574802dd4736cfa8dd9e65680584661026724c4",
+    "formal_list_metrics.py": "7129d9d031b1428c971bc3b4f8e1910b2a3d5edb5e77eddc12487c0fa9568523",
+    "autonomous_evolution.py": "190a496ab22e6ca6badfbd690d32fd1670038e644581377d75c99f346a5da8e4",
+    "evolve_tool.py": "8b7e3a77ec2f7791f04ef8c2156c9b38f377bf85b6852af196d01414e09c78c1",
+    "runtime_tools.py": "d2f0ad8a87aede9e3f0baae15295e98fc0b08ffc14959d622561281f6114d41e",
+    "sandbox_tool_entry.py": "233905b3b8c77aca0580807d033c39d259b97c05cc0995f54765f0ccabf2b557",
+    "model_service.py": "1ac95cdf10272bfe355bf2a57dcb782874a17209526a163bbacf8c2e09afbb46",
+    "test_entity_union.py": "4e414727cc1ed42470346bbad3ba43860ff10244b1b02bbd85d1c6b35281e324",
+    "test_literal_quote_audit.py": "16f89012e2fc8d92c31ca63f7383d620ba1a702f2e8529acbea6660fdcc4cb84"
+  },
+  "evaluator_revision": "8c8e689068a41c1370fec55260e5fbfe3a6a6016",
+  "evaluator_jar_sha256": "40321d159d9770b42724967d9d401993d9c5bd052abf4d90da18e483472fa539",
+  "models": {
+    "qa": "Qwen3.5-27B-Q4_K_M",
+    "builder": "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M"
+  },
+  "seed": 20261106,
+  "initial_quote_tool": {
+    "manifest_sha256": "f1ef8c3119bd5fa4edf3e13e4f3c15bf5324d122ac3f01d3522137685a569c2b",
+    "source_sha256": "0c9f06a71939916c0d85c7d73c26ea67b725444352cf037ca1283c95c664f6cc",
+    "test_report_sha256": "dd23dfe645a761544d56982ce8ffb4b027e9aab2e1765fc5b20e1edb36e617d8"
+  },
+  "contracts_sha256": "2f931d60fab1756ac09f25dfd72f52a61276e6d446780f81a857a6419942877a",
+  "llama_cpp_revision": "9c9074e14e029a16fc3298e6bc6a3ef00a0b9c11",
+  "model_sha256_from_existing_deployment_record": {
+    "qa": "81657841d62f1821c748d0fea6c260b7d3508844fe4e9250253ef81c4e4d9edf",
+    "builder": "f6050b4da22869aa3fb9d94bb3314e9fc5a027d4741c1f97761c387d6b2b2335",
+    "verification": "recorded at deployment; not rehashed for this launch"
+  },
+  "temperature": 0.2,
+  "context": 16384,
+  "prompt_margin_tokens": 256,
+  "max_main_qa_generation_calls": 20000,
+  "max_builder_child_generation_calls": 5,
+  "phases": [
+    "development_seen descriptive only",
+    "discovery baseline/shared-observation arms and bounded proposal",
+    "admission fixed candidate comparison",
+    "freeze registry",
+    "evaluation with no updates"
+  ],
+  "arms": [
+    "direct_QA",
+    "same_observation_LLM",
+    "trusted_aggregation",
+    "frozen_evolved_or_LLM_fallback"
+  ],
+  "generation_caps": {
+    "direct": 1536,
+    "extract": 2048,
+    "aggregate": 3072,
+    "manager": 3072,
+    "builder_repairs": 2,
+    "discovery_manager_tasks": 20,
+    "new_candidates": 1
+  },
+  "failure_policy": "Every item retained; format/context/task-tool errors yield explicit status and empty prediction scored zero. Any failed extraction chunk makes shared-observation arms empty; raw partial output remains for diagnostics. At most one identical format retry per operation, counted. Infrastructure HTTP/connection failures halt the study for checkpoint resume instead of sweeping remaining questions as wrong.",
+  "chunking": "At most 3 snippets and 12000 source characters per extraction request; long snippets split into 12000-character overlapping segments, original evidence IDs retained. Full originals remain for quote checking.",
+  "submission_renderer": "Same for trusted/generated aggregation: first 100 normalized distinct answer items, excluding >512-character display names. Raw unbounded tool output retained. Offline adaptation: supplied labels reach 230 characters, so the competition's 100-character answer cap is not applied.",
+  "known_reference_format_issue": {
+    "questions_with_only_over100_alias_group": 21,
+    "groups_with_only_over100_aliases": 31,
+    "max_reference_item_characters": 230,
+    "max_reference_groups": 42
+  },
+  "admission_rule": {
+    "mean_f1_gain": ">0 versus same-observation LLM",
+    "max_regressions": 0,
+    "weighted_sign_alpha": 0.05,
+    "regression_weight": 2,
+    "execution_failures": 0
+  },
+  "primary_metric": "Pinned BioASQ Java evaluator mean list F1 on all evaluation questions; local exact lowercased one-to-one alias P/R/F1 for per-item diagnostics",
+  "secondary": [
+    "macro precision/recall",
+    "complete-list rate",
+    "failures",
+    "support-eligible strata",
+    "quote integrity",
+    "cost by phase/role including failures",
+    "paired F1 difference 95% percentile CI with 2000 source-group bootstrap replicates, seed 20261106"
+  ],
+  "reference_policy": "Exact/ideal answers stay offline. Manager receives redacted eligibility/completeness; Coder receives generic contract and synthetic tests.",
+  "resume_policy": "Only this run's hash-matched completed operations; no old development answers, observations, Manager plans or candidates imported.",
+  "interpretation": [
+    "No clinical correctness claim",
+    "Training corpus, not official blind BioASQ test",
+    "Official evaluator used offline with 512-character item cap adapted to this source; not a valid competition submission claim",
+    "Previously accessed source groups are not primary evaluation",
+    "Single prespecified run; no multiple-seed robustness claim",
+    "Two predefined contracts; no arbitrary new tool types",
+    "No new-paper migration experiment",
+    "All source items remain, even unsupported/long/failed cases",
+    "Direct QA and chunk-reading arms have unequal compute; causal comparisons use shared observations"
+  ]
+}

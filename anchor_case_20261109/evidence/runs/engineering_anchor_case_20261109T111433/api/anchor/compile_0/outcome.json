@@ -1,0 +1,143 @@
+{
+  "status": "ok",
+  "parsed": {
+    "operation": {
+      "name": "diagnose_unicode_span_misalignment",
+      "description": "Generic Unicode-aware quote alignment with exact original source offsets.",
+      "when_to_use": "When quoted snippets need exact original-source coordinates and all occurrences.",
+      "limitations": "Literal source-span alignment only; not semantic support or medical inference.",
+      "code_contract": {
+        "input_schema": {
+          "type": "object",
+          "properties": {
+            "sources": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "source_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "source_id",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 20
+            },
+            "queries": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "query_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "query_id",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 30
+            }
+          },
+          "required": [
+            "sources",
+            "queries"
+          ],
+          "additionalProperties": false
+        },
+        "output_schema": {
+          "type": "object",
+          "properties": {
+            "queries": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "query_id": {
+                    "type": "string",
+                    "maxLength": 200
+                  },
+                  "matches": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "properties": {},
+                      "source_id": {},
+                      "maxLength": 200
+                    },
+                    "start": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "end": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "quote": {
+                      "type": "string",
+                      "maxLength": 2000
+                    }
+                  },
+                  "required": [
+                    "source_id",
+                    "start",
+                    "end",
+                    "quote"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 200
+              }
+            },
+            "required": [
+              "query_id",
+              "matches"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 30
+        },
+        "algorithm": "1. Validate input: reject if sources/queries missing, IDs duplicate/empty, or query text empty/whitespace-only. 2. For each source, generate a normalized string by iterating original code points, applying unicodedata.normalize('NFKC', char).casefold(), concatenating, and collapsing consecutive whitespace to single ASCII space. 3. For each query, generate a normalized string using the same rule. 4. For each query, search the normalized source string for all occurrences (including overlaps) of the normalized query. 5. For each match in the normalized string, map the normalized start index back to the original source code-point start index. 6. Calculate the original end index by adding the length of the original substring (derived from the original text slice) to the original start index. 7. Verify that original_text[start:end] exactly matches the query text (case-sensitive, original characters). 8. Collect valid matches, deduplicate by (source_id, start, end), and sort by source input order then ascending start. 9. Construct output preserving query input order; include unsupported_query_ids for queries with zero matches.",
+        "invariants": [
+          "IDs must be non-empty and unique within their respective lists.",
+          "Query text must not be empty or whitespace-only.",
+          "Normalization is applied per code-point then concatenated; no cross-boundary normalization.",
+          "Whitespace runs in normalized text are collapsed to exactly one ASCII space.",
+          "Matches must be exact substring matches in the normalized domain.",
+          "Original span [start, end) must yield a quote that exactly equals the original query text.",
+          "Output order is deterministic: queries in input order, matches sorted by source input order then ascending start.",
+          "Duplicate original spans are collapsed to a single entry.",
+          "No semantic inference or alias resolution is performed.",
+          "Map cycles or undefined terminal values are rejected via ValueError."
+        ],
+        "edge_cases": [
+          "Query text is empty or whitespace-only: reject with ValueError.",
+          "Source or query IDs are duplicate or empty: reject with ValueError.",
+          "No matches found for a query: include query_id in unsupported_query_ids with empty matches array.",
+          "Overlapping matches in normalized text: all valid original spans are reported.",
+          "Unicode normalization changes string length: mapping must account for original code-point indices, not normalized indices.",
+          "Casefold expansion (e.g., ß -> ss): partial hits inside expansion are rejected; only full normalized matches are accepted.",
+          "Whitespace collapse: multiple spaces in original become one in normalized; original span must reflect original whitespace.",
+          "Invalid types or extra keys in input: reject with ValueError.",
+          "Self-maps or cycles in alias logic: not applicable here as no aliasing is performed; if encountered in extended logic, reject with ValueError."
+        ]
+      },
+      "semantic_preprocessor": null
+    }
+  }
+}

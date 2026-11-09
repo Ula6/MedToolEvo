@@ -1,0 +1,147 @@
+{
+  "status": "ok",
+  "parsed": {
+    "approve": true,
+    "reason": "The provided inputs strictly adhere to the schema and logic constraints of the 'add_policy_filter_engine'. Input A tests 'source-scope isolation' by including eligible entries in a different scope that must be ignored, and 'explicit negative facts' via the 'none_of' clause. Input B tests the distinction between 'missing facts' and 'negative facts' by ensuring a group passes despite lacking a specific relation (which is not treated as negative), while failing a group that explicitly contains a forbidden negative fact. Both inputs use arbitrary A/B/R/S symbols, valid contiguous quotes, and avoid medical inference.",
+    "inputs": [
+      {
+        "payload": {
+          "evidence": [
+            {
+              "evidence_id": "E1",
+              "text": "Symbol A was observed in relation R1 with positive polarity."
+            },
+            {
+              "evidence_id": "E2",
+              "text": "Symbol B was observed in relation R2 with negative polarity."
+            },
+            {
+              "evidence_id": "E3",
+              "text": "Symbol C was observed in relation R1 with positive polarity."
+            }
+          ],
+          "entries": [
+            {
+              "name": "Entity_Alpha",
+              "group_id": "G1",
+              "evidence_id": "E1",
+              "quote": "Symbol A was observed in relation R1 with positive polarity.",
+              "eligible": true,
+              "relation": "R1",
+              "polarity": "positive",
+              "scope": "SCOPE_X"
+            },
+            {
+              "name": "Entity_Alpha",
+              "group_id": "G1",
+              "evidence_id": "E2",
+              "quote": "Symbol B was observed in relation R2 with negative polarity.",
+              "eligible": true,
+              "relation": "R2",
+              "polarity": "negative",
+              "scope": "SCOPE_X"
+            },
+            {
+              "name": "Entity_Beta",
+              "group_id": "G2",
+              "evidence_id": "E3",
+              "quote": "Symbol C was observed in relation R1 with positive polarity.",
+              "eligible": true,
+              "relation": "R1",
+              "polarity": "positive",
+              "scope": "SCOPE_Y"
+            }
+          ],
+          "policy": {
+            "scope": "SCOPE_X",
+            "all_of": [
+              {
+                "relation": "R1",
+                "polarity": "positive"
+              }
+            ],
+            "any_of": [],
+            "none_of": [
+              {
+                "relation": "R2",
+                "polarity": "negative"
+              }
+            ]
+          }
+        },
+        "coverage": "Tests scope isolation (G2 in SCOPE_Y ignored), explicit negative fact exclusion (G1 has R2/negative which is in none_of), and all_of requirement."
+      },
+      {
+        "payload": {
+          "evidence": [
+            {
+              "evidence_id": "E4",
+              "text": "Symbol S1 is present in relation R_A."
+            },
+            {
+              "evidence_id": "E5",
+              "text": "Symbol S2 is absent in relation R_B."
+            },
+            {
+              "evidence_id": "E6",
+              "text": "Symbol S3 is present in relation R_C."
+            }
+          ],
+          "entries": [
+            {
+              "name": "Group_Missing",
+              "group_id": "G3",
+              "evidence_id": "E4",
+              "quote": "Symbol S1 is present in relation R_A.",
+              "eligible": true,
+              "relation": "R_A",
+              "polarity": "positive",
+              "scope": "SCOPE_Z"
+            },
+            {
+              "name": "Group_ExplicitNeg",
+              "group_id": "G4",
+              "evidence_id": "E5",
+              "quote": "Symbol S2 is absent in relation R_B.",
+              "eligible": true,
+              "relation": "R_B",
+              "polarity": "negative",
+              "scope": "SCOPE_Z"
+            },
+            {
+              "name": "Group_ExplicitNeg",
+              "group_id": "G4",
+              "evidence_id": "E6",
+              "quote": "Symbol S3 is present in relation R_C.",
+              "eligible": true,
+              "relation": "R_C",
+              "polarity": "positive",
+              "scope": "SCOPE_Z"
+            }
+          ],
+          "policy": {
+            "scope": "SCOPE_Z",
+            "all_of": [],
+            "any_of": [
+              {
+                "relation": "R_A",
+                "polarity": "positive"
+              },
+              {
+                "relation": "R_B",
+                "polarity": "negative"
+              }
+            ],
+            "none_of": [
+              {
+                "relation": "R_B",
+                "polarity": "negative"
+              }
+            ]
+          }
+        },
+        "coverage": "Tests missing facts vs negative facts: G3 lacks R_B/negative (missing) but has R_A/positive, satisfying any_of and passing none_of. G4 has explicit R_B/negative, satisfying any_of but failing none_of. Validates that missing facts do not trigger exclusion."
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "source_id": "PMC11872689",
+      "text": "ication [17, 18, 26, 28]. Also, 27 were from a white ethnicity background [30], 48 were white European [29], and 23 were non‐Caucasian [27] (Table 1)."
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "control1",
+      "text": "white European"
+    }
+  ]
+}

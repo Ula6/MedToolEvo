@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "weighted_mean": 9.271921,
+    "weighted_population_variance": 1.738761,
+    "weighted_population_sd": 1.318621,
+    "weighted_geometric_mean": 9.187657
+  },
+  "source_rows": 12,
+  "source_parsers": [
+    "BeautifulSoup preparation",
+    "ElementTree independent replay"
+  ],
+  "reference_math": "Decimal60 precision, independently crosschecked against NumPy before baseline",
+  "policy": "Offline only, never supplied to baseline, Manager, Compiler or Builder"
+}

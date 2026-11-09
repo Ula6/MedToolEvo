@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\"pid\": 1894192, \"answers\": [{\"query_id\": \"q2\", \"result\": {\"entities\": [{\"name\": \"CR49\", \"evidence_ids\": [\"PMC11837447:g10\", \"PMC11837447:g12\"]}, {\"name\": \"CR50\", \"evidence_ids\": [\"PMC11837447:g10\", \"PMC11837447:g12\"]}], \"unique_entity_count\": 2}}, {\"query_id\": \"q11\", \"result\": {\"entities\": [], \"unique_entity_count\": 0}}]}\n",
+  "stderr": ""
+}

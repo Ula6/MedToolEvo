@@ -1,0 +1,6 @@
+{
+  "parent": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/evolved_add_policy_filter_engine_00a5aa6c_v005.py",
+  "parent_sha256": "558eee724c195f5d6165c5fb5736ef6b0cfb666b3faec0f8d1706f25ce0566aa",
+  "trigger": "independent_validation_failure",
+  "reference_answers_supplied": false
+}

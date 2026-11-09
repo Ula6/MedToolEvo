@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport json\nfrom typing import Dict, List, Any\n\ndef run(payload: dict) -> dict:\n    \"\"\"\n    Canonicalizes and filters entity records based on provided maps and keywords.\n    \n    This function processes a list of entity records, mapping aliases to canonical names,\n    filtering based on action and exclusion keywords, and merging evidence IDs and qualifiers\n    for entities with the same canonical name. It ensures deterministic output according to\n    the specification's invariants and edge cases.\n    \n    Limitations:\n        - Relies entirely on provided canonicalization map and keyword lists.\n        - Cannot infer relationships not explicitly stated in input records.\n        - Output order is preserved from input records, but grouped by canonical name.\n    \"\"\"\n    # Validate input structure\n    required_fields = [\"records\", \"canonicalization_map\", \"action_keywords\", \"exclusion_keywords\"]\n    for field in required_fields:\n        if field not in payload:\n            raise ValueError(f\"Missing required field: {field}\")\n    \n    records = payload[\"records\"]\n    canonicalization_map = payload[\"canonicalization_map\"]\n    action_keywords = payload[\"action_keywords\"]\n    exclusion_keywords = payload[\"exclusion_keywords\"]\n    \n    # Validate types\n    if not isinstance(records, list):\n        raise ValueError(\"records must be a list\")\n    if not isinstance(canonicalization_map, dict):\n        raise ValueError(\"canonicalization_map must be a dictionary\")\n    if not isinstance(action_keywords, list):\n        raise ValueError(\"action_keywords must be a list\")\n    if not isinstance(exclusion_keywords, list):\n        raise ValueError(\"exclusion_keywords must be a list\")\n    \n    # Initialize result structure\n    canonical_entities_dict: Dict[str, Any] = {}\n    \n    for record in records:\n        # Validate record structure\n        required_record_fields = [\"name\", \"relation\", \"evidence_id\"]\n        for field in required_record_fields:\n            if field not in record:\n                raise ValueError(f\"Record missing required field: {field}\")\n        \n        name = record[\"name\"]\n        aliases = record.get(\"aliases\", [])\n        relation = record[\"relation\"]\n        evidence_id = record[\"evidence_id\"]\n        qualifiers = record.get(\"qualifiers\", [])\n        \n        # Determine canonical name\n        canonical_name = None\n        if name in canonicalization_map:\n            canonical_name = canonicalization_map[name]\n        else:\n            # Check aliases for canonical mapping\n            for alias in aliases:\n                if alias in canonicalization_map:\n                    canonical_name = canonicalization_map[alias]\n                    break\n            \n            # If no mapping found, use lowercased and stripped name as key\n            if canonical_name is None:\n                canonical_name = name.lower().strip()\n        \n        # Check for action keywords in relation\n        has_action_keyword = any(keyword.lower() in relation.lower() for keyword in action_keywords)\n        \n        # Check for exclusion keywords in relation\n        has_exclusion_keyword = any(keyword.lower() in relation.lower() for keyword in exclusion_keywords)\n        \n        # Apply filtering logic: skip if no action keywords found\n        if not has_action_keyword:\n            continue\n        \n        # If we reach here, the record should be included (has action keywords)\n        if canonical_name not in canonical_entities_dict:\n            canonical_entities_dict[canonical_name] = {\n                \"canonical_name\": canonical_name,\n                \"aliases\": set(),\n                \"merged_evidence_ids\": [],\n                \"primary_relation\": None,\n                \"merged_qualifiers\": []\n            }\n        \n        entity = canonical_entities_dict[canonical_name]\n        \n        # Merge aliases (deduplicated) - only from the aliases field\n        for alias in aliases:\n            entity[\"aliases\"].add(alias)\n        \n        # Append evidence ID\n        entity[\"merged_evidence_ids\"].append(evidence_id)\n        \n        # Append qualifiers\n        entity[\"merged_qualifiers\"].extend(qualifiers)\n        \n        # Store first valid relation as primary_relation\n        if entity[\"primary_relation\"] is None:\n            entity[\"primary_relation\"] = relation\n    \n    # Convert set of aliases to list for output\n    result_list = []\n    for entity in canonical_entities_dict.values():\n        entity[\"aliases\"] = list(entity[\"aliases\"])\n        result_list.append(entity)\n    \n    return {\"canonical_entities\": result_list}\n```"
+      }
+    }
+  ],
+  "created": 1794214173,
+  "model": "medtool-builder",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 869,
+    "prompt_tokens": 5098,
+    "total_tokens": 5967,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-TLBz6KrH4VaipIGIf7FGZNFbuHpZIeua",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 5098,
+    "prompt_ms": 6823.055,
+    "prompt_per_token_ms": 1.3383787759905845,
+    "prompt_per_second": 747.1726374769072,
+    "predicted_n": 869,
+    "predicted_ms": 9568.91,
+    "predicted_per_token_ms": 11.024089861751152,
+    "predicted_per_second": 90.71043619388206
+  }
+}

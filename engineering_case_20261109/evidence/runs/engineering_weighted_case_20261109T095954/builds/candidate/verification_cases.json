@@ -1,0 +1,112 @@
+[
+  {
+    "input": {
+      "rows": [
+        {
+          "value": 2.0,
+          "weight": 1.0
+        },
+        {
+          "value": 8.0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "expected": {
+      "weighted_mean": 5.0,
+      "weighted_population_variance": 9.0,
+      "weighted_population_sd": 3.0,
+      "weighted_geometric_mean": 4.0
+    }
+  },
+  {
+    "input": {
+      "rows": [
+        {
+          "value": 10.0,
+          "weight": 5.0
+        }
+      ]
+    },
+    "expected": {
+      "weighted_mean": 10.0,
+      "weighted_population_variance": 0.0,
+      "weighted_population_sd": 0.0,
+      "weighted_geometric_mean": 10.0
+    }
+  },
+  {
+    "input": {
+      "rows": [
+        {
+          "value": 100.0,
+          "weight": 0.0
+        },
+        {
+          "value": 200.0,
+          "weight": 2.0
+        }
+      ]
+    },
+    "expected": {
+      "weighted_mean": 200.0,
+      "weighted_population_variance": 0.0,
+      "weighted_population_sd": 0.0,
+      "weighted_geometric_mean": 200.0
+    }
+  },
+  {
+    "input": {
+      "rows": []
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "rows": [
+        {
+          "value": "5.0",
+          "weight": 1.0
+        }
+      ]
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "rows": [
+        {
+          "value": 5.0,
+          "weight": -2.0
+        }
+      ]
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "rows": [
+        {
+          "value": 0.0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "expected_error": "ValueError"
+  },
+  {
+    "input": {
+      "rows": [
+        {
+          "value": 10.0,
+          "weight": 0.0
+        },
+        {
+          "value": 20.0,
+          "weight": 0.0
+        }
+      ]
+    },
+    "expected_error": "ValueError"
+  }
+]

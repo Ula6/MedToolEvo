@@ -1,0 +1,95 @@
+{
+  "records": [
+    {
+      "name": "Zanubrutinib",
+      "aliases": [],
+      "relation": "approved for treating",
+      "eligible": true,
+      "group": "Mantle Cell Lymphoma",
+      "qualifiers": [
+        "adults",
+        "received at least one prior therapy",
+        "United States"
+      ],
+      "evidence_id": "e1",
+      "quote": "In the United States, zanubrutinib, a next-generation BTK inhibitor, has been approved for treating adults with mantle cell lymphoma who have received at least one prior therapy"
+    },
+    {
+      "name": "Zanubrutinib",
+      "aliases": [],
+      "relation": "approved for treating",
+      "eligible": true,
+      "group": "Waldenström macroglobulinemia",
+      "qualifiers": [
+        "adults",
+        "United States"
+      ],
+      "evidence_id": "e1",
+      "quote": "for adults with Waldenström macroglobulinemia"
+    },
+    {
+      "name": "Zanubrutinib",
+      "aliases": [],
+      "relation": "approved for treating",
+      "eligible": true,
+      "group": "Marginal zone lymphoma",
+      "qualifiers": [
+        "adults",
+        "relapsed or refractory",
+        "received at least one anti-CD20-based therapy",
+        "United States"
+      ],
+      "evidence_id": "e1",
+      "quote": "for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+    },
+    {
+      "name": "Zanubrutinib",
+      "aliases": [],
+      "relation": "approved for use for treatment of",
+      "eligible": true,
+      "group": "MCL",
+      "qualifiers": [
+        "adult patients",
+        "received at least one prior therapy"
+      ],
+      "evidence_id": "e2",
+      "quote": "Zanubrutinib is currently approved for use for treatment of adult patients with MCL who have received at least one prior therapy"
+    },
+    {
+      "name": "Zanubrutinib",
+      "aliases": [],
+      "relation": "approved for use for treatment of",
+      "eligible": true,
+      "group": "WM",
+      "qualifiers": [
+        "adults"
+      ],
+      "evidence_id": "e2",
+      "quote": "for adults with WM"
+    },
+    {
+      "name": "Zanubrutinib",
+      "aliases": [],
+      "relation": "approved for use for treatment of",
+      "eligible": true,
+      "group": "MZL",
+      "qualifiers": [
+        "adults",
+        "received at least one anti-CD20-based therapy"
+      ],
+      "evidence_id": "e2",
+      "quote": "for adults with MZL who have received at least one anti-CD20-based therapy"
+    }
+  ],
+  "coverage": {
+    "batches": 1,
+    "failed_batches": [],
+    "all_source_evidence_ids": [
+      "e1",
+      "e2"
+    ],
+    "complete": true
+  },
+  "limitations": "Qwen extraction and relevance annotations are fallible.",
+  "invalid_record_indices": []
+}

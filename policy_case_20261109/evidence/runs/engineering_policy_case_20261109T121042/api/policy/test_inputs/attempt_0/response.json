@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"approve\": true,\n  \"reason\": \"The provided inputs strictly adhere to the schema and logic constraints of the 'add_policy_filter_engine'. Input A tests 'source-scope isolation' by including eligible entries in a different scope that must be ignored, and 'explicit negative facts' via the 'none_of' clause. Input B tests the distinction between 'missing facts' and 'negative facts' by ensuring a group passes despite lacking a specific relation (which is not treated as negative), while failing a group that explicitly contains a forbidden negative fact. Both inputs use arbitrary A/B/R/S symbols, valid contiguous quotes, and avoid medical inference.\",\n  \"inputs\": [\n    {\n      \"payload\": {\n        \"evidence\": [\n          {\n            \"evidence_id\": \"E1\",\n            \"text\": \"Symbol A was observed in relation R1 with positive polarity.\"\n          },\n          {\n            \"evidence_id\": \"E2\",\n            \"text\": \"Symbol B was observed in relation R2 with negative polarity.\"\n          },\n          {\n            \"evidence_id\": \"E3\",\n            \"text\": \"Symbol C was observed in relation R1 with positive polarity.\"\n          }\n        ],\n        \"entries\": [\n          {\n            \"name\": \"Entity_Alpha\",\n            \"group_id\": \"G1\",\n            \"evidence_id\": \"E1\",\n            \"quote\": \"Symbol A was observed in relation R1 with positive polarity.\",\n            \"eligible\": true,\n            \"relation\": \"R1\",\n            \"polarity\": \"positive\",\n            \"scope\": \"SCOPE_X\"\n          },\n          {\n            \"name\": \"Entity_Alpha\",\n            \"group_id\": \"G1\",\n            \"evidence_id\": \"E2\",\n            \"quote\": \"Symbol B was observed in relation R2 with negative polarity.\",\n            \"eligible\": true,\n            \"relation\": \"R2\",\n            \"polarity\": \"negative\",\n            \"scope\": \"SCOPE_X\"\n          },\n          {\n            \"name\": \"Entity_Beta\",\n            \"group_id\": \"G2\",\n            \"evidence_id\": \"E3\",\n            \"quote\": \"Symbol C was observed in relation R1 with positive polarity.\",\n            \"eligible\": true,\n            \"relation\": \"R1\",\n            \"polarity\": \"positive\",\n            \"scope\": \"SCOPE_Y\"\n          }\n        ],\n        \"policy\": {\n          \"scope\": \"SCOPE_X\",\n          \"all_of\": [\n            {\n              \"relation\": \"R1\",\n              \"polarity\": \"positive\"\n            }\n          ],\n          \"any_of\": [],\n          \"none_of\": [\n            {\n              \"relation\": \"R2\",\n              \"polarity\": \"negative\"\n            }\n          ]\n        }\n      },\n      \"coverage\": \"Tests scope isolation (G2 in SCOPE_Y ignored), explicit negative fact exclusion (G1 has R2/negative which is in none_of), and all_of requirement.\"\n    },\n    {\n      \"payload\": {\n        \"evidence\": [\n          {\n            \"evidence_id\": \"E4\",\n            \"text\": \"Symbol S1 is present in relation R_A.\"\n          },\n          {\n            \"evidence_id\": \"E5\",\n            \"text\": \"Symbol S2 is absent in relation R_B.\"\n          },\n          {\n            \"evidence_id\": \"E6\",\n            \"text\": \"Symbol S3 is present in relation R_C.\"\n          }\n        ],\n        \"entries\": [\n          {\n            \"name\": \"Group_Missing\",\n            \"group_id\": \"G3\",\n            \"evidence_id\": \"E4\",\n            \"quote\": \"Symbol S1 is present in relation R_A.\",\n            \"eligible\": true,\n            \"relation\": \"R_A\",\n            \"polarity\": \"positive\",\n            \"scope\": \"SCOPE_Z\"\n          },\n          {\n            \"name\": \"Group_ExplicitNeg\",\n            \"group_id\": \"G4\",\n            \"evidence_id\": \"E5\",\n            \"quote\": \"Symbol S2 is absent in relation R_B.\",\n            \"eligible\": true,\n            \"relation\": \"R_B\",\n            \"polarity\": \"negative\",\n            \"scope\": \"SCOPE_Z\"\n          },\n          {\n            \"name\": \"Group_ExplicitNeg\",\n            \"group_id\": \"G4\",\n            \"evidence_id\": \"E6\",\n            \"quote\": \"Symbol S3 is present in relation R_C.\",\n            \"eligible\": true,\n            \"relation\": \"R_C\",\n            \"polarity\": \"positive\",\n            \"scope\": \"SCOPE_Z\"\n          }\n        ],\n        \"policy\": {\n          \"scope\": \"SCOPE_Z\",\n          \"all_of\": [],\n          \"any_of\": [\n            {\n              \"relation\": \"R_A\",\n              \"polarity\": \"positive\"\n            },\n            {\n              \"relation\": \"R_B\",\n              \"polarity\": \"negative\"\n            }\n          ],\n          \"none_of\": [\n            {\n              \"relation\": \"R_B\",\n              \"polarity\": \"negative\"\n            }\n          ]\n        }\n      },\n      \"coverage\": \"Tests missing facts vs negative facts: G3 lacks R_B/negative (missing) but has R_A/positive, satisfying any_of and passing none_of. G4 has explicit R_B/negative, satisfying any_of but failing none_of. Validates that missing facts do not trigger exclusion.\"\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794226581,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1270,
+    "prompt_tokens": 5121,
+    "total_tokens": 6391,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-rxMBy7GJre3soqQkmtm1i9ohLMHx8WJt",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 5121,
+    "prompt_ms": 9130.068,
+    "prompt_per_token_ms": 1.7828681898066783,
+    "prompt_per_second": 560.8939604830982,
+    "predicted_n": 1270,
+    "predicted_ms": 47075.699,
+    "predicted_per_token_ms": 37.096689519306544,
+    "predicted_per_second": 26.956583268152855
+  }
+}

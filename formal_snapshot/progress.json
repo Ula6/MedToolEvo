@@ -1,0 +1,21 @@
+{
+  "status": "running",
+  "phase": "initial_executor",
+  "stage": "pilot100",
+  "development_completed": 90,
+  "development_max": 100,
+  "full_completed": 0,
+  "full_total": 1130,
+  "full_started": false,
+  "qa_requests": 315,
+  "build_attempts": 0,
+  "stable_tools": 0,
+  "pending_tools": 0,
+  "genuine_answer_repairs": 0,
+  "updated_utc": "2026-11-09T13:29:43Z",
+  "pilot_completed": 90,
+  "pilot_total": 100,
+  "pilot_passed": false,
+  "full_requires_100_pilot": true,
+  "current_task": "518cb6ab310faafe08000009"
+}

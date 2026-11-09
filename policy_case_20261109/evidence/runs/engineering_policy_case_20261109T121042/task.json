@@ -1,0 +1,600 @@
+{
+  "id": "derived_signed_policy_evolution_20261109",
+  "question": "For every supplied policy, list study citation IDs and only contributing evidence-group IDs. Apply conjunction, disjunction, explicit signed negation, exclusion and exact document scope. Missing facts are not negative assertions. This indexes the supplied paragraph, not an assertion about the underlying studies or clinical efficacy.",
+  "main_source": {
+    "source_id": "PMC11837447",
+    "doc_hop_id": 9400,
+    "xml": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>",
+    "groups": [
+      {
+        "group_id": "g1",
+        "evidence_id": "PMC11837447:g1",
+        "members": [
+          "CR18",
+          "CR20",
+          "CR37",
+          "CR38",
+          "CR39",
+          "CR40",
+          "CR41",
+          "CR42",
+          "CR43",
+          "CR44",
+          "CR45",
+          "CR46",
+          "CR49",
+          "CR50",
+          "CR51",
+          "CR52",
+          "CR53"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]"
+      },
+      {
+        "group_id": "g2",
+        "evidence_id": "PMC11837447:g2",
+        "members": [
+          "CR22",
+          "CR45",
+          "CR54",
+          "CR55"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>]"
+      },
+      {
+        "group_id": "g3",
+        "evidence_id": "PMC11837447:g3",
+        "members": [
+          "CR43"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>]"
+      },
+      {
+        "group_id": "g4",
+        "evidence_id": "PMC11837447:g4",
+        "members": [
+          "CR40"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>]"
+      },
+      {
+        "group_id": "g5",
+        "evidence_id": "PMC11837447:g5",
+        "members": [
+          "CR38",
+          "CR44"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>]"
+      },
+      {
+        "group_id": "g6",
+        "evidence_id": "PMC11837447:g6",
+        "members": [
+          "CR39",
+          "CR46",
+          "CR53"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]"
+      },
+      {
+        "group_id": "g7",
+        "evidence_id": "PMC11837447:g7",
+        "members": [
+          "CR20",
+          "CR37",
+          "CR42",
+          "CR50"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]"
+      },
+      {
+        "group_id": "g8",
+        "evidence_id": "PMC11837447:g8",
+        "members": [
+          "CR51"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>]"
+      },
+      {
+        "group_id": "g9",
+        "evidence_id": "PMC11837447:g9",
+        "members": [
+          "CR18",
+          "CR40",
+          "CR43",
+          "CR44",
+          "CR45",
+          "CR49",
+          "CR50"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]"
+      },
+      {
+        "group_id": "g10",
+        "evidence_id": "PMC11837447:g10",
+        "members": [
+          "CR39",
+          "CR40",
+          "CR41",
+          "CR46",
+          "CR49",
+          "CR50",
+          "CR52",
+          "CR53",
+          "CR56"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]"
+      },
+      {
+        "group_id": "g11",
+        "evidence_id": "PMC11837447:g11",
+        "members": [
+          "CR18",
+          "CR20",
+          "CR37",
+          "CR38",
+          "CR42",
+          "CR43",
+          "CR44",
+          "CR45",
+          "CR47",
+          "CR51",
+          "CR57"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]"
+      },
+      {
+        "group_id": "g12",
+        "evidence_id": "PMC11837447:g12",
+        "members": [
+          "CR37",
+          "CR49",
+          "CR50",
+          "CR51"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>]"
+      },
+      {
+        "group_id": "g13",
+        "evidence_id": "PMC11837447:g13",
+        "members": [
+          "CR18",
+          "CR39",
+          "CR40",
+          "CR44",
+          "CR46",
+          "CR53",
+          "CR56"
+        ],
+        "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]"
+      }
+    ],
+    "source_sha256": "c17664c4e3ae8260c867b29c47122f844c23e1430bfa30e1324fb299088d6f26",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11837447/"
+  },
+  "queries": [
+    {
+      "query_id": "q1",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "modality_ct",
+            "polarity": "positive"
+          },
+          {
+            "relation": "external_validation",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "internal_validation",
+            "polarity": "positive"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "q2",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "modality_mri",
+            "polarity": "positive"
+          },
+          {
+            "relation": "external_validation",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    {
+      "query_id": "q3",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "modality_mri",
+            "polarity": "positive"
+          },
+          {
+            "relation": "internal_validation",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "external_validation",
+            "polarity": "positive"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "q4",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "modality_ct",
+            "polarity": "positive"
+          },
+          {
+            "relation": "human_comparison",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    {
+      "query_id": "q5",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "primary_prostate",
+            "polarity": "positive"
+          },
+          {
+            "relation": "modality_mri",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    {
+      "query_id": "q6",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "primary_site_reported",
+            "polarity": "negative"
+          },
+          {
+            "relation": "modality_ct",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    {
+      "query_id": "q7",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "primary_site_reported",
+            "polarity": "negative"
+          },
+          {
+            "relation": "external_validation",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    {
+      "query_id": "q8",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "differential_mm",
+            "polarity": "positive"
+          },
+          {
+            "relation": "modality_ct",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": []
+      }
+    },
+    {
+      "query_id": "q9",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "human_comparison",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [
+          {
+            "relation": "modality_ct",
+            "polarity": "positive"
+          },
+          {
+            "relation": "modality_mri",
+            "polarity": "positive"
+          }
+        ],
+        "none_of": [
+          {
+            "relation": "external_validation",
+            "polarity": "positive"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "q10",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "modality_ct",
+            "polarity": "positive"
+          },
+          {
+            "relation": "primary_site_reported",
+            "polarity": "negative"
+          }
+        ],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "external_validation",
+            "polarity": "positive"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "q11",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "modality_mri",
+            "polarity": "positive"
+          },
+          {
+            "relation": "external_validation",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "human_comparison",
+            "polarity": "positive"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "q12",
+      "policy": {
+        "scope": "PMC11837447",
+        "all_of": [
+          {
+            "relation": "modality_ct",
+            "polarity": "positive"
+          },
+          {
+            "relation": "external_validation",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [
+          {
+            "relation": "primary_gastric",
+            "polarity": "positive"
+          },
+          {
+            "relation": "primary_site_reported",
+            "polarity": "negative"
+          }
+        ],
+        "none_of": []
+      }
+    }
+  ],
+  "reuse_source": {
+    "source_id": "PMC11856201",
+    "doc_hop_id": 9532,
+    "xml": "<p>One [<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>] of the twenty-three identified studies directly compared celecoxib and JOINS treatments. Nineteen studies [<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>,<xref rid=\"B22-jcm-14-01036\" ref-type=\"bibr\">22</xref>,<xref rid=\"B30-jcm-14-01036\" ref-type=\"bibr\">30</xref>,<xref rid=\"B31-jcm-14-01036\" ref-type=\"bibr\">31</xref>,<xref rid=\"B32-jcm-14-01036\" ref-type=\"bibr\">32</xref>,<xref rid=\"B33-jcm-14-01036\" ref-type=\"bibr\">33</xref>,<xref rid=\"B34-jcm-14-01036\" ref-type=\"bibr\">34</xref>,<xref rid=\"B35-jcm-14-01036\" ref-type=\"bibr\">35</xref>,<xref rid=\"B36-jcm-14-01036\" ref-type=\"bibr\">36</xref>,<xref rid=\"B37-jcm-14-01036\" ref-type=\"bibr\">37</xref>,<xref rid=\"B38-jcm-14-01036\" ref-type=\"bibr\">38</xref>,<xref rid=\"B39-jcm-14-01036\" ref-type=\"bibr\">39</xref>,<xref rid=\"B40-jcm-14-01036\" ref-type=\"bibr\">40</xref>,<xref rid=\"B41-jcm-14-01036\" ref-type=\"bibr\">41</xref>,<xref rid=\"B42-jcm-14-01036\" ref-type=\"bibr\">42</xref>,<xref rid=\"B43-jcm-14-01036\" ref-type=\"bibr\">43</xref>,<xref rid=\"B44-jcm-14-01036\" ref-type=\"bibr\">44</xref>,<xref rid=\"B45-jcm-14-01036\" ref-type=\"bibr\">45</xref>,<xref rid=\"B46-jcm-14-01036\" ref-type=\"bibr\">46</xref>] involving 2989 knees evaluated celecoxib treatment, whereas five [<xref rid=\"B12-jcm-14-01036\" ref-type=\"bibr\">12</xref>,<xref rid=\"B15-jcm-14-01036\" ref-type=\"bibr\">15</xref>,<xref rid=\"B17-jcm-14-01036\" ref-type=\"bibr\">17</xref>,<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>,<xref rid=\"B19-jcm-14-01036\" ref-type=\"bibr\">19</xref>] studies involving 378 knees assessed JOINS treatment (<xref rid=\"jcm-14-01036-t002\" ref-type=\"table\">Table 2</xref>). Of the 23 RCTs, 19 [<xref rid=\"B12-jcm-14-01036\" ref-type=\"bibr\">12</xref>,<xref rid=\"B15-jcm-14-01036\" ref-type=\"bibr\">15</xref>,<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>,<xref rid=\"B19-jcm-14-01036\" ref-type=\"bibr\">19</xref>,<xref rid=\"B22-jcm-14-01036\" ref-type=\"bibr\">22</xref>,<xref rid=\"B30-jcm-14-01036\" ref-type=\"bibr\">30</xref>,<xref rid=\"B31-jcm-14-01036\" ref-type=\"bibr\">31</xref>,<xref rid=\"B33-jcm-14-01036\" ref-type=\"bibr\">33</xref>,<xref rid=\"B34-jcm-14-01036\" ref-type=\"bibr\">34</xref>,<xref rid=\"B35-jcm-14-01036\" ref-type=\"bibr\">35</xref>,<xref rid=\"B36-jcm-14-01036\" ref-type=\"bibr\">36</xref>,<xref rid=\"B37-jcm-14-01036\" ref-type=\"bibr\">37</xref>,<xref rid=\"B38-jcm-14-01036\" ref-type=\"bibr\">38</xref>,<xref rid=\"B39-jcm-14-01036\" ref-type=\"bibr\">39</xref>,<xref rid=\"B41-jcm-14-01036\" ref-type=\"bibr\">41</xref>,<xref rid=\"B42-jcm-14-01036\" ref-type=\"bibr\">42</xref>,<xref rid=\"B43-jcm-14-01036\" ref-type=\"bibr\">43</xref>,<xref rid=\"B44-jcm-14-01036\" ref-type=\"bibr\">44</xref>,<xref rid=\"B46-jcm-14-01036\" ref-type=\"bibr\">46</xref>] reported clinical outcomes at short-term follow-up, and 11 [<xref rid=\"B12-jcm-14-01036\" ref-type=\"bibr\">12</xref>,<xref rid=\"B17-jcm-14-01036\" ref-type=\"bibr\">17</xref>,<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>,<xref rid=\"B30-jcm-14-01036\" ref-type=\"bibr\">30</xref>,<xref rid=\"B32-jcm-14-01036\" ref-type=\"bibr\">32</xref>,<xref rid=\"B37-jcm-14-01036\" ref-type=\"bibr\">37</xref>,<xref rid=\"B39-jcm-14-01036\" ref-type=\"bibr\">39</xref>,<xref rid=\"B40-jcm-14-01036\" ref-type=\"bibr\">40</xref>,<xref rid=\"B41-jcm-14-01036\" ref-type=\"bibr\">41</xref>,<xref rid=\"B42-jcm-14-01036\" ref-type=\"bibr\">42</xref>,<xref rid=\"B45-jcm-14-01036\" ref-type=\"bibr\">45</xref>] reported mid-term outcomes (<xref rid=\"jcm-14-01036-t003\" ref-type=\"table\">Table 3</xref>). Methodological quality assessment using MINORS showed pooled median scores of 23 (range, 21–24) and 23 (range, 22–24) in the celecoxib and JOINS groups, respectively (<xref rid=\"app1-jcm-14-01036\" ref-type=\"app\">Supplementary Table S1</xref>). The risk of bias was generally low, with only two studies having a high risk of bias for the items ‘blinding of outcome assessment’ [<xref rid=\"B15-jcm-14-01036\" ref-type=\"bibr\">15</xref>] and ‘other bias’ [<xref rid=\"B35-jcm-14-01036\" ref-type=\"bibr\">35</xref>] (<xref rid=\"app1-jcm-14-01036\" ref-type=\"app\">Supplementary Table S2</xref>).</p>",
+    "groups": [
+      {
+        "group_id": "g1",
+        "evidence_id": "PMC11856201:g1",
+        "members": [
+          "B18-jcm-14-01036"
+        ],
+        "quote": "[<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>]"
+      },
+      {
+        "group_id": "g2",
+        "evidence_id": "PMC11856201:g2",
+        "members": [
+          "B18-jcm-14-01036",
+          "B22-jcm-14-01036",
+          "B30-jcm-14-01036",
+          "B31-jcm-14-01036",
+          "B32-jcm-14-01036",
+          "B33-jcm-14-01036",
+          "B34-jcm-14-01036",
+          "B35-jcm-14-01036",
+          "B36-jcm-14-01036",
+          "B37-jcm-14-01036",
+          "B38-jcm-14-01036",
+          "B39-jcm-14-01036",
+          "B40-jcm-14-01036",
+          "B41-jcm-14-01036",
+          "B42-jcm-14-01036",
+          "B43-jcm-14-01036",
+          "B44-jcm-14-01036",
+          "B45-jcm-14-01036",
+          "B46-jcm-14-01036"
+        ],
+        "quote": "[<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>,<xref rid=\"B22-jcm-14-01036\" ref-type=\"bibr\">22</xref>,<xref rid=\"B30-jcm-14-01036\" ref-type=\"bibr\">30</xref>,<xref rid=\"B31-jcm-14-01036\" ref-type=\"bibr\">31</xref>,<xref rid=\"B32-jcm-14-01036\" ref-type=\"bibr\">32</xref>,<xref rid=\"B33-jcm-14-01036\" ref-type=\"bibr\">33</xref>,<xref rid=\"B34-jcm-14-01036\" ref-type=\"bibr\">34</xref>,<xref rid=\"B35-jcm-14-01036\" ref-type=\"bibr\">35</xref>,<xref rid=\"B36-jcm-14-01036\" ref-type=\"bibr\">36</xref>,<xref rid=\"B37-jcm-14-01036\" ref-type=\"bibr\">37</xref>,<xref rid=\"B38-jcm-14-01036\" ref-type=\"bibr\">38</xref>,<xref rid=\"B39-jcm-14-01036\" ref-type=\"bibr\">39</xref>,<xref rid=\"B40-jcm-14-01036\" ref-type=\"bibr\">40</xref>,<xref rid=\"B41-jcm-14-01036\" ref-type=\"bibr\">41</xref>,<xref rid=\"B42-jcm-14-01036\" ref-type=\"bibr\">42</xref>,<xref rid=\"B43-jcm-14-01036\" ref-type=\"bibr\">43</xref>,<xref rid=\"B44-jcm-14-01036\" ref-type=\"bibr\">44</xref>,<xref rid=\"B45-jcm-14-01036\" ref-type=\"bibr\">45</xref>,<xref rid=\"B46-jcm-14-01036\" ref-type=\"bibr\">46</xref>]"
+      },
+      {
+        "group_id": "g3",
+        "evidence_id": "PMC11856201:g3",
+        "members": [
+          "B12-jcm-14-01036",
+          "B15-jcm-14-01036",
+          "B17-jcm-14-01036",
+          "B18-jcm-14-01036",
+          "B19-jcm-14-01036"
+        ],
+        "quote": "[<xref rid=\"B12-jcm-14-01036\" ref-type=\"bibr\">12</xref>,<xref rid=\"B15-jcm-14-01036\" ref-type=\"bibr\">15</xref>,<xref rid=\"B17-jcm-14-01036\" ref-type=\"bibr\">17</xref>,<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>,<xref rid=\"B19-jcm-14-01036\" ref-type=\"bibr\">19</xref>]"
+      },
+      {
+        "group_id": "g4",
+        "evidence_id": "PMC11856201:g4",
+        "members": [
+          "B12-jcm-14-01036",
+          "B15-jcm-14-01036",
+          "B18-jcm-14-01036",
+          "B19-jcm-14-01036",
+          "B22-jcm-14-01036",
+          "B30-jcm-14-01036",
+          "B31-jcm-14-01036",
+          "B33-jcm-14-01036",
+          "B34-jcm-14-01036",
+          "B35-jcm-14-01036",
+          "B36-jcm-14-01036",
+          "B37-jcm-14-01036",
+          "B38-jcm-14-01036",
+          "B39-jcm-14-01036",
+          "B41-jcm-14-01036",
+          "B42-jcm-14-01036",
+          "B43-jcm-14-01036",
+          "B44-jcm-14-01036",
+          "B46-jcm-14-01036"
+        ],
+        "quote": "[<xref rid=\"B12-jcm-14-01036\" ref-type=\"bibr\">12</xref>,<xref rid=\"B15-jcm-14-01036\" ref-type=\"bibr\">15</xref>,<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>,<xref rid=\"B19-jcm-14-01036\" ref-type=\"bibr\">19</xref>,<xref rid=\"B22-jcm-14-01036\" ref-type=\"bibr\">22</xref>,<xref rid=\"B30-jcm-14-01036\" ref-type=\"bibr\">30</xref>,<xref rid=\"B31-jcm-14-01036\" ref-type=\"bibr\">31</xref>,<xref rid=\"B33-jcm-14-01036\" ref-type=\"bibr\">33</xref>,<xref rid=\"B34-jcm-14-01036\" ref-type=\"bibr\">34</xref>,<xref rid=\"B35-jcm-14-01036\" ref-type=\"bibr\">35</xref>,<xref rid=\"B36-jcm-14-01036\" ref-type=\"bibr\">36</xref>,<xref rid=\"B37-jcm-14-01036\" ref-type=\"bibr\">37</xref>,<xref rid=\"B38-jcm-14-01036\" ref-type=\"bibr\">38</xref>,<xref rid=\"B39-jcm-14-01036\" ref-type=\"bibr\">39</xref>,<xref rid=\"B41-jcm-14-01036\" ref-type=\"bibr\">41</xref>,<xref rid=\"B42-jcm-14-01036\" ref-type=\"bibr\">42</xref>,<xref rid=\"B43-jcm-14-01036\" ref-type=\"bibr\">43</xref>,<xref rid=\"B44-jcm-14-01036\" ref-type=\"bibr\">44</xref>,<xref rid=\"B46-jcm-14-01036\" ref-type=\"bibr\">46</xref>]"
+      },
+      {
+        "group_id": "g5",
+        "evidence_id": "PMC11856201:g5",
+        "members": [
+          "B12-jcm-14-01036",
+          "B17-jcm-14-01036",
+          "B18-jcm-14-01036",
+          "B30-jcm-14-01036",
+          "B32-jcm-14-01036",
+          "B37-jcm-14-01036",
+          "B39-jcm-14-01036",
+          "B40-jcm-14-01036",
+          "B41-jcm-14-01036",
+          "B42-jcm-14-01036",
+          "B45-jcm-14-01036"
+        ],
+        "quote": "[<xref rid=\"B12-jcm-14-01036\" ref-type=\"bibr\">12</xref>,<xref rid=\"B17-jcm-14-01036\" ref-type=\"bibr\">17</xref>,<xref rid=\"B18-jcm-14-01036\" ref-type=\"bibr\">18</xref>,<xref rid=\"B30-jcm-14-01036\" ref-type=\"bibr\">30</xref>,<xref rid=\"B32-jcm-14-01036\" ref-type=\"bibr\">32</xref>,<xref rid=\"B37-jcm-14-01036\" ref-type=\"bibr\">37</xref>,<xref rid=\"B39-jcm-14-01036\" ref-type=\"bibr\">39</xref>,<xref rid=\"B40-jcm-14-01036\" ref-type=\"bibr\">40</xref>,<xref rid=\"B41-jcm-14-01036\" ref-type=\"bibr\">41</xref>,<xref rid=\"B42-jcm-14-01036\" ref-type=\"bibr\">42</xref>,<xref rid=\"B45-jcm-14-01036\" ref-type=\"bibr\">45</xref>]"
+      },
+      {
+        "group_id": "g6",
+        "evidence_id": "PMC11856201:g6",
+        "members": [
+          "B15-jcm-14-01036"
+        ],
+        "quote": "[<xref rid=\"B15-jcm-14-01036\" ref-type=\"bibr\">15</xref>]"
+      },
+      {
+        "group_id": "g7",
+        "evidence_id": "PMC11856201:g7",
+        "members": [
+          "B35-jcm-14-01036"
+        ],
+        "quote": "[<xref rid=\"B35-jcm-14-01036\" ref-type=\"bibr\">35</xref>]"
+      }
+    ],
+    "source_sha256": "8c83e3f559e0f7ed54f5ebce07b63e3b3619a88dfe67e3eab9a00ce7a5cc5ddc",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11856201/"
+  },
+  "reuse_queries": [
+    {
+      "query_id": "cross1",
+      "policy": {
+        "scope": "PMC11856201",
+        "all_of": [
+          {
+            "relation": "celecoxib",
+            "polarity": "positive"
+          },
+          {
+            "relation": "mid_followup",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "joins",
+            "polarity": "positive"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "cross2",
+      "policy": {
+        "scope": "PMC11856201",
+        "all_of": [
+          {
+            "relation": "joins",
+            "polarity": "positive"
+          },
+          {
+            "relation": "short_followup",
+            "polarity": "positive"
+          }
+        ],
+        "any_of": [],
+        "none_of": [
+          {
+            "relation": "celecoxib",
+            "polarity": "positive"
+          }
+        ]
+      }
+    }
+  ],
+  "parent_registry": "/home/supervisor/project/sy/MedToolEvo/runs/ledger_repair_v2_20261108T080249/registry/evidence_ledger.json",
+  "manual_intervention": "Researcher-selected source paragraphs, relation vocabulary,12 policies, source-indexed study IDs, independent reference rules and regression criteria fixed before baseline. Qwen labels semantic relations; same labels supplied to all arms. No candidate code handwritten or source edits.",
+  "scope": "Development engineering update of existing ledger, not original BioASQ or DocHopQA question",
+  "primary_goal": "Actual existing tool cannot satisfy new policy queries; Manager must choose backward-compatible extension; old10tests unchanged. Qwen manual answers reported separately, not assumed inferior.",
+  "formal_exclusion": true
+}

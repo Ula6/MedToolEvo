@@ -1,0 +1,159 @@
+{
+  "task_id": "67cc9e6381b1027333000016",
+  "question": "Please list the surgical treatments for Pilomatrix carcinoma.",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Wide local excision",
+      "Mohs micrographic surgery",
+      "Wide surgical resection",
+      "Wide surgical excision"
+    ],
+    "supports": [
+      {
+        "item": "Wide local excision",
+        "evidence_id": "e1",
+        "quote": "Wide local excision has been recommended given the high rate of reoccurrence."
+      },
+      {
+        "item": "Mohs micrographic surgery",
+        "evidence_id": "e1",
+        "quote": "Mohs micrographic surgery may provide optimal treatment of this neoplasm given the ability to have 100% margin control."
+      },
+      {
+        "item": "Wide surgical resection",
+        "evidence_id": "e3",
+        "quote": "There is no established treatment for wide local invasion and metastasis of the pilomatrix besides wide surgical resection."
+      },
+      {
+        "item": "Wide surgical excision",
+        "evidence_id": "e6",
+        "quote": "Surgical excision with a wide margin is the current standard of care for chest wall pilomatrix carcinoma and is associated with the least recurrence"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates no well-defined standards due to rarity; some treatments like radiation and chemotherapy are mentioned in case reports but not as primary surgical standards. Incision and curettement (e5) and complete surgical excision (e7) refer to benign pilomatricoma, not carcinoma.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 3,
+      "fn": 4,
+      "precision": 0.25,
+      "recall": 0.2,
+      "f1": 0.22222222222222224
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Wide local excision",
+      "Mohs micrographic surgery",
+      "Wide surgical resection",
+      "Wide surgical excision",
+      "Surgical excision with a wide margin"
+    ],
+    "supports": [
+      {
+        "item": "Wide local excision",
+        "evidence_id": "e1",
+        "quote": "Wide local excision has been recommended given the high rate of reoccurrence."
+      },
+      {
+        "item": "Mohs micrographic surgery",
+        "evidence_id": "e1",
+        "quote": "Mohs micrographic surgery may provide optimal treatment of this neoplasm given the ability to have 100% margin control."
+      },
+      {
+        "item": "Wide surgical resection",
+        "evidence_id": "e3",
+        "quote": "There is no established treatment for wide local invasion and metastasis of the pilomatrix besides wide surgical resection."
+      },
+      {
+        "item": "Wide surgical excision",
+        "evidence_id": "e4",
+        "quote": "Wide surgical excision, radiation, and chemotherapy were required for the first patient."
+      },
+      {
+        "item": "Surgical excision with a wide margin",
+        "evidence_id": "e6",
+        "quote": "Surgical excision with a wide margin is the current standard of care for chest wall pilomatrix carcinoma and is associated with the least recurrence"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates no well-defined standards due to rarity; some treatments are recommended or reported in specific contexts (e.g., chest wall, metastasis) rather than universally established. Treatments for benign pilomatricoma (e.g., incision and curettement) were excluded as they do not apply to pilomatrix carcinoma.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 4,
+      "fn": 4,
+      "precision": 0.2,
+      "recall": 0.2,
+      "f1": 0.20000000000000004
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Wide local excision",
+      "Mohs micrographic surgery",
+      "Wide surgical resection",
+      "Wide surgical excision",
+      "Surgical excision with a wide margin"
+    ],
+    "supports": [
+      {
+        "item": "Wide local excision",
+        "evidence_id": "e1",
+        "quote": "Wide local excision has been recommended given the high rate of reoccurrence."
+      },
+      {
+        "item": "Mohs micrographic surgery",
+        "evidence_id": "e1",
+        "quote": "Mohs micrographic surgery may provide optimal treatment of this neoplasm given the ability to have 100% margin control."
+      },
+      {
+        "item": "Wide surgical resection",
+        "evidence_id": "e3",
+        "quote": "There is no established treatment for wide local invasion and metastasis of the pilomatrix besides wide surgical resection."
+      },
+      {
+        "item": "Wide surgical excision",
+        "evidence_id": "e4",
+        "quote": "Wide surgical excision, radiation, and chemotherapy were required for the first patient."
+      },
+      {
+        "item": "Surgical excision with a wide margin",
+        "evidence_id": "e6",
+        "quote": "Surgical excision with a wide margin is the current standard of care for chest wall pilomatrix carcinoma and is associated with the least recurrence"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates no well-defined standards due to rarity; some treatments are recommended or reported in specific contexts (e.g., chest wall, metastasis) rather than universally established. Treatments for benign pilomatricoma (e.g., incision and curettement) were excluded as they do not apply to pilomatrix carcinoma.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 4,
+      "fn": 4,
+      "precision": 0.2,
+      "recall": 0.2,
+      "f1": 0.20000000000000004
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/15274715",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22263167",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2380436",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36804165",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36942146",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7354150"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/67cc9e6381b1027333000016/attempt_0"
+}

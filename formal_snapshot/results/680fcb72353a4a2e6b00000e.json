@@ -1,0 +1,174 @@
+{
+  "task_id": "680fcb72353a4a2e6b00000e",
+  "question": "What are the major classes of immunoglobulins?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "IgG",
+      "IgM",
+      "IgA",
+      "IgD",
+      "IgE"
+    ],
+    "supports": [
+      {
+        "item": "IgG",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgM",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgA",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgD",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgE",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence lists five major classes (IgG, IgM, IgA, IgD, IgE) consistently across multiple sources; some sources specify human or mammalian context, but the classes are universally cited as the major ones.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "IgG",
+      "IgM",
+      "IgA",
+      "IgD",
+      "IgE"
+    ],
+    "supports": [
+      {
+        "item": "IgG",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgM",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgA",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgD",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgE",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence lists five major classes (IgG, IgM, IgA, IgD, IgE) consistently across multiple sources; some sources specify human or mammalian context, but the classes are universally cited as the major ones.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "IgG",
+      "IgM",
+      "IgA",
+      "IgD",
+      "IgE"
+    ],
+    "supports": [
+      {
+        "item": "IgG",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgM",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgA",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgD",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      },
+      {
+        "item": "IgE",
+        "evidence_id": "e1",
+        "quote": "There are five major classes of immunoglobulins - IgG, M, A, D and E."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence lists five major classes (IgG, IgM, IgA, IgD, IgE) consistently across multiple sources; some sources specify human or mammalian context, but the classes are universally cited as the major ones.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/1162738",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1549379",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16814399",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19604264",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20176268",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2047710",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20496766",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23550242",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23660557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26537387",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31818032",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35061510",
+    "http://www.ncbi.nlm.nih.gov/pubmed/39129161",
+    "http://www.ncbi.nlm.nih.gov/pubmed/39169187",
+    "http://www.ncbi.nlm.nih.gov/pubmed/47690"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/680fcb72353a4a2e6b00000e/attempt_0"
+}

@@ -1,0 +1,53 @@
+{
+  "model": "medtool-qa",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Compile ONLY a deterministic generic extension algorithm, invariants and\nedge cases. Return JSON {algorithm:string,invariants:[string],edge_cases:[string]}.\nFixed schemas and rules will be attached by the controller; do not regenerate them.\nPreserve legacy behavior, signed facts, source scope, exact quote validation, proof\nordering, and separation of supplied semantics from code. No source-specific values\nor implementation code."
+    },
+    {
+      "role": "user",
+      "content": "{\"fixed_rules\": \"Extend the existing evidence ledger with an OPTIONAL runtime policy; preserve\\nits original documented behavior exactly when policy is absent. Legacy mode validates\\nevidence and entries atomically, including quotes of ineligible entries; groups by\\ngroup_id, rejects inconsistent names even in ineligible entries, filters eligible:false,\\nand emits first-encounter name/evidence IDs and unique_entity_count without mutation.\\nDo not tighten legacy extra-key behavior or make new annotation fields mandatory there.\\nIn policy mode use the same evidence/entries plus policy:{scope,all_of,any_of,none_of}.\\nEach policy list contains {relation,polarity}, polarity positive or negative. Policy\\nobjects and signed-rule objects have exactly their documented keys. Policy-mode\\nentries additionally require nonblank relation/scope and polarity positive,negative,\\nor unknown. These are explicit fallible Qwen annotations: NEVER infer semantics from\\nsource prose, candidate names, substrings or hardcoded medical terms.\\nValidate all entries and source quotes, even outside selected scope or ineligible.\\nWithin policy mode enforce consistent names per (scope,group_id), not across scopes.\\nConsider only eligible:true records in the exact selected scope; unknown polarity\\ndoes not establish a fact. A group must have at least one established fact. It passes\\nif ALL all_of signed facts are present, at least ONE any_of fact is present when that\\nlist is nonempty, and NONE of none_of facts are present. Missing facts are not negative\\nfacts. none_of excludes an explicitly recorded signed fact, never proves that a study\\ndid not perform an operation. Duplicate rules/facts have set semantics.\\nPreserve group order by first eligible established record in the selected scope.\\nFor selected groups output evidence_ids from established records matching all_of OR\\nany_of, preserving original record order and removing duplicate IDs. If both lists\\nare empty, use all established records. Exclusion evidence from rejected groups is\\nnot output. Return exactly {entities:[{name,evidence_ids}],unique_entity_count} in\\nBOTH modes. Preserve input. Invalid data raise ValueError. Legacy nonblank required\\nstrings/strict booleans, unique evidence IDs, existing evidence IDs and exact contiguous\\nnonblank source quotes remain mandatory. No files/network/models/external packages.\\nNo clinical truth guarantees: this tool only executes supplied signed relation policy.\", \"manager_steps\": [\"Identify the 'policy' object in the query input; if absent, execute legacy mode (return full union of eligible groups).\", \"Parse 'all_of', 'any_of', and 'none_of' lists from the policy, extracting required (relation, polarity) pairs.\", \"For each group in the 'shared_observations', check if it contains the required signed facts for 'all_of' (must have all) and 'any_of' (must have at least one if list non-empty).\", \"Verify that the group does NOT contain any signed facts listed in 'none_of'.\", \"Filter the list of groups to only those passing the policy logic.\", \"Aggregate evidence_ids from the passing groups, preserving original record order and removing duplicates.\", \"Construct the output JSON with 'entities' (name, evidence_ids) and 'unique_entity_count' based on the filtered set.\", \"Ensure that if 'all_of' and 'any_of' are empty, all established records in scope are returned (as per policy rules).\"], \"input_schema\": {\"type\": \"object\", \"properties\": {\"evidence\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"evidence_id\": {\"type\": \"string\", \"maxLength\": 120}, \"text\": {\"type\": \"string\"}}, \"required\": [\"evidence_id\", \"text\"], \"additionalProperties\": true}, \"maxItems\": 100}, \"entries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\", \"maxLength\": 200}, \"group_id\": {\"type\": \"string\", \"maxLength\": 200}, \"evidence_id\": {\"type\": \"string\", \"maxLength\": 120}, \"quote\": {\"type\": \"string\", \"maxLength\": 6000}, \"eligible\": {\"type\": \"boolean\"}, \"relation\": {\"type\": \"string\", \"maxLength\": 100}, \"polarity\": {\"type\": \"string\", \"enum\": [\"positive\", \"negative\", \"unknown\"]}, \"scope\": {\"type\": \"string\", \"maxLength\": 120}}, \"required\": [\"name\", \"group_id\", \"evidence_id\", \"quote\", \"eligible\"], \"additionalProperties\": true}, \"maxItems\": 500}, \"policy\": {\"type\": \"object\", \"properties\": {\"scope\": {\"type\": \"string\", \"maxLength\": 120}, \"all_of\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"relation\": {\"type\": \"string\", \"maxLength\": 100}, \"polarity\": {\"type\": \"string\", \"enum\": [\"positive\", \"negative\"]}}, \"required\": [\"relation\", \"polarity\"], \"additionalProperties\": false}, \"maxItems\": 20}, \"any_of\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"relation\": {\"type\": \"string\", \"maxLength\": 100}, \"polarity\": {\"type\": \"string\", \"enum\": [\"positive\", \"negative\"]}}, \"required\": [\"relation\", \"polarity\"], \"additionalProperties\": false}, \"maxItems\": 20}, \"none_of\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"relation\": {\"type\": \"string\", \"maxLength\": 100}, \"polarity\": {\"type\": \"string\", \"enum\": [\"positive\", \"negative\"]}}, \"required\": [\"relation\", \"polarity\"], \"additionalProperties\": false}, \"maxItems\": 20}}, \"required\": [\"scope\", \"all_of\", \"any_of\", \"none_of\"], \"additionalProperties\": false}}, \"required\": [\"evidence\", \"entries\"], \"additionalProperties\": true}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"entities\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\", \"maxLength\": 200}, \"evidence_ids\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"maxLength\": 120}, \"maxItems\": 100}}, \"required\": [\"name\", \"evidence_ids\"], \"additionalProperties\": false}, \"maxItems\": 500}, \"unique_entity_count\": {\"type\": \"integer\", \"minimum\": 0}}, \"required\": [\"entities\", \"unique_entity_count\"], \"additionalProperties\": false}, \"old_interface\": \"No policy: original evidence/entries ledger contract unchanged.\"}"
+    }
+  ],
+  "temperature": 0.2,
+  "seed": 20261106,
+  "max_tokens": 3072,
+  "response_format": {
+    "type": "json_object",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "algorithm": {
+          "type": "string",
+          "maxLength": 3500
+        },
+        "invariants": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 400
+          },
+          "maxItems": 8
+        },
+        "edge_cases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 400
+          },
+          "maxItems": 8
+        }
+      },
+      "required": [
+        "algorithm",
+        "invariants",
+        "edge_cases"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}

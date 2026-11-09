@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "source_id": "PMC11872689",
+  "source_characters": 1424,
+  "source_sha256": "c627aa1ad4eff8518ded0221929b1d360cb84f66c684423bba3df771138fd491",
+  "queries": 7,
+  "match_counts": [
+    5,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "unsupported_queries": [
+    "q7"
+  ],
+  "exact_dataset_content": true,
+  "code_candidate_written": false
+}

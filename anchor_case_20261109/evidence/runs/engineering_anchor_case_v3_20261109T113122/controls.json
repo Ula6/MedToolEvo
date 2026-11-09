@@ -1,0 +1,250 @@
+[
+  {
+    "construction": {
+      "source_id": "PMC11872689",
+      "method": "Unedited contiguous original source excerpt; literal query only."
+    },
+    "input": {
+      "sources": [
+        {
+          "source_id": "PMC11872689",
+          "text": "Baseline characteristics of the included studies are provided in Table 1. Five s"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "control0",
+          "text": "Baseline"
+        }
+      ]
+    },
+    "baseline": {
+      "queries": [
+        {
+          "query_id": "control0",
+          "matches": [
+            {
+              "source_id": "PMC11872689",
+              "start": 0,
+              "end": 8,
+              "quote": "Baseline"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    },
+    "baseline_evaluation": {
+      "pass": true,
+      "correct_groups": 1,
+      "content_correct_groups": 1,
+      "total_groups": 1,
+      "unit": "source-alignment queries, not medical questions",
+      "unique_index_exact": true,
+      "unexpected_groups": [],
+      "malformed": [],
+      "substantive_index_error": false,
+      "group_checks": [
+        {
+          "query_id": "control0",
+          "pass": true
+        }
+      ]
+    },
+    "tool_output": {
+      "queries": [
+        {
+          "query_id": "control0",
+          "matches": [
+            {
+              "source_id": "PMC11872689",
+              "start": 0,
+              "end": 8,
+              "quote": "Baseline"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    },
+    "tool_evaluation": {
+      "pass": true,
+      "correct_groups": 1,
+      "content_correct_groups": 1,
+      "total_groups": 1,
+      "unit": "source-alignment queries, not medical questions",
+      "unique_index_exact": true,
+      "unexpected_groups": [],
+      "malformed": [],
+      "substantive_index_error": false,
+      "group_checks": [
+        {
+          "query_id": "control0",
+          "pass": true
+        }
+      ]
+    }
+  },
+  {
+    "construction": {
+      "source_id": "PMC11872689",
+      "method": "Unedited contiguous original source excerpt; literal query only."
+    },
+    "input": {
+      "sources": [
+        {
+          "source_id": "PMC11872689",
+          "text": "ication [17, 18, 26, 28]. Also, 27 were from a white ethnicity background [30], 48 were white European [29], and 23 were non‐Caucasian [27] (Table 1)."
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "control1",
+          "text": "white European"
+        }
+      ]
+    },
+    "baseline": {
+      "queries": [
+        {
+          "query_id": "control1",
+          "matches": [
+            {
+              "source_id": "PMC11872689",
+              "start": 69,
+              "end": 83,
+              "quote": "white European"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    },
+    "baseline_evaluation": {
+      "pass": false,
+      "correct_groups": 0,
+      "content_correct_groups": 0,
+      "total_groups": 1,
+      "unit": "source-alignment queries, not medical questions",
+      "unique_index_exact": true,
+      "unexpected_groups": [],
+      "malformed": [],
+      "substantive_index_error": true,
+      "group_checks": [
+        {
+          "query_id": "control1",
+          "pass": false
+        }
+      ]
+    },
+    "tool_output": {
+      "queries": [
+        {
+          "query_id": "control1",
+          "matches": [
+            {
+              "source_id": "PMC11872689",
+              "start": 88,
+              "end": 102,
+              "quote": "white European"
+            }
+          ]
+        }
+      ],
+      "unsupported_query_ids": []
+    },
+    "tool_evaluation": {
+      "pass": true,
+      "correct_groups": 1,
+      "content_correct_groups": 1,
+      "total_groups": 1,
+      "unit": "source-alignment queries, not medical questions",
+      "unique_index_exact": true,
+      "unexpected_groups": [],
+      "malformed": [],
+      "substantive_index_error": false,
+      "group_checks": [
+        {
+          "query_id": "control1",
+          "pass": true
+        }
+      ]
+    }
+  },
+  {
+    "construction": {
+      "source_id": "PMC11872689",
+      "method": "Unedited contiguous original source excerpt; literal query only."
+    },
+    "input": {
+      "sources": [
+        {
+          "source_id": "PMC11872689",
+          "text": "Baseline characteristics of the included studies are provided in Table 1. Five s"
+        }
+      ],
+      "queries": [
+        {
+          "query_id": "control2",
+          "text": "__absent_literal_probe__"
+        }
+      ]
+    },
+    "baseline": {
+      "queries": [
+        {
+          "query_id": "control2",
+          "matches": []
+        }
+      ],
+      "unsupported_query_ids": [
+        "control2"
+      ]
+    },
+    "baseline_evaluation": {
+      "pass": true,
+      "correct_groups": 1,
+      "content_correct_groups": 1,
+      "total_groups": 1,
+      "unit": "source-alignment queries, not medical questions",
+      "unique_index_exact": true,
+      "unexpected_groups": [],
+      "malformed": [],
+      "substantive_index_error": false,
+      "group_checks": [
+        {
+          "query_id": "control2",
+          "pass": true
+        }
+      ]
+    },
+    "tool_output": {
+      "queries": [
+        {
+          "query_id": "control2",
+          "matches": []
+        }
+      ],
+      "unsupported_query_ids": [
+        "control2"
+      ]
+    },
+    "tool_evaluation": {
+      "pass": true,
+      "correct_groups": 1,
+      "content_correct_groups": 1,
+      "total_groups": 1,
+      "unit": "source-alignment queries, not medical questions",
+      "unique_index_exact": true,
+      "unexpected_groups": [],
+      "malformed": [],
+      "substantive_index_error": false,
+      "group_checks": [
+        {
+          "query_id": "control2",
+          "pass": true
+        }
+      ]
+    }
+  }
+]

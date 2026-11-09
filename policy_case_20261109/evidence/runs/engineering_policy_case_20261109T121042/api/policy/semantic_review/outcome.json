@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "parsed": {
+    "supported": true,
+    "tool_gap_repaired": true,
+    "legacy_preserved": true,
+    "annotations_supported": true,
+    "reason": "The tool update successfully implements the requested policy logic (conjunction, disjunction, signed negation) while preserving legacy behavior when policies are absent. The 'gap' regarding the inability to filter by explicit signed relations (e.g., 'primary_site_reported' with negative polarity) is repaired, as evidenced by correct execution in queries q6, q7, and q10. Crucially, the system correctly interprets missing annotations as non-facts rather than negative medical assertions (e.g., q11 returns an empty set because no study satisfies the specific combination of MRI + External Validation + NOT Human Comparison, not because the studies failed those criteria). The output strictly reflects source citation membership based on the provided evidence ledger, without inferring clinical efficacy or new medical truths from the code execution itself."
+  }
+}

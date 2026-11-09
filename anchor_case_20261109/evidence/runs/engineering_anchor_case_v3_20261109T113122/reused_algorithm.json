@@ -1,0 +1,13 @@
+{
+  "source": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_v2_20261109T112420/api/anchor/algorithm_contract",
+  "files": {
+    "outcome.json": "3841265f651b1c00cfeddeaa353649712a3c359efecc81dec37fcfe5a798b31e",
+    "preflight.json": "3e70cd96c5e2800f740d32d1407ec38c6c222b3257bfc4ae14e1a3acec52312a",
+    "input_fingerprint.json": "8784feb3239e7725b8e2c7aa58bd32b3db5600243d414653bcd811fb8f75ff52",
+    "attempt_0/preflight.json": "3e70cd96c5e2800f740d32d1407ec38c6c222b3257bfc4ae14e1a3acec52312a",
+    "attempt_0/request.json": "c8432b50d2400d816094b1a9ef9cb45e5a72496cfaaf01546384f165839024db",
+    "attempt_0/response.json": "b000fb39e7c1a36d07304a1ea4d6529404b75c6a3df3b04ee8ca7aea23a604c4",
+    "attempt_0/metrics.json": "887c9e940cb844b4b9917edbda6e2dd1d08571564cd9d967e83e50af7bf5596a"
+  },
+  "policy": "Full request fingerprint is rechecked by Study.ask."
+}

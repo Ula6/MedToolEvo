@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "parsed": {
+    "items": [
+      "GC-rich isochores",
+      "H isochores",
+      "H2 isochores",
+      "heavy components"
+    ],
+    "supports": [
+      {
+        "item": "GC-rich isochores",
+        "evidence_id": "e1",
+        "quote": "the vast majority of Alu sequences were shown to have the highest density in GC-rich isochores"
+      },
+      {
+        "item": "H isochores",
+        "evidence_id": "e3",
+        "quote": "Alu retrotransposons do not show a homogeneous distribution over the human genome but have a higher density in GC-rich (H) than in AT-rich (L) isochores"
+      },
+      {
+        "item": "H2 isochores",
+        "evidence_id": "e7",
+        "quote": "The frequency of Alu sequences also increases with increasing GC, but attains a maximum in H2 isochores, in agreement with previous experimental data"
+      },
+      {
+        "item": "heavy components",
+        "evidence_id": "e11",
+        "quote": "The results indicate that the short repeats of the B1 family of mouse and of the Alu I family of man are most frequent in the heavy components"
+      }
+    ],
+    "limitations": "Evidence e10 notes Alu frequency in introns is roughly equal across isochore classes, contrasting with genomic density trends. Specific isochore classes (H2) are mentioned as having maximum frequency, while general GC-rich or H isochores are described as having higher density."
+  }
+}

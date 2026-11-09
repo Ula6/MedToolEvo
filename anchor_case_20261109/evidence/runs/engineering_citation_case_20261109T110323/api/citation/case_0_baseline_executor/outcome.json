@@ -1,0 +1,181 @@
+{
+  "status": "ok",
+  "parsed": {
+    "groups": [
+      {
+        "source_id": "PMC11837447",
+        "group_index": 1,
+        "reference_ids": [
+          "CR18",
+          "CR20",
+          "CR37",
+          "CR38",
+          "CR39",
+          "CR40",
+          "CR41",
+          "CR42",
+          "CR43",
+          "CR44",
+          "CR45",
+          "CR46",
+          "CR49",
+          "CR50",
+          "CR51",
+          "CR52",
+          "CR53"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 2,
+        "reference_ids": [
+          "CR22",
+          "CR45",
+          "CR54",
+          "CR55"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 3,
+        "reference_ids": [
+          "CR43"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 4,
+        "reference_ids": [
+          "CR40"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 5,
+        "reference_ids": [
+          "CR38",
+          "CR44"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 6,
+        "reference_ids": [
+          "CR39",
+          "CR46",
+          "CR53"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 7,
+        "reference_ids": [
+          "CR20",
+          "CR37",
+          "CR42",
+          "CR50"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 8,
+        "reference_ids": [
+          "CR51"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 9,
+        "reference_ids": [
+          "CR18",
+          "CR40",
+          "CR43",
+          "CR44",
+          "CR45",
+          "CR49",
+          "CR50"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 10,
+        "reference_ids": [
+          "CR39",
+          "CR40",
+          "CR41",
+          "CR46",
+          "CR49",
+          "CR50",
+          "CR52",
+          "CR53",
+          "CR56"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 11,
+        "reference_ids": [
+          "CR18",
+          "CR20",
+          "CR37",
+          "CR38",
+          "CR42",
+          "CR43",
+          "CR44",
+          "CR45",
+          "CR47",
+          "CR51",
+          "CR57"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 12,
+        "reference_ids": [
+          "CR37",
+          "CR49",
+          "CR50",
+          "CR51"
+        ]
+      },
+      {
+        "source_id": "PMC11837447",
+        "group_index": 13,
+        "reference_ids": [
+          "CR18",
+          "CR39",
+          "CR40",
+          "CR44",
+          "CR46",
+          "CR53",
+          "CR56"
+        ]
+      }
+    ],
+    "unique_references": [
+      "PMC11837447::CR18",
+      "PMC11837447::CR20",
+      "PMC11837447::CR37",
+      "PMC11837447::CR38",
+      "PMC11837447::CR39",
+      "PMC11837447::CR40",
+      "PMC11837447::CR41",
+      "PMC11837447::CR42",
+      "PMC11837447::CR43",
+      "PMC11837447::CR44",
+      "PMC11837447::CR45",
+      "PMC11837447::CR46",
+      "PMC11837447::CR49",
+      "PMC11837447::CR50",
+      "PMC11837447::CR51",
+      "PMC11837447::CR52",
+      "PMC11837447::CR53",
+      "PMC11837447::CR22",
+      "PMC11837447::CR54",
+      "PMC11837447::CR55",
+      "PMC11837447::CR56",
+      "PMC11837447::CR57",
+      "PMC11837447::CR47"
+    ]
+  }
+}

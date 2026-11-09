@@ -1,0 +1,74 @@
+{
+  "task_id": "5d38673da1e1595105000002",
+  "question": "Which micro-RNAs (miR) are associated with the human cycloxygenase-2 (COX-2) gene promoter?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [],
+    "supports": [],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "None of the provided evidence segments explicitly state that any micro-RNA binds to or regulates the COX-2 gene PROMOTER. All cited evidence (e1-e20) describes micro-RNAs (miR-16, miR-143-5p, miR-146a, miR-26a, miR-26b, miR-142-3p, miR-144, miR-137, miR-128, miR-146b-3p, miR-101) targeting the COX-2 3'-UTR, regulating mRNA stability, or affecting downstream signaling pathways, but no direct promoter association is documented in the supplied text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 0,
+      "fn": 11,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [],
+    "supports": [],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "None of the provided evidence segments explicitly state that any micro-RNA (miR) is associated with the COX-2 gene promoter. All cited evidence describes miRNAs (miR-16, miR-143-5p, miR-146a, miR-26a, miR-26b, miR-142-3p, miR-144, miR-137, miR-128, miR-146b-3p, miR-101) targeting the COX-2 3'-UTR, regulating mRNA stability, or modulating COX-2 expression/signaling pathways, but no evidence links these miRNAs to the COX-2 promoter region.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 0,
+      "fn": 11,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [],
+    "supports": [],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "None of the provided evidence segments explicitly state that any micro-RNA (miR) is associated with the COX-2 gene promoter. All cited evidence describes miRNAs (miR-16, miR-143-5p, miR-146a, miR-26a, miR-26b, miR-142-3p, miR-144, miR-137, miR-128, miR-146b-3p, miR-101) targeting the COX-2 3'-UTR, regulating mRNA stability, or modulating COX-2 expression/signaling pathways, but no evidence links these miRNAs to the COX-2 promoter region.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 0,
+      "fn": 11,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22049153",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24472607",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24616567",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25907560",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27900011",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28182010",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28678919",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29404887",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29511456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29524580",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29945115"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5d38673da1e1595105000002/attempt_0"
+}

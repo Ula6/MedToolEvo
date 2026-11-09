@@ -1,0 +1,169 @@
+{
+  "task_id": "530cefaaad0bf1360c000003",
+  "question": "What are the names of anti-CD52 monoclonal antibody that is used for treatment of multiple sclerosis patients?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Alemtuzumab"
+    ],
+    "supports": [
+      {
+        "item": "Alemtuzumab",
+        "evidence_id": "e2",
+        "quote": "Differential reconstitution of T cell subsets following immunodepleting treatment with alemtuzumab (anti-CD52 monoclonal antibody) in patients with relapsing-remitting multiple sclerosis."
+      },
+      {
+        "item": "Alemtuzumab",
+        "evidence_id": "e4",
+        "quote": "Alemtuzumab, an anti-CD52 monoclonal antibody, increased the risk of thyroid dysfunction in CAMMS223, a phase 2 trial in relapsing-remitting multiple sclerosis."
+      },
+      {
+        "item": "Alemtuzumab",
+        "evidence_id": "e10",
+        "quote": "Alemtuzumab (previously known as Campath(®)) is a humanized monoclonal antibody directed against the CD52 antigen on mature lymphocytes that results in lymphopenia and subsequent modification of the immune repertoire."
+      },
+      {
+        "item": "Alemtuzumab",
+        "evidence_id": "e14",
+        "quote": "The anti-CD52 monoclonal antibody alemtuzumab reduced disease activity in a phase 2 trial of previously untreated patients with relapsing-remitting multiple sclerosis."
+      },
+      {
+        "item": "Alemtuzumab",
+        "evidence_id": "e23",
+        "quote": "Alemtuzumab is an anti-CD52 monoclonal antibody with remarkable efficacy in relapsing multiple sclerosis (MS)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily focuses on relapsing-remitting multiple sclerosis (RRMS) and treatment-naïve or treatment-experienced patients within clinical trials; approval status varies by region (e.g., approved in Europe, under review in US at time of some texts). No other anti-CD52 monoclonal antibodies are named in the provided evidence.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Alemtuzumab",
+      "Campath-1H",
+      "Campath 1-H",
+      "CAMPATH-1H"
+    ],
+    "supports": [
+      {
+        "item": "Alemtuzumab",
+        "evidence_id": "e2",
+        "quote": "Differential reconstitution of T cell subsets following immunodepleting treatment with alemtuzumab (anti-CD52 monoclonal antibody) in patients with relapsing-remitting multiple sclerosis."
+      },
+      {
+        "item": "Campath-1H",
+        "evidence_id": "e26",
+        "quote": "Campath-1H causes the immune response to change from the Th1 phenotype, suppressing multiple sclerosis disease activity, but permitting the generation of antibody-mediated thyroid autoimmunity."
+      },
+      {
+        "item": "Campath 1-H",
+        "evidence_id": "e28",
+        "quote": "Campath 1-H (Alemtuzumab) is a humanised monoclonal antibody which targets the CD52 antigen, a low molecular weight glycoprotein present on the surface of most lymphocyte lineages, causing complement mediated lysis and rapid and prolonged T lymphocyte depletion. Following encouraging initial data from other centres we report our open label experience of using Campath 1-H as a treatment in aggressive relapsing multiple sclerosis in a consecutive series of 39 highly selected patients treated across three regional centres and followed for a mean of 1.89 years."
+      },
+      {
+        "item": "CAMPATH-1H",
+        "evidence_id": "e33",
+        "quote": "To assess the effect of systemic lymphocyte depletion on disease activity, seven patients with MS received a 10-day intravenous course of the humanised monoclonal antibody CAMPATH-1H (anti-CDw52)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily focuses on relapsing-remitting multiple sclerosis; some records indicate usage in trials or specific patient subsets (e.g., treatment-naive, aggressive forms) rather than universal approval for all MS types. Aliases like Campath-1H and CAMPATH-1H refer to the same agent as Alemtuzumab.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Alemtuzumab",
+      "Campath-1H",
+      "Campath 1-H",
+      "CAMPATH-1H"
+    ],
+    "supports": [
+      {
+        "item": "Alemtuzumab",
+        "evidence_id": "e2",
+        "quote": "Differential reconstitution of T cell subsets following immunodepleting treatment with alemtuzumab (anti-CD52 monoclonal antibody) in patients with relapsing-remitting multiple sclerosis."
+      },
+      {
+        "item": "Campath-1H",
+        "evidence_id": "e26",
+        "quote": "Campath-1H causes the immune response to change from the Th1 phenotype, suppressing multiple sclerosis disease activity, but permitting the generation of antibody-mediated thyroid autoimmunity."
+      },
+      {
+        "item": "Campath 1-H",
+        "evidence_id": "e28",
+        "quote": "Campath 1-H (Alemtuzumab) is a humanised monoclonal antibody which targets the CD52 antigen, a low molecular weight glycoprotein present on the surface of most lymphocyte lineages, causing complement mediated lysis and rapid and prolonged T lymphocyte depletion. Following encouraging initial data from other centres we report our open label experience of using Campath 1-H as a treatment in aggressive relapsing multiple sclerosis in a consecutive series of 39 highly selected patients treated across three regional centres and followed for a mean of 1.89 years."
+      },
+      {
+        "item": "CAMPATH-1H",
+        "evidence_id": "e33",
+        "quote": "To assess the effect of systemic lymphocyte depletion on disease activity, seven patients with MS received a 10-day intravenous course of the humanised monoclonal antibody CAMPATH-1H (anti-CDw52)."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily focuses on relapsing-remitting multiple sclerosis; some records indicate usage in trials or specific patient subsets (e.g., treatment-naive, aggressive forms) rather than universal approval for all MS types. Aliases like Campath-1H and CAMPATH-1H refer to the same agent as Alemtuzumab.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10482259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10568572",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15049789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18283404",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18946064",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19296065",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19740383",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19878629",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20088763",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20236038",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21550857",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21899662",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22252465",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23122650",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23122652",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23459567",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23494602",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23558379",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23634277",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23709214",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23759318",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24116901",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24170099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24198283",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24289293",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7914262"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/530cefaaad0bf1360c000003/attempt_0"
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"queries\":[{\"query_id\":\"control2\",\"matches\":[]}],\"unsupported_query_ids\":[\"control2\"]}"
+      }
+    }
+  ],
+  "created": 1794224154,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 21,
+    "prompt_tokens": 667,
+    "total_tokens": 688,
+    "prompt_tokens_details": {
+      "cached_tokens": 578
+    }
+  },
+  "id": "chatcmpl-iu7sRsMxQN5ldJLrVfXvWkPkH2LwNQzX",
+  "timings": {
+    "cache_n": 578,
+    "prompt_n": 89,
+    "prompt_ms": 344.003,
+    "prompt_per_token_ms": 3.8652022471910112,
+    "prompt_per_second": 258.71867396505263,
+    "predicted_n": 21,
+    "predicted_ms": 734.794,
+    "predicted_per_token_ms": 36.7397,
+    "predicted_per_second": 27.218512943763834
+  }
+}

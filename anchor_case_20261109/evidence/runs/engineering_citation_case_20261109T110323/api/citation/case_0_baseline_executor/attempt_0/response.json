@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"groups\": [\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 1,\n      \"reference_ids\": [\n        \"CR18\",\n        \"CR20\",\n        \"CR37\",\n        \"CR38\",\n        \"CR39\",\n        \"CR40\",\n        \"CR41\",\n        \"CR42\",\n        \"CR43\",\n        \"CR44\",\n        \"CR45\",\n        \"CR46\",\n        \"CR49\",\n        \"CR50\",\n        \"CR51\",\n        \"CR52\",\n        \"CR53\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 2,\n      \"reference_ids\": [\n        \"CR22\",\n        \"CR45\",\n        \"CR54\",\n        \"CR55\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 3,\n      \"reference_ids\": [\n        \"CR43\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 4,\n      \"reference_ids\": [\n        \"CR40\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 5,\n      \"reference_ids\": [\n        \"CR38\",\n        \"CR44\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 6,\n      \"reference_ids\": [\n        \"CR39\",\n        \"CR46\",\n        \"CR53\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 7,\n      \"reference_ids\": [\n        \"CR20\",\n        \"CR37\",\n        \"CR42\",\n        \"CR50\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 8,\n      \"reference_ids\": [\n        \"CR51\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 9,\n      \"reference_ids\": [\n        \"CR18\",\n        \"CR40\",\n        \"CR43\",\n        \"CR44\",\n        \"CR45\",\n        \"CR49\",\n        \"CR50\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 10,\n      \"reference_ids\": [\n        \"CR39\",\n        \"CR40\",\n        \"CR41\",\n        \"CR46\",\n        \"CR49\",\n        \"CR50\",\n        \"CR52\",\n        \"CR53\",\n        \"CR56\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 11,\n      \"reference_ids\": [\n        \"CR18\",\n        \"CR20\",\n        \"CR37\",\n        \"CR38\",\n        \"CR42\",\n        \"CR43\",\n        \"CR44\",\n        \"CR45\",\n        \"CR47\",\n        \"CR51\",\n        \"CR57\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 12,\n      \"reference_ids\": [\n        \"CR37\",\n        \"CR49\",\n        \"CR50\",\n        \"CR51\"\n      ]\n    },\n    {\n      \"source_id\": \"PMC11837447\",\n      \"group_index\": 13,\n      \"reference_ids\": [\n        \"CR18\",\n        \"CR39\",\n        \"CR40\",\n        \"CR44\",\n        \"CR46\",\n        \"CR53\",\n        \"CR56\"\n      ]\n    }\n  ],\n  \"unique_references\": [\n    \"PMC11837447::CR18\",\n    \"PMC11837447::CR20\",\n    \"PMC11837447::CR37\",\n    \"PMC11837447::CR38\",\n    \"PMC11837447::CR39\",\n    \"PMC11837447::CR40\",\n    \"PMC11837447::CR41\",\n    \"PMC11837447::CR42\",\n    \"PMC11837447::CR43\",\n    \"PMC11837447::CR44\",\n    \"PMC11837447::CR45\",\n    \"PMC11837447::CR46\",\n    \"PMC11837447::CR49\",\n    \"PMC11837447::CR50\",\n    \"PMC11837447::CR51\",\n    \"PMC11837447::CR52\",\n    \"PMC11837447::CR53\",\n    \"PMC11837447::CR22\",\n    \"PMC11837447::CR54\",\n    \"PMC11837447::CR55\",\n    \"PMC11837447::CR56\",\n    \"PMC11837447::CR57\",\n    \"PMC11837447::CR47\"\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794222262,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1461,
+    "prompt_tokens": 2287,
+    "total_tokens": 3748,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-xgqRx8svd2RFKosIlGRyDEQfueTNToP9",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2287,
+    "prompt_ms": 4102.748,
+    "prompt_per_token_ms": 1.793943156974202,
+    "prompt_per_second": 557.4312631436296,
+    "predicted_n": 1461,
+    "predicted_ms": 53706.504,
+    "predicted_per_token_ms": 36.785276712328766,
+    "predicted_per_second": 27.184789387892387
+  }
+}

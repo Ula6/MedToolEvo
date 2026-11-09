@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"entities\": [{\"name\": \"B12-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g3\", \"PMC11856201:g4\"]}, {\"name\": \"B15-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g3\", \"PMC11856201:g4\"]}, {\"name\": \"B19-jcm-14-01036\", \"evidence_ids\": [\"PMC11856201:g3\", \"PMC11856201:g4\"]}], \"unique_entity_count\": 3}",
+  "stderr": "",
+  "elapsed_seconds": 0.03449997026473284,
+  "code_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679"
+}

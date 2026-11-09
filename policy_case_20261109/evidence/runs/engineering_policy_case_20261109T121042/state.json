@@ -1,0 +1,147 @@
+{
+  "stage": "policy_case",
+  "events": [
+    {
+      "utc": "2026-11-09T12:11:18.813239+00:00",
+      "event": "source_annotations_verified",
+      "source": "PMC11837447",
+      "groups": 13,
+      "semantic_model": "Qwen3.5-27B"
+    },
+    {
+      "utc": "2026-11-09T12:11:19.254873+00:00",
+      "event": "existing_tool_failed_new_requirements",
+      "pass": false,
+      "correct": 0,
+      "total": 12,
+      "member_sets_correct": 0,
+      "checks": [
+        {
+          "query_id": "q1",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q2",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q3",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q4",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q5",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q6",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q7",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q8",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q9",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q10",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q11",
+          "pass": false,
+          "member_set_pass": false
+        },
+        {
+          "query_id": "q12",
+          "pass": false,
+          "member_set_pass": false
+        }
+      ],
+      "unit": "policy query with exact source provenance; not independent medical questions"
+    },
+    {
+      "utc": "2026-11-09T12:14:35.480125+00:00",
+      "event": "update_object_selected",
+      "action": "extend",
+      "target": "evidence_ledger",
+      "diagnosis": "The tool fails because it ignores the 'policy' object in queries. It currently returns the full union of all entities (23 entities) for every query, regardless of the specific logical constraints (e.g., q1 requires 'modality_ct' AND 'external_validation' AND NOT 'internal_validation'). The 'actual_old_tool_outputs' confirm this static behavior. The 'initial_Executor_evaluation' shows that a correct logic exists (passing 6/12 queries) but is not the default library behavior. The gap is the absence of a deterministic algorithm to filter groups based on the intersection/union/exclusion of signed relation sets defined in the policy."
+    },
+    {
+      "utc": "2026-11-09T12:16:21.925117+00:00",
+      "event": "independent_tests_frozen",
+      "new_cases": 12,
+      "legacy_named_tests": 10,
+      "expected_from_independent_rules": true,
+      "legacy_test_sha256": "f8dccce35eb81b26198eb8b851e0e1051e68056b426efa795ffd17d575f56d1f"
+    },
+    {
+      "utc": "2026-11-09T12:19:49.892054+00:00",
+      "event": "extension_functional_passed",
+      "old_regression_tests": 10,
+      "new_tests": 12,
+      "parent_sha256": "75b7c64645d3557e15ccd24db903939c1429e2027d8589ddefc818b2570a0a9f",
+      "new_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679"
+    },
+    {
+      "utc": "2026-11-09T12:21:41.455808+00:00",
+      "event": "development_extension_registered",
+      "parent_version": "autonomous_evidence_ledger_20261108T080249_v004",
+      "new_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679"
+    },
+    {
+      "utc": "2026-11-09T12:21:56.268205+00:00",
+      "event": "reloaded_extension_reused",
+      "input": "new_policies",
+      "fresh_pid": 1894192,
+      "queries": 2
+    },
+    {
+      "utc": "2026-11-09T12:22:24.327081+00:00",
+      "event": "source_annotations_verified",
+      "source": "PMC11856201",
+      "groups": 7,
+      "semantic_model": "Qwen3.5-27B"
+    },
+    {
+      "utc": "2026-11-09T12:23:01.749265+00:00",
+      "event": "reloaded_extension_reused",
+      "input": "cross_source",
+      "fresh_pid": 1894412,
+      "queries": 2
+    },
+    {
+      "utc": "2026-11-09T12:23:01.751792+00:00",
+      "event": "existing_tool_evolution_completed",
+      "passed": true
+    }
+  ],
+  "candidates": [
+    {
+      "name": "add_policy_filter_engine",
+      "status": "development_registered",
+      "manifest": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_policy_case_20261109T121042/builds/candidate/manifest.json",
+      "development_manifest": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_policy_case_20261109T121042/development_registry/evidence_ledger.json"
+    }
+  ],
+  "full_started": false
+}

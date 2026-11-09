@@ -1,0 +1,254 @@
+{
+  "task_id": "532b15ecd6d3ac6a34000014",
+  "question": "Which drugs have been found effective for the treatment of chordoma?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "bortezomib",
+      "topoisomerase I inhibitors",
+      "topoisomerase II inhibitors",
+      "vincristine",
+      "doxorubicin",
+      "etoposide",
+      "cisplatin",
+      "fludarabine",
+      "pingyangmycin lipiodol emulsion",
+      "SD-1029"
+    ],
+    "supports": [
+      {
+        "item": "bortezomib",
+        "evidence_id": "e1",
+        "quote": "The combination treatment of bortezomib with topoisomerase I and II inhibitors increased the therapeutic potency in U-CH2 and patient-derived primary cultures."
+      },
+      {
+        "item": "topoisomerase I inhibitors",
+        "evidence_id": "e1",
+        "quote": "The combination treatment of bortezomib with topoisomerase I and II inhibitors increased the therapeutic potency in U-CH2 and patient-derived primary cultures."
+      },
+      {
+        "item": "topoisomerase II inhibitors",
+        "evidence_id": "e1",
+        "quote": "The combination treatment of bortezomib with topoisomerase I and II inhibitors increased the therapeutic potency in U-CH2 and patient-derived primary cultures."
+      },
+      {
+        "item": "vincristine",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "doxorubicin",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "etoposide",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "cisplatin",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "fludarabine",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "pingyangmycin lipiodol emulsion",
+        "evidence_id": "e4",
+        "quote": "Preliminary results showed that PIIT with pingyangmycin lipiodol emulsion under fluoroscopic guidance is effective and safe and may be considered as a treatment option."
+      },
+      {
+        "item": "SD-1029",
+        "evidence_id": "e8",
+        "quote": "The expression of Stat3 signaling cascade was inhibited in all chordoma cell lines after treatment with SD-1029. The cytotoxicity of the combination of SD-1029 and chemotherapeutic drugs is significantly better than either agent alone."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is derived from in vitro studies (cell lines, primary cultures) and preliminary clinical results for recurrent sacrococcygeal chordomas; efficacy may vary by chordoma subtype, location, and patient population. Some drugs (e.g., bortezomib, SD-1029) are noted in combination or as potential strategies rather than established monotherapies.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 7,
+      "fp": 3,
+      "fn": 1,
+      "precision": 0.7,
+      "recall": 0.875,
+      "f1": 0.7777777777777777
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "bortezomib",
+      "topoisomerase I and II inhibitors",
+      "Vincristine",
+      "doxorubicin",
+      "etoposide",
+      "cisplatin",
+      "fludarabine",
+      "ATRA",
+      "pingyangmycin lipiodol emulsion",
+      "SD-1029"
+    ],
+    "supports": [
+      {
+        "item": "bortezomib",
+        "evidence_id": "e1",
+        "quote": "The combination treatment of bortezomib with topoisomerase I and II inhibitors increased the therapeutic potency in U-CH2 and patient-derived primary cultures."
+      },
+      {
+        "item": "topoisomerase I and II inhibitors",
+        "evidence_id": "e1",
+        "quote": "The combination treatment of bortezomib with topoisomerase I and II inhibitors increased the therapeutic potency in U-CH2 and patient-derived primary cultures."
+      },
+      {
+        "item": "Vincristine",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "doxorubicin",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "etoposide",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "cisplatin",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "fludarabine",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "ATRA",
+        "evidence_id": "e2",
+        "quote": "Etoposide and cisplatin, each at a concentration of 10 μM, reduced the percentage of viable chordoma cells in a more effective way when given with 1 μM ATRA simultaneously, reducing the number of viable cells to 14% and 9%, respectively."
+      },
+      {
+        "item": "pingyangmycin lipiodol emulsion",
+        "evidence_id": "e4",
+        "quote": "Preliminary results showed that PIIT with pingyangmycin lipiodol emulsion under fluoroscopic guidance is effective and safe and may be considered as a treatment option."
+      },
+      {
+        "item": "SD-1029",
+        "evidence_id": "e8",
+        "quote": "The expression of Stat3 signaling cascade was inhibited in all chordoma cell lines after treatment with SD-1029. The cytotoxicity of the combination of SD-1029 and chemotherapeutic drugs is significantly better than either agent alone. Phosphorylation of Stat3 in chordoma cells in vitro and cellular proliferation in three-dimensional culture were inhibited by SD-1029."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to in vitro studies (cell lines, primary cultures) and preliminary clinical results for recurrent sacrococcygeal chordomas; efficacy in broader populations or as standard of care is not established in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 7,
+      "fp": 3,
+      "fn": 1,
+      "precision": 0.7,
+      "recall": 0.875,
+      "f1": 0.7777777777777777
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "bortezomib",
+      "topoisomerase I and II inhibitors",
+      "Vincristine",
+      "doxorubicin",
+      "etoposide",
+      "cisplatin",
+      "fludarabine",
+      "ATRA",
+      "pingyangmycin lipiodol emulsion",
+      "SD-1029"
+    ],
+    "supports": [
+      {
+        "item": "bortezomib",
+        "evidence_id": "e1",
+        "quote": "The combination treatment of bortezomib with topoisomerase I and II inhibitors increased the therapeutic potency in U-CH2 and patient-derived primary cultures."
+      },
+      {
+        "item": "topoisomerase I and II inhibitors",
+        "evidence_id": "e1",
+        "quote": "The combination treatment of bortezomib with topoisomerase I and II inhibitors increased the therapeutic potency in U-CH2 and patient-derived primary cultures."
+      },
+      {
+        "item": "Vincristine",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "doxorubicin",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "etoposide",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "cisplatin",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "fludarabine",
+        "evidence_id": "e2",
+        "quote": "Vincristine, doxorubicin, etoposide, cisplatin, and fludarabine, each at a concentration of 10 μM, decreased the number of chordoma cells when given alone down to 11%, 0%, 30%, 67%, and 3%, respectively."
+      },
+      {
+        "item": "ATRA",
+        "evidence_id": "e2",
+        "quote": "Etoposide and cisplatin, each at a concentration of 10 μM, reduced the percentage of viable chordoma cells in a more effective way when given with 1 μM ATRA simultaneously, reducing the number of viable cells to 14% and 9%, respectively."
+      },
+      {
+        "item": "pingyangmycin lipiodol emulsion",
+        "evidence_id": "e4",
+        "quote": "Preliminary results showed that PIIT with pingyangmycin lipiodol emulsion under fluoroscopic guidance is effective and safe and may be considered as a treatment option."
+      },
+      {
+        "item": "SD-1029",
+        "evidence_id": "e8",
+        "quote": "The expression of Stat3 signaling cascade was inhibited in all chordoma cell lines after treatment with SD-1029. The cytotoxicity of the combination of SD-1029 and chemotherapeutic drugs is significantly better than either agent alone. Phosphorylation of Stat3 in chordoma cells in vitro and cellular proliferation in three-dimensional culture were inhibited by SD-1029."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to in vitro studies (cell lines, primary cultures) and preliminary clinical results for recurrent sacrococcygeal chordomas; efficacy in broader populations or as standard of care is not established in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 7,
+      "fp": 3,
+      "fn": 1,
+      "precision": 0.7,
+      "recall": 0.875,
+      "f1": 0.7777777777777777
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/19723879",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20965848",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21801998",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21905773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23792643"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/532b15ecd6d3ac6a34000014/attempt_0"
+}

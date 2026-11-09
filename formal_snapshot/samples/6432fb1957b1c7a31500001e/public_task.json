@@ -1,0 +1,21 @@
+{
+  "id": "6432fb1957b1c7a31500001e",
+  "question": "What clinical applications is Zanubrutinib approved for in the United States?",
+  "type": "list",
+  "evidence": [
+    {
+      "evidence_id": "e1",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/35651781",
+      "text": "In the United States, zanubrutinib, a next-generation BTK inhibitor, has been approved for treating adults with mantle cell lymphoma who have received at least one prior therapy, for adults with Waldenström macroglobulinemia, and for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy. ",
+      "section": "abstract",
+      "offset": 543
+    },
+    {
+      "evidence_id": "e2",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/35651781",
+      "text": "Zanubrutinib is currently approved for use for treatment of adult patients with MCL who have received at least one prior therapy, for adults with WM, and for adults with MZL who have received at least one anti-CD20-based therapy.",
+      "section": "abstract",
+      "offset": 3208
+    }
+  ]
+}

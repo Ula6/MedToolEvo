@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\"pid\": 1836441, \"output\": {\"weighted_mean\": 9.196301, \"weighted_population_variance\": 0.277442, \"weighted_population_sd\": 0.526728, \"weighted_geometric_mean\": 9.180429}}\n",
+  "stderr": ""
+}

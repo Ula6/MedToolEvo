@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "parsed": {
+    "supported": true,
+    "index_repaired": true,
+    "source_binding_preserved": true,
+    "reason": "The actual_generated_tool_output correctly identifies all literal occurrences with accurate zero-based Unicode character offsets and verbatim quotes matching the original source text (e.g., 'studies' at 41-48, 'double‐blind' at 440-452 preserving the non-breaking hyphen). The output correctly rejects the absent probe 'q7' by listing it in unsupported_query_ids with an empty matches list. The initial_answer contained incorrect offsets (e.g., starting at 44 instead of 41), which were successfully repaired in the final and actual outputs to align with the true source character spans."
+  }
+}

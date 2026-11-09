@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "scope": "anchor engineering case",
+  "error": "RuntimeError: Independent anchor fixtures did not converge",
+  "full_authorized": false,
+  "bioasq_result": false
+}

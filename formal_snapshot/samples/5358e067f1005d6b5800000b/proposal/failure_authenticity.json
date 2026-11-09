@@ -1,0 +1,13 @@
+{
+  "assessment": {
+    "classification": "no_content_failure",
+    "create_tool_justified": false,
+    "problems": [],
+    "reason": "The answer successfully identifies all proteins explicitly mentioned in the evidence as being involved in actin bundling and filopodia formation/function. The evidence supports CRP1 (s0-s3), Fascin (s4-s6, s12-s13, s25-s29), MAYP/PSTPIP2 (s7-s11), IRSp53 (s14, s16-s17, s22, s24), Eps8 (s15-s17), VASP/DdVASP (s18-s21), and MIM/IMD (s23-s24). All requested items are covered with exact source spans demonstrating their roles in bundling and filopodia. No factual errors, missing operations, or unsupported claims are present."
+  },
+  "validation": {
+    "allow_tool_discovery": false,
+    "reason": "No source-grounded executable content failure identified",
+    "bound_problems": []
+  }
+}

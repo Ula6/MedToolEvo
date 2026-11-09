@@ -1,0 +1,136 @@
+{
+  "task_id": "54df69af1388e8454a000005",
+  "question": "Which drugs are included in the FEC-75 regimen?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "Fluorouracil",
+      "Epirubicin",
+      "Cyclophosphamide"
+    ],
+    "supports": [
+      {
+        "item": "Fluorouracil",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      },
+      {
+        "item": "Epirubicin",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      },
+      {
+        "item": "Cyclophosphamide",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence defines FEC-75 as a combination of fluorouracil, epirubicin, and cyclophosphamide. The '75' specifically refers to the epirubicin dose (75 mg/m2) as confirmed in e2, e4, e7, e8, e9, e11, e12, e13, e14, e15, e16, and e17, but the drug names remain consistent across all sources.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "Fluorouracil",
+      "Epirubicin",
+      "Cyclophosphamide"
+    ],
+    "supports": [
+      {
+        "item": "Fluorouracil",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      },
+      {
+        "item": "Epirubicin",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      },
+      {
+        "item": "Cyclophosphamide",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence defines FEC-75 as a combination of fluorouracil, epirubicin, and cyclophosphamide. The '75' specifically refers to the epirubicin dose (75 mg/m2) as confirmed in e2, e4, e7, e8, e9, e11, e12, e13, e14, e15, e16, and e17, but the drug names remain consistent across all sources.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "Fluorouracil",
+      "Epirubicin",
+      "Cyclophosphamide"
+    ],
+    "supports": [
+      {
+        "item": "Fluorouracil",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      },
+      {
+        "item": "Epirubicin",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      },
+      {
+        "item": "Cyclophosphamide",
+        "evidence_id": "e1",
+        "quote": "Fluorouracil, epirubicin, and cyclophosphamide (FEC-75)"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence defines FEC-75 as a combination of fluorouracil, epirubicin, and cyclophosphamide. The '75' specifically refers to the epirubicin dose (75 mg/m2) as confirmed in e2, e4, e7, e8, e9, e11, e12, e13, e14, e15, e16, and e17, but the drug names remain consistent across all sources.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10963640",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11875727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12525522",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16282727",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17054108",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17647266",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18189160",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1988577",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22772380",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22902450",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24239210",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7693420",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8808724"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/54df69af1388e8454a000005/attempt_0"
+}

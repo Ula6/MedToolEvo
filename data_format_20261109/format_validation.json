@@ -1,0 +1,23 @@
+{
+  "purpose": "Lossless layout validation, not a model performance experiment",
+  "source_run": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147",
+  "task_count": 100,
+  "roundtrip_equal_tasks": 100,
+  "fixed_ids_and_order_preserved": true,
+  "original_texts_exactly_preserved": true,
+  "evidence_count": 1598,
+  "reference_files_read": false,
+  "medical_annotation_added": false,
+  "model_or_gpu_calls": 0,
+  "original_canonical_sha256": "345a3dd8cc335f268341f27cb43d1c7e6c3045e9e0e18520a62f362ab07a4eb9",
+  "restored_canonical_sha256": "345a3dd8cc335f268341f27cb43d1c7e6c3045e9e0e18520a62f362ab07a4eb9",
+  "compact_utf8_bytes_before": 565471,
+  "compact_utf8_bytes_after": 481117,
+  "byte_reduction_fraction": 0.14917475874094344,
+  "byte_counts_are_not_model_token_counts": true,
+  "limitations": [
+    "New layout requires a matching consumer adapter or prompt.",
+    "No answer quality, failure repair or tool registration improvement measured.",
+    "No frozen pilot files or metrics modified."
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "selected_rows": [
+      0
+    ],
+    "baseline": {
+      "weighted_mean": 13.1,
+      "weighted_population_variance": 0.0,
+      "weighted_population_sd": 0.0,
+      "weighted_geometric_mean": 13.1,
+      "evidence_id": "e2",
+      "quote": "R01: Breast (231); mean=13.1; n=231.",
+      "limitations": "Calculations based on a single supplied row; variance and SD are zero as no inter-row variability exists in the provided dataset."
+    },
+    "baseline_evaluation": {
+      "pass": true,
+      "correct": 4,
+      "total": 4,
+      "accuracy": 1.0,
+      "checks": {
+        "weighted_mean": {
+          "predicted": 13.1,
+          "expected": 13.1,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_variance": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_sd": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_geometric_mean": {
+          "predicted": 13.1,
+          "expected": 13.1,
+          "absolute_error": 0.0,
+          "pass": true
+        }
+      }
+    },
+    "tool_output": {
+      "weighted_mean": 13.1,
+      "weighted_population_variance": 0.0,
+      "weighted_population_sd": 0.0,
+      "weighted_geometric_mean": 13.1
+    },
+    "tool_evaluation": {
+      "pass": true,
+      "correct": 4,
+      "total": 4,
+      "accuracy": 1.0,
+      "checks": {
+        "weighted_mean": {
+          "predicted": 13.1,
+          "expected": 13.1,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_variance": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_sd": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_geometric_mean": {
+          "predicted": 13.1,
+          "expected": 13.1,
+          "absolute_error": 0.0,
+          "pass": true
+        }
+      }
+    }
+  },
+  {
+    "selected_rows": [
+      5
+    ],
+    "baseline": {
+      "weighted_mean": 8.7,
+      "weighted_population_variance": 0.0,
+      "weighted_population_sd": 0.0,
+      "weighted_geometric_mean": 8.7,
+      "evidence_id": "e2",
+      "quote": "R06: Gynaecology (213); mean=8.7; n=213.",
+      "limitations": "Calculations based on a single supplied row; variance and standard deviation are zero as no inter-row variability exists in the provided dataset."
+    },
+    "baseline_evaluation": {
+      "pass": true,
+      "correct": 4,
+      "total": 4,
+      "accuracy": 1.0,
+      "checks": {
+        "weighted_mean": {
+          "predicted": 8.7,
+          "expected": 8.7,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_variance": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_sd": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_geometric_mean": {
+          "predicted": 8.7,
+          "expected": 8.7,
+          "absolute_error": 0.0,
+          "pass": true
+        }
+      }
+    },
+    "tool_output": {
+      "weighted_mean": 8.7,
+      "weighted_population_variance": 0.0,
+      "weighted_population_sd": 0.0,
+      "weighted_geometric_mean": 8.7
+    },
+    "tool_evaluation": {
+      "pass": true,
+      "correct": 4,
+      "total": 4,
+      "accuracy": 1.0,
+      "checks": {
+        "weighted_mean": {
+          "predicted": 8.7,
+          "expected": 8.7,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_variance": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_sd": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_geometric_mean": {
+          "predicted": 8.7,
+          "expected": 8.7,
+          "absolute_error": 0.0,
+          "pass": true
+        }
+      }
+    }
+  },
+  {
+    "selected_rows": [
+      10
+    ],
+    "baseline": {
+      "weighted_mean": 9.3,
+      "weighted_population_variance": 0.0,
+      "weighted_population_sd": 0.0,
+      "weighted_geometric_mean": 9.3,
+      "evidence_id": "e2",
+      "quote": "R11: Musculoskeletal (75); mean=9.3; n=75.",
+      "limitations": "Only one subgroup row (Musculoskeletal) was supplied in public_payload.rows; variance and SD are zero because a single value yields no dispersion. Results reflect arithmetic summaries of the provided rounded mean, not patient-level variability."
+    },
+    "baseline_evaluation": {
+      "pass": true,
+      "correct": 4,
+      "total": 4,
+      "accuracy": 1.0,
+      "checks": {
+        "weighted_mean": {
+          "predicted": 9.3,
+          "expected": 9.3,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_variance": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_sd": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_geometric_mean": {
+          "predicted": 9.3,
+          "expected": 9.3,
+          "absolute_error": 0.0,
+          "pass": true
+        }
+      }
+    },
+    "tool_output": {
+      "weighted_mean": 9.3,
+      "weighted_population_variance": 0.0,
+      "weighted_population_sd": 0.0,
+      "weighted_geometric_mean": 9.3
+    },
+    "tool_evaluation": {
+      "pass": true,
+      "correct": 4,
+      "total": 4,
+      "accuracy": 1.0,
+      "checks": {
+        "weighted_mean": {
+          "predicted": 9.3,
+          "expected": 9.3,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_variance": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_population_sd": {
+          "predicted": 0.0,
+          "expected": 0.0,
+          "absolute_error": 0.0,
+          "pass": true
+        },
+        "weighted_geometric_mean": {
+          "predicted": 9.3,
+          "expected": 9.3,
+          "absolute_error": 0.0,
+          "pass": true
+        }
+      }
+    }
+  }
+]

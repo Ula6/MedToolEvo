@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n\"classification\": \"no_content_failure\",\n\"create_tool_justified\": false,\n\"problems\": [],\n\"reason\": \"The answer correctly identifies the histone mutations (K27M, G34R, G34V) and the associated genes (H3F3A, HIST1H3B) and protein variants (H3.3, H3.1) found in pediatric gliomas. All items in the initial and retry lists are supported by exact quotes in the provided evidence (e.g., e2, e8, e17, e35). No factual errors, coverage gaps, or missing operations were detected.\"\n}"
+      }
+    }
+  ],
+  "created": 1794206811,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 6571,
+    "total_tokens": 6713,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-9xYMr2ORX6WLrqWuZ5fI1q5EqcatzUcj",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 6571,
+    "prompt_ms": 11758.051,
+    "prompt_per_token_ms": 1.7893853294780093,
+    "prompt_per_second": 558.8511225202204,
+    "predicted_n": 142,
+    "predicted_ms": 5260.936,
+    "predicted_per_token_ms": 37.31160283687943,
+    "predicted_per_second": 26.80131444290522
+  }
+}

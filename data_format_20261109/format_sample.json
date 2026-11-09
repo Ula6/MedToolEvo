@@ -1,0 +1,61 @@
+{
+  "note": "Layout illustration only; first two original evidence segments.",
+  "before": {
+    "id": "515bd543298dcd4e51000001",
+    "question": "In which isochores are Alu elements enriched?",
+    "type": "list",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22057813",
+        "text": " the vast majority of Alu sequences were shown to have the highest density in GC-rich isochores",
+        "section": "sections.0",
+        "offset": 146
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22057813",
+        "text": "Alu sequences being unstable in the GC-poor isochores but stable in the compositionally matching GC-rich isochores,",
+        "section": "sections.0",
+        "offset": 988
+      }
+    ]
+  },
+  "after": {
+    "id": "515bd543298dcd4e51000001",
+    "question": "In which isochores are Alu elements enriched?",
+    "type": "list",
+    "evidence_table": {
+      "columns": [
+        "evidence_id",
+        "source",
+        "text",
+        "section",
+        "offset"
+      ],
+      "rows": [
+        [
+          "e1",
+          0,
+          " the vast majority of Alu sequences were shown to have the highest density in GC-rich isochores",
+          "sections.0",
+          146
+        ],
+        [
+          "e2",
+          0,
+          "Alu sequences being unstable in the GC-poor isochores but stable in the compositionally matching GC-rich isochores,",
+          "sections.0",
+          988
+        ]
+      ],
+      "sources": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/22057813"
+      ],
+      "missing_columns": [
+        [],
+        []
+      ]
+    }
+  }
+}

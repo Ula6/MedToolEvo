@@ -1,0 +1,460 @@
+{
+  "name": "add_policy_filter_engine",
+  "description": "Backward-compatible evidence ledger with optional scoped signed-relation policy.",
+  "when_to_use": "Conjunction, disjunction and exclusion over explicit runtime source-bound fact annotations.",
+  "limitations": "Supplied annotations can be wrong; not medical inference. Missing facts are not negative facts.",
+  "semantic_preprocessor": null,
+  "code_contract": {
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "evidence_id": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "evidence_id",
+              "text"
+            ],
+            "additionalProperties": true
+          },
+          "maxItems": 100
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "group_id": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "evidence_id": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "quote": {
+                "type": "string",
+                "maxLength": 6000
+              },
+              "eligible": {
+                "type": "boolean"
+              },
+              "relation": {
+                "type": "string",
+                "maxLength": 100
+              },
+              "polarity": {
+                "type": "string",
+                "enum": [
+                  "positive",
+                  "negative",
+                  "unknown"
+                ]
+              },
+              "scope": {
+                "type": "string",
+                "maxLength": 120
+              }
+            },
+            "required": [
+              "name",
+              "group_id",
+              "evidence_id",
+              "quote",
+              "eligible"
+            ],
+            "additionalProperties": true
+          },
+          "maxItems": 500
+        },
+        "policy": {
+          "type": "object",
+          "properties": {
+            "scope": {
+              "type": "string",
+              "maxLength": 120
+            },
+            "all_of": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "relation": {
+                    "type": "string",
+                    "maxLength": 100
+                  },
+                  "polarity": {
+                    "type": "string",
+                    "enum": [
+                      "positive",
+                      "negative"
+                    ]
+                  }
+                },
+                "required": [
+                  "relation",
+                  "polarity"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 20
+            },
+            "any_of": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "relation": {
+                    "type": "string",
+                    "maxLength": 100
+                  },
+                  "polarity": {
+                    "type": "string",
+                    "enum": [
+                      "positive",
+                      "negative"
+                    ]
+                  }
+                },
+                "required": [
+                  "relation",
+                  "polarity"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 20
+            },
+            "none_of": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "relation": {
+                    "type": "string",
+                    "maxLength": 100
+                  },
+                  "polarity": {
+                    "type": "string",
+                    "enum": [
+                      "positive",
+                      "negative"
+                    ]
+                  }
+                },
+                "required": [
+                  "relation",
+                  "polarity"
+                ],
+                "additionalProperties": false
+              },
+              "maxItems": 20
+            }
+          },
+          "required": [
+            "scope",
+            "all_of",
+            "any_of",
+            "none_of"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "evidence",
+        "entries"
+      ],
+      "additionalProperties": true
+    },
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "entities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 120
+                },
+                "maxItems": 100
+              }
+            },
+            "required": [
+              "name",
+              "evidence_ids"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 500
+        },
+        "unique_entity_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "entities",
+        "unique_entity_count"
+      ],
+      "additionalProperties": false
+    },
+    "algorithm": "Extend the existing evidence ledger with an OPTIONAL runtime policy; preserve\nits original documented behavior exactly when policy is absent. Legacy mode validates\nevidence and entries atomically, including quotes of ineligible entries; groups by\ngroup_id, rejects inconsistent names even in ineligible entries, filters eligible:false,\nand emits first-encounter name/evidence IDs and unique_entity_count without mutation.\nDo not tighten legacy extra-key behavior or make new annotation fields mandatory there.\nIn policy mode use the same evidence/entries plus policy:{scope,all_of,any_of,none_of}.\nEach policy list contains {relation,polarity}, polarity positive or negative. Policy\nobjects and signed-rule objects have exactly their documented keys. Policy-mode\nentries additionally require nonblank relation/scope and polarity positive,negative,\nor unknown. These are explicit fallible Qwen annotations: NEVER infer semantics from\nsource prose, candidate names, substrings or hardcoded medical terms.\nValidate all entries and source quotes, even outside selected scope or ineligible.\nWithin policy mode enforce consistent names per (scope,group_id), not across scopes.\nConsider only eligible:true records in the exact selected scope; unknown polarity\ndoes not establish a fact. A group must have at least one established fact. It passes\nif ALL all_of signed facts are present, at least ONE any_of fact is present when that\nlist is nonempty, and NONE of none_of facts are present. Missing facts are not negative\nfacts. none_of excludes an explicitly recorded signed fact, never proves that a study\ndid not perform an operation. Duplicate rules/facts have set semantics.\nPreserve group order by first eligible established record in the selected scope.\nFor selected groups output evidence_ids from established records matching all_of OR\nany_of, preserving original record order and removing duplicate IDs. If both lists\nare empty, use all established records. Exclusion evidence from rejected groups is\nnot output. Return exactly {entities:[{name,evidence_ids}],unique_entity_count} in\nBOTH modes. Preserve input. Invalid data raise ValueError. Legacy nonblank required\nstrings/strict booleans, unique evidence IDs, existing evidence IDs and exact contiguous\nnonblank source quotes remain mandatory. No files/network/models/external packages.\nNo clinical truth guarantees: this tool only executes supplied signed relation policy.\nQwen compiled extension:\n1. Validate input schema: Ensure 'evidence' and 'entries' arrays exist. Verify all 'entries' have required fields (name, group_id, evidence_id, quote, eligible) with non-blank strings and strict booleans. Validate 'evidence' IDs are unique and match referenced IDs in 'entries'. Validate 'quote' is a contiguous non-blank substring of the corresponding 'evidence' text. Raise ValueError on any violation.\n2. Determine Mode: Check for the presence of the 'policy' object. If absent, enter Legacy Mode. If present, enter Policy Mode.\n3. Legacy Mode Execution:\n   a. Filter 'entries' where eligible == true.\n   b. Group remaining entries by 'group_id'.\n   c. For each group, validate name consistency (all entries in the group must have the same 'name'). Reject groups with inconsistent names.\n   d. For each valid group, collect 'evidence_id' from the first encounter of each unique ID, preserving original record order.\n   e. Construct output entities list preserving group order by first eligible record. Set unique_entity_count to the number of valid groups.\n4. Policy Mode Execution:\n   a. Validate 'policy' structure: 'scope', 'all_of', 'any_of', 'none_of' must exist. 'all_of', 'any_of', 'none_of' must contain objects with exactly 'relation' and 'polarity' (positive/negative).\n   b. Filter 'entries' where eligible == true AND entry.scope == policy.scope.\n   c. Group filtered entries by 'group_id'.\n   d. For each group, validate name consistency within the (scope, group_id) pair. Reject groups with inconsistent names.\n   e. Identify 'established facts' within the group: entries where polarity is 'positive' or 'negative' (exclude 'unknown').\n   f. Evaluate Policy Logic for each group:\n      i. Check 'all_of': Group passes only if ALL specified (relation, polarity) pairs exist as established facts in the group.\n      ii. Check 'any_of': If the list is non-empty, group passes only if AT LEAST ONE specified pair exists as an established fact. If list is empty, this condition is trivially true.\n      iii. Check 'none_of': Group fails if ANY specified (relation, polarity) pair exists as an established fact in the group.\n      iv. A group must have at least one established fact to be considered valid for fact-checking; if no facts exist, it cannot satisfy non-empty 'all_of' or 'any_of' requirements.\n   g. Filter groups that pass all policy conditions.\n   h. For passing groups, aggregate 'evidence_ids' from established records that match 'all_of' OR 'any_of' criteria. If both 'all_of' and 'any_of' are empty, use evidence_ids from ALL established records in the group.\n   i. Preserve original record order and remove duplicate IDs in the evidence list.\n   j. Construct output entities list preserving group order by first eligible established record. Set unique_entity_count to the number of passing groups.\n5. Final Output: Return JSON {entities: [...], unique_entity_count: int}.",
+    "invariants": [
+      "Input validation is strict: non-blank required strings, strict booleans, unique evidence IDs, and exact contiguous quote validation are mandatory in both modes.",
+      "Legacy mode behavior is preserved exactly when 'policy' is absent: full union of eligible groups, atomic validation of evidence/entries, and rejection of inconsistent names.",
+      "Policy mode enforces name consistency per (scope, group_id) only, not across different scopes.",
+      "Only eligible:true records within the exact selected scope are considered for policy evaluation.",
+      "Unknown polarity entries do not establish facts and cannot satisfy 'all_of' or 'any_of' conditions.",
+      "A group must contain at least one established fact (positive or negative polarity) to be evaluated against policy lists.",
+      "Missing facts are not treated as negative facts; 'none_of' only excludes explicitly recorded signed facts.",
+      "Duplicate rules/facts within policy lists have set semantics (duplicates are ignored). Duplicate evidence IDs in output are removed while preserving order of first encounter.\n    \"Output schema is strictly {entities: [{name, evidence_ids}], unique_entity_count} in both modes.\"\n    \"No external inference: Semantics are derived solely from supplied signed relations, not from source prose, candidate,"
+    ],
+    "edge_cases": [
+      "Policy 'all_of' or 'any_of' lists are empty: 'all_of' is trivially satisfied; 'any_of' is trivially satisfied if empty, otherwise requires at least one match.",
+      "Group has no established facts (all entries have 'unknown' polarity): Fails non-empty 'all_of' or 'any_of' checks; passes 'none_of' checks but may be excluded if no facts exist to satisfy existence requirements.",
+      "Inconsistent names within a group: Group is rejected entirely in both Legacy and Policy modes.",
+      "Quote validation failure: If a quote is not a contiguous substring of the evidence text, the entire input is invalid (ValueError).",
+      "Scope mismatch: Entries with scope != policy.scope are ignored in Policy mode.",
+      "None_of exclusion: A group is rejected if it contains a fact explicitly listed in 'none_of', even if it satisfies 'all_of' and 'any_of'.",
+      "Legacy mode with ineligible entries: Ineligible entries are filtered out before grouping; quotes of ineligible entries are still validated for integrity.",
+      "Empty input arrays: If 'entries' is empty, output is {entities: [], unique_entity_count: 0}. If 'evidence' is empty but entries exist, validation fails if entries reference missing IDs."
+    ]
+  },
+  "display_name": "add_policy_filter_engine",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "evidence_id": {
+              "type": "string",
+              "maxLength": 120
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "evidence_id",
+            "text"
+          ],
+          "additionalProperties": true
+        },
+        "maxItems": 100
+      },
+      "entries": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "group_id": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "evidence_id": {
+              "type": "string",
+              "maxLength": 120
+            },
+            "quote": {
+              "type": "string",
+              "maxLength": 6000
+            },
+            "eligible": {
+              "type": "boolean"
+            },
+            "relation": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "polarity": {
+              "type": "string",
+              "enum": [
+                "positive",
+                "negative",
+                "unknown"
+              ]
+            },
+            "scope": {
+              "type": "string",
+              "maxLength": 120
+            }
+          },
+          "required": [
+            "name",
+            "group_id",
+            "evidence_id",
+            "quote",
+            "eligible"
+          ],
+          "additionalProperties": true
+        },
+        "maxItems": 500
+      },
+      "policy": {
+        "type": "object",
+        "properties": {
+          "scope": {
+            "type": "string",
+            "maxLength": 120
+          },
+          "all_of": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "relation": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "polarity": {
+                  "type": "string",
+                  "enum": [
+                    "positive",
+                    "negative"
+                  ]
+                }
+              },
+              "required": [
+                "relation",
+                "polarity"
+              ],
+              "additionalProperties": false
+            },
+            "maxItems": 20
+          },
+          "any_of": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "relation": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "polarity": {
+                  "type": "string",
+                  "enum": [
+                    "positive",
+                    "negative"
+                  ]
+                }
+              },
+              "required": [
+                "relation",
+                "polarity"
+              ],
+              "additionalProperties": false
+            },
+            "maxItems": 20
+          },
+          "none_of": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "relation": {
+                  "type": "string",
+                  "maxLength": 100
+                },
+                "polarity": {
+                  "type": "string",
+                  "enum": [
+                    "positive",
+                    "negative"
+                  ]
+                }
+              },
+              "required": [
+                "relation",
+                "polarity"
+              ],
+              "additionalProperties": false
+            },
+            "maxItems": 20
+          }
+        },
+        "required": [
+          "scope",
+          "all_of",
+          "any_of",
+          "none_of"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "evidence",
+      "entries"
+    ],
+    "additionalProperties": true
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "entities": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "maxLength": 200
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "maxItems": 100
+            }
+          },
+          "required": [
+            "name",
+            "evidence_ids"
+          ],
+          "additionalProperties": false
+        },
+        "maxItems": 500
+      },
+      "unique_entity_count": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "required": [
+      "entities",
+      "unique_entity_count"
+    ],
+    "additionalProperties": false
+  },
+  "requirements": "Extend the existing evidence ledger with an OPTIONAL runtime policy; preserve\nits original documented behavior exactly when policy is absent. Legacy mode validates\nevidence and entries atomically, including quotes of ineligible entries; groups by\ngroup_id, rejects inconsistent names even in ineligible entries, filters eligible:false,\nand emits first-encounter name/evidence IDs and unique_entity_count without mutation.\nDo not tighten legacy extra-key behavior or make new annotation fields mandatory there.\nIn policy mode use the same evidence/entries plus policy:{scope,all_of,any_of,none_of}.\nEach policy list contains {relation,polarity}, polarity positive or negative. Policy\nobjects and signed-rule objects have exactly their documented keys. Policy-mode\nentries additionally require nonblank relation/scope and polarity positive,negative,\nor unknown. These are explicit fallible Qwen annotations: NEVER infer semantics from\nsource prose, candidate names, substrings or hardcoded medical terms.\nValidate all entries and source quotes, even outside selected scope or ineligible.\nWithin policy mode enforce consistent names per (scope,group_id), not across scopes.\nConsider only eligible:true records in the exact selected scope; unknown polarity\ndoes not establish a fact. A group must have at least one established fact. It passes\nif ALL all_of signed facts are present, at least ONE any_of fact is present when that\nlist is nonempty, and NONE of none_of facts are present. Missing facts are not negative\nfacts. none_of excludes an explicitly recorded signed fact, never proves that a study\ndid not perform an operation. Duplicate rules/facts have set semantics.\nPreserve group order by first eligible established record in the selected scope.\nFor selected groups output evidence_ids from established records matching all_of OR\nany_of, preserving original record order and removing duplicate IDs. If both lists\nare empty, use all established records. Exclusion evidence from rejected groups is\nnot output. Return exactly {entities:[{name,evidence_ids}],unique_entity_count} in\nBOTH modes. Preserve input. Invalid data raise ValueError. Legacy nonblank required\nstrings/strict booleans, unique evidence IDs, existing evidence IDs and exact contiguous\nnonblank source quotes remain mandatory. No files/network/models/external packages.\nNo clinical truth guarantees: this tool only executes supplied signed relation policy.\nQwen compiled extension:\n1. Validate input schema: Ensure 'evidence' and 'entries' arrays exist. Verify all 'entries' have required fields (name, group_id, evidence_id, quote, eligible) with non-blank strings and strict booleans. Validate 'evidence' IDs are unique and match referenced IDs in 'entries'. Validate 'quote' is a contiguous non-blank substring of the corresponding 'evidence' text. Raise ValueError on any violation.\n2. Determine Mode: Check for the presence of the 'policy' object. If absent, enter Legacy Mode. If present, enter Policy Mode.\n3. Legacy Mode Execution:\n   a. Filter 'entries' where eligible == true.\n   b. Group remaining entries by 'group_id'.\n   c. For each group, validate name consistency (all entries in the group must have the same 'name'). Reject groups with inconsistent names.\n   d. For each valid group, collect 'evidence_id' from the first encounter of each unique ID, preserving original record order.\n   e. Construct output entities list preserving group order by first eligible record. Set unique_entity_count to the number of valid groups.\n4. Policy Mode Execution:\n   a. Validate 'policy' structure: 'scope', 'all_of', 'any_of', 'none_of' must exist. 'all_of', 'any_of', 'none_of' must contain objects with exactly 'relation' and 'polarity' (positive/negative).\n   b. Filter 'entries' where eligible == true AND entry.scope == policy.scope.\n   c. Group filtered entries by 'group_id'.\n   d. For each group, validate name consistency within the (scope, group_id) pair. Reject groups with inconsistent names.\n   e. Identify 'established facts' within the group: entries where polarity is 'positive' or 'negative' (exclude 'unknown').\n   f. Evaluate Policy Logic for each group:\n      i. Check 'all_of': Group passes only if ALL specified (relation, polarity) pairs exist as established facts in the group.\n      ii. Check 'any_of': If the list is non-empty, group passes only if AT LEAST ONE specified pair exists as an established fact. If list is empty, this condition is trivially true.\n      iii. Check 'none_of': Group fails if ANY specified (relation, polarity) pair exists as an established fact in the group.\n      iv. A group must have at least one established fact to be considered valid for fact-checking; if no facts exist, it cannot satisfy non-empty 'all_of' or 'any_of' requirements.\n   g. Filter groups that pass all policy conditions.\n   h. For passing groups, aggregate 'evidence_ids' from established records that match 'all_of' OR 'any_of' criteria. If both 'all_of' and 'any_of' are empty, use evidence_ids from ALL established records in the group.\n   i. Preserve original record order and remove duplicate IDs in the evidence list.\n   j. Construct output entities list preserving group order by first eligible established record. Set unique_entity_count to the number of passing groups.\n5. Final Output: Return JSON {entities: [...], unique_entity_count: int}.\nInvariants: [\"Input validation is strict: non-blank required strings, strict booleans, unique evidence IDs, and exact contiguous quote validation are mandatory in both modes.\", \"Legacy mode behavior is preserved exactly when 'policy' is absent: full union of eligible groups, atomic validation of evidence/entries, and rejection of inconsistent names.\", \"Policy mode enforces name consistency per (scope, group_id) only, not across different scopes.\", \"Only eligible:true records within the exact selected scope are considered for policy evaluation.\", \"Unknown polarity entries do not establish facts and cannot satisfy 'all_of' or 'any_of' conditions.\", \"A group must contain at least one established fact (positive or negative polarity) to be evaluated against policy lists.\", \"Missing facts are not treated as negative facts; 'none_of' only excludes explicitly recorded signed facts.\", \"Duplicate rules/facts within policy lists have set semantics (duplicates are ignored). Duplicate evidence IDs in output are removed while preserving order of first encounter.\\n    \\\"Output schema is strictly {entities: [{name, evidence_ids}], unique_entity_count} in both modes.\\\"\\n    \\\"No external inference: Semantics are derived solely from supplied signed relations, not from source prose, candidate,\"]\nEdge cases: [\"Policy 'all_of' or 'any_of' lists are empty: 'all_of' is trivially satisfied; 'any_of' is trivially satisfied if empty, otherwise requires at least one match.\", \"Group has no established facts (all entries have 'unknown' polarity): Fails non-empty 'all_of' or 'any_of' checks; passes 'none_of' checks but may be excluded if no facts exist to satisfy existence requirements.\", \"Inconsistent names within a group: Group is rejected entirely in both Legacy and Policy modes.\", \"Quote validation failure: If a quote is not a contiguous substring of the evidence text, the entire input is invalid (ValueError).\", \"Scope mismatch: Entries with scope != policy.scope are ignored in Policy mode.\", \"None_of exclusion: A group is rejected if it contains a fact explicitly listed in 'none_of', even if it satisfies 'all_of' and 'any_of'.\", \"Legacy mode with ineligible entries: Ineligible entries are filtered out before grouping; quotes of ineligible entries are still validated for integrity.\", \"Empty input arrays: If 'entries' is empty, output is {entities: [], unique_entity_count: 0}. If 'evidence' is empty but entries exist, validation fails if entries reference missing IDs.\"]"
+}

@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "test": "test_case_00",
+      "status": "PASS"
+    },
+    {
+      "test": "test_case_01",
+      "status": "PASS"
+    },
+    {
+      "test": "test_case_02",
+      "status": "PASS"
+    },
+    {
+      "test": "test_case_03",
+      "status": "PASS"
+    },
+    {
+      "test": "test_case_04",
+      "status": "PASS"
+    },
+    {
+      "test": "test_case_05",
+      "status": "PASS"
+    },
+    {
+      "test": "test_case_06",
+      "status": "PASS"
+    }
+  ],
+  "passed": 7,
+  "failed": 0
+}

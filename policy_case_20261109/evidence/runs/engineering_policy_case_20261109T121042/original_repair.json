@@ -1,0 +1,355 @@
+{
+  "old_tool": {
+    "pass": false,
+    "correct": 0,
+    "total": 12,
+    "member_sets_correct": 0,
+    "checks": [
+      {
+        "query_id": "q1",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q2",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q3",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q4",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q5",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q6",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q7",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q8",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q9",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q10",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q11",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q12",
+        "pass": false,
+        "member_set_pass": false
+      }
+    ],
+    "unit": "policy query with exact source provenance; not independent medical questions"
+  },
+  "initial_Qwen": {
+    "pass": false,
+    "correct": 6,
+    "total": 12,
+    "member_sets_correct": 7,
+    "checks": [
+      {
+        "query_id": "q1",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q2",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q3",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q4",
+        "pass": false,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q5",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q6",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q7",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q8",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q9",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q10",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q11",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q12",
+        "pass": false,
+        "member_set_pass": false
+      }
+    ],
+    "unit": "policy query with exact source provenance; not independent medical questions"
+  },
+  "same_annotation_retry": {
+    "pass": false,
+    "correct": 6,
+    "total": 12,
+    "member_sets_correct": 7,
+    "checks": [
+      {
+        "query_id": "q1",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q2",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q3",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q4",
+        "pass": false,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q5",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q6",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q7",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q8",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q9",
+        "pass": false,
+        "member_set_pass": false
+      },
+      {
+        "query_id": "q10",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q11",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q12",
+        "pass": false,
+        "member_set_pass": false
+      }
+    ],
+    "unit": "policy query with exact source provenance; not independent medical questions"
+  },
+  "updated_tool": {
+    "pass": true,
+    "correct": 12,
+    "total": 12,
+    "member_sets_correct": 12,
+    "checks": [
+      {
+        "query_id": "q1",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q2",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q3",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q4",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q5",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q6",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q7",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q8",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q9",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q10",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q11",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q12",
+        "pass": true,
+        "member_set_pass": true
+      }
+    ],
+    "unit": "policy query with exact source provenance; not independent medical questions"
+  },
+  "after_Qwen": {
+    "pass": true,
+    "correct": 12,
+    "total": 12,
+    "member_sets_correct": 12,
+    "checks": [
+      {
+        "query_id": "q1",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q2",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q3",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q4",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q5",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q6",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q7",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q8",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q9",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q10",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q11",
+        "pass": true,
+        "member_set_pass": true
+      },
+      {
+        "query_id": "q12",
+        "pass": true,
+        "member_set_pass": true
+      }
+    ],
+    "unit": "policy query with exact source provenance; not independent medical questions"
+  },
+  "review": {
+    "supported": true,
+    "tool_gap_repaired": true,
+    "legacy_preserved": true,
+    "annotations_supported": true,
+    "reason": "The tool update successfully implements the requested policy logic (conjunction, disjunction, signed negation) while preserving legacy behavior when policies are absent. The 'gap' regarding the inability to filter by explicit signed relations (e.g., 'primary_site_reported' with negative polarity) is repaired, as evidenced by correct execution in queries q6, q7, and q10. Crucially, the system correctly interprets missing annotations as non-facts rather than negative medical assertions (e.g., q11 returns an empty set because no study satisfies the specific combination of MRI + External Validation + NOT Human Comparison, not because the studies failed those criteria). The output strictly reflects source citation membership based on the provided evidence ledger, without inferring clinical efficacy or new medical truths from the code execution itself."
+  },
+  "QA_improvement_observed": true
+}

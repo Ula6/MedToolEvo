@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"annotations\": [\n    {\n      \"group_id\": \"g1\",\n      \"relation\": \"direct_comparison\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text explicitly states that study [18] 'directly compared celecoxib and JOINS treatments', asserting the relationship.\"\n    },\n    {\n      \"group_id\": \"g2\",\n      \"relation\": \"celecoxib\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states that these nineteen studies 'evaluated celecoxib treatment', asserting the use of this intervention.\"\n    },\n    {\n      \"group_id\": \"g3\",\n      \"relation\": \"joins\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states that these five studies 'assessed JOINS treatment', asserting the use of this intervention.\"\n    },\n    {\n      \"group_id\": \"g4\",\n      \"relation\": \"short_followup\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states that these 19 studies 'reported clinical outcomes at short-term follow-up', asserting the presence of this data point.\"\n    },\n    {\n      \"group_id\": \"g5\",\n      \"relation\": \"mid_followup\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text states that these 11 studies 'reported mid-term outcomes', asserting the presence of this data point.\"\n    },\n    {\n      \"group_id\": \"g6\",\n      \"relation\": \"bias_blinding\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text identifies study [15] as having a 'high risk of bias for the items... blinding of outcome assessment', asserting the presence of this bias.\"\n    },\n    {\n      \"group_id\": \"g7\",\n      \"relation\": \"bias_other\",\n      \"polarity\": \"positive\",\n      \"reason\": \"The text identifies study [35] as having a 'high risk of bias for the items... other bias', asserting the presence of this bias.\"\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794226944,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 479,
+    "prompt_tokens": 5528,
+    "total_tokens": 6007,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-84m06g7QBm4retAgymHZBXLkXZZeCAw0",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 5528,
+    "prompt_ms": 9872.387,
+    "prompt_per_token_ms": 1.7858876628075255,
+    "prompt_per_second": 559.9456342219971,
+    "predicted_n": 479,
+    "predicted_ms": 17763.023,
+    "predicted_per_token_ms": 37.1611359832636,
+    "predicted_per_second": 26.90983398490223
+  }
+}

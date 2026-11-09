@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"approve\": true,\n  \"reason\": \"The contract is mathematically precise, unambiguous, and self-consistent. It correctly defines population variance (dividing by total weight W) and geometric mean using natural logarithms. The validation rules (strictly positive values, non-negative weights, non-zero total weight) are clearly stated and cover all necessary edge cases. The previous fixture feedback regarding the geometric mean calculation error (15.848932 vs 15.157166) has been addressed by ensuring the new synthetic cases use values that yield clean, verifiable results or explicitly test the error conditions, avoiding the specific arithmetic conflict found in the previous run.\",\n  \"cases\": [\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 2.0, \"weight\": 1.0},\n          {\"value\": 8.0, \"weight\": 1.0}\n        ]\n      },\n      \"expected\": {\n        \"weighted_mean\": 5.0,\n        \"weighted_population_variance\": 9.0,\n        \"weighted_population_sd\": 3.0,\n        \"weighted_geometric_mean\": 4.0\n      }\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 10.0, \"weight\": 5.0}\n        ]\n      },\n      \"expected\": {\n        \"weighted_mean\": 10.0,\n        \"weighted_population_variance\": 0.0,\n        \"weighted_population_sd\": 0.0,\n        \"weighted_geometric_mean\": 10.0\n      }\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 100.0, \"weight\": 0.0},\n          {\"value\": 200.0, \"weight\": 2.0}\n        ]\n      },\n      \"expected\": {\n        \"weighted_mean\": 200.0,\n        \"weighted_population_variance\": 0.0,\n        \"weighted_population_sd\": 0.0,\n        \"weighted_geometric_mean\": 200.0\n      }\n    },\n    {\n      \"input\": {\n        \"rows\": []\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": \"5.0\", \"weight\": 1.0}\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 5.0, \"weight\": -2.0}\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 0.0, \"weight\": 1.0}\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    },\n    {\n      \"input\": {\n        \"rows\": [\n          {\"value\": 10.0, \"weight\": 0.0},\n          {\"value\": 20.0, \"weight\": 0.0}\n        ]\n      },\n      \"expected_error\": \"ValueError\"\n    }\n  ]\n}"
+      }
+    }
+  ],
+  "created": 1794218521,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 759,
+    "prompt_tokens": 1829,
+    "total_tokens": 2588,
+    "prompt_tokens_details": {
+      "cached_tokens": 1204
+    }
+  },
+  "id": "chatcmpl-1p8IYURQ8YPTVtVXstdtMungw8qsg1X1",
+  "timings": {
+    "cache_n": 1204,
+    "prompt_n": 625,
+    "prompt_ms": 1212.355,
+    "prompt_per_token_ms": 1.939768,
+    "prompt_per_second": 515.5255680060708,
+    "predicted_n": 759,
+    "predicted_ms": 27844.847,
+    "predicted_per_token_ms": 36.73462664907652,
+    "predicted_per_second": 27.222272041932925
+  }
+}

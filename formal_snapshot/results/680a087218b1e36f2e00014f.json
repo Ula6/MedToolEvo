@@ -1,0 +1,823 @@
+{
+  "task_id": "680a087218b1e36f2e00014f",
+  "question": "What types of features are typically extracted in radiomics?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "shape features",
+      "texture features",
+      "intensity features",
+      "first-order features",
+      "histogram features",
+      "morphology features",
+      "statistic features",
+      "gray level co-occurrence matrix features",
+      "gray level run length matrix features",
+      "gray level size zone matrix features",
+      "gray level dependence matrix features",
+      "neighborhood gray tone difference matrix features",
+      "wavelet features",
+      "Law's features",
+      "local binary pattern features",
+      "discrete orthonormal stockwell transform features",
+      "two-dimensional wavelet transform features",
+      "two-dimensional Gabor filter features",
+      "Laplacian of Gaussians features",
+      "gray size area matrix features",
+      "gray matrix features",
+      "geometrical characteristics",
+      "spatial relationship features",
+      "pixel intensity features",
+      "nodule size features",
+      "margin features",
+      "local shape descriptors",
+      "global shape descriptors",
+      "spectral properties",
+      "gray-scale patterns",
+      "inter-pixel relationships"
+    ],
+    "supports": [
+      {
+        "item": "shape features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)."
+      },
+      {
+        "item": "texture features",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features."
+      },
+      {
+        "item": "intensity features",
+        "evidence_id": "e21",
+        "quote": "We extracted 1356 radiomics features, including intensity (first-order), shape, and texture features."
+      },
+      {
+        "item": "first-order features",
+        "evidence_id": "e7",
+        "quote": "we selected 9 radiomics features (5 texture features, 1 shape feature, 1 gray matrix feature, and 2 first-order features) from the training cohort"
+      },
+      {
+        "item": "histogram features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)."
+      },
+      {
+        "item": "morphology features",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features."
+      },
+      {
+        "item": "statistic features",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features."
+      },
+      {
+        "item": "gray level co-occurrence matrix features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)."
+      },
+      {
+        "item": "gray level run length matrix features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)."
+      },
+      {
+        "item": "gray level size zone matrix features",
+        "evidence_id": "e4",
+        "quote": "These subregions exhibited several important radiomic features that include shape, gray level size zone matrix (GLSZM), and gray level dependence matrix (GLDM), among others."
+      },
+      {
+        "item": "gray level dependence matrix features",
+        "evidence_id": "e4",
+        "quote": "These subregions exhibited several important radiomic features that include shape, gray level size zone matrix (GLSZM), and gray level dependence matrix (GLDM), among others."
+      },
+      {
+        "item": "wavelet features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)."
+      },
+      {
+        "item": "Law's features",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "local binary pattern features",
+        "evidence_id": "e16",
+        "quote": "Textural features were extracted from tumor volumes, contoured on pCT and CBCT images, according to the following eight different classes: intensity based histogram features (IBHF), gray level run length (GLRL), law's textural information (LAWS), discrete orthonormal stockwell transform (DOST), local binary pattern (LBP), two-dimensional wavelet transform (2DWT), Two dimensional Gabor filter (2DGF), and gray level co-occurrence matrix (GLCM)."
+      },
+      {
+        "item": "discrete orthonormal stockwell transform features",
+        "evidence_id": "e16",
+        "quote": "Textural features were extracted from tumor volumes, contoured on pCT and CBCT images, according to the following eight different classes: intensity based histogram features (IBHF), gray level run length (GLRL), law's textural information (LAWS), discrete orthonormal stockwell transform (DOST), local binary pattern (LBP), two-dimensional wavelet transform (2DWT), Two dimensional Gabor filter (2DGF), and gray level co-occurrence matrix (GLCM)."
+      },
+      {
+        "item": "two-dimensional wavelet transform features",
+        "evidence_id": "e16",
+        "quote": "Textural features were extracted from tumor volumes, contoured on pCT and CBCT images, according to the following eight different classes: intensity based histogram features (IBHF), gray level run length (GLRL), law's textural information (LAWS), discrete orthonormal stockwell transform (DOST), local binary pattern (LBP), two-dimensional wavelet transform (2DWT), Two dimensional Gabor filter (2DGF), and gray level co-occurrence matrix (GLCM)."
+      },
+      {
+        "item": "two-dimensional Gabor filter features",
+        "evidence_id": "e16",
+        "quote": "Textural features were extracted from tumor volumes, contoured on pCT and CBCT images, according to the following eight different classes: intensity based histogram features (IBHF), gray level run length (GLRL), law's textural information (LAWS), discrete orthonormal stockwell transform (DOST), local binary pattern (LBP), two-dimensional wavelet transform (2DWT), Two dimensional Gabor filter (2DGF), and gray level co-occurrence matrix (GLCM)."
+      },
+      {
+        "item": "Laplacian of Gaussians features",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "gray size area matrix features",
+        "evidence_id": "e3",
+        "quote": "Texture analysis features include histogram, gray size area matrix and gray co-occurrence matrix features."
+      },
+      {
+        "item": "gray matrix features",
+        "evidence_id": "e7",
+        "quote": "we selected 9 radiomics features (5 texture features, 1 shape feature, 1 gray matrix feature, and 2 first-order features) from the training cohort"
+      },
+      {
+        "item": "geometrical characteristics",
+        "evidence_id": "e18",
+        "quote": "Radiomics refers to the extraction of a large number of quantitative features that describe the intensity, texture and geometrical characteristics attributed to the tumor radiographic data."
+      },
+      {
+        "item": "spatial relationship features",
+        "evidence_id": "e13",
+        "quote": "Extracted features typically describe the distribution of signal intensities and spatial relationship of pixels within a region of interest."
+      },
+      {
+        "item": "pixel intensity features",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel."
+      },
+      {
+        "item": "nodule size features",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel."
+      },
+      {
+        "item": "margin features",
+        "evidence_id": "e15",
+        "quote": "the main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "local shape descriptors",
+        "evidence_id": "e15",
+        "quote": "the main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "global shape descriptors",
+        "evidence_id": "e15",
+        "quote": "the main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "spectral properties",
+        "evidence_id": "e19",
+        "quote": "In addition, shape and spectral properties can be extracted within the same regions of interest on radiological images."
+      },
+      {
+        "item": "gray-scale patterns",
+        "evidence_id": "e19",
+        "quote": "Radiomic features provide information about the gray-scale patterns, inter-pixel relationships."
+      },
+      {
+        "item": "inter-pixel relationships",
+        "evidence_id": "e19",
+        "quote": "Radiomic features provide information about the gray-scale patterns, inter-pixel relationships."
+      }
+    ],
+    "invalid_supports": [
+      {
+        "index": 11,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "neighborhood gray tone difference matrix features",
+          "evidence_id": "e9",
+          "quote": "we extracted 48 radiomic features from the categories of intensity histogram (n = 10), gray-level run length matrix (n = 11), gray-level co-occurrence matrix (n = 22), and neighborhood gray tone difference matrix (n = 5)."
+        }
+      }
+    ],
+    "unsupported_items": [
+      "neighborhood gray tone difference matrix features"
+    ],
+    "limitations": "The evidence lists specific feature types and categories but does not provide an exhaustive list of all possible radiomic features. Some terms are used interchangeably (e.g., intensity vs. first-order). The extraction methods may vary by study and imaging modality.",
+    "source_binding_complete": false,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 28,
+      "fn": 10,
+      "precision": 0.0967741935483871,
+      "recall": 0.23076923076923078,
+      "f1": 0.13636363636363635
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "heterogeneity",
+      "shape",
+      "histogram",
+      "shapebased features",
+      "texture-based features",
+      "wavelet features",
+      "Gray Level Co-Occurrence Matrix",
+      "Run-Length Matrix",
+      "gray size area matrix",
+      "gray co-occurrence matrix",
+      "gray level size zone matrix",
+      "gray level dependence matrix",
+      "morphology",
+      "statistic/histogram",
+      "texture features",
+      "tumor intensity",
+      "shape",
+      "texture",
+      "gray matrix feature",
+      "first-order features",
+      "nodule size",
+      "pixel intensity",
+      "histogram-based information",
+      "texture information from wavelets",
+      "texture information from a convolution kernel",
+      "GLCM",
+      "GLRLM",
+      "GLSZM",
+      "GLDM",
+      "First-order Features",
+      "Shape Features (2D)",
+      "Neighboring Gray Tone Difference Matrix",
+      "texture operators",
+      "distribution of signal intensities",
+      "spatial relationship of pixels",
+      "gray level cooccurrence matrix",
+      "gray level run length matrix",
+      "size",
+      "local and global shape descriptors",
+      "intensity",
+      "wavelets",
+      "Laplacian of Gaussians",
+      "Law's features",
+      "gray-level co-occurrence matrices",
+      "run-length features"
+    ],
+    "supports": [
+      {
+        "item": "heterogeneity",
+        "evidence_id": "e1",
+        "quote": "Radiomic features capture tissue and lesion characteristics such as heterogeneity and shape"
+      },
+      {
+        "item": "shape",
+        "evidence_id": "e1",
+        "quote": "Radiomic features capture tissue and lesion characteristics such as heterogeneity and shape"
+      },
+      {
+        "item": "histogram",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "shapebased features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "texture-based features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "wavelet features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "Gray Level Co-Occurrence Matrix",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "Run-Length Matrix",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "gray size area matrix",
+        "evidence_id": "e3",
+        "quote": "Texture analysis features include histogram, gray size area matrix and gray co-occurrence matrix features"
+      },
+      {
+        "item": "gray co-occurrence matrix",
+        "evidence_id": "e3",
+        "quote": "Texture analysis features include histogram, gray size area matrix and gray co-occurrence matrix features"
+      },
+      {
+        "item": "gray level size zone matrix",
+        "evidence_id": "e4",
+        "quote": "These subregions exhibited several important radiomic features that include shape, gray level size zone matrix (GLSZM), and gray level dependence matrix (GLDM), among others"
+      },
+      {
+        "item": "gray level dependence matrix",
+        "evidence_id": "e4",
+        "quote": "These subregions exhibited several important radiomic features that include shape, gray level size zone matrix (GLSZM), and gray level dependence matrix (GLDM), among others"
+      },
+      {
+        "item": "morphology",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features"
+      },
+      {
+        "item": "statistic/histogram",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features"
+      },
+      {
+        "item": "texture features",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features"
+      },
+      {
+        "item": "tumor intensity",
+        "evidence_id": "e6",
+        "quote": "Fifty-six 3D-radiomic features, quantifying phenotypic differences based on tumor intensity, shape and texture, were extracted"
+      },
+      {
+        "item": "shape",
+        "evidence_id": "e6",
+        "quote": "Fifty-six 3D-radiomic features, quantifying phenotypic differences based on tumor intensity, shape and texture, were extracted"
+      },
+      {
+        "item": "texture",
+        "evidence_id": "e6",
+        "quote": "Fifty-six 3D-radiomic features, quantifying phenotypic differences based on tumor intensity, shape and texture, were extracted"
+      },
+      {
+        "item": "gray matrix feature",
+        "evidence_id": "e7",
+        "quote": "we selected 9 radiomics features (5 texture features, 1 shape feature, 1 gray matrix feature, and 2 first-order features)"
+      },
+      {
+        "item": "first-order features",
+        "evidence_id": "e7",
+        "quote": "we selected 9 radiomics features (5 texture features, 1 shape feature, 1 gray matrix feature, and 2 first-order features)"
+      },
+      {
+        "item": "nodule size",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "pixel intensity",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "histogram-based information",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "texture information from wavelets",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "texture information from a convolution kernel",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "GLCM",
+        "evidence_id": "e10",
+        "quote": "Features extracted included first order, shape, GLCM, GLRLM, GLSZM, and GLDM from original, wavelet-filtered, and LoG-filtered images"
+      },
+      {
+        "item": "GLRLM",
+        "evidence_id": "e10",
+        "quote": "Features extracted included first order, shape, GLCM, GLRLM, GLSZM, and GLDM from original, wavelet-filtered, and LoG-filtered images"
+      },
+      {
+        "item": "GLSZM",
+        "evidence_id": "e10",
+        "quote": "Features extracted included first order, shape, GLCM, GLRLM, GLSZM, and GLDM from original, wavelet-filtered, and LoG-filtered images"
+      },
+      {
+        "item": "GLDM",
+        "evidence_id": "e10",
+        "quote": "Features extracted included first order, shape, GLCM, GLRLM, GLSZM, and GLDM from original, wavelet-filtered, and LoG-filtered images"
+      },
+      {
+        "item": "First-order Features",
+        "evidence_id": "e11",
+        "quote": "The extracted features were categorized into seven classes: First-order Features, Shape Features (2D), Gray Level Co-occurrence Matrix (GLCM), Gray Level Run Length Matrix (GLRLM), Gray Level Size Zone Matrix (GLSZM), and Neighboring Gray Tone Difference Matrix (NGTDM)"
+      },
+      {
+        "item": "Shape Features (2D)",
+        "evidence_id": "e11",
+        "quote": "The extracted features were categorized into seven classes: First-order Features, Shape Features (2D), Gray Level Co-occurrence Matrix (GLCM), Gray Level Run Length Matrix (GLRLM), Gray Level Size Zone Matrix (GLSZM), and Neighboring Gray Tone Difference Matrix (NGTDM)"
+      },
+      {
+        "item": "Neighboring Gray Tone Difference Matrix",
+        "evidence_id": "e11",
+        "quote": "The extracted features were categorized into seven classes: First-order Features, Shape Features (2D), Gray Level Co-occurrence Matrix (GLCM), Gray Level Run Length Matrix (GLRLM), Gray Level Size Zone Matrix (GLSZM), and Neighboring Gray Tone Difference Matrix (NGTDM)"
+      },
+      {
+        "item": "texture operators",
+        "evidence_id": "e12",
+        "quote": "Traditionally, radiomics analyses leverage texture operators to derive voxel- or region-wise feature values"
+      },
+      {
+        "item": "distribution of signal intensities",
+        "evidence_id": "e13",
+        "quote": "Extracted features typically describe the distribution of signal intensities and spatial relationship of pixels within a region of interest"
+      },
+      {
+        "item": "spatial relationship of pixels",
+        "evidence_id": "e13",
+        "quote": "Extracted features typically describe the distribution of signal intensities and spatial relationship of pixels within a region of interest"
+      },
+      {
+        "item": "gray level cooccurrence matrix",
+        "evidence_id": "e14",
+        "quote": "The features extracted in this phantom study include first order, shape, gray level cooccurrence matrix and gray level run length matrix"
+      },
+      {
+        "item": "gray level run length matrix",
+        "evidence_id": "e14",
+        "quote": "The features extracted in this phantom study include first order, shape, gray level cooccurrence matrix and gray level run length matrix"
+      },
+      {
+        "item": "size",
+        "evidence_id": "e15",
+        "quote": "main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "local and global shape descriptors",
+        "evidence_id": "e15",
+        "quote": "main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "intensity",
+        "evidence_id": "e15",
+        "quote": "main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "wavelets",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "Laplacian of Gaussians",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "Law's features",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "gray-level co-occurrence matrices",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "run-length features",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Qwen extraction and relevance annotations are fallible.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 9,
+      "fp": 36,
+      "fn": 4,
+      "precision": 0.2,
+      "recall": 0.6923076923076923,
+      "f1": 0.31034482758620696
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "heterogeneity",
+      "shape",
+      "histogram",
+      "shapebased features",
+      "texture-based features",
+      "wavelet features",
+      "Gray Level Co-Occurrence Matrix",
+      "Run-Length Matrix",
+      "gray size area matrix",
+      "gray co-occurrence matrix",
+      "gray level size zone matrix",
+      "gray level dependence matrix",
+      "morphology",
+      "statistic/histogram",
+      "texture features",
+      "tumor intensity",
+      "shape",
+      "texture",
+      "gray matrix feature",
+      "first-order features",
+      "nodule size",
+      "pixel intensity",
+      "histogram-based information",
+      "texture information from wavelets",
+      "texture information from a convolution kernel",
+      "GLCM",
+      "GLRLM",
+      "GLSZM",
+      "GLDM",
+      "First-order Features",
+      "Shape Features (2D)",
+      "Neighboring Gray Tone Difference Matrix",
+      "texture operators",
+      "distribution of signal intensities",
+      "spatial relationship of pixels",
+      "gray level cooccurrence matrix",
+      "gray level run length matrix",
+      "size",
+      "local and global shape descriptors",
+      "intensity",
+      "wavelets",
+      "Laplacian of Gaussians",
+      "Law's features",
+      "gray-level co-occurrence matrices",
+      "run-length features"
+    ],
+    "supports": [
+      {
+        "item": "heterogeneity",
+        "evidence_id": "e1",
+        "quote": "Radiomic features capture tissue and lesion characteristics such as heterogeneity and shape"
+      },
+      {
+        "item": "shape",
+        "evidence_id": "e1",
+        "quote": "Radiomic features capture tissue and lesion characteristics such as heterogeneity and shape"
+      },
+      {
+        "item": "histogram",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "shapebased features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "texture-based features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "wavelet features",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "Gray Level Co-Occurrence Matrix",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "Run-Length Matrix",
+        "evidence_id": "e2",
+        "quote": "the extracted features include histogram, shapebased features, texture-based features, wavelet features, Gray Level Co-Occurrence Matrix (GLCM), and Run-Length Matrix (RLM)"
+      },
+      {
+        "item": "gray size area matrix",
+        "evidence_id": "e3",
+        "quote": "Texture analysis features include histogram, gray size area matrix and gray co-occurrence matrix features"
+      },
+      {
+        "item": "gray co-occurrence matrix",
+        "evidence_id": "e3",
+        "quote": "Texture analysis features include histogram, gray size area matrix and gray co-occurrence matrix features"
+      },
+      {
+        "item": "gray level size zone matrix",
+        "evidence_id": "e4",
+        "quote": "These subregions exhibited several important radiomic features that include shape, gray level size zone matrix (GLSZM), and gray level dependence matrix (GLDM), among others"
+      },
+      {
+        "item": "gray level dependence matrix",
+        "evidence_id": "e4",
+        "quote": "These subregions exhibited several important radiomic features that include shape, gray level size zone matrix (GLSZM), and gray level dependence matrix (GLDM), among others"
+      },
+      {
+        "item": "morphology",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features"
+      },
+      {
+        "item": "statistic/histogram",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features"
+      },
+      {
+        "item": "texture features",
+        "evidence_id": "e5",
+        "quote": "features are further grouped into 3 categories according to their properties: 1) morphology, 2) statistic/histogram and 3)texture features"
+      },
+      {
+        "item": "tumor intensity",
+        "evidence_id": "e6",
+        "quote": "Fifty-six 3D-radiomic features, quantifying phenotypic differences based on tumor intensity, shape and texture, were extracted"
+      },
+      {
+        "item": "shape",
+        "evidence_id": "e6",
+        "quote": "Fifty-six 3D-radiomic features, quantifying phenotypic differences based on tumor intensity, shape and texture, were extracted"
+      },
+      {
+        "item": "texture",
+        "evidence_id": "e6",
+        "quote": "Fifty-six 3D-radiomic features, quantifying phenotypic differences based on tumor intensity, shape and texture, were extracted"
+      },
+      {
+        "item": "gray matrix feature",
+        "evidence_id": "e7",
+        "quote": "we selected 9 radiomics features (5 texture features, 1 shape feature, 1 gray matrix feature, and 2 first-order features)"
+      },
+      {
+        "item": "first-order features",
+        "evidence_id": "e7",
+        "quote": "we selected 9 radiomics features (5 texture features, 1 shape feature, 1 gray matrix feature, and 2 first-order features)"
+      },
+      {
+        "item": "nodule size",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "pixel intensity",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "histogram-based information",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "texture information from wavelets",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "texture information from a convolution kernel",
+        "evidence_id": "e8",
+        "quote": "These features give us information about a nodule, for example, nodule size, pixel intensity, histogram-based information, and texture information from wavelets or a convolution kernel"
+      },
+      {
+        "item": "GLCM",
+        "evidence_id": "e10",
+        "quote": "Features extracted included first order, shape, GLCM, GLRLM, GLSZM, and GLDM from original, wavelet-filtered, and LoG-filtered images"
+      },
+      {
+        "item": "GLRLM",
+        "evidence_id": "e10",
+        "quote": "Features extracted included first order, shape, GLCM, GLRLM, GLSZM, and GLDM from original, wavelet-filtered, and LoG-filtered images"
+      },
+      {
+        "item": "GLSZM",
+        "evidence_id": "e10",
+        "quote": "Features extracted included first order, shape, GLCM, GLRLM, GLSZM, and GLDM from original, wavelet-filtered, and LoG-filtered images"
+      },
+      {
+        "item": "GLDM",
+        "evidence_id": "e10",
+        "quote": "Features extracted included first order, shape, GLCM, GLRLM, GLSZM, and GLDM from original, wavelet-filtered, and LoG-filtered images"
+      },
+      {
+        "item": "First-order Features",
+        "evidence_id": "e11",
+        "quote": "The extracted features were categorized into seven classes: First-order Features, Shape Features (2D), Gray Level Co-occurrence Matrix (GLCM), Gray Level Run Length Matrix (GLRLM), Gray Level Size Zone Matrix (GLSZM), and Neighboring Gray Tone Difference Matrix (NGTDM)"
+      },
+      {
+        "item": "Shape Features (2D)",
+        "evidence_id": "e11",
+        "quote": "The extracted features were categorized into seven classes: First-order Features, Shape Features (2D), Gray Level Co-occurrence Matrix (GLCM), Gray Level Run Length Matrix (GLRLM), Gray Level Size Zone Matrix (GLSZM), and Neighboring Gray Tone Difference Matrix (NGTDM)"
+      },
+      {
+        "item": "Neighboring Gray Tone Difference Matrix",
+        "evidence_id": "e11",
+        "quote": "The extracted features were categorized into seven classes: First-order Features, Shape Features (2D), Gray Level Co-occurrence Matrix (GLCM), Gray Level Run Length Matrix (GLRLM), Gray Level Size Zone Matrix (GLSZM), and Neighboring Gray Tone Difference Matrix (NGTDM)"
+      },
+      {
+        "item": "texture operators",
+        "evidence_id": "e12",
+        "quote": "Traditionally, radiomics analyses leverage texture operators to derive voxel- or region-wise feature values"
+      },
+      {
+        "item": "distribution of signal intensities",
+        "evidence_id": "e13",
+        "quote": "Extracted features typically describe the distribution of signal intensities and spatial relationship of pixels within a region of interest"
+      },
+      {
+        "item": "spatial relationship of pixels",
+        "evidence_id": "e13",
+        "quote": "Extracted features typically describe the distribution of signal intensities and spatial relationship of pixels within a region of interest"
+      },
+      {
+        "item": "gray level cooccurrence matrix",
+        "evidence_id": "e14",
+        "quote": "The features extracted in this phantom study include first order, shape, gray level cooccurrence matrix and gray level run length matrix"
+      },
+      {
+        "item": "gray level run length matrix",
+        "evidence_id": "e14",
+        "quote": "The features extracted in this phantom study include first order, shape, gray level cooccurrence matrix and gray level run length matrix"
+      },
+      {
+        "item": "size",
+        "evidence_id": "e15",
+        "quote": "main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "local and global shape descriptors",
+        "evidence_id": "e15",
+        "quote": "main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "intensity",
+        "evidence_id": "e15",
+        "quote": "main classes consisting of size, local and global shape descriptors, margin, intensity, and texture-based features"
+      },
+      {
+        "item": "wavelets",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "Laplacian of Gaussians",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "Law's features",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "gray-level co-occurrence matrices",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      },
+      {
+        "item": "run-length features",
+        "evidence_id": "e15",
+        "quote": "texture-based features, which are based on wavelets, Laplacian of Gaussians, Law's features, gray-level co-occurrence matrices, and run-length features"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Qwen extraction and relevance annotations are fallible.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 9,
+      "fp": 36,
+      "fn": 4,
+      "precision": 0.2,
+      "recall": 0.6923076923076923,
+      "f1": 0.31034482758620696
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25025374",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28042608",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28149958",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28231582",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28261818",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29403060",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30854457",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31165039",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32060219",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32124697",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32240418",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34545475",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34597235",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35085099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/35747447",
+    "http://www.ncbi.nlm.nih.gov/pubmed/36711678",
+    "http://www.ncbi.nlm.nih.gov/pubmed/37060067",
+    "http://www.ncbi.nlm.nih.gov/pubmed/37275092",
+    "http://www.ncbi.nlm.nih.gov/pubmed/39518625",
+    "http://www.ncbi.nlm.nih.gov/pubmed/39590734",
+    "http://www.ncbi.nlm.nih.gov/pubmed/39724572"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/680a087218b1e36f2e00014f/attempt_3"
+}

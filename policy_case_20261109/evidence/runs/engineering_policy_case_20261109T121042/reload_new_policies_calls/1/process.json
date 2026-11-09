@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"entities\": [], \"unique_entity_count\": 0}",
+  "stderr": "",
+  "elapsed_seconds": 0.030988303944468498,
+  "code_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679"
+}

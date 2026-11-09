@@ -1,0 +1,6 @@
+{
+  "parent": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/open_deterministic_canonicalize_and_filter_25f7d831_v001.py",
+  "parent_sha256": "b7d86477a5e78cee3055c26441487a6d31ceca87272289b7b9108efefcd10b92",
+  "trigger": "independent_validation_failure",
+  "reference_answers_supplied": false
+}

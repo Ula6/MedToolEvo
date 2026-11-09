@@ -1,0 +1,181 @@
+{
+  "task_id": "602825a61cb411341a0000fa",
+  "question": "Which drugs are included in the MAID chemotherapy regimen for sarcoma?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "mesna",
+      "adriamycin",
+      "ifosfamide",
+      "dacarbazine",
+      "doxorubicin"
+    ],
+    "supports": [
+      {
+        "item": "mesna",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "adriamycin",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "ifosfamide",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "dacarbazine",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "doxorubicin",
+        "evidence_id": "e4",
+        "quote": "Mesna, doxorubicin, ifosfamide, dacarbazine (MAID) was the most commonly used chemotherapy regimen as neoadjuvant or adjuvant treatment while ifosfamide (93.7%) was the most commonly used chemotherapy drug in any setting."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The MAID regimen consistently includes mesna, ifosfamide, and dacarbazine. The anthracycline component is referred to as 'adriamycin' in some sources and 'doxorubicin' in others; these are synonymous names for the same drug. Some evidence mentions 'modified' MAID regimens (e.g., substituting pirarubicin for adriamycin/doxorubicin), but the standard definition provided in the majority of the evidence lists adriamycin/doxorubicin.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "mesna",
+      "adriamycin",
+      "ifosfamide",
+      "dacarbazine",
+      "doxorubicin"
+    ],
+    "supports": [
+      {
+        "item": "mesna",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "adriamycin",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "ifosfamide",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "dacarbazine",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "doxorubicin",
+        "evidence_id": "e23",
+        "quote": "Since dose intensity of doxorubicin is correlated with the clinical response of patients with soft tissue sarcomas and since doxorubicin dose intensity may be compromised in combination chemotherapy, we evaluated the use of recombinant granulocytemacrophage colony-stimulating factor (rGM-CSF) to ameliorate myelosuppression and allow doxorubicin dose escalation in a phase I trial utilizing the MAID combination [Mesna 2.5 g/m2/day x 4 days, Adriamycin (doxorubicin) 15 mg/m2/day x 4 days, ifosfamide 2.0 g/m2/day x 3 days, dacarbazine 250 mg/m2/day x 4 days; to be repeated every 21 days]."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Adriamycin and doxorubicin refer to the same drug; evidence uses both names interchangeably. MAID components are consistently listed across multiple sarcoma subtypes and settings, but specific dosing or modifications (e.g., intensified, modified) may vary by study.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "mesna",
+      "adriamycin",
+      "ifosfamide",
+      "dacarbazine",
+      "doxorubicin"
+    ],
+    "supports": [
+      {
+        "item": "mesna",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "adriamycin",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "ifosfamide",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "dacarbazine",
+        "evidence_id": "e1",
+        "quote": "Upon completion of 3 cycles of the MAID regimen (mesna, adriamycin, ifosfamide, dacarbazine), computed tomography showed disease progression."
+      },
+      {
+        "item": "doxorubicin",
+        "evidence_id": "e23",
+        "quote": "Since dose intensity of doxorubicin is correlated with the clinical response of patients with soft tissue sarcomas and since doxorubicin dose intensity may be compromised in combination chemotherapy, we evaluated the use of recombinant granulocytemacrophage colony-stimulating factor (rGM-CSF) to ameliorate myelosuppression and allow doxorubicin dose escalation in a phase I trial utilizing the MAID combination [Mesna 2.5 g/m2/day x 4 days, Adriamycin (doxorubicin) 15 mg/m2/day x 4 days, ifosfamide 2.0 g/m2/day x 3 days, dacarbazine 250 mg/m2/day x 4 days; to be repeated every 21 days]."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Adriamycin and doxorubicin refer to the same drug; evidence uses both names interchangeably. MAID components are consistently listed across multiple sarcoma subtypes and settings, but specific dosing or modifications (e.g., intensified, modified) may vary by study.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10362334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11300337",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12445253",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12478905",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12829150",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16446334",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18313854",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2050307",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2110385",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21652583",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22179493",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23092789",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24647783",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2504890",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30032825",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31232921",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32427061",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32881345",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7595717",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7672707",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8951354",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9529020"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/602825a61cb411341a0000fa/attempt_0"
+}

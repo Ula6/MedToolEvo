@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "parsed": {
+    "items": [
+      "etanercept",
+      "ustekinumab",
+      "adalimumab"
+    ],
+    "supports": [
+      {
+        "item": "etanercept",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      },
+      {
+        "item": "ustekinumab",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      },
+      {
+        "item": "adalimumab",
+        "evidence_id": "e1",
+        "quote": "Currently there are three European Medicines Agency (EMA)-approved biological treatment options for pediatric psoriasis: etanercept, ustekinumab, and adalimumab."
+      }
+    ],
+    "limitations": "Evidence limited to a single source abstract; does not specify age ranges, dosing, or approval dates."
+  }
+}

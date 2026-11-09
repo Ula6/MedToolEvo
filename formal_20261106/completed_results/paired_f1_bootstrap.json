@@ -1,0 +1,32 @@
+{
+  "direct_QA": {
+    "n_source_groups": 593,
+    "replicates": 2000,
+    "mean_difference": 0.09358716166287098,
+    "ci95": [
+      0.06905006162680596,
+      0.11870339445222226
+    ],
+    "unit": "source-identifier/question connected component"
+  },
+  "same_observation_LLM": {
+    "n_source_groups": 593,
+    "replicates": 2000,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "unit": "source-identifier/question connected component"
+  },
+  "trusted_aggregation": {
+    "n_source_groups": 593,
+    "replicates": 2000,
+    "mean_difference": -0.006545739312962958,
+    "ci95": [
+      -0.00886971716530467,
+      -0.004348561743862823
+    ],
+    "unit": "source-identifier/question connected component"
+  }
+}

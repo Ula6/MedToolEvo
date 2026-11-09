@@ -1,0 +1,9 @@
+{
+  "parent_code_hash_identical_to_starting_version": true,
+  "old_test_source_hash_unchanged": true,
+  "all10_legacy_tests_pass_every_version": true,
+  "combined_test_hash_unchanged": true,
+  "source_specific_constants_absent": true,
+  "report_links_verified": 13,
+  "archive_sha256": "4a1d5611f33602f06d739d8bee50e089d59239cda430b1d521aa8a0994241bb4"
+}

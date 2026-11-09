@@ -1,0 +1,183 @@
+{
+  "task_id": "5cd96eb2a49efeb44c000003",
+  "question": "Which software are used for the detection of selective sweeps?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "SweeD",
+      "SweepFinder",
+      "SmileFinder",
+      "OmegaPlus",
+      "SweepFinder2",
+      "RAiSD"
+    ],
+    "supports": [
+      {
+        "item": "SweeD",
+        "evidence_id": "e2",
+        "quote": "SweeD: likelihood-based detection of selective sweeps in thousands of genomes."
+      },
+      {
+        "item": "SweepFinder",
+        "evidence_id": "e3",
+        "quote": "It analyzes site frequency spectra and represents a substantial extension of the widely used SweepFinder program"
+      },
+      {
+        "item": "SmileFinder",
+        "evidence_id": "e6",
+        "quote": "SmileFinder is a simple program that looks for diversity and divergence patterns consistent with selection sweeps by evaluating allele frequencies in windows, including neighboring loci from two or more populations of a diploid species against the genome-wide neutral expectation"
+      },
+      {
+        "item": "OmegaPlus",
+        "evidence_id": "e7",
+        "quote": "Furthermore, we compare the accuracy of our open-source sweep-detection software OmegaPlus, which implements all four parallelization strategies presented here, with a variety of neutrality tests"
+      },
+      {
+        "item": "SweepFinder2",
+        "evidence_id": "e8",
+        "quote": "Additionally, we summarize the results of comparisons among four open-source software releases (SweeD, SweepFinder, SweepFinder2, and OmegaPlus) regarding sensitivity, specificity, and execution times."
+      },
+      {
+        "item": "RAiSD",
+        "evidence_id": "e9",
+        "quote": "RAiSD detects positive selection based on multiple signatures of a selective sweep and SNP vectors."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to software explicitly named in the provided abstracts and titles as tools for detecting selective sweeps or positive selection. Other potential tools not mentioned in these specific segments are not included.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "SweeD",
+      "SweepFinder",
+      "SmileFinder",
+      "OmegaPlus",
+      "SweepFinder2",
+      "RAiSD"
+    ],
+    "supports": [
+      {
+        "item": "SweeD",
+        "evidence_id": "e2",
+        "quote": "SweeD: likelihood-based detection of selective sweeps in thousands of genomes."
+      },
+      {
+        "item": "SweepFinder",
+        "evidence_id": "e3",
+        "quote": "It analyzes site frequency spectra and represents a substantial extension of the widely used SweepFinder program"
+      },
+      {
+        "item": "SmileFinder",
+        "evidence_id": "e6",
+        "quote": "SmileFinder is a simple program that looks for diversity and divergence patterns consistent with selection sweeps by evaluating allele frequencies in windows, including neighboring loci from two or more populations of a diploid species against the genome-wide neutral expectation"
+      },
+      {
+        "item": "OmegaPlus",
+        "evidence_id": "e7",
+        "quote": "Furthermore, we compare the accuracy of our open-source sweep-detection software OmegaPlus, which implements all four parallelization strategies presented here, with a variety of neutrality tests"
+      },
+      {
+        "item": "SweepFinder2",
+        "evidence_id": "e8",
+        "quote": "Additionally, we summarize the results of comparisons among four open-source software releases (SweeD, SweepFinder, SweepFinder2, and OmegaPlus) regarding sensitivity, specificity, and execution times."
+      },
+      {
+        "item": "RAiSD",
+        "evidence_id": "e9",
+        "quote": "RAiSD detects positive selection based on multiple signatures of a selective sweep and SNP vectors."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to software explicitly named in the provided text segments as tools for detecting selective sweeps or positive selection; other potential tools not mentioned in these specific excerpts are excluded.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "SweeD",
+      "SweepFinder",
+      "SmileFinder",
+      "OmegaPlus",
+      "SweepFinder2",
+      "RAiSD"
+    ],
+    "supports": [
+      {
+        "item": "SweeD",
+        "evidence_id": "e2",
+        "quote": "SweeD: likelihood-based detection of selective sweeps in thousands of genomes."
+      },
+      {
+        "item": "SweepFinder",
+        "evidence_id": "e3",
+        "quote": "It analyzes site frequency spectra and represents a substantial extension of the widely used SweepFinder program"
+      },
+      {
+        "item": "SmileFinder",
+        "evidence_id": "e6",
+        "quote": "SmileFinder is a simple program that looks for diversity and divergence patterns consistent with selection sweeps by evaluating allele frequencies in windows, including neighboring loci from two or more populations of a diploid species against the genome-wide neutral expectation"
+      },
+      {
+        "item": "OmegaPlus",
+        "evidence_id": "e7",
+        "quote": "Furthermore, we compare the accuracy of our open-source sweep-detection software OmegaPlus, which implements all four parallelization strategies presented here, with a variety of neutrality tests"
+      },
+      {
+        "item": "SweepFinder2",
+        "evidence_id": "e8",
+        "quote": "Additionally, we summarize the results of comparisons among four open-source software releases (SweeD, SweepFinder, SweepFinder2, and OmegaPlus) regarding sensitivity, specificity, and execution times."
+      },
+      {
+        "item": "RAiSD",
+        "evidence_id": "e9",
+        "quote": "RAiSD detects positive selection based on multiple signatures of a selective sweep and SNP vectors."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to software explicitly named in the provided text segments as tools for detecting selective sweeps or positive selection; other potential tools not mentioned in these specific excerpts are excluded.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 5,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1": 0.9090909090909091
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/23099783",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23777627",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25838885",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26862394",
+    "http://www.ncbi.nlm.nih.gov/pubmed/28405579",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30271960"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5cd96eb2a49efeb44c000003/attempt_0"
+}

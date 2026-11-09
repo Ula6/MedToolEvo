@@ -1,0 +1,11 @@
+{
+  "usage": {
+    "completion_tokens": 617,
+    "prompt_tokens": 4010,
+    "total_tokens": 4627,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "elapsed_seconds": 29.975947245955467
+}

@@ -1,0 +1,142 @@
+{
+  "model": "medtool-qa",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Independently verify the exact quote-alignment contract WITHOUT seeing\nimplementation or real source texts. Return JSON {approve:boolean,reason:string,\ncases:[{input:object,expected:object} or {input:object,expected_error:\"ValueError\"}]}.\nPropose8 tiny distinct fictional cases covering plain matching, overlapping hits,\ncasefold expansion U+00DF versus ss/s, fullwidth NFKC and collapsed whitespace with\nORIGINAL spans, same snippet in two source IDs, absent/empty lists, duplicate IDs,\nand blank or malformed queries. Follow the precise per-code-point rule, original\ncoordinates and output order. No real paper snippets. No implementation supplied."
+    },
+    {
+      "role": "user",
+      "content": "{\"operation\": {\"name\": \"diagnose_unicode_span_misalignment\", \"description\": \"Generic Unicode-aware all-occurrence quote alignment with exact original source offsets.\", \"when_to_use\": \"When source quotes need exact original character coordinates, all hits and explicit absent-query rejection.\", \"limitations\": \"Literal source anchoring only; not semantic entailment or medical correctness.\", \"semantic_preprocessor\": null, \"code_contract\": {\"input_schema\": {\"type\": \"object\", \"properties\": {\"sources\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\"}}, \"required\": [\"source_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 20}, \"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\", \"minLength\": 1}}, \"required\": [\"query_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 30}}, \"required\": [\"sources\", \"queries\"], \"additionalProperties\": false}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"maxLength\": 200}, \"matches\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"maxLength\": 200}, \"start\": {\"type\": \"integer\", \"minimum\": 0}, \"end\": {\"type\": \"integer\", \"minimum\": 1}, \"quote\": {\"type\": \"string\", \"maxLength\": 2000}}, \"required\": [\"source_id\", \"start\", \"end\", \"quote\"], \"additionalProperties\": false}, \"maxItems\": 200}}, \"required\": [\"query_id\", \"matches\"], \"additionalProperties\": false}, \"maxItems\": 30}, \"unsupported_query_ids\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"maxLength\": 200}, \"maxItems\": 30}}, \"required\": [\"queries\", \"unsupported_query_ids\"], \"additionalProperties\": false}, \"algorithm\": \"Align every query against ALL original source strings without inventing evidence.\\nInput is exactly {sources:[{source_id:string,text:string}],queries:[{query_id:string,text:string}]}.\\nIDs are nonempty, unique within their lists. All texts are strings; queries cannot\\nbe empty/whitespace-only. Normalize each ORIGINAL Unicode code point separately\\nusing unicodedata.normalize('NFKC',char).casefold(), concatenate the results, and\\ncollapse each whitespace run to ONE ASCII space. Do NOT trim, remove punctuation,\\ntranslate, infer aliases, equate different dash characters or normalize across\\ncode-point boundaries. Apply the SAME normalization to each query.\\nFind ALL substring occurrences including overlaps, in source input order then\\nascending ORIGINAL start. Map each normalized occurrence back to its original\\nzero-based Python Unicode code-point [start,end) span, NOT UTF-8 bytes or tokens.\\nEmit only matches whose WHOLE original span, normalized by the same rule, equals\\nthe normalized query. This rejects partial hits inside a casefold expansion:\\nsource U+00DF matches query ss, but NOT query s. Collapse duplicate original spans.\\nquote MUST equal original_text[start:end] exactly, including original case and\\nwhitespace. Preserve separate source IDs. Output queries in input query order,\\nmatches:[{source_id,start,end,quote}], and unsupported_query_ids in input order\\nfor exactly those queries with no matches. Empty lists are allowed. Never use\\nsemantic similarity as a match. Preserve inputs. Reject malformed objects, extra\\nkeys, wrong types, duplicate/empty IDs and blank queries with ValueError. Ordinary\\nallowed Python standard modules including unicodedata are sufficient; no files,\\nnetwork, external packages, model calls or hardcoded source/query values.\\nQwen compiled algorithm:\\n1. Validate input structure: Ensure 'sources' and 'queries' arrays exist, IDs are non-empty and unique within their lists, and query texts are non-empty/non-whitespace. Raise ValueError for any violation. 2. Define normalization function: For each character in a string, apply NFKC normalization followed by casefolding. Concatenate results. Collapse consecutive whitespace characters into a single ASCII space. Do not trim leading/trailing whitespace or remove punctuation. 3. Preprocess sources: For each source, store the original text and generate its normalized version using the defined function. 4. Preprocess queries: For each query, generate its normalized version using the defined function. 5. Search and Map: For each query in input order, iterate through all sources in input order. Search for the normalized query string within the normalized source string to find all overlapping start indices. 6. Span Reconstruction: For each normalized match start index, map it back to the original source text's zero-based Unicode code-point start index. Determine the original end index such that the slice [start, end) from the original text, when normalized, exactly equals the normalized query. 7. Verification: Verify that the normalized version of original_text[start:end] strictly equals the normalized query. Reject matches where the normalized span does not match (e.g., partial hits inside casefold expansions). 8. Deduplication: Remove duplicate [source_id, start, end] spans for the same query. 9. Output Construction: Compile matches for each query preserving input order. Include 'unsupported_query_ids' for queries with zero matches. Ensure 'quote' is exactly original_text[start:end].\", \"invariants\": [\"IDs must be non-empty strings and unique within their respective lists.\", \"Query texts cannot be empty or consist solely of whitespace.\", \"Normalization is applied character-by-character (NFKC then casefold) before whitespace collapsing.\", \"Whitespace runs are collapsed to a single ASCII space; no trimming or punctuation removal occurs.\", \"Matches are identified in the normalized domain but reported as original Unicode code-point spans [start, end).\", \"A match is valid only if the normalized version of the original substring exactly equals the normalized query.\", \"Partial matches resulting from casefold expansion (e.g., 'ß' matching 's' but not 'ss') are rejected.\", \"Output preserves the input order of queries and sources; matches are sorted by source input order then ascending start index within that source.\"], \"edge_cases\": [\"Empty input lists for sources or queries are allowed and result in empty output lists.\", \"Queries with no matches in any source must be listed in 'unsupported_query_ids'.\", \"Overlapping occurrences of the same query in a source must all be reported.\", \"Duplicate original spans for the same query must be collapsed to a single entry.\", \"Casefold expansions where the normalized length differs from the original length (e.g., U+00DF 'ß' to 'ss') must not produce false positives for shorter queries.\", \"Whitespace-only queries are invalid inputs and must trigger a ValueError.\", \"Duplicate IDs within sources or queries are invalid inputs and must trigger a ValueError.\"]}, \"display_name\": \"diagnose_unicode_span_misalignment\", \"input_schema\": {\"type\": \"object\", \"properties\": {\"sources\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\"}}, \"required\": [\"source_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 20}, \"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\", \"minLength\": 1}}, \"required\": [\"query_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 30}}, \"required\": [\"sources\", \"queries\"], \"additionalProperties\": false}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"maxLength\": 200}, \"matches\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"maxLength\": 200}, \"start\": {\"type\": \"integer\", \"minimum\": 0}, \"end\": {\"type\": \"integer\", \"minimum\": 1}, \"quote\": {\"type\": \"string\", \"maxLength\": 2000}}, \"required\": [\"source_id\", \"start\", \"end\", \"quote\"], \"additionalProperties\": false}, \"maxItems\": 200}}, \"required\": [\"query_id\", \"matches\"], \"additionalProperties\": false}, \"maxItems\": 30}, \"unsupported_query_ids\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"maxLength\": 200}, \"maxItems\": 30}}, \"required\": [\"queries\", \"unsupported_query_ids\"], \"additionalProperties\": false}, \"requirements\": \"Align every query against ALL original source strings without inventing evidence.\\nInput is exactly {sources:[{source_id:string,text:string}],queries:[{query_id:string,text:string}]}.\\nIDs are nonempty, unique within their lists. All texts are strings; queries cannot\\nbe empty/whitespace-only. Normalize each ORIGINAL Unicode code point separately\\nusing unicodedata.normalize('NFKC',char).casefold(), concatenate the results, and\\ncollapse each whitespace run to ONE ASCII space. Do NOT trim, remove punctuation,\\ntranslate, infer aliases, equate different dash characters or normalize across\\ncode-point boundaries. Apply the SAME normalization to each query.\\nFind ALL substring occurrences including overlaps, in source input order then\\nascending ORIGINAL start. Map each normalized occurrence back to its original\\nzero-based Python Unicode code-point [start,end) span, NOT UTF-8 bytes or tokens.\\nEmit only matches whose WHOLE original span, normalized by the same rule, equals\\nthe normalized query. This rejects partial hits inside a casefold expansion:\\nsource U+00DF matches query ss, but NOT query s. Collapse duplicate original spans.\\nquote MUST equal original_text[start:end] exactly, including original case and\\nwhitespace. Preserve separate source IDs. Output queries in input query order,\\nmatches:[{source_id,start,end,quote}], and unsupported_query_ids in input order\\nfor exactly those queries with no matches. Empty lists are allowed. Never use\\nsemantic similarity as a match. Preserve inputs. Reject malformed objects, extra\\nkeys, wrong types, duplicate/empty IDs and blank queries with ValueError. Ordinary\\nallowed Python standard modules including unicodedata are sufficient; no files,\\nnetwork, external packages, model calls or hardcoded source/query values.\\nQwen compiled algorithm:\\n1. Validate input structure: Ensure 'sources' and 'queries' arrays exist, IDs are non-empty and unique within their lists, and query texts are non-empty/non-whitespace. Raise ValueError for any violation. 2. Define normalization function: For each character in a string, apply NFKC normalization followed by casefolding. Concatenate results. Collapse consecutive whitespace characters into a single ASCII space. Do not trim leading/trailing whitespace or remove punctuation. 3. Preprocess sources: For each source, store the original text and generate its normalized version using the defined function. 4. Preprocess queries: For each query, generate its normalized version using the defined function. 5. Search and Map: For each query in input order, iterate through all sources in input order. Search for the normalized query string within the normalized source string to find all overlapping start indices. 6. Span Reconstruction: For each normalized match start index, map it back to the original source text's zero-based Unicode code-point start index. Determine the original end index such that the slice [start, end) from the original text, when normalized, exactly equals the normalized query. 7. Verification: Verify that the normalized version of original_text[start:end] strictly equals the normalized query. Reject matches where the normalized span does not match (e.g., partial hits inside casefold expansions). 8. Deduplication: Remove duplicate [source_id, start, end] spans for the same query. 9. Output Construction: Compile matches for each query preserving input order. Include 'unsupported_query_ids' for queries with zero matches. Ensure 'quote' is exactly original_text[start:end].\\nInvariants: [\\\"IDs must be non-empty strings and unique within their respective lists.\\\", \\\"Query texts cannot be empty or consist solely of whitespace.\\\", \\\"Normalization is applied character-by-character (NFKC then casefold) before whitespace collapsing.\\\", \\\"Whitespace runs are collapsed to a single ASCII space; no trimming or punctuation removal occurs.\\\", \\\"Matches are identified in the normalized domain but reported as original Unicode code-point spans [start, end).\\\", \\\"A match is valid only if the normalized version of the original substring exactly equals the normalized query.\\\", \\\"Partial matches resulting from casefold expansion (e.g., '\\\\u00df' matching 's' but not 'ss') are rejected.\\\", \\\"Output preserves the input order of queries and sources; matches are sorted by source input order then ascending start index within that source.\\\"]\\nEdge cases: [\\\"Empty input lists for sources or queries are allowed and result in empty output lists.\\\", \\\"Queries with no matches in any source must be listed in 'unsupported_query_ids'.\\\", \\\"Overlapping occurrences of the same query in a source must all be reported.\\\", \\\"Duplicate original spans for the same query must be collapsed to a single entry.\\\", \\\"Casefold expansions where the normalized length differs from the original length (e.g., U+00DF '\\\\u00df' to 'ss') must not produce false positives for shorter queries.\\\", \\\"Whitespace-only queries are invalid inputs and must trigger a ValueError.\\\", \\\"Duplicate IDs within sources or queries are invalid inputs and must trigger a ValueError.\\\"]\"}, \"previous_fixture_feedback\": {\"issues\": [{\"case\": 2, \"issue\": \"Synthetic expected index conflicts with fixed rules\", \"expected_from_rules\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"s1\", \"start\": 4, \"end\": 5, \"quote\": \"ß\"}]}, {\"query_id\": \"q2\", \"matches\": [{\"source_id\": \"s1\", \"start\": 0, \"end\": 1, \"quote\": \"S\"}]}], \"unsupported_query_ids\": []}}], \"previous_cases\": [{\"input\": {\"sources\": [{\"source_id\": \"s1\", \"text\": \"Hello World\"}], \"queries\": [{\"query_id\": \"q1\", \"text\": \"World\"}]}, \"expected\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"s1\", \"start\": 6, \"end\": 11, \"quote\": \"World\"}]}], \"unsupported_query_ids\": []}}, {\"input\": {\"sources\": [{\"source_id\": \"s1\", \"text\": \"ana\"}], \"queries\": [{\"query_id\": \"q1\", \"text\": \"ana\"}]}, \"expected\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"s1\", \"start\": 0, \"end\": 3, \"quote\": \"ana\"}]}], \"unsupported_query_ids\": []}}, {\"input\": {\"sources\": [{\"source_id\": \"s1\", \"text\": \"Straße\"}], \"queries\": [{\"query_id\": \"q1\", \"text\": \"ss\"}, {\"query_id\": \"q2\", \"text\": \"s\"}]}, \"expected\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"s1\", \"start\": 2, \"end\": 3, \"quote\": \"ß\"}]}, {\"query_id\": \"q2\", \"matches\": []}], \"unsupported_query_ids\": [\"q2\"]}}, {\"input\": {\"sources\": [{\"source_id\": \"s1\", \"text\": \"Hello World\"}], \"queries\": [{\"query_id\": \"q1\", \"text\": \"Hello World\"}]}, \"expected\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"s1\", \"start\": 0, \"end\": 11, \"quote\": \"Hello World\"}]}], \"unsupported_query_ids\": []}}, {\"input\": {\"sources\": [{\"source_id\": \"s1\", \"text\": \"Test\"}, {\"source_id\": \"s2\", \"text\": \"Test\"}], \"queries\": [{\"query_id\": \"q1\", \"text\": \"Test\"}]}, \"expected\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"s1\", \"start\": 0, \"end\": 4, \"quote\": \"Test\"}, {\"source_id\": \"s2\", \"start\": 0, \"end\": 4, \"quote\": \"Test\"}]}], \"unsupported_query_ids\": []}}, {\"input\": {\"sources\": [], \"queries\": [{\"query_id\": \"q1\", \"text\": \"Nothing\"}]}, \"expected\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": []}], \"unsupported_query_ids\": [\"q1\"]}}, {\"input\": {\"sources\": [{\"source_id\": \"s1\", \"text\": \"A\"}, {\"source_id\": \"s1\", \"text\": \"B\"}], \"queries\": [{\"query_id\": \"q1\", \"text\": \"A\"}]}, \"expected_error\": \"ValueError\"}, {\"input\": {\"sources\": [{\"source_id\": \"s1\", \"text\": \"A\"}], \"queries\": [{\"query_id\": \"q1\", \"text\": \"   \"}]}, \"expected_error\": \"ValueError\"}]}}"
+    }
+  ],
+  "temperature": 0.2,
+  "seed": 20261106,
+  "max_tokens": 6144,
+  "response_format": {
+    "type": "json_object",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "approve": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string",
+          "maxLength": 1200
+        },
+        "cases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "input": {
+                "type": "object"
+              },
+              "expected": {
+                "type": "object",
+                "properties": {
+                  "queries": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "query_id": {
+                          "type": "string",
+                          "maxLength": 200
+                        },
+                        "matches": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "source_id": {
+                                "type": "string",
+                                "maxLength": 200
+                              },
+                              "start": {
+                                "type": "integer",
+                                "minimum": 0
+                              },
+                              "end": {
+                                "type": "integer",
+                                "minimum": 1
+                              },
+                              "quote": {
+                                "type": "string",
+                                "maxLength": 2000
+                              }
+                            },
+                            "required": [
+                              "source_id",
+                              "start",
+                              "end",
+                              "quote"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "maxItems": 200
+                        }
+                      },
+                      "required": [
+                        "query_id",
+                        "matches"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "maxItems": 30
+                  },
+                  "unsupported_query_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    "maxItems": 30
+                  }
+                },
+                "required": [
+                  "queries",
+                  "unsupported_query_ids"
+                ],
+                "additionalProperties": false
+              },
+              "expected_error": {
+                "type": "string",
+                "enum": [
+                  "ValueError"
+                ]
+              }
+            },
+            "required": [
+              "input"
+            ],
+            "additionalProperties": false,
+            "oneOf": [
+              {
+                "required": [
+                  "expected"
+                ]
+              },
+              {
+                "required": [
+                  "expected_error"
+                ]
+              }
+            ]
+          },
+          "maxItems": 8
+        }
+      },
+      "required": [
+        "approve",
+        "reason",
+        "cases"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}

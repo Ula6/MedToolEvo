@@ -1,0 +1,253 @@
+{
+  "task_id": "5e9eaf3b0d431b5f73000004",
+  "question": "Which eukaryote genomes contain operons?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "nematode genomes",
+      "ascidian genomes",
+      "Caenorhabditis elegans",
+      "Ciona intestinalis",
+      "Caenorhabditis briggsae",
+      "Caenorhabditis remanei",
+      "Caenorhabditis brenneri",
+      "Pristionchus pacificus",
+      "Brugia malayi",
+      "class Chromadorea",
+      "Drosophila melanogaster"
+    ],
+    "supports": [
+      {
+        "item": "nematode genomes",
+        "evidence_id": "e1",
+        "quote": "Genes in nematode and ascidian genomes frequently occur in operons"
+      },
+      {
+        "item": "ascidian genomes",
+        "evidence_id": "e1",
+        "quote": "Genes in nematode and ascidian genomes frequently occur in operons"
+      },
+      {
+        "item": "Caenorhabditis elegans",
+        "evidence_id": "e2",
+        "quote": "such genes comprise 15-20% of the coding genome for Caenorhabditis elegans and Ciona intestinalis"
+      },
+      {
+        "item": "Ciona intestinalis",
+        "evidence_id": "e2",
+        "quote": "such genes comprise 15-20% of the coding genome for Caenorhabditis elegans and Ciona intestinalis"
+      },
+      {
+        "item": "Caenorhabditis briggsae",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Caenorhabditis remanei",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Caenorhabditis brenneri",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Pristionchus pacificus",
+        "evidence_id": "e10",
+        "quote": "using Pristionchus pacificus and Brugia malayi as outgroups"
+      },
+      {
+        "item": "Brugia malayi",
+        "evidence_id": "e10",
+        "quote": "using Pristionchus pacificus and Brugia malayi as outgroups"
+      },
+      {
+        "item": "class Chromadorea",
+        "evidence_id": "e6",
+        "quote": "Operons are present in the class Chromadorea, one of the two main nematode classes"
+      },
+      {
+        "item": "Drosophila melanogaster",
+        "evidence_id": "e21",
+        "quote": "There are instances of operons found in C. elegans, Drosophila melanogaster and other eukaryotic species."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence explicitly confirms operons in nematodes (including specific species and the class Chromadorea) and ascidians (Ciona intestinalis). Evidence mentions instances in Drosophila melanogaster and 'other eukaryotic species' but does not list other specific eukaryote genomes by name. Claims are limited to the provided text segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 11,
+      "fn": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "nematode genomes",
+      "ascidian genomes",
+      "Caenorhabditis elegans",
+      "Ciona intestinalis",
+      "Caenorhabditis briggsae",
+      "Caenorhabditis remanei",
+      "Caenorhabditis brenneri",
+      "Chromadorea",
+      "Drosophila melanogaster"
+    ],
+    "supports": [
+      {
+        "item": "nematode genomes",
+        "evidence_id": "e1",
+        "quote": "Genes in nematode and ascidian genomes frequently occur in operons"
+      },
+      {
+        "item": "ascidian genomes",
+        "evidence_id": "e1",
+        "quote": "Genes in nematode and ascidian genomes frequently occur in operons"
+      },
+      {
+        "item": "Caenorhabditis elegans",
+        "evidence_id": "e2",
+        "quote": "such genes comprise 15-20% of the coding genome for Caenorhabditis elegans and Ciona intestinalis"
+      },
+      {
+        "item": "Ciona intestinalis",
+        "evidence_id": "e2",
+        "quote": "such genes comprise 15-20% of the coding genome for Caenorhabditis elegans and Ciona intestinalis"
+      },
+      {
+        "item": "Caenorhabditis briggsae",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Caenorhabditis remanei",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Caenorhabditis brenneri",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Chromadorea",
+        "evidence_id": "e6",
+        "quote": "Operons are present in the class Chromadorea, one of the two main nematode classes"
+      },
+      {
+        "item": "Drosophila melanogaster",
+        "evidence_id": "e21",
+        "quote": "There are instances of operons found in C. elegans, Drosophila melanogaster and other eukaryotic species."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence confirms operons in nematodes (including specific Caenorhabditis species and class Chromadorea), ascidians (Ciona intestinalis), and mentions instances in Drosophila melanogaster. Evidence e10 analyzes presence/absence in C. briggsae, C. remanei, and C. brenneri but does not explicitly state the result of that analysis in the provided text snippets, though context implies they are subjects of operon study. Evidence e5 mentions 'multiple animal phyla' generally but does not name them specifically beyond the examples provided. Evidence e21 mentions 'other eukaryotic species' without naming them.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 9,
+      "fn": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "nematode genomes",
+      "ascidian genomes",
+      "Caenorhabditis elegans",
+      "Ciona intestinalis",
+      "Caenorhabditis briggsae",
+      "Caenorhabditis remanei",
+      "Caenorhabditis brenneri",
+      "Chromadorea",
+      "Drosophila melanogaster"
+    ],
+    "supports": [
+      {
+        "item": "nematode genomes",
+        "evidence_id": "e1",
+        "quote": "Genes in nematode and ascidian genomes frequently occur in operons"
+      },
+      {
+        "item": "ascidian genomes",
+        "evidence_id": "e1",
+        "quote": "Genes in nematode and ascidian genomes frequently occur in operons"
+      },
+      {
+        "item": "Caenorhabditis elegans",
+        "evidence_id": "e2",
+        "quote": "such genes comprise 15-20% of the coding genome for Caenorhabditis elegans and Ciona intestinalis"
+      },
+      {
+        "item": "Ciona intestinalis",
+        "evidence_id": "e2",
+        "quote": "such genes comprise 15-20% of the coding genome for Caenorhabditis elegans and Ciona intestinalis"
+      },
+      {
+        "item": "Caenorhabditis briggsae",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Caenorhabditis remanei",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Caenorhabditis brenneri",
+        "evidence_id": "e10",
+        "quote": "To test this hypothesis, we analyzed the presence and absence of C. elegans operons in Caenorhabditis briggsae, Caenorhabditis remanei, and Caenorhabditis brenneri"
+      },
+      {
+        "item": "Chromadorea",
+        "evidence_id": "e6",
+        "quote": "Operons are present in the class Chromadorea, one of the two main nematode classes"
+      },
+      {
+        "item": "Drosophila melanogaster",
+        "evidence_id": "e21",
+        "quote": "There are instances of operons found in C. elegans, Drosophila melanogaster and other eukaryotic species."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence confirms operons in nematodes (including specific Caenorhabditis species and class Chromadorea), ascidians (Ciona intestinalis), and mentions instances in Drosophila melanogaster. Evidence e10 analyzes presence/absence in C. briggsae, C. remanei, and C. brenneri but does not explicitly state the result of that analysis in the provided text snippets, though context implies they are subjects of operon study. Evidence e5 mentions 'multiple animal phyla' generally but does not name them specifically beyond the examples provided. Evidence e21 mentions 'other eukaryotic species' without naming them.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 9,
+      "fn": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/12075352",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12949121",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17174523",
+    "http://www.ncbi.nlm.nih.gov/pubmed/18218978",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19712444",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19740764",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20382830",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23668349",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24429814",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24931407"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5e9eaf3b0d431b5f73000004/attempt_0"
+}

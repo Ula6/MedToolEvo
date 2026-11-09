@@ -1,0 +1,368 @@
+{
+  "task_id": "51740da48ed59a060a000024",
+  "question": "Which are the bioinformatics tools for gene structure prediction?\n",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "SCGPred",
+      "GeneSeqer",
+      "SplicePredictor",
+      "DGSplicer",
+      "Transcript Assembly Program (TAP)",
+      "GeneBuilder",
+      "SeqHelp",
+      "FGENE",
+      "HSPL",
+      "RNASPL",
+      "HEXON",
+      "FEXH",
+      "FGENEH",
+      "CDSB",
+      "HBR",
+      "WPSS"
+    ],
+    "supports": [
+      {
+        "item": "SCGPred",
+        "evidence_id": "e3",
+        "quote": "SCGPred: a score-based method for gene structure prediction by combining multiple sources of evidence."
+      },
+      {
+        "item": "GeneSeqer",
+        "evidence_id": "e8",
+        "quote": "Source code for the updated versions of GeneSeqer and SplicePredictor (distributed with the GeneSeqer code) isavailable at http://bioinformatics.iastate.edu/bioinformatics2go/gs/download.html."
+      },
+      {
+        "item": "SplicePredictor",
+        "evidence_id": "e8",
+        "quote": "Source code for the updated versions of GeneSeqer and SplicePredictor (distributed with the GeneSeqer code) isavailable at http://bioinformatics.iastate.edu/bioinformatics2go/gs/download.html."
+      },
+      {
+        "item": "DGSplicer",
+        "evidence_id": "e11",
+        "quote": "Software (a program called DGSplicer) and datasets used are available at http://csrl.ee.nthu.edu.tw/bioinf/ BACKGROUND: cclu@ee.nthu.edu.tw."
+      },
+      {
+        "item": "Transcript Assembly Program (TAP)",
+        "evidence_id": "e15",
+        "quote": "We have developed a software tool, Transcript Assembly Program (TAP), to delineate gene structures using genomically aligned EST sequences."
+      },
+      {
+        "item": "GeneBuilder",
+        "evidence_id": "e16",
+        "quote": "GeneBuilder: interactive in silico prediction of gene structure."
+      },
+      {
+        "item": "SeqHelp",
+        "evidence_id": "e18",
+        "quote": "The computer program SeqHelp organizes information from database searches, gene structure prediction, and other information to generate multiply aligned, hypertext-linked reports to allow for fast analysis of molecular sequences."
+      },
+      {
+        "item": "FGENE",
+        "evidence_id": "e21",
+        "quote": "A gene structure prediction system FGENE has been developed based on the exon recognition functions."
+      },
+      {
+        "item": "HSPL",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "RNASPL",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "HEXON",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "FEXH",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "FGENEH",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "CDSB",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "HBR",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "WPSS",
+        "evidence_id": "e2",
+        "quote": "The proposed WPSS method poses efficient results compared with the performance of many methods proposed in the literature."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The list is restricted to tools explicitly named in the provided evidence segments. Some tools (e.g., HSPL, RNASPL, HEXON, FEXH, FGENEH, CDSB, HBR) are described as methods or components within a broader system rather than standalone software packages. The evidence does not provide a comprehensive or exhaustive list of all existing bioinformatics tools for gene structure prediction, only those mentioned in the specific PubMed abstracts supplied.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 13,
+      "fp": 3,
+      "fn": 5,
+      "precision": 0.8125,
+      "recall": 0.7222222222222222,
+      "f1": 0.7647058823529411
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "WPSS",
+      "SCGPred",
+      "GeneSeqer",
+      "SplicePredictor",
+      "DGSplicer",
+      "Transcript Assembly Program (TAP)",
+      "GeneBuilder",
+      "SeqHelp",
+      "FGENE",
+      "HSPL",
+      "RNASPL",
+      "HEXON",
+      "FEXH",
+      "FGENEH",
+      "CDSB",
+      "HBR"
+    ],
+    "supports": [
+      {
+        "item": "WPSS",
+        "evidence_id": "e2",
+        "quote": "The proposed WPSS method poses efficient results compared with the performance of many methods proposed in the literature."
+      },
+      {
+        "item": "SCGPred",
+        "evidence_id": "e4",
+        "quote": "Here we present a new gene-finding program, SCGPred, to improve the accuracy of prediction by combining multiple sources of evidence."
+      },
+      {
+        "item": "GeneSeqer",
+        "evidence_id": "e8",
+        "quote": "Source code for the updated versions of GeneSeqer and SplicePredictor (distributed with the GeneSeqer code) isavailable at http://bioinformatics.iastate.edu/bioinformatics2go/gs/download.html."
+      },
+      {
+        "item": "SplicePredictor",
+        "evidence_id": "e8",
+        "quote": "Source code for the updated versions of GeneSeqer and SplicePredictor (distributed with the GeneSeqer code) isavailable at http://bioinformatics.iastate.edu/bioinformatics2go/gs/download.html."
+      },
+      {
+        "item": "DGSplicer",
+        "evidence_id": "e11",
+        "quote": "Software (a program called DGSplicer) and datasets used are available at http://csrl.ee.nthu.edu.tw/bioinf/ BACKGROUND: cclu@ee.nthu.edu.tw."
+      },
+      {
+        "item": "Transcript Assembly Program (TAP)",
+        "evidence_id": "e15",
+        "quote": "We have developed a software tool, Transcript Assembly Program (TAP), to delineate gene structures using genomically aligned EST sequences."
+      },
+      {
+        "item": "GeneBuilder",
+        "evidence_id": "e16",
+        "quote": "GeneBuilder: interactive in silico prediction of gene structure."
+      },
+      {
+        "item": "SeqHelp",
+        "evidence_id": "e18",
+        "quote": "The computer program SeqHelp organizes information from database searches, gene structure prediction, and other information to generate multiply aligned, hypertext-linked reports to allow for fast analysis of molecular sequences."
+      },
+      {
+        "item": "FGENE",
+        "evidence_id": "e21",
+        "quote": "A gene structure prediction system FGENE has been developed based on the exon recognition functions."
+      },
+      {
+        "item": "HSPL",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "RNASPL",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "HEXON",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "FEXH",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "FGENEH",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "CDSB",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "HBR",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific publications; some tools are components of larger systems or specific to certain organisms (e.g., plants, humans, bacteria). The list reflects only those explicitly named in the provided text segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 13,
+      "fp": 3,
+      "fn": 5,
+      "precision": 0.8125,
+      "recall": 0.7222222222222222,
+      "f1": 0.7647058823529411
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "WPSS",
+      "SCGPred",
+      "GeneSeqer",
+      "SplicePredictor",
+      "DGSplicer",
+      "Transcript Assembly Program (TAP)",
+      "GeneBuilder",
+      "SeqHelp",
+      "FGENE",
+      "HSPL",
+      "RNASPL",
+      "HEXON",
+      "FEXH",
+      "FGENEH",
+      "CDSB",
+      "HBR"
+    ],
+    "supports": [
+      {
+        "item": "WPSS",
+        "evidence_id": "e2",
+        "quote": "The proposed WPSS method poses efficient results compared with the performance of many methods proposed in the literature."
+      },
+      {
+        "item": "SCGPred",
+        "evidence_id": "e4",
+        "quote": "Here we present a new gene-finding program, SCGPred, to improve the accuracy of prediction by combining multiple sources of evidence."
+      },
+      {
+        "item": "GeneSeqer",
+        "evidence_id": "e8",
+        "quote": "Source code for the updated versions of GeneSeqer and SplicePredictor (distributed with the GeneSeqer code) isavailable at http://bioinformatics.iastate.edu/bioinformatics2go/gs/download.html."
+      },
+      {
+        "item": "SplicePredictor",
+        "evidence_id": "e8",
+        "quote": "Source code for the updated versions of GeneSeqer and SplicePredictor (distributed with the GeneSeqer code) isavailable at http://bioinformatics.iastate.edu/bioinformatics2go/gs/download.html."
+      },
+      {
+        "item": "DGSplicer",
+        "evidence_id": "e11",
+        "quote": "Software (a program called DGSplicer) and datasets used are available at http://csrl.ee.nthu.edu.tw/bioinf/ BACKGROUND: cclu@ee.nthu.edu.tw."
+      },
+      {
+        "item": "Transcript Assembly Program (TAP)",
+        "evidence_id": "e15",
+        "quote": "We have developed a software tool, Transcript Assembly Program (TAP), to delineate gene structures using genomically aligned EST sequences."
+      },
+      {
+        "item": "GeneBuilder",
+        "evidence_id": "e16",
+        "quote": "GeneBuilder: interactive in silico prediction of gene structure."
+      },
+      {
+        "item": "SeqHelp",
+        "evidence_id": "e18",
+        "quote": "The computer program SeqHelp organizes information from database searches, gene structure prediction, and other information to generate multiply aligned, hypertext-linked reports to allow for fast analysis of molecular sequences."
+      },
+      {
+        "item": "FGENE",
+        "evidence_id": "e21",
+        "quote": "A gene structure prediction system FGENE has been developed based on the exon recognition functions."
+      },
+      {
+        "item": "HSPL",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "RNASPL",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "HEXON",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "FEXH",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "FGENEH",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "CDSB",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      },
+      {
+        "item": "HBR",
+        "evidence_id": "e22",
+        "quote": "Analysis of uncharacterized human sequences based on our methods for splice site (HSPL, RNASPL), internal exons (HEXON), all type of exons (FEXH) and human (FGENEH) and bacterial (CDSB) gene structure prediction and recognition of human and bacterial sequences (HBR) (to test a library for E. coli contamination) is available through the University of Houston, Weizmann Institute of Science network server and a WWW page of the Human Genome Center at Baylor College of Medicine."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific publications; some tools are components of larger systems or specific to certain organisms (e.g., plants, humans, bacteria). The list reflects only those explicitly named in the provided text segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 13,
+      "fp": 3,
+      "fn": 5,
+      "precision": 0.8125,
+      "recall": 0.7222222222222222,
+      "f1": 0.7647058823529411
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10487869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11337482",
+    "http://www.ncbi.nlm.nih.gov/pubmed/14764557",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15374869",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15564294",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16306388",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19329068",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20726803",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21056007",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7584460",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9521933"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/51740da48ed59a060a000024/attempt_0"
+}

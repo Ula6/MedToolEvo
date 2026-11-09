@@ -1,0 +1,251 @@
+{
+  "task_id": "52bf209303868f1b0600001a",
+  "question": "What are the indications for alteplase?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "acute ischaemic stroke",
+      "acute myocardial infarction",
+      "pulmonary thromboembolism",
+      "occluded central venous catheters",
+      "occluded dialysis catheters",
+      "arterial thrombotic occlusion",
+      "deep vein thrombosis"
+    ],
+    "supports": [
+      {
+        "item": "acute ischaemic stroke",
+        "evidence_id": "e6",
+        "quote": "Intravenous alteplase (recombinant tissue plasminogen activator) is the only approved thrombolytic agent at present indicated for acute ischaemic stoke."
+      },
+      {
+        "item": "acute myocardial infarction",
+        "evidence_id": "e21",
+        "quote": "Alteplase has been used successfully in evolving myocardial infarction (MI) to reopen occluded coronary arteries."
+      },
+      {
+        "item": "pulmonary thromboembolism",
+        "evidence_id": "e24",
+        "quote": "However, alteplase is useful in treating pulmonary thromboembolism and peripheral vascular disease."
+      },
+      {
+        "item": "occluded central venous catheters",
+        "evidence_id": "e3",
+        "quote": "The trials used to support Food and Drug Administration approval of alteplase for central venous catheter (CVC) occlusions generally had low pediatric enrollment; however, additional small studies are available that support use of alteplase for this indication in children."
+      },
+      {
+        "item": "occluded dialysis catheters",
+        "evidence_id": "e2",
+        "quote": "Alteplase appears to show efficacy for treatment of thrombus-related venous catheter occlusion in pediatric patients; however, data regarding its use in occluded dialysis catheters are limited."
+      },
+      {
+        "item": "arterial thrombotic occlusion",
+        "evidence_id": "e28",
+        "quote": "The efficacy of intravenous alteplase in the treatment of pulmonary thromboembolism has also been established and appears to be similar to that of streptokinase and urokinase in this indication and in arterial thrombotic occlusion."
+      },
+      {
+        "item": "deep vein thrombosis",
+        "evidence_id": "e29",
+        "quote": "Further, preliminary data suggest efficacy in the therapy of deep vein thrombosis and arterial thrombotic occlusion, and alteplase has a proven place in the fibrinolytic treatment of pulmonary thromboembolism."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates approval for acute ischaemic stroke, myocardial infarction, pulmonary thromboembolism, and central venous catheter occlusions. Use in deep vein thrombosis and arterial thrombotic occlusion is supported by preliminary data or efficacy studies but not necessarily formal approval in all contexts. Data for dialysis catheters is limited. Some indications are restricted by time windows (e.g., within 3 hours for stroke) or specific patient selection criteria.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 3,
+      "fn": 8,
+      "precision": 0.5714285714285714,
+      "recall": 0.3333333333333333,
+      "f1": 0.4210526315789474
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "acute ischaemic stroke",
+      "acute myocardial infarction",
+      "pulmonary thromboembolism",
+      "occluded central venous catheters",
+      "arterial thrombotic occlusion",
+      "peripheral vascular disease",
+      "deep vein thrombosis",
+      "acute arterial occlusion in limb arteries",
+      "occluded central venous access devices",
+      "thrombus-related venous catheter occlusion in pediatric patients"
+    ],
+    "supports": [
+      {
+        "item": "acute ischaemic stroke",
+        "evidence_id": "e6",
+        "quote": "Intravenous alteplase (recombinant tissue plasminogen activator) is the only approved thrombolytic agent at present indicated for acute ischaemic stoke."
+      },
+      {
+        "item": "acute myocardial infarction",
+        "evidence_id": "e28",
+        "quote": "Alteplase is now firmly established as a treatment of choice in the management of acute myocardial infarction."
+      },
+      {
+        "item": "pulmonary thromboembolism",
+        "evidence_id": "e28",
+        "quote": "The efficacy of intravenous alteplase in the treatment of pulmonary thromboembolism has also been established"
+      },
+      {
+        "item": "occluded central venous catheters",
+        "evidence_id": "e3",
+        "quote": "The trials used to support Food and Drug Administration approval of alteplase for central venous catheter (CVC) occlusions generally had low pediatric enrollment"
+      },
+      {
+        "item": "arterial thrombotic occlusion",
+        "evidence_id": "e28",
+        "quote": "Although trials demonstrating the efficacy of intravenous alteplase in patients with deep vein thrombosis and intra-arterial alteplase in patients with arterial thrombotic occlusion exist"
+      },
+      {
+        "item": "peripheral vascular disease",
+        "evidence_id": "e24",
+        "quote": "However, alteplase is useful in treating pulmonary thromboembolism and peripheral vascular disease."
+      },
+      {
+        "item": "deep vein thrombosis",
+        "evidence_id": "e29",
+        "quote": "Further, preliminary data suggest efficacy in the therapy of deep vein thrombosis and arterial thrombotic occlusion"
+      },
+      {
+        "item": "acute arterial occlusion in limb arteries",
+        "evidence_id": "e36",
+        "quote": "The local treatment of acute arterial occlusion in limb arteries results in rapid clearing of the artery in 67% of patients treated with streptokinase; the corresponding success rates for urokinase and alteplase are 81% and 88 to 94%, respectively."
+      },
+      {
+        "item": "occluded central venous access devices",
+        "evidence_id": "e14",
+        "quote": "Alteplase has been reported as an efficacious alternative to urokinase for treatment of occluded CVADs."
+      },
+      {
+        "item": "thrombus-related venous catheter occlusion in pediatric patients",
+        "evidence_id": "e2",
+        "quote": "Alteplase appears to show efficacy for treatment of thrombus-related venous catheter occlusion in pediatric patients"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates established efficacy for acute ischaemic stroke, acute myocardial infarction, pulmonary thromboembolism, and catheter occlusions. Support for deep vein thrombosis and arterial thrombotic occlusion is described as preliminary or based on existing trials but not always as a primary approved indication in all contexts. Some evidence notes restricted use or lack of established role for specific regimens (e.g., low dose for DVT) or populations.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 6,
+      "fn": 8,
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "f1": 0.3636363636363636
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "acute ischaemic stroke",
+      "acute myocardial infarction",
+      "pulmonary thromboembolism",
+      "occluded central venous catheters",
+      "arterial thrombotic occlusion",
+      "peripheral vascular disease",
+      "deep vein thrombosis",
+      "acute arterial occlusion in limb arteries",
+      "occluded central venous access devices",
+      "thrombus-related venous catheter occlusion in pediatric patients"
+    ],
+    "supports": [
+      {
+        "item": "acute ischaemic stroke",
+        "evidence_id": "e6",
+        "quote": "Intravenous alteplase (recombinant tissue plasminogen activator) is the only approved thrombolytic agent at present indicated for acute ischaemic stoke."
+      },
+      {
+        "item": "acute myocardial infarction",
+        "evidence_id": "e28",
+        "quote": "Alteplase is now firmly established as a treatment of choice in the management of acute myocardial infarction."
+      },
+      {
+        "item": "pulmonary thromboembolism",
+        "evidence_id": "e28",
+        "quote": "The efficacy of intravenous alteplase in the treatment of pulmonary thromboembolism has also been established"
+      },
+      {
+        "item": "occluded central venous catheters",
+        "evidence_id": "e3",
+        "quote": "The trials used to support Food and Drug Administration approval of alteplase for central venous catheter (CVC) occlusions generally had low pediatric enrollment"
+      },
+      {
+        "item": "arterial thrombotic occlusion",
+        "evidence_id": "e28",
+        "quote": "Although trials demonstrating the efficacy of intravenous alteplase in patients with deep vein thrombosis and intra-arterial alteplase in patients with arterial thrombotic occlusion exist"
+      },
+      {
+        "item": "peripheral vascular disease",
+        "evidence_id": "e24",
+        "quote": "However, alteplase is useful in treating pulmonary thromboembolism and peripheral vascular disease."
+      },
+      {
+        "item": "deep vein thrombosis",
+        "evidence_id": "e29",
+        "quote": "Further, preliminary data suggest efficacy in the therapy of deep vein thrombosis and arterial thrombotic occlusion"
+      },
+      {
+        "item": "acute arterial occlusion in limb arteries",
+        "evidence_id": "e36",
+        "quote": "The local treatment of acute arterial occlusion in limb arteries results in rapid clearing of the artery in 67% of patients treated with streptokinase; the corresponding success rates for urokinase and alteplase are 81% and 88 to 94%, respectively."
+      },
+      {
+        "item": "occluded central venous access devices",
+        "evidence_id": "e14",
+        "quote": "Alteplase has been reported as an efficacious alternative to urokinase for treatment of occluded CVADs."
+      },
+      {
+        "item": "thrombus-related venous catheter occlusion in pediatric patients",
+        "evidence_id": "e2",
+        "quote": "Alteplase appears to show efficacy for treatment of thrombus-related venous catheter occlusion in pediatric patients"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates established efficacy for acute ischaemic stroke, acute myocardial infarction, pulmonary thromboembolism, and catheter occlusions. Support for deep vein thrombosis and arterial thrombotic occlusion is described as preliminary or based on existing trials but not always as a primary approved indication in all contexts. Some evidence notes restricted use or lack of established role for specific regimens (e.g., low dose for DVT) or populations.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 6,
+      "fn": 8,
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "f1": 0.3636363636363636
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10172049",
+    "http://www.ncbi.nlm.nih.gov/pubmed/10581997",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11772304",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11778213",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11794977",
+    "http://www.ncbi.nlm.nih.gov/pubmed/11919252",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12450926",
+    "http://www.ncbi.nlm.nih.gov/pubmed/15532135",
+    "http://www.ncbi.nlm.nih.gov/pubmed/1641820",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17656661",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19804685",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23251746",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23336348",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23463740",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23727456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/2689138",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7549071",
+    "http://www.ncbi.nlm.nih.gov/pubmed/7579782",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8521760",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9385884"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/52bf209303868f1b0600001a/attempt_1"
+}

@@ -1,0 +1,110 @@
+{
+  "status": "ok",
+  "parsed": {
+    "queries": [
+      {
+        "query_id": "q1",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 41,
+            "end": 48,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 79,
+            "end": 86,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 228,
+            "end": 235,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 358,
+            "end": 365,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 403,
+            "end": 410,
+            "quote": "studies"
+          }
+        ]
+      },
+      {
+        "query_id": "q2",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 480,
+            "end": 489,
+            "quote": "vitamin D"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 588,
+            "end": 597,
+            "quote": "vitamin D"
+          }
+        ]
+      },
+      {
+        "query_id": "q3",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 440,
+            "end": 452,
+            "quote": "double‐blind"
+          }
+        ]
+      },
+      {
+        "query_id": "q4",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 884,
+            "end": 896,
+            "quote": "hypertension"
+          }
+        ]
+      },
+      {
+        "query_id": "q5",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 1262,
+            "end": 1281,
+            "quote": "ACEI/ARB medication"
+          }
+        ]
+      },
+      {
+        "query_id": "q6",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 1362,
+            "end": 1376,
+            "quote": "white European"
+          }
+        ]
+      },
+      {
+        "query_id": "q7",
+        "matches": []
+      }
+    ],
+    "unsupported_query_ids": [
+      "q7"
+    ]
+  }
+}

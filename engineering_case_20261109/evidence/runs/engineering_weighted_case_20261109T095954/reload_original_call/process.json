@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"weighted_mean\": 9.271921, \"weighted_population_variance\": 1.738761, \"weighted_population_sd\": 1.318621, \"weighted_geometric_mean\": 9.187657}",
+  "stderr": "",
+  "elapsed_seconds": 0.02984103374183178,
+  "code_sha256": "f80f9e9749595cf01602e0fd3a36717096b045c2c66a5d8f3f0dac22477170bc"
+}

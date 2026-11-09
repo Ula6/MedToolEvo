@@ -1,0 +1,547 @@
+{
+  "before": {
+    "queries": [
+      {
+        "query_id": "q1",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 44,
+            "end": 52,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 79,
+            "end": 87,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 193,
+            "end": 201,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 256,
+            "end": 264,
+            "quote": "studies"
+          }
+        ]
+      },
+      {
+        "query_id": "q2",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 349,
+            "end": 359,
+            "quote": "vitamin D"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 418,
+            "end": 428,
+            "quote": "vitamin D"
+          }
+        ]
+      },
+      {
+        "query_id": "q3",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 296,
+            "end": 308,
+            "quote": "double‐blind"
+          }
+        ]
+      },
+      {
+        "query_id": "q4",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 576,
+            "end": 588,
+            "quote": "hypertension"
+          }
+        ]
+      },
+      {
+        "query_id": "q5",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 768,
+            "end": 787,
+            "quote": "ACEI/ARB medication"
+          }
+        ]
+      },
+      {
+        "query_id": "q6",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 835,
+            "end": 850,
+            "quote": "white European"
+          }
+        ]
+      },
+      {
+        "query_id": "q7",
+        "matches": []
+      }
+    ],
+    "unsupported_query_ids": [
+      "q7"
+    ]
+  },
+  "before_evaluation": {
+    "pass": false,
+    "correct_groups": 1,
+    "content_correct_groups": 1,
+    "total_groups": 7,
+    "unit": "source-alignment queries, not medical questions",
+    "unique_index_exact": true,
+    "unexpected_groups": [],
+    "malformed": [],
+    "substantive_index_error": true,
+    "group_checks": [
+      {
+        "query_id": "q1",
+        "pass": false
+      },
+      {
+        "query_id": "q2",
+        "pass": false
+      },
+      {
+        "query_id": "q3",
+        "pass": false
+      },
+      {
+        "query_id": "q4",
+        "pass": false
+      },
+      {
+        "query_id": "q5",
+        "pass": false
+      },
+      {
+        "query_id": "q6",
+        "pass": false
+      },
+      {
+        "query_id": "q7",
+        "pass": true
+      }
+    ]
+  },
+  "same_evidence_retry": {
+    "queries": [
+      {
+        "query_id": "q1",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 44,
+            "end": 51,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 79,
+            "end": 86,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 193,
+            "end": 200,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 256,
+            "end": 263,
+            "quote": "studies"
+          }
+        ]
+      },
+      {
+        "query_id": "q2",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 349,
+            "end": 358,
+            "quote": "vitamin D"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 418,
+            "end": 427,
+            "quote": "vitamin D"
+          }
+        ]
+      },
+      {
+        "query_id": "q3",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 296,
+            "end": 307,
+            "quote": "double‐blind"
+          }
+        ]
+      },
+      {
+        "query_id": "q4",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 576,
+            "end": 588,
+            "quote": "hypertension"
+          }
+        ]
+      },
+      {
+        "query_id": "q5",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 768,
+            "end": 787,
+            "quote": "ACEI/ARB medication"
+          }
+        ]
+      },
+      {
+        "query_id": "q6",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 835,
+            "end": 850,
+            "quote": "white European"
+          }
+        ]
+      },
+      {
+        "query_id": "q7",
+        "matches": []
+      }
+    ],
+    "unsupported_query_ids": [
+      "q7"
+    ]
+  },
+  "retry_evaluation": {
+    "pass": false,
+    "correct_groups": 1,
+    "content_correct_groups": 1,
+    "total_groups": 7,
+    "unit": "source-alignment queries, not medical questions",
+    "unique_index_exact": true,
+    "unexpected_groups": [],
+    "malformed": [],
+    "substantive_index_error": true,
+    "group_checks": [
+      {
+        "query_id": "q1",
+        "pass": false
+      },
+      {
+        "query_id": "q2",
+        "pass": false
+      },
+      {
+        "query_id": "q3",
+        "pass": false
+      },
+      {
+        "query_id": "q4",
+        "pass": false
+      },
+      {
+        "query_id": "q5",
+        "pass": false
+      },
+      {
+        "query_id": "q6",
+        "pass": false
+      },
+      {
+        "query_id": "q7",
+        "pass": true
+      }
+    ]
+  },
+  "tool_output": {
+    "queries": [
+      {
+        "query_id": "q1",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 41,
+            "end": 48,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 79,
+            "end": 86,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 228,
+            "end": 235,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 358,
+            "end": 365,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 403,
+            "end": 410,
+            "quote": "studies"
+          }
+        ]
+      },
+      {
+        "query_id": "q2",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 480,
+            "end": 489,
+            "quote": "vitamin D"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 588,
+            "end": 597,
+            "quote": "vitamin D"
+          }
+        ]
+      },
+      {
+        "query_id": "q3",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 440,
+            "end": 452,
+            "quote": "double‐blind"
+          }
+        ]
+      },
+      {
+        "query_id": "q4",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 884,
+            "end": 896,
+            "quote": "hypertension"
+          }
+        ]
+      },
+      {
+        "query_id": "q5",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 1262,
+            "end": 1281,
+            "quote": "ACEI/ARB medication"
+          }
+        ]
+      },
+      {
+        "query_id": "q6",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 1362,
+            "end": 1376,
+            "quote": "white European"
+          }
+        ]
+      },
+      {
+        "query_id": "q7",
+        "matches": []
+      }
+    ],
+    "unsupported_query_ids": [
+      "q7"
+    ]
+  },
+  "after": {
+    "queries": [
+      {
+        "query_id": "q1",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 41,
+            "end": 48,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 79,
+            "end": 86,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 228,
+            "end": 235,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 358,
+            "end": 365,
+            "quote": "studies"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 403,
+            "end": 410,
+            "quote": "studies"
+          }
+        ]
+      },
+      {
+        "query_id": "q2",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 480,
+            "end": 489,
+            "quote": "vitamin D"
+          },
+          {
+            "source_id": "PMC11872689",
+            "start": 588,
+            "end": 597,
+            "quote": "vitamin D"
+          }
+        ]
+      },
+      {
+        "query_id": "q3",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 440,
+            "end": 452,
+            "quote": "double‐blind"
+          }
+        ]
+      },
+      {
+        "query_id": "q4",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 884,
+            "end": 896,
+            "quote": "hypertension"
+          }
+        ]
+      },
+      {
+        "query_id": "q5",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 1262,
+            "end": 1281,
+            "quote": "ACEI/ARB medication"
+          }
+        ]
+      },
+      {
+        "query_id": "q6",
+        "matches": [
+          {
+            "source_id": "PMC11872689",
+            "start": 1362,
+            "end": 1376,
+            "quote": "white European"
+          }
+        ]
+      },
+      {
+        "query_id": "q7",
+        "matches": []
+      }
+    ],
+    "unsupported_query_ids": [
+      "q7"
+    ]
+  },
+  "after_evaluation": {
+    "pass": true,
+    "correct_groups": 7,
+    "content_correct_groups": 7,
+    "total_groups": 7,
+    "unit": "source-alignment queries, not medical questions",
+    "unique_index_exact": true,
+    "unexpected_groups": [],
+    "malformed": [],
+    "substantive_index_error": false,
+    "group_checks": [
+      {
+        "query_id": "q1",
+        "pass": true
+      },
+      {
+        "query_id": "q2",
+        "pass": true
+      },
+      {
+        "query_id": "q3",
+        "pass": true
+      },
+      {
+        "query_id": "q4",
+        "pass": true
+      },
+      {
+        "query_id": "q5",
+        "pass": true
+      },
+      {
+        "query_id": "q6",
+        "pass": true
+      },
+      {
+        "query_id": "q7",
+        "pass": true
+      }
+    ]
+  },
+  "review": {
+    "supported": true,
+    "index_repaired": true,
+    "source_binding_preserved": true,
+    "reason": "The actual_generated_tool_output correctly identifies all literal occurrences with accurate zero-based Unicode character offsets and verbatim quotes matching the original source text (e.g., 'studies' at 41-48, 'double‐blind' at 440-452 preserving the non-breaking hyphen). The output correctly rejects the absent probe 'q7' by listing it in unsupported_query_ids with an empty matches list. The initial_answer contained incorrect offsets (e.g., starting at 44 instead of 41), which were successfully repaired in the final and actual outputs to align with the true source character spans."
+  }
+}

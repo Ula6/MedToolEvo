@@ -1,0 +1,300 @@
+{
+  "task_id": "58add1d79ef3c34033000008",
+  "question": "Which driver mutations have been identified for Diffuse Intrinsic Pontine Glioma (DIPG)?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "H3F3A K27M",
+      "HIST1H3B K27M",
+      "ACVR1",
+      "PIK3CA",
+      "FGFR1",
+      "MET",
+      "TP53"
+    ],
+    "supports": [
+      {
+        "item": "H3F3A K27M",
+        "evidence_id": "e1",
+        "quote": "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs"
+      },
+      {
+        "item": "HIST1H3B K27M",
+        "evidence_id": "e1",
+        "quote": "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs"
+      },
+      {
+        "item": "ACVR1",
+        "evidence_id": "e2",
+        "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+      },
+      {
+        "item": "PIK3CA",
+        "evidence_id": "e2",
+        "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+      },
+      {
+        "item": "FGFR1",
+        "evidence_id": "e2",
+        "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+      },
+      {
+        "item": "MET",
+        "evidence_id": "e2",
+        "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+      },
+      {
+        "item": "TP53",
+        "evidence_id": "e3",
+        "quote": " TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific cohorts and abstracts; frequencies vary (e.g., 77-78% for H3K27M). TP53 is described as 'aberrations' rather than specific mutations. Other potential drivers not listed in these specific excerpts may exist.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 7,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "H3F3A K27M",
+      "HIST1H3B K27M",
+      "ACVR1",
+      "PIK3CA",
+      "FGFR1",
+      "MET",
+      "TP53",
+      "PPM1D",
+      "PIK3R1"
+    ],
+    "supports": [
+      {
+        "item": "PPM1D",
+        "evidence_id": "e5",
+        "quote": "These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1)."
+      },
+      {
+        "item": "PIK3R1",
+        "evidence_id": "e5",
+        "quote": "These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1)."
+      }
+    ],
+    "invalid_supports": [
+      {
+        "index": 0,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "H3F3A K27M",
+          "evidence_id": "e1",
+          "quote": "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs"
+        }
+      },
+      {
+        "index": 1,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "HIST1H3B K27M",
+          "evidence_id": "e1",
+          "quote": "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs"
+        }
+      },
+      {
+        "index": 2,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "ACVR1",
+          "evidence_id": "e2",
+          "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+        }
+      },
+      {
+        "index": 3,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "PIK3CA",
+          "evidence_id": "e2",
+          "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+        }
+      },
+      {
+        "index": 4,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "FGFR1",
+          "evidence_id": "e2",
+          "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+        }
+      },
+      {
+        "index": 5,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "MET",
+          "evidence_id": "e2",
+          "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+        }
+      },
+      {
+        "index": 6,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "TP53",
+          "evidence_id": "e3",
+          "quote": "TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved."
+        }
+      }
+    ],
+    "unsupported_items": [
+      "H3F3A K27M",
+      "HIST1H3B K27M",
+      "ACVR1",
+      "PIK3CA",
+      "FGFR1",
+      "MET",
+      "TP53"
+    ],
+    "limitations": "Evidence is limited to specific cohorts and abstracts; some mutations (e.g., PPM1D, PIK3R1) are described as associated partners rather than primary drivers in all contexts. Frequencies vary across studies (e.g., 77-78% for H3K27M).",
+    "source_binding_complete": false,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 9,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "H3F3A K27M",
+      "HIST1H3B K27M",
+      "ACVR1",
+      "PIK3CA",
+      "FGFR1",
+      "MET",
+      "TP53",
+      "PPM1D",
+      "PIK3R1"
+    ],
+    "supports": [
+      {
+        "item": "PPM1D",
+        "evidence_id": "e5",
+        "quote": "These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1)."
+      },
+      {
+        "item": "PIK3R1",
+        "evidence_id": "e5",
+        "quote": "These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1)."
+      }
+    ],
+    "invalid_supports": [
+      {
+        "index": 0,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "H3F3A K27M",
+          "evidence_id": "e1",
+          "quote": "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs"
+        }
+      },
+      {
+        "index": 1,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "HIST1H3B K27M",
+          "evidence_id": "e1",
+          "quote": "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs"
+        }
+      },
+      {
+        "index": 2,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "ACVR1",
+          "evidence_id": "e2",
+          "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+        }
+      },
+      {
+        "index": 3,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "PIK3CA",
+          "evidence_id": "e2",
+          "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+        }
+      },
+      {
+        "index": 4,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "FGFR1",
+          "evidence_id": "e2",
+          "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+        }
+      },
+      {
+        "index": 5,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "MET",
+          "evidence_id": "e2",
+          "quote": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved"
+        }
+      },
+      {
+        "index": 6,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "TP53",
+          "evidence_id": "e3",
+          "quote": "TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved."
+        }
+      }
+    ],
+    "unsupported_items": [
+      "H3F3A K27M",
+      "HIST1H3B K27M",
+      "ACVR1",
+      "PIK3CA",
+      "FGFR1",
+      "MET",
+      "TP53"
+    ],
+    "limitations": "Evidence is limited to specific cohorts and abstracts; some mutations (e.g., PPM1D, PIK3R1) are described as associated partners rather than primary drivers in all contexts. Frequencies vary across studies (e.g., 77-78% for H3K27M).",
+    "source_binding_complete": false,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 9,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/22661320",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24297113",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25182241",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25773741",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26727948",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27048880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27251074"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/58add1d79ef3c34033000008/attempt_0"
+}

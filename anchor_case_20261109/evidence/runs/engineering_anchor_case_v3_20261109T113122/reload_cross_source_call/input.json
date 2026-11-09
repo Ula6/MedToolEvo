@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "source_id": "PMC11856201",
+      "text": "One [18] of the twenty-three identified studies directly compared celecoxib and JOINS treatments. Nineteen studies [18,22,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46] involving 2989 knees evaluated celecoxib treatment, whereas five [12,15,17,18,19] studies involving 378 knees assessed JOINS treatment (Table 2). Of the 23 RCTs, 19 [12,15,18,19,22,30,31,33,34,35,36,37,38,39,41,42,43,44,46] reported clinical outcomes at short-term follow-up, and 11 [12,17,18,30,32,37,39,40,41,42,45] reported mid-term outcomes (Table 3). Methodological quality assessment using MINORS showed pooled median scores of 23 (range, 21–24) and 23 (range, 22–24) in the celecoxib and JOINS groups, respectively (Supplementary Table S1). The risk of bias was generally low, with only two studies having a high risk of bias for the items ‘blinding of outcome assessment’ [15] and ‘other bias’ [35] (Supplementary Table S2)."
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "new1",
+      "text": "studies"
+    },
+    {
+      "query_id": "new2",
+      "text": "JOINS"
+    },
+    {
+      "query_id": "new3",
+      "text": "__absent_literal_probe__"
+    }
+  ]
+}

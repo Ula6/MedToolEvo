@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "parsed": {
+    "action": "create",
+    "operation_name": "weighted_statistical_summaries",
+    "reason": "The independent check flagged all four numeric fields as failed, indicating a calculation error in the executor's processing of the weighted mean, variance, SD, and geometric mean. The input data is valid, but the arithmetic logic applied to the 'value' and 'weight' pairs was incorrect or suffered from precision loss. A new deterministic operation is required to recompute these statistics strictly adhering to the provided formulas without intermediate rounding.",
+    "diagnosis": "The executor likely failed to maintain sufficient floating-point precision during intermediate steps (specifically the summation of weighted squared deviations for variance and the summation of weighted logarithms for the geometric mean) or misapplied the population variance formula (dividing by sum of weights rather than sum of weights, though the formula provided was correct, the implementation likely drifted). The 'numeric_check_pass: false' confirms the output values do not match the mathematically correct results derived from the supplied `public_payload.rows`.",
+    "deterministic_steps": [
+      "Extract the list of objects from the input 'rows' field, where each object contains 'value' (x) and 'weight' (w).",
+      "Calculate the total weight (W) by summing all 'weight' values.",
+      "Calculate the weighted mean (mu) by summing (w * x) for all rows and dividing by W.",
+      "Calculate the weighted population variance by summing (w * (x - mu)^2) for all rows and dividing by W.",
+      "Calculate the weighted population standard deviation by taking the square root of the calculated variance.",
+      "Calculate the weighted geometric mean by summing (w * ln(x)) for all rows, dividing by W, and then taking the exponential of the result.",
+      "Round the final four results (mu, variance, sd, geometric_mean) to exactly six decimal places.",
+      "Return the results as a JSON object matching the fixed_output_interface schema."
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "fixed_policy_cases": 10,
+  "legacy_mode_reference_check": true,
+  "original_named_tests_retained": 10,
+  "legacy_test_sha256": "f8dccce35eb81b26198eb8b851e0e1051e68056b426efa795ffd17d575f56d1f",
+  "source_groups": 13,
+  "queries": 12,
+  "offline_query_sizes": [
+    2,
+    2,
+    5,
+    4,
+    3,
+    3,
+    2,
+    1,
+    5,
+    2,
+    0,
+    2
+  ],
+  "models_called": false,
+  "expected_values_private": true
+}

@@ -1,0 +1,145 @@
+{
+  "task_id": "5c6b15467c78d69471000024",
+  "question": "Mention computational tools that have been developed for alternative polyadenylation (APA) sites analysis",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "TAPAS",
+      "PlantAPA",
+      "IntMAP",
+      "VAAPA"
+    ],
+    "supports": [
+      {
+        "item": "TAPAS",
+        "evidence_id": "e1",
+        "quote": "TAPAS: tool for alternative polyadenylation site analysis."
+      },
+      {
+        "item": "PlantAPA",
+        "evidence_id": "e3",
+        "quote": "PlantAPA: A Portal for Visualization and Analysis of Alternative Polyadenylation in Plants."
+      },
+      {
+        "item": "IntMAP",
+        "evidence_id": "e5",
+        "quote": "Here, we developed a novel bioinformatics algorithm, IntMAP, which integrates RNA-Seq and PolyA Site (PAS)-Seq data for a comprehensive characterization of APA events."
+      },
+      {
+        "item": "VAAPA",
+        "evidence_id": "e9",
+        "quote": "VAAPA: a web platform for visualization and analysis of alternative polyadenylation."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The list is restricted to tools explicitly named in the provided evidence segments. Other existing tools not mentioned in the supplied text are not included.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "TAPAS",
+      "PlantAPA",
+      "IntMAP",
+      "VAAPA"
+    ],
+    "supports": [
+      {
+        "item": "TAPAS",
+        "evidence_id": "e1",
+        "quote": "TAPAS: tool for alternative polyadenylation site analysis."
+      },
+      {
+        "item": "PlantAPA",
+        "evidence_id": "e3",
+        "quote": "PlantAPA: A Portal for Visualization and Analysis of Alternative Polyadenylation in Plants."
+      },
+      {
+        "item": "IntMAP",
+        "evidence_id": "e5",
+        "quote": "Here, we developed a novel bioinformatics algorithm, IntMAP, which integrates RNA-Seq and PolyA Site (PAS)-Seq data for a comprehensive characterization of APA events."
+      },
+      {
+        "item": "VAAPA",
+        "evidence_id": "e9",
+        "quote": "VAAPA: a web platform for visualization and analysis of alternative polyadenylation."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The list is restricted to tools explicitly named in the provided evidence segments. Other existing tools not mentioned in the supplied text are not included.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "TAPAS",
+      "PlantAPA",
+      "IntMAP",
+      "VAAPA"
+    ],
+    "supports": [
+      {
+        "item": "TAPAS",
+        "evidence_id": "e1",
+        "quote": "TAPAS: tool for alternative polyadenylation site analysis."
+      },
+      {
+        "item": "PlantAPA",
+        "evidence_id": "e3",
+        "quote": "PlantAPA: A Portal for Visualization and Analysis of Alternative Polyadenylation in Plants."
+      },
+      {
+        "item": "IntMAP",
+        "evidence_id": "e5",
+        "quote": "Here, we developed a novel bioinformatics algorithm, IntMAP, which integrates RNA-Seq and PolyA Site (PAS)-Seq data for a comprehensive characterization of APA events."
+      },
+      {
+        "item": "VAAPA",
+        "evidence_id": "e9",
+        "quote": "VAAPA: a web platform for visualization and analysis of alternative polyadenylation."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The list is restricted to tools explicitly named in the provided evidence segments. Other existing tools not mentioned in the supplied text are not included.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25506822",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27446120",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29733382",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30052912"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5c6b15467c78d69471000024/attempt_0"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "functional_pass_pending_task_validation",
+  "session": "/home/supervisor/project/sy/MedToolEvo/runs/auto_open_deterministic_canonicalize_and_filter_25f7d831_20261109T084823Z_30646e",
+  "initial_candidate": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/open_deterministic_canonicalize_and_filter_25f7d831_v001.py",
+  "original_trigger": "Qwen_Manager_actual_failure",
+  "generation_strategy": "fresh_from_spec",
+  "test_sha256": "ff96430af2e4b406b4bb6c9d9e671d01a22c9218870406b7b58c70f41e4a16ae",
+  "spec_sha256": "76d2032039468c08d462aa0c0b5b6e6bbfaac1e351ba709c752cfd7eb0b03e9d",
+  "test_count": 7,
+  "max_additional_repairs": 3,
+  "developer_guidance_sha256": null,
+  "prompt_format": "plain",
+  "history": [
+    {
+      "version": "open_deterministic_canonicalize_and_filter_25f7d831_v001",
+      "path": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/open_deterministic_canonicalize_and_filter_25f7d831_v001.py",
+      "sha256": "b7d86477a5e78cee3055c26441487a6d31ceca87272289b7b9108efefcd10b92",
+      "passed": 2,
+      "failed": 5
+    },
+    {
+      "version": "open_deterministic_canonicalize_and_filter_25f7d831_v002",
+      "path": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/open_deterministic_canonicalize_and_filter_25f7d831_v002.py",
+      "sha256": "9c0ded30745dbfdcbc9d95319a698a927ca0b1104266b3a7e24e019962e05277",
+      "passed": 7,
+      "failed": 0
+    }
+  ],
+  "repair_calls": 1,
+  "validated_code": "/home/supervisor/project/sy/MedToolEvo/tools/validated/open_deterministic_canonicalize_and_filter_25f7d831_v002.py",
+  "manifest": "/home/supervisor/project/sy/MedToolEvo/registry/pending/open_deterministic_canonicalize_and_filter_25f7d831_v002.json"
+}

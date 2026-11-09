@@ -1,0 +1,783 @@
+{
+  "evidence": [
+    {
+      "evidence_id": "PMC11837447:g1",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g2",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g3",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g4",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g5",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g6",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g7",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g8",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g9",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g10",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g11",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g12",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    },
+    {
+      "evidence_id": "PMC11837447:g13",
+      "text": "<p id=\"Par32\">Tables <xref rid=\"Tab1\" ref-type=\"table\">1</xref> and <xref rid=\"Tab2\" ref-type=\"table\">2</xref> present specific characteristics of the 20 studies published between 2019 and 2024. All studies were retrospective and utilized supervised learning methods for analysis. Fourteen (70%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] specifically focused on using AI methods to diagnose tumor BM. The remaining 6 (30%) studies explored AI’s ability to differentiate BM from other diseases; 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>] addressed differentiation between BM and multiple myeloma (MM), one (5%) study [<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>] compared BM with bone islands, and one (5%) study [<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>] differentiated spinal metastases from spinal tuberculosis. Two (9.52%) studies [<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>] identified primary tumors as lung cancer, while 3 (15%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>] identified prostate cancer. Four (20%) studies [<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]did not specify the primary tumor site. One (5%) study [<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] reported gastric cancer as the primary tumor. The remaining 10 (50%) studies reported a variety of primary tumors, including those of the lung, breast, thyroid, prostate, and stomach. Only 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]compared the performance of AI models with healthcare professionals on the same test set. Nine (45%) studies [<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] employed AI techniques for diagnosing BM using MRI, while the remaining 11 (55%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>] used CT scans. Regarding model validation, 4 (20%) studies [<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>] utilized out-of-sample data for external validation, and 7 (35%) studies [<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>] conducted internal validation. All reference standard forms were accepted for metastasis diagnosis, predominantly pathologic diagnosis, with a few studies using imaging tests such as PET-CT, MRI, SPECT, and follow-up imaging as the reference standard.</p>"
+    }
+  ],
+  "entries": [
+    {
+      "name": "CR18",
+      "group_id": "CR18",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR20",
+      "group_id": "CR20",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR37",
+      "group_id": "CR37",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR38",
+      "group_id": "CR38",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR39",
+      "group_id": "CR39",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR40",
+      "group_id": "CR40",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR41",
+      "group_id": "CR41",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR42",
+      "group_id": "CR42",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR43",
+      "group_id": "CR43",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR44",
+      "group_id": "CR44",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR45",
+      "group_id": "CR45",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR46",
+      "group_id": "CR46",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR49",
+      "group_id": "CR49",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR50",
+      "group_id": "CR50",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR51",
+      "group_id": "CR51",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR52",
+      "group_id": "CR52",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR53",
+      "group_id": "CR53",
+      "evidence_id": "PMC11837447:g1",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>–<xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>–<xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "diagnostic_bm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR22",
+      "group_id": "CR22",
+      "evidence_id": "PMC11837447:g2",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>]",
+      "eligible": true,
+      "relation": "differential_mm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR45",
+      "group_id": "CR45",
+      "evidence_id": "PMC11837447:g2",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>]",
+      "eligible": true,
+      "relation": "differential_mm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR54",
+      "group_id": "CR54",
+      "evidence_id": "PMC11837447:g2",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>]",
+      "eligible": true,
+      "relation": "differential_mm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR55",
+      "group_id": "CR55",
+      "evidence_id": "PMC11837447:g2",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR22\">22</xref>, <xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR54\">54</xref>, <xref ref-type=\"bibr\" rid=\"CR55\">55</xref>]",
+      "eligible": true,
+      "relation": "differential_mm",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR43",
+      "group_id": "CR43",
+      "evidence_id": "PMC11837447:g3",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR43\">43</xref>]",
+      "eligible": true,
+      "relation": "differential_bone_island",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR40",
+      "group_id": "CR40",
+      "evidence_id": "PMC11837447:g4",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR40\">40</xref>]",
+      "eligible": true,
+      "relation": "differential_tuberculosis",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR38",
+      "group_id": "CR38",
+      "evidence_id": "PMC11837447:g5",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>]",
+      "eligible": true,
+      "relation": "primary_lung",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR44",
+      "group_id": "CR44",
+      "evidence_id": "PMC11837447:g5",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>]",
+      "eligible": true,
+      "relation": "primary_lung",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR39",
+      "group_id": "CR39",
+      "evidence_id": "PMC11837447:g6",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "primary_prostate",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR46",
+      "group_id": "CR46",
+      "evidence_id": "PMC11837447:g6",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "primary_prostate",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR53",
+      "group_id": "CR53",
+      "evidence_id": "PMC11837447:g6",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>]",
+      "eligible": true,
+      "relation": "primary_prostate",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR20",
+      "group_id": "CR20",
+      "evidence_id": "PMC11837447:g7",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "primary_site_reported",
+      "polarity": "negative",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR37",
+      "group_id": "CR37",
+      "evidence_id": "PMC11837447:g7",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "primary_site_reported",
+      "polarity": "negative",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR42",
+      "group_id": "CR42",
+      "evidence_id": "PMC11837447:g7",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "primary_site_reported",
+      "polarity": "negative",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR50",
+      "group_id": "CR50",
+      "evidence_id": "PMC11837447:g7",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "primary_site_reported",
+      "polarity": "negative",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR51",
+      "group_id": "CR51",
+      "evidence_id": "PMC11837447:g8",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR51\">51</xref>]",
+      "eligible": true,
+      "relation": "primary_gastric",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR18",
+      "group_id": "CR18",
+      "evidence_id": "PMC11837447:g9",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "human_comparison",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR40",
+      "group_id": "CR40",
+      "evidence_id": "PMC11837447:g9",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "human_comparison",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR43",
+      "group_id": "CR43",
+      "evidence_id": "PMC11837447:g9",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "human_comparison",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR44",
+      "group_id": "CR44",
+      "evidence_id": "PMC11837447:g9",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "human_comparison",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR45",
+      "group_id": "CR45",
+      "evidence_id": "PMC11837447:g9",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "human_comparison",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR49",
+      "group_id": "CR49",
+      "evidence_id": "PMC11837447:g9",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "human_comparison",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR50",
+      "group_id": "CR50",
+      "evidence_id": "PMC11837447:g9",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR43\">43</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>]",
+      "eligible": true,
+      "relation": "human_comparison",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR39",
+      "group_id": "CR39",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR40",
+      "group_id": "CR40",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR41",
+      "group_id": "CR41",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR46",
+      "group_id": "CR46",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR49",
+      "group_id": "CR49",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR50",
+      "group_id": "CR50",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR52",
+      "group_id": "CR52",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR53",
+      "group_id": "CR53",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR56",
+      "group_id": "CR56",
+      "evidence_id": "PMC11837447:g10",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR39\">39</xref>–<xref ref-type=\"bibr\" rid=\"CR41\">41</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR52\">52</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "modality_mri",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR18",
+      "group_id": "CR18",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR20",
+      "group_id": "CR20",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR37",
+      "group_id": "CR37",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR38",
+      "group_id": "CR38",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR42",
+      "group_id": "CR42",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR43",
+      "group_id": "CR43",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR44",
+      "group_id": "CR44",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR45",
+      "group_id": "CR45",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR47",
+      "group_id": "CR47",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR51",
+      "group_id": "CR51",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR57",
+      "group_id": "CR57",
+      "evidence_id": "PMC11837447:g11",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR20\">20</xref>, <xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR38\">38</xref>, <xref ref-type=\"bibr\" rid=\"CR42\">42</xref>–<xref ref-type=\"bibr\" rid=\"CR45\">45</xref>, <xref ref-type=\"bibr\" rid=\"CR47\">47</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>, <xref ref-type=\"bibr\" rid=\"CR57\">57</xref>]",
+      "eligible": true,
+      "relation": "modality_ct",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR37",
+      "group_id": "CR37",
+      "evidence_id": "PMC11837447:g12",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>]",
+      "eligible": true,
+      "relation": "external_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR49",
+      "group_id": "CR49",
+      "evidence_id": "PMC11837447:g12",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>]",
+      "eligible": true,
+      "relation": "external_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR50",
+      "group_id": "CR50",
+      "evidence_id": "PMC11837447:g12",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>]",
+      "eligible": true,
+      "relation": "external_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR51",
+      "group_id": "CR51",
+      "evidence_id": "PMC11837447:g12",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR37\">37</xref>, <xref ref-type=\"bibr\" rid=\"CR49\">49</xref>, <xref ref-type=\"bibr\" rid=\"CR50\">50</xref>, <xref ref-type=\"bibr\" rid=\"CR51\">51</xref>]",
+      "eligible": true,
+      "relation": "external_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR18",
+      "group_id": "CR18",
+      "evidence_id": "PMC11837447:g13",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "internal_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR39",
+      "group_id": "CR39",
+      "evidence_id": "PMC11837447:g13",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "internal_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR40",
+      "group_id": "CR40",
+      "evidence_id": "PMC11837447:g13",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "internal_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR44",
+      "group_id": "CR44",
+      "evidence_id": "PMC11837447:g13",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "internal_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR46",
+      "group_id": "CR46",
+      "evidence_id": "PMC11837447:g13",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "internal_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR53",
+      "group_id": "CR53",
+      "evidence_id": "PMC11837447:g13",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "internal_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    },
+    {
+      "name": "CR56",
+      "group_id": "CR56",
+      "evidence_id": "PMC11837447:g13",
+      "quote": "[<xref ref-type=\"bibr\" rid=\"CR18\">18</xref>, <xref ref-type=\"bibr\" rid=\"CR39\">39</xref>, <xref ref-type=\"bibr\" rid=\"CR40\">40</xref>, <xref ref-type=\"bibr\" rid=\"CR44\">44</xref>, <xref ref-type=\"bibr\" rid=\"CR46\">46</xref>, <xref ref-type=\"bibr\" rid=\"CR53\">53</xref>, <xref ref-type=\"bibr\" rid=\"CR56\">56</xref>]",
+      "eligible": true,
+      "relation": "internal_validation",
+      "polarity": "positive",
+      "scope": "PMC11837447"
+    }
+  ],
+  "policy": {
+    "scope": "PMC11837447",
+    "all_of": [
+      {
+        "relation": "modality_ct",
+        "polarity": "positive"
+      },
+      {
+        "relation": "human_comparison",
+        "polarity": "positive"
+      }
+    ],
+    "any_of": [],
+    "none_of": []
+  }
+}

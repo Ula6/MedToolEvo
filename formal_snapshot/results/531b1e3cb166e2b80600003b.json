@@ -1,0 +1,145 @@
+{
+  "task_id": "531b1e3cb166e2b80600003b",
+  "question": "Which histone modifications are associated with Polycomb group (PcG) proteins?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "H3K27me3",
+      "H3K36me",
+      "H3K27ac"
+    ],
+    "supports": [
+      {
+        "item": "H3K27me3",
+        "evidence_id": "e2",
+        "quote": "A component of Polycomb repressive complex 2 (PRC2), which mediates the addition of K27me3 to histone H3 (Suz12), was also recruited by 14 dpi"
+      },
+      {
+        "item": "H3K27me3",
+        "evidence_id": "e4",
+        "quote": "Here we show that the HSV DNA first associates with histone H3, with later recruitment of Polycomb repressor complex 2 (PRC2) and trimethylation of the lysine 27 residue of histone H3 (H3K27me3), a modification associated with heterochromatin"
+      },
+      {
+        "item": "H3K27me3",
+        "evidence_id": "e7",
+        "quote": "The Polycomb repressive complex 2 (PRC2) catalyzes trimethylation (me3) of histone H3 lysine 27 (K27), and it is believed that this activity mediates transcriptional repression"
+      },
+      {
+        "item": "H3K27me3",
+        "evidence_id": "e12",
+        "quote": "chromodomain (CD) of the Drosophila Polycomb protein exhibits preferential binding affinity for histone H3 when trimethylated at lysine 27"
+      },
+      {
+        "item": "H3K36me",
+        "evidence_id": "e5",
+        "quote": "Here we show that direct recognition of methylated histone H3 Lys36 (H3K36me), a mark associated with activation, by the PRC2 subunit Phf19 is required for the full enzymatic activity of the PRC2 complex"
+      },
+      {
+        "item": "H3K27ac",
+        "evidence_id": "e8",
+        "quote": "We show that loss of PRC2 activity results in a global increase in H3K27 acetylation"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence primarily links H3K27me3 to PRC2 catalytic activity and PRC1 binding. H3K36me is linked to PRC2 regulation via Phf19 recognition. H3K27ac is inversely associated with PRC2 activity. Other modifications like H3K9me3 are mentioned in the context of chromodomain affinity but not explicitly as PcG-associated marks in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "H3K27me3",
+      "H3K36me",
+      "H3K9me3"
+    ],
+    "supports": [
+      {
+        "item": "H3K27me3",
+        "evidence_id": "e2",
+        "quote": "A component of Polycomb repressive complex 2 (PRC2), which mediates the addition of K27me3 to histone H3 (Suz12), was also recruited by 14 dpi"
+      },
+      {
+        "item": "H3K36me",
+        "evidence_id": "e5",
+        "quote": "Here we show that direct recognition of methylated histone H3 Lys36 (H3K36me), a mark associated with activation, by the PRC2 subunit Phf19 is required for the full enzymatic activity of the PRC2 complex"
+      },
+      {
+        "item": "H3K9me3",
+        "evidence_id": "e13",
+        "quote": "Not all CDs bind preferentially to K27me3; rather, some display affinity towards both histone H3 trimethylated at K9 and H3K27me3, and one CD prefers K9me3"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates H3K27me3 is the primary modification catalyzed by PRC2 and bound by PRC1/Polycomb. H3K36me is recognized by a PRC2 subunit (Phf19) to regulate activity. H3K9me3 is bound by some Polycomb chromodomains, though not all. H3K27ac is inversely related to PRC2 activity (increases upon loss) and is not described as a modification associated with PcG function in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "H3K27me3",
+      "H3K36me",
+      "H3K9me3"
+    ],
+    "supports": [
+      {
+        "item": "H3K27me3",
+        "evidence_id": "e2",
+        "quote": "A component of Polycomb repressive complex 2 (PRC2), which mediates the addition of K27me3 to histone H3 (Suz12), was also recruited by 14 dpi"
+      },
+      {
+        "item": "H3K36me",
+        "evidence_id": "e5",
+        "quote": "Here we show that direct recognition of methylated histone H3 Lys36 (H3K36me), a mark associated with activation, by the PRC2 subunit Phf19 is required for the full enzymatic activity of the PRC2 complex"
+      },
+      {
+        "item": "H3K9me3",
+        "evidence_id": "e13",
+        "quote": "Not all CDs bind preferentially to K27me3; rather, some display affinity towards both histone H3 trimethylated at K9 and H3K27me3, and one CD prefers K9me3"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence indicates H3K27me3 is the primary modification catalyzed by PRC2 and bound by PRC1/Polycomb. H3K36me is recognized by a PRC2 subunit (Phf19) to regulate activity. H3K9me3 is bound by some Polycomb chromodomains, though not all. H3K27ac is inversely related to PRC2 activity (increases upon loss) and is not described as a modification associated with PcG function in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/16537902",
+    "http://www.ncbi.nlm.nih.gov/pubmed/17525233",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19723660",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20385584",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23104054",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23322639",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23694722"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/531b1e3cb166e2b80600003b/attempt_0"
+}

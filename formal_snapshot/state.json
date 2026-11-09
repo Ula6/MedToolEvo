@@ -1,0 +1,1181 @@
+{
+  "stage": "pilot100",
+  "candidates": [],
+  "events": [
+    {
+      "utc": "2026-11-09T06:42:36Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "515bd543298dcd4e51000001",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T06:42:36Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "515bd543298dcd4e51000001",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T06:43:14Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "6432fb1957b1c7a31500001e",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T06:43:14Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "6432fb1957b1c7a31500001e",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T06:44:47Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5358e067f1005d6b5800000b",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T06:44:47Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5358e067f1005d6b5800000b",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T06:46:51Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "58a6c94860087bc10a00002a",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T06:46:51Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58a6c94860087bc10a00002a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T06:48:17Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5156be75d24251bc05000088",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T06:48:17Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5156be75d24251bc05000088",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T06:49:13Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "58a0da5278275d0c4a000054",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T06:49:13Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58a0da5278275d0c4a000054",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:12:30Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "65f82218c4010b4d7800003e",
+      "classification": "factual_error",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:12:30Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "65f82218c4010b4d7800003e",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:13:51Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "58add1d79ef3c34033000008",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:13:51Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58add1d79ef3c34033000008",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:14:23Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "550e9d2cb305b40c5c000001",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:14:23Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "550e9d2cb305b40c5c000001",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:15:05Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "58a94483ee23e0236b000003",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:15:05Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58a94483ee23e0236b000003",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:15:05Z",
+      "event": "pilot_first10_technical_checkpoint_passed",
+      "completed": 10,
+      "interpretation": "Technical checks only; not100 questions complete or full acceptance"
+    },
+    {
+      "utc": "2026-11-09T07:17:24Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "624f0813e764a5320400000a",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:17:24Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "624f0813e764a5320400000a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:18:37Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "53357c98d6d3ac6a3400004a",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:18:37Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "53357c98d6d3ac6a3400004a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:20:25Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "52f77f042059c6d71c000029",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:20:25Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "52f77f042059c6d71c000029",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:22:35Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5a7486a90384be9551000003",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:22:35Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5a7486a90384be9551000003",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:23:44Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "661c41d448a2c27714000009",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:23:44Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "661c41d448a2c27714000009",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:25:02Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5309f8f5970c65fa6b000001",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:25:02Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5309f8f5970c65fa6b000001",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:25:13Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "606b6dc194d57fd87900006a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:26:55Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "644ea20157b1c7a31500007a",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:26:55Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "644ea20157b1c7a31500007a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:28:57Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5713bc991174fb1755000010",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:28:57Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5713bc991174fb1755000010",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:30:30Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "551829a76487737b43000009",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:30:30Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "551829a76487737b43000009",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:30:37Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "65d373e21930410b13000049",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:40:50Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "601ff55a1cb411341a000077",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:40:50Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "601ff55a1cb411341a000077",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:40:58Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "603125341cb411341a00012b",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:49:16Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5e2fa276fbd6abf43b000035",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:49:16Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5e2fa276fbd6abf43b000035",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:50:08Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5cd96eb2a49efeb44c000003",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:50:08Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5cd96eb2a49efeb44c000003",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:50:18Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58f4b73b70f9fc6f0f000014",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:56:56Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "54ecb640445c3b5a5f000001",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T07:56:56Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "54ecb640445c3b5a5f000001",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:57:05Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5896deff78275d0c4a000013",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:57:16Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5e307a05fbd6abf43b000036",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:57:23Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5e5cbf4e1af46fc130000004",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T07:57:38Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "602820fb1cb411341a0000f7",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:31:09Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "680a087218b1e36f2e00014f",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:31:09Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "680a087218b1e36f2e00014f",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:32:00Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5709e4b2cf1c32585100001c",
+      "classification": "coverage_gap",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:32:00Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5709e4b2cf1c32585100001c",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:32:36Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "517843638ed59a060a000036",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:32:36Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "517843638ed59a060a000036",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:34:12Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "55181d1e6487737b43000008",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:34:12Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "55181d1e6487737b43000008",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:36:45Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "51740da48ed59a060a000024",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:36:45Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "51740da48ed59a060a000024",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:37:25Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "661d51fdeac11fad3300001d",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:38:27Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "58a71f7460087bc10a00002e",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:38:27Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58a71f7460087bc10a00002e",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:39:05Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "58bc666702b8c60953000004",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:39:05Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58bc666702b8c60953000004",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:39:15Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "6026af5e1cb411341a0000c9",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:39:43Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5c9d18f1ecadf2e73f000033",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:39:43Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5c9d18f1ecadf2e73f000033",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:41:19Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "532c0d7fd6d3ac6a3400001c",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:41:19Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "532c0d7fd6d3ac6a3400001c",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:42:57Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5319a724b166e2b806000025",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:42:57Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5319a724b166e2b806000025",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:43:38Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5131bef65274a5fb07000008",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:43:38Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5131bef65274a5fb07000008",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T09:53:56Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "6025e3a71cb411341a0000bc",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T09:53:56Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "6025e3a71cb411341a0000bc",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:11:11Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "6250a917e764a53204000013",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T10:11:11Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "6250a917e764a53204000013",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:12:10Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "531b1e3cb166e2b80600003b",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T10:12:10Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "531b1e3cb166e2b80600003b",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:13:29Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "553fa78b1d53b76422000007",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:38:41Z",
+      "event": "format_recovery",
+      "operation": "development/67cf3b6381b1027333000024/attempt_0/facts_000",
+      "reason": "Model operation failed: Incomplete generation: length"
+    },
+    {
+      "utc": "2026-11-09T10:46:53Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "67cf3b6381b1027333000024",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T10:46:53Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "67cf3b6381b1027333000024",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:47:13Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5713b29f1174fb175500000f",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:47:27Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "56be06cdef6e394741000004",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:47:57Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "67e6b72818b1e36f2e0000bd",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:49:17Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5518414a15fa47643f000001",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T10:49:17Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5518414a15fa47643f000001",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:49:37Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "56f8077a8b98c98849000002",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:52:26Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "604b8cf71cb411341a000171",
+      "classification": "factual_error",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T10:52:26Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "604b8cf71cb411341a000171",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:53:15Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5a882b5761bb38fb24000013",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T10:53:15Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5a882b5761bb38fb24000013",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:53:55Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5e49c88c6d0a277941000013",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T10:53:55Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5e49c88c6d0a277941000013",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:54:51Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5354f289288f4dae47000008",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T10:54:51Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5354f289288f4dae47000008",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T10:55:04Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58962ed178275d0c4a000006",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T11:45:40Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "58a45d6060087bc10a00001d",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T11:45:40Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "58a45d6060087bc10a00001d",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T11:46:29Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5506e2ff8e1671127b00000d",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T11:46:29Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5506e2ff8e1671127b00000d",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T11:50:30Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "52df8ce798d023950500000d",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T11:50:30Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "52df8ce798d023950500000d",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T11:52:18Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5d38673da1e1595105000002",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T11:52:18Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5d38673da1e1595105000002",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T11:54:35Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5d387360a1e1595105000007",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T11:54:35Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5d387360a1e1595105000007",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:04:14Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "56c344abfedd0b786b000003",
+      "classification": "factual_error",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:04:14Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "56c344abfedd0b786b000003",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:05:30Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "67cc9e6381b1027333000016",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:05:30Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "67cc9e6381b1027333000016",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:28:59Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "52bf209303868f1b0600001a",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:28:59Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "52bf209303868f1b0600001a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:29:10Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "601bef4b1cb411341a000007",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:38:44Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "51475d5cd24251bc0500001b",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:38:44Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "51475d5cd24251bc0500001b",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:41:52Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "533f9df0c45e133714000016",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:41:52Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "533f9df0c45e133714000016",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:42:09Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "680c137818b1e36f2e000158",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:46:45Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "530cefaaad0bf1360c000003",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:46:45Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "530cefaaad0bf1360c000003",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:47:04Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "680fcb72353a4a2e6b00000e",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:47:18Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5c6b15467c78d69471000024",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:47:30Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "56c1f005ef6e39474100003a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:47:41Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5c6f107c7c78d69471000051",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:47:59Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "54df69af1388e8454a000005",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:49:20Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5e35c75d158f994d3a000001",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:49:20Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5e35c75d158f994d3a000001",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:54:52Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "67d7503018b1e36f2e00003e",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:54:52Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "67d7503018b1e36f2e00003e",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:55:02Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "626aecc6e764a53204000042",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:58:10Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "532b15ecd6d3ac6a34000014",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:58:10Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "532b15ecd6d3ac6a34000014",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:09:10Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "602825a61cb411341a0000fa",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:09:10Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "602825a61cb411341a0000fa",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:12:17Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5e4be9496d0a27794100002a",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:12:17Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5e4be9496d0a27794100002a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:16:35Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "589c215778275d0c4a00003c",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:16:35Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "589c215778275d0c4a00003c",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:17:39Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "601bd7d41cb411341a000004",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:17:39Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "601bd7d41cb411341a000004",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:18:21Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "67d352e918b1e36f2e000009",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:18:21Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "67d352e918b1e36f2e000009",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:21:04Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "56d1fd67f22319765a000002",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:21:04Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "56d1fd67f22319765a000002",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:23:30Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "56d042ae3975bb303a00000d",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:23:30Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "56d042ae3975bb303a00000d",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:27:44Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "5e9eaf3b0d431b5f73000004",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:27:44Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "5e9eaf3b0d431b5f73000004",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T13:29:43Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "515ffc2b298dcd4e51000035",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T13:29:43Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "515ffc2b298dcd4e51000035",
+      "action": "no_update"
+    }
+  ],
+  "builds": 0,
+  "development_limit": 100,
+  "full_started": false,
+  "pilot_total": 100,
+  "pilot_passed": false
+}

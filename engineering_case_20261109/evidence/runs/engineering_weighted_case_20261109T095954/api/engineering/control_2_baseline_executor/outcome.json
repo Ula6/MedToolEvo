@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "parsed": {
+    "weighted_mean": 9.3,
+    "weighted_population_variance": 0.0,
+    "weighted_population_sd": 0.0,
+    "weighted_geometric_mean": 9.3,
+    "evidence_id": "e2",
+    "quote": "R11: Musculoskeletal (75); mean=9.3; n=75.",
+    "limitations": "Only one subgroup row (Musculoskeletal) was supplied in public_payload.rows; variance and SD are zero because a single value yields no dispersion. Results reflect arithmetic summaries of the provided rounded mean, not patient-level variability."
+  }
+}

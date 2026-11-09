@@ -1,0 +1,487 @@
+{
+  "task_id": "604b8cf71cb411341a000171",
+  "question": "List characteristics of Developmental and Epileptic Encephalopathies (DEEs).",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "severe, early onset epilepsies",
+      "refractory seizures",
+      "developmental delay or regression",
+      "ongoing epileptic activity",
+      "generally poor prognosis",
+      "deterioration in developmental, cognitive, and motor functions",
+      "stagnation or decline of cognitive and behavioral abilities",
+      "genetically heterogeneous",
+      "intractable seizures",
+      "abundant epileptiform activity on EEG",
+      "developmental impairment or regression",
+      "early-onset",
+      "EEG interictal epileptiform abnormalities",
+      "polymorphous and drug-resistant seizures",
+      "neurodevelopmental impairments",
+      "developmental regression or plateauing",
+      "co-occurrence of epilepsy and intellectual disability",
+      "frequent epileptiform activity",
+      "repeated seizures beginning within 3 months of birth",
+      "severe interictal epileptiform discharge, including burst suppression",
+      "disability",
+      "epilepsy with comorbid intellectual disability"
+    ],
+    "supports": [
+      {
+        "item": "severe, early onset epilepsies",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies"
+      },
+      {
+        "item": "refractory seizures",
+        "evidence_id": "e1",
+        "quote": "characterized by refractory seizures"
+      },
+      {
+        "item": "developmental delay or regression",
+        "evidence_id": "e1",
+        "quote": "developmental delay or regression associated with ongoing epileptic activity"
+      },
+      {
+        "item": "ongoing epileptic activity",
+        "evidence_id": "e1",
+        "quote": "associated with ongoing epileptic activity"
+      },
+      {
+        "item": "generally poor prognosis",
+        "evidence_id": "e1",
+        "quote": "and generally poor prognosis."
+      },
+      {
+        "item": "deterioration in developmental, cognitive, and motor functions",
+        "evidence_id": "e2",
+        "quote": "resulting in deterioration in developmental, cognitive, and motor functions."
+      },
+      {
+        "item": "stagnation or decline of cognitive and behavioral abilities",
+        "evidence_id": "e4",
+        "quote": "characterized by stagnation or decline of cognitive and behavioral abilities"
+      },
+      {
+        "item": "genetically heterogeneous",
+        "evidence_id": "e5",
+        "quote": "Developmental epileptic encephalopathies (DEEs) are genetically heterogeneous"
+      },
+      {
+        "item": "intractable seizures",
+        "evidence_id": "e6",
+        "quote": "characterized by intractable seizures"
+      },
+      {
+        "item": "abundant epileptiform activity on EEG",
+        "evidence_id": "e6",
+        "quote": "abundant epileptiform activity on EEG"
+      },
+      {
+        "item": "developmental impairment or regression",
+        "evidence_id": "e6",
+        "quote": "and developmental impairment or regression."
+      },
+      {
+        "item": "early-onset",
+        "evidence_id": "e7",
+        "quote": "characterized by early-onset, refractory seizures"
+      },
+      {
+        "item": "EEG interictal epileptiform abnormalities",
+        "evidence_id": "e9",
+        "quote": "EEG interictal epileptiform abnormalities"
+      },
+      {
+        "item": "polymorphous and drug-resistant seizures",
+        "evidence_id": "e9",
+        "quote": "polymorphous and drug-resistant seizures"
+      },
+      {
+        "item": "neurodevelopmental impairments",
+        "evidence_id": "e9",
+        "quote": "and neurodevelopmental impairments."
+      },
+      {
+        "item": "developmental regression or plateauing",
+        "evidence_id": "e7",
+        "quote": "occurring in the context of developmental regression or plateauing."
+      },
+      {
+        "item": "co-occurrence of epilepsy and intellectual disability",
+        "evidence_id": "e18",
+        "quote": "characterized by the co-occurrence of epilepsy and intellectual disability (ID)"
+      },
+      {
+        "item": "frequent epileptiform activity",
+        "evidence_id": "e18",
+        "quote": "associated with frequent epileptiform activity."
+      },
+      {
+        "item": "severe interictal epileptiform discharge, including burst suppression",
+        "evidence_id": "e22",
+        "quote": "and severe interictal epileptiform discharge, including burst suppression."
+      },
+      {
+        "item": "disability",
+        "evidence_id": "e23",
+        "quote": "characterized by refractory seizures, disability, and"
+      },
+      {
+        "item": "epilepsy with comorbid intellectual disability",
+        "evidence_id": "e26",
+        "quote": "characterized by epilepsy with comorbid intellectual disability."
+      }
+    ],
+    "invalid_supports": [
+      {
+        "index": 18,
+        "error": "item or literal source span invalid",
+        "claim": {
+          "item": "repeated seizures beginning within 3 months of birth",
+          "evidence_id": "e22",
+          "quote": "characterized by repeated seizures beginning within 3 months of birth"
+        }
+      }
+    ],
+    "unsupported_items": [
+      "repeated seizures beginning within 3 months of birth"
+    ],
+    "limitations": "Evidence is derived from abstracts of various studies; specific genetic mutations or treatment responses are not detailed in the provided text. Some items are specific to subtypes (e.g., SCN2A-associated or early infantile forms) but are listed as general characteristics where the source text implies broader applicability or where the specific subtype is not explicitly distinguished in the characteristic description.",
+    "source_binding_complete": false,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 21,
+      "fn": 10,
+      "precision": 0.045454545454545456,
+      "recall": 0.09090909090909091,
+      "f1": 0.060606060606060615
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "severe, early onset epilepsies",
+      "refractory seizures",
+      "developmental delay or regression",
+      "ongoing epileptic activity",
+      "generally poor prognosis",
+      "deterioration in developmental, cognitive, and motor functions",
+      "stagnation or decline of cognitive and behavioral abilities",
+      "genetically heterogeneous",
+      "intractable seizures",
+      "abundant epileptiform activity on EEG",
+      "developmental impairment or regression",
+      "early-onset",
+      "EEG interictal epileptiform abnormalities",
+      "polymorphous and drug-resistant seizures",
+      "neurodevelopmental impairments",
+      "developmental regression or plateauing",
+      "co-occurrence of epilepsy and intellectual disability",
+      "frequent epileptiform activity",
+      "repeated seizures beginning within 3 months of birth",
+      "severe interictal epileptiform discharge, including burst suppression",
+      "disability",
+      "epilepsy with comorbid intellectual disability"
+    ],
+    "supports": [
+      {
+        "item": "severe, early onset epilepsies",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "refractory seizures",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "developmental delay or regression",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "ongoing epileptic activity",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "generally poor prognosis",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "deterioration in developmental, cognitive, and motor functions",
+        "evidence_id": "e2",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of devastating disorders caused by epileptic activity, resulting in deterioration in developmental, cognitive, and motor functions."
+      },
+      {
+        "item": "stagnation or decline of cognitive and behavioral abilities",
+        "evidence_id": "e4",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are severe clinical conditions characterized by stagnation or decline of cognitive and behavioral abilities preceded, accompanied or followed by seizures."
+      },
+      {
+        "item": "genetically heterogeneous",
+        "evidence_id": "e5",
+        "quote": "Developmental epileptic encephalopathies (DEEs) are genetically heterogeneous severe childhood-onset epilepsies with developmental delay or cognitive deficits."
+      },
+      {
+        "item": "intractable seizures",
+        "evidence_id": "e6",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are severe neurodevelopmental disorders often beginning in infancy or early childhood that are characterized by intractable seizures, abundant epileptiform activity on EEG, and developmental impairment or regression."
+      },
+      {
+        "item": "abundant epileptiform activity on EEG",
+        "evidence_id": "e6",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are severe neurodevelopmental disorders often beginning in infancy or early childhood that are characterized by intractable seizures, abundant epileptiform activity on EEG, and developmental impairment or regression."
+      },
+      {
+        "item": "developmental impairment or regression",
+        "evidence_id": "e6",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are severe neurodevelopmental disorders often beginning in infancy or early childhood that are characterized by intractable seizures, abundant epileptiform activity on EEG, and developmental impairment or regression."
+      },
+      {
+        "item": "early-onset",
+        "evidence_id": "e7",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are the spectrum of severe epilepsies characterized by early-onset, refractory seizures occurring in the context of developmental regression or plateauing."
+      },
+      {
+        "item": "EEG interictal epileptiform abnormalities",
+        "evidence_id": "e9",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are genetically heterogenous conditions, often characterized by early onset, EEG interictal epileptiform abnormalities, polymorphous and drug-resistant seizures, and neurodevelopmental impairments."
+      },
+      {
+        "item": "polymorphous and drug-resistant seizures",
+        "evidence_id": "e9",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are genetically heterogenous conditions, often characterized by early onset, EEG interictal epileptiform abnormalities, polymorphous and drug-resistant seizures, and neurodevelopmental impairments."
+      },
+      {
+        "item": "neurodevelopmental impairments",
+        "evidence_id": "e9",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are genetically heterogenous conditions, often characterized by early onset, EEG interictal epileptiform abnormalities, polymorphous and drug-resistant seizures, and neurodevelopmental impairments."
+      },
+      {
+        "item": "developmental regression or plateauing",
+        "evidence_id": "e7",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are the spectrum of severe epilepsies characterized by early-onset, refractory seizures occurring in the context of developmental regression or plateauing."
+      },
+      {
+        "item": "co-occurrence of epilepsy and intellectual disability",
+        "evidence_id": "e18",
+        "quote": "Developmental and epileptic encephalopathy (DEE) is a group of conditions characterized by the co-occurrence of epilepsy and intellectual disability (ID), typically with developmental plateauing or regression associated with frequent epileptiform activity. Th"
+      },
+      {
+        "item": "frequent epileptiform activity",
+        "evidence_id": "e18",
+        "quote": "Developmental and epileptic encephalopathy (DEE) is a group of conditions characterized by the co-occurrence of epilepsy and intellectual disability (ID), typically with developmental plateauing or regression associated with frequent epileptiform activity. Th"
+      },
+      {
+        "item": "repeated seizures beginning within 3 months of birth",
+        "evidence_id": "e20",
+        "quote": "Early infantile epileptic encephalopathy (EIEE) is one of the earliest forms of DEE, manifesting as frequent epileptic spasms and characteristic electroencephalogram findings in early infancy."
+      },
+      {
+        "item": "severe interictal epileptiform discharge, including burst suppression",
+        "evidence_id": "e20",
+        "quote": "Early infantile epileptic encephalopathy (EIEE) is one of the earliest forms of DEE, manifesting as frequent epileptic spasms and characteristic electroencephalogram findings in early infancy."
+      },
+      {
+        "item": "disability",
+        "evidence_id": "e23",
+        "quote": "OBJECTIVES: Developmental encephalopathic epilepsies (DEEs) are characterized by refractory seizures, disability, and"
+      },
+      {
+        "item": "epilepsy with comorbid intellectual disability",
+        "evidence_id": "e26",
+        "quote": "Developmental and epileptic encephalopathies (DEE) are a heterogeneous group of disorders characterized by epilepsy with comorbid intellectual disability."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence focuses on general definitions and specific subtypes like SCN2A-associated DEE and EIEE; some characteristics are described with varying terminology (e.g., 'refractory' vs 'intractable' vs 'drug-resistant') but refer to similar clinical features. Specific genetic causes beyond SCN2A are not detailed in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 21,
+      "fn": 10,
+      "precision": 0.045454545454545456,
+      "recall": 0.09090909090909091,
+      "f1": 0.060606060606060615
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "severe, early onset epilepsies",
+      "refractory seizures",
+      "developmental delay or regression",
+      "ongoing epileptic activity",
+      "generally poor prognosis",
+      "deterioration in developmental, cognitive, and motor functions",
+      "stagnation or decline of cognitive and behavioral abilities",
+      "genetically heterogeneous",
+      "intractable seizures",
+      "abundant epileptiform activity on EEG",
+      "developmental impairment or regression",
+      "early-onset",
+      "EEG interictal epileptiform abnormalities",
+      "polymorphous and drug-resistant seizures",
+      "neurodevelopmental impairments",
+      "developmental regression or plateauing",
+      "co-occurrence of epilepsy and intellectual disability",
+      "frequent epileptiform activity",
+      "repeated seizures beginning within 3 months of birth",
+      "severe interictal epileptiform discharge, including burst suppression",
+      "disability",
+      "epilepsy with comorbid intellectual disability"
+    ],
+    "supports": [
+      {
+        "item": "severe, early onset epilepsies",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "refractory seizures",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "developmental delay or regression",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "ongoing epileptic activity",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "generally poor prognosis",
+        "evidence_id": "e1",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      {
+        "item": "deterioration in developmental, cognitive, and motor functions",
+        "evidence_id": "e2",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of devastating disorders caused by epileptic activity, resulting in deterioration in developmental, cognitive, and motor functions."
+      },
+      {
+        "item": "stagnation or decline of cognitive and behavioral abilities",
+        "evidence_id": "e4",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are severe clinical conditions characterized by stagnation or decline of cognitive and behavioral abilities preceded, accompanied or followed by seizures."
+      },
+      {
+        "item": "genetically heterogeneous",
+        "evidence_id": "e5",
+        "quote": "Developmental epileptic encephalopathies (DEEs) are genetically heterogeneous severe childhood-onset epilepsies with developmental delay or cognitive deficits."
+      },
+      {
+        "item": "intractable seizures",
+        "evidence_id": "e6",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are severe neurodevelopmental disorders often beginning in infancy or early childhood that are characterized by intractable seizures, abundant epileptiform activity on EEG, and developmental impairment or regression."
+      },
+      {
+        "item": "abundant epileptiform activity on EEG",
+        "evidence_id": "e6",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are severe neurodevelopmental disorders often beginning in infancy or early childhood that are characterized by intractable seizures, abundant epileptiform activity on EEG, and developmental impairment or regression."
+      },
+      {
+        "item": "developmental impairment or regression",
+        "evidence_id": "e6",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are severe neurodevelopmental disorders often beginning in infancy or early childhood that are characterized by intractable seizures, abundant epileptiform activity on EEG, and developmental impairment or regression."
+      },
+      {
+        "item": "early-onset",
+        "evidence_id": "e7",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are the spectrum of severe epilepsies characterized by early-onset, refractory seizures occurring in the context of developmental regression or plateauing."
+      },
+      {
+        "item": "EEG interictal epileptiform abnormalities",
+        "evidence_id": "e9",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are genetically heterogenous conditions, often characterized by early onset, EEG interictal epileptiform abnormalities, polymorphous and drug-resistant seizures, and neurodevelopmental impairments."
+      },
+      {
+        "item": "polymorphous and drug-resistant seizures",
+        "evidence_id": "e9",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are genetically heterogenous conditions, often characterized by early onset, EEG interictal epileptiform abnormalities, polymorphous and drug-resistant seizures, and neurodevelopmental impairments."
+      },
+      {
+        "item": "neurodevelopmental impairments",
+        "evidence_id": "e9",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are genetically heterogenous conditions, often characterized by early onset, EEG interictal epileptiform abnormalities, polymorphous and drug-resistant seizures, and neurodevelopmental impairments."
+      },
+      {
+        "item": "developmental regression or plateauing",
+        "evidence_id": "e7",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are the spectrum of severe epilepsies characterized by early-onset, refractory seizures occurring in the context of developmental regression or plateauing."
+      },
+      {
+        "item": "co-occurrence of epilepsy and intellectual disability",
+        "evidence_id": "e18",
+        "quote": "Developmental and epileptic encephalopathy (DEE) is a group of conditions characterized by the co-occurrence of epilepsy and intellectual disability (ID), typically with developmental plateauing or regression associated with frequent epileptiform activity. Th"
+      },
+      {
+        "item": "frequent epileptiform activity",
+        "evidence_id": "e18",
+        "quote": "Developmental and epileptic encephalopathy (DEE) is a group of conditions characterized by the co-occurrence of epilepsy and intellectual disability (ID), typically with developmental plateauing or regression associated with frequent epileptiform activity. Th"
+      },
+      {
+        "item": "repeated seizures beginning within 3 months of birth",
+        "evidence_id": "e20",
+        "quote": "Early infantile epileptic encephalopathy (EIEE) is one of the earliest forms of DEE, manifesting as frequent epileptic spasms and characteristic electroencephalogram findings in early infancy."
+      },
+      {
+        "item": "severe interictal epileptiform discharge, including burst suppression",
+        "evidence_id": "e20",
+        "quote": "Early infantile epileptic encephalopathy (EIEE) is one of the earliest forms of DEE, manifesting as frequent epileptic spasms and characteristic electroencephalogram findings in early infancy."
+      },
+      {
+        "item": "disability",
+        "evidence_id": "e23",
+        "quote": "OBJECTIVES: Developmental encephalopathic epilepsies (DEEs) are characterized by refractory seizures, disability, and"
+      },
+      {
+        "item": "epilepsy with comorbid intellectual disability",
+        "evidence_id": "e26",
+        "quote": "Developmental and epileptic encephalopathies (DEE) are a heterogeneous group of disorders characterized by epilepsy with comorbid intellectual disability."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence focuses on general definitions and specific subtypes like SCN2A-associated DEE and EIEE; some characteristics are described with varying terminology (e.g., 'refractory' vs 'intractable' vs 'drug-resistant') but refer to similar clinical features. Specific genetic causes beyond SCN2A are not detailed in the provided text.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 1,
+      "fp": 21,
+      "fn": 10,
+      "precision": 0.045454545454545456,
+      "recall": 0.09090909090909091,
+      "f1": 0.060606060606060615
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/29090338",
+    "http://www.ncbi.nlm.nih.gov/pubmed/29100083",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30166628",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30255934",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30343943",
+    "http://www.ncbi.nlm.nih.gov/pubmed/30656450",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31064215",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31468518",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31926053",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32139178",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32201576",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32427099",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32705489",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32899411",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33236786"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/604b8cf71cb411341a000171/attempt_0"
+}

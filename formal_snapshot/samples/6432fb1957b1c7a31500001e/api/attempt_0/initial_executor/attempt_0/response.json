@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    \"adults with mantle cell lymphoma who have received at least one prior therapy\",\n    \"adults with Waldenström macroglobulinemia\",\n    \"adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy\"\n  ],\n  \"supports\": [\n    {\n      \"item\": \"adults with mantle cell lymphoma who have received at least one prior therapy\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"treating adults with mantle cell lymphoma who have received at least one prior therapy\"\n    },\n    {\n      \"item\": \"adults with Waldenström macroglobulinemia\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"adults with Waldenström macroglobulinemia\"\n    },\n    {\n      \"item\": \"adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy\",\n      \"evidence_id\": \"e1\",\n      \"quote\": \"adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy\"\n    }\n  ],\n  \"limitations\": \"Evidence is limited to the specific indications listed in the provided abstracts from a single source (PMID 35651781). Other potential approvals or updates not mentioned in these segments are not included.\"\n}"
+      }
+    }
+  ],
+  "created": 1794206570,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 331,
+    "prompt_tokens": 503,
+    "total_tokens": 834,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-TOMw9zHCfq6GRY5XNlgLtRlNS8HYiuTM",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 503,
+    "prompt_ms": 1066.34,
+    "prompt_per_token_ms": 2.1199602385685883,
+    "prompt_per_second": 471.7069602565786,
+    "predicted_n": 331,
+    "predicted_ms": 12039.081,
+    "predicted_per_token_ms": 36.482063636363634,
+    "predicted_per_second": 27.410730104731414
+  }
+}

@@ -1,0 +1,62 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MedToolEvo 第二条闭环</title><style>body{max-width:1120px;margin:30px auto;padding:0 22px;font:17px/1.75 system-ui;color:#183145;background:#f7fafb}h1,h2{line-height:1.35}table{width:100%;border-collapse:collapse;background:white;font-size:15px}td,th{padding:10px;border:1px solid #cfdae1;text-align:left}img{width:100%;height:auto}a{color:#1d6b87}li{margin:8px 0}code{overflow-wrap:anywhere}</style><h1>第二条完整闭环：真实医学正文的精确证据定位</h1>
+<p>开发级验收通过，完成时间：北京时间2026-11-09 19:36:23。模型固定Qwen3.5-27B负责语义与管理，Qwen3-Coder-30B负责代码。原文、初始回答、测试和候选代码没有人工改写。</p>
+<p>本例从DocHopQA条目9152所附论文PMC11872689的Results正文构造工程任务，原始文本1,424个Unicode字符，7个定位请求，其中6个有源支持、1个为明确不存在的符号探针。源正文逐字保留；问题、查询短语、规范化规则、坐标定义和验收由研究者预先固定。它不是原DocHopQA/BioASQ题，也不是医学答案正确率实验。</p>
+<p>来源：<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11872689/">Effects of Vitamin D Supplementation on Blood Pressure in Patients With Type 1 Diabetes Mellitus: A Systematic Review of Clinical Trials</a>，DOI10.1002/hsr2.70524。复用来源为另一篇论文PMC11856201，DocHopQA条目9532。只核查文本定位，不推导这些论文的临床结论。</p>
+<h2>前后结果</h2>
+<table>
+<tr><td>定位请求</td><td>原文出现次数</td><td>初始</td><td>同证据重试</td><td>工具后</td></tr>
+<tr><td>studies</td><td>5</td><td>未通过</td><td>未通过</td><td>通过</td></tr>
+<tr><td>vitamin D</td><td>2</td><td>未通过</td><td>未通过</td><td>通过</td></tr>
+<tr><td>double‐blind</td><td>1</td><td>未通过</td><td>未通过</td><td>通过</td></tr>
+<tr><td>hypertension</td><td>1</td><td>未通过</td><td>未通过</td><td>通过</td></tr>
+<tr><td>ACEI/ARB medication</td><td>1</td><td>未通过</td><td>未通过</td><td>通过</td></tr>
+<tr><td>white European</td><td>1</td><td>未通过</td><td>未通过</td><td>通过</td></tr>
+<tr><td>__absent_literal_probe__</td><td>0</td><td>通过</td><td>通过</td><td>通过</td></tr>
+</table>
+<p>一个请求只有在全部出现位置、来源、Unicode字符起止坐标和逐字引文均正确时才通过。坐标相对于每次输入的source.text，从0起计，末端不包含；不是整篇PDF的页码/全局坐标。七个请求不是七道独立医学题。不存在的探针用于检查拒绝能力，不是伪造医学事实。六个正向请求合计11处原文出现。</p>
+<img alt="结果图" src="anchor_result.png">
+<h2>完整流程</h2>
+<ul>
+<li>真实初始失败：1/7，同证据重试1/7；预先固定的规则未因输出而改变。</li>
+<li>Manager诊断缺少可靠的原文字符映射及全部出现位置定位能力，自主决定create；已告知旧quote_locator只能返回首个引文、没有全部坐标/NFKC字符映射，数值统计工具不适用。</li>
+<li>Builder从通用契约生成工具。13个测试由8个Qwen设计的虚构输入和5个预先定义的CPU边界输入组成，期望值由已独立检查的规则程序计算，在首版代码前冻结；后续候选失败仅用真实反馈修复，冻结后的测试不改。</li>
+<li>真实沙箱调用后，工具结果与离线原文坐标参考逐项一致；27B读取真实输出后7/7，审核通过。</li>
+<li>三个原文控制输入比较基线与工具输出，无回退。控制未额外运行工具后Executor，不夸大为三条完整问答。</li>
+<li>开发注册1件，代码SHA256=5e314cfd4f195b5123f2d8bcb79f4391d8da31d544bf22a497df2e7e5603664d。</li>
+<li>两次新进程重载：原输入，以及另一篇论文的不同输入；均实际运行代码，并经27B整理后通过。复用由控制器触发，不代表自主跨论文工具路由已学会。</li>
+</ul>
+<h2>实际代码修复轨迹</h2>
+<table>
+<tr><td>代码版本</td><td>功能通过</td><td>功能失败</td></tr>
+<tr><td>v001</td><td>12</td><td>1</td></tr>
+<tr><td>v002</td><td>12</td><td>1</td></tr>
+<tr><td>v003</td><td>12</td><td>1</td></tr>
+<tr><td>v004</td><td>13</td><td>0</td></tr>
+</table>
+<p>实际自动代码修复3次。失败为Unicode全角字符与连续空白折叠后的原始坐标映射错误，v004通过13/13。全部版本及同一测试哈希保留，无人工源码修补。</p>
+<h2>基础设施修订与人工介入</h2>
+<p>前置v1在契约生成阶段出现非法嵌套Schema及真实输出截断，候选代码尚未生成即保存停止。v2改为控制器附加已固定的Schema，Qwen只编译算法；随后Qwen填写的合成测试期望坐标三轮仍有错误，按规则拒绝，仍无候选代码。v3保留这些Qwen设计输入，并加入原先CPU预检的5个边界例，由独立规则程序计算期望值后冻结13个测试，才交给Coder。</p>
+<p>题目、原文、规范化定义、I/O、原任务参考程序、控制与开发准入标准保持一致。v3只复用完整请求指纹一致的原始初答、重试、Manager及算法编译调用，没有重挑更差基线；复用源文件与哈希见reused_observations.json和reused_algorithm.json。旧失败、修订和费用均保留。测试期望值构造方式与13项覆盖是新版本明确记录的协议改动，不把它写成旧v2测试已通过。</p>
+<h2>与上一条区别</h2>
+<table>
+<tr><td>已完成案例</td><td>新生成的能力</td><td>验收单位</td></tr>
+<tr><td>论文表格加权计算</td><td>加权均值、方差等确定性数值处理</td><td>单题4个数值</td></tr>
+<tr><td>本例：正文证据定位</td><td>Unicode规范化后的全部匹配、原文位置反向映射、无来源拒绝</td><td>单题7个定位请求</td></tr>
+</table>
+<p>前置引用索引探索没有跑通：Manager暂缓构建，已保留原始失败记录。事后只去掉已声明来源的重复前缀，第二份正文的23/23组成员即一致，说明原0/23主要是ID表示差异；该审计不改原评分、不计为工具修复。研究数量与字面引用区间的源内差异也保持未解决。</p>
+<p>本次过程的所有失败用于问题归档；不报告“尝试都成功”。两个开发成功案例不能相加成统一F1、正式稳定注册或100题验收。正式100题及1130题仍独立，只有100题完成且验收通过才允许启动全量。</p>
+<h2>扩展边界审计：仍有待统一修复的问题</h2>
+<p>在冻结案例通过后，源码检查提示坐标映射和额外字段校验可能不完整，因此另用5个固定CPU探针复测，结果2/5通过。两种“连续空白出现在匹配词前”的输入未正确返回位置；函数本体也未拒绝额外顶层字段。正常ASCII和全角字符正向探针通过。带Schema的调用边界会阻止额外字段，但函数本体仍未完全兑现契约。</p>
+<p>这份事后检查独立保存于<a href="posthoc_boundary_audit.json">posthoc_boundary_audit.json</a>，不改旧13项测试及case_acceptance，不作为新的医学结果。当前工具保持开发级，不能据有限验收宣称对任意文本可靠。残余问题进入统一修复清单，下一冻结版本需带着这些反例复测，而不能只重复成功例。</p>
+<h2>原始证据</h2>
+<ul>
+<li><a href="evidence/runs/engineering_anchor_case_v3_20261109T113122/case_acceptance.json">最终验收</a></li>
+<li><a href="evidence/runs/engineering_anchor_case_v3_20261109T113122/original_repair.json">原题修复与同证据对照</a></li>
+<li><a href="evidence/runs/engineering_anchor_case_v3_20261109T113122/manager.json">Manager诊断</a></li>
+<li><a href="evidence/runs/engineering_anchor_case_v3_20261109T113122/builds/candidate/builder_summary.json">独立测试及版本轨迹</a></li>
+<li><a href="evidence/tools/validated/open_diagnose_unicode_span_misalignment_5e032d1f_v004.py">实际生成源码</a></li>
+<li><a href="evidence/runs/engineering_anchor_case_v3_20261109T113122/development_registry/diagnose_unicode_span_misalignment.json">开发注册</a></li>
+<li><a href="evidence/runs/engineering_anchor_case_v3_20261109T113122/reuse.json">重载复用</a></li>
+<li><a href="evidence/runs/engineering_anchor_case_v3_20261109T113122/task.json">任务构造、来源和人工介入</a></li>
+</ul>
+<p>源正文SHA256：c627aa1ad4eff8518ded0221929b1d360cb84f66c684423bba3df771138fd491。独立原文坐标参考从未发送给初始Executor、Manager、Compiler或Builder；合成测试的离线纠错仅涉及虚构小输入。</p></html>

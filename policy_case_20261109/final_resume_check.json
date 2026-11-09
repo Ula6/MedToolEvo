@@ -1,0 +1,73 @@
+{
+  "observed_utc": "2026-11-09T12:37:00.287703+00:00",
+  "run": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147",
+  "pid": 1894635,
+  "identity_matches": true,
+  "progress": {
+    "status": "running",
+    "phase": "same_evidence_Qwen",
+    "stage": "pilot100",
+    "development_completed": 68,
+    "development_max": 100,
+    "full_completed": 0,
+    "full_total": 1130,
+    "full_started": false,
+    "qa_requests": 245,
+    "build_attempts": 0,
+    "stable_tools": 0,
+    "pending_tools": 0,
+    "genuine_answer_repairs": 0,
+    "updated_utc": "2026-11-09T12:35:37Z",
+    "pilot_completed": 68,
+    "pilot_total": 100,
+    "pilot_passed": false,
+    "full_requires_100_pilot": true,
+    "current_task": "51475d5cd24251bc0500001b"
+  },
+  "events": [
+    {
+      "utc": "2026-11-09T12:04:14Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "56c344abfedd0b786b000003",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:05:30Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "67cc9e6381b1027333000016",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:05:30Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "67cc9e6381b1027333000016",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:28:59Z",
+      "event": "failure_authenticity_checked",
+      "task_id": "52bf209303868f1b0600001a",
+      "classification": "no_content_failure",
+      "tool_justified": false,
+      "reason": "No source-grounded executable content failure identified"
+    },
+    {
+      "utc": "2026-11-09T12:28:59Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "52bf209303868f1b0600001a",
+      "action": "no_update"
+    },
+    {
+      "utc": "2026-11-09T12:29:10Z",
+      "event": "task_completed",
+      "stage": "development",
+      "task_id": "601bef4b1cb411341a000007",
+      "action": "no_update"
+    }
+  ]
+}

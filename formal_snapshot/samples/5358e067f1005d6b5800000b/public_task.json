@@ -1,0 +1,266 @@
+{
+  "id": "5358e067f1005d6b5800000b",
+  "question": "Which proteins are involved in actin bundling and filopodia formation and function?",
+  "type": "list",
+  "evidence": [
+    {
+      "evidence_id": "e1",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+      "text": "CRP1, a protein localized in filopodia of growth cones, is involved in dendritic growth",
+      "section": "title",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e2",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+      "text": "CRP1, which cross-links actin filaments to make actin bundles, is the only CRP family member expressed in the CNS with little known about its function in nerve cells.",
+      "section": "abstract",
+      "offset": 77
+    },
+    {
+      "evidence_id": "e3",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+      "text": "Here, we report that CRP1 colocalizes with actin in the filopodia of growth cones in cultured rat hippocampal neurons.",
+      "section": "abstract",
+      "offset": 244
+    },
+    {
+      "evidence_id": "e4",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+      "text": "Knockdown of CRP1 expression by short hairpin RNA interference results in inhibition of filopodia formation and dendritic growth in neurons.",
+      "section": "abstract",
+      "offset": 363
+    },
+    {
+      "evidence_id": "e5",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+      "text": "Overexpression of CRP1 increases filopodia formation and neurite branching, which require its actin-bundling activity.",
+      "section": "abstract",
+      "offset": 504
+    },
+    {
+      "evidence_id": "e6",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/21283078",
+      "text": "F-ascin is an actin-bundling protein involved in filopodia assembly and cancer invasion and metastasis of multiple epithelial cancer types.",
+      "section": "abstract",
+      "offset": 516
+    },
+    {
+      "evidence_id": "e7",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/19228738",
+      "text": "In this study, we investigated the role of fascin, a cytoskeleton actin-bundling protein involved in the formation of filopodia and cell migration, in prostate cancer progression.",
+      "section": "abstract",
+      "offset": 205
+    },
+    {
+      "evidence_id": "e8",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/19228738",
+      "text": "In cellular models, fascin gene silencing using small interfering RNA in the androgen-independent prostate cancer cell line DU145 decreased cell motility and invasiveness while increasing cell adhesive properties.",
+      "section": "abstract",
+      "offset": 1176
+    },
+    {
+      "evidence_id": "e9",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/18835624",
+      "text": "Fascin is an actin-bundling protein that induces membrane protrusions and cell motility after the formation of lamellipodia or filopodia.",
+      "section": "abstract",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e10",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+      "text": "The PCH family member MAYP/PSTPIP2 directly regulates F-actin bundling and enhances filopodia formation and motility in macrophages",
+      "section": "title",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e11",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+      "text": "Overexpression of MAYP decreased CSF-1-induced membrane ruffling and increased filopodia formation, motility and CSF-1-mediated chemotaxis.",
+      "section": "abstract",
+      "offset": 572
+    },
+    {
+      "evidence_id": "e12",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+      "text": "The opposite phenotype was observed with reduced expression of MAYP, indicating that MAYP is a negative regulator of CSF-1-induced membrane ruffling and positively regulates formation of filopodia and directional migration.",
+      "section": "abstract",
+      "offset": 712
+    },
+    {
+      "evidence_id": "e13",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+      "text": "Overexpression of MAYP led to a reduction in total macrophage F-actin content but was associated with increased actin bundling. Consistent with this, purified MAYP bundled F-actin and regulated its turnover in vitro.",
+      "section": "abstract",
+      "offset": 936
+    },
+    {
+      "evidence_id": "e14",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+      "text": "In addition, MAYP colocalized with cortical and filopodial F-actin in vivo.",
+      "section": "abstract",
+      "offset": 1153
+    },
+    {
+      "evidence_id": "e15",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+      "text": "Because filopodia are postulated to increase directional motility by acting as environmental sensors, the MAYP-stimulated increase in directional movement may be at least partly explained by enhancement of filopodia formation.",
+      "section": "abstract",
+      "offset": 1229
+    },
+    {
+      "evidence_id": "e16",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/14532112",
+      "text": "We report an unexpected direct association between fascin, an actin-bundling component of filopodia, microspikes and lamellipodial ribs, and protein kinase Calpha (PKCalpha), a regulator of focal adhesions.",
+      "section": "abstract",
+      "offset": 163
+    },
+    {
+      "evidence_id": "e17",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/20137952",
+      "text": "Fascin is an actin-bundling protein involved in filopodia assembly and cancer invasion and metastasis of multiple epithelial cancer types.",
+      "section": "abstract",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e18",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+      "text": "Actin-crosslinking proteins organize actin into highly dynamic and architecturally diverse subcellular scaffolds that orchestrate a variety of mechanical processes, including lamellipodial and filopodial protrusions in motile cells.",
+      "section": "abstract",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e19",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+      "text": "IRSp53, a multi-domain protein that can associate with the Rho-GTPases Rac and Cdc42, participates in these processes mainly through its amino-terminal IMD (IRSp53 and MIM domain). The isolated IMD has actin-bundling activity in vitro and is sufficient to induce filopodia in vivo.",
+      "section": "abstract",
+      "offset": 334
+    },
+    {
+      "evidence_id": "e20",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+      "text": "Eps8 activates and synergizes with IRSp53 in mediating actin bundling in vitro, enhancing IRSp53-dependent membrane extensions in vivo.",
+      "section": "abstract",
+      "offset": 952
+    },
+    {
+      "evidence_id": "e21",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+      "text": "Consistently, Cdc42-induced filopodia are inhibited following individual removal of either IRSp53 or Eps8.",
+      "section": "abstract",
+      "offset": 1238
+    },
+    {
+      "evidence_id": "e22",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+      "text": "Collectively, these results support a model whereby the synergic bundling activity of the IRSp53-Eps8 complex, regulated by Cdc42, contributes to the generation of actin bundles, thus promoting filopodial protrusions.",
+      "section": "abstract",
+      "offset": 1345
+    },
+    {
+      "evidence_id": "e23",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+      "text": "The bundling activity of vasodilator-stimulated phosphoprotein is required for filopodium formation",
+      "section": "title",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e24",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+      "text": "Filopodia are highly dynamic finger-like cell protrusions filled with parallel bundles of actin filaments. Previously we have shown that Diaphanous-related formin dDia2 is involved in the formation of filopodia. Another key player for the formation of filopodia across many species is vasodilator-stimulated phosphoprotein (VASP).",
+      "section": "abstract",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e25",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+      "text": "It has been proposed that the essential role of VASP for formation of filopodia is its competition with capping proteins for filament barbed-end interaction.",
+      "section": "abstract",
+      "offset": 331
+    },
+    {
+      "evidence_id": "e26",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+      "text": "Only WT DdVASP, but not a mutant lacking the F-actin bundling activity, could rescue the ability of these cells to form WT-like filopodia.",
+      "section": "abstract",
+      "offset": 1177
+    },
+    {
+      "evidence_id": "e27",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+      "text": "Our data suggest that DdVASP is complexed with dDia2 in filopodial tips and support formin-mediated filament elongation by bundling nascent actin filaments.",
+      "section": "abstract",
+      "offset": 1316
+    },
+    {
+      "evidence_id": "e28",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/14752106",
+      "text": "Insulin receptor tyrosine kinase substrate p53 (IRSp53) has been identified as an SH3 domain-containing adaptor that links Rac1 with a Wiskott-Aldrich syndrome family verprolin-homologous protein 2 (WAVE2) to induce lamellipodia or Cdc42 with Mena to induce filopodia.",
+      "section": "abstract",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e29",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/14752106",
+      "text": "Here, we show that the N-terminal predicted helical stretch of 250 amino acids of IRSp53 is an evolutionarily conserved F-actin bundling domain involved in filopodium formation.",
+      "section": "abstract",
+      "offset": 378
+    },
+    {
+      "evidence_id": "e30",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/14752106",
+      "text": "The IMD alone, derived from either IRSp53 or MIM, induced filopodia in HeLa cells and the formation of tightly packed parallel F-actin bundles in vitro.",
+      "section": "abstract",
+      "offset": 879
+    },
+    {
+      "evidence_id": "e31",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/14752106",
+      "text": "These results suggest that IRSp53 and MIM belong to a novel actin bundling protein family.",
+      "section": "abstract",
+      "offset": 1032
+    },
+    {
+      "evidence_id": "e32",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+      "text": "Role of the actin bundling protein fascin in growth cone morphogenesis: localization in filopodia and lamellipodia",
+      "section": "title",
+      "offset": 0
+    },
+    {
+      "evidence_id": "e33",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+      "text": "Fascin localized to radially oriented actin bundles in lamellipodia (ribs) and filopodia.",
+      "section": "abstract",
+      "offset": 610
+    },
+    {
+      "evidence_id": "e34",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+      "text": "Using a fascin antibody and a GFP fascin construct, we found that fascin incorporated into actin bundles from the beginning of growth cone formation at the cut end of axons.",
+      "section": "abstract",
+      "offset": 700
+    },
+    {
+      "evidence_id": "e35",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+      "text": "Later, during growth cone morphogenesis when actin ribs shortened, the proximal fascin-free zone of bundles increased, but fascin was retained in the distal, filopodial portion of bundles.",
+      "section": "abstract",
+      "offset": 1036
+    },
+    {
+      "evidence_id": "e36",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+      "text": "Treatment with tumor promoter 12-O-tetradecanoylphorbol-13-acetate (TPA), which phosphorylates fascin and decreases its affinity for actin, resulted in loss of all actin bundles from growth cones.",
+      "section": "abstract",
+      "offset": 1225
+    },
+    {
+      "evidence_id": "e37",
+      "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+      "text": "Our findings suggest that fascin may be particularly important for the linear structure and dynamics of filopodia and for lamellipodial rib dynamics by regulating filament organization in bundles.",
+      "section": "abstract",
+      "offset": 1422
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "queries": [
+    {
+      "query_id": "control0",
+      "matches": [
+        {
+          "source_id": "PMC11872689",
+          "start": 0,
+          "end": 8,
+          "quote": "Baseline"
+        }
+      ]
+    }
+  ],
+  "unsupported_query_ids": []
+}

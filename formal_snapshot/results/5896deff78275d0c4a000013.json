@@ -1,0 +1,112 @@
+{
+  "task_id": "5896deff78275d0c4a000013",
+  "question": "Which two drugs are included in the Harvoni pill?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "sofosbuvir",
+      "ledipasvir"
+    ],
+    "supports": [
+      {
+        "item": "sofosbuvir",
+        "evidence_id": "e2",
+        "quote": "Harvoni 400/90 mg film-coated tablets containing 400 mg sofosbuvir and 90 mg ledipasvir"
+      },
+      {
+        "item": "ledipasvir",
+        "evidence_id": "e2",
+        "quote": "Harvoni 400/90 mg film-coated tablets containing 400 mg sofosbuvir and 90 mg ledipasvir"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific study abstracts and titles; no full prescribing information provided.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "sofosbuvir",
+      "ledipasvir"
+    ],
+    "supports": [
+      {
+        "item": "sofosbuvir",
+        "evidence_id": "e2",
+        "quote": "Harvoni 400/90 mg film-coated tablets containing 400 mg sofosbuvir and 90 mg ledipasvir"
+      },
+      {
+        "item": "ledipasvir",
+        "evidence_id": "e2",
+        "quote": "Harvoni 400/90 mg film-coated tablets containing 400 mg sofosbuvir and 90 mg ledipasvir"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific study abstracts and titles; no full prescribing information provided.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "sofosbuvir",
+      "ledipasvir"
+    ],
+    "supports": [
+      {
+        "item": "sofosbuvir",
+        "evidence_id": "e2",
+        "quote": "Harvoni 400/90 mg film-coated tablets containing 400 mg sofosbuvir and 90 mg ledipasvir"
+      },
+      {
+        "item": "ledipasvir",
+        "evidence_id": "e2",
+        "quote": "Harvoni 400/90 mg film-coated tablets containing 400 mg sofosbuvir and 90 mg ledipasvir"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to specific study abstracts and titles; no full prescribing information provided.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/25837989",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25850880",
+    "http://www.ncbi.nlm.nih.gov/pubmed/25859119",
+    "http://www.ncbi.nlm.nih.gov/pubmed/26327920",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27276081",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27480956",
+    "http://www.ncbi.nlm.nih.gov/pubmed/27606041"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/5896deff78275d0c4a000013/attempt_0"
+}

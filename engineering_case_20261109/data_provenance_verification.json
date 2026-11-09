@@ -1,0 +1,9 @@
+{
+  "original_dataset": "D:\\codex实战\\MedToolEvo\\DocHopQA\\DocHopQA_Dataset.json",
+  "original_entry_id": 9990,
+  "published_source": "PMC11835903 Table3",
+  "raw_xml_exact_match": true,
+  "source_sha256": "c5dbfd8ae6fa929db31db2b12702abf1a7add936687714f3c9121fc57751b7c8",
+  "source_values_not_manually_created": true,
+  "local_delivery_links_verified": true
+}

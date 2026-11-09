@@ -1,0 +1,87 @@
+{
+  "status": "ok",
+  "parsed": {
+    "operation": {
+      "name": "weighted_statistical_summaries",
+      "description": "Generic deterministic weighted numerical summaries on explicit runtime value/weight rows.",
+      "when_to_use": "When a question requires reproducible weighted summaries of positive numerical values.",
+      "limitations": "Arithmetic on supplied rounded numbers; not clinical inference or pooled patient variability.",
+      "code_contract": {
+        "input_schema": {
+          "type": "object",
+          "properties": {
+            "rows": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "weight": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "value",
+                  "weight"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "rows"
+          ],
+          "additionalProperties": false
+        },
+        "output_schema": {
+          "type": "object",
+          "properties": {
+            "weighted_mean": {
+              "type": "number"
+            },
+            "weighted_population_variance": {
+              "type": "number"
+            },
+            "weighted_population_sd": {
+              "type": "number"
+            },
+            "weighted_geometric_mean": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "weighted_mean",
+            "weighted_population_variance",
+            "weighted_population_sd",
+            "weighted_geometric_mean"
+          ],
+          "additionalProperties": false
+        },
+        "algorithm": "1. Validate input: Ensure 'rows' is a non-empty array. For each row, verify 'value' is a finite number > 0 and 'weight' is a finite number >= 0. Raise ValueError if any check fails.\n2. Compute total weight W = sum(w for all rows). If W == 0, raise ValueError.\n3. Compute weighted mean mu = sum(w * x) / W.\n4. Compute weighted population variance var = sum(w * (x - mu)^2) / W.\n5. Compute weighted population standard deviation sd = sqrt(var).\n6. Compute weighted geometric mean gm = exp(sum(w * ln(x)) / W).\n7. Round mu, var, sd, and gm to exactly 6 decimal places.\n8. Return the rounded values in the specified output object structure.",
+        "invariants": [
+          "All input values must be strictly positive finite numbers.",
+          "All input weights must be non-negative finite numbers.",
+          "The sum of all weights must be strictly positive.",
+          "Intermediate calculations must use full floating-point precision without rounding.",
+          "Output values must be rounded to exactly 6 decimal places.",
+          "No external libraries (NumPy, SciPy) are used; only standard math module."
+        ],
+        "edge_cases": [
+          "Empty 'rows' array: Raise ValueError.",
+          "Zero total weight: Raise ValueError.",
+          "Non-finite numbers (inf, nan) in value or weight: Raise ValueError.",
+          "Negative or zero value: Raise ValueError.",
+          "Negative weight: Raise ValueError.",
+          "Missing 'value' or 'weight' keys in a row: Raise ValueError.",
+          "Extra keys in a row object: Raise ValueError."
+        ]
+      },
+      "semantic_preprocessor": null
+    }
+  }
+}

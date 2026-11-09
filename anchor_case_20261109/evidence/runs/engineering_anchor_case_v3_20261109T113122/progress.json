@@ -1,0 +1,19 @@
+{
+  "status": "anchor_case_passed",
+  "phase": "completed",
+  "stage": "anchor_case",
+  "full_started": false,
+  "full_completed": 0,
+  "full_total": 1130,
+  "pilot_completed": 59,
+  "pilot_total": 100,
+  "pilot_passed": false,
+  "pilot_source_run": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147",
+  "full_requires_100_pilot": true,
+  "qa_requests": 11,
+  "build_attempts": 1,
+  "stable_tools": 0,
+  "pending_tools": 0,
+  "development_registered_tools": 1,
+  "updated_utc": "2026-11-09T11:36:23.247238+00:00"
+}

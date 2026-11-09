@@ -1,0 +1,20 @@
+{
+  "status": "citation_case_failed",
+  "phase": "manager_intent",
+  "stage": "citation_case",
+  "full_started": false,
+  "full_completed": 0,
+  "full_total": 1130,
+  "pilot_completed": 59,
+  "pilot_total": 100,
+  "pilot_passed": false,
+  "pilot_source_run": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147",
+  "full_requires_100_pilot": true,
+  "qa_requests": 4,
+  "build_attempts": 0,
+  "stable_tools": 0,
+  "pending_tools": 0,
+  "development_registered_tools": 0,
+  "updated_utc": "2026-11-09T11:08:46.345810+00:00",
+  "error": "RuntimeError: Manager deferred; no tool creation forced"
+}

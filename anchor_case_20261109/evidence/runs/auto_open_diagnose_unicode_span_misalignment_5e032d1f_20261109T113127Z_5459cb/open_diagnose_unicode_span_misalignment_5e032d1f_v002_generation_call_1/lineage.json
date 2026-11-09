@@ -1,0 +1,6 @@
+{
+  "parent": "/home/supervisor/project/sy/MedToolEvo/tools/candidates/open_diagnose_unicode_span_misalignment_5e032d1f_v001.py",
+  "parent_sha256": "2a697d0636e6ee6738793385f2b848905ea52f13c6bd915a96fd6043ffd052ea",
+  "trigger": "independent_validation_failure",
+  "reference_answers_supplied": false
+}

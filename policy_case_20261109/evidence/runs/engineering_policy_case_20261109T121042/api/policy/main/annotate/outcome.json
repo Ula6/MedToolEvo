@@ -1,0 +1,85 @@
+{
+  "status": "ok",
+  "parsed": {
+    "annotations": [
+      {
+        "group_id": "g1",
+        "relation": "diagnostic_bm",
+        "polarity": "positive",
+        "reason": "The text explicitly states these 14 studies 'specifically focused on using AI methods to diagnose tumor BM'."
+      },
+      {
+        "group_id": "g2",
+        "relation": "differential_mm",
+        "polarity": "positive",
+        "reason": "The text states these 4 studies 'addressed differentiation between BM and multiple myeloma (MM)'."
+      },
+      {
+        "group_id": "g3",
+        "relation": "differential_bone_island",
+        "polarity": "positive",
+        "reason": "The text states this study 'compared BM with bone islands'."
+      },
+      {
+        "group_id": "g4",
+        "relation": "differential_tuberculosis",
+        "polarity": "positive",
+        "reason": "The text states this study 'differentiated spinal metastases from spinal tuberculosis'."
+      },
+      {
+        "group_id": "g5",
+        "relation": "primary_lung",
+        "polarity": "positive",
+        "reason": "The text states these studies 'identified primary tumors as lung cancer'."
+      },
+      {
+        "group_id": "g6",
+        "relation": "primary_prostate",
+        "polarity": "positive",
+        "reason": "The text states these studies 'identified prostate cancer'."
+      },
+      {
+        "group_id": "g7",
+        "relation": "primary_site_reported",
+        "polarity": "negative",
+        "reason": "The text states these studies 'did not specify the primary tumor site', which is a negative claim regarding the reporting of the primary site."
+      },
+      {
+        "group_id": "g8",
+        "relation": "primary_gastric",
+        "polarity": "positive",
+        "reason": "The text states this study 'reported gastric cancer as the primary tumor'."
+      },
+      {
+        "group_id": "g9",
+        "relation": "human_comparison",
+        "polarity": "positive",
+        "reason": "The text states these studies 'compared the performance of AI models with healthcare professionals'."
+      },
+      {
+        "group_id": "g10",
+        "relation": "modality_mri",
+        "polarity": "positive",
+        "reason": "The text states these studies 'employed AI techniques for diagnosing BM using MRI'."
+      },
+      {
+        "group_id": "g11",
+        "relation": "modality_ct",
+        "polarity": "positive",
+        "reason": "The text states these studies 'used CT scans'."
+      },
+      {
+        "group_id": "g12",
+        "relation": "external_validation",
+        "polarity": "positive",
+        "reason": "The text states these studies 'utilized out-of-sample data for external validation'."
+      },
+      {
+        "group_id": "g13",
+        "relation": "internal_validation",
+        "polarity": "positive",
+        "reason": "The text states these studies 'conducted internal validation'."
+      }
+    ]
+  }
+}

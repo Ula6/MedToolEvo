@@ -1,0 +1,352 @@
+{
+  "task_id": "6025e3a71cb411341a0000bc",
+  "question": "Which mutations are inhibited by Ripretinib?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "KIT mutations",
+      "PDGFRA mutations",
+      "activation loop mutations in KIT",
+      "activation loop mutations in PDGFRA",
+      "primary KIT mutations",
+      "secondary KIT mutations",
+      "primary PDGFRA mutations",
+      "secondary PDGFRA mutations",
+      "drug-resistant KIT mutations",
+      "drug-resistant PDGFRA mutations",
+      "wild-type KIT",
+      "wild-type PDGFRA",
+      "KIT exon 9 mutations",
+      "KIT exon 13 mutations",
+      "KIT exon 17 mutations"
+    ],
+    "supports": [
+      {
+        "item": "KIT mutations",
+        "evidence_id": "e1",
+        "quote": "Ripretinib is a novel switch-control kinase inhibitor designed to inhibit a wide range of KIT and PDGFRA mutations."
+      },
+      {
+        "item": "PDGFRA mutations",
+        "evidence_id": "e1",
+        "quote": "Ripretinib is a novel switch-control kinase inhibitor designed to inhibit a wide range of KIT and PDGFRA mutations."
+      },
+      {
+        "item": "activation loop mutations in KIT",
+        "evidence_id": "e6",
+        "quote": "Ripretinib inhibits all tested KIT and PDGFRA mutants, and notably is a type II kinase inhibitor demonstrated to broadly inhibit activation loop mutations in KIT and PDGFRA, previously thought only achievable with type I inhibitors."
+      },
+      {
+        "item": "activation loop mutations in PDGFRA",
+        "evidence_id": "e6",
+        "quote": "Ripretinib inhibits all tested KIT and PDGFRA mutants, and notably is a type II kinase inhibitor demonstrated to broadly inhibit activation loop mutations in KIT and PDGFRA, previously thought only achievable with type I inhibitors."
+      },
+      {
+        "item": "primary KIT mutations",
+        "evidence_id": "e16",
+        "quote": "Ripretinib - a novel switch-control TKI - inhibits many of the most common primary and secondary activating KIT and PDGFRA mutants involved in GIST progression through a dual mechanis"
+      },
+      {
+        "item": "secondary KIT mutations",
+        "evidence_id": "e16",
+        "quote": "Ripretinib - a novel switch-control TKI - inhibits many of the most common primary and secondary activating KIT and PDGFRA mutants involved in GIST progression through a dual mechanis"
+      },
+      {
+        "item": "primary PDGFRA mutations",
+        "evidence_id": "e16",
+        "quote": "Ripretinib - a novel switch-control TKI - inhibits many of the most common primary and secondary activating KIT and PDGFRA mutants involved in GIST progression through a dual mechanis"
+      },
+      {
+        "item": "secondary PDGFRA mutations",
+        "evidence_id": "e16",
+        "quote": "Ripretinib - a novel switch-control TKI - inhibits many of the most common primary and secondary activating KIT and PDGFRA mutants involved in GIST progression through a dual mechanis"
+      },
+      {
+        "item": "drug-resistant KIT mutations",
+        "evidence_id": "e8",
+        "quote": "Ripretinib (DCC-2618) is a novel, type II tyrosine switch control inhibitor designed to broadly inhibit activating and drug-resistant mutations in KIT and PDGFRA."
+      },
+      {
+        "item": "drug-resistant PDGFRA mutations",
+        "evidence_id": "e8",
+        "quote": "Ripretinib (DCC-2618) is a novel, type II tyrosine switch control inhibitor designed to broadly inhibit activating and drug-resistant mutations in KIT and PDGFRA."
+      },
+      {
+        "item": "wild-type KIT",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "wild-type PDGFRA",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "KIT exon 9 mutations",
+        "evidence_id": "e11",
+        "quote": ".0001; exon 9, P = 0.0023; exon 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad rang"
+      },
+      {
+        "item": "KIT exon 13 mutations",
+        "evidence_id": "e11",
+        "quote": ".0001; exon 9, P = 0.0023; exon 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad rang"
+      },
+      {
+        "item": "KIT exon 17 mutations",
+        "evidence_id": "e11",
+        "quote": ".0001; exon 9, P = 0.0023; exon 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad rang"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence describes broad inhibition of KIT and PDGFRA mutations including wild-type, primary, secondary, drug-resistant, and specific exons (9, 13, 17) and activation loop mutations. Specific mutation names (e.g., D842V) are not explicitly listed as inhibited by ripretinib in the provided text, though PDGFRA exon 18 is mentioned in the context of avapritinib. The evidence confirms activity across mutation subgroups in GIST patients but does not provide an exhaustive list of every specific amino acid substitution inhibited.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 15,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "KIT mutations",
+      "PDGFRA mutations",
+      "activation loop mutations in KIT",
+      "activation loop mutations in PDGFRA",
+      "primary KIT mutations",
+      "secondary KIT mutations",
+      "primary PDGFRA mutations",
+      "secondary PDGFRA mutations",
+      "drug-resistant KIT mutations",
+      "drug-resistant PDGFRA mutations",
+      "wild-type KIT",
+      "wild-type PDGFRA",
+      "KIT exon 9 mutations",
+      "KIT exon 13 mutations",
+      "KIT exon 17 mutations"
+    ],
+    "supports": [
+      {
+        "item": "KIT mutations",
+        "evidence_id": "e1",
+        "quote": "Ripretinib is a novel switch-control kinase inhibitor designed to inhibit a wide range of KIT and PDGFRA mutations."
+      },
+      {
+        "item": "PDGFRA mutations",
+        "evidence_id": "e1",
+        "quote": "Ripretinib is a novel switch-control kinase inhibitor designed to inhibit a wide range of KIT and PDGFRA mutations."
+      },
+      {
+        "item": "activation loop mutations in KIT",
+        "evidence_id": "e6",
+        "quote": "Ripretinib inhibits all tested KIT and PDGFRA mutants, and notably is a type II kinase inhibitor demonstrated to broadly inhibit activation loop mutations in KIT and PDGFRA, previously thought only achievable with type I inhibitors."
+      },
+      {
+        "item": "activation loop mutations in PDGFRA",
+        "evidence_id": "e6",
+        "quote": "Ripretinib inhibits all tested KIT and PDGFRA mutants, and notably is a type II kinase inhibitor demonstrated to broadly inhibit activation loop mutations in KIT and PDGFRA, previously thought only achievable with type I inhibitors."
+      },
+      {
+        "item": "primary KIT mutations",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "secondary KIT mutations",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "primary PDGFRA mutations",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "secondary PDGFRA mutations",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "drug-resistant KIT mutations",
+        "evidence_id": "e5",
+        "quote": "Ripretinib (DCC-2618) was designed to inhibit the full spectrum of mutant KIT and PDGFRA kinases found in cancers and myeloproliferative neoplasms, particularly in gastrointestinal stromal tumors (GISTs), in which the heterogeneity of drug-resistant KIT mutations is a major challenge."
+      },
+      {
+        "item": "drug-resistant PDGFRA mutations",
+        "evidence_id": "e5",
+        "quote": "Ripretinib (DCC-2618) was designed to inhibit the full spectrum of mutant KIT and PDGFRA kinases found in cancers and myeloproliferative neoplasms, particularly in gastrointestinal stromal tumors (GISTs), in which the heterogeneity of drug-resistant KIT mutations is a major challenge."
+      },
+      {
+        "item": "wild-type KIT",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "wild-type PDGFRA",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "KIT exon 9 mutations",
+        "evidence_id": "e22",
+        "quote": "n 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad range of KIT/PDGFRA mutations in patients with advanced GIST"
+      },
+      {
+        "item": "KIT exon 13 mutations",
+        "evidence_id": "e22",
+        "quote": "n 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad range of KIT/PDGFRA mutations in patients with advanced GIST"
+      },
+      {
+        "item": "KIT exon 17 mutations",
+        "evidence_id": "e22",
+        "quote": "n 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad range of KIT/PDGFRA mutations in patients with advanced GIST"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence does not explicitly list specific exon numbers (e.g., exon 9) as inhibited mutations in the text provided, though clinical activity across mutation subgroups including exon 13 and 17 is noted. Specific exon 9 inhibition is inferred from the context of 'mutation subgroups' and 'broad range' but not explicitly stated as a distinct inhibited entity in the provided text segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 15,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "KIT mutations",
+      "PDGFRA mutations",
+      "activation loop mutations in KIT",
+      "activation loop mutations in PDGFRA",
+      "primary KIT mutations",
+      "secondary KIT mutations",
+      "primary PDGFRA mutations",
+      "secondary PDGFRA mutations",
+      "drug-resistant KIT mutations",
+      "drug-resistant PDGFRA mutations",
+      "wild-type KIT",
+      "wild-type PDGFRA",
+      "KIT exon 9 mutations",
+      "KIT exon 13 mutations",
+      "KIT exon 17 mutations"
+    ],
+    "supports": [
+      {
+        "item": "KIT mutations",
+        "evidence_id": "e1",
+        "quote": "Ripretinib is a novel switch-control kinase inhibitor designed to inhibit a wide range of KIT and PDGFRA mutations."
+      },
+      {
+        "item": "PDGFRA mutations",
+        "evidence_id": "e1",
+        "quote": "Ripretinib is a novel switch-control kinase inhibitor designed to inhibit a wide range of KIT and PDGFRA mutations."
+      },
+      {
+        "item": "activation loop mutations in KIT",
+        "evidence_id": "e6",
+        "quote": "Ripretinib inhibits all tested KIT and PDGFRA mutants, and notably is a type II kinase inhibitor demonstrated to broadly inhibit activation loop mutations in KIT and PDGFRA, previously thought only achievable with type I inhibitors."
+      },
+      {
+        "item": "activation loop mutations in PDGFRA",
+        "evidence_id": "e6",
+        "quote": "Ripretinib inhibits all tested KIT and PDGFRA mutants, and notably is a type II kinase inhibitor demonstrated to broadly inhibit activation loop mutations in KIT and PDGFRA, previously thought only achievable with type I inhibitors."
+      },
+      {
+        "item": "primary KIT mutations",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "secondary KIT mutations",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "primary PDGFRA mutations",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "secondary PDGFRA mutations",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "drug-resistant KIT mutations",
+        "evidence_id": "e5",
+        "quote": "Ripretinib (DCC-2618) was designed to inhibit the full spectrum of mutant KIT and PDGFRA kinases found in cancers and myeloproliferative neoplasms, particularly in gastrointestinal stromal tumors (GISTs), in which the heterogeneity of drug-resistant KIT mutations is a major challenge."
+      },
+      {
+        "item": "drug-resistant PDGFRA mutations",
+        "evidence_id": "e5",
+        "quote": "Ripretinib (DCC-2618) was designed to inhibit the full spectrum of mutant KIT and PDGFRA kinases found in cancers and myeloproliferative neoplasms, particularly in gastrointestinal stromal tumors (GISTs), in which the heterogeneity of drug-resistant KIT mutations is a major challenge."
+      },
+      {
+        "item": "wild-type KIT",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "wild-type PDGFRA",
+        "evidence_id": "e9",
+        "quote": "Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF."
+      },
+      {
+        "item": "KIT exon 9 mutations",
+        "evidence_id": "e22",
+        "quote": "n 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad range of KIT/PDGFRA mutations in patients with advanced GIST"
+      },
+      {
+        "item": "KIT exon 13 mutations",
+        "evidence_id": "e22",
+        "quote": "n 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad range of KIT/PDGFRA mutations in patients with advanced GIST"
+      },
+      {
+        "item": "KIT exon 17 mutations",
+        "evidence_id": "e22",
+        "quote": "n 13, P < 0.0001; exon 17, P < 0.0001). Among patients with wild-type KIT/PDGFRA by tumor tissue, PFS ranged from 2 to 23 months for ripretinib versus 0.9 to 10.1 months for placebo.CONCLUSIONS: Ripretinib provided clinically meaningful activity across mutation subgroups in patients with advanced GIST, demonstrating that ripretinib inhibits a broad range of KIT/PDGFRA mutations in patients with advanced GIST"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence does not explicitly list specific exon numbers (e.g., exon 9) as inhibited mutations in the text provided, though clinical activity across mutation subgroups including exon 13 and 17 is noted. Specific exon 9 inhibition is inferred from the context of 'mutation subgroups' and 'broad range' but not explicitly stated as a distinct inhibited entity in the provided text segments.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 0,
+      "fp": 15,
+      "fn": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/31033566",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31085175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/31755321",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32511981",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32578014",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32804590",
+    "http://www.ncbi.nlm.nih.gov/pubmed/32859585",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33473249",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33876372",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33947686",
+    "http://www.ncbi.nlm.nih.gov/pubmed/33948116",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34391056",
+    "http://www.ncbi.nlm.nih.gov/pubmed/34503977"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/6025e3a71cb411341a0000bc/attempt_0"
+}

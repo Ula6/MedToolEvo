@@ -1,0 +1,164 @@
+[
+  {
+    "id": "P01",
+    "layer": "deployment",
+    "observed": "Local Windows default GBK failed to read UTF-8 task JSON during CPU preflight.",
+    "evidence": "citation_case_20261109/code/validate_citation_cpu.py",
+    "action": "Explicit UTF-8 reads before model execution.",
+    "status": "fixed_in_isolated_preflight",
+    "medical_failure": false
+  },
+  {
+    "id": "P02",
+    "layer": "deployment",
+    "observed": "New remote directory initially lacked vendored jsonschema dependencies.",
+    "evidence": "citation_case_20261109/code/schema_support.py",
+    "action": "Copy existing known dependency bundle and verify imports before pausing GPU work.",
+    "status": "fixed_in_isolated_deployment",
+    "medical_failure": false
+  },
+  {
+    "id": "P03",
+    "layer": "contract",
+    "observed": "Citation task needs stdlib XML parser; prior Builder whitelist did not include xml.",
+    "evidence": "citation_case_20261109/code/evolve_tool_stream.py",
+    "action": "Allow xml only in isolated citation helper; original pilot unchanged. Anchor case needs no whitelist extension.",
+    "status": "isolated_change_recorded",
+    "medical_failure": false
+  },
+  {
+    "id": "P04",
+    "layer": "source",
+    "observed": "Source paragraph says14 studies but its first citation group expands to17 literal IDs.",
+    "evidence": "citation_case_20261109/data/offline_preflight.json",
+    "action": "Keep source and distinguish literal citation membership from claimed study counts. No automatic correction of scientific claims.",
+    "status": "source_discrepancy_retained",
+    "medical_failure": false
+  },
+  {
+    "id": "P05",
+    "layer": "representation",
+    "observed": "Qwen placed source-qualified IDs in local-reference fields. Raw exact score0/23, mechanically stripping only the declared source prefix gives23/23 group agreement for both baseline and retry.",
+    "evidence": "citation_case_20261109/representation_audit.json",
+    "action": "Propose distinct local_reference_id/qualified_reference_id names and a lossless diagnostic adapter in a new frozen protocol; do not alter old scores or declare medical repair.",
+    "status": "confirmed_pending_unified_revision",
+    "medical_failure": false
+  },
+  {
+    "id": "P06",
+    "layer": "diagnosis",
+    "observed": "Citation Manager deferred; diagnosis suggested bracket grouping errors despite later namespace audit showing complete group membership.",
+    "evidence": "citation_case_20261109/observation.json",
+    "action": "Keep exact-score failure separate from source-supported content failure. Proposed next version feeds actual input/output field discrepancies, without gold medical answers.",
+    "status": "confirmed_pending_unified_revision",
+    "medical_failure": false
+  },
+  {
+    "id": "P07",
+    "layer": "source_anchoring",
+    "observed": "Actual initial and same-evidence Qwen passes1/7 on exact original-source span requests.",
+    "evidence": "anchor_case_20261109/observation.json",
+    "action": "Frozen original1/7 andsame-inputretry1/7 -> generated tool+Executor7/7,11 anchored spans;3actualcode repairs12/13->13/13;3controls,1developmentregistry,2freshreuses includinganotherpaper. Posthocprefix-whitespace gap remains separately recorded.",
+    "status": "frozen_development_case_passed_with_posthoc_limitations",
+    "medical_failure": false
+  },
+  {
+    "id": "P08",
+    "layer": "evaluation",
+    "observed": "Citation baseline first source has13/13 correct member groups, only unique-index order differs.",
+    "evidence": "citation_case_20261109/representation_audit.json",
+    "action": "Retain exact protocol mismatch but do not count it as missing medical evidence capability. No forced tool creation.",
+    "status": "handled_by_prespecified_gate",
+    "medical_failure": false
+  },
+  {
+    "id": "P09",
+    "layer": "contract_generation",
+    "observed": "Anchor Compiler produced an invalid nested JSON Schema: required list placed where a subschema object/boolean was required. Existing boundary guard requested automatic repair before any candidate build.",
+    "evidence": "runs/engineering_anchor_case_20261109T111433/api/anchor/compile_0_repair_code_boundary/attempt_0/request.json",
+    "action": "v1 retained; new isolatedv2 mechanically attaches identical frozen schemas and Qwen produces algorithm/invariants only. Same source, I/O, oracle, controls and gates. Strict-fingerprint baseline/retry/Manager reuse; no candidate edited.",
+    "status": "fixed_by_v2_v3_fixed_interface_compiler",
+    "medical_failure": false
+  },
+  {
+    "id": "P10",
+    "layer": "context_output",
+    "observed": "Automatic full-schema repair hit actual6144-token output truncation, then expanded to12288 beforetechnicalmigration.",
+    "evidence": "runs/engineering_anchor_case_20261109T111433/api/anchor/compile_0_repair_code_boundary/attempt_0/response.json",
+    "action": "Retain failed calls and costs. Newv2 avoids regenerating schema copies rather than dropping source or weakening tests.",
+    "status": "compiler_fixed_in_new_protocol_original_failures_retained",
+    "medical_failure": false
+  },
+  {
+    "id": "P11",
+    "layer": "test_oracle",
+    "observed": "Qwen-designed synthetic test expectations remained wrong for3 verifier revisions, e.g casefold query s also matches initial S in Straße. v2 rejected beforeCoder.",
+    "evidence": "anchor_case_20261109/evidence/runs/engineering_anchor_case_v2_20261109T112420/verifier_2.json",
+    "action": "In newv3 derive expected values by independently checked fixed-rule oracle beforecode. Keep8Qweninput designs plus5prebaselineCPUprobes as13immutabletests; preserveold wrongproposals.",
+    "status": "fixed_for_this_deterministic_case",
+    "medical_failure": false
+  },
+  {
+    "id": "P12",
+    "layer": "test_coverage",
+    "observed": "Verifier claimed overlap coverage but used ana against ana, which contains onlyone hit.",
+    "evidence": "anchor_case_20261109/failed_fixture_proposal_v2.json",
+    "action": "Include prebaseline aaa/aa overlappingmatch probe and programmatically verifycoverage rather than trust descriptive labels.",
+    "status": "boundary_case_added_before_Coder_in_v3",
+    "medical_failure": false
+  },
+  {
+    "id": "P13",
+    "layer": "generated_code",
+    "observed": "Actual v001/v002/v003 each12/13; combined fullwidth and collapsed whitespace original endmapping failed. v00413/13 after3automaticCoderrepairs, same frozen tests.",
+    "evidence": "anchor_case_20261109/evidence/runs/engineering_anchor_case_v3_20261109T113122/builds/candidate/builder_summary.json",
+    "action": "Keep real execution feedback and allcodeversions. Broader mapping still needs posthoc counterexample revision P14.",
+    "status": "frozen_case_repaired_further_boundary_gap_retained",
+    "medical_failure": false
+  },
+  {
+    "id": "P14",
+    "layer": "source_anchoring_generalization",
+    "observed": "Posthoc A  B or A-tab-space-NBSP-B withqueryB returns nohit; normalized prefix offset mapping still counts original whitespace separately.",
+    "evidence": "anchor_case_20261109/posthoc_boundary_audit.json",
+    "action": "Next unified version needs a normalization-to-original span map that accounts for whitespace collapse before the hit; freezeboth newcounterexamples andrerunold13+realcase+reuse. No edits toregisteredv004 inthisdelivery.",
+    "status": "confirmed_pending_unified_revision",
+    "medical_failure": false
+  },
+  {
+    "id": "P15",
+    "layer": "input_contract",
+    "observed": "Direct function accepts extra top-level fields although contract requiresValueError. Typed inputSchema blocks these at normal guarded boundary.",
+    "evidence": "anchor_case_20261109/posthoc_boundary_audit.json",
+    "action": "Align function validation and allreload entrypoints withfixedSchema; preserveinvalidinput regressions.",
+    "status": "confirmed_pending_unified_revision",
+    "medical_failure": false
+  },
+  {
+    "id": "P16",
+    "layer": "unknown_fact_handling",
+    "observed": "Third-case v005 passed21/22 but wrongly kept an entity supported only byunknown facts under a none_of-only policy.",
+    "evidence": "policy_case_20261109/evidence/runs/auto_evolved_add_policy_filter_engine_00a5aa6c_20261109T121626Z_6118de/evolved_add_policy_filter_engine_00a5aa6c_v005/test_report.json",
+    "action": "27B actual-failure diagnosis and30B second update producedv00622/22 while all10oldtests stayedpassing. Require at leastoneestablishedsignedfact; unknown isnotpositive ornegative.",
+    "status": "fixed_in_real_parent_extension_v006",
+    "medical_failure": false
+  },
+  {
+    "id": "P17",
+    "layer": "relation_policy_reasoning",
+    "observed": "On shared13 source annotation groups, Qweninitial andsame-inputretry each6/12 exact queries,7/12 membershipsets. Five membershiperrors andoneprovenanceerror remained beforeupdatedtool.",
+    "evidence": "policy_case_20261109/evidence/runs/engineering_policy_case_20261109T121042/original_repair.json",
+    "action": "Managerselectedextendexistingledger; actualnewtool12/12 andQwenwithnewoutputs12/12. Source annotations shared, weightsunchanged.",
+    "status": "fixed_for_this_development_task_not_medical_accuracy_claim",
+    "medical_failure": false
+  },
+  {
+    "id": "P18",
+    "layer": "tool_capability_extension",
+    "observed": "Existingledger v004 passesoriginal10tests butignoresnewoptionalpolicy andreturnsfull23entityunion for all12newqueries. This is a newrequirementgap, not an old-contractbug.",
+    "evidence": "policy_case_20261109/evidence/runs/engineering_policy_case_20261109T121042/builds/candidate/lineage.json",
+    "action": "Extendactualparentcode(v004identicalSHA) to v005 thenv006,22tests frozen, oldsource/testsunmodified,3legacycontrols equal, scopeddevregistry and2freshreusesinclanotherpaper.",
+    "status": "development_extension_complete",
+    "medical_failure": false
+  }
+]

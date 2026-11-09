@@ -1,0 +1,24 @@
+{
+  "original_run": "/home/supervisor/project/sy/MedToolEvo/runs/engineering_anchor_case_20261109T111433",
+  "progress_before_stop": {
+    "status": "running",
+    "phase": "compile_0",
+    "stage": "anchor_case",
+    "full_started": false,
+    "full_completed": 0,
+    "full_total": 1130,
+    "pilot_completed": 59,
+    "pilot_total": 100,
+    "pilot_passed": false,
+    "pilot_source_run": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147",
+    "full_requires_100_pilot": true,
+    "qa_requests": 3,
+    "build_attempts": 0,
+    "stable_tools": 0,
+    "pending_tools": 0,
+    "development_registered_tools": 0,
+    "updated_utc": "2026-11-09T11:15:54.949017+00:00"
+  },
+  "reason": "Invalid generated nested Schema and actual output-length truncation. New isolated compiler reuses fixed interfaces; source, oracle, acceptance and models unchanged. No candidate existed or was edited.",
+  "stopped_utc": "2026-11-09T11:24:00.879486+00:00"
+}

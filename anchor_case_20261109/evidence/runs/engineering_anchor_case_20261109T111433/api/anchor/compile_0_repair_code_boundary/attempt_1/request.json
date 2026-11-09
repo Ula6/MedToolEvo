@@ -1,0 +1,131 @@
+{
+  "model": "medtool-qa",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Compile this operation into a precise interface boundary. Return JSON {operation:object}. Retain name, description, when_to_use, limitations, optional semantic_preprocessor:{instruction}, and add code_contract:{input_schema:object,output_schema:object,algorithm:string,invariants:[string],edge_cases:[string]}. The input_schema describes ONLY the structured JSON actually consumed by Python AFTER Qwen preprocessing. It must include every map, score, condition or relevance annotation the code needs; it must not instead describe raw prose when semantic extraction is required. The output_schema describes only deterministic results, no free-form reasoning_chain/explanation/rationale. Define alias precedence, case rendering vs grouping, alias-list inclusion, map chains/cycles, ordering, duplicates, unknowns and invalid types whenever relevant. Unknown medical semantics belong to Qwen and runtime data, never Python constants. Use valid JSON Schema. Prefer explicit types; nullable type arrays and default annotations are valid. Default annotations do not fill missing values. Prefer a compact mechanical operation. All nonlocal references are forbidden. When revising after feedback, actively change the rejected rules; do not reproduce a rejected contract unchanged. Do not copy legacy test expectations. Map cycles have no terminal value: reject them with ValueError rather than selecting an undefined final value. Self-maps may terminate if explicitly stated. Define deterministic output ordering. Keep the operation small; semantic equivalence and relevance are supplied annotations, not substring heuristics. Top-level input_schema/output_schema must mirror code_contract's schemas. No real entity names or task IDs.\nReturn compact valid JSON only. Fix this format error: Incomplete generation: length Do not remove supported evidence or answer items."
+    },
+    {
+      "role": "user",
+      "content": "{\"operation\": {\"name\": \"diagnose_unicode_span_misalignment\", \"description\": \"Generic Unicode-aware quote alignment with exact original source offsets.\", \"when_to_use\": \"When quoted snippets need exact original-source coordinates and all occurrences.\", \"limitations\": \"Literal source-span alignment only; not semantic support or medical inference.\", \"code_contract\": {\"input_schema\": {\"type\": \"object\", \"properties\": {\"sources\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"source_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\"}}, \"required\": [\"source_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 20}, \"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"minLength\": 1}, \"text\": {\"type\": \"string\", \"minLength\": 1}}, \"required\": [\"query_id\", \"text\"], \"additionalProperties\": false}, \"maxItems\": 30}}, \"required\": [\"sources\", \"queries\"], \"additionalProperties\": false}, \"output_schema\": {\"type\": \"object\", \"properties\": {\"queries\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"query_id\": {\"type\": \"string\", \"maxLength\": 200}, \"matches\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"properties\": {}, \"source_id\": {}, \"maxLength\": 200}, \"start\": {\"type\": \"integer\", \"minimum\": 0}, \"end\": {\"type\": \"integer\", \"minimum\": 1}, \"quote\": {\"type\": \"string\", \"maxLength\": 2000}}, \"required\": [\"source_id\", \"start\", \"end\", \"quote\"], \"additionalProperties\": false}, \"maxItems\": 200}}, \"required\": [\"query_id\", \"matches\"], \"additionalProperties\": false}, \"maxItems\": 30}, \"algorithm\": \"1. Validate input: reject if sources/queries missing, IDs duplicate/empty, or query text empty/whitespace-only. 2. For each source, generate a normalized string by iterating original code points, applying unicodedata.normalize('NFKC', char).casefold(), concatenating, and collapsing consecutive whitespace to single ASCII space. 3. For each query, generate a normalized string using the same rule. 4. For each query, search the normalized source string for all occurrences (including overlaps) of the normalized query. 5. For each match in the normalized string, map the normalized start index back to the original source code-point start index. 6. Calculate the original end index by adding the length of the original substring (derived from the original text slice) to the original start index. 7. Verify that original_text[start:end] exactly matches the query text (case-sensitive, original characters). 8. Collect valid matches, deduplicate by (source_id, start, end), and sort by source input order then ascending start. 9. Construct output preserving query input order; include unsupported_query_ids for queries with zero matches.\", \"invariants\": [\"IDs must be non-empty and unique within their respective lists.\", \"Query text must not be empty or whitespace-only.\", \"Normalization is applied per code-point then concatenated; no cross-boundary normalization.\", \"Whitespace runs in normalized text are collapsed to exactly one ASCII space.\", \"Matches must be exact substring matches in the normalized domain.\", \"Original span [start, end) must yield a quote that exactly equals the original query text.\", \"Output order is deterministic: queries in input order, matches sorted by source input order then ascending start.\", \"Duplicate original spans are collapsed to a single entry.\", \"No semantic inference or alias resolution is performed.\", \"Map cycles or undefined terminal values are rejected via ValueError.\"], \"edge_cases\": [\"Query text is empty or whitespace-only: reject with ValueError.\", \"Source or query IDs are duplicate or empty: reject with ValueError.\", \"No matches found for a query: include query_id in unsupported_query_ids with empty matches array.\", \"Overlapping matches in normalized text: all valid original spans are reported.\", \"Unicode normalization changes string length: mapping must account for original code-point indices, not normalized indices.\", \"Casefold expansion (e.g., ß -> ss): partial hits inside expansion are rejected; only full normalized matches are accepted.\", \"Whitespace collapse: multiple spaces in original become one in normalized; original span must reflect original whitespace.\", \"Invalid types or extra keys in input: reject with ValueError.\", \"Self-maps or cycles in alias logic: not applicable here as no aliasing is performed; if encountered in extended logic, reject with ValueError.\"]}, \"semantic_preprocessor\": null}, \"boundary_error\": \"code_contract.output_schema: Invalid JSON Schema: ['source_id', 'start', 'end', 'quote'] is not of type 'object', 'boolean'\"}"
+    }
+  ],
+  "temperature": 0.2,
+  "seed": 20261106,
+  "max_tokens": 12288,
+  "response_format": {
+    "type": "json_object",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "operation": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "description": {
+              "type": "string",
+              "maxLength": 800
+            },
+            "when_to_use": {
+              "type": "string",
+              "maxLength": 800
+            },
+            "limitations": {
+              "type": "string",
+              "maxLength": 1200
+            },
+            "requirements": {
+              "type": "string",
+              "maxLength": 3000
+            },
+            "input_schema": {
+              "type": "object"
+            },
+            "output_schema": {
+              "type": "object"
+            },
+            "semantic_preprocessor": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "instruction": {
+                      "type": "string",
+                      "maxLength": 2200
+                    }
+                  },
+                  "required": [
+                    "instruction"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "code_contract": {
+              "type": "object",
+              "properties": {
+                "input_schema": {
+                  "type": "object"
+                },
+                "output_schema": {
+                  "type": "object"
+                },
+                "algorithm": {
+                  "type": "string",
+                  "maxLength": 3000
+                },
+                "invariants": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 400
+                  },
+                  "minItems": 1,
+                  "maxItems": 12
+                },
+                "edge_cases": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "maxLength": 400
+                  },
+                  "minItems": 1,
+                  "maxItems": 12
+                }
+              },
+              "required": [
+                "input_schema",
+                "output_schema",
+                "algorithm",
+                "invariants",
+                "edge_cases"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "name",
+            "description",
+            "when_to_use",
+            "limitations",
+            "code_contract"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "operation"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}

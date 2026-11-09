@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nimport math\n\ndef run(payload: dict):\n    \"\"\"\n    Compute weighted statistical summaries for positive numerical values with weights.\n    \n    Validates input according to specification and computes:\n    - Weighted mean\n    - Weighted population variance\n    - Weighted population standard deviation\n    - Weighted geometric mean\n    \n    All outputs are rounded to exactly 6 decimal places.\n    \n    Limitations: This function performs deterministic arithmetic operations only.\n                 It does not perform clinical inference or model-based analysis.\n    \"\"\"\n    # Validate input structure\n    if 'rows' not in payload:\n        raise ValueError(\"Missing required key 'rows'\")\n    \n    rows = payload['rows']\n    \n    if not isinstance(rows, list):\n        raise ValueError(\"'rows' must be an array\")\n        \n    if len(rows) == 0:\n        raise ValueError(\"Input 'rows' array cannot be empty\")\n    \n    # Validate each row\n    for i, row in enumerate(rows):\n        if not isinstance(row, dict):\n            raise ValueError(f\"Row {i} must be an object\")\n            \n        if 'value' not in row or 'weight' not in row:\n            raise ValueError(f\"Row {i} must contain 'value' and 'weight' keys\")\n            \n        if len(row) != 2:\n            raise ValueError(f\"Row {i} must not contain extra keys\")\n            \n        value = row['value']\n        weight = row['weight']\n        \n        # Validate value\n        if not isinstance(value, (int, float)):\n            raise ValueError(f\"Row {i} 'value' must be a number\")\n        if not math.isfinite(value):\n            raise ValueError(f\"Row {i} 'value' must be finite\")\n        if value <= 0:\n            raise ValueError(f\"Row {i} 'value' must be strictly positive\")\n            \n        # Validate weight\n        if not isinstance(weight, (int, float)):\n            raise ValueError(f\"Row {i} 'weight' must be a number\")\n        if not math.isfinite(weight):\n            raise ValueError(f\"Row {i} 'weight' must be finite\")\n        if weight < 0:\n            raise ValueError(f\"Row {i} 'weight' must be non-negative\")\n    \n    # Compute total weight\n    total_weight = sum(row['weight'] for row in rows)\n    \n    if total_weight == 0:\n        raise ValueError(\"Sum of weights must be strictly positive\")\n        \n    # Compute weighted mean\n    weighted_sum = sum(row['weight'] * row['value'] for row in rows)\n    weighted_mean = weighted_sum / total_weight\n    \n    # Compute weighted variance\n    variance_numerator = sum(row['weight'] * (row['value'] - weighted_mean) ** 2 for row in rows)\n    weighted_variance = variance_numerator / total_weight\n    \n    # Compute weighted standard deviation\n    weighted_sd = math.sqrt(weighted_variance)\n    \n    # Compute weighted geometric mean\n    log_sum = sum(row['weight'] * math.log(row['value']) for row in rows)\n    weighted_geometric_mean = math.exp(log_sum / total_weight)\n    \n    # Round to 6 decimal places\n    weighted_mean = round(weighted_mean, 6)\n    weighted_variance = round(weighted_variance, 6)\n    weighted_sd = round(weighted_sd, 6)\n    weighted_geometric_mean = round(weighted_geometric_mean, 6)\n    \n    return {\n        \"weighted_mean\": weighted_mean,\n        \"weighted_population_variance\": weighted_variance,\n        \"weighted_population_sd\": weighted_sd,\n        \"weighted_geometric_mean\": weighted_geometric_mean\n    }\n```"
+      }
+    }
+  ],
+  "created": 1794218535,
+  "model": "medtool-builder",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 749,
+    "prompt_tokens": 1034,
+    "total_tokens": 1783,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "id": "chatcmpl-X5Ee6tFsNHsVXX9XracVNXx1mqjEKLv8",
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1034,
+    "prompt_ms": 1328.541,
+    "prompt_per_token_ms": 1.2848558994197292,
+    "prompt_per_second": 778.2973954134649,
+    "predicted_n": 749,
+    "predicted_ms": 7643.579,
+    "predicted_per_token_ms": 10.218688502673796,
+    "predicted_per_second": 97.85991614661143
+  }
+}

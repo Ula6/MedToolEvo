@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "parsed": {
+    "action": "extend",
+    "target": "evidence_ledger",
+    "reason": "The existing library 'evidence_ledger' (v004) lacks the runtime policy engine required to process 'all_of', 'any_of', and 'none_of' constraints with signed polarity. The current tool executes a simple union of all eligible evidence, failing all 12 policy queries. The 'initial_Executor_evaluation' indicates a partial manual fix exists but is not integrated into the library. The library must be extended to support the optional policy mode while strictly preserving legacy behavior when no policy is provided.",
+    "diagnosis": "The tool fails because it ignores the 'policy' object in queries. It currently returns the full union of all entities (23 entities) for every query, regardless of the specific logical constraints (e.g., q1 requires 'modality_ct' AND 'external_validation' AND NOT 'internal_validation'). The 'actual_old_tool_outputs' confirm this static behavior. The 'initial_Executor_evaluation' shows that a correct logic exists (passing 6/12 queries) but is not the default library behavior. The gap is the absence of a deterministic algorithm to filter groups based on the intersection/union/exclusion of signed relation sets defined in the policy.",
+    "operation_name": "add_policy_filter_engine",
+    "deterministic_steps": [
+      "Identify the 'policy' object in the query input; if absent, execute legacy mode (return full union of eligible groups).",
+      "Parse 'all_of', 'any_of', and 'none_of' lists from the policy, extracting required (relation, polarity) pairs.",
+      "For each group in the 'shared_observations', check if it contains the required signed facts for 'all_of' (must have all) and 'any_of' (must have at least one if list non-empty).",
+      "Verify that the group does NOT contain any signed facts listed in 'none_of'.",
+      "Filter the list of groups to only those passing the policy logic.",
+      "Aggregate evidence_ids from the passing groups, preserving original record order and removing duplicates.",
+      "Construct the output JSON with 'entities' (name, evidence_ids) and 'unique_entity_count' based on the filtered set.",
+      "Ensure that if 'all_of' and 'any_of' are empty, all established records in scope are returned (as per policy rules)."
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "parsed": {
+    "queries": [
+      {
+        "query_id": "control2",
+        "matches": []
+      }
+    ],
+    "unsupported_query_ids": [
+      "control2"
+    ]
+  }
+}

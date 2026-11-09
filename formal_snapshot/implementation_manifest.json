@@ -1,0 +1,37 @@
+{
+  "version": "reliability-v6.1-failure-authenticity",
+  "python": "3.12.16",
+  "sources": {
+    "autonomous_evolution.py": "5cff1270631efb3016afa78096be4c999b2a8cc4b675dd9a5c58d2feb67047ef",
+    "autonomous_grader.py": "079e8001323a7e613b345f776b8706fbdc2a777bef1500689e44707671cb1fbd",
+    "closed_loop_core_v5_1.py": "e7a334de372470ef50b2685260d3d11a206d2bd30e3865fc213856ea6bf887d6",
+    "contract_guard.py": "c546e4f1ae33ffb58d95fe838163656188455b55eea4ec96bf239a8462f0fa54",
+    "failure_authenticity.py": "5ac0c0942e9cf2f8dcf5c6ee18b9b0c366f741900836f7fce5810555aee4f123",
+    "formal_list_metrics.py": "e55d41123147b14ea35d7edf373f985743f7c6558bc09e501a14c73e45277aab",
+    "model_service.py": "eda3442c491e07ad727e1e6a3075b53c40f30897f0f391f2f504de930ce1b237",
+    "output_contracts.py": "c2f2a51949abebbd035e9c0502fe100e632e09c6a3c97d9478dceaac710b8338",
+    "pilot100_policy.py": "b5800b67b139e48caeb04fa82afab5a13bc4d4f0046149fc023a80803a5cc2f6",
+    "run_atomic_repair_then_pilot100.py": "cefd0a7e148c5bacd05a9679f921f20090d821140f3c97f8f3102bce88ab91b3",
+    "run_closed_loop_v5_1_20261108.py": "8606e14eeb2fc908d3e6eac2711c605fa51a9ea47ea840e84ba5f27b7f370b2d",
+    "run_formal_list.py": "99580588e866ae508cafb8c1bcfc9f0393d07084e4f7136ed1e63f07ae1e08f3",
+    "run_guarded_pilot100_20261108.py": "c929386db8edaaa1840347a97ef7b43a589380e51314167cbb14e619167b9e5c",
+    "run_pilot100_20261108.py": "fcd9bf753e3b93a7d904ec0ffbfeff08ceaef8b7bb17a2e1a1e8554cf2360485",
+    "run_reliable_pilot100.py": "a07388c1d7674d36b4be8abb9e1dec4d9ad9614671dd6fc33221ae6723a2633a",
+    "runtime_tools.py": "86383029b42693c1ca4c60d5685c9f5bd33e661e509a0e201ad24b297c545555",
+    "schema_support.py": "58a75aa12749d17e2ca907b2b4fda957d3932c74f7a02c2ef9f29da2792b0b0b"
+  },
+  "dependencies": {
+    "jsonschema": "4.25.1",
+    "referencing": "0.37.0",
+    "rpds-py": "2026.9.1",
+    "attrs": "26.1.0",
+    "jsonschema-specifications": "2025.9.1"
+  },
+  "seed_source": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_guarded_20261108T162101",
+  "import_policy": "Only schema-valid successful public facts with identical prompt and input; no answers, decisions, tests, code, scores, admission or registration imported.",
+  "source_protocol_sha256": "26ae36437a514a9e055ffaaa89ad60c56c1fa723b031b1afa808b27b8f26432e",
+  "weights_frozen": true,
+  "context": 16384,
+  "candidate_code_repairs": 3,
+  "full_requires100_completed_and_accepted": true
+}

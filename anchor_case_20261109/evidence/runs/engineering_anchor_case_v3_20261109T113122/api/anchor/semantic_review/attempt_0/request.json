@@ -1,0 +1,47 @@
+{
+  "model": "medtool-qa",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Review this literal source-alignment repair against original strings,\nrules and actual generated-tool output. Return JSON {supported:boolean,\nindex_repaired:boolean,source_binding_preserved:boolean,reason:string}. Confirm\ncorrect original character spans and quotes, every occurrence, source identity\nand absent-query rejection. This is structural evidence grounding, NOT medical\nanswer correctness. Do not replace input text or fabricate source support."
+    },
+    {
+      "role": "user",
+      "content": "{\"question\": \"Find every original-source occurrence of each literal query, with exact Unicode character start/end offsets and verbatim quotes under the fixed normalization rule. Preserve source identity and reject the absent probe. This verifies evidence anchoring, not whether the quoted text supports a medical conclusion.\", \"indexing_rules\": \"Align every query against ALL original source strings without inventing evidence.\\nInput is exactly {sources:[{source_id:string,text:string}],queries:[{query_id:string,text:string}]}.\\nIDs are nonempty, unique within their lists. All texts are strings; queries cannot\\nbe empty/whitespace-only. Normalize each ORIGINAL Unicode code point separately\\nusing unicodedata.normalize('NFKC',char).casefold(), concatenate the results, and\\ncollapse each whitespace run to ONE ASCII space. Do NOT trim, remove punctuation,\\ntranslate, infer aliases, equate different dash characters or normalize across\\ncode-point boundaries. Apply the SAME normalization to each query.\\nFind ALL substring occurrences including overlaps, in source input order then\\nascending ORIGINAL start. Map each normalized occurrence back to its original\\nzero-based Python Unicode code-point [start,end) span, NOT UTF-8 bytes or tokens.\\nEmit only matches whose WHOLE original span, normalized by the same rule, equals\\nthe normalized query. This rejects partial hits inside a casefold expansion:\\nsource U+00DF matches query ss, but NOT query s. Collapse duplicate original spans.\\nquote MUST equal original_text[start:end] exactly, including original case and\\nwhitespace. Preserve separate source IDs. Output queries in input query order,\\nmatches:[{source_id,start,end,quote}], and unsupported_query_ids in input order\\nfor exactly those queries with no matches. Empty lists are allowed. Never use\\nsemantic similarity as a match. Preserve inputs. Reject malformed objects, extra\\nkeys, wrong types, duplicate/empty IDs and blank queries with ValueError. Ordinary\\nallowed Python standard modules including unicodedata are sufficient; no files,\\nnetwork, external packages, model calls or hardcoded source/query values.\", \"public_payload\": {\"sources\": [{\"source_id\": \"PMC11872689\", \"text\": \"Baseline characteristics of the included studies are provided in Table 1. Five studies were conducted in Brazil [17, 18, 26, 28, 31], one study in each of the countries Denmark [29], Canada [27], and the United States [30]. The studies were conducted between 2014 [29] and 2024 [28]. There were five pilot trials [17, 18, 26, 28, 31] and the phases of other studies were not specified [27, 29, 30]. Two studies had a control group and were double‐blind [29, 30]. Various doses of vitamin D were used, ranging from 4000 international unit (IU)/day to 50,000 IU/week, depending on baseline vitamin D levels of the patients [18, 26, 28]. The total number of participants was 328 with an age range between 10 and 74 years. Males made up 53% (n = 174) of the total participants. The duration of diabetes ranged from 6 [27] to 66 [29] years. Furthermore, 27 participants were known to have hypertension [18, 26, 28], 48 had dyslipidemia [17, 18, 26, 28], 126 had diabetic nephropathy [17, 18, 26, 28, 29, 31], 54 had peripheral neuropathy [17, 18, 26, 28], and 34 had retinopathy [17, 18, 26, 28]. Additionally, among the participants, 39 were smokers [27, 30, 31] and 43 had a history of alcohol consumption [17, 18, 28]. Forty‐eight participants had previously used ACEI/ARB medication [17, 18, 26, 28]. Also, 27 were from a white ethnicity background [30], 48 were white European [29], and 23 were non‐Caucasian [27] (Table 1).\"}], \"queries\": [{\"query_id\": \"q1\", \"text\": \"studies\"}, {\"query_id\": \"q2\", \"text\": \"vitamin D\"}, {\"query_id\": \"q3\", \"text\": \"double‐blind\"}, {\"query_id\": \"q4\", \"text\": \"hypertension\"}, {\"query_id\": \"q5\", \"text\": \"ACEI/ARB medication\"}, {\"query_id\": \"q6\", \"text\": \"white European\"}, {\"query_id\": \"q7\", \"text\": \"__absent_literal_probe__\"}]}, \"initial_answer\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 44, \"end\": 52, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 79, \"end\": 87, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 193, \"end\": 201, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 256, \"end\": 264, \"quote\": \"studies\"}]}, {\"query_id\": \"q2\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 349, \"end\": 359, \"quote\": \"vitamin D\"}, {\"source_id\": \"PMC11872689\", \"start\": 418, \"end\": 428, \"quote\": \"vitamin D\"}]}, {\"query_id\": \"q3\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 296, \"end\": 308, \"quote\": \"double‐blind\"}]}, {\"query_id\": \"q4\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 576, \"end\": 588, \"quote\": \"hypertension\"}]}, {\"query_id\": \"q5\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 768, \"end\": 787, \"quote\": \"ACEI/ARB medication\"}]}, {\"query_id\": \"q6\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 835, \"end\": 850, \"quote\": \"white European\"}]}, {\"query_id\": \"q7\", \"matches\": []}], \"unsupported_query_ids\": [\"q7\"]}, \"final_answer\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 41, \"end\": 48, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 79, \"end\": 86, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 228, \"end\": 235, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 358, \"end\": 365, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 403, \"end\": 410, \"quote\": \"studies\"}]}, {\"query_id\": \"q2\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 480, \"end\": 489, \"quote\": \"vitamin D\"}, {\"source_id\": \"PMC11872689\", \"start\": 588, \"end\": 597, \"quote\": \"vitamin D\"}]}, {\"query_id\": \"q3\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 440, \"end\": 452, \"quote\": \"double‐blind\"}]}, {\"query_id\": \"q4\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 884, \"end\": 896, \"quote\": \"hypertension\"}]}, {\"query_id\": \"q5\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 1262, \"end\": 1281, \"quote\": \"ACEI/ARB medication\"}]}, {\"query_id\": \"q6\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 1362, \"end\": 1376, \"quote\": \"white European\"}]}, {\"query_id\": \"q7\", \"matches\": []}], \"unsupported_query_ids\": [\"q7\"]}, \"actual_generated_tool_output\": {\"queries\": [{\"query_id\": \"q1\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 41, \"end\": 48, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 79, \"end\": 86, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 228, \"end\": 235, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 358, \"end\": 365, \"quote\": \"studies\"}, {\"source_id\": \"PMC11872689\", \"start\": 403, \"end\": 410, \"quote\": \"studies\"}]}, {\"query_id\": \"q2\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 480, \"end\": 489, \"quote\": \"vitamin D\"}, {\"source_id\": \"PMC11872689\", \"start\": 588, \"end\": 597, \"quote\": \"vitamin D\"}]}, {\"query_id\": \"q3\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 440, \"end\": 452, \"quote\": \"double‐blind\"}]}, {\"query_id\": \"q4\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 884, \"end\": 896, \"quote\": \"hypertension\"}]}, {\"query_id\": \"q5\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 1262, \"end\": 1281, \"quote\": \"ACEI/ARB medication\"}]}, {\"query_id\": \"q6\", \"matches\": [{\"source_id\": \"PMC11872689\", \"start\": 1362, \"end\": 1376, \"quote\": \"white European\"}]}, {\"query_id\": \"q7\", \"matches\": []}], \"unsupported_query_ids\": [\"q7\"]}}"
+    }
+  ],
+  "temperature": 0.2,
+  "seed": 20261106,
+  "max_tokens": 2048,
+  "response_format": {
+    "type": "json_object",
+    "schema": {
+      "type": "object",
+      "properties": {
+        "supported": {
+          "type": "boolean"
+        },
+        "index_repaired": {
+          "type": "boolean"
+        },
+        "source_binding_preserved": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string",
+          "maxLength": 1200
+        }
+      },
+      "required": [
+        "supported",
+        "index_repaired",
+        "source_binding_preserved",
+        "reason"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {
+      "name": "B12-jcm-14-01036",
+      "evidence_ids": [
+        "PMC11856201:g3",
+        "PMC11856201:g4"
+      ]
+    },
+    {
+      "name": "B15-jcm-14-01036",
+      "evidence_ids": [
+        "PMC11856201:g3",
+        "PMC11856201:g4"
+      ]
+    },
+    {
+      "name": "B19-jcm-14-01036",
+      "evidence_ids": [
+        "PMC11856201:g3",
+        "PMC11856201:g4"
+      ]
+    }
+  ],
+  "unique_entity_count": 3
+}

@@ -1,0 +1,59 @@
+{
+  "scope": "Typical development demonstrations; no aggregate medicalQA score",
+  "cases": [
+    {
+      "name": "weighted_table",
+      "status": "development_passed",
+      "units": "4 numerical outputs in1derivedtask",
+      "baseline": 0,
+      "retry": 0,
+      "after": 4,
+      "independent_tests": 8,
+      "development_registered": 1,
+      "report": "../engineering_case_20261109/report.html"
+    },
+    {
+      "name": "citation_probe",
+      "status": "Manager_deferred_no_tool",
+      "note": "Posthoc namespace equivalence isdiagnostic,notrepair",
+      "report": "../citation_case_20261109/representation_audit.json"
+    },
+    {
+      "name": "source_anchors",
+      "status": "development_case_passed_with_known_boundary_issues",
+      "units": "7alignmentrequests in1derivedtask",
+      "baseline": 1,
+      "retry": 1,
+      "after": 7,
+      "independent_tests": 13,
+      "automatic_code_repairs": 3,
+      "development_registered": 1,
+      "fresh_reuses": 2,
+      "posthoc_passed": 2,
+      "posthoc_total": 5,
+      "report": "../anchor_case_20261109/report.html"
+    },
+    {
+      "name": "existing_ledger_policy_evolution",
+      "status": "development_passed",
+      "units": "12policyqueries in1derivedtask",
+      "old_tool": 0,
+      "baseline": 6,
+      "retry": 6,
+      "after_tool": 12,
+      "after_Qwen": 12,
+      "total": 12,
+      "legacy_tests": 10,
+      "new_tests": 12,
+      "combined_tests": 22,
+      "automatic_updates": 2,
+      "parent_code_sha256": "75b7c64645d3557e15ccd24db903939c1429e2027d8589ddefc818b2570a0a9f",
+      "new_code_sha256": "0b75e1050a1af7ddb83f2639a77635a5ec4f00bb7dd4cf5bda716f2d71d8b679",
+      "development_registered": 1,
+      "fresh_reuses": 2,
+      "report": "../policy_case_20261109/report.html"
+    }
+  ],
+  "stable_registered_from_these_cases": 0,
+  "formal100_gate_unchanged": true
+}

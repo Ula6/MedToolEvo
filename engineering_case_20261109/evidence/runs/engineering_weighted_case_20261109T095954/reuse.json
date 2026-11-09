@@ -1,0 +1,60 @@
+[
+  {
+    "input": "original",
+    "selected_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "fresh_pid": 1836435,
+    "output": {
+      "weighted_mean": 9.271921,
+      "weighted_population_variance": 1.738761,
+      "weighted_population_sd": 1.318621,
+      "weighted_geometric_mean": 9.187657
+    },
+    "executor_answer": {
+      "weighted_mean": 9.271921,
+      "weighted_population_variance": 1.738761,
+      "weighted_population_sd": 1.318621,
+      "weighted_geometric_mean": 9.187657,
+      "evidence_id": "e2",
+      "quote": "R01: Breast (231); mean=13.1; n=231.",
+      "limitations": "Summaries are arithmetic aggregates of reported subgroup means weighted by n; they do not represent pooled within-study patient variance or measurement precision."
+    }
+  },
+  {
+    "input": "new_subset",
+    "selected_rows": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "fresh_pid": 1836441,
+    "output": {
+      "weighted_mean": 9.196301,
+      "weighted_population_variance": 0.277442,
+      "weighted_population_sd": 0.526728,
+      "weighted_geometric_mean": 9.180429
+    },
+    "executor_answer": {
+      "weighted_mean": 9.196301,
+      "weighted_population_variance": 0.277442,
+      "weighted_population_sd": 0.526728,
+      "weighted_geometric_mean": 9.180429,
+      "evidence_id": "e2",
+      "quote": "R03: Endocrine (78); mean=7.6; n=78.\nR04: Gastrointestinal (1014); mean=9.6; n=1014.\nR05: Genitourinary (452); mean=8.8; n=452.\nR06: Gynaecology (213); mean=8.7; n=213.",
+      "limitations": "Summaries are computed only on the four specified subgroup means using their counts as weights; they do not represent pooled within-study patient variability or measurement precision."
+    }
+  }
+]

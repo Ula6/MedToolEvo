@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"weighted_mean\": 9.271921,\n  \"weighted_population_variance\": 1.738761,\n  \"weighted_population_sd\": 1.318621,\n  \"weighted_geometric_mean\": 9.187657,\n  \"evidence_id\": \"e2\",\n  \"quote\": \"R01: Breast (231); mean=13.1; n=231.\",\n  \"limitations\": \"Summaries are arithmetic aggregates of reported subgroup means weighted by n; they do not represent pooled within-study patient variance or measurement precision.\"\n}"
+      }
+    }
+  ],
+  "created": 1794218591,
+  "model": "medtool-qa",
+  "system_fingerprint": "b12139-9c9074e14",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 2067,
+    "total_tokens": 2212,
+    "prompt_tokens_details": {
+      "cached_tokens": 1957
+    }
+  },
+  "id": "chatcmpl-3CmTxNB8xpJ1rXgatCXuhKsE75zX2n0l",
+  "timings": {
+    "cache_n": 1957,
+    "prompt_n": 110,
+    "prompt_ms": 396.254,
+    "prompt_per_token_ms": 3.602309090909091,
+    "prompt_per_second": 277.59972139082504,
+    "predicted_n": 145,
+    "predicted_ms": 5285.694,
+    "predicted_per_token_ms": 36.706208333333336,
+    "predicted_per_second": 27.243347798794254
+  }
+}

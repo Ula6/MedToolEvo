@@ -1,0 +1,43 @@
+{
+  "answer": {
+    "weighted_mean": 9.066327,
+    "weighted_population_variance": 1.634854,
+    "weighted_population_sd": 1.278614,
+    "weighted_geometric_mean": 8.837862,
+    "evidence_id": "e2",
+    "quote": "R01: Breast (231); mean=13.1; n=231.",
+    "limitations": "Summaries are computed from rounded subgroup means and counts only; they do not represent pooled within-study patient variability or measurement precision."
+  },
+  "evaluation": {
+    "pass": false,
+    "correct": 0,
+    "total": 4,
+    "accuracy": 0.0,
+    "checks": {
+      "weighted_mean": {
+        "predicted": 9.066327,
+        "expected": 9.271921,
+        "absolute_error": 0.2055940000000014,
+        "pass": false
+      },
+      "weighted_population_variance": {
+        "predicted": 1.634854,
+        "expected": 1.738761,
+        "absolute_error": 0.10390699999999997,
+        "pass": false
+      },
+      "weighted_population_sd": {
+        "predicted": 1.278614,
+        "expected": 1.318621,
+        "absolute_error": 0.040007000000000126,
+        "pass": false
+      },
+      "weighted_geometric_mean": {
+        "predicted": 8.837862,
+        "expected": 9.187657,
+        "absolute_error": 0.3497950000000003,
+        "pass": false
+      }
+    }
+  }
+}

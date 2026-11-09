@@ -1,0 +1,734 @@
+{
+  "task_id": "54ecb640445c3b5a5f000001",
+  "question": "Which are the main clinical features of Fanconi anemia?",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "cytopenia",
+      "developmental defects",
+      "tumor predisposition",
+      "diverse congenital malformations",
+      "progressive pancytopenia",
+      "predisposition to hematologic malignancies",
+      "predisposition to solid tumors",
+      "stem cell loss",
+      "progressive bone marrow failure",
+      "sterility",
+      "diverse developmental abnormalities",
+      "profound predisposition to neoplasia",
+      "short stature",
+      "skeletal abnormalities",
+      "skin abnormalities",
+      "increased risk of malignancies",
+      "congenital abnormalities",
+      "defective haemopoiesis",
+      "high risk of acute myeloid leukaemia",
+      "high risk of certain solid tumours",
+      "hypersensitivity to DNA cross-linking agents",
+      "chromosomal instability",
+      "susceptibility to cancer",
+      "birth defects",
+      "hematopoietic failure",
+      "sensitivity to cross-linking agents",
+      "predisposition to apoptosis",
+      "chromosomal aberrations",
+      "predisposition to malignancy",
+      "progressive bone marrow failure starting in the first decade of life",
+      "chromosome instability",
+      "hypersensitivity to mitomycin C",
+      "hypersensitivity to cisplatin",
+      "susceptible to leukemia",
+      "susceptible to squamous cell carcinomas of the head and neck",
+      "susceptible to squamous cell carcinomas of the gynecologic system",
+      "pancytopenia"
+    ],
+    "supports": [
+      {
+        "item": "cytopenia",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group"
+      },
+      {
+        "item": "developmental defects",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group"
+      },
+      {
+        "item": "tumor predisposition",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group"
+      },
+      {
+        "item": "diverse congenital malformations",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "progressive pancytopenia",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "predisposition to hematologic malignancies",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "predisposition to solid tumors",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "stem cell loss",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "progressive bone marrow failure",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "sterility",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "diverse developmental abnormalities",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "profound predisposition to neoplasia",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "short stature",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "skeletal abnormalities",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "skin abnormalities",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "increased risk of malignancies",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "congenital abnormalities",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "defective haemopoiesis",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "high risk of acute myeloid leukaemia",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "high risk of certain solid tumours",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "hypersensitivity to DNA cross-linking agents",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "chromosomal instability",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "susceptibility to cancer",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "birth defects",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "hematopoietic failure",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "sensitivity to cross-linking agents",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "predisposition to apoptosis",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "chromosomal aberrations",
+        "evidence_id": "e8",
+        "quote": "Features of chromosomal aberrations, hypersensitivity to DNA crosslinking agents, and predisposition to malignancy have suggested a fundamental anomaly of DNA repair in Fanconi anemia."
+      },
+      {
+        "item": "predisposition to malignancy",
+        "evidence_id": "e8",
+        "quote": "Features of chromosomal aberrations, hypersensitivity to DNA crosslinking agents, and predisposition to malignancy have suggested a fundamental anomaly of DNA repair in Fanconi anemia."
+      },
+      {
+        "item": "progressive bone marrow failure starting in the first decade of life",
+        "evidence_id": "e9",
+        "quote": "Progressive bone marrow failure starting in the first decade of life is one of the main characteristics of Fanconi anemia"
+      },
+      {
+        "item": "chromosome instability",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "hypersensitivity to mitomycin C",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "hypersensitivity to cisplatin",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to leukemia",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to squamous cell carcinomas of the head and neck",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to squamous cell carcinomas of the gynecologic system",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "pancytopenia",
+        "evidence_id": "e11",
+        "quote": "Bone marrow failure resulting in pancytopenia is the main cause of death of FA patients"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts from PubMed sources; specific frequencies, age of onset beyond 'first decade', and detailed phenotypic subtypes are not quantified. Cellular features like chromosomal instability and hypersensitivity to DNA cross-linking agents are included as they are described as clinical or defining features in the provided texts.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 34,
+      "fn": 1,
+      "precision": 0.08108108108108109,
+      "recall": 0.75,
+      "f1": 0.14634146341463414
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "cytopenia",
+      "developmental defects",
+      "tumor predisposition",
+      "diverse congenital malformations",
+      "progressive pancytopenia",
+      "predisposition to hematologic malignancies",
+      "predisposition to solid tumors",
+      "stem cell loss",
+      "progressive bone marrow failure",
+      "sterility",
+      "diverse developmental abnormalities",
+      "profound predisposition to neoplasia",
+      "short stature",
+      "skeletal abnormalities",
+      "skin abnormalities",
+      "increased risk of malignancies",
+      "congenital abnormalities",
+      "defective haemopoiesis",
+      "high risk of acute myeloid leukaemia",
+      "high risk of certain solid tumours",
+      "hypersensitivity to DNA cross-linking agents",
+      "chromosomal instability",
+      "susceptibility to cancer",
+      "birth defects",
+      "hematopoietic failure",
+      "sensitivity to cross-linking agents",
+      "predisposition to apoptosis",
+      "chromosomal aberrations",
+      "predisposition to malignancy",
+      "progressive bone marrow failure starting in the first decade of life",
+      "chromosome instability",
+      "hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on",
+      "susceptible to leukemia",
+      "susceptible to squamous cell carcinomas of the head and neck",
+      "susceptible to squamous cell carcinomas of the gynecologic system",
+      "bone marrow failure resulting in pancytopenia"
+    ],
+    "supports": [
+      {
+        "item": "cytopenia",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group, suggesting that the gene products participate in a common pathway."
+      },
+      {
+        "item": "developmental defects",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group, suggesting that the gene products participate in a common pathway."
+      },
+      {
+        "item": "tumor predisposition",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group, suggesting that the gene products participate in a common pathway."
+      },
+      {
+        "item": "diverse congenital malformations",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "progressive pancytopenia",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "predisposition to hematologic malignancies",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "predisposition to solid tumors",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "stem cell loss",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "progressive bone marrow failure",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "sterility",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "diverse developmental abnormalities",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "profound predisposition to neoplasia",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "short stature",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "skeletal abnormalities",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "skin abnormalities",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "increased risk of malignancies",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "congenital abnormalities",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "defective haemopoiesis",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "high risk of acute myeloid leukaemia",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "high risk of certain solid tumours",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "hypersensitivity to DNA cross-linking agents",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "chromosomal instability",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "susceptibility to cancer",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "birth defects",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "hematopoietic failure",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "sensitivity to cross-linking agents",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "predisposition to apoptosis",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "chromosomal aberrations",
+        "evidence_id": "e8",
+        "quote": "Features of chromosomal aberrations, hypersensitivity to DNA crosslinking agents, and predisposition to malignancy have suggested a fundamental anomaly of DNA repair in Fanconi anemia."
+      },
+      {
+        "item": "predisposition to malignancy",
+        "evidence_id": "e8",
+        "quote": "Features of chromosomal aberrations, hypersensitivity to DNA crosslinking agents, and predisposition to malignancy have suggested a fundamental anomaly of DNA repair in Fanconi anemia."
+      },
+      {
+        "item": "progressive bone marrow failure starting in the first decade of life",
+        "evidence_id": "e9",
+        "quote": "Progressive bone marrow failure starting in the first decade of life is one of the main characteristics of Fanconi anemia"
+      },
+      {
+        "item": "chromosome instability",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to leukemia",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to squamous cell carcinomas of the head and neck",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to squamous cell carcinomas of the gynecologic system",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "bone marrow failure resulting in pancytopenia",
+        "evidence_id": "e11",
+        "quote": "Bone marrow failure resulting in pancytopenia is the main cause of death of FA patients"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence includes both clinical and cellular features; some items describe cellular mechanisms (e.g., chromosomal instability, hypersensitivity to DNA cross-linking agents) rather than direct clinical symptoms. Some features are described as 'main' or 'most significant' while others are listed generally. The evidence does not distinguish between all subtypes of Fanconi anemia, though it notes heterogeneity.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 33,
+      "fn": 1,
+      "precision": 0.08333333333333333,
+      "recall": 0.75,
+      "f1": 0.15
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "cytopenia",
+      "developmental defects",
+      "tumor predisposition",
+      "diverse congenital malformations",
+      "progressive pancytopenia",
+      "predisposition to hematologic malignancies",
+      "predisposition to solid tumors",
+      "stem cell loss",
+      "progressive bone marrow failure",
+      "sterility",
+      "diverse developmental abnormalities",
+      "profound predisposition to neoplasia",
+      "short stature",
+      "skeletal abnormalities",
+      "skin abnormalities",
+      "increased risk of malignancies",
+      "congenital abnormalities",
+      "defective haemopoiesis",
+      "high risk of acute myeloid leukaemia",
+      "high risk of certain solid tumours",
+      "hypersensitivity to DNA cross-linking agents",
+      "chromosomal instability",
+      "susceptibility to cancer",
+      "birth defects",
+      "hematopoietic failure",
+      "sensitivity to cross-linking agents",
+      "predisposition to apoptosis",
+      "chromosomal aberrations",
+      "predisposition to malignancy",
+      "progressive bone marrow failure starting in the first decade of life",
+      "chromosome instability",
+      "hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on",
+      "susceptible to leukemia",
+      "susceptible to squamous cell carcinomas of the head and neck",
+      "susceptible to squamous cell carcinomas of the gynecologic system",
+      "bone marrow failure resulting in pancytopenia"
+    ],
+    "supports": [
+      {
+        "item": "cytopenia",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group, suggesting that the gene products participate in a common pathway."
+      },
+      {
+        "item": "developmental defects",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group, suggesting that the gene products participate in a common pathway."
+      },
+      {
+        "item": "tumor predisposition",
+        "evidence_id": "e1",
+        "quote": "The clinical features of cytopenia, developmental defects, and tumor predisposition are similar in each group, suggesting that the gene products participate in a common pathway."
+      },
+      {
+        "item": "diverse congenital malformations",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "progressive pancytopenia",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "predisposition to hematologic malignancies",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "predisposition to solid tumors",
+        "evidence_id": "e2",
+        "quote": "Fanconi anemia (FA) is a genetically and phenotypically heterogeneous recessive disorder characterized by diverse congenital malformations, progressive pancytopenia and predisposition to both hematologic malignancies and solid tumors"
+      },
+      {
+        "item": "stem cell loss",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "progressive bone marrow failure",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "sterility",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "diverse developmental abnormalities",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "profound predisposition to neoplasia",
+        "evidence_id": "e3",
+        "quote": "The most significant and consistent phenotypic characteristics are stem cell loss, causing progressive bone marrow failure and sterility, diverse developmental abnormalities and a profound predisposition to neoplasia"
+      },
+      {
+        "item": "short stature",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "skeletal abnormalities",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "skin abnormalities",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "increased risk of malignancies",
+        "evidence_id": "e4",
+        "quote": "Fanconi anemia (FA) is an autosomal recessive, cancer susceptibility disorder characterized by diverse clinical features, such as short stature, skeletal or skin abnormalities, progressive bone marrow (BM) failure, and increased risk of malignancies"
+      },
+      {
+        "item": "congenital abnormalities",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "defective haemopoiesis",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "high risk of acute myeloid leukaemia",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "high risk of certain solid tumours",
+        "evidence_id": "e5",
+        "quote": "Fanconi anaemia (FA) is an autosomal recessive disease characterised by congenital abnormalities, defective haemopoiesis, and a high risk of developing acute myeloid leukaemia and certain solid tumours"
+      },
+      {
+        "item": "hypersensitivity to DNA cross-linking agents",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "chromosomal instability",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "susceptibility to cancer",
+        "evidence_id": "e6",
+        "quote": "Fanconi anemia (FA), a recessive syndrome with both autosomal and X-linked inheritance, features diverse clinical symptoms, such as progressive bone marrow failure, hypersensitivity to DNA cross-linking agents, chromosomal instability and susceptibility to cancer."
+      },
+      {
+        "item": "birth defects",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "hematopoietic failure",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "sensitivity to cross-linking agents",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "predisposition to apoptosis",
+        "evidence_id": "e7",
+        "quote": "Fanconi anemia (FA) consists of a group of at least five autosomal recessive disorders that share both clinical (e.g., birth defects and hematopoietic failure) and cellular (e.g., sensitivity to cross-linking agents and predisposition to apoptosis) features with each other."
+      },
+      {
+        "item": "chromosomal aberrations",
+        "evidence_id": "e8",
+        "quote": "Features of chromosomal aberrations, hypersensitivity to DNA crosslinking agents, and predisposition to malignancy have suggested a fundamental anomaly of DNA repair in Fanconi anemia."
+      },
+      {
+        "item": "predisposition to malignancy",
+        "evidence_id": "e8",
+        "quote": "Features of chromosomal aberrations, hypersensitivity to DNA crosslinking agents, and predisposition to malignancy have suggested a fundamental anomaly of DNA repair in Fanconi anemia."
+      },
+      {
+        "item": "progressive bone marrow failure starting in the first decade of life",
+        "evidence_id": "e9",
+        "quote": "Progressive bone marrow failure starting in the first decade of life is one of the main characteristics of Fanconi anemia"
+      },
+      {
+        "item": "chromosome instability",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to leukemia",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to squamous cell carcinomas of the head and neck",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "susceptible to squamous cell carcinomas of the gynecologic system",
+        "evidence_id": "e10",
+        "quote": "FA is an autosomal recessive disease with three main features: chromosome instability, hypersensitivity to DNA cross-linking agents such as mitomycin C (MMC), cisplatin and so on, and susceptible to a number of cancer types, mainly leukemia and squamous cell carcinomas of the head and neck or gynecologic system"
+      },
+      {
+        "item": "bone marrow failure resulting in pancytopenia",
+        "evidence_id": "e11",
+        "quote": "Bone marrow failure resulting in pancytopenia is the main cause of death of FA patients"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence includes both clinical and cellular features; some items describe cellular mechanisms (e.g., chromosomal instability, hypersensitivity to DNA cross-linking agents) rather than direct clinical symptoms. Some features are described as 'main' or 'most significant' while others are listed generally. The evidence does not distinguish between all subtypes of Fanconi anemia, though it notes heterogeneity.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 3,
+      "fp": 33,
+      "fn": 1,
+      "precision": 0.08333333333333333,
+      "recall": 0.75,
+      "f1": 0.15
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/10915769",
+    "http://www.ncbi.nlm.nih.gov/pubmed/12525534",
+    "http://www.ncbi.nlm.nih.gov/pubmed/16675878",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21131752",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21956823",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23444773",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23585528",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24604962",
+    "http://www.ncbi.nlm.nih.gov/pubmed/24773018",
+    "http://www.ncbi.nlm.nih.gov/pubmed/8058745",
+    "http://www.ncbi.nlm.nih.gov/pubmed/9389754"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/54ecb640445c3b5a5f000001/attempt_0"
+}

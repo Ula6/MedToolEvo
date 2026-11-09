@@ -1,0 +1,323 @@
+{
+  "task_id": "532c0d7fd6d3ac6a3400001c",
+  "question": "List programs suitable for pharmacophore modelling",
+  "stage": "development",
+  "initial_executor": {
+    "items": [
+      "LigandScout",
+      "Discovery Studio",
+      "Catalyst",
+      "PharmaGist",
+      "HypoGen",
+      "Genetic Algorithm Similarity Program (GASP)",
+      "MOE",
+      "CATALYST HypoRefine",
+      "CatalystHipHop",
+      "Catalyst/HypoGen",
+      "Pharmacophore Elucidation",
+      "Catalyst/HipHop",
+      "HipHop"
+    ],
+    "supports": [
+      {
+        "item": "LigandScout",
+        "evidence_id": "e1",
+        "quote": "Pharmacophore models based on thermolysin binding modes and activity profiles were generated using the LigandScout program"
+      },
+      {
+        "item": "Discovery Studio",
+        "evidence_id": "e2",
+        "quote": "In this study, pharmacophore hypotheses based on known inhibitors were generated using common feature pharmacophore generation protocol available in Discovery Studio program"
+      },
+      {
+        "item": "Catalyst",
+        "evidence_id": "e3",
+        "quote": " A pharmacophore-based screening was then carried out using the program Catalyst"
+      },
+      {
+        "item": "PharmaGist",
+        "evidence_id": "e4",
+        "quote": "The PharmaGist employed algorithm to identify the best pharmacophores by computing multiple flexible alignments between the input ligands."
+      },
+      {
+        "item": "HypoGen",
+        "evidence_id": "e5",
+        "quote": "Pharmacophore models of c-Met kinase inhibitors have been developed based on 22 diverse compounds by using HypoGen algorithm implemented in Discovery studio program package."
+      },
+      {
+        "item": "Genetic Algorithm Similarity Program (GASP)",
+        "evidence_id": "e7",
+        "quote": "Genetic Algorithm Similarity Program (GASP) was used to derive a 3D pharmacophore model which was used in effective alignment of data set."
+      },
+      {
+        "item": "MOE",
+        "evidence_id": "e9",
+        "quote": " pharmacophore model has been generated from the training set by means of the MOE (molecular operating environment) program."
+      },
+      {
+        "item": "CATALYST HypoRefine",
+        "evidence_id": "e11",
+        "quote": "Pharmacophore model was developed for the first time, on a training data set of 22 CCR3 antagonists, using CATALYST HypoRefine program."
+      },
+      {
+        "item": "CatalystHipHop",
+        "evidence_id": "e12",
+        "quote": "The CatalystHipHop approach was used to generate a pharmacophore model for cyclooxygenase-2 (COX-2) inhibitors based on a training set of 15 active inhibitors (1â15)."
+      },
+      {
+        "item": "Catalyst/HypoGen",
+        "evidence_id": "e14",
+        "quote": "pharmacophore model (Hypo1) with a well prediction capacity for CysLT(1) antagonists was developed using Catalyst/HypoGen program."
+      },
+      {
+        "item": "Pharmacophore Elucidation",
+        "evidence_id": "e16",
+        "quote": "The superposition of the ligands was performed with the tool Pharmacophore Elucidation (MOE-package"
+      },
+      {
+        "item": "Catalyst/HipHop",
+        "evidence_id": "e18",
+        "quote": "pharmacophore models were generated for AT1 and ET(A) receptors based on highly selective AT1 and ET(A) antagonists using the program Catalyst/HipHop"
+      },
+      {
+        "item": "HipHop",
+        "evidence_id": "e19",
+        "quote": " In this study, chemical feature based pharmacophore models of inhibitors of 5-LOX have been developed with the aid of HipHop and HypoGen modules within Catalyst program package"
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "The list is derived exclusively from the provided abstracts (e1-e20) and may not represent all available software. Some items refer to specific modules (e.g., HypoGen, HipHop) within larger packages (e.g., Catalyst, Discovery Studio) rather than standalone programs. The evidence does not distinguish between commercial availability, open-source status, or specific version requirements.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 9,
+      "fn": 2,
+      "precision": 0.3076923076923077,
+      "recall": 0.6666666666666666,
+      "f1": 0.42105263157894735
+    }
+  },
+  "same_evidence_Qwen": {
+    "items": [
+      "LigandScout",
+      "Discovery Studio",
+      "Catalyst",
+      "PharmaGist",
+      "Genetic Algorithm Similarity Program (GASP)",
+      "MOE",
+      "CATALYST HypoRefine",
+      "CatalystHipHop",
+      "Catalyst/HypoGen",
+      "Pharmacophore Elucidation",
+      "Catalyst/HipHop",
+      "HipHop",
+      "HypoGen"
+    ],
+    "supports": [
+      {
+        "item": "LigandScout",
+        "evidence_id": "e1",
+        "quote": "Pharmacophore models based on thermolysin binding modes and activity profiles were generated using the LigandScout program"
+      },
+      {
+        "item": "Discovery Studio",
+        "evidence_id": "e2",
+        "quote": "In this study, pharmacophore hypotheses based on known inhibitors were generated using common feature pharmacophore generation protocol available in Discovery Studio program"
+      },
+      {
+        "item": "Catalyst",
+        "evidence_id": "e3",
+        "quote": " A pharmacophore-based screening was then carried out using the program Catalyst"
+      },
+      {
+        "item": "PharmaGist",
+        "evidence_id": "e4",
+        "quote": "The PharmaGist employed algorithm to identify the best pharmacophores by computing multiple flexible alignments between the input ligands."
+      },
+      {
+        "item": "Genetic Algorithm Similarity Program (GASP)",
+        "evidence_id": "e7",
+        "quote": "Genetic Algorithm Similarity Program (GASP) was used to derive a 3D pharmacophore model which was used in effective alignment of data set."
+      },
+      {
+        "item": "MOE",
+        "evidence_id": "e9",
+        "quote": " pharmacophore model has been generated from the training set by means of the MOE (molecular operating environment) program."
+      },
+      {
+        "item": "CATALYST HypoRefine",
+        "evidence_id": "e11",
+        "quote": "Pharmacophore model was developed for the first time, on a training data set of 22 CCR3 antagonists, using CATALYST HypoRefine program."
+      },
+      {
+        "item": "CatalystHipHop",
+        "evidence_id": "e12",
+        "quote": "The CatalystHipHop approach was used to generate a pharmacophore model for cyclooxygenase-2 (COX-2) inhibitors based on a training set of 15 active inhibitors (1â15)."
+      },
+      {
+        "item": "Catalyst/HypoGen",
+        "evidence_id": "e14",
+        "quote": "pharmacophore model (Hypo1) with a well prediction capacity for CysLT(1) antagonists was developed using Catalyst/HypoGen program."
+      },
+      {
+        "item": "Pharmacophore Elucidation",
+        "evidence_id": "e16",
+        "quote": "The superposition of the ligands was performed with the tool Pharmacophore Elucidation (MOE-package"
+      },
+      {
+        "item": "Catalyst/HipHop",
+        "evidence_id": "e18",
+        "quote": "pharmacophore models were generated for AT1 and ET(A) receptors based on highly selective AT1 and ET(A) antagonists using the program Catalyst/HipHop"
+      },
+      {
+        "item": "HipHop",
+        "evidence_id": "e19",
+        "quote": " In this study, chemical feature based pharmacophore models of inhibitors of 5-LOX have been developed with the aid of HipHop and HypoGen modules within Catalyst program package"
+      },
+      {
+        "item": "HypoGen",
+        "evidence_id": "e17",
+        "quote": "Known PDE-5 inhibitors were used to construct a three dimensional quantitative structure-activity relationship (3D QSAR) model by HypoGen program."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts of specific studies; suitability may vary by specific pharmacophore type (ligand-based vs structure-based) or required features not detailed in abstracts. Some entries refer to specific modules (e.g., HypoGen, HipHop) within larger suites (Catalyst, Discovery Studio) which are listed separately for precision.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 9,
+      "fn": 2,
+      "precision": 0.3076923076923077,
+      "recall": 0.6666666666666666,
+      "f1": 0.42105263157894735
+    }
+  },
+  "tool_augmented_final": {
+    "items": [
+      "LigandScout",
+      "Discovery Studio",
+      "Catalyst",
+      "PharmaGist",
+      "Genetic Algorithm Similarity Program (GASP)",
+      "MOE",
+      "CATALYST HypoRefine",
+      "CatalystHipHop",
+      "Catalyst/HypoGen",
+      "Pharmacophore Elucidation",
+      "Catalyst/HipHop",
+      "HipHop",
+      "HypoGen"
+    ],
+    "supports": [
+      {
+        "item": "LigandScout",
+        "evidence_id": "e1",
+        "quote": "Pharmacophore models based on thermolysin binding modes and activity profiles were generated using the LigandScout program"
+      },
+      {
+        "item": "Discovery Studio",
+        "evidence_id": "e2",
+        "quote": "In this study, pharmacophore hypotheses based on known inhibitors were generated using common feature pharmacophore generation protocol available in Discovery Studio program"
+      },
+      {
+        "item": "Catalyst",
+        "evidence_id": "e3",
+        "quote": " A pharmacophore-based screening was then carried out using the program Catalyst"
+      },
+      {
+        "item": "PharmaGist",
+        "evidence_id": "e4",
+        "quote": "The PharmaGist employed algorithm to identify the best pharmacophores by computing multiple flexible alignments between the input ligands."
+      },
+      {
+        "item": "Genetic Algorithm Similarity Program (GASP)",
+        "evidence_id": "e7",
+        "quote": "Genetic Algorithm Similarity Program (GASP) was used to derive a 3D pharmacophore model which was used in effective alignment of data set."
+      },
+      {
+        "item": "MOE",
+        "evidence_id": "e9",
+        "quote": " pharmacophore model has been generated from the training set by means of the MOE (molecular operating environment) program."
+      },
+      {
+        "item": "CATALYST HypoRefine",
+        "evidence_id": "e11",
+        "quote": "Pharmacophore model was developed for the first time, on a training data set of 22 CCR3 antagonists, using CATALYST HypoRefine program."
+      },
+      {
+        "item": "CatalystHipHop",
+        "evidence_id": "e12",
+        "quote": "The CatalystHipHop approach was used to generate a pharmacophore model for cyclooxygenase-2 (COX-2) inhibitors based on a training set of 15 active inhibitors (1â15)."
+      },
+      {
+        "item": "Catalyst/HypoGen",
+        "evidence_id": "e14",
+        "quote": "pharmacophore model (Hypo1) with a well prediction capacity for CysLT(1) antagonists was developed using Catalyst/HypoGen program."
+      },
+      {
+        "item": "Pharmacophore Elucidation",
+        "evidence_id": "e16",
+        "quote": "The superposition of the ligands was performed with the tool Pharmacophore Elucidation (MOE-package"
+      },
+      {
+        "item": "Catalyst/HipHop",
+        "evidence_id": "e18",
+        "quote": "pharmacophore models were generated for AT1 and ET(A) receptors based on highly selective AT1 and ET(A) antagonists using the program Catalyst/HipHop"
+      },
+      {
+        "item": "HipHop",
+        "evidence_id": "e19",
+        "quote": " In this study, chemical feature based pharmacophore models of inhibitors of 5-LOX have been developed with the aid of HipHop and HypoGen modules within Catalyst program package"
+      },
+      {
+        "item": "HypoGen",
+        "evidence_id": "e17",
+        "quote": "Known PDE-5 inhibitors were used to construct a three dimensional quantitative structure-activity relationship (3D QSAR) model by HypoGen program."
+      }
+    ],
+    "invalid_supports": [],
+    "unsupported_items": [],
+    "limitations": "Evidence is limited to abstracts of specific studies; suitability may vary by specific pharmacophore type (ligand-based vs structure-based) or required features not detailed in abstracts. Some entries refer to specific modules (e.g., HypoGen, HipHop) within larger suites (Catalyst, Discovery Studio) which are listed separately for precision.",
+    "source_binding_complete": true,
+    "score": {
+      "status": "scored",
+      "tp": 4,
+      "fp": 9,
+      "fn": 2,
+      "precision": 0.3076923076923077,
+      "recall": 0.6666666666666666,
+      "f1": 0.42105263157894735
+    }
+  },
+  "used_tools": [],
+  "tool_trace": null,
+  "action": "no_update",
+  "errors": [],
+  "source_groups": [
+    "http://www.ncbi.nlm.nih.gov/pubmed/17668276",
+    "http://www.ncbi.nlm.nih.gov/pubmed/19691298",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20045317",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20055175",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20085380",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20427100",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20499259",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20621485",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21138791",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21143043",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21179343",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21284830",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21342558",
+    "http://www.ncbi.nlm.nih.gov/pubmed/21955456",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22272142",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22546667",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22553386",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22587766",
+    "http://www.ncbi.nlm.nih.gov/pubmed/22779800",
+    "http://www.ncbi.nlm.nih.gov/pubmed/23140189"
+  ],
+  "attempt": "/home/supervisor/project/sy/MedToolEvo/runs/pilot100_reliable_v61_20261109T064147/development/tasks/532c0d7fd6d3ac6a3400001c/attempt_0"
+}
