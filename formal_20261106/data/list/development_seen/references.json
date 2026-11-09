@@ -1,0 +1,281 @@
+[
+  {
+    "id": "58a6c94860087bc10a00002a",
+    "type": "list",
+    "exact_answer": [
+      [
+        "K27M in H3F3A"
+      ],
+      [
+        "G34R/V in HIST1H3B"
+      ]
+    ],
+    "ideal_answer": [
+      "About 80% of Diffuse intrinsic pontine glioma (DIPG) cases and 70% of midline glioblastomas contain a mutation at one allele of the H3F3A gene (encoding histone H3 variant H3.3), replacing the lysine 27 with methionine (K27M). Moreover, approximately 30% of pediatric high grade gliomas (pedHGG) including GBM and DIPG harbor a lysine 27 mutation (K27M) in histone 3.3 (H3.3) which is correlated with poor outcome. Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1)",
+      "Moreover, approximately 30% of pediatric high grade gliomas (pedHGG) including GBM and DIPG harbor a lysine 27 mutation (K27M) in histone 3.3 (H3.3) which is correlated with poor outcome and was shown to influence EZH2 function Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1) Recent studies have identified a Lys 27-to-methionine (K27M) mutation at one allele of H3F3A, one of the two genes encoding histone H3 variant H3.3, in 60% of high-grade pediatric glioma cases.",
+      "Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1). Two new studies show that the known histone H3 alteration p.Lys27Met in pediatric glioma leads to globally diminished trimethylation at histone H3 lysine 27. These results indicate that H3.3K27M mutation reprograms epigenetic landscape and gene expression, which may drive tumorigenesis.",
+      ", approximately 30% of pediatric high grade gliomas (pedhgg) including gbm and dipg harbor a lysine 27 mutation (k27m) in histone 3.3 (h3.3) which is correlated with poor outcome and was shown to influence ezh2 function . the h3f3a mutant allele found in high-grade pediatric glioma by real-time pcr . studies on high-grade pediatric gbm have identified two recurrent mutations (k27m and g34r/v) in genes encoding histone h3 (h3f3a for h3.3 and hist1h3b for h3.1) . has been reported recently that about 80% of dipg cases and 70% of midline glioblastomas contain a mutation at one allele of the h3f3a gene (encoding histone h3 variant h3.3) , replacing the lysine 27 with methionine (k27m). . , discuss vaccine treatment for children diagnosed with malignant glioma , through targeting epha2 , il-13rα2 and/or histone h3 k27m , while in adults , treatments with rintega , prophage series g-100 and dendritic cells are explored. . studies have identified a lys 27-to-methionine (k27m) mutation at one allele of h3f3a , one of the two genes encoding histone h3 variant h3.3 , in 60% of high-grade pediatric glioma cases. . new studies show that the known histone h3 alteration p.lys27met in pediatric glioma leads to globally diminished trimethylation at histone h3 lysine 27 . were able to discern the h3f3a k27m mutation in a newly obtained pediatric brainstem glioblastoma sample whose h3.3 status was not known previously , and in three other dipg samples as well as paraffin embedded samples these results demonstrate that have developed a new reliable procedure for detecting the h3f3a k27m mutation in pediatric glioblastoma patient samples. . "
+    ]
+  },
+  {
+    "id": "6432fb1957b1c7a31500001e",
+    "type": "list",
+    "exact_answer": [
+      [
+        "adults with mantle cell lymphoma who have received at least one prior therapy"
+      ],
+      [
+        "for adults with Waldenström macroglobulinemia"
+      ],
+      [
+        "for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+      ]
+    ],
+    "ideal_answer": [
+      "Zanubrutinib is approved for treating adults with mantle cell lymphoma who have received at least one prior therapy, for adults with Waldenström macroglobulinemia, and for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy."
+    ]
+  },
+  {
+    "id": "65f82218c4010b4d7800003e",
+    "type": "list",
+    "exact_answer": [
+      [
+        "Erythema nodosum leprosum"
+      ],
+      [
+        "Multiple myeloma"
+      ],
+      [
+        "Graft versus host disease"
+      ],
+      [
+        "Mycobacterial infection"
+      ],
+      [
+        "Severe recurrent aphthous stomatitis"
+      ],
+      [
+        "Primary brain malignancies"
+      ],
+      [
+        "HIV- associated wasting syndrome"
+      ],
+      [
+        "Crohn's disease"
+      ],
+      [
+        "Kaposi's sarcoma"
+      ],
+      [
+        "Myelodysplastic syndrome"
+      ],
+      [
+        "Hematopoietic stem cell transplantation"
+      ],
+      [
+        "Hereditary hemorrhagic telangiectasia"
+      ],
+      [
+        "aphthous stomatitis in children"
+      ],
+      [
+        "chronic graft-versus-host disease in children"
+      ],
+      [
+        "Mycobacterial infection"
+      ],
+      [
+        "severe oral and genital ulcers associated with HIV and Behçet's disease"
+      ],
+      [
+        "Waldenstrom's macroglobulinemia"
+      ]
+    ],
+    "ideal_answer": [
+      "Thalidomide is a medication with several indications. It is primarily used for treating multiple myeloma, a type of cancer, and erythema nodosum leprosum, a complication of leprosy. Other indications include aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases. Thalidomide is also used in the management of adult rheumatologic skin conditions, especially lupus erythematosus. Additionally, it is indicated for aphthous stomatitis and chronic graft-versus-host disease in children. Off-label uses include conditions such as actinic prurigo and epidermolysis bullosa pruriginosa.",
+      "Thalidomide is currently indicated for the management of adult rheumatologic skin conditions, particularly lupus erythematosus, as well as aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases. It is also used in the treatment of aphthous stomatitis and chronic graft-versus-host disease in children, as well as actinic prurigo and epidermolysis bullosa pruriginosa.",
+      "Thalidomide is currently indicated for the management of various rheumatologic skin conditions, including lupus erythematosus, aphthous stomatitis, and chronic graft-versus-host disease in children. It is also used in the treatment of actinic prurigo and epidermolysis bullosa pruriginosa. Additionally, thalidomide is effective in managing erythema nodosum leprosum, aphthous ulceration, and cachexia in HIV disease, inflammatory bowel diseases, and certain malignant diseases.",
+      "Thalidomide is currently indicated for a variety of conditions including erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases. It is also used in the management of adult rheumatologic skin conditions, especially lupus erythematosus, and in children for aphthous stomatitis and chronic graft-versus-host disease. Other indications include actinic prurigo and epidermolysis bullosa pruriginosa.",
+      "Thalidomide has several current indications, including: * Erythema nodosum leprosum * Aphthous ulceration and cachexia in HIV disease * Inflammatory bowel diseases * Malignant diseases * Second-line treatment for aphthous stomatitis * Chronic graft-versus-host disease in children * Actinic prurigo * Epidermolysis bullosa pruriginosa",
+      "The current indications for thalidomide include lepromatous nodular erythema, severe aphthosis, Jessner-Kanoff's cutaneous lymphocyte infiltration, discoid lupus erythematosis, chronic graft-versus-host reactions, prurigo nodularis, and actinic prurigo. It is also used off-label for conditions such as aphthous stomatitis, Behçet disease, pyoderma gangrenosum, chronic discoid lupus erythematosus, systemic lupus erythematosus, lichen planus, and sarcoidosis. Additionally, it is FDA approved for the acute treatment and suppression of the cutaneous manifestations of erythema nodosum leprosum (ENL).",
+      "Thalidomide is currently approved by the FDA for the acute treatment and suppression of the cutaneous manifestations of erythema nodosum leprosum (ENL), a systemic disorder that typically occurs after several years of antileprosy treatments, usually for lepromatous leprosy. In addition to its approved use, thalidomide is also used off-label for various dermatologic diseases such as aphthous stomatitis, Behçet disease, pyoderma gangrenosum, chronic discoid lupus erythematosus, systemic lupus erythematosus, lichen planus, prurigo nodularis and sarcoidosis. Furthermore, thalidomide has been approved for treating multiple myeloma since May 2006. Although thalidomide was initially introduced as a sedative/hypnotic medication, its use in dermatology and oncology has gained interest due to its anti-inflammatory, immunomodulatory, and anti-angiogenic effects. However, it is important to note that thalidomide's main side-effects of teratogenesis and peripheral neuropathy limit its use, and careful consideration should be given when prescribing this medication for therapeutic indications.",
+      "Current indications are as follows: erythema nodosum leprosum, multiple myeloma,  Graft versus host disease, mycobacterial infection,  severe recurrent aphthous stomatitis,  primary brain malignancies, HIV- associated wasting syndrome, Crohn disease, Kaposi sarcoma, myelodysplastic syndrome, hematopoietic stem cell transplantation, hereditary hemorrhagic telangiectasia",
+      "The current indications for thalidomide include lepromatous nodular erythema, severe aphthosis, Jessner-Kanoff's cutaneous lymphocyte infiltration, discoid lupus erythematosus, chronic graft-versus-host reactions, and relapsed and/or refractory multiple myeloma (after the failure of standard therapies). Thalidomide is also used off-label for conditions such as aphthous stomatitis, Behçet disease, pyoderma gangrenosus, chronic discoid lupus erythematosus, systemic lupus erythematosus, lichen planus, prurigo nodularis, and sarcoidosis.",
+      "Thalidomide is currently indicated for the treatment of erythema nodosum leprosum, graft versus host disease, severe oral and genital ulcers associated with HIV and Behçet's disease, rheumatoid arthritis, discoid lupus erythematosus, sarcoidosis, relapsed/refractory multiple myeloma, Waldenstrom's macroglobulinemia, myelodysplastic syndromes, acute myeloid leukemia, myelofibrosis with myeloid metaplasia, renal cell carcinoma, malignant gliomas, prostate cancer, Kaposi's sarcoma, colorectal carcinoma, oral aphthous ulcers, Crohn's disease, and HIV/AIDS-associated wasting."
+    ]
+  },
+  {
+    "id": "58add1d79ef3c34033000008",
+    "type": "list",
+    "exact_answer": [
+      [
+        "K27M in H3F3A"
+      ],
+      [
+        "HIST1H3B"
+      ]
+    ],
+    "ideal_answer": [
+      "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs",
+      "found conservation of heterozygous k27m mutations in h3f3a (n = 4) or hist1h3b (n = 3) across all primary , contiguous , and metastatic tumor sites in all dipgs . h3k27m ubiquitously-associated mutations involve alterations in tp53 cell-cycle (tp53/ppm1d) or specific growth factor pathways (acvr1/pik3r1) . reconstruction indicates histone 3 (h3) k27m--including h3.2k27m--mutations potentially arise first and are invariably associated with specific , high-fidelity obligate partners throughout the tumour and its spread , from diagnosis to end-stage disease , suggesting mutual need for tumorigenesis. . aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved. . ",
+      "We found conservation of heterozygous K27M mutations in H3F3A (nâ=â4) or HIST1H3B (nâ=â3) across all primary, contiguous, and metastatic tumor sites in all DIPGs. Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis. These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1).",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n=4) or HIST1H3B (n=3) across all primary, contiguous, and metastatic tumor sites in all DIPGs. ACVR1 (n=2), PIK3CA (n=2), FGFR1 (n=2), and MET (n=1) were also intra-tumorally conserved. TP53 aberrations (n=3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved. Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis. These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1). ",
+      "Recurrent mutations within the histone H3 genes H3F3A and HIST1H3B that convert K27 to methionine (H3K27M) and disrupt the global H3K27 methylation landscape and PRC2-dependent silencing, have recently been identified in pediatric high-grade gliomas including Diffuse Intrinsic Pontine Glioma (DIPG) and Glioblastoma multiforme (GBM; Type IV glioma). The spatial and temporal homogeneity of main driver mutations in DIPG implies they will be captured by limited biopsies and emphasizes the need to develop therapies specifically targeting obligate oncohistone partnerships. TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved.Spatial conservation of prognostically-relevant and therapeutically-targetable somatic mutations in DIPG and mHGG contrasts the significant heterogeneity of driver mutations seen in adult HGG and supports uniform implementation of diagnostic biopsy in DIPG and mHGG to classify molecular risk groups and guide therapeutic strategy. Recently, a subset of these same mutations of ACVR1 have been identified in diffuse intrinsic pontine glioma (DIPG) tumors. Sequencing analysis showed c.83A>T mutations in the H3F3A or HIST1H3B gene in 77 % of our DIPG cohort. Protein profiling identified 2,305 unique proteins indicating distinct DIPG protein expression patterns compared to other pediatric brain tumors. Two distinct subgroups of DIPG were identified.",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved  TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved.",
+      "Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis. Conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) was observed across all primary, contiguous, and metastatic tumor sites in all DIPGs. ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved.  TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved.",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs  TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved. These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1).",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n=4) or HIST1H3B (n=3) across all primary, contiguous, and metastatic tumor sites in all DIPGs. Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis. These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1). TP53 aberrations (n=3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved. ACVR1 (n=2), PIK3CA (n=2), FGFR1 (n=2), and MET (n=1) were also intra-tumorally conserved. ",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1). "
+    ]
+  },
+  {
+    "id": "5156be75d24251bc05000088",
+    "type": "list",
+    "exact_answer": [
+      [
+        "neurodegenerative disease"
+      ],
+      [
+        "epilepsy"
+      ],
+      [
+        "schizophrenia"
+      ],
+      [
+        "Huntington's disease (HD)"
+      ],
+      [
+        "Alzheimer's disease (AD)"
+      ],
+      [
+        "neuroinflammation"
+      ],
+      [
+        "osteosarcoma"
+      ],
+      [
+        "chronic lymphocytic leukemia (CLL)"
+      ],
+      [
+        "angiogenesis"
+      ],
+      [
+        "eye disease"
+      ],
+      [
+        "alcoholic liver disease"
+      ],
+      [
+        "progressive supranuclear palsy (PSP taupathy)"
+      ],
+      [
+        "mild cognitive impairment"
+      ]
+    ],
+    "ideal_answer": [
+      "Several targets for for miR-132 have been described and it is implicated in many diseases such as:\nneurodegenerative disease, \nepilepsy,\nschizophrenia,\nHuntington's disease (HD),\nAlzheimer's disease (AD),\nneuroinflammation,\nosteosarcoma,\nchronic lymphocytic leukemia (CLL),\nangiogenesis,\neye disease,\nalcoholic liver disease,\nprogressive supranuclear palsy (PSP taupathy),\nmild cognitive impairment."
+    ]
+  },
+  {
+    "id": "58a94483ee23e0236b000003",
+    "type": "list",
+    "exact_answer": [
+      [
+        "genotypes II"
+      ],
+      [
+        "genotypes Ib"
+      ],
+      [
+        "genotypes IV"
+      ]
+    ],
+    "ideal_answer": [
+      "FimA has been characterized as an important virulence factor for P. gingivalis, and many studies, both animal experiments and clinical investigations, have characterized fimA genotypes II, Ib, and IV to be associated with disease (periodontitis and cardiovascular disease)"
+    ]
+  },
+  {
+    "id": "5358e067f1005d6b5800000b",
+    "type": "list",
+    "exact_answer": [
+      [
+        "Cysteine-rich protein 1 (CRP1)"
+      ],
+      [
+        "Fascin"
+      ],
+      [
+        "Macrophage actin-associated tyrosine phosphorylated protein (MAYP/PSTPIP2)"
+      ],
+      [
+        "Insulin receptor tyrosine kinase substrate p53 (IRSp53)"
+      ],
+      [
+        "Missing in metastasis protein (MIM)"
+      ],
+      [
+        "Eps8"
+      ],
+      [
+        "Diaphanous-related formin (dDia2)"
+      ],
+      [
+        "Vasodilator-stimulated phosphoprotein (VASP)"
+      ]
+    ],
+    "ideal_answer": [
+      "A number of proteins have been found to regulate F-actin bundling and enhance filopodia formation and motility. Among these are Cysteine-rich protein 1 (CRP1), Fascin, Macrophage actin-associated tyrosine phosphorylated protein (MAYP/PSTPIP2), Insulin receptor tyrosine kinase substrate p53 (IRSp53), Missing in metastasis protein (MIM), Eps8, Diaphanous-related formin (dDia2) and Vasodilator-stimulated phosphoprotein (VASP)."
+    ]
+  },
+  {
+    "id": "550e9d2cb305b40c5c000001",
+    "type": "list",
+    "exact_answer": [
+      [
+        "Age"
+      ],
+      [
+        "NIH Stroke Scale score"
+      ]
+    ],
+    "ideal_answer": [
+      "SPAN-100 score includes patient's age and NIH Stroke Scale score. SPAN-100 is used for prognostication of stroke patients."
+    ]
+  },
+  {
+    "id": "58a0da5278275d0c4a000054",
+    "type": "list",
+    "exact_answer": [
+      [
+        "Multiple myeloma"
+      ],
+      [
+        "polyneuropathy, organomegaly, endocrinopathy, M-protein and skin changes",
+        "POEMS"
+      ],
+      [
+        "Irritable Bowels Syndrome ",
+        "IBS"
+      ]
+    ],
+    "ideal_answer": [
+      "Drug repositioning, exemplified by sildenafil and thalidomide, is a promising way to explore alternative indications for existing drugs. THE USE OF A DRUG WITH A TEMPORARY MARKETING AUTHORISATION: Thalidomide is currently available in France for nominative or cohort use with a temporary marketing authorisation (TMA). Currently, it is used for a few indications; in Brazil, where leprosy is endemic, thalidomide is used for the treatment of erythema nodosum leprosum, and recent cases of thalidomide embryopathy have been reported.We analyzed the frequency of births with phenotypes consistent with thalidomide embryopathy (TEP) and correlated this with the distribution of thalidomide and the prevalence of leprosy between 2005 and 2010 in Brazil.A total of 5,889,210 thalidomide tablets were distributed; the prevalence of limb reduction defects was 1.60 (CI95%: 1.54-1.66) and TEP was 0.11 (CI95%: 0.10-0.13) Currently it includes a group of new drugs (immunosuppressives tacrolimus mycophenolate, thalidomide, biologic therapy, probiotics, neuroinflammation blockers), new treatment techniques (cytaphereses, sequential immunosuppression, immunosuppression with high doses), and finally new indications (chemoprophylaxis). A review of the therapeutic indications for thalidomide in dermatology as well as the mechanisms of action and side-effects of this drug are presented.",
+      "Thalidomide can be used to treat multiple myeloma, polyneuropathy, organomegaly, endocrinopathy, M-protein and skin changes (POEMS) syndrome and possibly Irritable Bowel Syndrome."
+    ]
+  },
+  {
+    "id": "515bd543298dcd4e51000001",
+    "type": "list",
+    "exact_answer": [
+      [
+        "H2"
+      ],
+      [
+        "H3"
+      ]
+    ],
+    "ideal_answer": [
+      "Alu elements are enriched in high GC% isochores due to reduced Alu loss by recombination in these regions. The frequency of Alu sequences increases with increasing GC, but attains a maximum in H2 isochores."
+    ]
+  }
+]

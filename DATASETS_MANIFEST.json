@@ -1,0 +1,261 @@
+{
+  "prepared_utc": "2026-11-09T13:51:52.437370+00:00",
+  "scope": "Complete original supplied JSON datasets plus existing derived inputs and offline references",
+  "original_datasets": [
+    {
+      "path": "BioASQ-training14b/training14b.json",
+      "bytes": 57109878,
+      "sha256": "5669afbc0bbc8f50d54850edb4aa592ecff3e38b29b09ac6684bb52990b651b7",
+      "records": 5729,
+      "unique_ids": 5729,
+      "type_counts": {
+        "summary": 1363,
+        "list": 1130,
+        "yesno": 1541,
+        "factoid": 1695
+      },
+      "byte_identical_to_local_original": true,
+      "storage": "git-lfs"
+    },
+    {
+      "path": "DocHopQA/DocHopQA_Dataset.json",
+      "bytes": 196084332,
+      "sha256": "a4bc2b0d5be351372bf1e9b7083137a7e6843a9542ddb69956fa52614ef7d13a",
+      "records": 11379,
+      "unique_ids": 11379,
+      "type_counts": {
+        "Paragraph-Oriented": 8567,
+        "Table-Oriented": 2812
+      },
+      "byte_identical_to_local_original": true,
+      "storage": "git-lfs"
+    }
+  ],
+  "formal_list_task_count": 1130,
+  "server_split_matches_historical_local_split": true,
+  "source_readmes_preserved": true,
+  "dochop_readme_discrepancy": "Upstream README says 8547 paragraph rows; actual supplied JSON contains 8567, plus 2812 table rows = 11379. Original files are unmodified.",
+  "reference_isolation": "Raw datasets and references include answers; only public task files may be passed to semantic roles or Builder.",
+  "files": [
+    {
+      "path": "BioASQ-training14b/README",
+      "bytes": 1476,
+      "sha256": "2fea0996c8c46cf311aae451b3a4480338359ee2d2118301f8adde5ca2da84b2"
+    },
+    {
+      "path": "BioASQ-training14b/training14b.json",
+      "bytes": 57109878,
+      "sha256": "5669afbc0bbc8f50d54850edb4aa592ecff3e38b29b09ac6684bb52990b651b7"
+    },
+    {
+      "path": "DocHopQA/DocHopQA_Dataset.json",
+      "bytes": 196084332,
+      "sha256": "a4bc2b0d5be351372bf1e9b7083137a7e6843a9542ddb69956fa52614ef7d13a"
+    },
+    {
+      "path": "DocHopQA/README.md",
+      "bytes": 2315,
+      "sha256": "5f2b19ef0585f53fe5947cecdc029d751c2abdf5f49fd5b7a0900317d86878a9"
+    },
+    {
+      "path": "formal_20261106/data/all/admission/references.json",
+      "bytes": 1540542,
+      "sha256": "7901243b1150aa98f15a71f1fd6a93cfec835b3a8fa2be5355dc61386d2b3f99"
+    },
+    {
+      "path": "formal_20261106/data/all/admission/tasks.json",
+      "bytes": 6712648,
+      "sha256": "5ce941ee503a203f31e34751a8969ccc31eddc9b8f057e77139a4b7538957a57"
+    },
+    {
+      "path": "formal_20261106/data/all/development_seen/references.json",
+      "bytes": 54443,
+      "sha256": "3803954b9dd7d3ccc8e37d716178b7558b2678c70cd1f5eb16fe40403afc493b"
+    },
+    {
+      "path": "formal_20261106/data/all/development_seen/tasks.json",
+      "bytes": 269693,
+      "sha256": "a93c5d08fc1d27ca8b9f229ca029b44f36076a499af81a704e88dbb66576988f"
+    },
+    {
+      "path": "formal_20261106/data/all/discovery/references.json",
+      "bytes": 1603152,
+      "sha256": "1d0c5cb6cd1420be545df6d7766f510bab46475423214f5b909a79afcfca8772"
+    },
+    {
+      "path": "formal_20261106/data/all/discovery/tasks.json",
+      "bytes": 6469654,
+      "sha256": "3ba455640f00ba85b013633bcd0bea9a5e467f6094305c736aced0d3a5d9cda0"
+    },
+    {
+      "path": "formal_20261106/data/all/evaluation/references.json",
+      "bytes": 5222776,
+      "sha256": "ad915b80f71e52f391a5ff87f4fcdba64f13090c423bf8041ab29e3fb8dfcd07"
+    },
+    {
+      "path": "formal_20261106/data/all/evaluation/tasks.json",
+      "bytes": 19385270,
+      "sha256": "edc4a3cafaf6129fb3a55149ce6cce02e6569ad16661052f0dfdbc536a3ad0c2"
+    },
+    {
+      "path": "formal_20261106/data/all/manifest.json",
+      "bytes": 1688,
+      "sha256": "bfb3f1d52b40cfc994005d622b30e9d19f69bfcbd3ff27b06eb0f9d49c061cb0"
+    },
+    {
+      "path": "formal_20261106/data/all/references.json",
+      "bytes": 8420904,
+      "sha256": "ff983ff151a4b75006c2789e14f0f6057f739a1fd90e7f9231a8e25b12723c9b"
+    },
+    {
+      "path": "formal_20261106/data/all/tasks.json",
+      "bytes": 32837256,
+      "sha256": "f440622ba8811218003f8012eb41142c55bd9875f757f7d28390eb9d5b2e2b76"
+    },
+    {
+      "path": "formal_20261106/data/group_partitions.json",
+      "bytes": 700534,
+      "sha256": "8e3485e6ebd303a6bdb69a5d5138a54246a747806b9e31e4254bd7dac3bb60a7"
+    },
+    {
+      "path": "formal_20261106/data/list/admission/references.json",
+      "bytes": 420436,
+      "sha256": "50b82e284e8e16d12ff460c39727b549cb57332f94cad34195e3fc5cf3fabb8b"
+    },
+    {
+      "path": "formal_20261106/data/list/admission/tasks.json",
+      "bytes": 1526976,
+      "sha256": "cb69d16ed5305911f45bc29980c68b8acd99455e2088540df614221c2b3aa357"
+    },
+    {
+      "path": "formal_20261106/data/list/development_seen/references.json",
+      "bytes": 23718,
+      "sha256": "a23cde856be4e554a3e5308850c016cc4646c2d4fc3059dc76a439ab641208b5"
+    },
+    {
+      "path": "formal_20261106/data/list/development_seen/tasks.json",
+      "bytes": 84854,
+      "sha256": "005bfc92a5878328545566d75796ffd0921622e0d32f76e18fda116419ec0bc1"
+    },
+    {
+      "path": "formal_20261106/data/list/discovery/references.json",
+      "bytes": 390123,
+      "sha256": "3d13cd0711b8cbabf4f29e0faf5f48d3110c191f2585357ecfa88558a207a3e0"
+    },
+    {
+      "path": "formal_20261106/data/list/discovery/tasks.json",
+      "bytes": 1499855,
+      "sha256": "4ea6f6eae9cd901c11130c60ae1924484a90da6c5794ebd8b6cbcb15c2ecc9f2"
+    },
+    {
+      "path": "formal_20261106/data/list/evaluation/references.json",
+      "bytes": 1348940,
+      "sha256": "4e07513ebe97455e7cd225090e82fffe73412e9d7b1f89926369900ee8b2e802"
+    },
+    {
+      "path": "formal_20261106/data/list/evaluation/tasks.json",
+      "bytes": 4148376,
+      "sha256": "dac975ea7c13a35cf54269a0f448746dd1618c85ef9ac32d8060cf76786f6e1a"
+    },
+    {
+      "path": "formal_20261106/data/list/manifest.json",
+      "bytes": 1399,
+      "sha256": "589be1ca7a46fcd34e2096fa27554a5a34739f2da833c9c48ede6cac0ed5f222"
+    },
+    {
+      "path": "formal_20261106/data/list/references.json",
+      "bytes": 2183208,
+      "sha256": "cc84d1695c60235525ae41c14f6abe79223fa58f15baba66a37fd10bae998f45"
+    },
+    {
+      "path": "formal_20261106/data/list/tasks.json",
+      "bytes": 7260052,
+      "sha256": "1c866ada5fee88d0ee2bc10d853405d5cb071ee17ab432a6be071dc22a0c4a29"
+    },
+    {
+      "path": "formal_20261106/data/provenance.json",
+      "bytes": 431,
+      "sha256": "0f26928c7f12ec00048d8e15f9606e2ee69cf6a1fe73fd45ff263c046129d841"
+    },
+    {
+      "path": "data/smoke20/manifest.json",
+      "bytes": 1060,
+      "sha256": "6d7545c2a26cfc0d899cc173b1b7369bae9ff70886a61d0e6da20aa7b800288e"
+    },
+    {
+      "path": "data/smoke20/references.json",
+      "bytes": 28835,
+      "sha256": "126364a257d59eebac1281635925635f8afa67baee07016c23aa1f8a3519bc3c"
+    },
+    {
+      "path": "data/smoke20/tasks.json",
+      "bytes": 141767,
+      "sha256": "5bb07061bbe9a4f77f7c4aa80f0f204e8e2a954185f48a06ec2235d918d1cb48"
+    },
+    {
+      "path": "data/formal_list_v1/list/admission/references.json",
+      "bytes": 420436,
+      "sha256": "50b82e284e8e16d12ff460c39727b549cb57332f94cad34195e3fc5cf3fabb8b"
+    },
+    {
+      "path": "data/formal_list_v1/list/admission/tasks.json",
+      "bytes": 1526976,
+      "sha256": "cb69d16ed5305911f45bc29980c68b8acd99455e2088540df614221c2b3aa357"
+    },
+    {
+      "path": "data/formal_list_v1/list/development_seen/references.json",
+      "bytes": 23718,
+      "sha256": "a23cde856be4e554a3e5308850c016cc4646c2d4fc3059dc76a439ab641208b5"
+    },
+    {
+      "path": "data/formal_list_v1/list/development_seen/tasks.json",
+      "bytes": 84854,
+      "sha256": "005bfc92a5878328545566d75796ffd0921622e0d32f76e18fda116419ec0bc1"
+    },
+    {
+      "path": "data/formal_list_v1/list/discovery/references.json",
+      "bytes": 390123,
+      "sha256": "3d13cd0711b8cbabf4f29e0faf5f48d3110c191f2585357ecfa88558a207a3e0"
+    },
+    {
+      "path": "data/formal_list_v1/list/discovery/tasks.json",
+      "bytes": 1499855,
+      "sha256": "4ea6f6eae9cd901c11130c60ae1924484a90da6c5794ebd8b6cbcb15c2ecc9f2"
+    },
+    {
+      "path": "data/formal_list_v1/list/evaluation/references.json",
+      "bytes": 1348940,
+      "sha256": "4e07513ebe97455e7cd225090e82fffe73412e9d7b1f89926369900ee8b2e802"
+    },
+    {
+      "path": "data/formal_list_v1/list/evaluation/tasks.json",
+      "bytes": 4148376,
+      "sha256": "dac975ea7c13a35cf54269a0f448746dd1618c85ef9ac32d8060cf76786f6e1a"
+    },
+    {
+      "path": "data/formal_list_v1/list/manifest.json",
+      "bytes": 1399,
+      "sha256": "589be1ca7a46fcd34e2096fa27554a5a34739f2da833c9c48ede6cac0ed5f222"
+    },
+    {
+      "path": "data/formal_list_v1/list/references.json",
+      "bytes": 2183208,
+      "sha256": "cc84d1695c60235525ae41c14f6abe79223fa58f15baba66a37fd10bae998f45"
+    },
+    {
+      "path": "data/formal_list_v1/list/tasks.json",
+      "bytes": 7260052,
+      "sha256": "1c866ada5fee88d0ee2bc10d853405d5cb071ee17ab432a6be071dc22a0c4a29"
+    },
+    {
+      "path": "data_format_20261109/original_public_tasks.json",
+      "bytes": 711182,
+      "sha256": "52c61bd981364dbda69a713ca45246831ba9d5280799f9af089896138826b591"
+    },
+    {
+      "path": "data_format_20261109/formatted_public_tasks.json",
+      "bytes": 684083,
+      "sha256": "7d95b81c78839b614464881d54569a32eeb64d09bdefc3d4dd175fa02375980b"
+    }
+  ]
+}

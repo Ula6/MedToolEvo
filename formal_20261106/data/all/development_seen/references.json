@@ -1,0 +1,650 @@
+[
+  {
+    "id": "593fe7f970f9fc6f0f000022",
+    "type": "factoid",
+    "exact_answer": [
+      "3",
+      "three"
+    ],
+    "ideal_answer": [
+      "Using a system in which only a single EYFP-linked PML isoform is expressed, we demonstrate that PMLI, PMLII and PMLVI accumulate in the cytoplasm following arsenic treatment, whereas PMLIII, PMLIV and PMLV do not the PML isoforms that are most sensitive to virus infection correspond closely to those which have recently been identified as being covalently conjugated to PIC1. ",
+      "Using a system in which only a single EYFP-linked PML isoform is expressed, we demonstrate that PMLI, PMLII and PMLVI accumulate in the cytoplasm following arsenic treatment, whereas PMLIII, PMLIV and PMLV do not The PML isoforms that are most sensitive to virus infection correspond closely to those which have recently been identified as being covalently conjugated to PIC1. ",
+      "Using a system in which only a single EYFP-linked PML isoform is expressed, PMLI, PMLII and PMLVI accumulate in the cytoplasm following arsenic treatment, whereas PMLIII, PMLIV and PMLV do not",
+      "Using a system in which only a single EYFP-linked PML isoform is expressed, we demonstrate that PMLI, PMLII and PMLVI accumulate in the cytoplasm following arsenic treatment, whereas PMLIII, PMLIV and PMLV do not",
+      "Using a system in which only a single EYFP-linked PML isoform is expressed, we demonstrate that PMLI, PMLII and PMLVI accumulate in the cytoplasm following arsenic treatment, whereas PMLIII, PMLIV and PMLV do notThe PML isoforms that are most sensitive to virus infection correspond closely to those which have recently been identified as being covalently conjugated to PIC1.",
+      "The PML isoforms that are most sensitive to virus infection correspond closely to those which have recently been identified as being covalently conjugated to PIC1. Using a system in which only a single EYFP-linked PML isoform is expressed, we demonstrate that PMLI, PMLII and PMLVI accumulate in the cytoplasm following arsenic treatment, whereas PMLIII, PMLIV and PMLV do not. ",
+      "Using a system in which only a single EYFP-linked PML isoform is expressed, we demonstrate that PMLI, PMLII and PMLVI accumulate in the cytoplasm following arsenic treatment, whereas PMLIII, PMLIV and PMLV do not the PML isoforms that are most sensitive to virus infection correspond closely to those which have recently been identified as being covalently conjugated to PIC1."
+    ]
+  },
+  {
+    "id": "55376663bc4f83e82800000a",
+    "type": "factoid",
+    "exact_answer": [
+      "CD99"
+    ],
+    "ideal_answer": [
+      "CD99 is a hallmark marker for Ewing sarcoma and primitive neuroectodermal tumors."
+    ]
+  },
+  {
+    "id": "5e2b1ed9fbd6abf43b000005",
+    "type": "factoid",
+    "exact_answer": [
+      "Parkinson's Disease"
+    ],
+    "ideal_answer": [
+      "PDQ39 is Parkinson's Disease Questionnaire that is used for assessment of quality of life in patients with Parkinson's Disease."
+    ]
+  },
+  {
+    "id": "571394701174fb175500000c",
+    "type": "summary",
+    "exact_answer": null,
+    "ideal_answer": [
+      "The novel treatment strategy proposed for treatment of Spinocerebellar ataxia type 3 is the removal of the toxic polyglutamine repeat from the ataxin-3 protein through antisense oligonucleotide-mediated exon skipping while maintaining important wild type functions of the protein."
+    ]
+  },
+  {
+    "id": "58a6c94860087bc10a00002a",
+    "type": "list",
+    "exact_answer": [
+      [
+        "K27M in H3F3A"
+      ],
+      [
+        "G34R/V in HIST1H3B"
+      ]
+    ],
+    "ideal_answer": [
+      "About 80% of Diffuse intrinsic pontine glioma (DIPG) cases and 70% of midline glioblastomas contain a mutation at one allele of the H3F3A gene (encoding histone H3 variant H3.3), replacing the lysine 27 with methionine (K27M). Moreover, approximately 30% of pediatric high grade gliomas (pedHGG) including GBM and DIPG harbor a lysine 27 mutation (K27M) in histone 3.3 (H3.3) which is correlated with poor outcome. Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1)",
+      "Moreover, approximately 30% of pediatric high grade gliomas (pedHGG) including GBM and DIPG harbor a lysine 27 mutation (K27M) in histone 3.3 (H3.3) which is correlated with poor outcome and was shown to influence EZH2 function Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1) Recent studies have identified a Lys 27-to-methionine (K27M) mutation at one allele of H3F3A, one of the two genes encoding histone H3 variant H3.3, in 60% of high-grade pediatric glioma cases.",
+      "Recent studies on high-grade pediatric GBM have identified two recurrent mutations (K27M and G34R/V) in genes encoding histone H3 (H3F3A for H3.3 and HIST1H3B for H3.1). Two new studies show that the known histone H3 alteration p.Lys27Met in pediatric glioma leads to globally diminished trimethylation at histone H3 lysine 27. These results indicate that H3.3K27M mutation reprograms epigenetic landscape and gene expression, which may drive tumorigenesis.",
+      ", approximately 30% of pediatric high grade gliomas (pedhgg) including gbm and dipg harbor a lysine 27 mutation (k27m) in histone 3.3 (h3.3) which is correlated with poor outcome and was shown to influence ezh2 function . the h3f3a mutant allele found in high-grade pediatric glioma by real-time pcr . studies on high-grade pediatric gbm have identified two recurrent mutations (k27m and g34r/v) in genes encoding histone h3 (h3f3a for h3.3 and hist1h3b for h3.1) . has been reported recently that about 80% of dipg cases and 70% of midline glioblastomas contain a mutation at one allele of the h3f3a gene (encoding histone h3 variant h3.3) , replacing the lysine 27 with methionine (k27m). . , discuss vaccine treatment for children diagnosed with malignant glioma , through targeting epha2 , il-13rα2 and/or histone h3 k27m , while in adults , treatments with rintega , prophage series g-100 and dendritic cells are explored. . studies have identified a lys 27-to-methionine (k27m) mutation at one allele of h3f3a , one of the two genes encoding histone h3 variant h3.3 , in 60% of high-grade pediatric glioma cases. . new studies show that the known histone h3 alteration p.lys27met in pediatric glioma leads to globally diminished trimethylation at histone h3 lysine 27 . were able to discern the h3f3a k27m mutation in a newly obtained pediatric brainstem glioblastoma sample whose h3.3 status was not known previously , and in three other dipg samples as well as paraffin embedded samples these results demonstrate that have developed a new reliable procedure for detecting the h3f3a k27m mutation in pediatric glioblastoma patient samples. . "
+    ]
+  },
+  {
+    "id": "5e31cbd4fbd6abf43b00004f",
+    "type": "factoid",
+    "exact_answer": [
+      "dominant"
+    ],
+    "ideal_answer": [
+      "Huntington's Disease (HD) is an autosomal dominant neurodegenerative disease",
+      "Huntington's disease is caused by an autosomal dominant gene.",
+      "Huntington's disease (HD) is an inherited NDD caused by autosomal-dominant expanded CAG trinucleotide repeat mutation in the gene coding for Huntingtin (Htt)."
+    ]
+  },
+  {
+    "id": "6432fb1957b1c7a31500001e",
+    "type": "list",
+    "exact_answer": [
+      [
+        "adults with mantle cell lymphoma who have received at least one prior therapy"
+      ],
+      [
+        "for adults with Waldenström macroglobulinemia"
+      ],
+      [
+        "for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy"
+      ]
+    ],
+    "ideal_answer": [
+      "Zanubrutinib is approved for treating adults with mantle cell lymphoma who have received at least one prior therapy, for adults with Waldenström macroglobulinemia, and for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy."
+    ]
+  },
+  {
+    "id": "6432f5f257b1c7a31500001c",
+    "type": "factoid",
+    "exact_answer": [
+      "Bruton tyrosine kinase"
+    ],
+    "ideal_answer": [
+      "Zanubrutinib  is a Bruton tyrosine kinase inhibitor."
+    ]
+  },
+  {
+    "id": "58bac71222d3005309000013",
+    "type": "factoid",
+    "exact_answer": [
+      "K27M in H3.3"
+    ],
+    "ideal_answer": [
+      "Pediatric central nervous system tumors are the most common solid tumor of childhood. Over 70% of diffuse intrinsic pediatric gliomas, an aggressive brainstem tumor, harbor heterozygous mutations that create a K27M amino acid substitution (methionine replaces lysine 27) in the tail of histone H3.3.",
+      "Over 70% of diffuse intrinsic pediatric gliomas, an aggressive brainstem tumor, harbor heterozygous mutations that create a K27M amino acid substitution (methionine replaces lysine 27) in the tail of histone H3.3. Genome-wide analyses indicate a resetting of the transformed precursors to a developmentally more primitive stem cell state, with evidence of major modifications of histone marks at several master regulator genes.",
+      "some of these molecular changes with clinicopathological utility have been used for the first time in the most recent edition of the world health organization (who) classification of cns tumours to define entities like ependymoma, rela fusion-positive or diffuse midline glioma, h3 k27m-mutant.",
+      "Over 70% of diffuse intrinsic pediatric gliomas, an aggressive brainstem tumor, harbor heterozygous mutations that create a K27M amino acid substitution (methionine replaces lysine 27) in the tail of histone H3.3"
+    ]
+  },
+  {
+    "id": "65f82218c4010b4d7800003e",
+    "type": "list",
+    "exact_answer": [
+      [
+        "Erythema nodosum leprosum"
+      ],
+      [
+        "Multiple myeloma"
+      ],
+      [
+        "Graft versus host disease"
+      ],
+      [
+        "Mycobacterial infection"
+      ],
+      [
+        "Severe recurrent aphthous stomatitis"
+      ],
+      [
+        "Primary brain malignancies"
+      ],
+      [
+        "HIV- associated wasting syndrome"
+      ],
+      [
+        "Crohn's disease"
+      ],
+      [
+        "Kaposi's sarcoma"
+      ],
+      [
+        "Myelodysplastic syndrome"
+      ],
+      [
+        "Hematopoietic stem cell transplantation"
+      ],
+      [
+        "Hereditary hemorrhagic telangiectasia"
+      ],
+      [
+        "aphthous stomatitis in children"
+      ],
+      [
+        "chronic graft-versus-host disease in children"
+      ],
+      [
+        "Mycobacterial infection"
+      ],
+      [
+        "severe oral and genital ulcers associated with HIV and Behçet's disease"
+      ],
+      [
+        "Waldenstrom's macroglobulinemia"
+      ]
+    ],
+    "ideal_answer": [
+      "Thalidomide is a medication with several indications. It is primarily used for treating multiple myeloma, a type of cancer, and erythema nodosum leprosum, a complication of leprosy. Other indications include aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases. Thalidomide is also used in the management of adult rheumatologic skin conditions, especially lupus erythematosus. Additionally, it is indicated for aphthous stomatitis and chronic graft-versus-host disease in children. Off-label uses include conditions such as actinic prurigo and epidermolysis bullosa pruriginosa.",
+      "Thalidomide is currently indicated for the management of adult rheumatologic skin conditions, particularly lupus erythematosus, as well as aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases. It is also used in the treatment of aphthous stomatitis and chronic graft-versus-host disease in children, as well as actinic prurigo and epidermolysis bullosa pruriginosa.",
+      "Thalidomide is currently indicated for the management of various rheumatologic skin conditions, including lupus erythematosus, aphthous stomatitis, and chronic graft-versus-host disease in children. It is also used in the treatment of actinic prurigo and epidermolysis bullosa pruriginosa. Additionally, thalidomide is effective in managing erythema nodosum leprosum, aphthous ulceration, and cachexia in HIV disease, inflammatory bowel diseases, and certain malignant diseases.",
+      "Thalidomide is currently indicated for a variety of conditions including erythema nodosum leprosum, aphthous ulceration and cachexia in HIV disease, inflammatory bowel diseases, and several malignant diseases. It is also used in the management of adult rheumatologic skin conditions, especially lupus erythematosus, and in children for aphthous stomatitis and chronic graft-versus-host disease. Other indications include actinic prurigo and epidermolysis bullosa pruriginosa.",
+      "Thalidomide has several current indications, including: * Erythema nodosum leprosum * Aphthous ulceration and cachexia in HIV disease * Inflammatory bowel diseases * Malignant diseases * Second-line treatment for aphthous stomatitis * Chronic graft-versus-host disease in children * Actinic prurigo * Epidermolysis bullosa pruriginosa",
+      "The current indications for thalidomide include lepromatous nodular erythema, severe aphthosis, Jessner-Kanoff's cutaneous lymphocyte infiltration, discoid lupus erythematosis, chronic graft-versus-host reactions, prurigo nodularis, and actinic prurigo. It is also used off-label for conditions such as aphthous stomatitis, Behçet disease, pyoderma gangrenosum, chronic discoid lupus erythematosus, systemic lupus erythematosus, lichen planus, and sarcoidosis. Additionally, it is FDA approved for the acute treatment and suppression of the cutaneous manifestations of erythema nodosum leprosum (ENL).",
+      "Thalidomide is currently approved by the FDA for the acute treatment and suppression of the cutaneous manifestations of erythema nodosum leprosum (ENL), a systemic disorder that typically occurs after several years of antileprosy treatments, usually for lepromatous leprosy. In addition to its approved use, thalidomide is also used off-label for various dermatologic diseases such as aphthous stomatitis, Behçet disease, pyoderma gangrenosum, chronic discoid lupus erythematosus, systemic lupus erythematosus, lichen planus, prurigo nodularis and sarcoidosis. Furthermore, thalidomide has been approved for treating multiple myeloma since May 2006. Although thalidomide was initially introduced as a sedative/hypnotic medication, its use in dermatology and oncology has gained interest due to its anti-inflammatory, immunomodulatory, and anti-angiogenic effects. However, it is important to note that thalidomide's main side-effects of teratogenesis and peripheral neuropathy limit its use, and careful consideration should be given when prescribing this medication for therapeutic indications.",
+      "Current indications are as follows: erythema nodosum leprosum, multiple myeloma,  Graft versus host disease, mycobacterial infection,  severe recurrent aphthous stomatitis,  primary brain malignancies, HIV- associated wasting syndrome, Crohn disease, Kaposi sarcoma, myelodysplastic syndrome, hematopoietic stem cell transplantation, hereditary hemorrhagic telangiectasia",
+      "The current indications for thalidomide include lepromatous nodular erythema, severe aphthosis, Jessner-Kanoff's cutaneous lymphocyte infiltration, discoid lupus erythematosus, chronic graft-versus-host reactions, and relapsed and/or refractory multiple myeloma (after the failure of standard therapies). Thalidomide is also used off-label for conditions such as aphthous stomatitis, Behçet disease, pyoderma gangrenosus, chronic discoid lupus erythematosus, systemic lupus erythematosus, lichen planus, prurigo nodularis, and sarcoidosis.",
+      "Thalidomide is currently indicated for the treatment of erythema nodosum leprosum, graft versus host disease, severe oral and genital ulcers associated with HIV and Behçet's disease, rheumatoid arthritis, discoid lupus erythematosus, sarcoidosis, relapsed/refractory multiple myeloma, Waldenstrom's macroglobulinemia, myelodysplastic syndromes, acute myeloid leukemia, myelofibrosis with myeloid metaplasia, renal cell carcinoma, malignant gliomas, prostate cancer, Kaposi's sarcoma, colorectal carcinoma, oral aphthous ulcers, Crohn's disease, and HIV/AIDS-associated wasting."
+    ]
+  },
+  {
+    "id": "5709ee36cf1c32585100001e",
+    "type": "factoid",
+    "exact_answer": [
+      "Robinow syndrome"
+    ],
+    "ideal_answer": [
+      "Mutations in DVL1 cause an osteosclerotic form of Robinow syndrome."
+    ]
+  },
+  {
+    "id": "661be55f48a2c27714000003",
+    "type": "factoid",
+    "exact_answer": [
+      "epilepsy",
+      "Lennox-Gastaut syndrome (LGS), Ataxia, Epileptic spasms, Drop attacks"
+    ],
+    "ideal_answer": [
+      "Callosotomy is a surgical procedure used to treat a variety of neurological conditions, including epilepsy, Parkinson's disease, and chronic pain.",
+      "The disease treated by Callosotomy is epilepsy.",
+      "Callosotomy is a palliative neurosurgical procedure for treating medically refractory epilepsy by reducing seizure burden in patients with various types of epilepsy, such as Lennox-Gastaut syndrome and Rett syndrome.",
+      "Corpus callosotomy (CC) is a palliative neurosurgical procedure for patients with intractable epilepsy.",
+      "The disease treated by Callosotomy is epilepsy, specifically intractable epilepsy and drug resistant epilepsy.",
+      "Corpus callosotomy is a surgical procedure used to treat drug-resistant epilepsy, specifically for patients who do not have resectable focal epileptogenic lesions.",
+      "Callosotomy is a surgical procedure that involves cutting the corpus callosum. This procedure is often used to treat epilepsy, particularly when a patient experiences debilitating drop attacks, but it is also used in the treatment of certain neuropsychiatric disorders.",
+      "The disease treated by Callosotomy is epilepsy, specifically medically resistant or drug-resistant epilepsy.",
+      "Callosotomy is a surgical procedure used to treat drug-resistant epilepsy (DRE) in patients who have not responded to medication.",
+      "Corpus callosotomy is a surgical procedure used to treat epilepsy, specifically generalized or multifocal drug-resistant epilepsy, medically refractory epilepsy, and generalized or unknown-onset seizures.",
+      "Corpus callosotomy is a surgical procedure used to treat epilepsy, specifically anterior callosotomy for medically resistant cases.",
+      "Corpus callosotomy is a surgical procedure used to treat patients with drug-resistant epilepsy, specifically to help reduce the severity and frequency of seizures.",
+      "Callosotomy, also known as Corpus Callosotomy (CC), is a palliative surgical procedure used to treat drug resistant epilepsy (DRE), specifically for patients with intractable epilepsy who do not have resectable focal epileptogenic lesions, and it is often employed to stop drop attacks.",
+      "Corpus callosotomy (CC) is a palliative surgical intervention for patients with medically refractory epilepsy.",
+      "Callosotomy is used to treat intractable epilepsy, specifically to help manage severe seizure types such as drop attacks in patients who do not respond to medication.",
+      "Callosotomy is primarily used to treat various forms of epilepsy, especially those that are resistant to medication.",
+      "Epilepsy is treated by Callosotomy.",
+      "Callosotomy is used to treat seizures.",
+      "Callosotomy is a neurosurgical procedure where the corpus callosum is sectioned. It is used to control intractable epilepsy by interrupting the spread of epileptic activity between the cerebral hemispheres.",
+      "Callosotomy is used to treat epilepsy.",
+      "Callosotomy is performed to manage epilepsy.",
+      "Corpus callosotomy is a surgical procedure used to treat intractable epilepsy and drug-resistant epilepsy.",
+      "Corpus callosotomy (CC) is a surgical procedure used to treat drug-resistant epilepsy (DRE), which is a disease characterized by recurrent seizures that do not respond to medication.",
+      "Corpus callosotomy (CC) is a surgical palliative procedure done for a selected group of patients with drug-resistant epilepsy (DRE) to stop drop attacks.",
+      "Corpus callosotomy is a surgical procedure used to treat patients with drug-resistant epilepsy, particularly those who experience severe and frequent drop attacks",
+      "Callosotomy is a surgical procedure used to treat epilepsy."
+    ]
+  },
+  {
+    "id": "58add1d79ef3c34033000008",
+    "type": "list",
+    "exact_answer": [
+      [
+        "K27M in H3F3A"
+      ],
+      [
+        "HIST1H3B"
+      ]
+    ],
+    "ideal_answer": [
+      "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs",
+      "found conservation of heterozygous k27m mutations in h3f3a (n = 4) or hist1h3b (n = 3) across all primary , contiguous , and metastatic tumor sites in all dipgs . h3k27m ubiquitously-associated mutations involve alterations in tp53 cell-cycle (tp53/ppm1d) or specific growth factor pathways (acvr1/pik3r1) . reconstruction indicates histone 3 (h3) k27m--including h3.2k27m--mutations potentially arise first and are invariably associated with specific , high-fidelity obligate partners throughout the tumour and its spread , from diagnosis to end-stage disease , suggesting mutual need for tumorigenesis. . aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved. . ",
+      "We found conservation of heterozygous K27M mutations in H3F3A (nâ=â4) or HIST1H3B (nâ=â3) across all primary, contiguous, and metastatic tumor sites in all DIPGs. Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis. These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1).",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n=4) or HIST1H3B (n=3) across all primary, contiguous, and metastatic tumor sites in all DIPGs. ACVR1 (n=2), PIK3CA (n=2), FGFR1 (n=2), and MET (n=1) were also intra-tumorally conserved. TP53 aberrations (n=3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved. Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis. These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1). ",
+      "Recurrent mutations within the histone H3 genes H3F3A and HIST1H3B that convert K27 to methionine (H3K27M) and disrupt the global H3K27 methylation landscape and PRC2-dependent silencing, have recently been identified in pediatric high-grade gliomas including Diffuse Intrinsic Pontine Glioma (DIPG) and Glioblastoma multiforme (GBM; Type IV glioma). The spatial and temporal homogeneity of main driver mutations in DIPG implies they will be captured by limited biopsies and emphasizes the need to develop therapies specifically targeting obligate oncohistone partnerships. TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved.Spatial conservation of prognostically-relevant and therapeutically-targetable somatic mutations in DIPG and mHGG contrasts the significant heterogeneity of driver mutations seen in adult HGG and supports uniform implementation of diagnostic biopsy in DIPG and mHGG to classify molecular risk groups and guide therapeutic strategy. Recently, a subset of these same mutations of ACVR1 have been identified in diffuse intrinsic pontine glioma (DIPG) tumors. Sequencing analysis showed c.83A>T mutations in the H3F3A or HIST1H3B gene in 77 % of our DIPG cohort. Protein profiling identified 2,305 unique proteins indicating distinct DIPG protein expression patterns compared to other pediatric brain tumors. Two distinct subgroups of DIPG were identified.",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved  TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved.",
+      "Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis. Conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) was observed across all primary, contiguous, and metastatic tumor sites in all DIPGs. ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved.  TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved.",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs  TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved. These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1).",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n=4) or HIST1H3B (n=3) across all primary, contiguous, and metastatic tumor sites in all DIPGs. Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis. These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1). TP53 aberrations (n=3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved. ACVR1 (n=2), PIK3CA (n=2), FGFR1 (n=2), and MET (n=1) were also intra-tumorally conserved. ",
+      "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1). "
+    ]
+  },
+  {
+    "id": "57138eb21174fb175500000a",
+    "type": "factoid",
+    "exact_answer": [
+      "Ataxin-3"
+    ],
+    "ideal_answer": [
+      "Ataxin-3 is a ubiquitously expressed deubiqutinating enzyme with important functions in the proteasomal protein degradation pathway and regulation of transcription. The C-terminus of the ataxin-3 protein contains a polyglutamine (PolyQ) region that, when mutationally expanded to over 52 glutamines, causes the neurodegenerative disease spinocerebellar ataxia 3 (SCA3).",
+      "Spinocerebellar ataxia type 3 (SCA3) is the most frequent inherited cerebellar ataxia in Europe, the US and Japan, leading to disability and death through motor complications. Although the affected protein ataxin-3 is found ubiquitously in the brain, grey matter atrophy is predominant in the cerebellum and the brainstem"
+    ]
+  },
+  {
+    "id": "6432f75757b1c7a31500001d",
+    "type": "yesno",
+    "exact_answer": "no",
+    "ideal_answer": [
+      "No, Zanubrutinib is a next-generation BTK inhibitor."
+    ]
+  },
+  {
+    "id": "6414638c201352f04a000047",
+    "type": "factoid",
+    "exact_answer": [
+      "Immunomodulatory drugs (IMiDs)",
+      "Thalidomide",
+      "pomalidomide",
+      "lenalidomide"
+    ],
+    "ideal_answer": [
+      "Immunomodulatory drugs (IMiDs) thalidomide, lenalidomide, and pomalidomide. IMiDs bind to CRBN and recruit neo-substrates for their ubiquitination and proteasome-mediated degradation",
+      "Cereblon (CRBN) has been identified as the target for thalidomide and its derivatives such as IMiDs (immunomodulatory drugs).",
+      "Cereblon (CRBN) has been identified as the target for immunomodulatory and antiproliferative activities of lenalidomide and pomalidomide.",
+      "Cereblon (CRBN) has been identified as the target for immunomodulatory drugs (IMiDs) such as thalidomide, lenalidomide, and pomalidomide.",
+      "Cereblon (CRBN) has been identified as the target for thalidomide and its derivatives, known as immunomodulatory drugs (IMiDs), such as lenalidomide and pomalidomide."
+    ]
+  },
+  {
+    "id": "5156be75d24251bc05000088",
+    "type": "list",
+    "exact_answer": [
+      [
+        "neurodegenerative disease"
+      ],
+      [
+        "epilepsy"
+      ],
+      [
+        "schizophrenia"
+      ],
+      [
+        "Huntington's disease (HD)"
+      ],
+      [
+        "Alzheimer's disease (AD)"
+      ],
+      [
+        "neuroinflammation"
+      ],
+      [
+        "osteosarcoma"
+      ],
+      [
+        "chronic lymphocytic leukemia (CLL)"
+      ],
+      [
+        "angiogenesis"
+      ],
+      [
+        "eye disease"
+      ],
+      [
+        "alcoholic liver disease"
+      ],
+      [
+        "progressive supranuclear palsy (PSP taupathy)"
+      ],
+      [
+        "mild cognitive impairment"
+      ]
+    ],
+    "ideal_answer": [
+      "Several targets for for miR-132 have been described and it is implicated in many diseases such as:\nneurodegenerative disease, \nepilepsy,\nschizophrenia,\nHuntington's disease (HD),\nAlzheimer's disease (AD),\nneuroinflammation,\nosteosarcoma,\nchronic lymphocytic leukemia (CLL),\nangiogenesis,\neye disease,\nalcoholic liver disease,\nprogressive supranuclear palsy (PSP taupathy),\nmild cognitive impairment."
+    ]
+  },
+  {
+    "id": "5887fe7d3b87a8a738000008",
+    "type": "factoid",
+    "exact_answer": [
+      "Inhibition of the oxytocinase subfamily of M1 aminopeptidases with immune-regulating properties."
+    ],
+    "ideal_answer": [
+      "3,4-diaminobenzoic acid derivatives are inhibitors of the oxytocinase subfamily of M1 aminopeptidases with immune-regulating properties. Cell-based analysis indicated that the lead compounds can be effective in downregulating macrophage activation induced by lipopolysaccharide and interferon-γ as well as cross-presentation by bone marrow-derived dendritic cells."
+    ]
+  },
+  {
+    "id": "58a94483ee23e0236b000003",
+    "type": "list",
+    "exact_answer": [
+      [
+        "genotypes II"
+      ],
+      [
+        "genotypes Ib"
+      ],
+      [
+        "genotypes IV"
+      ]
+    ],
+    "ideal_answer": [
+      "FimA has been characterized as an important virulence factor for P. gingivalis, and many studies, both animal experiments and clinical investigations, have characterized fimA genotypes II, Ib, and IV to be associated with disease (periodontitis and cardiovascular disease)"
+    ]
+  },
+  {
+    "id": "5358e067f1005d6b5800000b",
+    "type": "list",
+    "exact_answer": [
+      [
+        "Cysteine-rich protein 1 (CRP1)"
+      ],
+      [
+        "Fascin"
+      ],
+      [
+        "Macrophage actin-associated tyrosine phosphorylated protein (MAYP/PSTPIP2)"
+      ],
+      [
+        "Insulin receptor tyrosine kinase substrate p53 (IRSp53)"
+      ],
+      [
+        "Missing in metastasis protein (MIM)"
+      ],
+      [
+        "Eps8"
+      ],
+      [
+        "Diaphanous-related formin (dDia2)"
+      ],
+      [
+        "Vasodilator-stimulated phosphoprotein (VASP)"
+      ]
+    ],
+    "ideal_answer": [
+      "A number of proteins have been found to regulate F-actin bundling and enhance filopodia formation and motility. Among these are Cysteine-rich protein 1 (CRP1), Fascin, Macrophage actin-associated tyrosine phosphorylated protein (MAYP/PSTPIP2), Insulin receptor tyrosine kinase substrate p53 (IRSp53), Missing in metastasis protein (MIM), Eps8, Diaphanous-related formin (dDia2) and Vasodilator-stimulated phosphoprotein (VASP)."
+    ]
+  },
+  {
+    "id": "593fe5c270f9fc6f0f000021",
+    "type": "factoid",
+    "exact_answer": [
+      "7, designated I to VII",
+      "I-VII"
+    ],
+    "ideal_answer": [
+      "PML, the organizer of nuclear bodies (NBs), is expressed in several isoforms designated PMLI to VII which differ in their C-terminal region due to alternative splicing of a single gene.",
+      "The PML isoforms that are most sensitive to virus infection correspond closely to those which have recently been identified as being covalently conjugated to PIC1. PML, the organizer of nuclear bodies (NBs), is expressed in several isoforms designated PMLI to VII which differ in their C-terminal region due to alternative splicing of a single gene."
+    ]
+  },
+  {
+    "id": "550e9d2cb305b40c5c000001",
+    "type": "list",
+    "exact_answer": [
+      [
+        "Age"
+      ],
+      [
+        "NIH Stroke Scale score"
+      ]
+    ],
+    "ideal_answer": [
+      "SPAN-100 score includes patient's age and NIH Stroke Scale score. SPAN-100 is used for prognostication of stroke patients."
+    ]
+  },
+  {
+    "id": "5a86fd5bfaa1ab7d2e00003b",
+    "type": "yesno",
+    "exact_answer": "yes",
+    "ideal_answer": [
+      "Although devoid of recurrent single nucleotide variants and focal copy number aberrations, poor-prognosis hindbrain ependymomas exhibit a CpG island methylator phenotype",
+      "yes",
+      "Although devoid of recurrent single nucleotide variants and focal copy number aberrations, poor-prognosis hindbrain ependymomas exhibit a CpG island methylator phenotype Supratentorial and spinal pediatric ependymomas display a hypermethylated phenotype which includes the loss of tumor suppressor genes involved in the control of cell growth and death.",
+      "Although devoid of recurrent single nucleotide variants and focal copy number aberrations, poor-prognosis hindbrain ependymomas exhibit a CpG island methylator phenotype Although no recurrently mutated genes were found throughout these groups of ependymomas, PFA exhibited a CpG island methylator phenotype, PFB was associated with extensive chromosomal aberrations, and the C11orf95-RELA fusion gene was frequently observed in supratentorial ependymomas. ",
+      "Supratentorial and spinal pediatric ependymomas display a hypermethylated phenotype which includes the loss of tumor suppressor genes involved in the control of cell growth and death. Although devoid of recurrent single nucleotide variants and focal copy number aberrations, poor-prognosis hindbrain ependymomas exhibit a CpG island methylator phenotype."
+    ]
+  },
+  {
+    "id": "6278da4456bf9aee6f00000f",
+    "type": "yesno",
+    "exact_answer": "yes",
+    "ideal_answer": [
+      "Yes.",
+      "Nowadays, thalidomide is being used as an immunomodulatory drug."
+    ]
+  },
+  {
+    "id": "62211f453a8413c653000072",
+    "type": "factoid",
+    "exact_answer": [
+      "progranulin"
+    ],
+    "ideal_answer": [
+      "Loss-of-function mutations in the gene encoding for the protein progranulin (PGRN), GRN, are one of the major genetic abnormalities involved in frontotemporal lobar degeneration."
+    ]
+  },
+  {
+    "id": "5e31d181fbd6abf43b000053",
+    "type": "yesno",
+    "exact_answer": "no",
+    "ideal_answer": [
+      "No, Huntington's disease is caused by expansion of a CAG repeat (not CTG) in the HTT gene on Chromosome 4.",
+      "Huntington's disease (HD) is caused by a CAG repeat expansion that encodes a polyglutamine (polyQ) expansion in the HD disease protein, huntingtin (HTT).",
+      "Huntington disease (HD) is a dominantly inherited disorder caused by a CAG expansion mutation in the huntingtin (HTT) gene,"
+    ]
+  },
+  {
+    "id": "58a3428d60087bc10a00001b",
+    "type": "factoid",
+    "exact_answer": [
+      "HTT or  IT-15 gene or HD gene"
+    ],
+    "ideal_answer": [
+      "Huntington disease (HD; OMIM 143100), a progressive neurodegenerative disorder, is caused by an expanded trinucleotide CAG (polyQ) motif in the HTT gene. Mutations of the huntingtin protein (HTT) gene underlie both adult-onset and juvenile forms of Huntington's disease (HD).",
+      "Huntington disease  is a progressive neurodegenerative disorder and is caused by an expanded trinucleotide CAG (polyQ) motif in the HTT gene."
+    ]
+  },
+  {
+    "id": "61f60157882a024a1000001e",
+    "type": "factoid",
+    "exact_answer": [
+      "preventive treatment of migraine"
+    ],
+    "ideal_answer": [
+      "Atogepant is used for preventive treatment of migraine."
+    ]
+  },
+  {
+    "id": "56ed0ba22ac5ed1459000007",
+    "type": "yesno",
+    "exact_answer": "yes",
+    "ideal_answer": [
+      "Yes, Revlimid has been approved by the US Food and Drug Administration for treatment of multiple myeloma."
+    ]
+  },
+  {
+    "id": "58a0da5278275d0c4a000054",
+    "type": "list",
+    "exact_answer": [
+      [
+        "Multiple myeloma"
+      ],
+      [
+        "polyneuropathy, organomegaly, endocrinopathy, M-protein and skin changes",
+        "POEMS"
+      ],
+      [
+        "Irritable Bowels Syndrome ",
+        "IBS"
+      ]
+    ],
+    "ideal_answer": [
+      "Drug repositioning, exemplified by sildenafil and thalidomide, is a promising way to explore alternative indications for existing drugs. THE USE OF A DRUG WITH A TEMPORARY MARKETING AUTHORISATION: Thalidomide is currently available in France for nominative or cohort use with a temporary marketing authorisation (TMA). Currently, it is used for a few indications; in Brazil, where leprosy is endemic, thalidomide is used for the treatment of erythema nodosum leprosum, and recent cases of thalidomide embryopathy have been reported.We analyzed the frequency of births with phenotypes consistent with thalidomide embryopathy (TEP) and correlated this with the distribution of thalidomide and the prevalence of leprosy between 2005 and 2010 in Brazil.A total of 5,889,210 thalidomide tablets were distributed; the prevalence of limb reduction defects was 1.60 (CI95%: 1.54-1.66) and TEP was 0.11 (CI95%: 0.10-0.13) Currently it includes a group of new drugs (immunosuppressives tacrolimus mycophenolate, thalidomide, biologic therapy, probiotics, neuroinflammation blockers), new treatment techniques (cytaphereses, sequential immunosuppression, immunosuppression with high doses), and finally new indications (chemoprophylaxis). A review of the therapeutic indications for thalidomide in dermatology as well as the mechanisms of action and side-effects of this drug are presented.",
+      "Thalidomide can be used to treat multiple myeloma, polyneuropathy, organomegaly, endocrinopathy, M-protein and skin changes (POEMS) syndrome and possibly Irritable Bowel Syndrome."
+    ]
+  },
+  {
+    "id": "5156be5ed24251bc05000087",
+    "type": "yesno",
+    "exact_answer": "yes",
+    "ideal_answer": [
+      "Yes. MicroRNA 132 (miR-132), is involved in brain pathologies."
+    ]
+  },
+  {
+    "id": "58a0d87a78275d0c4a000053",
+    "type": "yesno",
+    "exact_answer": "yes",
+    "ideal_answer": [
+      "Several mechanisms for the teratogenic action of thalidomide are currently under review, but this mode of action of the drug still remains unclear and we review evidence-based hypotheses for the teratogenicity of thalidomide. Thalidomide is considered the drug of choice for the treatment of ENL, but for other conditions, it is recommended only when resistance to the currently available form of therapy is encountered. THE USE OF A DRUG WITH A TEMPORARY MARKETING AUTHORISATION: Thalidomide is currently available in France for nominative or cohort use with a temporary marketing authorisation (TMA). Examples of the basis for such regulation are drawn from historical situations (thalidomide, benoxaprofen) as well as currently marketed drugs (arylpropionic acids, disopyramide, indacrinone). In 1998 the US Food and Drug Administration approved thalidomide exclusively for the treatment of ENL, and strict conditions were stipulated for its use in order to prevent teratogenic adverse effects. The US Food and Drug Administration (FDA) has approved Thalomid (thalidomide) capsules for the acute treatment of the cutaneous manifestations of moderate to severe ENL. The revival of thalidomide began shortly after the drug was withdrawn from the market because of its teratogenic properties.",
+      "Thalidomide is currently used to treat multiple Myeloma, possibly POEMS (Polyneuropathy, organomegaly, endocrinopathy, M-protein and skin changes ) syndrome and IBS"
+    ]
+  },
+  {
+    "id": "5e31cb85fbd6abf43b00004e",
+    "type": "factoid",
+    "exact_answer": [
+      "HTT gene encoding the protein huntingtin"
+    ],
+    "ideal_answer": [
+      "Huntington's disease (HD) is a fully penetrant neurodegenerative disease caused by a dominantly inherited CAG trinucleotide repeat expansion in the huntingtin gene HTT encoding the Huntingtin protein on chromosome 4.",
+      "Huntington's disease (HD; OMIM 143100), a progressive neurodegenerative disorder, is caused by an expanded trinucleotide CAG (polyQ) motif in the huntingtin gene.",
+      "(HD) is a neurodegenerative disorder that is caused by abnormal expansion of CAG repeats in the HTT gene.",
+      "Huntington's disease (HD) is a neurodegenerative disorder that is caused by abnormal expansion of CAG repeats in the HTT gene."
+    ]
+  },
+  {
+    "id": "5890ede0621ea6ff7e000007",
+    "type": "yesno",
+    "exact_answer": "yes",
+    "ideal_answer": [
+      "Yes, histone H3.3 mutation in the codon for lysine 27 has been found as driver mutations in pediatric glioblastoma and has been suggested to play critical roles in the pathogenesis of thalamic gliomas and diffuse intrinsic pontine gliomas."
+    ]
+  },
+  {
+    "id": "6630390b187cba990d000035",
+    "type": "factoid",
+    "exact_answer": [
+      "PDGFRA",
+      "Platelet derived growth factor-alpha",
+      "Platelet derived growth factor-alpha (PDGFRA)"
+    ],
+    "ideal_answer": [
+      "Pediatric high-grade glioma (pHGG), including both diffuse midline glioma (DMG) and non-midline tumors, continues to be one of the deadliest oncologic diagnoses. Targeted therapy options aimed at key oncogenic receptor tyrosine kinase (RTK) drivers using small-molecule RTK inhibitors have been extensively studied, but the absence of proper in vivo modeling that recapitulates pHGG biology has historically been a research challenge. Over 20% of pHGG have been found in sequencing studies to have alterations in platelet derived growth factor-alpha (PDGFRA), making growth factor modeling and inhibition via targeted tyrosine kinases a promising research direction.",
+      "Receptor tyrosine kinase (RTK) alterations are commonly found in pediatric high-grade glioma (pHGG), including diffuse midline glioma (DMG) and non-midline tumors. Sequencing studies have revealed that over 20% of pHGG cases have alterations in platelet derived growth factor-alpha (PDGFRA). This has made growth factor modeling and inhibition via targeted tyrosine kinases a significant area of interest in pHGG research. The challenge in this field has been the lack of proper in vivo modeling that accurately represents pHGG biology."
+    ]
+  },
+  {
+    "id": "67d751e418b1e36f2e000040",
+    "type": "factoid",
+    "exact_answer": [
+      "POLR2M",
+      "RNA Polymerase 2 Subunit M"
+    ],
+    "ideal_answer": [
+      "The protein POLR2M silences the tumor suppressor MIR139, which promotes acute myeloid leukemia (AML) oncogenesis.",
+      "POLR2M promotes AML oncogenesis by silencing MIR139.",
+      "The protein POLR2M plays a role in silencing the tumor suppressor MIR139, which subsequently promotes acute myeloid leukemia (AML) oncogenesis.",
+      "The protein responsible for silencing MIR139 to promote AML oncogenesis is POLR2M. This process occurs downstream of MLL-AF9 and PRC2, indicating that these upstream regulators influence POLR2M's activity in silencing the tumor suppressor MIR139, thereby contributing to the development of acute myeloid leukemia (AML).",
+      "POLR2M, or RNA Polymerase 2 Subunit M, is the protein identified to silence MIR139, thereby promoting Acute Myeloid Leukemia (AML) oncogenesis. It acts through an epigenetic silencing mechanism, involving the Polycomb Repressive Complex 2 (PRC2) and downstream of the MLL-AF9 fusion protein. This process inhibits MIR139's tumor-suppressing activities, contributing to leukemic cell transformation. Targeting POLR2M may present a novel therapeutic strategy for AML treatment.",
+      "The protein POLR2M is responsible for silencing the tumor suppressor MIR139, thereby promoting oncogenesis in acute myeloid leukemia (AML). This silencing mechanism occurs downstream of the MLL-AF9 and PRC2 complexes, elucidating a critical role of POLR2M in the molecular control of MIR139 suppression within the context of AML pathogenesis.",
+      "POLR2M",
+      "POLR2M silences MIR139 to promote AML oncogenesis.",
+      "POLR2M silences MIR139 in order to promote AML oncogenesis.",
+      "POLR2M is the protein silencing MIR139 to promote AML oncogenesis.",
+      "POLR2M is the protein that silences MIR139 in order to promote AML oncogenesis.",
+      "POLR2M silences MIR139 to promote AML oncogenesis, acting downstream of MLL-AF9 and PRC2.",
+      "The protein POLR2M is silencing the tumor suppressor MIR139, which promotes the development of acute myeloid leukemia (AML).",
+      "The protein that silences MIR139 to promote AML oncogenesis is POLR2M.",
+      "POLR2M is silencing MIR139 to promote AML oncogenesis.",
+      "The protein identified as silencing the tumor suppressor MIR139 to promote AML oncogenesis is POLR2M. This was determined through a genome-wide CRISPR-Cas9 knockout screen.",
+      "POLR2M is silencing the tumor suppressor MIR139 to promote AML oncogenesis.",
+      "RNA Polymerase 2 Subunit M (POLR2M) is a novel MIR139-regulatory factor involved in the MIR139-silencing mechanism in AML.",
+      "The tumor suppressor MIR139 is silenced by POLR2M to promote AML oncogenesis.",
+      "POLR2M silences the tumor suppressor MIR139, acting downstream of MLL-AF9 and PRC2, which promotes the development of Acute Myeloid Leukemia (AML).",
+      "POLR2M (RNA Polymerase 2 Subunit M) is the protein responsible for silencing MIR139, thereby promoting Acute Myeloid Leukemia (AML) oncogenesis. This action is mediated downstream of the MLL-AF9 fusion protein and the polycomb repressive complex 2 (PRC2), as identified through a genome-wide CRISPR-Cas9 knockout screen.",
+      "RNA Polymerase 2 Subunit M (POLR2M) is silencing MIR139 to promote AML oncogenesis.",
+      "POLR2M is identified as the protein responsible for silencing MIR139, thereby promoting oncogenesis in Acute Myeloid Leukemia (AML). This conclusion is supported by its role downstream of MLL-AF9 and the polycomb repressive complex 2 (PRC2), leading to the silencing of MIR139, a tumor suppressor whose overexpression inhibits AML outgrowth. Targeting POLR2M may offer a novel therapeutic strategy for AML treatment.",
+      "POLR2M (RNA Polymerase 2 Subunit M) is the protein responsible for silencing MIR139, thereby promoting AML (Acute Myeloid Leukemia) oncogenesis. It acts downstream of the MLL-AF9 fusion protein and the polycomb repressive complex 2 (PRC2), as identified through a genome-wide CRISPR-Cas9 knockout screen.",
+      "The protein POLR2M is responsible for silencing the tumor suppressor MIR139, which promotes acute myeloid leukemia (AML) oncogenesis. This silencing mechanism occurs downstream of MLL-AF9 and PRC2 in the development of AML.",
+      "The protein POLR2M silences MIR139 to promote AML oncogenesis. This mechanism occurs downstream of MLL-AF9 and PRC2, as revealed by findings that POLR2M is a novel MIR139-regulatory factor in AML.",
+      "In the context of acute myeloid leukemia (AML) oncogenesis, the tumor suppressor MIR139 is silenced by the protein POLR2M. This silencing contributes to the progression of AML by inhibiting the tumor suppressive functions of MIR139, thereby promoting oncogenic processes.",
+      "POLR2M (RNA Polymerase 2 Subunit M) is the protein responsible for silencing MIR139, thereby promoting Acute Myeloid Leukemia (AML) oncogenesis. Identified through a genome-wide CRISPR-Cas9 knockout screen, POLR2M acts downstream of the MLL-AF9 fusion protein and the Polycomb Repressive Complex 2 (PRC2) to inhibit MIR139's tumor-suppressing activities. This epigenetic silencing mechanism contributes to AML development, suggesting that targeting POLR2M may offer a novel therapeutic approach for treating AML.",
+      "POLR2M is silencing MIR139 in order to promote AML oncogenesis.",
+      "POLR2M is the protein that silences MIR139 to promote AML oncogenesis.",
+      "The protein that is silencing MIR139 in order to promote AML oncogenesis is POLR2M.",
+      " POLR2M protein silences MIR139 in order to promote AML oncogenesis.",
+      "POLR2M is the protein silencing MIR139 in order to promote AML oncogenesis.",
+      "The protein POLR2M is responsible for silencing the tumor suppressor MIR139, thereby promoting acute myeloid leukemia (AML) oncogenesis. This silencing mechanism occurs downstream of MLL-AF9 and PRC2 in AML, highlighting a specific molecular pathway involved in the disease.",
+      "The protein POLR2M is responsible for silencing the tumor suppressor MIR139, which promotes AML oncogenesis.",
+      "The tumor suppressor gene MIR139 is silenced by the protein POLR2M, which promotes acute myeloid leukemia (AML) oncogenesis. This occurs because POLR2M interferes with the normal function of MIR139, thereby contributing to cancer development.",
+      "POLR2M is silencing MIR139 to promote AML oncogenesis. This elucidates the molecular control of tumor suppressor MIR139. It also reveals a role for POLR2M in the MIR139-silencing mechanism.",
+      "The protein responsible for silencing MIR139 to promote acute myeloid leukemia (AML) oncogenesis is POLR2M. This process occurs downstream of the oncogenic fusion protein MLL-AF9 and the Polycomb Repressive Complex 2 (PRC2), which are known contributors to AML development. POLR2M's role in this context involves gene silencing, specifically targeting the tumor suppressor MIR139, thereby facilitating leukemia progression.",
+      "RNA Polymerase 2 Subunit M (POLR2M) silences MIR139 to promote AML oncogenesis. This was revealed by a genome-wide CRISPR-Cas9 knockout screen identifying POLR2M as a novel MIR139-regulatory factor. MLL-AF9 expression also contributes to the epigenetic silencing of MIR139, while MIR139 overexpression inhibits AML outgrowth.",
+      "The protein POLR2M silences MIR139 to promote AML oncogenesis.",
+      "POLR2M (RNA Polymerase 2 Subunit M) is identified as the protein responsible for silencing MIR139, a tumor suppressor, thereby promoting Acute Myeloid Leukemia (AML) oncogenesis. This action is mediated through an epigenetic mechanism downstream of the MLL-AF9 fusion protein and the polycomb repressive complex 2 (PRC2). By inhibiting MIR139's suppressive effects on AML, POLR2M contributes to leukemia development, suggesting that targeting POLR2M could provide a novel therapeutic approach for treating AML.",
+      "POLR2M is the protein that is involved in the silencing of MIR139, promoting AML oncogenesis.",
+      "The protein responsible for silencing MIR139 to promote AML oncogenesis is POLR2M. Studies indicate that POLR2M silences the tumor suppressor MIR139, thereby facilitating the progression of acute myeloid leukemia. This mechanism operates downstream of the MLL-AF9 and PRC2 complexes in AML.",
+      "The protein POLR2M silences the tumor suppressor MIR139, which promotes acute myeloid leukemia (AML) oncogenesis. This silencing mechanism occurs downstream of MLL-AF9 and PRC2."
+    ]
+  },
+  {
+    "id": "515bd543298dcd4e51000001",
+    "type": "list",
+    "exact_answer": [
+      [
+        "H2"
+      ],
+      [
+        "H3"
+      ]
+    ],
+    "ideal_answer": [
+      "Alu elements are enriched in high GC% isochores due to reduced Alu loss by recombination in these regions. The frequency of Alu sequences increases with increasing GC, but attains a maximum in H2 isochores."
+    ]
+  },
+  {
+    "id": "5547a01cf35db75526000005",
+    "type": "factoid",
+    "exact_answer": [
+      "Fungi"
+    ],
+    "ideal_answer": [
+      "Traditionally, microsporidia were considered as protozoans, but recently they have been reclassified as the earliest-diverging clade of sequenced fungi. Microsporidia are a diverse group of obligate, intracellular, eukaryotic, spore-forming parasites; they are ubiquitous fungi, with genomes that have undergone a strong reduction."
+    ]
+  }
+]

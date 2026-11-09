@@ -1,0 +1,31 @@
+{
+  "source_sha256": "5669afbc0bbc8f50d54850edb4aa592ecff3e38b29b09ac6684bb52990b651b7",
+  "seed": 42,
+  "count": 20,
+  "eligible_count": 2825,
+  "setting": "provided supporting snippets; engineering development only",
+  "selection": "random factoid/list; not selected for tool need or failure",
+  "ids": [
+    "67d751e418b1e36f2e000040",
+    "6432f5f257b1c7a31500001c",
+    "55376663bc4f83e82800000a",
+    "5709ee36cf1c32585100001e",
+    "550e9d2cb305b40c5c000001",
+    "5887fe7d3b87a8a738000008",
+    "593fe5c270f9fc6f0f000021",
+    "515bd543298dcd4e51000001",
+    "58a94483ee23e0236b000003",
+    "58add1d79ef3c34033000008",
+    "5547a01cf35db75526000005",
+    "61f60157882a024a1000001e",
+    "57138eb21174fb175500000a",
+    "58a3428d60087bc10a00001b",
+    "5156be75d24251bc05000088",
+    "62211f453a8413c653000072",
+    "6414638c201352f04a000047",
+    "5358e067f1005d6b5800000b",
+    "5e2b1ed9fbd6abf43b000005",
+    "661be55f48a2c27714000003"
+  ],
+  "order": "ascending total snippet character length for engineering startup"
+}

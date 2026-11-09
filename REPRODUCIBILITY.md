@@ -29,10 +29,10 @@ python3 tools/replay_sandbox.py --case all
 源码里的原部署根目录是 `/home/supervisor/project/sy/MedToolEvo`，模型服务为本机端口8001，语义别名 `medtool-qa`，Builder别名 `medtool-builder`。部署分别是Qwen3.5-27B及Qwen3-Coder-30B的现有GGUF配置，具体路径、参数见冻结 `model_service.py`、协议和调用记录。
 
 - 原部署使用Linux单GPU串行切换，不能并行启动多个GPU作业。
-- 模型权重、llama.cpp构建和完整语料未包含。需自行取得正确版本并配置部署路径；当前缺少通用安装器和完整环境/权重来源锁定，属于审阅事项。
+- 模型权重和llama.cpp构建未包含；完整原始JSON语料现已通过Git LFS补充，见`DATASETS.md`。仍需自行取得正确模型版本并配置部署路径；当前缺少通用安装器和完整环境/权重来源锁定，属于审阅事项。
 - `requirements-runtime.txt`记录原服务Schema依赖版本；这不是完整CUDA/C++环境锁文件。
 - 模型角色、温度、seed、上下文及请求格式以对应原始 `request.json`、协议和冻结源码为准。
-- 全量BioASQ/DocHopQA应按原数据条款自行取得。未打包参考答案，因此仅凭此仓库无法独立重算完整BioASQ官方F1；已保存分数只能先做诊断审查。
+- 全量BioASQ/DocHopQA与现有派生参考答案现已补充，按`DATASETS.md`下载并核验。原始答案与`references.json`仅供独立离线评分，不得送入Executor、Manager或Builder。结果快照仍为上传时90题记录，不是100题或1130题最终报告；重算分数还需正确对应原评分器、划分和已保存预测。
 - 旧数据准备脚本需原数据路径。CPU核验和冻结测试重放使用仓库内的小型源快照，不需要下载完整数据集。
 
 ## 原始文件与清单

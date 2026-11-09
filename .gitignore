@@ -8,5 +8,3 @@ models/
 *.zip
 .env
 .env.*
-/BioASQ-training14b/
-/DocHopQA/

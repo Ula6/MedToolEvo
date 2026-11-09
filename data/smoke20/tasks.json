@@ -1,0 +1,2557 @@
+[
+  {
+    "id": "67d751e418b1e36f2e000040",
+    "question": "Which protein is silencing MIR139 in order to promote AML oncogenesis?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34741119",
+        "text": "The tumor suppressor MIR139 is silenced by POLR2M to promote AML oncogenesis.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34741119",
+        "text": "Our findings elucidate the molecular control of tumor suppressor MIR139 and reveal a role for POLR2M in the MIR139-silencing mechanism, downstream of MLL-AF9 and PRC2 in AML.",
+        "section": "abstract",
+        "offset": 888
+      }
+    ]
+  },
+  {
+    "id": "6432f5f257b1c7a31500001c",
+    "question": "What does Zanubrutinib inhibit?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35651781",
+        "text": "In the United States, zanubrutinib, a next-generation BTK inhibitor, has been approved for treating adults with mantle cell lymphoma who have received at least one prior therapy, for adults with Waldenström macroglobulinemia, and for adults with relapsed or refractory marginal zone lymphoma who have received at least one anti-CD20-based therapy. B",
+        "section": "abstract",
+        "offset": 543
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35651781",
+        "text": "To reduce these side effects, zanubrutinib, a next-generation BTK inhibitor, was designed to block BTK more specifically than ibrutinib.",
+        "section": "abstract",
+        "offset": 2451
+      }
+    ]
+  },
+  {
+    "id": "55376663bc4f83e82800000a",
+    "question": "Which biomarker is widely used in the diagnosis of Ewing sarcoma?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/12783138",
+        "text": "half of B-LBL patients are negative for CD45 (leucocyte common antigen, LCA), a widely used marker for the diagnosis of lymphoma, and a significant portion express CD99, a marker for Ewing's sarcoma (ES) or primitive neuroectodermal tumor (PNET)",
+        "section": "abstract",
+        "offset": 218
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/12783138",
+        "text": "Moreover, half of B-LBL patients are negative for CD45 (leucocyte common antigen, LCA), a widely used marker for the diagnosis of lymphoma, and a significant portion express CD99, a marker for Ewing's sarcoma (ES) or primitive neuroectodermal tumor (PNET)",
+        "section": "abstract",
+        "offset": 208
+      }
+    ]
+  },
+  {
+    "id": "5709ee36cf1c32585100001e",
+    "question": "Which syndrome is associated with mutant DVL1?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25817014",
+        "text": "Mutations in DVL1 cause an osteosclerotic form of Robinow syndrome.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25817014",
+        "text": "Here, we identified de novo frameshift mutations in DVL1, a mediator of both canonical and non-canonical Wnt signaling, as the cause of RS-OS, an RS subtype involving osteosclerosis, in three unrelated individuals.",
+        "section": "abstract",
+        "offset": 311
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25817016",
+        "text": "DVL1 frameshift mutations clustering in the penultimate exon cause autosomal-dominant Robinow syndrome.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25817016",
+        "text": "argeted Sanger sequencing in additional subjects with DRS uncovered DVL1 exon 14 mutations in five individuals, including a pair of monozygotic twins.",
+        "section": "abstract",
+        "offset": 634
+      }
+    ]
+  },
+  {
+    "id": "550e9d2cb305b40c5c000001",
+    "question": "Which variables are included in the SPAN-100 score?",
+    "type": "list",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23894342",
+        "text": "Furthermore, MR-proADM levels significantly improved reclassification of patients in the prediction of outcome by the Stroke Prognostication using Age and NIHSS-100 (SPAN-100; NRI = 0.175; p = 0.04). ",
+        "section": "abstract",
+        "offset": 1040
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23175723",
+        "text": "Stroke Prognostication using Age and NIH Stroke Scale: SPAN-100.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23175723",
+        "text": "METHODS: We created the Stroke Prognostication using Age and NIH Stroke Scale (SPAN) index by combining age in years plus NIH Stroke Scale (NIHSS) ≥100. ",
+        "section": "abstract",
+        "offset": 431
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24798141",
+        "text": "The SPAN-100 index is considered positive if the sum of the age and the NIH Stroke Scale (a 15-item neurological examination scale with scores ranging from 0 to 42, with higher scores indicating more severe strokes) score is greater than or equal to 100",
+        "section": "abstract",
+        "offset": 825
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24798141",
+        "text": "The Stroke Prognostication using Age and the NIH Stroke Scale index, created by combining age in years plus a National Institutes of Health (NIH) Stroke Scale score of 100 or higher (and hereafter referred to as the SPAN-100 index), is a simple risk score for estimating clinical outcomes for patients with acute ischemic stroke (AIS)",
+        "section": "abstract",
+        "offset": 0
+      }
+    ]
+  },
+  {
+    "id": "5887fe7d3b87a8a738000008",
+    "question": "What is the role of 3,4-diaminobenzoic acid derivatives in the immune system?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25635706",
+        "text": "3,4-diaminobenzoic acid derivatives as inhibitors of the oxytocinase subfamily of M1 aminopeptidases with immune-regulating properties.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25635706",
+        "text": "Members of the oxytocinase subfamily of M1 aminopeptidases (ERAP1, ERAP2, and IRAP) play important roles in both the adaptive and innate human immune responses. Their enzymatic activity can contribute to the pathogenesis of several major human diseases ranging from viral and parasitic infections to autoimmunity and cancer. We have previously demonstrated that diaminobenzoic acid derivatives show promise as selective inhibitors for this group of aminopeptidases. In this study, we have thoroughly explored a series of 3,4-diaminobenzoic acid derivatives as inhibitors of this class of enzymes, achieving submicromolar inhibitors for ERAP2 (IC50 = 237 nM) and IRAP (IC50 = 105 nM). Cell-based analysis indicated that the lead compounds can be effective in downregulating macrophage activation induced by lipopolysaccharide and interferon-γ as well as cross-presentation by bone marrow-derived dendritic cells. Our results indicate that this class of inhibitors may be useful for the targeted downregulation of immune responses.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25635706",
+        "text": "3,4-diaminobenzoic acid derivatives as inhibitors of the oxytocinase subfamily of M1 aminopeptidases with immune-regulating properties",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25635706",
+        "text": "Members of the oxytocinase subfamily of M1 aminopeptidases (ERAP1, ERAP2, and IRAP) play important roles in both the adaptive and innate human immune responses.",
+        "section": "abstract",
+        "offset": 0
+      }
+    ]
+  },
+  {
+    "id": "593fe5c270f9fc6f0f000021",
+    "question": "How many PML isoforms exist in the human genome?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/9658103",
+        "text": "The PML isoforms that are most sensitive to virus infection correspond closely to those which have recently been identified as being covalently conjugated to PIC1.",
+        "section": "abstract",
+        "offset": 928
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15107834",
+        "text": "Using a panel of different PML isoforms, we demonstrate specific co-localization between the E6 proteins and PML isoforms I-IV, but not with PML isoforms V and VI. ",
+        "section": "abstract",
+        "offset": 665
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21172801",
+        "text": "PML isoforms I and II participate in PML-dependent restriction of HSV-1 replication.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21172801",
+        "text": " We report that individual expression of PML isoforms I and II partially reverses the increase in ICP0-null mutant HSV-1 plaque formation that occurs in PML-depleted cells.",
+        "section": "abstract",
+        "offset": 524
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23028697",
+        "text": "PML, the organizer of nuclear bodies (NBs), is expressed in several isoforms designated PMLI to VII which differ in their C-terminal region due to alternative splicing of a single gene.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23028697",
+        "text": "Using a bioluminescence resonance energy transfer (BRET) assay in living cells, we found that As₂O₃ enhanced the SUMOylation and interaction with RNF4 of nuclear PML isoforms (I to VI)",
+        "section": "abstract",
+        "offset": 840
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22773875",
+        "text": "PML is the structural component of PML nuclear bodies and has several nuclear splice isoforms that share a common N-terminal region but differ in their C termini.",
+        "section": "abstract",
+        "offset": 183
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23734343",
+        "text": "Several PML isoforms are generated from a single PML gene by alternative splicing. ",
+        "section": "abstract",
+        "offset": 334
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24190887",
+        "text": "Six major PML isoforms are expressed as a result of alternative splicing, each of which encodes a unique C-terminal region.",
+        "section": "abstract",
+        "offset": 320
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25772236",
+        "text": " However, the biochemical consequences and oncogenic alterations of PML-associated E1B-55K by SUMO-dependent PML-IV and PML-V interaction have so far remained elusive",
+        "section": "abstract",
+        "offset": 349
+      }
+    ]
+  },
+  {
+    "id": "515bd543298dcd4e51000001",
+    "question": "In which isochores are Alu elements enriched?",
+    "type": "list",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22057813",
+        "text": " the vast majority of Alu sequences were shown to have the highest density in GC-rich isochores",
+        "section": "sections.0",
+        "offset": 146
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22057813",
+        "text": "Alu sequences being unstable in the GC-poor isochores but stable in the compositionally matching GC-rich isochores,",
+        "section": "sections.0",
+        "offset": 988
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15871047",
+        "text": "Alu retrotransposons do not show a homogeneous distribution over the human genome but have a higher density in GC-rich (H) than in AT-rich (L) isochores",
+        "section": "sections.0",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15871047",
+        "text": "This result, together with the known higher selective disadvantage of recombination products in H isochores, points to Alu-Alu recombination as the main agent provoking the density shift of Alus toward the GC-rich parts of the genome",
+        "section": "sections.0",
+        "offset": 1230
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11591470",
+        "text": "whereas GC-rich Alus are mostly present in GC-rich isochores",
+        "section": "sections.0",
+        "offset": 175
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11591470",
+        "text": "the present results on Alu and LINE stability/exclusion predict significant losses of Alu DNA from the GC-poor isochores during evolution, a phenomenon apparently due to negative selection against sequences that differ from the isochore composition",
+        "section": "sections.0",
+        "offset": 1221
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/9931467",
+        "text": "The frequency of Alu sequences also increases with increasing GC, but attains a maximum in H2 isochores, in agreement with previous experimental data",
+        "section": "sections.0",
+        "offset": 780
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/9931467",
+        "text": "The CpG levels of both Alus and CpG islands increase with their GC levels",
+        "section": "sections.0",
+        "offset": 1570
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/8828040",
+        "text": "characterized as a GC-rich isochore enriched for CpG islands, genes, and Alu-like repeats",
+        "section": "sections.0",
+        "offset": 327
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/7723057",
+        "text": "Microsatellites and SINES (Alu, B1, B2) are found at roughly equal frequencies in introns from all isochore classes",
+        "section": "sections.0",
+        "offset": 1299
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/6572942",
+        "text": "The results indicate that the short repeats of the B1 family of mouse and of the Alu I family of man are most frequent in the heavy components, whereas the long repeats of the BamHI family of mouse and of the Kpn I family of man are mainly present in the two light components.",
+        "section": "sections.0",
+        "offset": 500
+      }
+    ]
+  },
+  {
+    "id": "58a94483ee23e0236b000003",
+    "question": "Which fimA genotypes are associated with disease?",
+    "type": "list",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26387644",
+        "text": " FimA has been characterized as an important virulence factor for P. gingivalis, and many studies, both animal experiments and clinical investigations, have characterized fimA genotypes II, Ib, and IV to be associated with disease (periodontitis and cardiovascular disease) ",
+        "section": "abstract",
+        "offset": 476
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20219603",
+        "text": "Long fimbriae (FimA) are important virulence factors of Porphyromonas gingivalis. Based on the diversity of the fimA gene, this species is classified into 6 genotypes. ",
+        "section": "abstract",
+        "offset": 11
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20219603",
+        "text": " In cases of chronic apical periodontitis, P. gingivalis variant type IV was the most prevalent (24%), followed by types I (20%), II (16%), and III (8%). In acute abscess samples, variant type II was the most prevalent (12%), followed by types III and IV (8% of each) and type I (4%).",
+        "section": "abstract",
+        "offset": 782
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22053966",
+        "text": "We show that P. gingivalis strains with genotype I and II of FimA are efficient in interaction with saliva or S. gordonii. ",
+        "section": "abstract",
+        "offset": 959
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22549664",
+        "text": "A strong association between Porphyromonas gingivalis fimA genotypes II and Ib and chronic periodontitis exists in the Spanish population. The most prevalent genotype in periodontal patients is II.",
+        "section": "abstract",
+        "offset": 1238
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22466890",
+        "text": "Our results suggest that the presence of P. gingivalis is associated with periodontal diseases, and that the type II, IV and Ib/II combination are the most common among fimA genotypes.",
+        "section": "abstract",
+        "offset": 1022
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23264452",
+        "text": "Statistical analysis, however, revealed that a more significant correlation was found between periodontitis and the occurrence of type Ib fimA.",
+        "section": "abstract",
+        "offset": 1218
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23646850",
+        "text": " Type II of fimA was the most prevalent genotype of P. gingivalis in patients with AgP. ",
+        "section": "abstract",
+        "offset": 1667
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24466164",
+        "text": "The population of Tregs further decreased in patients with type II FimA compared with the other types. P.gingivlias FimA genotype II was the dominant type associated with decreased Treg population. ",
+        "section": "abstract",
+        "offset": 1211
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26600627",
+        "text": "A trend toward a greater frequency of FimA II genotype in patients with moderate and severe periodontitis was determined.",
+        "section": "abstract",
+        "offset": 1099
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26937292",
+        "text": "The fimA type Ib genotype of P. gingivalis was found to play a critical role in the destruction of peri-implant tissue, suggesting that it may be a distinct risk factor for peri-implantitis.",
+        "section": "abstract",
+        "offset": 1251
+      }
+    ]
+  },
+  {
+    "id": "58add1d79ef3c34033000008",
+    "question": "Which driver mutations have been identified for Diffuse Intrinsic Pontine Glioma (DIPG)?",
+    "type": "list",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26727948",
+        "text": "We found conservation of heterozygous K27M mutations in H3F3A (n = 4) or HIST1H3B (n = 3) across all primary, contiguous, and metastatic tumor sites in all DIPGs",
+        "section": "abstract",
+        "offset": 1101
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26727948",
+        "text": "ACVR1 (n = 2), PIK3CA (n = 2), FGFR1 (n = 2), and MET (n = 1) were also intra-tumorally conserved",
+        "section": "abstract",
+        "offset": 1264
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26727948",
+        "text": " TP53 aberrations (n = 3 patients) varied by type and location between primary and metastatic tumors sites but were intra-tumorally conserved.",
+        "section": "abstract",
+        "offset": 1549
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/27048880",
+        "text": "Evolutionary reconstruction indicates histone 3 (H3) K27M--including H3.2K27M--mutations potentially arise first and are invariably associated with specific, high-fidelity obligate partners throughout the tumour and its spread, from diagnosis to end-stage disease, suggesting mutual need for tumorigenesis.",
+        "section": "abstract",
+        "offset": 298
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/27048880",
+        "text": "These H3K27M ubiquitously-associated mutations involve alterations in TP53 cell-cycle (TP53/PPM1D) or specific growth factor pathways (ACVR1/PIK3R1). ",
+        "section": "abstract",
+        "offset": 605
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25773741",
+        "text": "Recently, sequencing of tumor cells revealed that histone H3 is frequently mutated in pediatric HGG, with up to 78 % of diffuse intrinsic pontine gliomas (DIPGs) carrying K27M and 36 % of non-brainstem gliomas carrying either K27M or G34R/V mutations.",
+        "section": "abstract",
+        "offset": 397
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25182241",
+        "text": "Moreover, in diffuse intrinsic pontine gliomas (DIPG), recurrent somatic mutations of ACVR1 were found in association with HIST1H3B mutations",
+        "section": "abstract",
+        "offset": 1238
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25773741",
+        "text": "Recently, sequencing of tumor cells revealed that histone H3 is frequently mutated in pediatric HGG, with up to 78 % of diffuse intrinsic pontine gliomas (DIPGs) carrying K27M and 36 % of non-brainstem gliomas carrying either K27M or G34R/V mutations",
+        "section": "abstract",
+        "offset": 400
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22661320",
+        "text": "K27M mutation in histone H3.3 defines clinically and biologically distinct subgroups of pediatric diffuse intrinsic pontine gliomas.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/27251074",
+        "text": "Recurrent mutations within the histone H3 genes H3F3A and HIST1H3B that convert K27 to methionine (H3K27M) and disrupt the global H3K27 methylation landscape and PRC2-dependent silencing, have recently been identified in pediatric high-grade gliomas including Diffuse Intrinsic Pontine Glioma (DIPG) and Glioblastoma multiforme (GBM; Type IV glioma).",
+        "section": "abstract",
+        "offset": 318
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24297113",
+        "text": "Sequencing analysis showed c.83A>T mutations in the H3F3A or HIST1H3B gene in 77 % of our DIPG cohort.",
+        "section": "abstract",
+        "offset": 1137
+      }
+    ]
+  },
+  {
+    "id": "5547a01cf35db75526000005",
+    "question": "In which kingdom do microsporidia belong, according to their current classification scheme?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24104931",
+        "text": "Microsporidia are a diverse group of obligate, intracellular, eukaryotic, spore-forming parasites. Traditionally, these were considered as protozoans but recently have been reclassified as fungi. ",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23917025",
+        "text": "Microsporidia are ubiquitous fungi with genomes that have undergone a strong reduction",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23087371",
+        "text": "Microsporidia are unicellular fungi that are obligate endoparasites. ",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22651672",
+        "text": "Phylogenomics supports microsporidia as the earliest diverging clade of sequenced fungi.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22651672",
+        "text": "A combined analysis of thousands of gene trees supports a topology in which microsporidia is a sister group to all other sequenced fungi.",
+        "section": "abstract",
+        "offset": 926
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22651672",
+        "text": "Altogether, our data strongly support a scenario in which microsporidia is the earliest-diverging clade of sequenced fungi.",
+        "section": "abstract",
+        "offset": 1410
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22503551",
+        "text": "Microsporidia are a large diverse group of intracellular parasites now considered as fungi.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20479876",
+        "text": "The unique genomic hallmarks between microsporidia and fungi are independent of sequence based phylogenetic comparisons and further contribute to define the borders of the fungal kingdom and support the classification of microsporidia as unusual derived fungi.",
+        "section": "abstract",
+        "offset": 1694
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/9809012",
+        "text": "The kingdom Fungi is expanded by adding Microsporidia, because of protein sequence evidence that these amitochondrial intracellular parasites are related to conventional Fungi, not Protozoa.",
+        "section": "abstract",
+        "offset": 909
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20479876",
+        "text": "The preponderance of evidence as to the origin of the microsporidia reveals a close relationship with the fungi, either within the kingdom or as a sister group to it.",
+        "section": "abstract",
+        "offset": 152
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25134955",
+        "text": "In a subsequent analysis, we excluded the other Microsporidia from the analysis to look for relationships before the divergence of Microsporidia, and found that 43% of the microsporidial genes scored highest with fungal genes, and a higher mean LPI was found with Fungi than with other kingdoms, suggesting that Microsporidia is closely related to Fungi at the genomic level.",
+        "section": "abstract",
+        "offset": 1132
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20479876",
+        "text": "CONCLUSION/SIGNIFICANCE: The unique genomic hallmarks between microsporidia and fungi are independent of sequence based phylogenetic comparisons and further contribute to define the borders of the fungal kingdom and support the classification of microsporidia as unusual derived fungi.",
+        "section": "abstract",
+        "offset": 1753
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24558617",
+        "text": "Microorganisms of the microsporidia group are obligated intracellular protozoa that belong to the phylum Microspora; currently they are considered to be related or belong to the fungi reign",
+        "section": "abstract",
+        "offset": 0
+      }
+    ]
+  },
+  {
+    "id": "61f60157882a024a1000001e",
+    "question": "What is the use of Atogepant?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34521260",
+        "text": "Time course of efficacy of atogepant for the preventive treatment of migraine: Results from the randomized, double-blind ADVANCE trial.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34521260",
+        "text": "BACKGROUND: Atogepant is an oral, small-molecule, calcitonin gene-related peptide receptor antagonist for the preventive treatment of migraine.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34521260",
+        "text": "CONCLUSION: Atogepant demonstrated treatment benefits as early as the first full day after treatment initiation, and sustained efficacy across each 4-week interval during the 12-week treatment period.",
+        "section": "abstract",
+        "offset": 1452
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34813050",
+        "text": "Atogepant (Qulipta™) is an orally administered, small-molecule, calcitonin gene-related peptide (CGRP) receptor antagonist being developed by AbbVie for the prophylaxis of migraine. In September 2021, atogepant was approved in the USA for the preventive treatment of episodic migraine in adults. The drug is also in phase 3 clinical development for the preventive treatment of migraine in various other countries. ",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33369482",
+        "text": "This paper reviews the available data from RCTs to assess the clinical efficacy, safety, and tolerability profile of lasmiditan, rimegepant, and ubrogepant for the acute treatment of migraine and atogepant for the prevention of migraine.",
+        "section": "abstract",
+        "offset": 532
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33142014",
+        "text": "Atogepant is a potent, selective, oral calcitonin gene-related peptide (CGRP) receptor antagonist in development for migraine prevention.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32297990",
+        "text": "Atogepant, a potent, selective antagonist of the calcitonin gene-related peptide receptor-in development for migraine prevention-is thus likely to be used by women taking oral contraceptives.",
+        "section": "abstract",
+        "offset": 143
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34407343",
+        "text": "Atogepant for the Preventive Treatment of Migraine",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34813050",
+        "text": "ember 2021, atogepant was approved in the USA for the preventive treatment of episodic migraine in adults. The dr",
+        "section": "abstract",
+        "offset": 189
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34407343",
+        "text": "Atogepant for the Preventive Treatment of Migraine.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34788240",
+        "text": "Atogepant for the Preventive Treatment of Migraine.",
+        "section": "abstract",
+        "offset": 1083
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34813050",
+        "text": "Atogepant (Qulipta™) is an orally administered, small-molecule, calcitonin gene-related peptide (CGRP) receptor antagonist being developed by AbbVie for the prophylaxis of migraine.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34521260",
+        "text": "BACKGROUND: Atogepant is an oral, small-molecule, calcitonin gene-related peptide receptor antagonist for the preventive treatment of migraine.METHODS: In the double-blind, phase 3 ADVANCE trial, participants with 4-14 migraine days/month were randomized to atogepant 10 mg, 30 mg, 60 mg, or placebo onc",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e14",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34813050",
+        "text": "In September 2021, atogepant was approved in the USA for the preventive treatment of episodic migraine in adults.",
+        "section": "abstract",
+        "offset": 182
+      },
+      {
+        "evidence_id": "e15",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34813050",
+        "text": "This article summarizes the milestones in the development of atogepant leading to this first approval for the preventive treatment of episodic migraine in adults.",
+        "section": "abstract",
+        "offset": 414
+      }
+    ]
+  },
+  {
+    "id": "57138eb21174fb175500000a",
+    "question": "Which is the protein implicated in Spinocerebellar ataxia type 3?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24272589",
+        "text": "Spinocerebellar ataxia type 3 (SCA3) is the most frequent inherited cerebellar ataxia in Europe, the US and Japan, leading to disability and death through motor complications. Although the affected protein ataxin-3 is found ubiquitously in the brain, grey matter atrophy is predominant in the cerebellum and the brainstem",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23617879",
+        "text": "Spinocerebellar ataxia type 3 (SCA3) is an inherited spinocerebellar ataxia caused by the expansion of trinucleotide CAG repeats in the gene encoding ataxin-3",
+        "section": "abstract",
+        "offset": 6
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24293103",
+        "text": "Ataxin-3 is a ubiquitously expressed deubiqutinating enzyme with important functions in the proteasomal protein degradation pathway and regulation of transcription. The C-terminus of the ataxin-3 protein contains a polyglutamine (PolyQ) region that, when mutationally expanded to over 52 glutamines, causes the neurodegenerative disease spinocerebellar ataxia 3 (SCA3)",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20007218",
+        "text": "Spinocerebellar ataxia type 3 is a neurodegenerative disorder caused by the expansion of the polyglutamine repeat region within the ataxin-3 protein.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23659897",
+        "text": "Spinocerebellar ataxia type 3 is caused by a polyglutamine expansion in the ataxin-3 protein, resulting in gain of toxic function of the mutant protein.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20943656",
+        "text": "Here, we provide insight into the mechanism by which ubiquitination directly enhances the activity of ataxin-3, a DUb implicated in protein quality control and the disease protein in the polyglutamine neurodegenerative disorder, Spinocerebellar Ataxia Type 3",
+        "section": "abstract",
+        "offset": 153
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20865150",
+        "text": "Ataxin-3, the disease protein in the neurodegenerative disorder Spinocerebellar Ataxia Type 3 or Machado Joseph disease, is a cysteine protease implicated in the ubiquitin proteasome pathway",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24685680",
+        "text": "Ataxin-3 (AT3) is the protein that triggers the inherited neurodegenerative disorder spinocerebellar ataxia type 3 when its polyglutamine (polyQ) stretch close to the C-terminus exceeds a critical length",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/9292723",
+        "text": "Here, in studies of spinocerebellar ataxia type 3, also known as Machado-Joseph disease (SCA3/MJD), we show that the disease protein ataxin-3 accumulates in ubiquitinated intranuclear inclusions selectively in neurons of affected brain regions.",
+        "section": "abstract",
+        "offset": 139
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21827905",
+        "text": "This pathogenic repeat in MJD/SCA3 encodes an expanded tract of the amino acid glutamine in the disease protein, which is known as ataxin-3.",
+        "section": "abstract",
+        "offset": 584
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16389311",
+        "text": "Machado-Joseph disease (MJD), also called spinocerebellar ataxia type 3, is caused by mutant ataxin-3 with a polyglutamine expansion.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21653538",
+        "text": " Mutant ataxin-3 is aberrantly folded and proteolytically cleaved in spinocerebellar ataxia type 3. The C-terminal region of the protein includes a polyglutamine stretch that is expanded in spinocerebellar ataxia type 3.",
+        "section": "abstract",
+        "offset": 0
+      }
+    ]
+  },
+  {
+    "id": "58a3428d60087bc10a00001b",
+    "question": "What gene is mutated in Huntington's disease?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25993131",
+        "text": "Huntington disease (HD; OMIM 143100), a progressive neurodegenerative disorder, is caused by an expanded trinucleotide CAG (polyQ) motif in the HTT gene.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25931812",
+        "text": "Huntington's disease (HD) is caused by a genetic mutation that results in polyglutamine expansion in the N-terminal regions of huntingtin.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26863614",
+        "text": "Mutations of the huntingtin protein (HTT) gene underlie both adult-onset and juvenile forms of Huntington's disease (HD).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/9392570",
+        "text": "Huntington's disease is an inherited disorder caused by expansion of a CAG trinucleotide repeat in the IT15 gene, which leads to expansion of a polyglutamine tract within the protein called huntingtin.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24196395",
+        "text": "Huntington disease is a monogenic, autosomal dominant, progressive neurodegenerative disorder caused by a trinucleotide CAG repeat expansion in exon 1 of the huntingtin (HTT) gene; age of onset of clinical symptoms inversely correlates with expanded CAG repeat length",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26466780",
+        "text": "The causative gene (mutated HTT) is widely expressed outside the CNS and several peripheral signs of disease, including weight loss and increased proinflammatory signalling, are often seen; however, their importance in the pathophysiology of Huntington's disease is not clear.",
+        "section": "abstract",
+        "offset": 170
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26160070",
+        "text": "Huntington's disease (HD) is an inherited, neurodegenerative disorder caused by a single-gene mutation: a CAG expansion in the huntingtin (HTT) gene that results in production of a mutated protein, mutant HTT, with a polyglutamine tail (polyQ-HTT).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/9392570",
+        "text": "Huntington's disease is an inherited disorder caused by expansion of a CAG trinucleotide repeat in the IT15 gene, which leads to expansion of a polyglutamine tract within the protein called huntingtin. Despite the characterization of the IT15 gene and the mutation involved in the disease, the normal function of huntingtin and the effects of the mutation on its function and on its neuronal location remain unknown. To study whether mutated huntingtin has the same neuronal distribution and intracellular location as normal huntingtin, we analyzed immunohistochemically both forms of this protein in the brain of 5 controls and 5 patients with Huntington's disease.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/9392570",
+        "text": "Huntington's disease is an inherited disorder caused by expansion of a CAG trinucleotide repeat in the IT15 gene, which leads to expansion of a polyglutamine tract within the protein called huntingtin. Despite the characterization of the IT15 gene and the mutation involved in the disease, the normal function of huntingtin and the effects of the mutation on its function and on its neuronal location remain unknown.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/1839672",
+        "text": "Huntingtons disease (HD) is a hereditary disorder involving the central nervous system. Its effects are devastating, to the affected person as well as his family.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17941857",
+        "text": "Huntington disease (HD) is a neurodegenerative disorder due to an excessive number of CAG repeats in the IT15 gene on chromosome 4.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/19059613",
+        "text": "Huntington disease in subjects from an Israeli Karaite community carrying alleles of intermediate and expanded CAG repeats in the HTT gene",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25254119",
+        "text": "The causative mutation is an expansion of more than 36 CAG repeats in the first exon of IT15 gene",
+        "section": "abstract",
+        "offset": 79
+      },
+      {
+        "evidence_id": "e14",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/12523115",
+        "text": "Huntington's disease in relation to the number of trinucleotide CAG repeats in IT-15 gene",
+        "section": "title",
+        "offset": 35
+      },
+      {
+        "evidence_id": "e15",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/12523115",
+        "text": "Huntington's disease (HD) is a neurological condition of progressive course that results from abnormally increased number of CAG repeats within IT-15 gene, coding for huntington.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e16",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11494364",
+        "text": "Huntington's disease (HD) is a neurodegenerative disorder characterized by the expansion of CAG repeats in exon 1 of the HD gene",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e17",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/27400454",
+        "text": "However, not all patients with an HD phenotype carry the pathological expansion in HTT, and the positive diagnosis rate is poor",
+        "section": "abstract",
+        "offset": 141
+      },
+      {
+        "evidence_id": "e18",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16847693",
+        "text": "The expansion of a polymorphic CAG repeat in the HD gene encoding huntingtin has been identified as the major cause of Huntington's disease (HD) and determines 42-73% of the variance in the age-at-onset of the disease",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e19",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26079385",
+        "text": "Huntington disease (HD) is a progressive autosomal dominant neurodegenerative disorder, characterized by abnormal movements, cognitive decline, and psychiatric symptoms, caused by a CAG repeat expansion in the huntingtin (HTT) gene on chromosome 4p",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e20",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/19816846",
+        "text": "The disorder is caused by mutation in the gene encoding the huntingtin protein (Htt), producing intracellular aggregates",
+        "section": "abstract",
+        "offset": 125
+      },
+      {
+        "evidence_id": "e21",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11723754",
+        "text": "HD is less common in other ethnic groups. Huntington's disease is caused by an expanded trinucleotide CAG repeat in the HD gene on chromosome 4. The gene encodes for the protein huntingtin, with an as yet unknown functio",
+        "section": "abstract",
+        "offset": 480
+      }
+    ]
+  },
+  {
+    "id": "5156be75d24251bc05000088",
+    "question": "Which diseases is microRNA 132 (miR-132) implicated in?",
+    "type": "list",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23269581",
+        "text": "Levels of six candidate miRNAs (miR-21, miR-199a-3p, miR-143, miR-34, miR-140, and miR-132) that were previously demonstrated to be regulated in osteosarcoma were examined in plasma of 40 osteosarcoma patients and 40 matched healthy controls by quantitative reverse-transcription polymerase chain reaction assays.",
+        "section": "sections.0",
+        "offset": 588
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23485811",
+        "text": "Functional studies employing antagomirs have identified contributions from miR-34a and miR-132 to seizure-induced neuronal death whereas silencing miR-134 potently reduced status epilepticus, seizure-damage and the later occurrence of spontaneous seizures. Efforts to identify the in vivo target(s) of epilepsy-regulated miRNAs, is now a priority. Last, miRNA are stable, information-carrying (paracrine) signals. Profiling miRNA in biofluids may represent a novel source of disease biomarkers in epilepsy.",
+        "section": "sections.0",
+        "offset": 1538
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23485811",
+        "text": "Inflammation, stress signalling and neuronal excitation are among the pathways most impacted.",
+        "section": "sections.0",
+        "offset": 1172
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22659469",
+        "text": "Herpes simplex virus (HSV) causes a chronic immuno-inflammatory response in the eye that may result in corneal neovascularization during blinding immunopathological lesion stromal keratitis (SK). miR-132 is a highly conserved miRNA that is induced in endothelial cells in response to growth factors, such as vascular endothelial growth factor (VEGF).",
+        "section": "sections.0",
+        "offset": 119
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22659469",
+        "text": "miR-132 expression was up-regulated (10- to 20-fold) after ocular infection with HSV, an event that involved the production of both VEGF-A and IL-17.",
+        "section": "sections.0",
+        "offset": 498
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22659469",
+        "text": "The anti-angiogenic effect of antagomir-132 was reflected by a reduction in angiogenic Ras activity in corneal CD31-enriched cells (presumably blood vessel endothelial cells) during SK. To our knowledge, this is one of the first reports of miRNA involvement in an infectious ocular disease. Manipulating miRNA expression holds promise as a therapeutic approach to control an ocular lesion that is an important cause of human blindness.",
+        "section": "sections.0",
+        "offset": 1091
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22659469",
+        "text": "Role of miR-132 in angiogenesis",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22315408",
+        "text": "The cyclic AMP-responsive element binding- and NMDA-regulated microRNA miR-132 was significantly down-regulated in both the schizophrenic discovery cohort and a second, independent set of schizophrenic subjects. Analysis of miR-132 target gene expression in schizophrenia gene-expression microarrays identified 26 genes up-regulated in schizophrenia subjects.",
+        "section": "sections.0",
+        "offset": 459
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22315408",
+        "text": "Our data suggest miR-132 dysregulation and subsequent abnormal expression of miR-132 target genes contribute to the neurodevelopmental and neuromorphological pathologies present in schizophrenia.",
+        "section": "sections.0",
+        "offset": 1545
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21807765",
+        "text": "Analysis of miRNA expression profiles from sporadic progressive supranuclear palsy (PSP) patients, a major 4R-tau tauopathy, showed that miR-132 is specifically down-regulated in disease. We demonstrate that miR-132 directly targets the neuronal splicing factor polypyrimidine tract-binding protein 2 (PTBP2), which protein levels were increased in PSP patients. miR-132 overexpression or PTBP2 knockdown similarly affected endogenous 4R:3R-tau ratios in neuronal cells. Finally, we provide evidence that miR-132 is inversely correlated with PTBP2 during post-natal brain development at the time when 4R-tau becomes expressed. Taken together, these results suggest that changes in the miR-132/PTBP2 pathway could contribute to the abnormal splicing of tau exon 10 in the brain, and sheds light into the potential role played by miRNAs in a subset of tauopathies.",
+        "section": "sections.0",
+        "offset": 768
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21035445",
+        "text": "Huntington's disease (HD) is a genetic neurodegenerative disease caused by abnormal CAG expansion. MicroRNAs (miRNAs) are short RNA molecules regulating gene expression, and are implicated in a variety of diseases including HD.",
+        "section": "sections.0",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21035445",
+        "text": "Nine miRNAs (miR-22, miR-29c, miR-128, miR-132, miR-138, miR-218, miR-222, miR-344, and miR-674*) were commonly down-regulated in both the 12-month-old YAC128 and 10-week-old R6/2 mice.",
+        "section": "sections.0",
+        "offset": 1117
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20949564",
+        "text": "Osteosarcoma is the first primary malignant bone tumor, characterized by a complex genetic and resistance to conventional treatments.",
+        "section": "sections.0",
+        "offset": 103
+      },
+      {
+        "evidence_id": "e14",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20949564",
+        "text": "Osteosarcoma of rat and human origins showed a miRNA signature, which could discriminate good from bad responders. In particular, we identified five discriminating miRNAs (miR-92a, miR-99b, miR-132, miR-193a-5p and miR-422a) in patient tumors, which could be easily transferable to diagnosis.",
+        "section": "sections.0",
+        "offset": 1014
+      },
+      {
+        "evidence_id": "e15",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21136867",
+        "text": "Levels of several microRNA (miR-10a, -10b, -212, -132, -495) were significantly altered. One of them (miR-132) has been reported to be highly inducible by growth factors and to be a key regulator of neurite outgrowth. Moreover, miR-132-recognition sequences were detected in the mRNA transcripts of two differentially expressed proteins. MicroRNA may thus represent novel biomarkers for neuronal malfunction and potential therapeutic targets for human neurodegenerative diseases.",
+        "section": "sections.0",
+        "offset": 1097
+      },
+      {
+        "evidence_id": "e16",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17314675",
+        "text": "The data indicate that micro-RNAs encoding miR-9, miR-124a, miR-125b, miR-128, miR-132 and miR-219 are abundantly represented in fetal hippocampus, are differentially regulated in aged brain, and an alteration in specific micro-RNA complexity occurs in Alzheimer hippocampus. These data are consistent with the idea that altered micro-RNA-mediated processing of messenger RNA populations may contribute to atypical mRNA abundance and neural dysfunction in Alzheimer's disease brain.",
+        "section": "sections.0",
+        "offset": 407
+      }
+    ]
+  },
+  {
+    "id": "62211f453a8413c653000072",
+    "question": "What protein is encoded by the GRN gene?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32507413",
+        "text": "Loss-of-function mutations in the gene encoding for the protein progranulin (PGRN), GRN, are one of the major genetic abnormalities involved in frontotemporal lobar degeneration.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33433870",
+        "text": "Numerous kindreds with familial frontotemporal lobar degeneration have been linked to mutations in microtubule-associated protein tau (MAPT) or progranulin (GRN) genes.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24503614",
+        "text": "BACKGROUND: Progranulin protein (PGRN) is a cysteine-rich growth factor encoded by the progranulin gene (GRN).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33433878",
+        "text": "Due to the highly diverse biological functions of the progranulin (PGRN) protein, encoded by GRN, multiple possible disease mechanisms have been proposed.",
+        "section": "abstract",
+        "offset": 204
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32929860",
+        "text": "Single nucleotide polymorphisms (SNPs) in TMEM106B encoding the lysosomal type II transmembrane protein 106B increase the risk for frontotemporal lobar degeneration (FTLD) of GRN (progranulin gene) mutation carriers.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24503614",
+        "text": "BACKGROUND: Progranulin protein (PGRN) is a cysteine-rich growth factor encoded by the progranulin ",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26652843",
+        "text": "GRN, the gene coding for the progranulin (PGRN) protein, was recognized as a gene linked to frontotemporal lobar degeneration (FTLD). Th",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31864418",
+        "text": "Progranulin (PGRN) is a protein encoded by the GRN gene with multiple identified functions including as a neurotrophic factor, tumorigenic growth factor, anti-inflammatory cytokine and regulator of lysosomal function. A ",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31626287",
+        "text": "Mutations in the GRN gene coding for progranulin (PGRN) are responsible for many cases of familial frontotemporal lobar degeneration (FTLD) with TAR DNA-binding protein 43 (TDP-43)-positive inclusions (FTLD-TDP). GRN",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33636385",
+        "text": "ozygous loss-of-function mutations in the gene encoding the progranulin protein (Granulin Precursor, GRN) are a common cause of familial frontotemporal dementia (FTD). Gene t",
+        "section": "abstract",
+        "offset": 154
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24709683",
+        "text": "ne of these genes (GRN), which encodes progranulin, have been implicated in up to a quarter of cases of frontotemporal lobar degeneration with TDP-43 (TAR DNA-binding protein 43)-positive inclusions; currently, there are more than 60 known pathogenic mutations of the gene. We present the cl",
+        "section": "abstract",
+        "offset": 449
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31291241",
+        "text": "Mutation in the GRN gene, encoding the progranulin (PGRN) protein, shows a dose-dependent disease correlation, wherein haploinsufficiency results in frontotemporal lobar degeneration (FTLD) and complete loss results in neuronal ceroid lipofuscinosis (NCL). Altho",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31962288",
+        "text": "e on FTD caused by mutations in the GRN gene, which encodes a secreted protein, progranulin (PGRN), that has diverse roles in regulating cell survival, immune responses, and autophagy and lysosome function in the brain. FTD-linked mutat",
+        "section": "abstract",
+        "offset": 480
+      },
+      {
+        "evidence_id": "e14",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33433878",
+        "text": "to the highly diverse biological functions of the progranulin (PGRN) protein, encoded by GRN, multiple possible disease mechanisms have been proposed. Early ",
+        "section": "abstract",
+        "offset": 208
+      },
+      {
+        "evidence_id": "e15",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22277331",
+        "text": " most common pathological subtype, FTLD with transactive response DNA-binding protein with a molecular weight of 43 kDa inclusions (FTLD-TDP), is often caused by autosomal dominant mutations in the progranulin gene (GRN) encoding the progranulin protein (PGRN). GRN pa",
+        "section": "abstract",
+        "offset": 171
+      },
+      {
+        "evidence_id": "e16",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/29053785",
+        "text": "Progranulin, a secreted glycoprotein, is encoded in humans by the single GRN gene.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e17",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28828399",
+        "text": "Homozygous or heterozygous mutations in the GRN gene, encoding progranulin (PGRN), cause neuronal ceroid lipofuscinosis (NCL) or frontotemporal dementia (FTD), respectively.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e18",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33636385",
+        "text": "Heterozygous loss-of-function mutations in the gene encoding the progranulin protein (Granulin Precursor, GRN) are a common cause of familial frontotemporal dementia (FTD).",
+        "section": "abstract",
+        "offset": 149
+      },
+      {
+        "evidence_id": "e19",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31864418",
+        "text": "Progranulin (PGRN) is a protein encoded by the GRN gene with multiple identified functions including as a neurotrophic factor, tumorigenic growth factor, anti-inflammatory cytokine and regulator of lysosomal function.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e20",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20946666",
+        "text": "BACKGROUND: Progranulin (PGRN) encoded by the GRN gene, is a secreted glycoprotein growth factor that has been implicated in many physiological and pathophysiologica",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e21",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/29744576",
+        "text": "Progranulin (PGRN), encoded by the GRN gene in humans, is a secreted growth factor implicated in a multitude of processes ranging from regulation of inflammation to wound healing and tumorigenesis.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e22",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31291241",
+        "text": "Mutation in the GRN gene, encoding the progranulin (PGRN) protein, shows a dose-dependent disease correlation, wherein haploinsufficiency results in frontotemporal lobar degeneration (FTLD) and complete loss results in neuronal ceroid lipofuscinosis (NCL).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e23",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31962288",
+        "text": "We focus here on FTD caused by mutations in the GRN gene, which encodes a secreted protein, progranulin (PGRN), that has diverse roles in regulating cell survival, immune responses, and autophagy and lysosome function in the brain.",
+        "section": "abstract",
+        "offset": 468
+      },
+      {
+        "evidence_id": "e24",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28778989",
+        "text": "By studying mice lacking progranulin (PGRN), the protein encoded by GRN, we discovered multiple lines of evidence that PGRN deficiency results in impairment of autophagy, a key cellular degradation pathway.",
+        "section": "abstract",
+        "offset": 396
+      },
+      {
+        "evidence_id": "e25",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34433069",
+        "text": "Loss-of-function mutations in the progranulin gene (GRN), which encodes progranulin (PGRN), are a major cause of frontotemporal dementia (FTD).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e26",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23383391",
+        "text": "The recent discovery that mutations in the gene encoding for progranulin (GRN) cause frontotemporal lobar degeneration (FTLD), and other neurodegenerative diseases leading to dementia, has brought renewed interest in progranulin and its functions in the central nervous system.",
+        "section": "abstract",
+        "offset": 150
+      },
+      {
+        "evidence_id": "e27",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33028409",
+        "text": "Heterozygous, loss-of-function mutations in the granulin gene (GRN) encoding progranulin (PGRN) are a common cause of frontotemporal dementia (FTD).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e28",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/30862089",
+        "text": " progranulin (PGRN). PGRN is a glycoprotein encoded by the GRN/Grn gene with multiple cellular functions",
+        "section": "abstract",
+        "offset": 226
+      }
+    ]
+  },
+  {
+    "id": "6414638c201352f04a000047",
+    "question": "Cereblon (CRBN)  has been identified as the target for what type of drug?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36252444",
+        "text": "Cereblon is a well-known target of thalidomide and its derivatives.",
+        "section": "abstract",
+        "offset": 128
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36252444",
+        "text": "We have identified novel CRBN inhibitors, namely DHFO and its analogs, with structural features that are slightly different from thalidomide but stronger cereblon-binding affinity. ",
+        "section": "abstract",
+        "offset": 399
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35045330",
+        "text": " It additionally modulates the anti-myeloma effect of the immunomodulatory drugs (IMiDs) thalidomide, lenalidomide, and pomalidomide. IMiDs bind to CRBN and recruit neo-substrates for their ubiquitination and proteasome-mediated degradation",
+        "section": "abstract",
+        "offset": 98
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34316334",
+        "text": ". Cereblon (CRBN)-targeting immunomodulatory agents (IMiDs®) lenalidomide (LEN) and pomalidomide (POM) play a central role in combination regimens due to their pleiotropic antitumor/immunomodulatory mechanisms that synergize with many anti-myeloma approved or developmental agents.",
+        "section": "abstract",
+        "offset": 162
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31202702",
+        "text": "Thalidomide, well known for its potent teratogenicity, has been re-evaluated as a clinically effective drug for the treatment of multiple myeloma. Although the direct target of thalidomide had been unclear until recently, we identified cereblon (CRBN) as a primary direct target of this drug b",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31187860",
+        "text": "The molecular mechanism of action of IMiDs remained unclear for a long time until 2010 when the protein cereblon (CRBN) was identified as a primary direct target. IMiDs binds to CRBN and alters the substrate specificity of the CRBN E3 ubiquitin ligase complex, ",
+        "section": "abstract",
+        "offset": 815
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/29530986",
+        "text": "These results strongly suggest that increased BK channel activity is the pathological mechanism of intellectual disability in CRBN mutations.SIGNIFICANCE STATEMENTCereblon (CRBN), a well known target of the immunomodulatory drug thalidomide, was originally identified as a gene that causes human intellectual disability when mutated.",
+        "section": "abstract",
+        "offset": 974
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22552008",
+        "text": "Cereblon is a direct protein target for immunomodulatory and antiproliferative activities of lenalidomide and pomalidomide.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26990986",
+        "text": "Cereblon (CRBN), a substrate receptor for the cullin-RING ubiquitin ligase 4 (CRL4) complex, is a direct protein target for thalidomide teratogenicity and antitumor activity of immunomodulatory drugs (IMiDs).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22552008",
+        "text": "Our biophysical, biochemical and gene silencing studies show that CRBN is a proximate, therapeutically important molecular target of lenalidomide and pomalidomide.",
+        "section": "abstract",
+        "offset": 1246
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26117057",
+        "text": "CRBN has been identified as a direct target for immunomodulatory drugs (IMiD) and plays a significant role in anti-proliferation, pro-apoptotic effects, anti-angiogenic activities, immunomodulatory activities and intervention of cell surface adhesion molecules between myeloma cells and bone marrow stromal cells.",
+        "section": "abstract",
+        "offset": 586
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33938033",
+        "text": "Thalidomide and its derivatives lenalidomide and pomalidomide, known as immunomodulatory drugs, (IMiDs) bind directly to cereblon (CRBN), a substrate receptor of an E3 ubiquitin ligase, resulting in the rapid ubiquitination and degradation of the substrate protein.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28978850",
+        "text": "Cereblon (CRBN) is a common primary target for IMiDs.",
+        "section": "abstract",
+        "offset": 268
+      },
+      {
+        "evidence_id": "e14",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/27294876",
+        "text": "Cereblon (CRBN), a substrate receptor of the CRL4 ubiquitin ligase complex, is the primary target by which IMiDs mediate anticancer and teratogenic effects.",
+        "section": "abstract",
+        "offset": 241
+      },
+      {
+        "evidence_id": "e15",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23565715",
+        "text": "Cereblon (CRBN) has recently been identified as a target for immunomodulatory drugs (IMiDs) and its downregulation has been linked to resistance to lenalidomide.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e16",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/34033753",
+        "text": "Cereblon (CRBN), originally identified as a gene associated with intellectual disability, was identified as primary target of thalidomide.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e17",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26186254",
+        "text": "Clinical interest in the measurement of Cereblon (CRBN), the primary target of the IMiDs immunomodulatory drugs lenalidomide and pomalidomide, has been fueled by its essential requirement for antitumor or immunomodulatory activity of both drugs in multiple myeloma (MM).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e18",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32333926",
+        "text": "Cereblon (CRBN), a substrate receptor for Cullin-ring E3 ubiquitin ligase (CRL), is a major target protein of immunomodulatory drugs.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e19",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/26002965",
+        "text": "Cereblon (CRBN), a substrate receptor of the Cullin 4 RING E3 ubiquitin ligase complex, is the target of the immunomodulatory drugs lenalidomide and pomalidomide.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e20",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25626321",
+        "text": "Cereblon was identified as a direct target of thalidomide by Prof. H. Handa, and this pioneering work triggered active research on IMiDs (immunomodulatory drugs), which include thalidomide-derivatives, such as lenalidomide and pomalidomide.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e21",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35780831",
+        "text": "The Cullin-RING ligase 4 E3 ubiquitin ligase component Cereblon (CRBN) is a well-established target for a class of small molecules termed immunomodulatory drugs (IMiDs).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e22",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21207098",
+        "text": " We identified a thalidomide-binding protein, cereblon (CRBN), as a primary target for thalidomide teratogenicity.",
+        "section": "abstract",
+        "offset": 636
+      },
+      {
+        "evidence_id": "e23",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35831190",
+        "text": " Although the direct target of thalidomide was largely debated until recently, our groups discovered cereblon (CRBN), a substrate receptor of an E3 ubiquitin ligase as a primary target of thalidomide in 2010.",
+        "section": "abstract",
+        "offset": 359
+      },
+      {
+        "evidence_id": "e24",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28978850",
+        "text": " Cereblon (CRBN) is a common primary target for IMiDs.",
+        "section": "abstract",
+        "offset": 267
+      },
+      {
+        "evidence_id": "e25",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/33777938",
+        "text": "d previously demonstrated that cereblon (CRBN) is the target of thalidomide embryopathy and acts as a substrate receptor for the E3 ubiquitin ligase c",
+        "section": "abstract",
+        "offset": 172
+      },
+      {
+        "evidence_id": "e26",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22966948",
+        "text": "dy recently identified cereblon (CRBN) as a primary target of thalidomide teratogenicity. Subsequently it was demonstrated that CRBN is also required ",
+        "section": "abstract",
+        "offset": 333
+      },
+      {
+        "evidence_id": "e27",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23565715",
+        "text": "Cereblon (CRBN) has recently been identified as a target for immunomodulatory drugs (IMiDs) and its downregulation has been linked to resistance to le",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e28",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24328678",
+        "text": "Cereblon (CRBN), the molecular target of lenalidomide and pomalidomide, is a substrate receptor of the cullin ring E3 ubiquitin ligase complex, CRL4(C",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e29",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22552008",
+        "text": "eblon (CRBN) has been identified as the primary teratogenic target of thalidomide. Our studies demonstrate that thalidomide, lenalidomide and another ",
+        "section": "abstract",
+        "offset": 163
+      },
+      {
+        "evidence_id": "e30",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24328678",
+        "text": "Cereblon (CRBN), the molecular target of lenalidomide and pomalidomide, is a substrate receptor of the cullin ring E3 ubiquitin ligase complex, CRL4(CRBN) .",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e31",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28978850",
+        "text": "cluding multiple myeloma. Cereblon (CRBN) is a common primary target for IMiDs. It works as a substrate receptor of CRL4. Accumulating evidence has sh",
+        "section": "abstract",
+        "offset": 242
+      },
+      {
+        "evidence_id": "e32",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36252444",
+        "text": "ubiquitin ligase complex component. Cereblon is a well-known target of thalidomide and its derivatives. Cereblon is involved in multiple myeloma cell ",
+        "section": "abstract",
+        "offset": 92
+      }
+    ]
+  },
+  {
+    "id": "5358e067f1005d6b5800000b",
+    "question": "Which proteins are involved in actin bundling and filopodia formation and function?",
+    "type": "list",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+        "text": "CRP1, a protein localized in filopodia of growth cones, is involved in dendritic growth",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+        "text": "CRP1, which cross-links actin filaments to make actin bundles, is the only CRP family member expressed in the CNS with little known about its function in nerve cells.",
+        "section": "abstract",
+        "offset": 77
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+        "text": "Here, we report that CRP1 colocalizes with actin in the filopodia of growth cones in cultured rat hippocampal neurons.",
+        "section": "abstract",
+        "offset": 244
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+        "text": "Knockdown of CRP1 expression by short hairpin RNA interference results in inhibition of filopodia formation and dendritic growth in neurons.",
+        "section": "abstract",
+        "offset": 363
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22090504",
+        "text": "Overexpression of CRP1 increases filopodia formation and neurite branching, which require its actin-bundling activity.",
+        "section": "abstract",
+        "offset": 504
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21283078",
+        "text": "F-ascin is an actin-bundling protein involved in filopodia assembly and cancer invasion and metastasis of multiple epithelial cancer types.",
+        "section": "abstract",
+        "offset": 516
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/19228738",
+        "text": "In this study, we investigated the role of fascin, a cytoskeleton actin-bundling protein involved in the formation of filopodia and cell migration, in prostate cancer progression.",
+        "section": "abstract",
+        "offset": 205
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/19228738",
+        "text": "In cellular models, fascin gene silencing using small interfering RNA in the androgen-independent prostate cancer cell line DU145 decreased cell motility and invasiveness while increasing cell adhesive properties.",
+        "section": "abstract",
+        "offset": 1176
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18835624",
+        "text": "Fascin is an actin-bundling protein that induces membrane protrusions and cell motility after the formation of lamellipodia or filopodia.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+        "text": "The PCH family member MAYP/PSTPIP2 directly regulates F-actin bundling and enhances filopodia formation and motility in macrophages",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+        "text": "Overexpression of MAYP decreased CSF-1-induced membrane ruffling and increased filopodia formation, motility and CSF-1-mediated chemotaxis.",
+        "section": "abstract",
+        "offset": 572
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+        "text": "The opposite phenotype was observed with reduced expression of MAYP, indicating that MAYP is a negative regulator of CSF-1-induced membrane ruffling and positively regulates formation of filopodia and directional migration.",
+        "section": "abstract",
+        "offset": 712
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+        "text": "Overexpression of MAYP led to a reduction in total macrophage F-actin content but was associated with increased actin bundling. Consistent with this, purified MAYP bundled F-actin and regulated its turnover in vitro.",
+        "section": "abstract",
+        "offset": 936
+      },
+      {
+        "evidence_id": "e14",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+        "text": "In addition, MAYP colocalized with cortical and filopodial F-actin in vivo.",
+        "section": "abstract",
+        "offset": 1153
+      },
+      {
+        "evidence_id": "e15",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15788569",
+        "text": "Because filopodia are postulated to increase directional motility by acting as environmental sensors, the MAYP-stimulated increase in directional movement may be at least partly explained by enhancement of filopodia formation.",
+        "section": "abstract",
+        "offset": 1229
+      },
+      {
+        "evidence_id": "e16",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/14532112",
+        "text": "We report an unexpected direct association between fascin, an actin-bundling component of filopodia, microspikes and lamellipodial ribs, and protein kinase Calpha (PKCalpha), a regulator of focal adhesions.",
+        "section": "abstract",
+        "offset": 163
+      },
+      {
+        "evidence_id": "e17",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20137952",
+        "text": "Fascin is an actin-bundling protein involved in filopodia assembly and cancer invasion and metastasis of multiple epithelial cancer types.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e18",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+        "text": "Actin-crosslinking proteins organize actin into highly dynamic and architecturally diverse subcellular scaffolds that orchestrate a variety of mechanical processes, including lamellipodial and filopodial protrusions in motile cells.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e19",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+        "text": "IRSp53, a multi-domain protein that can associate with the Rho-GTPases Rac and Cdc42, participates in these processes mainly through its amino-terminal IMD (IRSp53 and MIM domain). The isolated IMD has actin-bundling activity in vitro and is sufficient to induce filopodia in vivo.",
+        "section": "abstract",
+        "offset": 334
+      },
+      {
+        "evidence_id": "e20",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+        "text": "Eps8 activates and synergizes with IRSp53 in mediating actin bundling in vitro, enhancing IRSp53-dependent membrane extensions in vivo.",
+        "section": "abstract",
+        "offset": 952
+      },
+      {
+        "evidence_id": "e21",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+        "text": "Consistently, Cdc42-induced filopodia are inhibited following individual removal of either IRSp53 or Eps8.",
+        "section": "abstract",
+        "offset": 1238
+      },
+      {
+        "evidence_id": "e22",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17115031",
+        "text": "Collectively, these results support a model whereby the synergic bundling activity of the IRSp53-Eps8 complex, regulated by Cdc42, contributes to the generation of actin bundles, thus promoting filopodial protrusions.",
+        "section": "abstract",
+        "offset": 1345
+      },
+      {
+        "evidence_id": "e23",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+        "text": "The bundling activity of vasodilator-stimulated phosphoprotein is required for filopodium formation",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e24",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+        "text": "Filopodia are highly dynamic finger-like cell protrusions filled with parallel bundles of actin filaments. Previously we have shown that Diaphanous-related formin dDia2 is involved in the formation of filopodia. Another key player for the formation of filopodia across many species is vasodilator-stimulated phosphoprotein (VASP).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e25",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+        "text": "It has been proposed that the essential role of VASP for formation of filopodia is its competition with capping proteins for filament barbed-end interaction.",
+        "section": "abstract",
+        "offset": 331
+      },
+      {
+        "evidence_id": "e26",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+        "text": "Only WT DdVASP, but not a mutant lacking the F-actin bundling activity, could rescue the ability of these cells to form WT-like filopodia.",
+        "section": "abstract",
+        "offset": 1177
+      },
+      {
+        "evidence_id": "e27",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16675552",
+        "text": "Our data suggest that DdVASP is complexed with dDia2 in filopodial tips and support formin-mediated filament elongation by bundling nascent actin filaments.",
+        "section": "abstract",
+        "offset": 1316
+      },
+      {
+        "evidence_id": "e28",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/14752106",
+        "text": "Insulin receptor tyrosine kinase substrate p53 (IRSp53) has been identified as an SH3 domain-containing adaptor that links Rac1 with a Wiskott-Aldrich syndrome family verprolin-homologous protein 2 (WAVE2) to induce lamellipodia or Cdc42 with Mena to induce filopodia.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e29",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/14752106",
+        "text": "Here, we show that the N-terminal predicted helical stretch of 250 amino acids of IRSp53 is an evolutionarily conserved F-actin bundling domain involved in filopodium formation.",
+        "section": "abstract",
+        "offset": 378
+      },
+      {
+        "evidence_id": "e30",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/14752106",
+        "text": "The IMD alone, derived from either IRSp53 or MIM, induced filopodia in HeLa cells and the formation of tightly packed parallel F-actin bundles in vitro.",
+        "section": "abstract",
+        "offset": 879
+      },
+      {
+        "evidence_id": "e31",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/14752106",
+        "text": "These results suggest that IRSp53 and MIM belong to a novel actin bundling protein family.",
+        "section": "abstract",
+        "offset": 1032
+      },
+      {
+        "evidence_id": "e32",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+        "text": "Role of the actin bundling protein fascin in growth cone morphogenesis: localization in filopodia and lamellipodia",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e33",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+        "text": "Fascin localized to radially oriented actin bundles in lamellipodia (ribs) and filopodia.",
+        "section": "abstract",
+        "offset": 610
+      },
+      {
+        "evidence_id": "e34",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+        "text": "Using a fascin antibody and a GFP fascin construct, we found that fascin incorporated into actin bundles from the beginning of growth cone formation at the cut end of axons.",
+        "section": "abstract",
+        "offset": 700
+      },
+      {
+        "evidence_id": "e35",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+        "text": "Later, during growth cone morphogenesis when actin ribs shortened, the proximal fascin-free zone of bundles increased, but fascin was retained in the distal, filopodial portion of bundles.",
+        "section": "abstract",
+        "offset": 1036
+      },
+      {
+        "evidence_id": "e36",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+        "text": "Treatment with tumor promoter 12-O-tetradecanoylphorbol-13-acetate (TPA), which phosphorylates fascin and decreases its affinity for actin, resulted in loss of all actin bundles from growth cones.",
+        "section": "abstract",
+        "offset": 1225
+      },
+      {
+        "evidence_id": "e37",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11169763",
+        "text": "Our findings suggest that fascin may be particularly important for the linear structure and dynamics of filopodia and for lamellipodial rib dynamics by regulating filament organization in bundles.",
+        "section": "abstract",
+        "offset": 1422
+      }
+    ]
+  },
+  {
+    "id": "5e2b1ed9fbd6abf43b000005",
+    "question": "PDQ39 questionnaires is design for which disease?",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28980176",
+        "text": "The outcomes assessed were motor symptoms with Unified PD Rating Scale III (UPDRSIII), functional mobility with Timed Up and Go Test (TUG), endurance with 6 min walking test (6MWT), freezing of gait with Freezing of Gait Questionnaire (FOG_Q), walking velocity with GAITRite and QL with PD Questionnaire (PDQ39). ",
+        "section": "abstract",
+        "offset": 752
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/29215823",
+        "text": " They were assessed using SCOPA, Hoehn and Yahr Scale (HYS), Unified Parkinson's Disease Rating Scale (UPDRS), Parkinson's Disease Sleep Scale 2nd version (PDSS-2), Non-motor Symptoms Scale (NMSS), Montgomery Asberg Depression Scale (MADS), 39-item Parkinson's Disease Questionnaire (PDQ39), Neurogenic Orthostatic Hypotension Questionnaire (NOHQ), and Rapid Eye Movement Sleep Behaviour Disorder Questionnaire (RBDQ). ",
+        "section": "abstract",
+        "offset": 549
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/29670566",
+        "text": "The median PD questionnaire 39-score index (PDQ39-SI) was 23.22% and the most affected dimension was \"mobility.\" ",
+        "section": "abstract",
+        "offset": 1463
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/29644334",
+        "text": "In the 43% of cases in whom oral therapy was changed, total UPDRS improved significantly (effect size = 8) as did the PDQ39 in cases reaching target. NMS Quest and MOCA scores also improved significantly. This study shows that many people in a representative cohort of PD would benefit from objective assessment and treatment of their PD features against a target.",
+        "section": "abstract",
+        "offset": 1179
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/29542093",
+        "text": "Here, we applied a novel diffusion-weighted imaging approach, diffusion MRI connectometry, to investigate the correlation of quality of life, evaluated by Parkinson's Disease Questionnaire (PDQ39) with the white matter structural connectivity in 27 non-demented PD patients (disease duration of 5.3 ± 2.9 years, H and Y stage = 1.5 ± 0.6, UPDRS-III = 13.7 ± 6.5, indicating unilateral and mild motor involvement). ",
+        "section": "abstract",
+        "offset": 137
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/30108543",
+        "text": "The present study aimed to assess the beneficial and side effects of STN DBS in Moroccan Parkinsonian patients. Material and Methods: Thirty five patients underwent bilateral STN DBS from 2008 to 2016 in the Rabat University Hospital. Patients were assessed preoperatively and followed up for 6 to 12 months using the Unified Parkinson's Disease Rating Scale in four conditions (stimulation OFF and ON and medication OFF and ON), the levodopa-equivalent daily dose (LEDD), dyskinesia and fluctuation scores and PDQ39 scale for quality of life (QOL).",
+        "section": "abstract",
+        "offset": 141
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28122431",
+        "text": "The total K-SCOPA-AUT score showed a positive correlation with other non-motor symptoms [the Korean version of non-motor symptom scale (K-NMSS)], activities of daily living (Unified Parkinson's Disease Rating Scale part II) and quality of life [the Korean version of Parkinson's Disease Quality of Life 39 (K-PDQ39)].",
+        "section": "abstract",
+        "offset": 1235
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28290191",
+        "text": "METHODS: Static posturography (Centre of Pressure -CoP- parameters), gait (the Ten-Meter Walk Test [TMWT]), freezing of gait (the Freezing of Gait Questionnaire [FOG-Q]), the motor portion of the Movement Disorders Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) and patient-perceived quality of life (the 39-item Parkinson's disease Questionnaire [PDQ39]), were assessed at pre-test, post-test, and re-test.",
+        "section": "abstract",
+        "offset": 726
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28805568",
+        "text": "The use of complementary and alternative medicine (CAM) therapy in nonmotor symptoms (NMS) for Parkinson disease (PD) is growing worldwide. Well-performed, systematic evidence-based research is largely lacking in this area and many studies include various forms of CAM with small patient numbers and a lack of standardization of the approaches studied. Taichi, Qigong, dance, yoga, mindfulness, acupuncture, and other CAM therapies are reviewed and there is some evidence for the following: Taichi in sleep and PDQ39; dance in cognition, apathy, and a mild trend to improved fatigue; yoga in PDQ39; and acupuncture in depression, PDQ39, and sleep.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18543333",
+        "text": "One hundred thirty patients with PD completed a booklet of questionnaires, which included the PDQ39 as a disease-specific measure of QoL, a symptom checklist, a mobility checklist, as well as patient ratings of disease stage and disability.",
+        "section": "abstract",
+        "offset": 401
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24035927",
+        "text": "At 70% sensitivity, the specificity for PDQ39 score and PD Symptoms Questionnaire score for the prediction of parkinsonism was 73.1% and 80.1%, respectively.",
+        "section": "abstract",
+        "offset": 1024
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/24035927",
+        "text": "Workers completed a health status questionnaire (PDQ39) and a Parkinson disease (PD) Symptoms Questionnaire.",
+        "section": "abstract",
+        "offset": 601
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23346238",
+        "text": "As for specific questionnaires: the Parkinson`s Disease Questionnaire (PDQ-39) and the Parkinson's Disease Quality of Life Questionnaire (PDQL) have been described.",
+        "section": "abstract",
+        "offset": 753
+      },
+      {
+        "evidence_id": "e14",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21163736",
+        "text": "HRQOL was assessed with the EuroQol-5D and the specific questionnaire Parkinson's Disease Questionnaire-39 items.",
+        "section": "abstract",
+        "offset": 728
+      },
+      {
+        "evidence_id": "e15",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18543333",
+        "text": "One hundred thirty patients with PD completed a booklet of questionnaires , which included the PDQ39 as a disease-specific measure of QoL , a symptom checklist , a mobility checklist , as well as patient ratings of disease stage and disability . ",
+        "section": "abstract",
+        "offset": 410
+      },
+      {
+        "evidence_id": "e16",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/29542093",
+        "text": "Here , we applied a novel diffusion-weighted imaging approach , diffusion MRI connectometry , to investigate the correlation of quality of life , evaluated by Parkinson 's Disease Questionnaire ( PDQ39 ) with the white matter structural connectivity in 27 non-demented PD patients ( disease duration of 5.3 ± 2.9 years , H and Y stage = 1.5 ± 0.6 , UPDRS-III = 13.7 ± 6.5 , indicating unilateral and mild motor involvement) . ",
+        "section": "abstract",
+        "offset": 140
+      },
+      {
+        "evidence_id": "e17",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17702633",
+        "text": "The psychometric properties of the Dutch version of the Parkinson 's disease questionnaire 39 ( PDQ39-DV ) were tested in 177 patients with Parkinson 's disease ( PD) . ",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e18",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20347841",
+        "text": "This study explored whether reflexology could improve or sustain the wellbeing of people with Parkinosn's Disease [PD] using the PDQ39 wellbeing tool designed specifically for use with people with PD.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e19",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15778909",
+        "text": "METHODS\nThe results of 27 patients for the Unified Parkinson's disease Rating Scale (UPDRS), Parkinson's Disease Questionnaire 39 (PDQ39) and Short Form 36 health survey questionnaire (SF36) were compared before surgery and after 12 months of bilateral STN DBS.",
+        "section": "abstract",
+        "offset": 479
+      },
+      {
+        "evidence_id": "e20",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17702633",
+        "text": "Evaluation of the Dutch version of the Parkinson's Disease Questionnaire 39.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e21",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17702633",
+        "text": "The psychometric properties of the Dutch version of the Parkinson's disease questionnaire 39 (PDQ39-DV) were tested in 177 patients with Parkinson's disease (PD).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e22",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/15778909",
+        "text": "METHODS: The results of 27 patients for the Unified Parkinson's disease Rating Scale (UPDRS), Parkinson's Disease Questionnaire 39 (PDQ39) and Short Form 36 health survey questionnaire (SF36) were compared before surgery and after 12 months of bilateral STN DBS.",
+        "section": "abstract",
+        "offset": 475
+      },
+      {
+        "evidence_id": "e23",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16258207",
+        "text": "Both disease-specific motor disabilities and quality of life (QOL) in the patients were evaluated using the Unified Parkinson's Disease Rating Scale (UPDRS) and the Parkinson's Disease 39 Quality of Life Questionnaire (PDQ39), respectively.",
+        "section": "abstract",
+        "offset": 290
+      },
+      {
+        "evidence_id": "e24",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/30363378",
+        "text": "Methods: A pilot study was conducted in which laptops were distributed to 50 patients for 1 year to see whether such a service was feasible (in terms of patient participation and compliance) and whether this intervention affected the patient's condition, measured in UPDRS, Mini-Mental Status Examination (MMSE), 39-item Parkinson's Disease Questionnaire (PDQ39), and H &amp; Y Scale.",
+        "section": "abstract",
+        "offset": 431
+      },
+      {
+        "evidence_id": "e25",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23323136",
+        "text": "They were assessed using the K-NMSS, the Unified Parkinson's Disease Rating Scale (UPDRS), the Korean version of the Mini-Mental Status Examination (K-MMSE), the Korean version of the Montgomery-Asberg Depression Rating Scale (K-MADS), the Epworth Sleepiness Scale (ESS), and Parkinson's Disease Questionnaire 39 (PDQ39).",
+        "section": "abstract",
+        "offset": 522
+      },
+      {
+        "evidence_id": "e26",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/28770096",
+        "text": "Patients were also evaluated by using the Parkinson Disease Questionnaire -39 (PDQ39), the Unified Parkinson's Disease Rating Scale (UPDRS), the Mini Mental State Examination (MMSE) and the Frontal Assessment Battery (FAB).",
+        "section": "abstract",
+        "offset": 780
+      },
+      {
+        "evidence_id": "e27",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16763974",
+        "text": "We investigated the impact of subthalamic nucleus (STN) deep brain stimulation (DBS) on quality of life (QOL) in patients with advanced Parkinson's disease, as self-assessed before and after surgery by completing the Parkinson's Disease Questionnaire (PDQ39).",
+        "section": "abstract",
+        "offset": 0
+      }
+    ]
+  },
+  {
+    "id": "661be55f48a2c27714000003",
+    "question": "What disease is treated by Callosotomy",
+    "type": "factoid",
+    "evidence": [
+      {
+        "evidence_id": "e1",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36435385",
+        "text": "Corpus callosotomy (CC) is a surgical palliative procedure done for a selected group of patients with drug resistant epilepsy (DRE) to stop drop attacks and prevent ",
+        "section": "abstract",
+        "offset": 12
+      },
+      {
+        "evidence_id": "e2",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36637309",
+        "text": "Corpus callosotomy (CC) is a palliative neurosurgical procedure for patients with intractable epilepsy and without resectable focal epileptogenic lesions.",
+        "section": "abstract",
+        "offset": 12
+      },
+      {
+        "evidence_id": "e3",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/37303192",
+        "text": "Corpus callosotomy (CC) is a palliative surgical intervention for patients with medically refractory epilepsy that has evolved in recent years to include a less-invasive alternative with the use of laser interstitial thermal therapy (LITT). L",
+        "section": "abstract",
+        "offset": 11
+      },
+      {
+        "evidence_id": "e4",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36347391",
+        "text": "This review describes feline epilepsy syndrome and epilepsy-related pathology, and discusses the indications for and availability of neurosurgery, including lesionectomy, temporal lobectomy with hippocampectomy, and corpus callosotomy, for cats with different epilepsy types.",
+        "section": "abstract",
+        "offset": 504
+      },
+      {
+        "evidence_id": "e5",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35716888",
+        "text": "In dogs with drug-resistant epilepsy, corpus callosotomy is available as a disconnection surgery for generalized epilepsy",
+        "section": "abstract",
+        "offset": 849
+      },
+      {
+        "evidence_id": "e6",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/37770691",
+        "text": "Corpus callosotomy (CC) is an effective surgical treatment for medically resistant generalized or multifocal epilepsy (MRE). The premise of CC extrapolates from the observation that the corpus callosum is the predominant commissural pathway that allows spread and synchroneity of epileptogenic activity between the hemispheres. Candidacy for CC is typically reserved for patients seeking palliative epilepsy treatment with the goal of reducing the frequency of drop attacks, although reduction of other seizure semiologies (absence, complex partial seizures, and tonic-clonic) has been observed.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e7",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/37770691",
+        "text": "Corpus callosotomy (CC) is an effective surgical treatment for medically resistant generalized or multifocal epilepsy (MRE). The premise of CC extrapolates from the observation that the corpus callosum is the predominant commissural pathway that allows spread and synchroneity of epileptogenic activity between the hemispheres.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e8",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18539083",
+        "text": "The rationale for this procedure is based on the hypothesis that the corpus callosum is a critical pathway for interhemispheric spread of epileptic activity. Efficacy and relatively low permanent morbidity in corpus callosotomy for medically intractable epilepsy have been demonstrated by more than six decades of experience. Callosotomy best ameliorates drop attacks (tonic and atonic seizures), though tonic-clonic, absence, and frontal lobe complex partial seizures often respond as well.",
+        "section": "abstract",
+        "offset": 167
+      },
+      {
+        "evidence_id": "e9",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18539083",
+        "text": "Corpus callosotomy is a palliative surgical procedure that is suitable for some patients with intractable seizures who are not candidates for focal resective surgery. The rationale for this procedure is based on the hypothesis that the corpus callosum is a critical pathway for interhemispheric spread of epileptic activity. Efficacy and relatively low permanent morbidity in corpus callosotomy for medically intractable epilepsy have been demonstrated by more than six decades of experience.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e10",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18539083",
+        "text": "Corpus callosotomy is a palliative surgical procedure that is suitable for some patients with intractable seizures who are not candidates for focal resective surgery. The rationale for this procedure is based on the hypothesis that the corpus callosum is a critical pathway for interhemispheric spread of epileptic activity.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e11",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32889189",
+        "text": "Corpus callosotomy, first used in the management of epilepsy by William P. van Wagenen in 1940, was for years a contentious procedure. Two decades later, Nobel Laureate Roger W. Sperry's split-brain studies inspired surgeons to reexamine the role of corpus callosotomy in the control of epileptic seizures.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e12",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32889189",
+        "text": "Corpus callosotomy, first used in the management of epilepsy by William P. van Wagenen in 1940, was for years a contentious procedure. Two decades later, Nobel Laureate Roger W. Sperry's split-brain studies inspired surgeons to reexamine the role of corpus callosotomy in the control of epileptic seizures. In 1962, Joseph Bogen and Philip Vogel performed complete corpus callosotomies in patients with a history of generalized seizures.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e13",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18539083",
+        "text": "Efficacy and relatively low permanent morbidity in corpus callosotomy for medically intractable epilepsy have been demonstrated by more than six decades of experience. Callosotomy best ameliorates drop attacks (tonic and atonic seizures), though tonic-clonic, absence, and frontal lobe complex partial seizures often respond as well. In addition to seizure reduction, behavior and quality of life may improve.",
+        "section": "abstract",
+        "offset": 325
+      },
+      {
+        "evidence_id": "e14",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18539083",
+        "text": "Corpus callosotomy is a palliative surgical procedure that is suitable for some patients with intractable seizures who are not candidates for focal resective surgery.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e15",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/37770691",
+        "text": "Corpus callosotomy (CC) is an effective surgical treatment for medically resistant generalized or multifocal epilepsy (MRE).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e16",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/37766507",
+        "text": "OBJECTIVE: Corpus callosotomy (CC) is an important treatment for atonic seizures in patients with generalized or multifocal drug-resistant epilepsy (DRE).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e17",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/37770691",
+        "text": "Corpus Callosotomy Is a Safe and Effective Procedure for Medically Resistant Epilepsy.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e18",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35033693",
+        "text": "Corpus callosotomy is among the oldest surgeries performed for drug-resistant epilepsy.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e19",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35770757",
+        "text": "Two patients with epilepsy with myoclonic absences with atonia underwent corpus callosotomy; one patient was seizurefree eight months after surgery and the other had greater than 50% seizure reduction over a five-month period.SIGNIFICANCE: Phenotypic heterogeneity was evident based on seizure semiologies, comorbidities, seizure frequency and response to anti-seizure medications and non-medication treatments.",
+        "section": "abstract",
+        "offset": 857
+      },
+      {
+        "evidence_id": "e20",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35498367",
+        "text": "Background: Whether epilepsy surgery, such as corpus callosotomy is effective in patients with pediatric intractable epilepsy with mitochondrial dysfunction is controversial, and there is a paucity of literature on this issue.Objective: This study aimed to assess and describe the effective application of corpus callosotomy for treating pediatric patients with intractable epilepsy with mitochondrial dysfunction in a single institution in Korea.Methods: This was a retrospective study of pediatric patients with intractable epilepsy and mitochondrial dysfunction who underwent corpus callosotomy in a single tertiary care center.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e21",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/37770691",
+        "text": "Candidacy for CC is typically reserved for patients seeking palliative epilepsy treatment with the goal of reducing the frequency of drop attacks, although reduction of other seizure semiologies (absence, complex partial seizures, and tonic-clonic) has been observed.",
+        "section": "abstract",
+        "offset": 328
+      },
+      {
+        "evidence_id": "e22",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35713776",
+        "text": "PURPOSE OF REVIEW: To summarize current evidence and recent developments in the surgical treatment of drug-resistant generalized epilepsy.RECENT FINDINGS: Current surgical treatments of drug-resistant generalized epilepsy include vagus nerve stimulation (VNS), deep brain stimulation (DBS) and corpus callosotomy (CC).",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e23",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/23948796",
+        "text": "Optimal treatment of seizures in AS remains undetermined.METHODS: We report a series of four patients with Aicardi syndrome who underwent surgical management of their epilepsy including two with corpus callosotomy (CC) of a partial corpus callosum and three with vagus nerve stimulator implantation.RESULTS: Seizure outcome was variable and ranged from near complete resolution of seizures to worsening of seizure profile.",
+        "section": "abstract",
+        "offset": 259
+      },
+      {
+        "evidence_id": "e24",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/7806786",
+        "text": "Although corpus callosotomy has been used since 1940 to treat severe, medically intractable seizure disorders, controversy remains as to when, or even if, the surgery should be performed. Unlike other types of surgical therapy of epilepsy where the epileptic focus is identified and removed, corpus callosotomy is used to interrupt the propagation of epileptic discharges. The procedure is primarily used in patients with secondarily generalized seizures in whom focal resections are not possible.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e25",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31835250",
+        "text": "OBJECTIVE: Corpus callosotomy is a palliative procedure that is effective at reducing seizure burden in patients with medically refractor",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e26",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36600777",
+        "text": "Background: Medically refractory epilepsy constitutes up to one-third of the epilepsy pediatric patients. Corpus callosotomy (CC) has been used for the treatment of medically refractory epilepsy in children with atonic seizures and generalized tonic-clonic (GT",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e27",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/27237542",
+        "text": "OBJECTIVE: Corpus callosotomy is a palliative neurosurgical treatment for patients with either generalized or multifocal refractory epilepsy and injurious dr",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e28",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20384766",
+        "text": "Although many patients with medically refractory focal epilepsy are candidates for resective surgery, patients with multifocal epilepsy and symptomatic generalized epilepsy remain difficult to treat medically and surgically. Corpus callosotomy has been utilized since 1940 for the treatment of seizures, with reports of efficacy in multiple seizure types.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e29",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/10449075",
+        "text": "OBJECTIVE: Corpus callosotomy is a surgical option for medically uncontrolled generalized epilepsy in appropriat",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e30",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/27923529",
+        "text": "Corpus callosotomy is a palliative therapy for refractory epilepsy, including West syndrome, without a resectable epileptic focus.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e31",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32280261",
+        "text": "INTRODUCTION: Corpus callosotomy (CCT) is a palliative procedure to treat injurious drop attacks or multifocal/generalized seizures in which resection of the epileptogenic focus is",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e32",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/27010176",
+        "text": "This review focuses on the significance of CC for seizure disorders, the role of CC in seizure spread and the surgical disruption of callosal fibers (callosotomy) for treatment of patients with drug-resistant epilepsy.METHODS: Personal experience/extensive literature review.RESULTS: Structural CC pathologies comprise developmental abnormalities, callosal involvement in identified disorders, transient imaging findings and microstructural changes.",
+        "section": "abstract",
+        "offset": 67
+      },
+      {
+        "evidence_id": "e33",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32652281",
+        "text": "In so doing, we also review the literature with regard to the neurosurgical management of these unique patients.CONCLUSIONS: For the subset of children who present with partial, rather than complete, agenesis of the corpus callosum, corpus callosotomy should be considered as a treatment option to reduce seizure burden.",
+        "section": "abstract",
+        "offset": 586
+      },
+      {
+        "evidence_id": "e34",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31835250",
+        "text": "VE: Corpus callosotomy is a palliative procedure that is effective at reducing seizure burden in patients with medically",
+        "section": "abstract",
+        "offset": 7
+      },
+      {
+        "evidence_id": "e35",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/19702730",
+        "text": "low morbidity. Callosotomy is a more ambitious procedure, with a higher risk of complications but greater likelihood of seizure improvement.",
+        "section": "abstract",
+        "offset": 197
+      },
+      {
+        "evidence_id": "e36",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32280261",
+        "text": "CTION: Corpus callosotomy (CCT) is a palliative procedure to treat injurious drop attacks or multifocal/generalized seizures in which resection of the epileptogenic focus is not feasible. We are presenting our experience in treating intractable epilepsy patients by CCT procedures.METHODS: We observed 16 patients who",
+        "section": "abstract",
+        "offset": 7
+      },
+      {
+        "evidence_id": "e37",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18759631",
+        "text": " Although corpus callosotomy has been used effectively since the late 1930s to treat severe, medically intractable seizure disorders, particularly aton",
+        "section": "abstract",
+        "offset": 7
+      },
+      {
+        "evidence_id": "e38",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/22681320",
+        "text": "OBJECT: Corpus callosotomy is usually intended to alleviate-not to achieve total control of-epileptic seizures. A few patients experience complete seizure control after callosotomy, but the associated clinical factors are ",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e39",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18759631",
+        "text": "OBJECT: Although corpus callosotomy has been used effectively since the late 1930s to treat severe, medically intractable seizure disorders, particularly atonic or drop-attack ",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e40",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18539083",
+        "text": "Callosotomy best ameliorates drop attacks (tonic and atonic seizures), though tonic-clonic, absence, and frontal lobe complex partial seizures often respond as well.",
+        "section": "abstract",
+        "offset": 493
+      },
+      {
+        "evidence_id": "e41",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25284034",
+        "text": "Corpus callosotomy is a palliative surgical approach that aims at controlling potentially injurious seizures, for example, atonic or drop seizures, by preventing the bilateral spread of epileptic activity.",
+        "section": "abstract",
+        "offset": 944
+      },
+      {
+        "evidence_id": "e42",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32305273",
+        "text": "Corpus callosotomy is a palliative surgical option for patients with refractory epilepsy and frequent drop attacks, decreasing seizure frequency and severity by disconnecting the cerebral hemispheres.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e43",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/2124757",
+        "text": "corpus callosotomies frequently reduce the number and severity of generalized seizures.",
+        "section": "abstract",
+        "offset": 822
+      },
+      {
+        "evidence_id": "e44",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/17521926",
+        "text": "Corpus callosotomy has a long history as a palliative treatment for intractable epilepsy.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e45",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31140570",
+        "text": "UND: Callosotomy represents a palliative procedure for intractable multifocal epilepsy. The extent of callosotomy and the benefits of adding anterior ",
+        "section": "abstract",
+        "offset": 7
+      },
+      {
+        "evidence_id": "e46",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/10449075",
+        "text": "orpus callosotomy is a surgical option for medically uncontrolled generalized epilepsy in appropriate patients. Because numerous complications related",
+        "section": "abstract",
+        "offset": 12
+      },
+      {
+        "evidence_id": "e47",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/21628134",
+        "text": "Gamma knife radiosurgery is a minimally invasive procedure which can be used for patients with intractable epilepsies as an alternative for surgical corpus callosotomy. We report a 13-year-old boy with intractable epilepsy who underwent radiosurgical callosotomy.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e48",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/7806786",
+        "text": "Although corpus callosotomy has been used since 1940 to treat severe, medically intractable seizure disorders, controversy remains as to when, or even if, the surgery should be performed.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e49",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/20384766",
+        "text": "Corpus callosotomy has been utilized since 1940 for the treatment of seizures, with reports of efficacy in multiple seizure types.",
+        "section": "abstract",
+        "offset": 225
+      },
+      {
+        "evidence_id": "e50",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35241305",
+        "text": "Because the seizures were intractable, a corpus callosotomy was performed at 16 years along with a concurrent brain biopsy from the bilateral lateral frontal cortices",
+        "section": "abstract",
+        "offset": 823
+      },
+      {
+        "evidence_id": "e51",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36682756",
+        "text": "Callosotomy is widely used today as a treatment option for medically refractory epilepsy in patients with generalized or unknown-onset seizures.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e52",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32280261",
+        "text": "INTRODUCTION: Corpus callosotomy (CCT) is a palliative procedure to treat injurious drop attacks or multifocal/generalized seizures in which resection of the epileptogenic focus is not feasible.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e53",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16552568",
+        "text": "The aim of this study is to evaluate the outcome of corpus callosotomy for the treatment of childhood onset medically intractable epilepsy in a developing pediatric epilepsy surgery center.METHOD: We report 16 patients who underwent two thirds anterior corpus callosotomy for treatment of refractory seizures in childhood.RESULTS: All patients had drop attacks or multiple types of seizures, yet some showed focal onset with secondary generalization on electroencephalogram (EEG).",
+        "section": "abstract",
+        "offset": 479
+      },
+      {
+        "evidence_id": "e54",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/16552568",
+        "text": "Overall 11/16 (69%) of our patients improved significantly after anterior callosotomy.CONCLUSION: Corpus callosotomy remains to be a fairly good choice of surgical treatment for childhood onset medically intractable epilepsy in selected patients.",
+        "section": "abstract",
+        "offset": 1092
+      },
+      {
+        "evidence_id": "e55",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36114075",
+        "text": "Here, we present a case of DEE with early childhood onset caused by anATP1A3variant that was effectively treated using corpus callosotomy (CC).CASE PRESENTATION: At the age of 3 years, the patient developed epileptic spasms, complicated by generalized and focal aware tonic seizures.",
+        "section": "abstract",
+        "offset": 375
+      },
+      {
+        "evidence_id": "e56",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32280261",
+        "text": "INTRODUCTION: Corpus callosotomy (CCT) is a palliative procedure to treat injurious drop attacks or multifocal/generalized seizures in which resection of the epileptogenic focus is not feasible",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e57",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/32889189",
+        "text": "Corpus callosotomy, first used in the management of epilepsy by William P. van Wagenen in 1940, was for years a contentious procedure.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e58",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/10449075",
+        "text": "OBJECTIVE: Corpus callosotomy is a surgical option for medically uncontrolled generalized epilepsy in appropriate patients",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e59",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/11455228",
+        "text": "Corpus callosotomy is an effective neurosurgical procedure for children with intractable atonic or drop attack seizures.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e60",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31835250",
+        "text": "THODS: The authors retrospectively reviewed all patients treated for medically refractory epilepsy by corpus callosotomy, either partial or completion, with LITT. ",
+        "section": "abstract",
+        "offset": 675
+      },
+      {
+        "evidence_id": "e61",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/8029136",
+        "text": "The authors present palliative therapy of severe epilepsy, i.e. callosotomy. Experimental studies and numerous clinical trials indicate possible use o",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e62",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/7754863",
+        "text": "From this paper the following conclusions can be drawn: a) epileptic patients with severe drug-resistant epilepsy due to bihemispheric cortical dysplasias are good candidates for callosotomy, b) one-stage extensive anterior callosotomy sparing the splenium is the procedure of choice, c) associated severe mental retardation seems to contra-indicate callosotomy, d) the neurophysiological study of the IHT can yield information on the functional status of the corpus callosum.",
+        "section": "abstract",
+        "offset": 1328
+      },
+      {
+        "evidence_id": "e63",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18799327",
+        "text": "PURPOSE: Corpus callosotomy can be an effective surgical treatment for medically intractable generalized seizures, particularly for drop attacks",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e64",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/36682756",
+        "text": "Callosotomy is widely used today as a treatment option for medically refractory epilepsy in patients with",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e65",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/35091359",
+        "text": ": Corpus callosotomy is a palliative surgical procedure for patients with drug-resistant epilepsy and suffe",
+        "section": "abstract",
+        "offset": 7
+      },
+      {
+        "evidence_id": "e66",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/30153937",
+        "text": "Callosotomy is a palliative surgery method for selected individuals with severe, drug-resistant epilepsy. The aim of this retrospective study",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e67",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/31042603",
+        "text": "ity. Corpus callosotomy (CC) is used in patients with drug-resistant epilepsy who are not candidates for either excisional epilepsy surgery or neurostimulation. We report the application of the standard complete callosotomy to control medically refractory status epilepticus in a patient with PME.CASE DESCRIPTION: A 16-year-old boy was referred to the emergency department with generalized tonic-clonic seizures. He was known to have PME since 5 years earlier, with frequent generalized seizures requiring hospitalization and reloading of the drugs. The patient was discussed by the epilepsy surgery working group, and corp",
+        "section": "abstract",
+        "offset": 369
+      },
+      {
+        "evidence_id": "e68",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25692412",
+        "text": " The purpose of this review is to summarize the studies of callosotomy in the past years as a treatment for severe drug-resistant epilepsy with traumatizing drop attacks, mostly in children and also in some adults. The aim is also to discuss knowledge gaps and suggest how these could be addressed.RECENT FINDINGS: Lately, a number of callosotomy series, mostly retrospective and single center, have included 289 operated patients",
+        "section": "abstract",
+        "offset": 116
+      },
+      {
+        "evidence_id": "e69",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25692412",
+        "text": " The purpose of this review is to summarize the studies of callosotomy in the past years as a treatment for severe drug-resistant epilepsy with traumatizing drop attacks, mostly in children and also in some adults. The aim is also to discuss knowledge gaps and suggest how these could be addressed",
+        "section": "abstract",
+        "offset": 116
+      },
+      {
+        "evidence_id": "e70",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25692412",
+        "text": " The purpose of this review is to summarize the studies of callosotomy in the past years as a treatment for severe drug-resistant epilepsy with traumatizing drop attacks, mostly in children and also in some adults",
+        "section": "abstract",
+        "offset": 116
+      },
+      {
+        "evidence_id": "e71",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18539083",
+        "text": "Hence, callosotomy is justified as a therapy for appropriate patients with intractable epilepsy.",
+        "section": "abstract",
+        "offset": 735
+      },
+      {
+        "evidence_id": "e72",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25692412",
+        "text": "PURPOSE OF REVIEW: Corpus callosotomy is a palliative surgical treatment modality that has gone in and out of favor. The purpose of this review is to summarize the studies of callosotomy in the past years as a treatment for severe drug-resistant epilepsy with traumatizing drop attacks, mostly in children and also in some adults. The aim is also to discuss knowledge gaps and suggest how these could be addressed",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e73",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/25692412",
+        "text": "PURPOSE OF REVIEW: Corpus callosotomy is a palliative surgical treatment modality that has gone in and out of favor. The purpose of this review is to summarize the studies of callosotomy in the past years as a treatment for severe drug-resistant epilepsy with traumatizing drop attacks, mostly in children and also in some adults",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e74",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/8029136",
+        "text": "[Callosotomy in treatment of severe epilepsy].",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e75",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/10612336",
+        "text": "Callosotomy for epilepsy after West syndrome.",
+        "section": "title",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e76",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/8029136",
+        "text": "The authors present palliative therapy of severe epilepsy, i.e. callosotomy. Experimental studies and numerous clinical trials indicate possible use of this technique.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e77",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/8029136",
+        "text": "The authors present palliative therapy of severe epilepsy, i.e. callosotomy.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e78",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/8029136",
+        "text": "The authors discuss own experience with 8 epileptic patients refractory to preservative therapies. These patients were treated surgically with anterior callosotomy. Small number of patients and relatively short period of the follow-up do not allow more general conclusions to be drawn.",
+        "section": "abstract",
+        "offset": 270
+      },
+      {
+        "evidence_id": "e79",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/8029136",
+        "text": "The authors discuss own experience with 8 epileptic patients refractory to preservative therapies. These patients were treated surgically with anterior callosotomy.",
+        "section": "abstract",
+        "offset": 270
+      },
+      {
+        "evidence_id": "e80",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/30579267",
+        "text": "Corpus callosotomy has been used as a form of surgical palliation for patients suffering from medically refractory generalized seizures, including drop attacks.",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e81",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/18759631",
+        "text": "OBJECT: Although corpus callosotomy has been used effectively since the late 1930s to treat severe, medically intractable seizure disorders, particularly atonic or drop-attack seizures, controversy remains as to when, how, and how much surgery should be pe",
+        "section": "abstract",
+        "offset": 0
+      },
+      {
+        "evidence_id": "e82",
+        "source": "http://www.ncbi.nlm.nih.gov/pubmed/14698693",
+        "text": "Callosotomy remains an effective technique to treat atonic, tonic, and tonic-clonic seizures, especially in patients with symptomatic generalized epilepsies such as Lennox-Gastaut syndrome.",
+        "section": "abstract",
+        "offset": 477
+      }
+    ]
+  }
+]

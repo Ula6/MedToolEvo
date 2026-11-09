@@ -1,0 +1,55 @@
+{
+  "source_sha256": "5669afbc0bbc8f50d54850edb4aa592ecff3e38b29b09ac6684bb52990b651b7",
+  "scope": "all",
+  "total": 5729,
+  "partitions": {
+    "development_seen": {
+      "total": 38,
+      "types": {
+        "factoid": 19,
+        "summary": 1,
+        "list": 10,
+        "yesno": 8
+      }
+    },
+    "discovery": {
+      "total": 1166,
+      "types": {
+        "summary": 250,
+        "factoid": 365,
+        "yesno": 320,
+        "list": 231
+      }
+    },
+    "admission": {
+      "total": 1100,
+      "types": {
+        "list": 202,
+        "factoid": 319,
+        "yesno": 305,
+        "summary": 274
+      }
+    },
+    "evaluation": {
+      "total": 3425,
+      "types": {
+        "yesno": 908,
+        "summary": 838,
+        "list": 687,
+        "factoid": 992
+      }
+    }
+  },
+  "seed": "formal-v1-20261106",
+  "all_source_items_included": true,
+  "support_based_exclusions": 0,
+  "token_length_exclusions": 0,
+  "partition_method": "Question/paper-identifier connected groups across all types, fixed SHA256 buckets 20/20/60, with previously used connected groups assigned to development_seen.",
+  "data_status": "Retrospective partition of a provided training corpus after offline audit, not official BioASQ test and not a previously untouched blind set.",
+  "reference_visibility": "Only references.json contains exact/ideal labels; never send to models.",
+  "limitations": [
+    "Canonical identifiers do not resolve every PMID/PMCID/DOI equivalence.",
+    "All ineligible and failed items must remain in reporting denominators.",
+    "Models may have pretrained on public data; no contamination-free claim."
+  ]
+}
