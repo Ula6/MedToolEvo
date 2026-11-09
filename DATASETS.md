@@ -13,7 +13,7 @@ DocHopQA原始JSON包含8567条Paragraph-Oriented、2812条Table-Oriented。其�
 
 ## 下载完整文件
 
-有此私有仓库读取权限且已安装Git LFS时：
+已安装Git LFS且拥有仓库读取权限时：
 
 ```bash
 git lfs install
